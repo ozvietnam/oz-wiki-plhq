@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-11-25
 
-3265 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+3268 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -35,7 +35,7 @@ _Khung pháp lý chung về hải quan và thủ tục làm hàng xuất nhập 
 
 84 văn bản, 60 chưa hết hiệu lực.
 
-- 🟢 [417/2026/NĐ-CP](../registry/van-ban/417-2026-nd-cp.yaml) — Quy định về quản lý hải quan đối với hàng hóa xuất khẩu, nhập khẩu qua nền tảng thương mại điện tử
+- 🔵 [417/2026/NĐ-CP](../registry/van-ban/417-2026-nd-cp.yaml) — Quy định về quản lý hải quan đối với hàng hóa xuất khẩu, nhập khẩu qua nền tảng thương mại điện tử
 - 🟢 [3318/QĐ-BTC](../registry/van-ban/3318-qd-btc-2026.yaml) — Công bố danh mục 133 thủ tục hành chính trong lĩnh vực hải quan thực hiện không phụ thuộc vào địa giới hành chính
 - 🔵 [154/2026/TT-BTC](../registry/van-ban/154-2026-tt-btc.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 80/2019/TT-BTC ngày 15 tháng 11 năm 2019 của Bộ trưởng Bộ Tài chính quy định về thủ tục hải quan, quản lý thuế đối với hàng hóa xuất khẩu, nhập khẩu mua gom của người nước ngoài
 - 🟢 [54/2026/VBHN-TT-BTC](../registry/van-ban/54-2026-vbhn-tt-btc.yaml) — Hợp nhất Thông tư quy định thủ tục hải quan đối với thư, gói, kiện hàng hóa xuất khẩu, nhập khẩu gửi qua dịch vụ bưu chính của doanh nghiệp được chỉ định
@@ -265,7 +265,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ## Thuế xuất khẩu, nhập khẩu và các thuế khác khâu nhập khẩu `thue`
 
-25 văn bản, 18 chưa hết hiệu lực.
+26 văn bản, 19 chưa hết hiệu lực.
 
 - 🟢 [86/2026/TT-BTC](../registry/van-ban/86-2026-tt-btc.yaml) — Quy định về quản lý thuế đối với hàng hóa xuất khẩu, nhập khẩu
 - 🟢 [17920/TB-CHQ/2026](../registry/van-ban/17920-tb-chq-2026.yaml) — Thông báo về thông tin tài khoản thu NSNN (các đơn vị Hải quan thống nhất 1 mã từ 01/07/2026 và các đơn vị thay đổi mã Hải quan)
@@ -287,6 +287,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - ⚫ [78/2021/TT-BTC](../registry/van-ban/78-2021-tt-btc.yaml) — Hướng dẫn thực hiện một số điều của Luật Quản lý thuế ngày 13 tháng 6 năm 2019, Nghị định số 123/2020/NĐ-CP ngày 19 tháng 10 năm 2020 của Chính phủ quy định về hóa đơn, chứng từ _(hết hiệu lực 2025-06-01)_
 - 🟢 [123/2020/NĐ-CP](../registry/van-ban/123-2020-nd-cp.yaml) — Quy định về hóa đơn, chứng từ
 - ⚫ [53/2020/NĐ-CP](../registry/van-ban/53-2020-nd-cp.yaml) — Nghị định số 53/2020/NĐ-CP ngày 05/5/2020 của Chính phủ quy định phí bảo vệ môi trường đối với nước thải _(hết hiệu lực 2026-01-01)_
+- 🟢 [72/2018/TT-BTC](../registry/van-ban/72-2018-tt-btc.yaml) — Ban hành Hệ thống chỉ tiêu thống kê ngành Dự trữ quốc gia
 - ⚫ [26/2015/TT-BTC](../registry/van-ban/26-2015-tt-btc.yaml) — Hướng dẫn về thuế giá trị gia tăng và quản lý thuế tại Nghị định số 12/2015/NĐ-CP ngày 12 tháng 2 năm 2015 của Chính phủ quy định chi tiết thi hành Luật sửa đổi, bổ sung một số điều của các Luật về thuế và sửa đổi, bổ sung một số điều của các Nghị định về thuế và sửa đổi, bổ sung một số điều của Thông tư số 39/2014/TT-BTC ngày 31/3/2014 của Bộ Tài chính về hóa đơn bán hàng hóa, cung ứng dịch vụ _(hết hiệu lực 2025-07-01)_
 - ⚫ [05/2014/TT-NHNN](../registry/van-ban/05-2014-tt-nhnn.yaml) — Hướng dẫn việc mở và sử dụng tài khoản vốn đầu tư gián tiếp để thực hiện hoạt động đầu tư gián tiếp nước ngoài tại Việt Nam _(hết hiệu lực 2025-06-16)_
 - ⚫ [219/2013/TT-BTC](../registry/van-ban/219-2013-tt-btc.yaml) — Hướng dẫn thi hành Luật Thuế giá trị gia tăng và Nghị định số 209/2013/NĐ-CP ngày 18/12/2013 của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều Luật Thuế giá trị gia tăng _(hết hiệu lực 2025-07-01)_
@@ -322,7 +323,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ### Biểu thuế XK, NK ưu đãi và biểu thuế FTA `thue/bieu-thue`
 
-71 văn bản, 46 chưa hết hiệu lực.
+72 văn bản, 46 chưa hết hiệu lực.
 
 - 🟢 [22446/CHQ-NVTHQ](../registry/van-ban/22446-chq-nvthq-2026.yaml) — Về việc áp dụng mức thuế (kéo dài thời hạn áp dụng thuế nhập khẩu ưu đãi, thuế bảo vệ môi trường, thuế giá trị gia tăng đối với mặt hàng xăng, dầu, nguyên liệu sản xuất xăng, dầu và nhiên liệu bay theo Nghị quyết số 43/2026/NQ-CP)
 - 🟢 [43/2026/NQ-CP](../registry/van-ban/43-2026-nq-cp.yaml) — Về việc kéo dài thời hạn áp dụng thuế nhập khẩu ưu đãi, thuế bảo vệ môi trường, thuế giá trị gia tăng đối với xăng, dầu, nguyên liệu sản xuất xăng, dầu và nhiên liệu bay _(hết hiệu lực 2026-12-31)_
@@ -392,6 +393,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - ⚫ [122/2016/NĐ-CP](../registry/van-ban/122-2016-nd-cp.yaml) — Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi, Danh mục hàng hóa và mức thuế tuyệt đối, thuế hỗn hợp, thuế nhập khẩu ngoài hạn ngạch thuế quan _(hết hiệu lực 2023-07-15)_
 - ⚫ [25/2016/TT-BTC](../registry/van-ban/25-2016-tt-btc.yaml) — Sửa đổi mức thuế suất thuế nhập khẩu ưu đãi đối với mặt hàng Diamoni hydro orthophosphat (diamoni phosphat) thuộc mã hàng 3105.30.00 tại Biểu thuế nhập khẩu ưu đãi _(hết hiệu lực 2016-09-01)_
 - ⚫ [182/2015/TT-BTC](../registry/van-ban/182-2015-tt-btc.yaml) — Ban hành Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi theo danh mục mặt hàng chịu thuế _(hết hiệu lực 2016-09-01)_
+- ⚫ [36/2015/TT-BTC](../registry/van-ban/36-2015-tt-btc.yaml) — Sửa đổi mức thuế suất thuế xuất khẩu đối với các mặt hàng vàng trang sức, kỹ nghệ và các sản phẩm khác bằng vàng thuộc các nhóm 71.13, 71.14, 71.15 tại Biểu thuế xuất khẩu _(hết hiệu lực 2016-01-01)_
 - ⚫ [07/2015/TT-BTC](../registry/van-ban/07-2015-tt-btc.yaml) — Bãi bỏ Thông tư số 06/2015/TT-BTC ngày 20/01/2015 của Bộ trưởng Bộ Tài chính về việc sửa đổi mức thuế suất thuế nhập khẩu ưu đãi đối với một số mặt hàng xăng, dầu thuộc nhóm 27.10 tại Biểu thuế nhập khẩu ưu đãi _(hết hiệu lực 2016-01-01)_
 - ⚫ [06/2015/TT-BTC](../registry/van-ban/06-2015-tt-btc.yaml) — Sửa đổi mức thuế suất thuế nhập khẩu ưu đãi đối với một số mặt hàng xăng, dầu thuộc nhóm 27.10 tại Biểu thuế nhập khẩu ưu đãi _(hết hiệu lực 2015-01-21)_
 - ⚫ [63/2012/TT-BTC](../registry/van-ban/63-2012-tt-btc.yaml) — Sửa đổi mức thuế suất thuế nhập khẩu ưu đãi đặc biệt đối với một số nhóm mặt hàng trong các Biểu thuế nhập khẩu ưu đãi đặc biệt
@@ -461,8 +463,9 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ### Thuế GTGT, TTĐB, BVMT ở khâu nhập khẩu (gồm giảm GTGT) `thue/thue-noi-dia-khau-nk`
 
-40 văn bản, 32 chưa hết hiệu lực.
+41 văn bản, 33 chưa hết hiệu lực.
 
+- 🟢 [23808/CHQ-NVTHQ](../registry/van-ban/23808-chq-nvthq-2026.yaml) — Hướng dẫn thực hiện giảm thuế giá trị gia tăng theo Nghị định số 174/2025/NĐ-CP đối với hàng hóa nhập khẩu
 - 🟢 [22446/CHQ-NVTHQ](../registry/van-ban/22446-chq-nvthq-2026.yaml) — Về việc áp dụng mức thuế (kéo dài thời hạn áp dụng thuế nhập khẩu ưu đãi, thuế bảo vệ môi trường, thuế giá trị gia tăng đối với mặt hàng xăng, dầu, nguyên liệu sản xuất xăng, dầu và nhiên liệu bay theo Nghị quyết số 43/2026/NQ-CP)
 - 🟢 [15289/CHQ-NVTHQ](../registry/van-ban/15289-chq-nvthq-2026.yaml) — Về việc áp dụng mức thuế bảo vệ môi trường, thuế giá trị gia tăng, thuế tiêu thụ đặc biệt đối với xăng, dầu và nhiên liệu bay theo Nghị quyết số 19/2026/QH16
 - 🟢 [19/2026/QH16](../registry/van-ban/19-2026-qh16.yaml) — Về thuế bảo vệ môi trường, thuế giá trị gia tăng, thuế tiêu thụ đặc biệt đối với xăng, dầu và nhiên liệu bay
@@ -3157,7 +3160,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 58 văn bản, 44 chưa hết hiệu lực.
 
-- 🟢 [4502/QĐ-BKHCN](../registry/van-ban/4502-2026-qd-bkhcn.yaml) — Công bố thủ tục hành chính mới về cấp giấy phép xuất khẩu, tạm nhập tái xuất, chuyển khẩu trong lĩnh vực quản lý nhà nước của Bộ Khoa học và Công nghệ
+- 🟢 [4502/QĐ-BKHCN](../registry/van-ban/4502-qd-bkhcn-2026.yaml) — Công bố thủ tục hành chính mới về cấp giấy phép xuất khẩu, tạm nhập tái xuất, chuyển khẩu trong lĩnh vực quản lý nhà nước của Bộ Khoa học và Công nghệ
 - 🟢 [68/2026/TT-BCT](../registry/van-ban/68-2026-tt-bct.yaml) — Quy định tỷ lệ hao hụt xăng dầu trong hoạt động kinh doanh xăng dầu
 - 🟢 [135/2026/VBHN-TT-BCT](../registry/van-ban/135-2026-vbhn-tt-bct.yaml) — Hợp nhất Thông tư quy định về tạm ứng cho Quỹ bình ổn giá xăng dầu từ nguồn ngân sách nhà nước, trích lập Quỹ bình ổn giá xăng dầu và hoàn trả tạm ứng ngân sách nhà nước
 - 🟢 [67/2026/TT-BCT](../registry/van-ban/67-2026-tt-bct.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 19/2026/TT-BCT ngày 03 tháng 4 năm 2026 của Bộ Công Thương quy định về tạm ứng cho Quỹ bình ổn giá xăng dầu từ nguồn ngân sách nhà nước

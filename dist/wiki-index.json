@@ -4,7 +4,7 @@
  "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
  "ghi_nguon_chuan": "Nguồn: oz-wiki-plhq — https://github.com/ozvietnam/oz-wiki-plhq (CC BY 4.0, bản 2026-11-25).",
  "mien_tru": "Tham khảo, không phải tư vấn pháp lý. Xem và đối chiếu văn bản gốc nguồn bậc A trước khi áp dụng.",
- "tong": 619,
+ "tong": 638,
  "trang": [
   {
    "slug": "dong-bo-quan-diem-phan-loai",
@@ -7626,6 +7626,30 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "slug": "03-2026-tt-bct",
+   "duong_dan": "wiki/sources/03-2026-tt-bct.md",
+   "loai_trang": "sources",
+   "tieu_de": "03/2026/TT-BCT — Hạn ngạch thuế quan nhập khẩu muối, trứng gia cầm năm 2026",
+   "created": "2026-11-25",
+   "updated": "2026-11-25",
+   "tags": [],
+   "confidence": "high",
+   "so_chunks": 3,
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "03/2026/TT-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-03-15",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=216801"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "slug": "03-vbhn-bct-2025",
    "duong_dan": "wiki/sources/03-vbhn-bct-2025.md",
    "loai_trang": "sources",
@@ -9825,6 +9849,40 @@
      "bi_thay_the_boi": [],
      "bi_bai_bo_boi": [],
      "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=23938"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "slug": "09-2014-nd-cp",
+   "duong_dan": "wiki/sources/09-2014-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "09/2014/NĐ-CP — Chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức Ban Cơ yếu Chính phủ",
+   "created": "2026-11-25",
+   "updated": "2026-11-25",
+   "tags": [],
+   "confidence": "high",
+   "so_chunks": 1,
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "09/2014/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2014-03-17",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vbpl.vn/van-ban/chi-tiet/thong-tu-ban-hanh-qcvn-16-2025-bqp--179975"
+    },
+    {
+     "so_hieu": "126/2026/TT-BQP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-09-02",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=219388&pageid=27160"
     }
    ],
    "canh_bao_hieu_luc": false
@@ -19257,6 +19315,40 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "slug": "1536-qd-byt-2026",
+   "duong_dan": "wiki/sources/1536-qd-byt-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "1536/QĐ-BYT — Sửa đổi, bổ sung TTHC lĩnh vực Mỹ phẩm tại QĐ 7866/QĐ-BYT",
+   "created": "2026-11-25",
+   "updated": "2026-11-25",
+   "tags": [],
+   "confidence": "high",
+   "so_chunks": 1,
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "1536/QĐ-BYT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-05-28",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=216427"
+    },
+    {
+     "so_hieu": "7866/QĐ-BYT",
+     "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+     "hieu_luc_tu": "2018-12-28",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=99376"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "slug": "154-2018-nd-cp",
    "duong_dan": "wiki/sources/154-2018-nd-cp.md",
    "loai_trang": "sources",
@@ -21806,6 +21898,40 @@
    "confidence": "high",
    "so_chunks": 7,
    "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "slug": "18-nq-cp-2021",
+   "duong_dan": "wiki/sources/18-nq-cp-2021.md",
+   "loai_trang": "sources",
+   "tieu_de": "18/NQ-CP — Phê duyệt Hiệp định Đối tác Kinh tế Toàn diện Khu vực (RCEP)",
+   "created": "2026-11-25",
+   "updated": "2026-11-25",
+   "tags": [],
+   "confidence": "high",
+   "so_chunks": 1,
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "18/NQ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2021-07-06",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=205452"
+    },
+    {
+     "so_hieu": "328/QĐ-TTg",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2022-03-11",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=205452"
+    }
+   ],
    "canh_bao_hieu_luc": false
   },
   {
@@ -25518,6 +25644,30 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "slug": "23808-chq-nvthq-2026",
+   "duong_dan": "wiki/sources/23808-chq-nvthq-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "23808/CHQ-NVTHQ — Hướng dẫn giảm thuế GTGT theo NĐ 174/2025/NĐ-CP ở khâu nhập khẩu",
+   "created": "2026-11-25",
+   "updated": "2026-11-25",
+   "tags": [],
+   "confidence": "medium",
+   "so_chunks": 2,
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "174/2025/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-01",
+     "het_hieu_luc_tu": "2026-12-31",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=214310&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "slug": "2393-qd-byt-2025",
    "duong_dan": "wiki/sources/2393-qd-byt-2025.md",
    "loai_trang": "sources",
@@ -26252,6 +26402,44 @@
      "bi_thay_the_boi": [],
      "bi_bai_bo_boi": [],
      "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=206919"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "slug": "2538-qd-tchq",
+   "duong_dan": "wiki/sources/2538-qd-tchq.md",
+   "loai_trang": "sources",
+   "tieu_de": "2538/QĐ-TCHQ — Quy trình thủ tục hải quan XNK và vận chuyển chịu sự giám sát hải quan",
+   "created": "2026-11-25",
+   "updated": "2026-11-25",
+   "tags": [],
+   "confidence": "medium",
+   "so_chunks": 1,
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "2538/QĐ-TCHQ",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": null,
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": false,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": null
+    },
+    {
+     "so_hieu": "1966/QĐ-TCHQ",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2015-08-15",
+     "het_hieu_luc_tu": "2024-11-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "2538/QĐ-TCHQ"
+     ],
+     "bi_bai_bo_boi": [
+      "1921/QĐ-TCHQ"
+     ],
+     "nguon_a": "https://www.customs.gov.vn/index.jsp?pageId=3&id=53681&cid=1294"
     }
    ],
    "canh_bao_hieu_luc": false
@@ -30060,6 +30248,30 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "slug": "326-2018-qd-bct",
+   "duong_dan": "wiki/sources/326-2018-qd-bct.md",
+   "loai_trang": "sources",
+   "tieu_de": "326/2018/QĐ-BCT — Bản ghi đối chiếu số hiệu không tồn tại (điều hướng sang 5113/QĐ-BCT)",
+   "created": "2026-11-25",
+   "updated": "2026-11-25",
+   "tags": [],
+   "confidence": "high",
+   "so_chunks": 1,
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "326/2018/QĐ-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2019-02-15",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://moit.gov.vn/van-ban-phap-luat/van-ban-dieu-hanh/-quyet-dinh-phe-duyet-danh-muc-thu-tuc-hanh-chinh-thuoc-chuc.html"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "slug": "328-qd-ttg-2022",
    "duong_dan": "wiki/sources/328-qd-ttg-2022.md",
    "loai_trang": "sources",
@@ -30637,6 +30849,30 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "slug": "3318-qd-btc-2026",
+   "duong_dan": "wiki/sources/3318-qd-btc-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "3318/QĐ-BTC — Công bố 255 TTHC Bộ Tài chính không phụ thuộc địa giới hành chính",
+   "created": "2026-11-25",
+   "updated": "2026-11-25",
+   "tags": [],
+   "confidence": "high",
+   "so_chunks": 3,
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "3318/QĐ-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": null,
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://www.mof.gov.vn/cong-nghe-thong-tin-va-chuyen-doi-so/tin-tuc-su-kien-3/bo-tai-chinh-cong-bo-255-thu-tuc-hanh-chinh-khong-phu-thuoc-dia-gioi-hanh-chinh"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "slug": "336-2026-nd-cp",
    "duong_dan": "wiki/sources/336-2026-nd-cp.md",
    "loai_trang": "sources",
@@ -30827,6 +31063,19 @@
      "nguon_a": "https://vanban.chinhphu.vn/?docid=216764&pageid=27160"
     }
    ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "slug": "3366-chq-gsql-2025",
+   "duong_dan": "wiki/sources/3366-chq-gsql-2025.md",
+   "loai_trang": "sources",
+   "tieu_de": "3366/CHQ-GSQL — Chính sách quản lý hàng hóa XNK chứa tiền chất công nghiệp",
+   "created": "2026-11-25",
+   "updated": "2026-11-25",
+   "tags": [],
+   "confidence": "medium",
+   "so_chunks": 1,
+   "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
   },
   {
@@ -32193,6 +32442,30 @@
      "bi_thay_the_boi": [],
      "bi_bai_bo_boi": [],
      "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=170270"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "slug": "36-2015-tt-btc",
+   "duong_dan": "wiki/sources/36-2015-tt-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "36/2015/TT-BTC — Sửa đổi mức thuế suất thuế xuất khẩu vàng trang sức, kỹ nghệ nhóm 71.13, 71.14, 71.15",
+   "created": "2026-11-25",
+   "updated": "2026-11-25",
+   "tags": [],
+   "confidence": "high",
+   "so_chunks": 3,
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "36/2015/TT-BTC",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2015-05-07",
+     "het_hieu_luc_tu": "2016-01-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=179731"
     }
    ],
    "canh_bao_hieu_luc": false
@@ -34426,6 +34699,30 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "slug": "417-2026-nd-cp",
+   "duong_dan": "wiki/sources/417-2026-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "417/2026/NĐ-CP — Quản lý hải quan đối với hàng hóa XNK qua nền tảng thương mại điện tử",
+   "created": "2026-11-25",
+   "updated": "2026-11-25",
+   "tags": [],
+   "confidence": "high",
+   "so_chunks": 3,
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "417/2026/NĐ-CP",
+     "tinh_trang": "CHUA_CO_HIEU_LUC",
+     "hieu_luc_tu": "2027-03-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=220347"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "slug": "42-2013-qh13",
    "duong_dan": "wiki/sources/42-2013-qh13.md",
    "loai_trang": "sources",
@@ -35218,6 +35515,30 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "slug": "4502-qd-bkhcn-2026",
+   "duong_dan": "wiki/sources/4502-qd-bkhcn-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "4502/QĐ-BKHCN — Công bố TTHC mới cấp phép xuất khẩu, TNTX, chuyển khẩu hàng hóa lưỡng dụng",
+   "created": "2026-11-25",
+   "updated": "2026-11-25",
+   "tags": [],
+   "confidence": "medium",
+   "so_chunks": 2,
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "4502/QĐ-BKHCN",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": null,
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": false,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": null
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "slug": "46-2020-nd-cp",
    "duong_dan": "wiki/sources/46-2020-nd-cp.md",
    "loai_trang": "sources",
@@ -35835,6 +36156,19 @@
      "nguon_a": "https://vbpl.vn/search?q=41%2F2019%2FTT-BCT"
     }
    ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "slug": "48-2026-vbhn-bct",
+   "duong_dan": "wiki/sources/48-2026-vbhn-bct.md",
+   "loai_trang": "sources",
+   "tieu_de": "48/2026/VBHN-BCT — Hợp nhất quy định cấp C/O và tự chứng nhận xuất xứ hàng hóa",
+   "created": "2026-11-25",
+   "updated": "2026-11-25",
+   "tags": [],
+   "confidence": "medium",
+   "so_chunks": 2,
+   "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
   },
   {
@@ -36600,6 +36934,64 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "slug": "49-qd-ctn-1998",
+   "duong_dan": "wiki/sources/49-qd-ctn-1998.md",
+   "loai_trang": "sources",
+   "tieu_de": "49/QĐ-CTN — Việt Nam tham gia Công ước quốc tế về Hệ thống hài hòa (Công ước HS)",
+   "created": "2026-11-25",
+   "updated": "2026-11-25",
+   "tags": [],
+   "confidence": "high",
+   "so_chunks": 1,
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "49/QĐ-CTN",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "1998-03-06",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-49-2010-tt-btc-huong-dan-viec-phan-loai-ap-dung-muc-thue-doi-voi-hang-hoa-xuat-khau-nhap-khau--25288"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "slug": "499-2019-qd-bct",
+   "duong_dan": "wiki/sources/499-2019-qd-bct.md",
+   "loai_trang": "sources",
+   "tieu_de": "499/2019/QĐ-BCT — Bản ghi đối chiếu số hiệu không tồn tại (điều hướng sang 765/QĐ-BCT & 1325A/QĐ-BCT)",
+   "created": "2026-11-25",
+   "updated": "2026-11-25",
+   "tags": [],
+   "confidence": "high",
+   "so_chunks": 1,
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "499/2019/QĐ-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2019-08-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://moit.gov.vn/kiem-tra-chuyen-nganh-va-dieu-kien-dau-tu-kinh-doanh/danh-muc-cac-mat-hang-kiem-tra-chuyen-nganh-theo-quyet-dinh-.html"
+    },
+    {
+     "so_hieu": "765/QĐ-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2019-03-29",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://moit.gov.vn/van-ban-phap-luat/van-ban-dieu-hanh/-cong-bo-danh-muc-cac-mat-hang-kem-theo-ma-hs-da-duoc-cat-gi.html"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "slug": "50-2005-qh11",
    "duong_dan": "wiki/sources/50-2005-qh11.md",
    "loai_trang": "sources",
@@ -36901,6 +37293,19 @@
      "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=212924"
     }
    ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "slug": "5133-bct-hc-2025",
+   "duong_dan": "wiki/sources/5133-bct-hc-2025.md",
+   "loai_trang": "sources",
+   "tieu_de": "5133/BCT-HC — Ý kiến đối với việc XNK sản phẩm, hàng hóa có chứa tiền chất công nghiệp",
+   "created": "2026-11-25",
+   "updated": "2026-11-25",
+   "tags": [],
+   "confidence": "medium",
+   "so_chunks": 1,
+   "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
   },
   {
@@ -39090,6 +39495,30 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "slug": "72-2018-tt-btc",
+   "duong_dan": "wiki/sources/72-2018-tt-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "72/2018/TT-BTC — Ban hành Hệ thống chỉ tiêu thống kê ngành Dự trữ quốc gia",
+   "created": "2026-11-25",
+   "updated": "2026-11-25",
+   "tags": [],
+   "confidence": "high",
+   "so_chunks": 3,
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "72/2018/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2018-09-25",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=195281"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "slug": "72-2026-nd-cp",
    "duong_dan": "wiki/sources/72-2026-nd-cp.md",
    "loai_trang": "sources",
@@ -40336,6 +40765,40 @@
      "bi_thay_the_boi": [],
      "bi_bai_bo_boi": [],
      "nguon_a": "https://www.customs.gov.vn/index.jsp?pageId=3&id=105114&cid=1294"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "slug": "7866-qd-byt",
+   "duong_dan": "wiki/sources/7866-qd-byt.md",
+   "loai_trang": "sources",
+   "tieu_de": "7866/QĐ-BYT — Công bố TTHC mới ban hành/sửa đổi trong lĩnh vực Mỹ phẩm (Bộ Y tế)",
+   "created": "2026-11-25",
+   "updated": "2026-11-25",
+   "tags": [],
+   "confidence": "high",
+   "so_chunks": 1,
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "7866/QĐ-BYT",
+     "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+     "hieu_luc_tu": "2018-12-28",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=99376"
+    },
+    {
+     "so_hieu": "2393/QĐ-BYT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-08-18",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=214428"
     }
    ],
    "canh_bao_hieu_luc": false
@@ -41927,6 +42390,19 @@
    ],
    "confidence": "high",
    "so_chunks": 10,
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "slug": "910-2026-sps-bnnmt",
+   "duong_dan": "wiki/sources/910-2026-sps-bnnmt.md",
+   "loai_trang": "sources",
+   "tieu_de": "910/2026/SPS-BNNMT — Thông tin quy định mới của Trung Quốc về đăng ký doanh nghiệp thực phẩm",
+   "created": "2026-11-25",
+   "updated": "2026-11-25",
+   "tags": [],
+   "confidence": "medium",
+   "so_chunks": 1,
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
   },

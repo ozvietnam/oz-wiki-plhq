@@ -4,7 +4,7 @@
  "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
  "ghi_nguon_chuan": "Nguồn: oz-wiki-plhq — https://github.com/ozvietnam/oz-wiki-plhq (CC BY 4.0, bản 2026-11-25).",
  "mien_tru": "Tham khảo, không phải tư vấn pháp lý. Xem và đối chiếu văn bản gốc nguồn bậc A trước khi áp dụng.",
- "tong": 5634,
+ "tong": 5666,
  "chunks": [
   {
    "chunk_id": "dong-bo-quan-diem-phan-loai#1",
@@ -26203,6 +26203,56 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "chunk_id": "03-2026-tt-bct#1",
+   "slug": "03-2026-tt-bct",
+   "duong_dan": "wiki/sources/03-2026-tt-bct.md",
+   "loai_trang": "sources",
+   "tieu_de": "03/2026/TT-BCT — Hạn ngạch thuế quan nhập khẩu muối, trứng gia cầm năm 2026",
+   "muc": "Tóm tắt",
+   "noi_dung": "**03/2026/TT-BCT** (ban hành **2026-01-26**, hiệu lực **2026-03-15** đến hết **2026-12-31**, cơ quan: **Bộ Công Thương**) quy định lượng hạn ngạch, phương thức phân giao và đối tượng nhập khẩu mặt hàng muối và trứng gia cầm trong năm 2026.",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "03/2026/TT-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-03-15",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=216801"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "03-2026-tt-bct#2",
+   "slug": "03-2026-tt-bct",
+   "duong_dan": "wiki/sources/03-2026-tt-bct.md",
+   "loai_trang": "sources",
+   "tieu_de": "03/2026/TT-BCT — Hạn ngạch thuế quan nhập khẩu muối, trứng gia cầm năm 2026",
+   "muc": "Nội dung chính & tình trạng hiệu lực",
+   "noi_dung": "- **Lượng hạn ngạch năm 2026 (Điều 1):**\n  - Trứng gia cầm thương phẩm không có phôi (`0407.21.00`, `0407.29.10`, `0407.29.90`, `0407.90.10`, `0407.90.20`, `0407.90.90`): **75.809 tá**.\n  - Muối (`2501`): **97.020 tấn**.\n- **Phương thức & đối tượng phân giao (Điều 2–3):** Phân giao theo phương thức cấp giấy phép nhập khẩu (dẫn [[sources/26-2023-nd-cp]] làm căn cứ biểu thuế); muối giao cho thương nhân trực tiếp dùng làm nguyên liệu sản xuất thuốc, sản phẩm y tế hoặc hóa chất; trứng gia cầm giao cho thương nhân trực tiếp làm nguyên liệu sản xuất.\n- **Tình trạng hiện tại:** `CON_HIEU_LUC` (đến hết `2026-12-31`).",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "03-2026-tt-bct#3",
+   "slug": "03-2026-tt-bct",
+   "duong_dan": "wiki/sources/03-2026-tt-bct.md",
+   "loai_trang": "sources",
+   "tieu_de": "03/2026/TT-BCT — Hạn ngạch thuế quan nhập khẩu muối, trứng gia cầm năm 2026",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Đã xác minh mức `NGUON_A` qua `vanban.chinhphu.vn` (`docid=216801`) và bản PDF ký số Bộ Công Thương 3 trang (đã OCR). Xem [[concepts/doc-tinh-trang-hieu-luc]].",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "chunk_id": "03-vbhn-bct-2025#1",
    "slug": "03-vbhn-bct-2025",
    "duong_dan": "wiki/sources/03-vbhn-bct-2025.md",
@@ -37055,6 +37105,40 @@
    ],
    "confidence": "medium",
    "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "09-2014-nd-cp#1",
+   "slug": "09-2014-nd-cp",
+   "duong_dan": "wiki/sources/09-2014-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "09/2014/NĐ-CP — Chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức Ban Cơ yếu Chính phủ",
+   "muc": "Tóm tắt & đối chiếu hiệu lực",
+   "noi_dung": "**09/2014/NĐ-CP** (ban hành **2014-01-27**, hiệu lực từ **2014-03-17**, cơ quan: **Chính phủ**) quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Ban Cơ yếu Chính phủ.\n\n- **Tình trạng hiện tại:** `CON_HIEU_LUC` (mức `NGUON_A`, xác minh qua phần căn cứ pháp lý của Thông tư `126/2026/TT-BQP` tại [[sources/126-2026-tt-bqp]] và `vbpl.vn`).\n- **Trạng thái toàn văn:** `THIEU_PDF_A` — văn bản về cơ cấu tổ chức Ban Cơ yếu Chính phủ không phát hành tệp PDF toàn văn công khai trên `vanban.chinhphu.vn`, Công báo và `vbpl.vn`. Xem [[concepts/doc-tinh-trang-hieu-luc]].",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "09/2014/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2014-03-17",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vbpl.vn/van-ban/chi-tiet/thong-tu-ban-hanh-qcvn-16-2025-bqp--179975"
+    },
+    {
+     "so_hieu": "126/2026/TT-BQP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-09-02",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=219388&pageid=27160"
+    }
+   ],
    "canh_bao_hieu_luc": false
   },
   {
@@ -79071,6 +79155,40 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "chunk_id": "1536-qd-byt-2026#1",
+   "slug": "1536-qd-byt-2026",
+   "duong_dan": "wiki/sources/1536-qd-byt-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "1536/QĐ-BYT — Sửa đổi, bổ sung TTHC lĩnh vực Mỹ phẩm tại QĐ 7866/QĐ-BYT",
+   "muc": "Tóm tắt & đối chiếu hiệu lực",
+   "noi_dung": "**1536/QĐ-BYT** (ban hành **2026-05-28**, hiệu lực từ ngày ký, cơ quan: **Bộ Y tế**) sửa đổi, bổ sung một số nội dung công bố thủ tục hành chính trong lĩnh vực Mỹ phẩm tại [[sources/7866-qd-byt]] (`7866/QĐ-BYT`), đồng bộ việc bãi bỏ thời hạn 02 năm của GCN CGMP-ASEAN và Mẫu số 01/CGMP-MP theo Thông tư `47/2025/TT-BYT` / VBHN `18/VBHN-QĐ-BYT` (cùng hệ thống quản lý mỹ phẩm với [[sources/06-2011-tt-byt]], [[sources/34-2025-tt-byt]]).\n\n- **Tình trạng hiện tại:** `CON_HIEU_LUC` (mức `NGUON_A`, không phải văn bản danh mục hàng hóa kèm mã HS).\n- **Trạng thái toàn văn:** `THIEU_PDF_A` — quyết định công bố TTHC không đăng Công báo/`vbpl.vn`; chưa có PDF gốc trên `vpcp.dichvucong.gov.vn` / `moh.gov.vn`. Xem [[concepts/doc-tinh-trang-hieu-luc]].",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "1536/QĐ-BYT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-05-28",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=216427"
+    },
+    {
+     "so_hieu": "7866/QĐ-BYT",
+     "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+     "hieu_luc_tu": "2018-12-28",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=99376"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "chunk_id": "154-2018-nd-cp#1",
    "slug": "154-2018-nd-cp",
    "duong_dan": "wiki/sources/154-2018-nd-cp.md",
@@ -87872,6 +87990,40 @@
    "tags": [],
    "confidence": "high",
    "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "18-nq-cp-2021#1",
+   "slug": "18-nq-cp-2021",
+   "duong_dan": "wiki/sources/18-nq-cp-2021.md",
+   "loai_trang": "sources",
+   "tieu_de": "18/NQ-CP — Phê duyệt Hiệp định Đối tác Kinh tế Toàn diện Khu vực (RCEP)",
+   "muc": "Tóm tắt & đối chiếu hiệu lực",
+   "noi_dung": "**18/NQ-CP** (ban hành **2021-07-06**, hiệu lực từ ngày ký, cơ quan: **Chính phủ**) là Nghị quyết của Chính phủ phê duyệt Hiệp định Đối tác Kinh tế Toàn diện Khu vực (Hiệp định RCEP).\n\n- **Tình trạng hiện tại:** `CON_HIEU_LUC` (mức `NGUON_A`, được viện dẫn trực tiếp tại phần căn cứ pháp lý của Quyết định `328/QĐ-TTg` tại [[sources/328-qd-ttg-2022]] về kế hoạch thực hiện Hiệp định RCEP).\n- **Trạng thái toàn văn:** `THIEU_PDF_A` — chưa phát hành tệp PDF toàn văn công khai trên `vanban.chinhphu.vn`, Công báo và `vbpl.vn`. Xem [[concepts/doc-tinh-trang-hieu-luc]].",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "18/NQ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2021-07-06",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=205452"
+    },
+    {
+     "so_hieu": "328/QĐ-TTg",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2022-03-11",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=205452"
+    }
+   ],
    "canh_bao_hieu_luc": false
   },
   {
@@ -101725,6 +101877,43 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "chunk_id": "23808-chq-nvthq-2026#1",
+   "slug": "23808-chq-nvthq-2026",
+   "duong_dan": "wiki/sources/23808-chq-nvthq-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "23808/CHQ-NVTHQ — Hướng dẫn giảm thuế GTGT theo NĐ 174/2025/NĐ-CP ở khâu nhập khẩu",
+   "muc": "Tóm tắt",
+   "noi_dung": "**23808/CHQ-NVTHQ** (ký hiệu nhắc lại: **23808/2026/CHQ-NVTHQ**, ban hành **2026-11-03** bởi **Cục Hải quan**) là công văn hành chính giải đáp vướng mắc áp dụng giảm thuế giá trị gia tăng (GTGT) theo [[sources/174-2025-nd-cp]] (`174/2025/NĐ-CP`) khi làm thủ tục nhập khẩu, trên cơ sở nguyên tắc tự khai, tự nộp thuế.",
+   "tags": [],
+   "confidence": "medium",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "174/2025/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-01",
+     "het_hieu_luc_tu": "2026-12-31",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=214310&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "23808-chq-nvthq-2026#2",
+   "slug": "23808-chq-nvthq-2026",
+   "duong_dan": "wiki/sources/23808-chq-nvthq-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "23808/CHQ-NVTHQ — Hướng dẫn giảm thuế GTGT theo NĐ 174/2025/NĐ-CP ở khâu nhập khẩu",
+   "muc": "Trạng thái nguồn & đối chiếu",
+   "noi_dung": "- **Mức xác minh:** `NGUON_B` (`xac_minh.chan.ma: THIEU_PDF_A` — nguồn bậc B `thuvienphapluat.vn` và `luatvietnam.vn`; chưa có PDF gốc trên `customs.gov.vn` / `files.customs.gov.vn`).\n- **Tình trạng hiện tại:** `CON_HIEU_LUC` (công văn nghiệp vụ cá biệt; đối chiếu căn cứ quy phạm tại [[sources/174-2025-nd-cp]] và [[concepts/doc-tinh-trang-hieu-luc]]).",
+   "tags": [],
+   "confidence": "medium",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "chunk_id": "2393-qd-byt-2025#1",
    "slug": "2393-qd-byt-2025",
    "duong_dan": "wiki/sources/2393-qd-byt-2025.md",
@@ -105356,6 +105545,44 @@
    ],
    "confidence": "high",
    "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "2538-qd-tchq#1",
+   "slug": "2538-qd-tchq",
+   "duong_dan": "wiki/sources/2538-qd-tchq.md",
+   "loai_trang": "sources",
+   "tieu_de": "2538/QĐ-TCHQ — Quy trình thủ tục hải quan XNK và vận chuyển chịu sự giám sát hải quan",
+   "muc": "Tóm tắt & trạng thái nguồn",
+   "noi_dung": "**2538/QĐ-TCHQ** (ban hành **2024-11-01**, cơ quan: **Tổng cục Hải quan**) ban hành quy trình trình tự thực hiện thủ tục hải quan đối với hàng hóa xuất khẩu, nhập khẩu, hàng hóa vận chuyển chịu sự giám sát hải quan và hàng gửi qua dịch vụ chuyển phát nhanh khi hệ thống điện tử hải quan gặp sự cố (thay thế quy trình tại Quyết định `1966/QĐ-TCHQ` ngày 10/07/2015).\n\n- **Mức xác minh:** `NGUON_B` (`xac_minh.chan.ma: THIEU_PDF_A` — quyết định quy trình nghiệp vụ nội bộ chưa đăng PDF gốc công khai trên `customs.gov.vn` / `mof.gov.vn` / `vanban.chinhphu.vn`).\n- **Tình trạng hiện tại:** `CON_HIEU_LUC` (theo nguồn đối chiếu bậc B; chờ bản gốc bậc A tại `customs.gov.vn`). Xem [[concepts/doc-tinh-trang-hieu-luc]].",
+   "tags": [],
+   "confidence": "medium",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "2538/QĐ-TCHQ",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": null,
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": false,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": null
+    },
+    {
+     "so_hieu": "1966/QĐ-TCHQ",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2015-08-15",
+     "het_hieu_luc_tu": "2024-11-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "2538/QĐ-TCHQ"
+     ],
+     "bi_bai_bo_boi": [
+      "1921/QĐ-TCHQ"
+     ],
+     "nguon_a": "https://www.customs.gov.vn/index.jsp?pageId=3&id=53681&cid=1294"
+    }
+   ],
    "canh_bao_hieu_luc": false
   },
   {
@@ -120353,6 +120580,30 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "chunk_id": "326-2018-qd-bct#1",
+   "slug": "326-2018-qd-bct",
+   "duong_dan": "wiki/sources/326-2018-qd-bct.md",
+   "loai_trang": "sources",
+   "tieu_de": "326/2018/QĐ-BCT — Bản ghi đối chiếu số hiệu không tồn tại (điều hướng sang 5113/QĐ-BCT)",
+   "muc": "Lưu ý xác minh nguồn bậc A",
+   "noi_dung": "Bản ghi **326/2018/QĐ-BCT** được giữ trong sổ đăng ký (kèm `so_hieu_khac`) nhằm bắt truy vấn khách tra theo số hiệu bị dẫn nhầm trong thực tế:\n\n- **Kết quả đối chiếu trên `moit.gov.vn` và `vanban.chinhphu.vn`:** Theo Luật Ban hành VBQPPL 2015 và Luật Phí và lệ phí 2015, Bộ trưởng Bộ Công Thương không ban hành Quyết định QPPL quy định mức thu, nộp, quản lý và sử dụng phí kiểm tra chuyên ngành (thẩm quyền quy định phí thuộc Bộ trưởng Bộ Tài chính bằng Thông tư), và **không tồn tại Quyết định 326/2018/QĐ-BCT** trên Công báo hay CSDLQG `vbpl.vn`.\n- Quyết định thực tế của Bộ Công Thương ban hành đúng ngày 28/12/2018 trên `moit.gov.vn` là **5113/QĐ-BCT** (phê duyệt danh mục TTHC thuộc chức năng quản lý của Bộ Công Thương năm 2018). Xem hướng dẫn tra cứu văn bản gốc tại [[concepts/doc-tinh-trang-hieu-luc]].",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "326/2018/QĐ-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2019-02-15",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://moit.gov.vn/van-ban-phap-luat/van-ban-dieu-hanh/-quyet-dinh-phe-duyet-danh-muc-thu-tuc-hanh-chinh-thuoc-chuc.html"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "chunk_id": "328-qd-ttg-2022#1",
    "slug": "328-qd-ttg-2022",
    "duong_dan": "wiki/sources/328-qd-ttg-2022.md",
@@ -122671,6 +122922,56 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "chunk_id": "3318-qd-btc-2026#1",
+   "slug": "3318-qd-btc-2026",
+   "duong_dan": "wiki/sources/3318-qd-btc-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "3318/QĐ-BTC — Công bố 255 TTHC Bộ Tài chính không phụ thuộc địa giới hành chính",
+   "muc": "Tóm tắt",
+   "noi_dung": "**3318/QĐ-BTC** (ban hành **2026-11-12**, hiệu lực từ ngày ký, cơ quan: **Bộ Tài chính**) công bố danh mục **255 thủ tục hành chính** thuộc phạm vi quản lý của Bộ Tài chính được thực hiện không phụ thuộc vào địa giới hành chính trong phạm vi toàn quốc, trong đó lĩnh vực **hải quan chiếm 133 thủ tục** (Mục I Phụ lục).",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "3318/QĐ-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": null,
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://www.mof.gov.vn/cong-nghe-thong-tin-va-chuyen-doi-so/tin-tuc-su-kien-3/bo-tai-chinh-cong-bo-255-thu-tuc-hanh-chinh-khong-phu-thuoc-dia-gioi-hanh-chinh"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "3318-qd-btc-2026#2",
+   "slug": "3318-qd-btc-2026",
+   "duong_dan": "wiki/sources/3318-qd-btc-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "3318/QĐ-BTC — Công bố 255 TTHC Bộ Tài chính không phụ thuộc địa giới hành chính",
+   "muc": "Tình trạng hiệu lực & liên hệ thực tế",
+   "noi_dung": "- **Tình trạng hiện tại:** `CON_HIEU_LUC` (Điều 2 quy định hiệu lực kể từ ngày ký **2026-11-12**).\n- Hỗ trợ doanh nghiệp và người dân thực hiện nhiều thủ tục hải quan, thuế và hành chính liên quan tại cơ quan tiếp nhận thuận tiện mà không bị giới hạn theo trụ sở đăng ký. Tham khảo khung chung về hiệu lực tại [[concepts/doc-tinh-trang-hieu-luc]].",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "3318-qd-btc-2026#3",
+   "slug": "3318-qd-btc-2026",
+   "duong_dan": "wiki/sources/3318-qd-btc-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "3318/QĐ-BTC — Công bố 255 TTHC Bộ Tài chính không phụ thuộc địa giới hành chính",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Xác minh mức `NGUON_A` qua tin công bố chính thức trên `mof.gov.vn`, `chinhphu.vn` và bản PDF ký số Bộ Tài chính (17 trang nguyên vẹn phục hồi từ cổng Đồng Nai, đã OCR).",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "chunk_id": "336-2026-nd-cp#1",
    "slug": "336-2026-nd-cp",
    "duong_dan": "wiki/sources/336-2026-nd-cp.md",
@@ -123163,6 +123464,19 @@
     "con-hieu-luc"
    ],
    "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "3366-chq-gsql-2025#1",
+   "slug": "3366-chq-gsql-2025",
+   "duong_dan": "wiki/sources/3366-chq-gsql-2025.md",
+   "loai_trang": "sources",
+   "tieu_de": "3366/CHQ-GSQL — Chính sách quản lý hàng hóa XNK chứa tiền chất công nghiệp",
+   "muc": "Tóm tắt & trạng thái nguồn",
+   "noi_dung": "**3366/CHQ-GSQL** (ban hành **2025-04-25**, cơ quan: **Cục Hải quan — Ban GSQL**) là công văn hướng dẫn nghiệp vụ về chính sách quản lý đối với hàng hóa xuất khẩu, nhập khẩu có chứa tiền chất công nghiệp (liên quan trao đổi chuyên ngành cùng [[sources/5133-bct-hc-2025]]).\n\n- **Mức xác minh:** `NGUON_B` (`xac_minh.chan.ma: THIEU_PDF_A` — chưa đăng tải bản PDF gốc bậc A trên `customs.gov.vn`, `vanban.chinhphu.vn`, `mof.gov.vn`).\n- **Tình trạng hiện tại:** `CON_HIEU_LUC` (công văn tham khảo; khi áp dụng phải đối chiếu nghị định/thông tư quản lý hóa chất và tiền chất bậc A). Xem [[concepts/doc-tinh-trang-hieu-luc]].",
+   "tags": [],
+   "confidence": "medium",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
   },
@@ -129195,6 +129509,56 @@
     "sua-doi",
     "con-hieu-luc"
    ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "36-2015-tt-btc#1",
+   "slug": "36-2015-tt-btc",
+   "duong_dan": "wiki/sources/36-2015-tt-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "36/2015/TT-BTC — Sửa đổi mức thuế suất thuế xuất khẩu vàng trang sức, kỹ nghệ nhóm 71.13, 71.14, 71.15",
+   "muc": "Tóm tắt",
+   "noi_dung": "**36/2015/TT-BTC** (ban hành **2015-03-23**, hiệu lực **2015-05-07**, **hết hiệu lực từ `2016-01-01`** — `HET_HIEU_LUC`) là Thông tư lịch sử của Bộ Tài chính sửa đổi thuế suất thuế xuất khẩu đối với mặt hàng vàng trang sức, kỹ nghệ và sản phẩm khác bằng vàng thuộc các nhóm `71.13`, `71.14`, `71.15` (bổ sung theo issue #410 phục vụ tra cứu lịch sử; không áp dụng cho tờ khai hiện hành).",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "36/2015/TT-BTC",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2015-05-07",
+     "het_hieu_luc_tu": "2016-01-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=179731"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "36-2015-tt-btc#2",
+   "slug": "36-2015-tt-btc",
+   "duong_dan": "wiki/sources/36-2015-tt-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "36/2015/TT-BTC — Sửa đổi mức thuế suất thuế xuất khẩu vàng trang sức, kỹ nghệ nhóm 71.13, 71.14, 71.15",
+   "muc": "Nội dung chính & tình trạng hiệu lực",
+   "noi_dung": "- **Điều 1:** Sửa đổi mức thuế suất thuế xuất khẩu tại Thông tư `164/2013/TT-BTC` đối với các mặt hàng thuộc nhóm `71.13`, `71.14`, `71.15`: vàng có hàm lượng **từ 95% trở lên** chịu thuế **2%**; hàm lượng vàng **dưới 95%** (loại khác) áp dụng **0%**.\n- **Điều 2:** Điều kiện áp dụng mức **0%** là phải có Phiếu kết quả thử nghiệm xác định hàm lượng vàng dưới 95% do tổ chức được chỉ định cấp (QUATEST 1, QUATEST 3, Viện Doji, ACB - Trung tâm vàng...), trừ gia công xuất khẩu hoặc sản xuất xuất khẩu từ toàn bộ nguyên liệu nhập khẩu theo giấy phép NHNN.\n- **Tình trạng hiện tại:** `HET_HIEU_LUC` từ `2016-01-01`. Xem quy tắc tra cứu tại [[concepts/doc-tinh-trang-hieu-luc]].",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "36-2015-tt-btc#3",
+   "slug": "36-2015-tt-btc",
+   "duong_dan": "wiki/sources/36-2015-tt-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "36/2015/TT-BTC — Sửa đổi mức thuế suất thuế xuất khẩu vàng trang sức, kỹ nghệ nhóm 71.13, 71.14, 71.15",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Đã xác minh mức `NGUON_A` qua `vanban.chinhphu.vn` (`docid=179731`) và bản PDF ký số Chính phủ 4 trang (`36-tt.signed.pdf`, đã OCR 6.471 ký tự).",
+   "tags": [],
    "confidence": "high",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
@@ -137325,6 +137689,56 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "chunk_id": "417-2026-nd-cp#1",
+   "slug": "417-2026-nd-cp",
+   "duong_dan": "wiki/sources/417-2026-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "417/2026/NĐ-CP — Quản lý hải quan đối với hàng hóa XNK qua nền tảng thương mại điện tử",
+   "muc": "Tóm tắt",
+   "noi_dung": "**417/2026/NĐ-CP** (ban hành **2026-11-20**, hiệu lực từ **2027-03-01**, cơ quan: **Chính phủ**) quy định riêng về hệ thống xử lý dữ liệu điện tử hải quan, chính sách thuế, kiểm tra chuyên ngành và thủ tục hải quan đối với hàng hóa xuất khẩu, nhập khẩu qua nền tảng thương mại điện tử (căn cứ [[sources/54-2014-qh13]], [[sources/107-2016-qh13]] và các luật liên quan).",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "417/2026/NĐ-CP",
+     "tinh_trang": "CHUA_CO_HIEU_LUC",
+     "hieu_luc_tu": "2027-03-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=220347"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "417-2026-nd-cp#2",
+   "slug": "417-2026-nd-cp",
+   "duong_dan": "wiki/sources/417-2026-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "417/2026/NĐ-CP — Quản lý hải quan đối với hàng hóa XNK qua nền tảng thương mại điện tử",
+   "muc": "Điểm nổi bật về chính sách thuế & kiểm tra chuyên ngành",
+   "noi_dung": "- **Miễn thuế nhập khẩu (Điều 12):** Hàng hóa nhập khẩu qua nền tảng thương mại điện tử có trị giá hải quan theo từng đơn hàng từ **1.000.000 đồng** trở xuống được miễn thuế nhập khẩu, tối đa không quá **48.000.000 đồng/năm** cho mỗi tổ chức, cá nhân mua hàng.\n- **Tách khỏi định mức bưu chính/chuyển phát nhanh chung:** Chính sách thuế đối với hàng nhập khẩu qua nền tảng thương mại điện tử gửi qua bưu chính, chuyển phát nhanh áp dụng theo Điều 12 Nghị định này, không thực hiện theo định mức chung tại [[sources/134-2016-nd-cp]].\n- **Tình trạng hiện tại:** `CHUA_CO_HIEU_LUC` (hiệu lực từ `2027-03-01` theo Điều 30).",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "417-2026-nd-cp#3",
+   "slug": "417-2026-nd-cp",
+   "duong_dan": "wiki/sources/417-2026-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "417/2026/NĐ-CP — Quản lý hải quan đối với hàng hóa XNK qua nền tảng thương mại điện tử",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Đã đối chiếu mức `NGUON_A` qua Cổng TTĐT Chính phủ (`docid=220347`) và PDF ký số 31 trang (đã OCR). Xem quy ước hiệu lực tại [[concepts/doc-tinh-trang-hieu-luc]].",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "chunk_id": "42-2013-qh13#1",
    "slug": "42-2013-qh13",
    "duong_dan": "wiki/sources/42-2013-qh13.md",
@@ -141353,6 +141767,43 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "chunk_id": "4502-qd-bkhcn-2026#1",
+   "slug": "4502-qd-bkhcn-2026",
+   "duong_dan": "wiki/sources/4502-qd-bkhcn-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "4502/QĐ-BKHCN — Công bố TTHC mới cấp phép xuất khẩu, TNTX, chuyển khẩu hàng hóa lưỡng dụng",
+   "muc": "Tóm tắt",
+   "noi_dung": "**4502/QĐ-BKHCN** (ban hành **2026-11-19**, cơ quan: **Bộ Khoa học và Công nghệ**) công bố các thủ tục hành chính mới thuộc chức năng quản lý của Bộ Khoa học và Công nghệ về cấp giấy phép xuất khẩu, tạm nhập tái xuất, chuyển khẩu, trung chuyển, quá cảnh hàng hóa lưỡng dụng theo quy định kiểm soát thương mại chiến lược.",
+   "tags": [],
+   "confidence": "medium",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "4502/QĐ-BKHCN",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": null,
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": false,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": null
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "4502-qd-bkhcn-2026#2",
+   "slug": "4502-qd-bkhcn-2026",
+   "duong_dan": "wiki/sources/4502-qd-bkhcn-2026.md",
+   "loai_trang": "sources",
+   "tieu_de": "4502/QĐ-BKHCN — Công bố TTHC mới cấp phép xuất khẩu, TNTX, chuyển khẩu hàng hóa lưỡng dụng",
+   "muc": "Trạng thái nguồn & đối chiếu",
+   "noi_dung": "- **Mức xác minh:** `NGUON_THU_CAP` (`xac_minh.chan.ma: CHO_CONG_BO_A` — đã ghi nhận phát hành trên bản tin pháp luật và cổng TTHC địa phương; đang chờ `mst.gov.vn` công bố bản PDF gốc bậc A).\n- **Tình trạng hiện tại:** `CON_HIEU_LUC`. Xem quy tắc xác minh nguồn tại [[concepts/doc-tinh-trang-hieu-luc]].",
+   "tags": [],
+   "confidence": "medium",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "chunk_id": "46-2020-nd-cp#1",
    "slug": "46-2020-nd-cp",
    "duong_dan": "wiki/sources/46-2020-nd-cp.md",
@@ -143551,6 +144002,32 @@
     "xnk"
    ],
    "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "48-2026-vbhn-bct#1",
+   "slug": "48-2026-vbhn-bct",
+   "duong_dan": "wiki/sources/48-2026-vbhn-bct.md",
+   "loai_trang": "sources",
+   "tieu_de": "48/2026/VBHN-BCT — Hợp nhất quy định cấp C/O và tự chứng nhận xuất xứ hàng hóa",
+   "muc": "Tóm tắt",
+   "noi_dung": "**48/2026/VBHN-BCT** (ban hành **2026-06-25**, cơ quan: **Bộ Công Thương**) là văn bản hợp nhất các quy định về cấp Giấy chứng nhận xuất xứ hàng hóa (C/O) và chấp thuận bằng văn bản cho thương nhân tự chứng nhận xuất xứ hàng hóa xuất khẩu, hợp nhất [[sources/40-2025-tt-bct]] cùng các thông tư sửa đổi, bổ sung năm 2026 (bao gồm [[sources/26-2026-tt-bct]]).",
+   "tags": [],
+   "confidence": "medium",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "48-2026-vbhn-bct#2",
+   "slug": "48-2026-vbhn-bct",
+   "duong_dan": "wiki/sources/48-2026-vbhn-bct.md",
+   "loai_trang": "sources",
+   "tieu_de": "48/2026/VBHN-BCT — Hợp nhất quy định cấp C/O và tự chứng nhận xuất xứ hàng hóa",
+   "muc": "Trạng thái nguồn & đối chiếu",
+   "noi_dung": "- **Mức xác minh:** `NGUON_THU_CAP` (`xac_minh.chan.ma: THIEU_PDF_A` — chưa tìm thấy tệp PDF toàn văn bậc A công khai trên `moit.gov.vn` / `congbao.chinhphu.vn`; khi trích dẫn điều khoản nguyên văn phải đối chiếu trực tiếp văn bản gốc bậc A như [[sources/40-2025-tt-bct]] và [[sources/26-2026-tt-bct]]).\n- **Tình trạng hiện tại:** `CON_HIEU_LUC`.",
+   "tags": [],
+   "confidence": "medium",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
   },
@@ -146676,6 +147153,64 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "chunk_id": "49-qd-ctn-1998#1",
+   "slug": "49-qd-ctn-1998",
+   "duong_dan": "wiki/sources/49-qd-ctn-1998.md",
+   "loai_trang": "sources",
+   "tieu_de": "49/QĐ-CTN — Việt Nam tham gia Công ước quốc tế về Hệ thống hài hòa (Công ước HS)",
+   "muc": "Tóm tắt & đối chiếu hiệu lực",
+   "noi_dung": "**49/QĐ-CTN** (ban hành **1998-03-06**) là Quyết định của Chủ tịch nước Cộng hòa Xã hội Chủ nghĩa Việt Nam về việc Việt Nam tham gia Công ước quốc tế về Hệ thống hài hòa mô tả và mã hóa hàng hóa (Công ước HS của Tổ chức Hải quan Thế giới WCO).\n\n- **Tình trạng hiện tại:** `CON_HIEU_LUC` (mức `NGUON_A`, đối chiếu qua nguyên văn căn cứ pháp lý tại [[sources/49-2010-tt-btc]] trên CSDLQG `vbpl.vn`).\n- **Trạng thái toàn văn:** `THIEU_PDF_A` — chưa phát hành tệp PDF toàn văn công khai trên `vbpl.vn`, `vanban.chinhphu.vn` và Công báo. Xem [[concepts/doc-tinh-trang-hieu-luc]].",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "49/QĐ-CTN",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "1998-03-06",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-49-2010-tt-btc-huong-dan-viec-phan-loai-ap-dung-muc-thue-doi-voi-hang-hoa-xuat-khau-nhap-khau--25288"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "499-2019-qd-bct#1",
+   "slug": "499-2019-qd-bct",
+   "duong_dan": "wiki/sources/499-2019-qd-bct.md",
+   "loai_trang": "sources",
+   "tieu_de": "499/2019/QĐ-BCT — Bản ghi đối chiếu số hiệu không tồn tại (điều hướng sang 765/QĐ-BCT & 1325A/QĐ-BCT)",
+   "muc": "Lưu ý xác minh nguồn bậc A",
+   "noi_dung": "Bản ghi **499/2019/QĐ-BCT** được giữ trong sổ đăng ký (kèm `so_hieu_khac`) nhằm bắt truy vấn khi khách tra nhầm số hiệu này:\n\n- **Kết quả đối chiếu trên `moit.gov.vn` và `vanban.chinhphu.vn`:** Bộ trưởng Bộ Công Thương không ban hành Quyết định QPPL về biểu phí kiểm tra chuyên ngành và **không tồn tại Quyết định 499/2019/QĐ-BCT** trên Công báo hay CSDLQG `vbpl.vn`.\n- Hai quyết định thực tế năm 2019 của Bộ Công Thương về danh mục mặt hàng kiểm tra chuyên ngành XNK trên `moit.gov.vn` là [[sources/765-qd-bct-2019]] (`765/QĐ-BCT` ngày 29/03/2019) và Quyết định `1325A/QĐ-BCT` (ngày 20/05/2019). Xem thêm quy tắc đối chiếu tại [[concepts/doc-tinh-trang-hieu-luc]].",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "499/2019/QĐ-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2019-08-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://moit.gov.vn/kiem-tra-chuyen-nganh-va-dieu-kien-dau-tu-kinh-doanh/danh-muc-cac-mat-hang-kiem-tra-chuyen-nganh-theo-quyet-dinh-.html"
+    },
+    {
+     "so_hieu": "765/QĐ-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2019-03-29",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://moit.gov.vn/van-ban-phap-luat/van-ban-dieu-hanh/-cong-bo-danh-muc-cac-mat-hang-kem-theo-ma-hs-da-duoc-cat-gi.html"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "chunk_id": "50-2005-qh11#1",
    "slug": "50-2005-qh11",
    "duong_dan": "wiki/sources/50-2005-qh11.md",
@@ -148017,6 +148552,19 @@
      "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=212924"
     }
    ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "5133-bct-hc-2025#1",
+   "slug": "5133-bct-hc-2025",
+   "duong_dan": "wiki/sources/5133-bct-hc-2025.md",
+   "loai_trang": "sources",
+   "tieu_de": "5133/BCT-HC — Ý kiến đối với việc XNK sản phẩm, hàng hóa có chứa tiền chất công nghiệp",
+   "muc": "Tóm tắt & trạng thái nguồn",
+   "noi_dung": "**5133/BCT-HC** (ban hành **2025-07-10**, cơ quan: **Bộ Công Thương — Cục Hóa chất**) là công văn hành chính trao đổi ý kiến nghiệp vụ gửi Bộ Tài chính về quản lý xuất nhập khẩu sản phẩm, hàng hóa có chứa tiền chất công nghiệp (cùng chuỗi nghiệp vụ với [[sources/3366-chq-gsql-2025]]).\n\n- **Mức xác minh:** `NGUON_B` (`xac_minh.chan.ma: THIEU_PDF_A` — không đăng Công báo, chưa tìm thấy PDF gốc bậc A trên `moit.gov.vn`, `vanban.chinhphu.vn`, `customs.gov.vn`).\n- **Tình trạng hiện tại:** `CON_HIEU_LUC` (công văn tham khảo; cần đối chiếu quy định pháp luật hóa chất hiện hành). Xem [[concepts/doc-tinh-trang-hieu-luc]].",
+   "tags": [],
+   "confidence": "medium",
+   "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
   },
   {
@@ -157018,6 +157566,56 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "chunk_id": "72-2018-tt-btc#1",
+   "slug": "72-2018-tt-btc",
+   "duong_dan": "wiki/sources/72-2018-tt-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "72/2018/TT-BTC — Ban hành Hệ thống chỉ tiêu thống kê ngành Dự trữ quốc gia",
+   "muc": "Tóm tắt",
+   "noi_dung": "**72/2018/TT-BTC** (ban hành **2018-08-10**, hiệu lực từ **2018-09-25**, cơ quan: **Bộ Tài chính**) ban hành Hệ thống chỉ tiêu thống kê ngành Dự trữ quốc gia (bổ sung theo issue #417 để làm rõ phạm vi: đây là quy định thống kê ngành Dự trữ quốc gia, không quy định trực tiếp thủ tục hải quan hay mức thuế xuất nhập khẩu hàng hóa thông thường).",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "72/2018/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2018-09-25",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=195281"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "72-2018-tt-btc#2",
+   "slug": "72-2018-tt-btc",
+   "duong_dan": "wiki/sources/72-2018-tt-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "72/2018/TT-BTC — Ban hành Hệ thống chỉ tiêu thống kê ngành Dự trữ quốc gia",
+   "muc": "Nội dung chính & tình trạng hiệu lực",
+   "noi_dung": "- **Điều 1:** Quy định Hệ thống chỉ tiêu thống kê ngành Dự trữ quốc gia gồm Danh mục chỉ tiêu (Phụ lục I) và Nội dung chỉ tiêu (Phụ lục II).\n- **Điều 2:** Bộ Tài chính (Tổng cục Dự trữ Nhà nước) chủ trì tiếp nhận, tổng hợp, chuẩn hóa báo cáo thống kê ngành Dự trữ quốc gia.\n- **Điều 3 & Tình trạng hiện tại:** Có hiệu lực từ `2018-09-25` (`CON_HIEU_LUC`). Xem quy tắc đối chiếu tại [[concepts/doc-tinh-trang-hieu-luc]].",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "72-2018-tt-btc#3",
+   "slug": "72-2018-tt-btc",
+   "duong_dan": "wiki/sources/72-2018-tt-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "72/2018/TT-BTC — Ban hành Hệ thống chỉ tiêu thống kê ngành Dự trữ quốc gia",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Đã xác minh mức `NGUON_A` qua `vanban.chinhphu.vn` (`docid=195281`) và bản PDF ký số Chính phủ 26 trang (`72-btc.signed.pdf`, đã OCR 40.289 ký tự).",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "chunk_id": "72-2026-nd-cp#1",
    "slug": "72-2026-nd-cp",
    "duong_dan": "wiki/sources/72-2026-nd-cp.md",
@@ -161999,6 +162597,40 @@
    ],
    "confidence": "high",
    "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "7866-qd-byt#1",
+   "slug": "7866-qd-byt",
+   "duong_dan": "wiki/sources/7866-qd-byt.md",
+   "loai_trang": "sources",
+   "tieu_de": "7866/QĐ-BYT — Công bố TTHC mới ban hành/sửa đổi trong lĩnh vực Mỹ phẩm (Bộ Y tế)",
+   "muc": "Tóm tắt & đối chiếu hiệu lực",
+   "noi_dung": "**7866/QĐ-BYT** (ban hành **2018-12-28**, cơ quan: **Bộ Y tế**) công bố danh mục thủ tục hành chính mới ban hành và được sửa đổi, bổ sung trong lĩnh vực Mỹ phẩm (liên quan [[sources/06-2011-tt-byt]], [[sources/34-2025-tt-byt]]).\n\n- **Tình trạng hiện tại:** `HET_HIEU_LUC_MOT_PHAN` (mức `NGUON_A` qua Cổng DVCQG `ma_quyet_dinh=25510`; đã được sửa đổi, bổ sung một phần bởi Quyết định `2393/QĐ-BYT` năm 2025 và [[sources/1536-qd-byt-2026]]).\n- **Trạng thái toàn văn:** `THIEU_PDF_A` — tệp `7866_QD-BYT_409396.pdf` trên `csdl.dichvucong.gov.vn` trả lỗi HTTP 503 khi tải. Xem [[concepts/doc-tinh-trang-hieu-luc]].",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "7866/QĐ-BYT",
+     "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+     "hieu_luc_tu": "2018-12-28",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=99376"
+    },
+    {
+     "so_hieu": "2393/QĐ-BYT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-08-18",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=214428"
+    }
+   ],
    "canh_bao_hieu_luc": false
   },
   {
@@ -168962,6 +169594,19 @@
     "bien-doi-gen"
    ],
    "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "910-2026-sps-bnnmt#1",
+   "slug": "910-2026-sps-bnnmt",
+   "duong_dan": "wiki/sources/910-2026-sps-bnnmt.md",
+   "loai_trang": "sources",
+   "tieu_de": "910/2026/SPS-BNNMT — Thông tin quy định mới của Trung Quốc về đăng ký doanh nghiệp thực phẩm",
+   "muc": "Tóm tắt & trạng thái nguồn",
+   "noi_dung": "**910/2026/SPS-BNNMT** (ký hiệu gốc: **910/SPS-BNNMT**, ban hành **2026-10-30** bởi **Văn phòng SPS Việt Nam — Bộ Nông nghiệp và Môi trường**) thông tin các quy định mới của Tổng cục Hải quan Trung Quốc (GACC, Thông báo số 150) đối với đăng ký doanh nghiệp xuất khẩu, nhập khẩu thực phẩm.\n\n- **Mức xác minh:** `NGUON_THU_CAP` (`xac_minh.chan.ma: THIEU_PDF_A` — ghi nhận qua bài thông báo tổng hợp của Cục Xuất nhập khẩu trên `moit.gov.vn`, chưa có bản PDF gốc của Văn phòng SPS Việt Nam công khai).\n- **Tình trạng hiện tại:** `CON_HIEU_LUC`. Xem nguyên tắc phân tầng nguồn tại [[concepts/doc-tinh-trang-hieu-luc]].",
+   "tags": [],
+   "confidence": "medium",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
   },

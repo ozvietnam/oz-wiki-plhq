@@ -2,7 +2,7 @@
   "phien_ban": "2026-11-25",
   "luoc_do_phien_ban": "1.5.0",
   "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
-  "tong": 3265,
+  "tong": 3268,
   "van_ban": [
     {
       "so_hieu": "01/2009/TT-BKHCN",
@@ -2232,6 +2232,7 @@
       "ten": "Quy định về hạn ngạch thuế quan nhập khẩu mặt hàng muối và trứng gia cầm năm 2026",
       "co_quan": "BCT",
       "ngay_ban_hanh": "2026-01-26",
+      "hieu_luc_tu": "2026-03-15",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "quan-ly-ngoai-thuong"
@@ -2242,16 +2243,51 @@
           "truy_cap": "2026-11-24"
         },
         {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/03-bct.pdf",
+          "truy_cap": "2026-11-25"
+        },
+        {
           "url": "https://sct.tayninh.gov.vn/news-78413/bo-cong-thuong-ban-hanh-thong-tu-quy-dinh-ve-han-ngach-thue-quan-nhap-khau-mat-hang-muoi-trung-g-1046167",
           "truy_cap": "2026-11-24"
         }
       ],
+      "toan_van": [
+        "raw/download/datafiles.chinhphu.vn/03-2026-tt-bct.pdf",
+        "raw/ocr/03-2026-tt-bct.ocr.txt"
+      ],
       "xac_minh": {
-        "muc": "NGUON_THU_CAP",
-        "pham_vi": "số hiệu + tên + ngày ban hành 26-01-2026, hiệu lực 15-03-2026 (vanban.chinhphu.vn docid 216801 + Sở CT Tây Ninh)",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-11-24",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "Cổng TTĐT Chính phủ (docid=216801, 03-bct.pdf ký số BCT 3 trang, đã OCR): ban hành 26-01-2026, hiệu lực 15-03-2026 đến hết 31-12-2026 (bản OCR nhận nhầm \"15 tháng 2\" ở Điều 5; CSDL docid=216801 xác nhận 15-03-2026), hạn ngạch thuế quan NK muối (97.020 tấn) và trứng gia cầm (75.809 tá) năm 2026.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-25",
+        "boi": "antigravity@ozvietnam",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Điều 1. Lượng hạn ngạch thuế quan nhập khẩu mặt hàng muối, trứng gia cam năm 2026 A ° TT Mã số hàng hóa Tên hàng aon E0 Ghi vị | lượng chú 0407.21.00 và 0407.90.10 | Trứng gà Trứng Tá thương 1 | 0407.29.10 và 0407.90.20 | Trứng vịt, ngan 75.809 phâm không 0407.29.90 và 0407.90.90 | Loại khác có phôi Saas",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "Điều 2. Phương thức phân giao hạn ngạch thuế quan nhập khẩu mặt hàng muối, trứng gia cầm năm 2026 Hạn ngạch thuế quan nhập khẩu mặt hàng muối, trứng gia cam năm 2026 được phân giao theo phương thức cấp giấy phép nhập khẩu quy định tại Nghị định số 69/2018/NĐ-CP ngày 15 tháng 5 năm 2018 của Chính phủ quy định chỉ tiết một số điều của Luật Quản lý ngoại thương và Thông tư số 12/2018/TT- BCT ngày 15 tháng 6 năm 2018 của Bộ trưởng Bộ Công Thương quy",
+            "trang_pdf": 2
+          },
+          {
+            "dieu": 3,
+            "noi_dung": "Điều 3. Đối tượng phân giao hạn ngạch thuế quan nhập khẩu mặt hàng muối, trứng gia cầm năm 2026 1. Hạn ngạch thuế quan nhập khâu mặt hàng muối được phân giao cho thương nhân trực tiép sử dung muôi làm nguyên liệu sản xuat thuôc, sản phẩm y tế và làm nguyên liệu sản xuất hóa chất. 2. Hạn ngạch thuế quan nhập khâu mặt hàng trứng gia cầm được phân giao cho thương nhân trực tiêp sử dụng trứng gia câm làm nguyên liệu sản xuất. yy “4 5 Ũ \\ \\ \\ \\,",
+            "trang_pdf": 2
+          },
+          {
+            "dieu": 4,
+            "noi_dung": "Điều 4. Thời điểm bắt đầu phân giao hạn ngạch thuế quan nhập khẩu mặt hàng muối, trứng gia cam năm 2026 1. Thời điểm bắt đầu phân giao hạn ngạch thuế quan nhập khẩu mặt hàng muối làm nguyên liệu sản xuất thuốc và sản phẩm y tế năm 2026 là kể từ khi Thông tư này có hiệu lực thi hành.",
+            "trang_pdf": 3
+          },
+          {
+            "dieu": 5,
+            "noi_dung": "Điều 5. Hiệu lực thi hành __ Thông tư này có hiệu lực thi hành kế từ ngay/ 5 tháng 2 năm 2026 đến hệt ngày 31 tháng 12 năm 2026./ —=>=—",
+            "trang_pdf": 3
+          }
+        ]
       },
       "ghi_chu": "Trinh thám đêm 24/11 nạp bù: hạn ngạch muối (nguyên liệu thuốc/Y tế) + trứng gia cầm 2026 — quota NK.",
       "slug": "03-2026-tt-bct",
@@ -11808,6 +11844,13 @@
             "tu": "26/2023/NĐ-CP",
             "quan_he": "huong_dan",
             "so_hieu": "107/2016/QH13"
+          },
+          {
+            "tu": "417/2026/NĐ-CP",
+            "quan_he": "huong_dan",
+            "so_hieu": "107/2016/QH13",
+            "tu_ngay": "2027-03-01",
+            "pham_vi": "Quy định miễn thuế nhập khẩu đối với đơn hàng thương mại điện tử trị giá hải quan từ 1 triệu đồng trở xuống (Điều 12)"
           }
         ]
       }
@@ -41495,7 +41538,17 @@
       ],
       "slug": "174-2025-nd-cp",
       "bac_nguon_cao_nhat": "A",
-      "quan_he_nguoc": {}
+      "quan_he_nguoc": {
+        "duoc_huong_dan_boi": [
+          {
+            "tu": "23808/CHQ-NVTHQ",
+            "quan_he": "huong_dan",
+            "so_hieu": "174/2025/NĐ-CP",
+            "tu_ngay": "2026-11-03",
+            "pham_vi": "Hướng dẫn áp dụng giảm thuế GTGT theo NĐ 174/2025/NĐ-CP ở khâu nhập khẩu"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "174/TB-TCHQ/2022",
@@ -66039,6 +66092,55 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "23808/CHQ-NVTHQ",
+      "so_hieu_khac": [
+        "23808/2026/CHQ-NVTHQ"
+      ],
+      "loai": "CONG_VAN",
+      "ten": "Hướng dẫn thực hiện giảm thuế giá trị gia tăng theo Nghị định số 174/2025/NĐ-CP đối với hàng hóa nhập khẩu",
+      "co_quan": "CHQ",
+      "ngay_ban_hanh": "2026-11-03",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue/thue-noi-dia-khau-nk"
+      ],
+      "quan_he": {
+        "huong_dan": [
+          {
+            "so_hieu": "174/2025/NĐ-CP",
+            "tu_ngay": "2026-11-03",
+            "pham_vi": "Hướng dẫn áp dụng giảm thuế GTGT theo NĐ 174/2025/NĐ-CP ở khâu nhập khẩu"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://thuvienphapluat.vn/cong-van/Xuat-nhap-khau/Cong-van-23808-CHQ-NVTHQ-2026-giam-thue-gia-tri-gia-tang-theo-Nghi-dinh-174-2025-ND-CP-731702.aspx",
+          "truy_cap": "2026-11-25"
+        },
+        {
+          "url": "https://luatvietnam.vn/thue/cong-van-23808-chq-nvthq-2026-cua-cuc-hai-quan-ve-giam-thue-gia-tri-gia-tang-theo-nghi-dinh-174-2025-nd-cp-454374-d6.html",
+          "truy_cap": "2026-11-25"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "Số hiệu 23808/CHQ-NVTHQ (ký hiệu nhắc lại: 23808/2026/CHQ-NVTHQ), ban hành 03-11-2026 bởi Cục Hải quan (Ban Nghiệp vụ thuế Hải quan), đối chiếu qua nguồn bậc B (thuvienphapluat.vn, luatvietnam.vn). Đã rà soát customs.gov.vn, files.customs.gov.vn, vanban.chinhphu.vn, congbao.chinhphu.vn và datafiles.chinhphu.vn: chưa phát hành PDF gốc bậc A công khai.",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-11-25",
+        "boi": "antigravity@ozvietnam",
+        "chan": {
+          "ma": "THIEU_PDF_A",
+          "ngay": "2026-11-25",
+          "viec_tiep": "Công văn nghiệp vụ Cục Hải quan ngày 03-11-2026 hướng dẫn giảm thuế GTGT theo NĐ 174/2025/NĐ-CP; chờ customs.gov.vn / files.customs.gov.vn đăng tải bản gốc PDF bậc A."
+        }
+      },
+      "ghi_chu": "Đáp ứng issue [miss]",
+      "slug": "23808-chq-nvthq-2026",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "2381/TB-CHQ/2025",
       "loai": "THONG_BAO",
       "ten": "Phân loại mã HS theo tracuuhs.com (5607.49.00)",
@@ -88714,6 +88816,14 @@
       ],
       "nguon": [
         {
+          "url": "https://www.mof.gov.vn/cong-nghe-thong-tin-va-chuyen-doi-so/tin-tuc-su-kien-3/bo-tai-chinh-cong-bo-255-thu-tuc-hanh-chinh-khong-phu-thuoc-dia-gioi-hanh-chinh",
+          "truy_cap": "2026-11-25"
+        },
+        {
+          "url": "https://xaydungchinhsach.chinhphu.vn/danh-muc-tthc-thuoc-pham-vi-quan-ly-cua-bo-tai-chinh-thuc-hien-khong-phu-thuoc-vao-dia-gioi-hanh-chinh-119261116104324838.htm",
+          "truy_cap": "2026-11-25"
+        },
+        {
           "url": "https://thuanloi.dongnai.gov.vn/vi/laws/detail/Ve-ve-cong-bo-danh-muc-thu-tuc-hanh-chinh-cua-Bo-Tai-chinh-khong-phu-thuoc-dia-gioi-hanh-chinh-trong-pham-vi-toan-quoc-34/",
           "truy_cap": "2026-11-22"
         },
@@ -88726,16 +88836,37 @@
           "truy_cap": "2026-11-22"
         }
       ],
+      "toan_van": [
+        "raw/download/thuanloi.dongnai.gov.vn/3318-qd-btc-2026.pdf",
+        "raw/ocr/3318-qd-btc-2026.ocr.txt"
+      ],
       "xac_minh": {
-        "muc": "NGUON_THU_CAP",
-        "pham_vi": "số hiệu + tên + ngày ban hành 12-11-2026, áp dụng ngay 12-11 (cổng thông tin chính quyền thuanloi.dongnai.gov.vn đính kèm bản ký quyet-dinh-3318-qd-btc.pdf, Tạp chí Kinh tế - Tài chính / Thuế & Hải quan Online và bkhub dẫn QĐ); cần nạp PDF gốc customs.gov.vn khi lên A",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-11-22",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "Cổng Bộ Tài chính (mof.gov.vn) & Cổng Chính phủ (xaydungchinhsach.chinhphu.vn) cùng bản PDF ký số Bộ Tài chính (17 trang nguyên vẹn phục hồi xref/trailer từ cổng Đồng Nai, đã OCR, gồm Điều 1–3 tại trang 1): công bố 255 TTHC (gồm 133 TTHC hải quan) không phụ thuộc địa giới hành chính; Điều 2 có hiệu lực kể từ ngày ký 12-11-2026.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-25",
+        "boi": "antigravity@ozvietnam",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Điều 1. Công bố kèm theo Quyết định này Danh mục thủ tục hành chính thuộc phạm vi quản lý của Bộ Tài chính thực hiện không phụ thuộc vào địa giới hành chính trong phạm vi toàn quốc.",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "Điều 2. Quyết định này có hiệu lực thi hành ké từ ngày ký.",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 3,
+            "noi_dung": "Điều 3. Chanh Van phong BO, Cục trưởng Cục Công nghệ thông tin và chuyển đổi số, Thủ trưởng các đơn vị thuộc Bộ và các tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành Quyết định này. l2",
+            "trang_pdf": 1
+          }
+        ]
       },
       "ghi_chu": "Trinh thám đêm 22/11. 133 TTHC hải quan làm được ở bất kỳ Chi cục nào (không giới hạn theo trụ sở) — ảnh hưởng trực tiếp chọn cửa khẩu khai báo của khách. Đúng họ với 344/QĐ-BTC đã có.",
       "slug": "3318-qd-btc-2026",
-      "bac_nguon_cao_nhat": "C",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -94361,6 +94492,61 @@
         }
       ],
       "slug": "36-2015-tt-bct",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "36/2015/TT-BTC",
+      "loai": "THONG_TU",
+      "ten": "Sửa đổi mức thuế suất thuế xuất khẩu đối với các mặt hàng vàng trang sức, kỹ nghệ và các sản phẩm khác bằng vàng thuộc các nhóm 71.13, 71.14, 71.15 tại Biểu thuế xuất khẩu",
+      "co_quan": "BTC",
+      "ngay_ban_hanh": "2015-03-23",
+      "hieu_luc_tu": "2015-05-07",
+      "het_hieu_luc_tu": "2016-01-01",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue"
+      ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=179731",
+          "truy_cap": "2026-11-25"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2015/05/36-tt.signed.pdf",
+          "truy_cap": "2026-11-25"
+        }
+      ],
+      "toan_van": [
+        "raw/download/datafiles.chinhphu.vn/36-2015-tt-btc.pdf",
+        "raw/ocr/36-2015-tt-btc.ocr.txt"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Cổng TTĐT Chính phủ (docid=179731) & PDF ký số 4 trang (36-tt.signed.pdf + OCR): ban hành 23/03/2015, hiệu lực từ 07/05/2015; Điều 1-3 sửa đổi thuế suất XK vàng trang sức/kỹ nghệ nhóm 71.13, 71.14, 71.15 (>= 95% vàng: 2%, < 95%: 0% kèm phiếu thử nghiệm).",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-25",
+        "boi": "antigravity@ozvietnam",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Điều 1. Sửa đỗi mức thuế suất thuế xuất khẩu Sửa đổi mức thuế suất thuế xuất khâu đối với các mặt hàng vàng trang sức, kỹ nghệ và các sản phẩm khác bằng vàng thuộc các nhóm 71.13, 71.14, 71.15 tại Biểu thuế xuất khẩu theo danh mục mặt hàng chịu thuế quy định tại Thông tư số 164/2013/TT-BTC ngày 15/11/2013 của Bộ Tài chính thành mức thuế suất thuế xuất khẩu mới quy định tại Danh mục ban hành kèm theo Thông tư này.",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "Điều 2. Điều kiện áp dụng thuế suất thuế xuất khẩu 0% 1. Đối với các mặt hàng đồ kim hoàn bằng vàng (thuộc nhóm 71. 13), đồ kỹ nghệ bằng vàng (thuộc nhóm 71.14) và các sản phẩm khác bằng vàng (thuộc nhóm 71.15) dé được áp dụng mức thuế suất thuê xuất khâu 0%: Ngoài hồ sơ hải quan đối với hàng hóa xuất khẩu theo quy định chung, phải có Phiếu kết quả thử nghiệm xác định hàm lượng vàng dưới 95% do tổ chức thử nghiệm xác định hàm lượng vàng trang",
+            "trang_pdf": 2
+          },
+          {
+            "dieu": 3,
+            "noi_dung": "Điều 3: Hiệu lực thi hành Thông tư này có hiệu lực thi hành kể từ ngày + tháng J năm 2015./ ⁄⁄",
+            "trang_pdf": 2
+          }
+        ]
+      },
+      "ghi_chu": "Đáp ứng issue [miss]",
+      "slug": "36-2015-tt-btc",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
@@ -106697,12 +106883,35 @@
       "loai": "NGHI_DINH",
       "ten": "Quy định về quản lý hải quan đối với hàng hóa xuất khẩu, nhập khẩu qua nền tảng thương mại điện tử",
       "co_quan": "CP",
-      "ngay_ban_hanh": "2026-11-24",
-      "tinh_trang": "CON_HIEU_LUC",
+      "ngay_ban_hanh": "2026-11-20",
+      "hieu_luc_tu": "2027-03-01",
+      "tinh_trang": "CHUA_CO_HIEU_LUC",
       "nhanh": [
         "hai-quan/thu-tuc"
       ],
+      "quan_he": {
+        "huong_dan": [
+          {
+            "so_hieu": "54/2014/QH13",
+            "tu_ngay": "2027-03-01",
+            "pham_vi": "Quy định chi tiết quản lý hải quan đối với hàng hóa XNK qua nền tảng thương mại điện tử"
+          },
+          {
+            "so_hieu": "107/2016/QH13",
+            "tu_ngay": "2027-03-01",
+            "pham_vi": "Quy định miễn thuế nhập khẩu đối với đơn hàng thương mại điện tử trị giá hải quan từ 1 triệu đồng trở xuống (Điều 12)"
+          }
+        ]
+      },
       "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=220347",
+          "truy_cap": "2026-11-25"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/11/417_2026_ndcp_20112026-signed.signed.pdf",
+          "truy_cap": "2026-11-25"
+        },
         {
           "url": "https://cafef.vn/don-hang-thuong-mai-dien-tu-duoi-1-trieu-dong-duoc-mien-thue-nhap-khau-188261124074212041.chn",
           "truy_cap": "2026-11-24"
@@ -106712,16 +106921,72 @@
           "truy_cap": "2026-11-24"
         }
       ],
+      "toan_van": [
+        "raw/download/datafiles.chinhphu.vn/417-2026-nd-cp.pdf",
+        "raw/ocr/417-2026-nd-cp.ocr.txt"
+      ],
       "xac_minh": {
-        "muc": "NGUON_THU_CAP",
-        "pham_vi": "số hiệu + tên + nội dung miễn thuế NK đơn TMĐT <1 triệu đồng, hiệu lực 01-03-2027 (CafeF/VTV/VOV 24-11); triển khai K4 Đ1 Luật HQ 11/2026 — cần văn bản gốc khi lên A",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-11-24",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "Cổng TTĐT Chính phủ (docid=220347, 417_2026_ndcp_20112026-signed.signed.pdf 31 trang, đã OCR): ban hành 20-11-2026, hiệu lực từ 01-03-2027 (Điều 30, thay thế định mức miễn thuế NK theo NĐ 134/2016 đối với hàng TMĐT tại Điều 12 — miễn thuế NK đơn hàng ≤ 1.000.000đ, tối đa 48 triệu đ/năm); ghi tình trạng CHUA_CO_HIEU_LUC.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-25",
+        "boi": "antigravity@ozvietnam",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Điều 1. Phạm vi điều chỉnh Nghị định này quy định về: I. Hệ thong xử lý dữ liệu điện tử hải quan đối với hàng hóa xuất khẩu, nhập khâu qua nên tảng thương mại điện tử (sau đây gọi tắt là Hệ thông xử lý dữ liệu hải quan về thương mại điện tử). 2. Chính sách quản lý, kiểm tra chuyên ngành, chính sách thuế đối với hàng hóa xuât khâu, nhập khẩu qua nền tảng thương mại điện tử.",
+            "trang_pdf": 2
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "Điều 2. Đối tượng áp dụng 1. Chủ quản nền tảng thương mại điện tử. 2. Doanh nghiệp vận chuyền hàng hóa xuất khẩu, nhập khẩu qua nền tảng thương mại điện tử hoặc đại lý của doanh nghiệp vận chuyên hàng hóa tại Việt Nam. 3. Đại lý làm thủ tục hải quan. 4. Chủ hàng hóa xuất khẩu, nhập khẩu qua nền tảng thương mại điện tử. 5. Doanh nghiệp kinh doanh kho ngoại quan.",
+            "trang_pdf": 2
+          },
+          {
+            "dieu": 3,
+            "noi_dung": "Điều 3. Giải thích từ ngữ Hệ thống xử lý dữ liệu hải quan về thương mại điện tử là Hệ thống cho phép thực hiện thủ tục hải quan, tiép nhận, phản hôi, chia sẻ, xử lý và lưu trữ thông tin liên quan đên xuât khâu, nhập khâu hàng hóa qua nên tảng thương mại điện tử. Hệ thông xử lý dữ liệu hải quan về thương mại điện tử là một phân không tách rời của Hệ thông xử lý dữ liệu điện tử hải quan do Bộ Tài chính quản lý và vận hành.",
+            "trang_pdf": 3
+          },
+          {
+            "dieu": 8,
+            "noi_dung": "Điều 8. Trách nhiệm của tổ chức tham gia sử dụng Hệ thống xử lý dữ liệu hải quan về thương mại điện tử 1. Tô chức thực hiện thủ tục hai quan và cung cấp, trao đổi thông tin liên quan đên hàng hóa xuât khâu, nhập khẩu qua nên tảng thương mại điện tử trên",
+            "trang_pdf": 5
+          },
+          {
+            "dieu": 12,
+            "noi_dung": "Điều 12. Chính sách thuế đối với hang hóa xuất khẩu, nhập khẩu qua nền tảng thương mại điện tử 1. Hàng hóa nhập khẩu qua nền tảng thương mại điện tử có trị giá hải quan theo từng đơn hàng từ 1.000.000 đông Việt Nam trở xuông được miên thuê nhập khâu. Mỗi tổ chức, cá nhân mua hàng chỉ được hưởng tiêu chuẩn miễn thuế đối với hàng hóa nhập khâu quy định tại khoản này không quá 48.000.000 đông Việt Nam/năm.",
+            "trang_pdf": 11
+          },
+          {
+            "dieu": 15,
+            "noi_dung": "Điều 15. Địa điểm làm thủ tục hải quan 1. Đối với hàng hóa xuất khẩu: người khai hải quan được lựa chọn đơn vị Hải quan dé thực hiện thủ tục hải quan xuất khẩu. 2. Đối với hàng hóa nhập khẩu: a) Đơn vị Hải quan quản lý địa điểm tập kết, kiểm tra, giám sát tập trung đối với hàng bưu chính, chuyển phát nhanh trong trường hợp hàng hóa nhập khẩu qua nền tảng thương mại điện tử gửi qua dịch vụ bưu chính, chuyên phát nhanh;",
+            "trang_pdf": 12
+          },
+          {
+            "dieu": 19,
+            "noi_dung": "Điều 19. Cung cấp thông tin vận chuyển, thông tin xuất kho ngoại quan 1. Tô chức cung cấp thông tin vận chuyền, thông tin xuất kho ngoại quan l a) Tổ chức cung cấp thông tin vận chuyên: doanh nghiệp vận chuyền hoặc đại lý của doanh nghiệp vận chuyên hàng hóa đến cửa khẩu;",
+            "trang_pdf": 15
+          },
+          {
+            "dieu": 22,
+            "noi_dung": "Điều 22. Thủ tục hủy tờ khai hải quan đối với hàng hóa xuất khẩu, nhập khâu nhóm 1 1. Các trường hợp hủy tờ khai hải quan xuất khẩu: a) Hết thời hạn 15 ngày kế từ ngày đăng ký tờ khai hải quan xuất khẩu, hàng hóa được miễn kiểm tra thực tế nhưng chưa đưa hàng hóa vào khu vực giám sát hải quan tại cửa khâu xuất;",
+            "trang_pdf": 20
+          },
+          {
+            "dieu": 26,
+            "noi_dung": "Điều 26. Giám sát hàng hóa xuất khẩu 1. Trách nhiệm của doanh nghiệp quản lý kho, địa điểm lưu giữ hàng hóa",
+            "trang_pdf": 25
+          },
+          {
+            "dieu": 30,
+            "noi_dung": "Điều 30. Hiệu lực thi hành Nghị định này có hiệu lực thi hành từ ngày 01 tháng 03 năm 2027.",
+            "trang_pdf": 30
+          }
+        ]
       },
       "ghi_chu": "Trinh thám đêm 24/11 — NĐ hot trong ngày: khung hải quan riêng hàng TMĐT (chia nhóm theo đơn hàng, miễn thuế <1tr/đơn). Ưu tiên lên A cùng Luật HQ 11/2026 đã có.",
       "slug": "417-2026-nd-cp",
-      "bac_nguon_cao_nhat": "C",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -111185,13 +111450,18 @@
       ],
       "xac_minh": {
         "muc": "NGUON_THU_CAP",
-        "pham_vi": "số hiệu + ngày ban hành 19-11-2026 (tổng hợp TVPL trong bản tin tuần); TTHC cấp GP XK/tạm nhập tái xuất/chuyển khẩu — cần nguồn chính thống mst.gov.vn khi lên A",
+        "pham_vi": "số hiệu + ngày ban hành 19-11-2026 (tổng hợp TVPL trong bản tin tuần; cổng địa phương haiphong.gov.vn/gialai.gov.vn công bố theo TT 30/2026/TT-BKHCN); TTHC cấp GP XK/tạm nhập tái xuất/chuyển khẩu hàng hóa lưỡng dụng — chờ mst.gov.vn công bố bản gốc.",
         "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-11-23",
-        "boi": "zcode@ozvietnam"
+        "ngay": "2026-11-25",
+        "boi": "antigravity@ozvietnam",
+        "chan": {
+          "ma": "CHO_CONG_BO_A",
+          "ngay": "2026-11-25",
+          "viec_tiep": "QĐ công bố TTHC cấp phép hàng hóa lưỡng dụng ngày 19-11-2026 (căn cứ Thông tư 30/2026/TT-BKHCN); chờ mst.gov.vn công bố PDF gốc bậc A."
+        }
       },
-      "ghi_chu": "Trinh thám đêm 23/11. GP XNK mảng khoa học công nghệ (thiết bị nghiên cứu, mẫu vật...) — luồng giấy phép ít khi gặp nhưng đúng phạm vi.",
-      "slug": "4502-2026-qd-bkhcn",
+      "ghi_chu": "Trinh thám đêm 23/11. GP XNK mảng khoa học công nghệ (hàng hóa lưỡng dụng) — luồng giấy phép ít khi gặp nhưng đúng phạm vi.",
+      "slug": "4502-qd-bkhcn-2026",
       "bac_nguon_cao_nhat": "B",
       "quan_he_nguoc": {}
     },
@@ -114524,10 +114794,15 @@
       ],
       "xac_minh": {
         "muc": "NGUON_THU_CAP",
-        "pham_vi": "số hiệu + ngày ban hành 25-06-2026 (TVPL tổng hợp) — hợp nhất TT 40/2025 + sửa đổi 26/2026 về cấp C/O",
+        "pham_vi": "số hiệu + ngày ban hành 25-06-2026 (TVPL tổng hợp) — hợp nhất TT 40/2025 + sửa đổi 12/2026, 26/2026 về cấp C/O; chưa công bố PDF toàn văn bậc A công khai.",
         "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-11-23",
-        "boi": "zcode@ozvietnam"
+        "ngay": "2026-11-25",
+        "boi": "antigravity@ozvietnam",
+        "chan": {
+          "ma": "THIEU_PDF_A",
+          "ngay": "2026-11-25",
+          "viec_tiep": "Chờ moit.gov.vn / congbao.chinhphu.vn công bố PDF toàn văn bậc A của VBHN 48/2026/VBHN-BCT hợp nhất quy định cấp C/O (TT 40/2025/TT-BCT và sửa đổi 2026)."
+        }
       },
       "ghi_chu": "Trinh thám đêm 23/11. Bản hợp nhất họ C/O (40/2025 → 26/2026 → VBHN này) — tra cứu một chỗ cho khách xin C/O.",
       "slug": "48-2026-vbhn-bct",
@@ -121781,6 +122056,13 @@
             "tu": "39/2015/TT-BTC",
             "quan_he": "huong_dan",
             "so_hieu": "54/2014/QH13"
+          },
+          {
+            "tu": "417/2026/NĐ-CP",
+            "quan_he": "huong_dan",
+            "so_hieu": "54/2014/QH13",
+            "tu_ngay": "2027-03-01",
+            "pham_vi": "Quy định chi tiết quản lý hải quan đối với hàng hóa XNK qua nền tảng thương mại điện tử"
           },
           {
             "tu": "49/2015/TT-BTC",
@@ -138373,6 +138655,60 @@
       "ghi_chu": "Điều 1 phê chuẩn CPTPP (Comprehensive and Progressive Agreement for Trans-Pacific Partnership) ký ngày 08/3/2018 tại San-ti-a-gô. Ngày hiệp định có hiệu lực với Việt Nam không nằm ở Điều 1 — chưa ghi. Chưa mở Điều khoản về Vương quốc Anh gia nhập sau này.",
       "toan_van": "raw/download/congbaocdn.chinhphu.vn/72-2018-qh14.pdf",
       "slug": "72-2018-qh14",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "72/2018/TT-BTC",
+      "loai": "THONG_TU",
+      "ten": "Ban hành Hệ thống chỉ tiêu thống kê ngành Dự trữ quốc gia",
+      "co_quan": "BTC",
+      "ngay_ban_hanh": "2018-08-10",
+      "hieu_luc_tu": "2018-09-25",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "thue"
+      ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=195281",
+          "truy_cap": "2026-11-25"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2018/11/72-btc.signed.pdf",
+          "truy_cap": "2026-11-25"
+        }
+      ],
+      "toan_van": [
+        "raw/download/datafiles.chinhphu.vn/72-2018-tt-btc.pdf",
+        "raw/ocr/72-2018-tt-btc.ocr.txt"
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Cổng TTĐT Chính phủ (docid=195281) & PDF ký số 26 trang 72-btc.signed.pdf (+ OCR 40.289 ký tự): Thông tư 72/2018/TT-BTC ban hành 10-08-2018, hiệu lực từ 25-09-2018 (Điều 1-3 & Phụ lục I-II về Hệ thống chỉ tiêu thống kê ngành Dự trữ quốc gia).",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-25",
+        "boi": "antigravity@ozvietnam",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Điều 1. Hệ thống chỉ tiêu thống kê ngành Dự trữ quốc gia _ LHe thống chỉ tiêu thống kê ngành Dự trữ quốc gia là tập hợp các chỉ tiêu thống kê phản ánh hoạt động dự trữ quốc gia liên quan dén quá trình hình thành, quan lý và sử dụng nguồn lực dự trữ quôc gia; đồng thời là cơ sở đê xây dựng Chê độ báo cáo thống kê ngành Dự trữ quôc gia. 2. Danh mục chỉ tiêu thống kê ngành Dự trữ quốc gia được quy định tại PHỤ LUC I ban hành kèm theo Thông tu này.",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "Điều 2. Tổ chức thực hiện 1. Bộ Tài chính (Tổng cục Dự trữ Nhà nước) chủ trì kiểm tra, tổng hợp số liệu thống kê trong Hệ thống chỉ tiêu thống kê ngành Dự trữ quốc gia và có trách nhiệm:",
+            "trang_pdf": 1
+          },
+          {
+            "dieu": 3,
+            "noi_dung": "Điều 3. Hiệu lực thi hành 1. Thông tư này có hiệu lực thi hành từ ngày 25tháng 9 năm 2018. 2. Trong quá trình thực hiện, nếu có khó khăn, vướng mắc, dé nghị các đơn vị, tô chức và cá nhân có liên quan phản ánh kịp thời về Bộ Tài chính dé nghiên cứu sửa đổi, bỗ sung cho phù hợp./ Ee ,",
+            "trang_pdf": 2
+          }
+        ]
+      },
+      "ghi_chu": "Đáp ứng issue [miss] #417 (72/2018/TT-BTC). Lưu ý: văn bản thống kê ngành Dự trữ quốc gia, không phải quy định thủ tục/thuế XNK trực tiếp.",
+      "slug": "72-2018-tt-btc",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
