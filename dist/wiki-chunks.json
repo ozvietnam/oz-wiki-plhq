@@ -4,7 +4,7 @@
  "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
  "ghi_nguon_chuan": "Nguồn: oz-wiki-plhq — https://github.com/ozvietnam/oz-wiki-plhq (CC BY 4.0, bản 2026-11-25).",
  "mien_tru": "Tham khảo, không phải tư vấn pháp lý. Xem và đối chiếu văn bản gốc nguồn bậc A trước khi áp dụng.",
- "tong": 5604,
+ "tong": 5634,
  "chunks": [
   {
    "chunk_id": "dong-bo-quan-diem-phan-loai#1",
@@ -45838,6 +45838,67 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "chunk_id": "11-2015-tt-bct#1",
+   "slug": "11-2015-tt-bct",
+   "duong_dan": "wiki/sources/11-2015-tt-bct.md",
+   "loai_trang": "sources",
+   "tieu_de": "11/2015/TT-BCT — Quy định về quá cảnh hàng hóa của nước CHND Trung Hoa qua lãnh thổ Việt Nam",
+   "muc": "Tóm tắt",
+   "noi_dung": "**11/2015/TT-BCT** (ban hành **2015-06-04**, hiệu lực từ **2015-07-20**, cơ quan: **Bộ Công Thương**): Quy định trình tự, thủ tục cấp phép và quản lý đối với hàng hóa quá cảnh của Cộng hòa nhân dân Trung Hoa qua lãnh thổ Việt Nam.",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "11/2015/TT-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2015-07-20",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-11-2015-tt-bct-12729.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "11-2015-tt-bct#2",
+   "slug": "11-2015-tt-bct",
+   "duong_dan": "wiki/sources/11-2015-tt-bct.md",
+   "loai_trang": "sources",
+   "tieu_de": "11/2015/TT-BCT — Quy định về quá cảnh hàng hóa của nước CHND Trung Hoa qua lãnh thổ Việt Nam",
+   "muc": "Nội dung & tình trạng hiệu lực",
+   "noi_dung": "- **Tình trạng hiện tại:** `CON_HIEU_LUC` (Điều 19; thay thế các quyết định trước đó của Bộ Thương mại năm 2001 và 2005; đã được sửa đổi, bổ sung một phần bởi `26/2026/TT-BCT` từ ngày 29-05-2026).",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "26/2026/TT-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-05-29",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://chinhphu.vn/?pageid=27160&docid=218236"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "11-2015-tt-bct#3",
+   "slug": "11-2015-tt-bct",
+   "duong_dan": "wiki/sources/11-2015-tt-bct.md",
+   "loai_trang": "sources",
+   "tieu_de": "11/2015/TT-BCT — Quy định về quá cảnh hàng hóa của nước CHND Trung Hoa qua lãnh thổ Việt Nam",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Đã xác minh mức `NGUON_A` qua PDF Công báo số 599+600 ngày 17-06-2015.\n- Tham chiếu liên quan: [[concepts/doc-tinh-trang-hieu-luc]].",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "chunk_id": "11-2015-tt-bkhcn#1",
    "slug": "11-2015-tt-bkhcn",
    "duong_dan": "wiki/sources/11-2015-tt-bkhcn.md",
@@ -52860,7 +52921,38 @@
    "noi_dung": "**Văn bản hợp nhất 114/2026/VBHN-TT-BNNMT** (ký xác thực ngày **17/11/2026**, Bộ Nông nghiệp và Môi trường) hợp nhất Thông tư **71/2010/TT-BNNPTNT** ban hành Quy chuẩn kỹ thuật quốc gia về Kiểm dịch và Bảo vệ thực vật, đã được sửa đổi, bổ sung bởi **15/2023/TT-BNNPTNT** (hiệu lực 05/02/2024) và **12/2025/TT-BNNMT** (hiệu lực 01/07/2025).",
    "tags": [],
    "confidence": "high",
-   "van_ban_lien_quan": [],
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "71/2010/TT-BNNPTNT",
+     "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+     "hieu_luc_tu": "2011-06-10",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-71-2010-tt-bnnptnt-6576.htm"
+    },
+    {
+     "so_hieu": "15/2023/TT-BNNPTNT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2024-02-05",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-15-2023-tt-bnnptnt-40755.htm"
+    },
+    {
+     "so_hieu": "12/2025/TT-BNNMT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://chinhphu.vn/?pageid=27160&docid=214087"
+    }
+   ],
    "canh_bao_hieu_luc": false
   },
   {
@@ -52873,7 +52965,28 @@
    "noi_dung": "1. **QCVN hiện còn hiệu lực trong VBHN:** Điều 1 hiện chỉ còn giữ **QCVN 01-32:2010/BNNPTNT** — Quy chuẩn kỹ thuật quốc gia về **quy trình kiểm dịch nấm có ích nhập khẩu trong khu cách ly kiểm dịch thực vật** (khoản 4 Điều 1).\n2. **Các QCVN đã được bãi bỏ bởi TT 15/2023/TT-BNNPTNT:** Các QCVN 01-29, 01-30, 01-31, 01-33, 01-34, 01-35, 01-36, 01-37, 01-38:2010/BNNPTNT trong văn bản gốc đã được bãi bỏ từ 05/02/2024.\n3. **Cập nhật thẩm quyền sau sáp nhập:** Thông tư 12/2025/TT-BNNMT (từ 01/07/2025) cập nhật tên cơ quan đầu mối thành Bộ Nông nghiệp và Môi trường / Cục Trồng trọt và Bảo vệ thực vật.",
    "tags": [],
    "confidence": "high",
-   "van_ban_lien_quan": [],
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "15/2023/TT-BNNPTNT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2024-02-05",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-15-2023-tt-bnnptnt-40755.htm"
+    },
+    {
+     "so_hieu": "12/2025/TT-BNNMT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://chinhphu.vn/?pageid=27160&docid=214087"
+    }
+   ],
    "canh_bao_hieu_luc": false
   },
   {
@@ -58614,6 +58727,56 @@
     "het-hieu-luc",
     "khong-tham-khao"
    ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "12-2025-tt-bnnmt#1",
+   "slug": "12-2025-tt-bnnmt",
+   "duong_dan": "wiki/sources/12-2025-tt-bnnmt.md",
+   "loai_trang": "sources",
+   "tieu_de": "12/2025/TT-BNNMT — Phân cấp, phân định thẩm quyền quản lý nhà nước trong lĩnh vực trồng trọt và bảo vệ thực vật",
+   "muc": "Tóm tắt",
+   "noi_dung": "**12/2025/TT-BNNMT** (ban hành **2025-06-19**, hiệu lực từ **2025-07-01**, cơ quan: **Bộ Nông nghiệp và Môi trường**): Quy định phân cấp, phân định thẩm quyền quản lý nhà nước và cập nhật thẩm quyền cơ quan quản lý trong lĩnh vực trồng trọt, kiểm dịch và bảo vệ thực vật.",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "12/2025/TT-BNNMT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://chinhphu.vn/?pageid=27160&docid=214087"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "12-2025-tt-bnnmt#2",
+   "slug": "12-2025-tt-bnnmt",
+   "duong_dan": "wiki/sources/12-2025-tt-bnnmt.md",
+   "loai_trang": "sources",
+   "tieu_de": "12/2025/TT-BNNMT — Phân cấp, phân định thẩm quyền quản lý nhà nước trong lĩnh vực trồng trọt và bảo vệ thực vật",
+   "muc": "Nội dung & tình trạng hiệu lực",
+   "noi_dung": "- **Tình trạng hiện tại:** `CON_HIEU_LUC` (Điều 30; là một trong các thông tư sửa đổi thẩm quyền cơ quan được hợp nhất tại `109/2026/VBHN-TT-BNNMT`, `111/2026/VBHN-TT-BNNMT`, `114/2026/VBHN-TT-BNNMT` và `115/2026/VBHN-TT-BNNMT`).",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "12-2025-tt-bnnmt#3",
+   "slug": "12-2025-tt-bnnmt",
+   "duong_dan": "wiki/sources/12-2025-tt-bnnmt.md",
+   "loai_trang": "sources",
+   "tieu_de": "12/2025/TT-BNNMT — Phân cấp, phân định thẩm quyền quản lý nhà nước trong lĩnh vực trồng trọt và bảo vệ thực vật",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Đã xác minh mức `NGUON_A` qua PDF ký số Chính phủ.\n- Tham chiếu liên quan: [[concepts/doc-tinh-trang-hieu-luc]].",
+   "tags": [],
    "confidence": "high",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
@@ -69420,7 +69583,18 @@
    "noi_dung": "- **Tình trạng hiện tại:** `CON_HIEU_LUC` (đối chiếu toàn văn Công báo số 493+494 ngày 09-04-2024 (12 trang có lớp chữ, SHA-256 a38d61a36527...): ban hành ngày 23-02-2024, hiệu lực từ 15-04-2024, đang còn hiệu lực).\n- **Ghi chú:** Nạp từ nhu cầu khách tra (issue [miss] #372). Kinh phí thực hiện chính sách tinh giản biên chế theo NĐ 29/2023/NĐ-CP.",
    "tags": [],
    "confidence": "high",
-   "van_ban_lien_quan": [],
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "29/2023/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2023-07-20",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=207999"
+    }
+   ],
    "canh_bao_hieu_luc": false
   },
   {
@@ -70601,6 +70775,79 @@
     "con-hieu-luc",
     "quantrong"
    ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "131-2022-nd-cp#1",
+   "slug": "131-2022-nd-cp",
+   "duong_dan": "wiki/sources/131-2022-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "131/2022/NĐ-CP — Nghị định quy định chi tiết một số điều của Luật Điện ảnh",
+   "muc": "Tóm tắt",
+   "noi_dung": "**131/2022/NĐ-CP** (ban hành **2022-12-31**, hiệu lực từ **2023-01-01**, cơ quan: **Chính phủ**): Quy định chi tiết một số điều của Luật Điện ảnh, bao gồm quản lý xuất khẩu, nhập khẩu phim qua cửa khẩu hải quan.",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "131/2022/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2023-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://chinhphu.vn/?pageid=27160&docid=207119&classid=1&orggroupid=2"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "131-2022-nd-cp#2",
+   "slug": "131-2022-nd-cp",
+   "duong_dan": "wiki/sources/131-2022-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "131/2022/NĐ-CP — Nghị định quy định chi tiết một số điều của Luật Điện ảnh",
+   "muc": "Nội dung & tình trạng hiệu lực",
+   "noi_dung": "- **Tình trạng hiện tại:** `CON_HIEU_LUC` (Điều 21).\n- **Quan hệ pháp lý khâu XNK:** Khoản 5 Điều 21 bãi bỏ toàn bộ `22/2022/NĐ-CP` và khoản 4 Điều 21 bãi bỏ quy định liên quan nhập khẩu phim không nhằm mục đích kinh doanh trong `32/2012/NĐ-CP` (được hướng dẫn thực tế tại công văn `295/ĐA-PBP`).",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "22/2022/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2022-05-10",
+     "het_hieu_luc_tu": "2023-01-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "131/2022/NĐ-CP"
+     ],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=205527"
+    },
+    {
+     "so_hieu": "32/2012/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+     "hieu_luc_tu": "2012-06-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-32-2012-nd-cp-15729.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "131-2022-nd-cp#3",
+   "slug": "131-2022-nd-cp",
+   "duong_dan": "wiki/sources/131-2022-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "131/2022/NĐ-CP — Nghị định quy định chi tiết một số điều của Luật Điện ảnh",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Đã xác minh mức `NGUON_A` qua PDF ký số Chính phủ 16 trang và bản OCR.\n- Tham chiếu liên quan: [[concepts/doc-tinh-trang-hieu-luc]].",
+   "tags": [],
    "confidence": "high",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
@@ -78057,6 +78304,67 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "chunk_id": "15-2023-tt-bnnptnt#1",
+   "slug": "15-2023-tt-bnnptnt",
+   "duong_dan": "wiki/sources/15-2023-tt-bnnptnt.md",
+   "loai_trang": "sources",
+   "tieu_de": "15/2023/TT-BNNPTNT — Bãi bỏ các thông tư do Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn ban hành",
+   "muc": "Tóm tắt",
+   "noi_dung": "**15/2023/TT-BNNPTNT** (ban hành **2023-12-15**, hiệu lực từ **2024-02-05**, cơ quan: **Bộ Nông nghiệp và Phát triển nông thôn**): Bãi bỏ toàn bộ hoặc một phần các thông tư quy chuẩn kỹ thuật quốc gia do Bộ NN&PTNT ban hành trước đó.",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "15/2023/TT-BNNPTNT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2024-02-05",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-15-2023-tt-bnnptnt-40755.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "15-2023-tt-bnnptnt#2",
+   "slug": "15-2023-tt-bnnptnt",
+   "duong_dan": "wiki/sources/15-2023-tt-bnnptnt.md",
+   "loai_trang": "sources",
+   "tieu_de": "15/2023/TT-BNNPTNT — Bãi bỏ các thông tư do Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn ban hành",
+   "muc": "Nội dung & tình trạng hiệu lực",
+   "noi_dung": "- **Tình trạng hiện tại:** `CON_HIEU_LUC` (Điều 3; bãi bỏ một phần `71/2010/TT-BNNPTNT` và một số thông tư QCVN nông nghiệp khác; được hợp nhất tại `114/2026/VBHN-TT-BNNMT` và `115/2026/VBHN-TT-BNNMT`).",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "71/2010/TT-BNNPTNT",
+     "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+     "hieu_luc_tu": "2011-06-10",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-71-2010-tt-bnnptnt-6576.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "15-2023-tt-bnnptnt#3",
+   "slug": "15-2023-tt-bnnptnt",
+   "duong_dan": "wiki/sources/15-2023-tt-bnnptnt.md",
+   "loai_trang": "sources",
+   "tieu_de": "15/2023/TT-BNNPTNT — Bãi bỏ các thông tư do Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn ban hành",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Đã xác minh mức `NGUON_A` qua PDF Công báo số 1363+1364 ngày 31-12-2023.\n- Tham chiếu liên quan: [[concepts/doc-tinh-trang-hieu-luc]].",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "chunk_id": "15-2024-tt-byt#1",
    "slug": "15-2024-tt-byt",
    "duong_dan": "wiki/sources/15-2024-tt-byt.md",
@@ -78473,7 +78781,18 @@
    "noi_dung": "1. **Ngưỡng phải khai báo hải quan:** Theo khoản 2 Điều 2 Thông tư `11/2014/TT-NHNN`, cá nhân xuất cảnh, nhập cảnh bằng hộ chiếu mang theo vàng trang sức, mỹ nghệ có tổng khối lượng **từ 300g trở lên** phải khai báo với cơ quan hải quan.\n2. **Hồ sơ hải quan hành lý vượt định mức:** Thực hiện theo khoản 2 Điều 60 [[sources/08-2015-nd-cp]] (được sửa đổi tại khoản 30 Điều 1 [[sources/167-2025-nd-cp]]), gồm tờ khai hải quan theo [[sources/38-2015-tt-btc]], [[sources/39-2018-tt-btc]], [[sources/121-2025-tt-btc]] (2 bản chính), hộ chiếu/giấy tờ thay thế, tờ khai xuất nhập cảnh và chứng từ vận tải (nếu gửi trước/sau chuyến đi).\n3. **Chứng từ chứng minh nguồn gốc:** Bộ Tài chính đã có Công văn 279/BTC-CHQ trao đổi với Ngân hàng Nhà nước; trong thời gian chờ hướng dẫn mới, thực hiện khai báo và kiểm tra theo quy định hành lý nhập cảnh hiện hành của [[sources/54-2014-qh13]].",
    "tags": [],
    "confidence": "high",
-   "van_ban_lien_quan": [],
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "11/2014/TT-NHNN",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2014-05-15",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://chinhphu.vn/default.aspx?pageid=27160&docid=175217"
+    }
+   ],
    "canh_bao_hieu_luc": false
   },
   {
@@ -80643,6 +80962,67 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "chunk_id": "156-2020-nd-cp#1",
+   "slug": "156-2020-nd-cp",
+   "duong_dan": "wiki/sources/156-2020-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "156/2020/NĐ-CP — Quy định xử phạt vi phạm hành chính trong lĩnh vực chứng khoán và thị trường chứng khoán",
+   "muc": "Tóm tắt",
+   "noi_dung": "**156/2020/NĐ-CP** (ban hành **2020-12-31**, hiệu lực từ **2021-01-01**, cơ quan: **Chính phủ**): Quy định hành vi vi phạm, hình thức xử phạt, mức xử phạt, biện pháp khắc phục hậu quả và thẩm quyền xử phạt trong lĩnh vực chứng khoán và thị trường chứng khoán.",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "156/2020/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2021-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=202223"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "156-2020-nd-cp#2",
+   "slug": "156-2020-nd-cp",
+   "duong_dan": "wiki/sources/156-2020-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "156/2020/NĐ-CP — Quy định xử phạt vi phạm hành chính trong lĩnh vực chứng khoán và thị trường chứng khoán",
+   "muc": "Nội dung & tình trạng hiệu lực",
+   "noi_dung": "- **Tình trạng hiện tại:** `CON_HIEU_LUC` (Điều 52; thay thế các nghị định xử phạt trước đó năm 2013 và 2016, và đã được sửa đổi, bổ sung bởi các nghị định năm 2021 và 2025).\n- **Ghi chú:** Được dẫn chiếu liên quan khi đối chiếu quy định xử phạt hành chính tại các thông tư hướng dẫn chuyên ngành chứng khoán (bao gồm `217/2013/TT-BTC`).",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "217/2013/TT-BTC",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2014-03-01",
+     "het_hieu_luc_tu": "2021-02-15",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=172102"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "156-2020-nd-cp#3",
+   "slug": "156-2020-nd-cp",
+   "duong_dan": "wiki/sources/156-2020-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "156/2020/NĐ-CP — Quy định xử phạt vi phạm hành chính trong lĩnh vực chứng khoán và thị trường chứng khoán",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Đã xác minh mức `NGUON_A` qua PDF ký số Chính phủ 69 trang và bản OCR.\n- Tham chiếu liên quan: [[concepts/doc-tinh-trang-hieu-luc]].",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "chunk_id": "15987-chq-nvthq-2026#1",
    "slug": "15987-chq-nvthq-2026",
    "duong_dan": "wiki/sources/15987-chq-nvthq-2026.md",
@@ -81177,6 +81557,67 @@
     "khai-bao-hai-quan"
    ],
    "confidence": "medium",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "16-2023-qh15#1",
+   "slug": "16-2023-qh15",
+   "duong_dan": "wiki/sources/16-2023-qh15.md",
+   "loai_trang": "sources",
+   "tieu_de": "16/2023/QH15 — Luật Giá năm 2023 (thay thế Luật Giá năm 2012 từ ngày 01/07/2024)",
+   "muc": "Tóm tắt",
+   "noi_dung": "**16/2023/QH15** (Quốc hội khóa XV kỳ họp thứ 5 thông qua ngày **2023-06-19**, hiệu lực thi hành từ **2024-07-01**, cơ quan: **Quốc hội**): Luật Giá năm 2023 quy định về quyền, nghĩa vụ của cơ quan, tổ chức, cá nhân trong lĩnh vực giá, thẩm định giá và hoạt động quản lý, điều tiết giá của Nhà nước.",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "16/2023/QH15",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2024-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=208367&classid=1&orggroupid=1"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "16-2023-qh15#2",
+   "slug": "16-2023-qh15",
+   "duong_dan": "wiki/sources/16-2023-qh15.md",
+   "loai_trang": "sources",
+   "tieu_de": "16/2023/QH15 — Luật Giá năm 2023 (thay thế Luật Giá năm 2012 từ ngày 01/07/2024)",
+   "muc": "Nội dung & tình trạng hiệu lực",
+   "noi_dung": "- **Tình trạng hiện tại:** `CON_HIEU_LUC` (theo Điều 74, có hiệu lực từ 01-07-2024; riêng quy định tại khoản 2 Điều 60 có hiệu lực từ 01-01-2026; thay thế Luật Giá năm 2012).\n- **Liên kết nghiệp vụ XNK:** Là căn cứ của [[sources/30-2024-tt-btc]] (30/2024/TT-BTC) ban hành các chuẩn mực thẩm định giá Việt Nam phục vụ xác định giá và trị giá hải quan.",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "30/2024/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2024-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-30-2024-tt-btc-42051/50470.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "16-2023-qh15#3",
+   "slug": "16-2023-qh15",
+   "duong_dan": "wiki/sources/16-2023-qh15.md",
+   "loai_trang": "sources",
+   "tieu_de": "16/2023/QH15 — Luật Giá năm 2023 (thay thế Luật Giá năm 2012 từ ngày 01/07/2024)",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Đã xác minh mức `NGUON_A` từ toàn văn Công báo số 859+860 ngày 28-07-2023.\n- Tham chiếu liên quan: [[concepts/doc-tinh-trang-hieu-luc]].",
+   "tags": [],
+   "confidence": "high",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
   },
@@ -87161,6 +87602,77 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "chunk_id": "18-2025-tt-bct#1",
+   "slug": "18-2025-tt-bct",
+   "duong_dan": "wiki/sources/18-2025-tt-bct.md",
+   "loai_trang": "sources",
+   "tieu_de": "18/2025/TT-BCT — Sửa đổi, bổ sung, bãi bỏ một số quy định tại các Thông tư về kinh doanh xăng dầu",
+   "muc": "Tóm tắt",
+   "noi_dung": "**18/2025/TT-BCT** (ban hành **2025-03-13**, hiệu lực từ **2025-05-02**, cơ quan: **Bộ Công Thương**): Sửa đổi, bổ sung và bãi bỏ một số quy định về điều hành giá xăng dầu, đăng ký tổng nguồn xăng dầu tối thiểu hàng năm và thủ tục cấp giấy xác nhận thương nhân đầu mối kinh doanh xuất nhập khẩu xăng dầu.",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "18/2025/TT-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-05-02",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=213239&classid=1&orggroupid=4"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "18-2025-tt-bct#2",
+   "slug": "18-2025-tt-bct",
+   "duong_dan": "wiki/sources/18-2025-tt-bct.md",
+   "loai_trang": "sources",
+   "tieu_de": "18/2025/TT-BCT — Sửa đổi, bổ sung, bãi bỏ một số quy định tại các Thông tư về kinh doanh xăng dầu",
+   "muc": "Nội dung & tình trạng hiệu lực",
+   "noi_dung": "- **Tình trạng hiện tại:** `CON_HIEU_LUC` (Điều 4; ban hành trên cơ sở nghị định về kinh doanh xăng dầu năm 2014, [[sources/95-2021-nd-cp]] (`95/2021/NĐ-CP`) và nghị định sửa đổi năm 2023; được nhắc tại `26/2026/TT-BCT` và `51/VBHN-BCT`).",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "95/2021/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2022-01-02",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=204393"
+    },
+    {
+     "so_hieu": "26/2026/TT-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-05-29",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://chinhphu.vn/?pageid=27160&docid=218236"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "18-2025-tt-bct#3",
+   "slug": "18-2025-tt-bct",
+   "duong_dan": "wiki/sources/18-2025-tt-bct.md",
+   "loai_trang": "sources",
+   "tieu_de": "18/2025/TT-BCT — Sửa đổi, bổ sung, bãi bỏ một số quy định tại các Thông tư về kinh doanh xăng dầu",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Đã xác minh mức `NGUON_A` qua PDF ký số Chính phủ 9 trang và bản OCR.\n- Tham chiếu liên quan: [[concepts/doc-tinh-trang-hieu-luc]].",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "chunk_id": "18-2026-tt-byt#1",
    "slug": "18-2026-tt-byt",
    "duong_dan": "wiki/sources/18-2026-tt-byt.md",
@@ -87244,6 +87756,16 @@
      "bi_thay_the_boi": [],
      "bi_bai_bo_boi": [],
      "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-20-2017-tt-byt-24490.htm"
+    },
+    {
+     "so_hieu": "27/2024/TT-BYT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-01-30",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://chinhphu.vn/?pageid=27160&docid=211680"
     }
    ],
    "canh_bao_hieu_luc": false
@@ -99465,7 +99987,9 @@
      "hieu_luc_tu": "2009-07-01",
      "het_hieu_luc_tu": "2025-01-01",
      "hieu_luc_da_doi_chieu": true,
-     "bi_thay_the_boi": [],
+     "bi_thay_the_boi": [
+      "35/2024/QH15"
+     ],
      "bi_bai_bo_boi": [],
      "nguon_a": "https://vbpl.vn/van-ban/chi-tiet/luat-giao-thong-duong-bo-so-23-2008-qh12--12333"
     }
@@ -99483,6 +100007,16 @@
    "tags": [],
    "confidence": "high",
    "van_ban_lien_quan": [
+    {
+     "so_hieu": "35/2024/QH15",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=211193"
+    },
     {
      "so_hieu": "36/2024/QH15",
      "tinh_trang": "CON_HIEU_LUC",
@@ -103029,7 +103563,30 @@
    "noi_dung": "- **Tình trạng hiện tại:** `HET_HIEU_LUC` (đối chiếu Cổng TTĐT Chính phủ (docid=184149) và PDF ký số 2 trang đã OCR (SHA-256 68973cc3e17f...): Thứ trưởng Vũ Thị Mai ký ngày 16-02-2016, hiệu lực 03-04-2016; hết hiệu lực từ 01-09-2016 khi Nghị định 122/2016/NĐ-CP thay thế Biểu thuế MFN theo Thông tư 182/2015/TT-BTC).\n- **Ghi chú:** Nạp từ nhu cầu khách tra (issue [miss] #406). Liên quan phân bón DAP mã 3105.30.00 giai đoạn 2016, đã hết hiệu lực.",
    "tags": [],
    "confidence": "high",
-   "van_ban_lien_quan": [],
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "122/2016/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2016-09-01",
+     "het_hieu_luc_tu": "2023-07-15",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=186238"
+    },
+    {
+     "so_hieu": "182/2015/TT-BTC",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2016-01-01",
+     "het_hieu_luc_tu": "2016-09-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "122/2016/NĐ-CP"
+     ],
+     "nguon_a": "https://chinhphu.vn/default.aspx?pageid=27160&docid=183099"
+    }
+   ],
    "canh_bao_hieu_luc": false
   },
   {
@@ -105933,6 +106490,26 @@
      "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=214398"
     },
     {
+     "so_hieu": "24/2026/TT-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-05-05",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://chinhphu.vn/?pageid=27160&docid=218035"
+    },
+    {
+     "so_hieu": "11/2015/TT-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2015-07-20",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-11-2015-tt-bct-12729.htm"
+    },
+    {
      "so_hieu": "12/2018/TT-BCT",
      "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
      "hieu_luc_tu": "2018-06-15",
@@ -105963,6 +106540,46 @@
      "bi_thay_the_boi": [],
      "bi_bai_bo_boi": [],
      "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-26-2026-nd-cp-468804.htm"
+    },
+    {
+     "so_hieu": "23/2024/TT-BCT",
+     "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+     "hieu_luc_tu": "2025-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://chinhphu.vn/?pageid=27160&docid=211705"
+    },
+    {
+     "so_hieu": "43/2023/TT-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2024-02-12",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=209394&classid=0"
+    },
+    {
+     "so_hieu": "18/2025/TT-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-05-02",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=213239&classid=1&orggroupid=4"
+    },
+    {
+     "so_hieu": "38/2025/TT-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=214097&classid=1"
     }
    ],
    "canh_bao_hieu_luc": false
@@ -114553,7 +115170,40 @@
    "noi_dung": "- **Tóm lược nghiệp vụ:** Cục Điện ảnh (Bộ VHTTDL) thông báo cho Tổng cục Hải quan về việc từ 01-01-2023 không cấp giấy phép nhập khẩu và biên bản giám định văn hóa phẩm không nhằm mục đích kinh doanh có nội dung là phim; việc nhập khẩu phim thực hiện theo Điều 17 Luật Điện ảnh 2022 và khoản 5 Điều 21 Nghị định 131/2022/NĐ-CP.\n- **Đối chiếu bản gốc (OCR toàn văn):** đối chiếu PDF sao y bản chính của Tổng cục Hải quan (số 37/SY-TCHQ ngày 28-03-2023) trên Cổng Hải quan (id=84213, 2 trang, Cục trưởng Cục Điện ảnh - Bộ Văn hóa, Thể thao và Du lịch Vi Kiến Thành ký ngày 20-03-2023, SHA-256 82c062b3e2d3a336d6af3db3d8b41cf6b6a9f0df1a2e6a582f2fb0463ba94f26): thông báo kể từ ngày 01-01-2023 (ngày Luật Điện ảnh ngày 15-06-2022 và Nghị định 131/2022/NĐ-CP ngày 31-12-2022 có hiệu lực, khoản 5 Điều 21 NĐ 131/2022/NĐ-CP bãi bỏ Nghị định 22/2022/NĐ-CP sửa đổi Nghị định 32/2012/NĐ-CP), Cục Điện ảnh không cấp giấy phép nhập khẩu văn hóa phẩm và biên bản giám định văn hóa phẩm không nhằm mục đích kinh doanh có nội dung là phim nhập khẩu qua Hải quan; tổ chức, cá nhân nhập khẩu phim thực hiện cam kết bằng văn bản về nội dung phim không vi phạm Điều 9 theo Điều 17 Luật Điện ảnh 2022",
    "tags": [],
    "confidence": "high",
-   "van_ban_lien_quan": [],
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "131/2022/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2023-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://chinhphu.vn/?pageid=27160&docid=207119&classid=1&orggroupid=2"
+    },
+    {
+     "so_hieu": "22/2022/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2022-05-10",
+     "het_hieu_luc_tu": "2023-01-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "131/2022/NĐ-CP"
+     ],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=205527"
+    },
+    {
+     "so_hieu": "32/2012/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+     "hieu_luc_tu": "2012-06-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-32-2012-nd-cp-15729.htm"
+    }
+   ],
    "canh_bao_hieu_luc": false
   },
   {
@@ -115147,7 +115797,18 @@
    "noi_dung": "- **Tình trạng hiện tại:** `CON_HIEU_LUC` (đối chiếu toàn văn Công báo số 737+738 ngày 22-06-2024 (25 trang có lớp chữ, SHA-256 438412f5f1f1...): ban hành ngày 16-05-2024, hiệu lực từ 01-07-2024, đang còn hiệu lực).\n- **Ghi chú:** Nạp từ nhu cầu khách tra (issue [miss] #409). Chuẩn mực thẩm định giá Việt Nam hướng dẫn Luật Giá 16/2023/QH15.",
    "tags": [],
    "confidence": "high",
-   "van_ban_lien_quan": [],
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "16/2023/QH15",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2024-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=208367&classid=1&orggroupid=1"
+    }
+   ],
    "canh_bao_hieu_luc": false
   },
   {
@@ -118775,6 +119436,79 @@
     "ma-hs",
     "con-hieu-luc"
    ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "32-2012-nd-cp#1",
+   "slug": "32-2012-nd-cp",
+   "duong_dan": "wiki/sources/32-2012-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "32/2012/NĐ-CP — Quản lý xuất khẩu, nhập khẩu văn hóa phẩm không nhằm mục đích kinh doanh",
+   "muc": "Tóm tắt",
+   "noi_dung": "**32/2012/NĐ-CP** (ban hành **2012-04-12**, hiệu lực từ **2012-06-01**, cơ quan: **Chính phủ**): Quy định về thẩm quyền, thủ tục cấp phép, giám định và thông quan xuất khẩu, nhập khẩu văn hóa phẩm không nhằm mục đích kinh doanh.",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "32/2012/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+     "hieu_luc_tu": "2012-06-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-32-2012-nd-cp-15729.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "32-2012-nd-cp#2",
+   "slug": "32-2012-nd-cp",
+   "duong_dan": "wiki/sources/32-2012-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "32/2012/NĐ-CP — Quản lý xuất khẩu, nhập khẩu văn hóa phẩm không nhằm mục đích kinh doanh",
+   "muc": "Nội dung & tình trạng hiệu lực",
+   "noi_dung": "- **Tình trạng hiện tại:** `HET_HIEU_LUC_MOT_PHAN` (Điều 17; thay thế nghị định năm 2002 về cùng lĩnh vực; được sửa đổi, bổ sung một thời gian bởi `22/2022/NĐ-CP`, sau đó khoản 4 Điều 21 `131/2022/NĐ-CP` bãi bỏ điểm b khoản 1 Điều 8 và cụm từ về phim tại điểm b khoản 2 Điều 9 từ ngày 01-01-2023).\n- **Hướng dẫn liên quan:** Xem [[sources/131-2022-nd-cp]] (`131/2022/NĐ-CP`) và công văn `295/ĐA-PBP`.",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "22/2022/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2022-05-10",
+     "het_hieu_luc_tu": "2023-01-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "131/2022/NĐ-CP"
+     ],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=205527"
+    },
+    {
+     "so_hieu": "131/2022/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2023-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://chinhphu.vn/?pageid=27160&docid=207119&classid=1&orggroupid=2"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "32-2012-nd-cp#3",
+   "slug": "32-2012-nd-cp",
+   "duong_dan": "wiki/sources/32-2012-nd-cp.md",
+   "loai_trang": "sources",
+   "tieu_de": "32/2012/NĐ-CP — Quản lý xuất khẩu, nhập khẩu văn hóa phẩm không nhằm mục đích kinh doanh",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Đã xác minh mức `NGUON_A` qua PDF Công báo số 349+350 ngày 26-04-2012.\n- Tham chiếu liên quan: [[concepts/doc-tinh-trang-hieu-luc]].",
+   "tags": [],
    "confidence": "high",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
@@ -126768,6 +127502,69 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "chunk_id": "35-2024-qh15#1",
+   "slug": "35-2024-qh15",
+   "duong_dan": "wiki/sources/35-2024-qh15.md",
+   "loai_trang": "sources",
+   "tieu_de": "35/2024/QH15 — Luật Đường bộ năm 2024 (thay thế Luật Giao thông đường bộ 23/2008/QH12 từ 01/01/2025)",
+   "muc": "Tóm tắt",
+   "noi_dung": "**35/2024/QH15** (Quốc hội khóa XV kỳ họp thứ 7 thông qua ngày **2024-06-27**, hiệu lực từ **2025-01-01**, cơ quan: **Quốc hội**): Luật Đường bộ quy định về hoạt động đường bộ và quản lý nhà nước về hoạt động vận tải đường bộ, quá cảnh và kết cấu hạ tầng giao thông đường bộ.",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "35/2024/QH15",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=211193"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "35-2024-qh15#2",
+   "slug": "35-2024-qh15",
+   "duong_dan": "wiki/sources/35-2024-qh15.md",
+   "loai_trang": "sources",
+   "tieu_de": "35/2024/QH15 — Luật Đường bộ năm 2024 (thay thế Luật Giao thông đường bộ 23/2008/QH12 từ 01/01/2025)",
+   "muc": "Nội dung & tình trạng hiệu lực",
+   "noi_dung": "- **Tình trạng hiện tại:** `CON_HIEU_LUC` (theo Điều 85, hiệu lực từ 01-01-2025; điểm a và điểm b khoản 2 Điều 42, Điều 43, Điều 50, khoản 1 Điều 84 có hiệu lực từ 01-10-2024).\n- **Quan hệ thay thế:** Cùng Luật Trật tự, an toàn giao thông đường bộ năm 2024 thay thế [[sources/23-2008-qh12]] (`23/2008/QH12`, đã hết hiệu lực từ 01-01-2025).",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "23/2008/QH12",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2009-07-01",
+     "het_hieu_luc_tu": "2025-01-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "35/2024/QH15"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vbpl.vn/van-ban/chi-tiet/luat-giao-thong-duong-bo-so-23-2008-qh12--12333"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "35-2024-qh15#3",
+   "slug": "35-2024-qh15",
+   "duong_dan": "wiki/sources/35-2024-qh15.md",
+   "loai_trang": "sources",
+   "tieu_de": "35/2024/QH15 — Luật Đường bộ năm 2024 (thay thế Luật Giao thông đường bộ 23/2008/QH12 từ 01/01/2025)",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Đã xác minh mức `NGUON_A` từ toàn văn Công báo số 983+984 ngày 25-08-2024.\n- Tham chiếu liên quan: [[concepts/doc-tinh-trang-hieu-luc]].",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "chunk_id": "35-2025-nd-cp#1",
    "slug": "35-2025-nd-cp",
    "duong_dan": "wiki/sources/35-2025-nd-cp.md",
@@ -128756,6 +129553,16 @@
      "bi_thay_the_boi": [],
      "bi_bai_bo_boi": [],
      "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-36-2017-tt-btc-23989/18015.htm"
+    },
+    {
+     "so_hieu": "217/2013/TT-BTC",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2014-03-01",
+     "het_hieu_luc_tu": "2021-02-15",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=172102"
     }
    ],
    "canh_bao_hieu_luc": false
@@ -128770,7 +129577,28 @@
    "noi_dung": "- **Tình trạng hiện tại:** `HET_HIEU_LUC` (đối chiếu toàn văn Công báo số 451+452 ngày 20-06-2017 (8 trang có lớp chữ, SHA-256 de3b8700c33b...): Thứ trưởng Trần Xuân Hà ký ngày 27-04-2017, hiệu lực 15-06-2017; văn bản gốc 217/2013/TT-BTC đã hết hiệu lực khi khung Luật Chứng khoán 2019 và NĐ 156/2020/NĐ-CP có hiệu lực).\n- **Ghi chú:** Nạp từ nhu cầu khách tra (issue [miss] #411). Lĩnh vực chứng khoán, đã hết hiệu lực.",
    "tags": [],
    "confidence": "high",
-   "van_ban_lien_quan": [],
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "217/2013/TT-BTC",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2014-03-01",
+     "het_hieu_luc_tu": "2021-02-15",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=172102"
+    },
+    {
+     "so_hieu": "156/2020/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2021-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=202223"
+    }
+   ],
    "canh_bao_hieu_luc": false
   },
   {
@@ -134320,7 +135148,18 @@
    "noi_dung": "**3982/TCHQ-GSQL** (ban hành **2022-09-26**, hiệu lực từ **2022-09-26**, cơ quan: **Tổng cục Hải quan**): V/v xử lý vướng mắc trong quá trình thực hiện Thông tư 23/2021/TT-BTC.",
    "tags": [],
    "confidence": "high",
-   "van_ban_lien_quan": [],
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "23/2021/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2021-05-15",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-23-2021-tt-btc-33593/35527.htm"
+    }
+   ],
    "canh_bao_hieu_luc": false
   },
   {
@@ -134333,7 +135172,28 @@
    "noi_dung": "- **Tóm lược nghiệp vụ:** Hướng dẫn nghiệp vụ hải quan thực hiện Thông tư 23/2021/TT-BTC về quản lý, thông quan, bàn giao, điều chuyển và thủ tục tạm xuất - tái nhập tem điện tử rượu, thuốc lá nhập khẩu.\n- **Đối chiếu bản gốc (OCR toàn văn):** đối chiếu PDF ký số trên Cổng Hải quan (id=80999, 2 trang, Phó Tổng cục trưởng Mai Xuân Thành ký ngày 26-09-2022, SHA-256 f12032b3ac0390bd1df8bc119c51950fcbda240e915242f714d6e5871e2779bb): hướng dẫn Cục Hải quan các tỉnh, thành phố xử lý 4 nhóm vướng mắc khi thực hiện Thông tư 23/2021/TT-BTC ngày 30-03-2021 về in, phát hành, quản lý và sử dụng tem điện tử rượu và tem điện tử thuốc lá nhập khẩu: (1) phạm vi điều chỉnh: chỉ áp dụng cho rượu, thuốc lá nhập khẩu để kinh doanh tiêu dùng trong nước, hàng bán tại cửa hàng miễn thuế thực hiện theo Nghị định 100/2020/NĐ-CP; (2) thủ tục thông quan: sau khi hoàn thành thủ tục hải quan, Chi cục hải quan thông quan lô hàng và lập biên bản bàn giao tem điện tử tương ứng lượng hàng thực tế nhập khẩu để doanh nghiệp dán tem trước khi đưa ra thị trường (khoản 4 Điều 3 TT 23/2021/TT-BTC); (3) lập, điều chỉnh kế hoạch sử dụng tem điện tử trên Hệ thống trước 30/4 và 31/8, đăng ký bổ sung khi phát sinh nhu cầu nhập khẩu hoặc mua hàng tịch thu/đấu giá, và điều chuyển tem giữa các Chi cục/Cục Hải quan; (4) thủ tục mở tờ khai tạm xuất - tái nhập tem điện tử khi đưa tem ra cơ sở sản xuất ở nước ngoài để dán trên sản phẩm và xử lý báo cáo tem hư hỏng, nhàu nát",
    "tags": [],
    "confidence": "high",
-   "van_ban_lien_quan": [],
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "23/2021/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2021-05-15",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-23-2021-tt-btc-33593/35527.htm"
+    },
+    {
+     "so_hieu": "100/2020/NĐ-CP",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2020-10-15",
+     "het_hieu_luc_tu": "2026-08-21",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=200857"
+    }
+   ],
    "canh_bao_hieu_luc": false
   },
   {
@@ -155063,6 +155923,77 @@
     "con-hieu-luc",
     "quantrong"
    ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "71-2010-tt-bnnptnt#1",
+   "slug": "71-2010-tt-bnnptnt",
+   "duong_dan": "wiki/sources/71-2010-tt-bnnptnt.md",
+   "loai_trang": "sources",
+   "tieu_de": "71/2010/TT-BNNPTNT — Ban hành Quy chuẩn kỹ thuật quốc gia về Kiểm dịch và Bảo vệ thực vật",
+   "muc": "Tóm tắt",
+   "noi_dung": "**71/2010/TT-BNNPTNT** (ban hành **2010-12-10**, hiệu lực từ **2011-06-10**, cơ quan: **Bộ Nông nghiệp và Phát triển nông thôn**): Ban hành các Quy chuẩn kỹ thuật quốc gia về kiểm dịch và bảo vệ thực vật.",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "71/2010/TT-BNNPTNT",
+     "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+     "hieu_luc_tu": "2011-06-10",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-71-2010-tt-bnnptnt-6576.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "71-2010-tt-bnnptnt#2",
+   "slug": "71-2010-tt-bnnptnt",
+   "duong_dan": "wiki/sources/71-2010-tt-bnnptnt.md",
+   "loai_trang": "sources",
+   "tieu_de": "71/2010/TT-BNNPTNT — Ban hành Quy chuẩn kỹ thuật quốc gia về Kiểm dịch và Bảo vệ thực vật",
+   "muc": "Nội dung & tình trạng hiệu lực",
+   "noi_dung": "- **Tình trạng hiện tại:** `HET_HIEU_LUC_MOT_PHAN` (Điều 2 khoản 3 Thông tư `15/2023/TT-BNNPTNT` bãi bỏ các khoản 1, 2, 3, 5, 6, 7, 9, 10 Điều 1 từ ngày 05-02-2024; phần còn lại được hợp nhất cùng `15/2023/TT-BNNPTNT` và `12/2025/TT-BNNMT` tại `114/2026/VBHN-TT-BNNMT`).",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "15/2023/TT-BNNPTNT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2024-02-05",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-15-2023-tt-bnnptnt-40755.htm"
+    },
+    {
+     "so_hieu": "12/2025/TT-BNNMT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://chinhphu.vn/?pageid=27160&docid=214087"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "71-2010-tt-bnnptnt#3",
+   "slug": "71-2010-tt-bnnptnt",
+   "duong_dan": "wiki/sources/71-2010-tt-bnnptnt.md",
+   "loai_trang": "sources",
+   "tieu_de": "71/2010/TT-BNNPTNT — Ban hành Quy chuẩn kỹ thuật quốc gia về Kiểm dịch và Bảo vệ thực vật",
+   "muc": "Nguồn & đối chiếu",
+   "noi_dung": "- Đã xác minh mức `NGUON_A` qua PDF Công báo số 19+20 ngày 06-01-2011.\n- Tham chiếu liên quan: [[concepts/doc-tinh-trang-hieu-luc]].",
+   "tags": [],
    "confidence": "high",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false

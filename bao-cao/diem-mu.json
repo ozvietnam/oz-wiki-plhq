@@ -1,43 +1,7 @@
 {
   "ngay": "2026-11-25",
-  "tong": 3082,
+  "tong": 3045,
   "diem": [
-    {
-      "ma": "THIEU_VAN_BAN",
-      "muc": "Cao",
-      "tieuDe": "Chưa có trong sổ: 71/2010/TT-BNNPTNT",
-      "muc_tieu": "71/2010/TT-BNNPTNT",
-      "viec": "Tạo registry/van-ban/ cho 71/2010/TT-BNNPTNT (được nhắc bởi 114/2026/VBHN-TT-BNNMT (hop_nhat)). Dùng: node tools/them-van-ban.mjs \"71/2010/TT-BNNPTNT\"",
-      "luong": "he-thong-hoa",
-      "trongSo": 0
-    },
-    {
-      "ma": "THIEU_VAN_BAN",
-      "muc": "Cao",
-      "tieuDe": "Chưa có trong sổ: 15/2023/TT-BNNPTNT",
-      "muc_tieu": "15/2023/TT-BNNPTNT",
-      "viec": "Tạo registry/van-ban/ cho 15/2023/TT-BNNPTNT (được nhắc bởi 114/2026/VBHN-TT-BNNMT (hop_nhat)). Dùng: node tools/them-van-ban.mjs \"15/2023/TT-BNNPTNT\"",
-      "luong": "he-thong-hoa",
-      "trongSo": 0
-    },
-    {
-      "ma": "THIEU_VAN_BAN",
-      "muc": "Cao",
-      "tieuDe": "Chưa có trong sổ: 12/2025/TT-BNNMT",
-      "muc_tieu": "12/2025/TT-BNNMT",
-      "viec": "Tạo registry/van-ban/ cho 12/2025/TT-BNNMT (được nhắc bởi 114/2026/VBHN-TT-BNNMT (hop_nhat)). Dùng: node tools/them-van-ban.mjs \"12/2025/TT-BNNMT\"",
-      "luong": "he-thong-hoa",
-      "trongSo": 0
-    },
-    {
-      "ma": "THIEU_VAN_BAN",
-      "muc": "Cao",
-      "tieuDe": "Chưa có trong sổ: 11/2015/TT-BCT",
-      "muc_tieu": "11/2015/TT-BCT",
-      "viec": "Tạo registry/van-ban/ cho 11/2015/TT-BCT (được nhắc bởi 26/2026/TT-BCT (sua_doi)). Dùng: node tools/them-van-ban.mjs \"11/2015/TT-BCT\"",
-      "luong": "he-thong-hoa",
-      "trongSo": 0
-    },
     {
       "ma": "CO_QUAN_DA_SAP_NHAP",
       "muc": "Thấp",
@@ -3135,15 +3099,6 @@
       "trongSo": 0
     },
     {
-      "ma": "CHUA_PHAN_LOAI",
-      "muc": "Thấp",
-      "tieuDe": "13/2024/TT-BTC: chưa xếp vào cây",
-      "muc_tieu": "13/2024/TT-BTC",
-      "viec": "Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.",
-      "luong": "cay-du-lieu",
-      "trongSo": 0
-    },
-    {
       "ma": "TB_TCHQ_KHONG_NGUON_A",
       "muc": "Thấp",
       "tieuDe": "13/TB-TCHQ/2021: TB-TCHQ chưa có nguồn chính thống",
@@ -3888,6 +3843,15 @@
       "muc_tieu": "149/TB-TCHQ/2019",
       "viec": "Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "tb-tchq",
+      "trongSo": 0
+    },
+    {
+      "ma": "CO_QUAN_DA_SAP_NHAP",
+      "muc": "Thấp",
+      "tieuDe": "15/2023/TT-BNNPTNT (Bộ Nông nghiệp và Phát triển nông thôn) còn ghi hiệu lực — cơ quan đã sáp nhập vào BNNMT",
+      "muc_tieu": "15/2023/TT-BNNPTNT",
+      "viec": "Kiểm tra BNNMT đã ban hành văn bản thay thế chưa.",
+      "luong": "do-tham",
       "trongSo": 0
     },
     {
@@ -9075,15 +9039,6 @@
       "trongSo": 0
     },
     {
-      "ma": "HUONG_DAN_MO_COI",
-      "muc": "Cao",
-      "tieuDe": "2371/QĐ-BTC hướng dẫn văn bản đã hết hiệu lực (38/2019/QH14)",
-      "muc_tieu": "2371/QĐ-BTC",
-      "viec": "Kiểm tra văn bản này còn được áp dụng không (thường hết hiệu lực theo văn bản gốc), hoặc đã có văn bản hướng dẫn mới.",
-      "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
       "ma": "TB_TCHQ_KHONG_NGUON_A",
       "muc": "Thấp",
       "tieuDe": "2382/TB-TCHQ/2018: TB-TCHQ chưa có nguồn chính thống",
@@ -9993,15 +9948,6 @@
       "trongSo": 0
     },
     {
-      "ma": "CHUA_PHAN_LOAI",
-      "muc": "Thấp",
-      "tieuDe": "28/2016/TT-BTC: chưa xếp vào cây",
-      "muc_tieu": "28/2016/TT-BTC",
-      "viec": "Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.",
-      "luong": "cay-du-lieu",
-      "trongSo": 0
-    },
-    {
       "ma": "TB_TCHQ_KHONG_NGUON_A",
       "muc": "Thấp",
       "tieuDe": "2808/TB-TCHQ/2018: TB-TCHQ chưa có nguồn chính thống",
@@ -10809,15 +10755,6 @@
       "muc_tieu": "2976/TB-TCHQ/2018",
       "viec": "Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "tb-tchq",
-      "trongSo": 0
-    },
-    {
-      "ma": "CHUA_PHAN_LOAI",
-      "muc": "Thấp",
-      "tieuDe": "30/2024/TT-BTC: chưa xếp vào cây",
-      "muc_tieu": "30/2024/TT-BTC",
-      "viec": "Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.",
-      "luong": "cay-du-lieu",
       "trongSo": 0
     },
     {
@@ -14979,15 +14916,6 @@
       "trongSo": 0
     },
     {
-      "ma": "CHUA_PHAN_LOAI",
-      "muc": "Thấp",
-      "tieuDe": "38/2016/QĐ-TTg: chưa xếp vào cây",
-      "muc_tieu": "38/2016/QĐ-TTg",
-      "viec": "Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.",
-      "luong": "cay-du-lieu",
-      "trongSo": 0
-    },
-    {
       "ma": "TB_TCHQ_KHONG_NGUON_A",
       "muc": "Thấp",
       "tieuDe": "3800/TB-TCHQ/2019: TB-TCHQ chưa có nguồn chính thống",
@@ -16632,15 +16560,6 @@
       "muc_tieu": "44918/TB-TCHQ/2018",
       "viec": "Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "tb-tchq",
-      "trongSo": 0
-    },
-    {
-      "ma": "CHUA_PHAN_LOAI",
-      "muc": "Thấp",
-      "tieuDe": "45/2016/TT-BTC: chưa xếp vào cây",
-      "muc_tieu": "45/2016/TT-BTC",
-      "viec": "Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.",
-      "luong": "cay-du-lieu",
       "trongSo": 0
     },
     {
@@ -19911,15 +19830,6 @@
       "trongSo": 0
     },
     {
-      "ma": "CHUA_PHAN_LOAI",
-      "muc": "Thấp",
-      "tieuDe": "61/2016/TT-BTC: chưa xếp vào cây",
-      "muc_tieu": "61/2016/TT-BTC",
-      "viec": "Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.",
-      "luong": "cay-du-lieu",
-      "trongSo": 0
-    },
-    {
       "ma": "TB_TCHQ_KHONG_NGUON_A",
       "muc": "Thấp",
       "tieuDe": "6101/TB-TCHQ/2018: TB-TCHQ chưa có nguồn chính thống",
@@ -22563,15 +22473,6 @@
       "muc_tieu": "709/TB-TCHQ/2019",
       "viec": "Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "tb-tchq",
-      "trongSo": 0
-    },
-    {
-      "ma": "CHUA_PHAN_LOAI",
-      "muc": "Thấp",
-      "tieuDe": "71/2018/TT-BTC: chưa xếp vào cây",
-      "muc_tieu": "71/2018/TT-BTC",
-      "viec": "Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.",
-      "luong": "cay-du-lieu",
       "trongSo": 0
     },
     {
@@ -25376,60 +25277,6 @@
     {
       "ma": "WIKI_NHAC_CHUA_DANG_KY",
       "muc": "Vừa",
-      "tieuDe": "Wiki nhắc 71/2010/TT-BNNPTNT nhưng sổ chưa có",
-      "muc_tieu": "71/2010/TT-BNNPTNT",
-      "viec": "Thêm vào sổ (wiki/sources/114-2026-vbhn-tt-bnnmt.md).",
-      "luong": "lien-ket-cheo",
-      "trongSo": 0
-    },
-    {
-      "ma": "WIKI_NHAC_CHUA_DANG_KY",
-      "muc": "Vừa",
-      "tieuDe": "Wiki nhắc 15/2023/TT-BNNPTNT nhưng sổ chưa có",
-      "muc_tieu": "15/2023/TT-BNNPTNT",
-      "viec": "Thêm vào sổ (wiki/sources/114-2026-vbhn-tt-bnnmt.md).",
-      "luong": "lien-ket-cheo",
-      "trongSo": 0
-    },
-    {
-      "ma": "WIKI_NHAC_CHUA_DANG_KY",
-      "muc": "Vừa",
-      "tieuDe": "Wiki nhắc 12/2025/TT-BNNMT nhưng sổ chưa có",
-      "muc_tieu": "12/2025/TT-BNNMT",
-      "viec": "Thêm vào sổ (wiki/sources/114-2026-vbhn-tt-bnnmt.md).",
-      "luong": "lien-ket-cheo",
-      "trongSo": 0
-    },
-    {
-      "ma": "WIKI_NHAC_CHUA_DANG_KY",
-      "muc": "Vừa",
-      "tieuDe": "Wiki nhắc 29/2023/NĐ-CP nhưng sổ chưa có",
-      "muc_tieu": "29/2023/NĐ-CP",
-      "viec": "Thêm vào sổ (wiki/sources/13-2024-tt-btc.md).",
-      "luong": "lien-ket-cheo",
-      "trongSo": 0
-    },
-    {
-      "ma": "WIKI_NHAC_CHUA_DANG_KY",
-      "muc": "Vừa",
-      "tieuDe": "Wiki nhắc 11/2014/TT-NHNN nhưng sổ chưa có",
-      "muc_tieu": "11/2014/TT-NHNN",
-      "viec": "Thêm vào sổ (wiki/sources/15029-chq-gsql-2026.md).",
-      "luong": "lien-ket-cheo",
-      "trongSo": 0
-    },
-    {
-      "ma": "WIKI_NHAC_CHUA_DANG_KY",
-      "muc": "Vừa",
-      "tieuDe": "Wiki nhắc 27/2024/TT-BYT nhưng sổ chưa có",
-      "muc_tieu": "27/2024/TT-BYT",
-      "viec": "Thêm vào sổ (wiki/sources/18-2026-tt-byt.md).",
-      "luong": "lien-ket-cheo",
-      "trongSo": 0
-    },
-    {
-      "ma": "WIKI_NHAC_CHUA_DANG_KY",
-      "muc": "Vừa",
       "tieuDe": "Wiki nhắc 3235/QĐ-BYT nhưng sổ chưa có",
       "muc_tieu": "3235/QĐ-BYT",
       "viec": "Thêm vào sổ (wiki/sources/18-2026-tt-byt.md).",
@@ -25448,162 +25295,9 @@
     {
       "ma": "WIKI_NHAC_CHUA_DANG_KY",
       "muc": "Vừa",
-      "tieuDe": "Wiki nhắc 35/2024/QH15 nhưng sổ chưa có",
-      "muc_tieu": "35/2024/QH15",
-      "viec": "Thêm vào sổ (wiki/sources/23-2008-qh12.md).",
-      "luong": "lien-ket-cheo",
-      "trongSo": 0
-    },
-    {
-      "ma": "WIKI_NHAC_CHUA_DANG_KY",
-      "muc": "Vừa",
       "tieuDe": "Wiki nhắc 90/2024/TT-BYT nhưng sổ chưa có",
       "muc_tieu": "90/2024/TT-BYT",
       "viec": "Thêm vào sổ (wiki/sources/23153-chq-nvthq-2026.md).",
-      "luong": "lien-ket-cheo",
-      "trongSo": 0
-    },
-    {
-      "ma": "WIKI_NHAC_CHUA_DANG_KY",
-      "muc": "Vừa",
-      "tieuDe": "Wiki nhắc 122/2016/NĐ-CP nhưng sổ chưa có",
-      "muc_tieu": "122/2016/NĐ-CP",
-      "viec": "Thêm vào sổ (wiki/sources/25-2016-tt-btc.md).",
-      "luong": "lien-ket-cheo",
-      "trongSo": 0
-    },
-    {
-      "ma": "WIKI_NHAC_CHUA_DANG_KY",
-      "muc": "Vừa",
-      "tieuDe": "Wiki nhắc 182/2015/TT-BTC nhưng sổ chưa có",
-      "muc_tieu": "182/2015/TT-BTC",
-      "viec": "Thêm vào sổ (wiki/sources/25-2016-tt-btc.md).",
-      "luong": "lien-ket-cheo",
-      "trongSo": 0
-    },
-    {
-      "ma": "WIKI_NHAC_CHUA_DANG_KY",
-      "muc": "Vừa",
-      "tieuDe": "Wiki nhắc 24/2026/TT-BCT nhưng sổ chưa có",
-      "muc_tieu": "24/2026/TT-BCT",
-      "viec": "Thêm vào sổ (wiki/sources/26-2026-tt-bct.md).",
-      "luong": "lien-ket-cheo",
-      "trongSo": 0
-    },
-    {
-      "ma": "WIKI_NHAC_CHUA_DANG_KY",
-      "muc": "Vừa",
-      "tieuDe": "Wiki nhắc 11/2015/TT-BCT nhưng sổ chưa có",
-      "muc_tieu": "11/2015/TT-BCT",
-      "viec": "Thêm vào sổ (wiki/sources/26-2026-tt-bct.md).",
-      "luong": "lien-ket-cheo",
-      "trongSo": 0
-    },
-    {
-      "ma": "WIKI_NHAC_CHUA_DANG_KY",
-      "muc": "Vừa",
-      "tieuDe": "Wiki nhắc 23/2024/TT-BCT nhưng sổ chưa có",
-      "muc_tieu": "23/2024/TT-BCT",
-      "viec": "Thêm vào sổ (wiki/sources/26-2026-tt-bct.md).",
-      "luong": "lien-ket-cheo",
-      "trongSo": 0
-    },
-    {
-      "ma": "WIKI_NHAC_CHUA_DANG_KY",
-      "muc": "Vừa",
-      "tieuDe": "Wiki nhắc 43/2023/TT-BCT nhưng sổ chưa có",
-      "muc_tieu": "43/2023/TT-BCT",
-      "viec": "Thêm vào sổ (wiki/sources/26-2026-tt-bct.md).",
-      "luong": "lien-ket-cheo",
-      "trongSo": 0
-    },
-    {
-      "ma": "WIKI_NHAC_CHUA_DANG_KY",
-      "muc": "Vừa",
-      "tieuDe": "Wiki nhắc 18/2025/TT-BCT nhưng sổ chưa có",
-      "muc_tieu": "18/2025/TT-BCT",
-      "viec": "Thêm vào sổ (wiki/sources/26-2026-tt-bct.md).",
-      "luong": "lien-ket-cheo",
-      "trongSo": 0
-    },
-    {
-      "ma": "WIKI_NHAC_CHUA_DANG_KY",
-      "muc": "Vừa",
-      "tieuDe": "Wiki nhắc 38/2025/TT-BCT nhưng sổ chưa có",
-      "muc_tieu": "38/2025/TT-BCT",
-      "viec": "Thêm vào sổ (wiki/sources/26-2026-tt-bct.md).",
-      "luong": "lien-ket-cheo",
-      "trongSo": 0
-    },
-    {
-      "ma": "WIKI_NHAC_CHUA_DANG_KY",
-      "muc": "Vừa",
-      "tieuDe": "Wiki nhắc 131/2022/NĐ-CP nhưng sổ chưa có",
-      "muc_tieu": "131/2022/NĐ-CP",
-      "viec": "Thêm vào sổ (wiki/sources/295-da-pbp.md).",
-      "luong": "lien-ket-cheo",
-      "trongSo": 0
-    },
-    {
-      "ma": "WIKI_NHAC_CHUA_DANG_KY",
-      "muc": "Vừa",
-      "tieuDe": "Wiki nhắc 22/2022/NĐ-CP nhưng sổ chưa có",
-      "muc_tieu": "22/2022/NĐ-CP",
-      "viec": "Thêm vào sổ (wiki/sources/295-da-pbp.md).",
-      "luong": "lien-ket-cheo",
-      "trongSo": 0
-    },
-    {
-      "ma": "WIKI_NHAC_CHUA_DANG_KY",
-      "muc": "Vừa",
-      "tieuDe": "Wiki nhắc 32/2012/NĐ-CP nhưng sổ chưa có",
-      "muc_tieu": "32/2012/NĐ-CP",
-      "viec": "Thêm vào sổ (wiki/sources/295-da-pbp.md).",
-      "luong": "lien-ket-cheo",
-      "trongSo": 0
-    },
-    {
-      "ma": "WIKI_NHAC_CHUA_DANG_KY",
-      "muc": "Vừa",
-      "tieuDe": "Wiki nhắc 16/2023/QH15 nhưng sổ chưa có",
-      "muc_tieu": "16/2023/QH15",
-      "viec": "Thêm vào sổ (wiki/sources/30-2024-tt-btc.md).",
-      "luong": "lien-ket-cheo",
-      "trongSo": 0
-    },
-    {
-      "ma": "WIKI_NHAC_CHUA_DANG_KY",
-      "muc": "Vừa",
-      "tieuDe": "Wiki nhắc 217/2013/TT-BTC nhưng sổ chưa có",
-      "muc_tieu": "217/2013/TT-BTC",
-      "viec": "Thêm vào sổ (wiki/sources/36-2017-tt-btc.md).",
-      "luong": "lien-ket-cheo",
-      "trongSo": 0
-    },
-    {
-      "ma": "WIKI_NHAC_CHUA_DANG_KY",
-      "muc": "Vừa",
-      "tieuDe": "Wiki nhắc 156/2020/NĐ-CP nhưng sổ chưa có",
-      "muc_tieu": "156/2020/NĐ-CP",
-      "viec": "Thêm vào sổ (wiki/sources/36-2017-tt-btc.md).",
-      "luong": "lien-ket-cheo",
-      "trongSo": 0
-    },
-    {
-      "ma": "WIKI_NHAC_CHUA_DANG_KY",
-      "muc": "Vừa",
-      "tieuDe": "Wiki nhắc 23/2021/TT-BTC nhưng sổ chưa có",
-      "muc_tieu": "23/2021/TT-BTC",
-      "viec": "Thêm vào sổ (wiki/sources/3982-tchq-gsql.md).",
-      "luong": "lien-ket-cheo",
-      "trongSo": 0
-    },
-    {
-      "ma": "WIKI_NHAC_CHUA_DANG_KY",
-      "muc": "Vừa",
-      "tieuDe": "Wiki nhắc 100/2020/NĐ-CP nhưng sổ chưa có",
-      "muc_tieu": "100/2020/NĐ-CP",
-      "viec": "Thêm vào sổ (wiki/sources/3982-tchq-gsql.md).",
       "luong": "lien-ket-cheo",
       "trongSo": 0
     },
@@ -27505,33 +27199,6 @@
       "viec": "danh-muc/765-qd-bct-2019.csv dòng 1407 (\"Băng (miếng) và nút bông vệ sinh, khăn và tã lót cho trẻ và \"). Đã ánh xạ sang hs_moi: 96190099 (loai: tu_dong_6s) trong registry/phien-ban-bieu-thue-mapping.yaml; đối chiếu bản gốc khi cập nhật danh-muc/.",
       "luong": "danh-muc-hs",
       "trongSo": 0
-    },
-    {
-      "ma": "HANG_THAT_CHUA_DOI_CHIEU_KTCN",
-      "muc": "Thấp",
-      "tieuDe": "Hàng thật mã 34060000 chưa đối chiếu danh mục KTCN 2026",
-      "muc_tieu": "34060000",
-      "viec": "Món hàng thật (OZ, gặp gần nhất 2026-11-16) mang mã 34060000 nhưng chưa bảng danh mục KTCN 2026 nào trong danh-muc/ phủ mã này. Chưa bảng KTCN 2026 nào có dòng nhóm 3406 — nhiều khả năng không thuộc diện; xác nhận theo phạm vi các danh mục. Kết luận: thuộc diện → bổ sung dòng vào bảng (docs/luoc-do-danh-muc-hs.md); không thuộc diện → ghi 1 dòng vào doi-chieu/hang-that.csv (ma_hs,ket_luan,can_cu,ngay,ghi_chu) để việc tự đóng.",
-      "luong": "danh-muc-hs",
-      "trongSo": 1000
-    },
-    {
-      "ma": "HANG_THAT_CHUA_DOI_CHIEU_KTCN",
-      "muc": "Thấp",
-      "tieuDe": "Hàng thật mã 84135090 chưa đối chiếu danh mục KTCN 2026",
-      "muc_tieu": "84135090",
-      "viec": "Món hàng thật (OZ, gặp gần nhất 2026-11-16) mang mã 84135090 nhưng chưa bảng danh mục KTCN 2026 nào trong danh-muc/ phủ mã này. Bảng KTCN 2026 có dòng cùng nhóm 8413: 125/2026/TT-BCA — mở bản gốc đối chiếu xem mã 84135090 có bị trích sót không. Kết luận: thuộc diện → bổ sung dòng vào bảng (docs/luoc-do-danh-muc-hs.md); không thuộc diện → ghi 1 dòng vào doi-chieu/hang-that.csv (ma_hs,ket_luan,can_cu,ngay,ghi_chu) để việc tự đóng.",
-      "luong": "danh-muc-hs",
-      "trongSo": 1500
-    },
-    {
-      "ma": "HANG_THAT_CHUA_DOI_CHIEU_KTCN",
-      "muc": "Thấp",
-      "tieuDe": "Hàng thật mã 84718010 chưa đối chiếu danh mục KTCN 2026",
-      "muc_tieu": "84718010",
-      "viec": "Món hàng thật (OZ, gặp gần nhất 2026-11-16) mang mã 84718010 nhưng chưa bảng danh mục KTCN 2026 nào trong danh-muc/ phủ mã này. Biểu thuế đang dẫn: 08/2023/TT-BCT, 11/2018/TT-BTTTT. Bảng KTCN 2026 có dòng cùng nhóm 8471: 126/2026/TT-BQP, 36/2026/TT-BKHCN — mở bản gốc đối chiếu xem mã 84718010 có bị trích sót không. Kết luận: thuộc diện → bổ sung dòng vào bảng (docs/luoc-do-danh-muc-hs.md); không thuộc diện → ghi 1 dòng vào doi-chieu/hang-that.csv (ma_hs,ket_luan,can_cu,ngay,ghi_chu) để việc tự đóng.",
-      "luong": "danh-muc-hs",
-      "trongSo": 1500
     },
     {
       "ma": "HS_API_CHO_MO_CHAN",

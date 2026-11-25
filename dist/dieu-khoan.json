@@ -5,8 +5,8 @@
  "mien_tru": "Tham khảo, không phải tư vấn pháp lý. Xem và đối chiếu văn bản gốc nguồn bậc A trước khi áp dụng.",
  "canh_bao_tang_nhap": "Tầng TOM_TAT_NHAP được trích tự động bởi LLM (da_soat: false) — CHỈ dùng để định vị điều khoản, KHÔNG trích dẫn nguyên văn hay làm căn cứ pháp lý; chỉ dùng NGUYEN_VAN_NGUON_A để trích dẫn căn cứ.",
  "thong_ke": {
-  "so_van_ban_nguon_a": 460,
-  "so_dieu_khoan_nguon_a": 3821,
+  "so_van_ban_nguon_a": 482,
+  "so_dieu_khoan_nguon_a": 4004,
   "so_van_ban_tom_tat_nhap": 88,
   "so_dieu_khoan_tom_tat_nhap": 3684,
   "so_tep_doc_hieu": 91,
@@ -4287,6 +4287,69 @@
    ]
   },
   {
+   "so_hieu": "100/2020/NĐ-CP",
+   "slug": "100-2020-nd-cp",
+   "ten": "Về kinh doanh hàng miễn thuế",
+   "tinh_trang": "HET_HIEU_LUC",
+   "hieu_luc_tu": "2020-10-15",
+   "het_hieu_luc_tu": "2026-08-21",
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=200857",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "Điều 1. Phạm vi điều chỉnh Nghị định này quy định về chính sách quản lý đối với hoạt động kinh doanh hàng miễn thuế; thủ tục hải quan, giám sát hải quan đối với hoạt động kinh doanh hàng miễn thuế.",
+     "trang_pdf": 2
+    },
+    {
+     "dieu": 2,
+     "noi_dung": "Điều 2. Đối tượng áp dụng 1. Người xuất cảnh, quá cảnh, nhập cảnh. 2. Đối tượng được hưởng quyền ưu đãi, miễn trừ tại Việt Nam. 3. Thuyền viên làm việc trên tàu biển chạy tuyến quốc tế. 4. Hành khách trên các chuyến bay quốc tế đi và đến Việt Nam. 5. Doanh nghiệp đủ điều kiện kinh doanh hàng miễn thuế theo quy định của pháp luật. 6. Cơ quan hải quan, công chức hải quan.",
+     "trang_pdf": 2
+    },
+    {
+     "dieu": 3,
+     "noi_dung": "Điều 3. Đối tượng và điều kiện mua hàng miễn thuế 1. Người xuất cảnh, quá cảnh sau khi hoàn thành thủ tục xuất cảnh, quá cảnh, hành khách trên các chuyến bay quốc tế xuất cảnh. từ Việt Nam hoặc người chờ xuất cảnh được mua hàng miễn thuế.",
+     "trang_pdf": 2
+    },
+    {
+     "dieu": 7,
+     "noi_dung": "Điều 7. Đồng tiền dùng trong giao dịch bán hàng miễn thuế 1. Đồng Việt Nam. | 2. Đồng ngoại tệ đô la Mỹ (USD), euro (EUR). 3. Dong tiên của nước có chung biên giới dat liên với dia diém đặt cửa hàng miền thuê tại khu vực biên giới. 4. Đông tiên của quôc gia nơi các chuyên bay quốc tê của các hãng hàng không được thành lập và hoạt động theo pháp luật Việt Nam thực hiện nhập cảnh, quá cảnh tại quốc gia đó.",
+     "trang_pdf": 6
+    },
+    {
+     "dieu": 11,
+     "noi_dung": "Điều 11. Thủ tục hải quan, giám sát hải quan đối với hàng hóa vận A om L2 chuyền giữa kho chứa hàng miễn thuế với tàu bay dé bán hàng miễn thuế trên các chuyến bay quốc tế đi và đến Việt Nam 1. Trách nhiệm của doanh nghiệp kinh doanh hàng miễn thuế",
+     "trang_pdf": 10
+    },
+    {
+     "dieu": 14,
+     "noi_dung": "Điều 14. Thủ tục bán hàng miễn thuế cho đối tượng mua là người nhập cảnh tại cửa khẩu sân bay quốc tế 1. Trách nhiệm của nhân viên bán hàng a) Thực hiện đầy đủ các công việc quy định tại khoản 1 Điều 13 Nghị định này;",
+     "trang_pdf": 16
+    },
+    {
+     "dieu": 17,
+     "noi_dung": "Điều 17. Thu tuc ban hàng miễn thuế cho tổ chức, cá nhân được hưởng quyền ưu đãi miễn trừ mua hàng tại cửa hàng miễn thuế trong nội địa 1. Trách nhiệm của nhân viên bán hàng a) Yêu cầu khách hàng xuất trình Số định mức miễn thuế, trừ trường hợp Số định mức miễn thuế đã được cơ quan có thâm quyền cấp cập nhật thông tin vào công thông tin một cửa quốc gia;",
+     "trang_pdf": 20
+    },
+    {
+     "dieu": 20,
+     "noi_dung": "Điều 20. Tha tục hải quan đối với hàng hóa đã bán cho khách xuất cảnh nhưng giao ở nước ngoài theo yêu cầu của khách 1. Địa điểm làm thủ tục hải quan: Chi cục Hải quan quản lý cửa hàng miễn thuế, kho hàng miễn thuế sau khi khách mua hàng đã thực xuất cảnh.",
+     "trang_pdf": 23
+    },
+    {
+     "dieu": 24,
+     "noi_dung": "Điều 24. Báo cáo quyết toán đối với hàng hóa đưa vào để bán tại cửa hàng miễn thuế 1. Thời hạn nộp báo cáo quyết toán đôi với hàng hóa đưa vào dé bán tại cửa hàng miền thuê a) Định kỳ hàng năm, chậm nhất là ngày. thứ 90 kể từ ngày kết thúc năm. tài chính, doanh nghiệp kinh doanh hàng miễn thuế nộp báo cáo quyết toán tình hình bán hàng miễn thuế trong năm tài chính cho cơ quan hải quan;",
+     "trang_pdf": 26
+    },
+    {
+     "dieu": 28,
+     "noi_dung": "Điều 28. Hiệu lực thi hành 1. Nghị định này có hiệu lực thi hành từ ngày 15 tháng 10 năm 2020. 2. Nghị định này bãi bỏ Nghị định số 167/2016/NĐ-CP ngày 27 tháng 12 năm 2016 của Chính phủ về kinh doanh hàng miễn thuế.",
+     "trang_pdf": 31
+    }
+   ]
+  },
+  {
    "so_hieu": "100/2026/VBHN-TT-BNNMT",
    "slug": "100-2026-vbhn-tt-bnnmt",
    "ten": "Hợp nhất Thông tư ban hành Danh mục đối tượng kiểm dịch thực vật của nước Cộng hòa xã hội chủ nghĩa Việt Nam",
@@ -5051,6 +5114,122 @@
      "dieu": 3,
      "noi_dung": "Điều 3. Quyết định này có hiệu lực thi hành kể từ ngày ký. Chánh Văn phòng Bộ, Vụ trưởng Vụ Pháp chê và Thủ trưởng các đơn vị thuộc Bộ chịu trách nhiệm thi hành Quyét định này. W/",
      "trang_pdf": 2
+    }
+   ]
+  },
+  {
+   "so_hieu": "11/2014/TT-NHNN",
+   "slug": "11-2014-tt-nhnn",
+   "ten": "Quy định việc mang vàng của cá nhân khi xuất cảnh, nhập cảnh",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2014-05-15",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://chinhphu.vn/default.aspx?pageid=27160&docid=175217",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "Điều 1. Phạm vi điều chỉnh va đối tượng áp dụng Thông tư này quy định việc mang theo vàng miếng, vàng nguyên liệu, vàng trang sức, mỹ nghệ khi xuất cảnh, nhập cảnh trong các trường hợp sau:",
+     "trang_pdf": 1
+    },
+    {
+     "dieu": 2,
+     "noi_dung": "Điều 2. Mang vàng khi xuất cảnh, nhập cảnh bằng hộ chiếu 1. Cá nhân Việt Nam và cá nhân nước ngoài xuất cảnh, nhập cảnh bằng hộ chiêu không được phép mang theo vàng miệng, vàng nguyên liệu. Trường |",
+     "trang_pdf": 1
+    },
+    {
+     "dieu": 3,
+     "noi_dung": "Điều 3. Mang vàng khi xuất cảnh, nhập cảnh bằng giấy thông hành biên giới, giấy thông hành nhập xuất cánh, chứng minh thư biên giới 1. Cá nhân Việt Nam và cá nhân nước ngoài khi xuất cảnh, nhập cảnh bằng giấy thông hành biên giới, giấy thông hành nhập xuất cảnh, chứng minh thư biên giới không được mang theo vàng nguyên liệu,-vàng miếng, vàng trang sức, mỹ nghệ trừ trường hợp quy định tại khoản 2 Điều này.",
+     "trang_pdf": 2
+    },
+    {
+     "dieu": 4,
+     "noi_dung": "Điều 4. Mang vàng khi xuất cảnh, nhập cảnh trong trường hợp định cư 1. Cá nhân nước ngoài được phép định cư ở Việt Nam khi nhập cảnh mang theo vàng nguyên liệu, vàng miếng, vàng trang sức, mỹ nghệ có tong khôi lượng từ 300g (ba trăm gam) trở lên phải khai báo với cơ quan Hải quan. 2. Cá nhân Việt Nam được phép định cư ở nước ngoài khi xuất cảnh được mang theo vàng (vàng nguyên liệu, vàng miếng, vàng trang sức, mỹ nghệ) theo quy định sau:",
+     "trang_pdf": 2
+    },
+    {
+     "dieu": 5,
+     "noi_dung": "Điều 5. Thủ tục cấp giấy phép mang vàng khi xuất cảnh định cư ở nước ngoài 1. Cá nhân Việt Nam được phép định cư ở nước ngoài có nhu cầu mang vàng khi xuất cảnh theo quy định tại điểm b khoản 2 Điều 4 Thông tư này phải gửi trực tiếp hoặc qua đường bưu điện 01 (một) bộ hồ sơ đến Ngân hàng Nhà nước chi nhánh tỉnh, thành phố trực thuộc Trung ương nơi cá nhân đó cư trú. Hồ sơ gồm:",
+     "trang_pdf": 2
+    },
+    {
+     "dieu": 6,
+     "noi_dung": "Điều 6. Hiệu lực thi hành 1. Thông tư này có hiệu lực thi hành từ ngày 15 tháng S năm 2014 và thay thê Quyét định số 1165/2001/QD- NHNN naày 12/9/2001 của Thông doc Ngân hàng Nhà nước về việc mang vàng của cá nhân khi xuất cảnh, nhập cảnh.",
+     "trang_pdf": 3
+    }
+   ]
+  },
+  {
+   "so_hieu": "11/2015/TT-BCT",
+   "slug": "11-2015-tt-bct",
+   "ten": "Quy định về quá cảnh hàng hóa của nước Cộng hòa nhân dân Trung Hoa qua lãnh thổ nước Cộng hòa xã hội chủ nghĩa Việt Nam",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2015-07-20",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-11-2015-tt-bct-12729.htm",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "Điều 1. Phạm vi điều chỉnh Thông tư này quy định về thủ tục cấp giấy phép quá cảnh hàng hóa, vận chuyển hàng hóa quá cảnh theo quy định của Hiệp định giữa Chính phủ nước Cộng hòa xã hội chủ nghĩa Việt Nam và Chính phủ nước Cộng hòa nhân dân Trung Hoa về quá cảnh hàng hóa ngày 09 tháng 4 năm 1994 (sau đây viết tắt là Hiệp định).",
+     "trang_pdf": 1,
+     "sha256_pdf": "267b934af56ea561fc9af548e2ba78395cf59d1a005a3f928dfbc4758ff21d1a"
+    },
+    {
+     "dieu": 2,
+     "noi_dung": "Điều 2. Đối tượng áp dụng Thông tư này áp dụng đối với cơ quan, tổ chức và cá nhân tham gia các hoạt động có liên quan đến quá cảnh hàng hóa theo quy định của Hiệp định.",
+     "trang_pdf": 1,
+     "sha256_pdf": "267b934af56ea561fc9af548e2ba78395cf59d1a005a3f928dfbc4758ff21d1a"
+    },
+    {
+     "dieu": 3,
+     "noi_dung": "Điều 3. Hàng hóa quá cảnh 1. Hàng hóa cấm xuất khẩu, tạm ngừng xuất khẩu, cấm nhập khẩu, tạm ngừng nhập khẩu không được phép quá cảnh lãnh thổ Việt Nam.",
+     "trang_pdf": 1,
+     "sha256_pdf": "267b934af56ea561fc9af548e2ba78395cf59d1a005a3f928dfbc4758ff21d1a"
+    },
+    {
+     "dieu": 6,
+     "noi_dung": "Điều 6. Trình tự, thời hạn giải quyết hồ sơ 1. Đối với thủ tục cấp giấy phép quá cảnh hàng hóa quy định tại Khoản 2 Điều 3 Thông tư này (trừ vật liệu nổ công nghiệp), trình tự, thời hạn giải quyết hồ sơ như sau:",
+     "trang_pdf": 2,
+     "sha256_pdf": "267b934af56ea561fc9af548e2ba78395cf59d1a005a3f928dfbc4758ff21d1a"
+    },
+    {
+     "dieu": 8,
+     "noi_dung": "Điều 8. Tuyến đường quá cảnh Tuyến đường vận chuyển hàng hóa quá cảnh thực hiện theo quy định tại Thông tư số 15/2014/TT-BGTVT ngày 13 tháng 5 năm 2014 của Bộ Giao thông vận tải hướng dẫn về tuyến đường quá cảnh hàng hóa qua lãnh thổ Việt Nam.",
+     "trang_pdf": 3,
+     "sha256_pdf": "267b934af56ea561fc9af548e2ba78395cf59d1a005a3f928dfbc4758ff21d1a"
+    },
+    {
+     "dieu": 10,
+     "noi_dung": "Điều 10. Chứng từ khi làm thủ tục hải quan cho hàng hóa quá cảnh Chủ hàng hoặc người chuyên chở phải nộp, xuất trình cho cơ quan Hải quan Giấy phép quá cảnh được Bộ Công Thương cấp theo quy định tại Thông tư này, Hợp đồng vận chuyển hàng quá cảnh và các loại chứng từ theo quy định của pháp luật về hải quan.",
+     "trang_pdf": 4,
+     "sha256_pdf": "267b934af56ea561fc9af548e2ba78395cf59d1a005a3f928dfbc4758ff21d1a"
+    },
+    {
+     "dieu": 12,
+     "noi_dung": "Điều 12. Thời gian quá cảnh hàng hóa Hàng hóa quá cảnh được phép lưu lại trên lãnh thổ Việt Nam trong thời gian tối đa là 30 ngày kể từ ngày hoàn thành thủ tục hải quan tại cửa khẩu nhập khẩu, trừ trường hợp được gia hạn thời gian quá cảnh theo quy định tại Điều 13 Thông tư này.",
+     "trang_pdf": 4,
+     "sha256_pdf": "267b934af56ea561fc9af548e2ba78395cf59d1a005a3f928dfbc4758ff21d1a"
+    },
+    {
+     "dieu": 14,
+     "noi_dung": "Điều 14. Thay đổi cửa khẩu quá cảnh hàng hóa 1. Việc thay đổi cửa khẩu xuất khẩu, nhập khẩu trong phạm vi quy định tại Điều 7 Thông tư này do cơ quan cấp giấy phép quá cảnh xem xét, giải quyết.",
+     "trang_pdf": 5,
+     "sha256_pdf": "267b934af56ea561fc9af548e2ba78395cf59d1a005a3f928dfbc4758ff21d1a"
+    },
+    {
+     "dieu": 16,
+     "noi_dung": "Điều 16. Quyền và nghĩa vụ của chủ hàng và người chuyên chở hàng hóa quá cảnh 1. Chủ hàng, người chuyên chở thực hiện hoạt động quá cảnh hàng hóa qua lãnh thổ nước Cộng hòa xã hội chủ nghĩa Việt Nam có các quyền và nghĩa vụ theo quy định tại Hiệp định, Thông tư này và các văn bản pháp luật khác có liên quan. 2. Chủ hàng quá cảnh phải nộp lệ phí hải quan và các loại phí khác áp dụng cho hàng hóa quá cảnh theo quy định pháp luật.",
+     "trang_pdf": 7,
+     "sha256_pdf": "267b934af56ea561fc9af548e2ba78395cf59d1a005a3f928dfbc4758ff21d1a"
+    },
+    {
+     "dieu": 19,
+     "noi_dung": "Điều 19. Hiệu lực thi hành 1. Thông tư này có hiệu lực thi hành kể từ ngày 20 tháng 7 năm 2015. 2. Thông tư này thay thế Quyết định số 305/2001/QĐ-BTM ngày 26 tháng 3 năm 2001 của Bộ trưởng Bộ Thương mại ban hành Quy chế về hàng hóa của Cộng hòa nhân dân Trung Hoa quá cảnh lãnh thổ Cộng hòa xã hội chủ nghĩa Việt Nam.",
+     "trang_pdf": 8,
+     "sha256_pdf": "267b934af56ea561fc9af548e2ba78395cf59d1a005a3f928dfbc4758ff21d1a"
     }
    ]
   },
@@ -7038,6 +7217,79 @@
    ]
   },
   {
+   "so_hieu": "12/2025/TT-BNNMT",
+   "slug": "12-2025-tt-bnnmt",
+   "ten": "Quy định phân cấp, phân định thẩm quyền quản lý nhà nước trong lĩnh vực trồng trọt và bảo vệ thực vật",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2025-07-01",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://chinhphu.vn/?pageid=27160&docid=214087",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "Điều 1. Phạm vi điều chỉnh Thông tư này quy định phân cấp, phân định thẩm quyền quản lý nhà nước trong lĩnh vực trồng trọt và bảo vệ thực vật, bao gồm: 1. Quy định về hồ sơ, trình tự, biểu mẫu giải quyết thủ tục hành chính tại khoản 1 Điều 64 Nghị định số 136/2025/NĐ-CP ngày 12 tháng 6 năm 2025 của Chính phủ quy định phân quyền, phân cấp trong lĩnh vực nông nghiệp và môi trường (sau đây gọi là Nghị định số 136/2025/NĐ-CP).",
+     "trang_pdf": 1,
+     "sha256_pdf": "1348e4fb006bc8a2edd1c2b6c6b6330ad0ccebd2d67ccff0157a3c5843b82254"
+    },
+    {
+     "dieu": 2,
+     "noi_dung": "Điều 2. Đối tượng áp dụng Thông tư này áp dụng đối với các cơ quan hành chính nhà nước ở trung ương, chính quyền địa phương, tổ chức, cá nhân có liên quan đến phân cấp, phân định thẩm quyền quản lý nhà nước trong lĩnh vực trồng trọt và bảo vệ thực vật.",
+     "trang_pdf": 2,
+     "sha256_pdf": "1348e4fb006bc8a2edd1c2b6c6b6330ad0ccebd2d67ccff0157a3c5843b82254"
+    },
+    {
+     "dieu": 3,
+     "noi_dung": "Điều 3. Quy định chung về hồ sơ, thủ tục 1. Hồ sơ nộp qua môi trường mạng thực hiện theo quy định tại Nghị định số 45/2020/NĐ-CP ngày 08 tháng 4 năm 2020 của Chính phủ về thực hiện thủ tục hành chính trên môi trường điện tử. 2. Hồ sơ nộp trực tiếp hoặc qua dịch vụ bưu chính là bản chính hoặc bản sao chứng thực hoặc bản chụp kèm bản chính để đối chiếu, trừ các trường hợp khác quy định cụ thể tại Thông tư này.",
+     "trang_pdf": 2,
+     "sha256_pdf": "1348e4fb006bc8a2edd1c2b6c6b6330ad0ccebd2d67ccff0157a3c5843b82254"
+    },
+    {
+     "dieu": 8,
+     "noi_dung": "Điều 8. Cấp lại Giấy chứng nhận đủ điều kiện sản xuất phân bón 1. Hồ sơ gồm: a) Trường hợp Giấy chứng nhận đủ điều kiện sản xuất phân bón hết hạn: Trước thời hạn 03 tháng kể từ ngày Giấy chứng nhận đủ điều kiện sản xuất phân bón hết hạn, tổ chức, cá nhân sản xuất phân bón có nhu cầu tiếp tục sản xuất phân bón phải nộp hồ sơ gồm: Đơn đề nghị cấp lại Giấy chứng nhận đủ điều kiện sản xuất phân bón theo Mẫu số 10 Phụ lục I ban hành kèm theo Thông tư",
+     "trang_pdf": 5,
+     "sha256_pdf": "1348e4fb006bc8a2edd1c2b6c6b6330ad0ccebd2d67ccff0157a3c5843b82254"
+    },
+    {
+     "dieu": 11,
+     "noi_dung": "Điều 11. Sửa đổi, đình chỉ, hủy bỏ hiệu lực của quyết định chuyển giao bắt buộc quyền sử dụng giống cây trồng 1. Hồ sơ gồm: a) Đơn đề nghị sửa đổi, đình chỉ hiệu lực, hủy bỏ hiệu lực của quyết định chuyển giao bắt buộc quyền sử dụng giống cây trồng theo Mẫu số 19 Phụ lục I ban hành kèm theo Thông tư này;",
+     "trang_pdf": 7,
+     "sha256_pdf": "1348e4fb006bc8a2edd1c2b6c6b6330ad0ccebd2d67ccff0157a3c5843b82254"
+    },
+    {
+     "dieu": 15,
+     "noi_dung": "Điều 15. Công nhận các tiêu chuẩn Thực hành nông nghiệp tốt khác (GAP khác) cho áp dụng để được hưởng chính sách hỗ trợ trong nông nghiệp, lâm nghiệp và thủy sản 1. Hồ sơ gồm: a) Giấy đăng ký công nhận GAP khác theo Mẫu số 24 Phụ lục I ban hành kèm theo Thông tư này;",
+     "trang_pdf": 8,
+     "sha256_pdf": "1348e4fb006bc8a2edd1c2b6c6b6330ad0ccebd2d67ccff0157a3c5843b82254"
+    },
+    {
+     "dieu": 19,
+     "noi_dung": "Điều 19. Ghi nhận tổ chức dịch vụ đại diện quyền đối với giống cây trồng 1. Hồ sơ gồm: a) Đơn yêu cầu ghi nhận tổ chức dịch vụ đại diện quyền đối với giống cây trồng theo Mẫu số 33 Phụ lục I ban hành kèm theo Thông tư này;",
+     "trang_pdf": 10,
+     "sha256_pdf": "1348e4fb006bc8a2edd1c2b6c6b6330ad0ccebd2d67ccff0157a3c5843b82254"
+    },
+    {
+     "dieu": 23,
+     "noi_dung": "Điều 23. Cấp lại Thẻ hành nghề xử lý vật thể thuộc diện kiểm dịch thực vật quy định tại Điều 9 Thông tư số 05/2015/TT-BNNPTNT ngày 12 tháng 02 năm 2015 quy định về trình tự, thủ tục cấp Giấy chứng nhận hành nghề xử lý vật thể thuộc diện kiểm dịch thực vật 1. Hồ sơ gồm: a) Đơn đề nghị cấp lại thẻ hành nghề xử lý vật thể thuộc diện kiểm dịch thực vật theo Mẫu số 35 Phụ lục I ban hành kèm theo Thông tư này;",
+     "trang_pdf": 12,
+     "sha256_pdf": "1348e4fb006bc8a2edd1c2b6c6b6330ad0ccebd2d67ccff0157a3c5843b82254"
+    },
+    {
+     "dieu": 26,
+     "noi_dung": "Điều 26. Sửa đổi, bổ sung một số điều của Thông tư số 21/2015/TTBNNPTNT ngày 08 tháng 6 năm 2015 về quản lý thuốc bảo vệ thực vật 1. Thay thế từ “huyện” bằng từ “xã” tại Điều 19. 2. Sửa đổi, bổ sung tiêu đề khoản 2 Điều 61 như sau: “2.",
+     "trang_pdf": 15,
+     "sha256_pdf": "1348e4fb006bc8a2edd1c2b6c6b6330ad0ccebd2d67ccff0157a3c5843b82254"
+    },
+    {
+     "dieu": 31,
+     "noi_dung": "Điều 31. Quy định chuyển tiếp 1. Văn bản, giấy phép, giấy chứng nhận là kết quả giải quyết thủ tục hành chính đã được cơ quan, người có thẩm quyền phân quyền, phân cấp ban hành trước ngày Thông tư này có hiệu lực thi hành và chưa hết hiệu lực hoặc chưa hết thời hạn thì tiếp tục được áp dụng, sử dụng theo thời hạn ghi trên văn bản, giấy phép, giấy chứng nhận đó cho đến khi hết thời hạn.",
+     "trang_pdf": 17,
+     "sha256_pdf": "1348e4fb006bc8a2edd1c2b6c6b6330ad0ccebd2d67ccff0157a3c5843b82254"
+    }
+   ]
+  },
+  {
    "so_hieu": "120/2022/NĐ-CP",
    "slug": "120-2022-nd-cp",
    "ten": "Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Đối tác kinh tế toàn diện ASEAN - Nhật Bản giai đoạn 2022 - 2028",
@@ -7361,6 +7613,64 @@
      "dieu": 3,
      "noi_dung": "Điều 3. Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc trung ương và Thủ trưởng các cơ quan có liên quan chịu trách nhiệm thi hành Quyết định này./.",
      "trang_pdf": 1
+    }
+   ]
+  },
+  {
+   "so_hieu": "122/2016/NĐ-CP",
+   "slug": "122-2016-nd-cp",
+   "ten": "Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi, Danh mục hàng hóa và mức thuế tuyệt đối, thuế hỗn hợp, thuế nhập khẩu ngoài hạn ngạch thuế quan",
+   "tinh_trang": "HET_HIEU_LUC",
+   "hieu_luc_tu": "2016-09-01",
+   "het_hieu_luc_tu": "2023-07-15",
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=186238",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "Điều 1. Phạm vi điều chỉnh Nghị định này ban hành Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi, Danh mục hàng hóa và mức thuế tuyệt đối, thuế hỗn hợp và thuế nhập khẩu ngoài hạn ngạch thuế quan.",
+     "trang_pdf": 1
+    },
+    {
+     "dieu": 2,
+     "noi_dung": "Điều 2. Đối tượng áp dụng 1. Người nộp thuế theo quy định của Luật thuế xuất khẩu, thuế nhập khâu. 2. Cơ quan hải quan, công chức hải quan. 3. Tổ chức, cá nhân có quyền và nghĩa vụ liên quan đến hàng hoá xuất khâu, nhập khâu.",
+     "trang_pdf": 1
+    },
+    {
+     "dieu": 3,
+     "noi_dung": "Điều 3. Ban hành Biểu thuế xuất khẩu, Biểu thuế nhập khẩu theo danh mục chịu thuế, Danh mục hàng hóa và mức thuế tuyệt đối, thuế hỗn hợp, thuế nhập khấu ngoài hạn ngạch thuế quan Ban hành kèm theo Nghị định này: _ 1. Phụ lục I - Biểu thuế xuất khẩu theo danh mục mặt hàng chịu thuế.",
+     "trang_pdf": 1
+    },
+    {
+     "dieu": 4,
+     "noi_dung": "Điều 4. Biểu thuế xuất khẩu theo danh mục mặt hàng chịu thuế 1. Biểu thuế xuất khẩu theo danh mục mặt hàng chịu thuế quy định tại Phụ lục I ban hành kèm theo Nghị định này gồm mã hàng, mô tả hàng hoá, mức thuế suất thuế xuất khâu quy định cho từng nhóm mat hàng, mặt hàng chịu thuế xuất khẩu.",
+     "trang_pdf": 2
+    },
+    {
+     "dieu": 5,
+     "noi_dung": "Điều 5. Biểu thuế nhập khẩu ưu đãi theo danh mục mặt hàng chịu thuế Biểu thuế nhập khẩu ưu đãi theo danh mục mặt hàng chịu thuế quy định tại Phụ lục II bao gôm:",
+     "trang_pdf": 3
+    },
+    {
+     "dieu": 6,
+     "noi_dung": "Điều 6. Thuế suất thuế nhập khẫu ưu đãi đối với các mặt hàng máy gia công cơ khí và hóa dầu 1. Các mặt hàng máy gia công cơ khí thuộc các nhóm hàng từ 84.54 đến 84.63 áp dụng mức thuê suat thuê nhập khâu ưu đãi như sau:",
+     "trang_pdf": 4
+    },
+    {
+     "dieu": 7,
+     "noi_dung": "Điều 7. Thuế nhập khẩu đối với mặt hàng xe ôtô đã qua sử dụng 1. Xe ôtô chở người từ 09 chỗ ngồi trở xuống (kê cả lái xe) có dung tích xi lanh đưới 1.500cc thuộc nhóm hàng 87.03 và xe 6 tô chở người từ 10 den 15 chỗ ngồi (kể cả lái xe) thuộc nhóm hàng 87.02 áp dụng mức thuê tuyệt đối quy định tại Phụ lục II ban hành kèm theo Nghị định này.",
+     "trang_pdf": 5
+    },
+    {
+     "dieu": 8,
+     "noi_dung": "Điều 8. Danh mục hàng hóa và mức thuế suất thuế nhập khẩu ngoài hạn ngạch thuế quan đối với các mặt hàng thuộc diện áp dụng hạn ngạch thuê quan __ 1, Danh mục hàng hoa thuộc diện áp dung hạn ngạch thuế quan gồm một số mặt hàng thuộc các nhóm 04.07; 17.01; 24.01; 25.01 được quy định tại Phụ lục IV ban hành kèm theo Nghị định này. 2. Mức thuế suất thuế nhập khẩu ngoài hạn ngạch thuế quan quy định tại Phụ lục IV ban hành kèm theo Nghị định này.",
+     "trang_pdf": 5
+    },
+    {
+     "dieu": 9,
+     "noi_dung": "Điều 9. Tổ chức thực hiện 1. Nghị định này có hiệu lực thi hành từ ngày 01 tháng 9 năm 2016. 2. Nghị định này bãi bỏ: a) Quyết định số 36/2011/QĐ-TTg ngày 29 tháng 6 năm 2011 của Thủ tướng Chính phủ về việc ban hành mức thuế nhập khẩu đối với mặt hang xe 6 tô chở người từ 15 chỗ ngồi trở xuống (kê cả lái xe) đã qua sử dụng;",
+     "trang_pdf": 6
     }
    ]
   },
@@ -9249,6 +9559,69 @@
    ]
   },
   {
+   "so_hieu": "131/2022/NĐ-CP",
+   "slug": "131-2022-nd-cp",
+   "ten": "Quy định chi tiết một số điều của Luật Điện ảnh",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2023-01-01",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://chinhphu.vn/?pageid=27160&docid=207119&classid=1&orggroupid=2",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "Điều 1. Phạm vi điều chỉnh Nghị định này quy định chỉ tiết điểm d và điểm e khoản 2 Điều 5; khoản 1 và điểm a khoản 3 Điều 14; điểm a và điểm c khoản 3 Điều 19; khoản 2 Điều 20; điểm b, điểm c, điểm d, điểm đ khoản 2, điểm a khoản 3 và khoản 4 Điều 21; khoản 2 Điều 22; khoản 2 Điều 38; khoản 2 Điều 42 Luật Điện ảnh, gồm các nội dung sau: 7",
+     "trang_pdf": 1
+    },
+    {
+     "dieu": 2,
+     "noi_dung": "Điều 2. Đối tượng áp dụng Nghị định này áp dụng đối với cơ quan, tổ chức, cá nhân Việt Nam tham gia hoạt động điện ảnh tại Việt Nam và ở nước ngoài; tổ chức, cá nhân nước ngoài tham gia hoạt động điện ảnh tại Việt Nam và cơ quan quản lý nhà nước vệ điện ảnh, cơ quan, tổ chức, cá nhân có liên quan đến hoạt động điện ảnh.",
+     "trang_pdf": 2
+    },
+    {
+     "dieu": 3,
+     "noi_dung": "Điều 3. Giải thích từ ngữ 1. Chủ đầu tư dự án sản xuất phim sử dụng ngân sách nhà nước (sau đây gọi là Chú đầu tư) là cơ quan, don vị được quy định tại khoản 2 Điều 14 Luật Điện ảnh.",
+     "trang_pdf": 2
+    },
+    {
+     "dieu": 6,
+     "noi_dung": "Điều 6. Đầu tư, hỗ trợ nghiên cứu, ứng dụng thành tựu khoa học và ˆ aA on ok A 2A - công nghệ tiên tiên trong hoạt động điện ảnh 1. Đầu tư công nghệ tiên tiến phục vụ các hoạt động điện ảnh và công tác quản lý nhà nước. 2. Số hóa phim, kịch bản, đữ liệu, tài liệu khác và xây dựng hệ thống hạ tầng lưu trữ của các cơ sở lưu trữ phim và các cơ quan quản lý nhà nước về điện ảnh.",
+     "trang_pdf": 5
+    },
+    {
+     "dieu": 9,
+     "noi_dung": "Điều 9. Tỷ lệ suất chiếu phim, Việt Nam, khung giờ chiếu phim Việt Nam, thời lượng và khung giờ chiếu phim cho trẻ em trong hệ thống rap chiéu phim | 1. Phim Việt Nam phải được chiêu trong hệ thông rap chiêu phim, đặc biệt vào các đợt phim kỷ niệm các ngày lễ lớn của đất nước, phục vụ nhiệm vụ chính trị, xã hội, đối ngoại theo yêu cầu của co quan nhà nước có thâm quyền. | 2. Phim Việt Nam được ưu tiên chiếu vào khung thời gian từ 18 đến 22 giờ.",
+     "trang_pdf": 8
+    },
+    {
+     "dieu": 11,
+     "noi_dung": "Điều 11. Tỷ lệ thời lượng phát sóng phim Việt Nam so với phim nước ngoài, khung giờ phát sóng phim Việt Nam, thời lượng và khung giờ phát sóng phim cho trẻ em trên các kênh có phát phim trên kênh truyền h hình trong nước - 1. Phim Việt Nam được phát sóng trên các kênh truyền hình trong nước phải được: a) Tăng thời lượng chiếu vào các ngày lễ lớn của đất nước, phục vụ nhiệm vụ chính trị, xã hội, đối ngoại;",
+     "trang_pdf": 9
+    },
+    {
+     "dieu": 13,
+     "noi_dung": "Điều 13. Thông báo danh sách phim sẽ phố biến và kết quả phân loại phim cho Bộ Văn hóa, Thể thao và Du lịch trước khi thực hiện phố biến phim trên không gian mạng",
+     "trang_pdf": 11
+    },
+    {
+     "dieu": 15,
+     "noi_dung": "Điều 15. Cung cấp đầu mối, thông tin liên hệ dé tiếp nhận, xử lý yêu cầu của cơ quan quản lý nhà nước | 1. Doanh nghiép, don vi su nghiép, tổ chức thực hiện hoạt động phổ biến phim trên không gian mạng phải cung cấp các thông tin sau cho cơ quan rihà nước có thâm quyền về điện ảnh của Bộ Văn hoá, Thể thao và Du lịch: | a) Tén doanh nghiép, don vi su nghiép, tô chức;",
+     "trang_pdf": 12
+    },
+    {
+     "dieu": 18,
+     "noi_dung": "Điều 18. Cơ quan nhà nước có thẩm quyền tại địa phương tiếp nhận thông báo về việc chiếu phim công cộng 1. Ủy ban nhân dân cấp tỉnh tiếp nhận thông báo của các nhà hát, nhà văn hóa, nha triên lãm, trung tâm văn hóa, câu lạc bộ, sân vận động, nhà thi dau thê _ thao, quảng trường.",
+     "trang_pdf": 14
+    },
+    {
+     "dieu": 21,
+     "noi_dung": "Điều 21. Điều khoản thi hành 1. Nghị định nay có hiệu lực thi hành từ ngày 01 tháng 01 năm 2023. 2. Nghị định này thay thế Nghị định số 54/2010/NĐ-CP ngày 21 tháng 5 năm 2010 của Chính phủ quy định chỉ tiết thi hành một số điều của Luật Điện ảnh số 62/2006/QH1 1 và Luật sửa đổi, bổ sung một số điều của Luật Điện ảnh số 31/2009/QH12.",
+     "trang_pdf": 15
+    }
+   ]
+  },
+  {
    "so_hieu": "1310/QĐ-BCT",
    "slug": "1310-qd-bct-2026",
    "ten": "Gia hạn biện pháp chống lẩn tránh biện pháp phòng vệ thương mại đối với một số sản phẩm đường mía",
@@ -10900,6 +11273,37 @@
    ]
   },
   {
+   "so_hieu": "15/2023/TT-BNNPTNT",
+   "slug": "15-2023-tt-bnnptnt",
+   "ten": "Bãi bỏ các thông tư do Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn ban hành",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2024-02-05",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-15-2023-tt-bnnptnt-40755.htm",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "Điều 1. Bãi bỏ toàn bộ các thông tư Bãi bỏ toàn bộ các thông tư sau đây: 1. Thông tư số 48/2011/TT-BNNPTNT ngày 05/7/2011 của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn ban hành quy chuẩn kỹ thuật quốc gia về khảo nghiệm giống cây trồng.",
+     "trang_pdf": 1,
+     "sha256_pdf": "f030248da24570f0ebcad546dccdf3b3f3bd9fcb53ee26286dd30a5a0cc97a20"
+    },
+    {
+     "dieu": 2,
+     "noi_dung": "Điều 2. Bãi bỏ một phần các thông tư Bãi bỏ một phần các thông tư sau đây: 1. Bãi bỏ khoản 1 Điều 1 Thông tư số 55/2009/TT-BNNPTNT ngày 28/8/2009 của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn ban hành quy chuẩn kỹ thuật quốc gia về bảo vệ và kiểm dịch thực vật.",
+     "trang_pdf": 2,
+     "sha256_pdf": "f030248da24570f0ebcad546dccdf3b3f3bd9fcb53ee26286dd30a5a0cc97a20"
+    },
+    {
+     "dieu": 3,
+     "noi_dung": "Điều 3. Điều khoản thi hành 1. Thông tư này có hiệu lực từ ngày 05 tháng 02 năm 2024. 2. Quy định chuyển tiếp: a) Thuốc bảo vệ thực vật đang thực hiện khảo nghiệm theo quy chuẩn kỹ thuật quốc gia quy định tại khoản 1 Điều 1 Thông tư số 55/2009/TT-BNNPTNT ngày 28/8/2009 của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn ban hành quy chuẩn kỹ thuật quốc gia về bảo vệ và kiểm dịch thực vật;",
+     "trang_pdf": 3,
+     "sha256_pdf": "f030248da24570f0ebcad546dccdf3b3f3bd9fcb53ee26286dd30a5a0cc97a20"
+    }
+   ]
+  },
+  {
    "so_hieu": "15/2024/TT-BYT",
    "slug": "15-2024-tt-byt",
    "ten": "Ban hành Danh mục thực phẩm, phụ gia thực phẩm và dụng cụ chứa đựng thực phẩm, vật liệu bao gói tiếp xúc trực tiếp với thực phẩm đã được xác định mã số hàng hóa theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam phải kiểm tra nhà nước về an toàn thực phẩm nhập khẩu thuộc phạm vi quản lý của Bộ Y tế",
@@ -11358,6 +11762,142 @@
      "noi_dung": "Điều 220. Điều khoản chuyển tiếp239 1. Quyền tác giả, quyền liên quan được bảo hộ theo quy định của các văn bản pháp luật có hiệu lực trước ngày Luật này có hiệu lực, nếu còn thời hạn bảo hộ vào ngày Luật này có hiệu lực thì được tiếp tục bảo hộ theo quy định của Luật này.",
      "trang_pdf": 133,
      "sha256_pdf": "313f5aec815cc110e90bc8a461f8ea05e3bed818a24b8278f48065b1483a0dbb"
+    }
+   ]
+  },
+  {
+   "so_hieu": "156/2020/NĐ-CP",
+   "slug": "156-2020-nd-cp",
+   "ten": "Quy định xử phạt vi phạm hành chính trong lĩnh vực chứng khoán và thị trường chứng khoán",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2021-01-01",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=202223",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "Điều 1. Phạm vi điều chỉnh 1. Nghị định này quy định các hành vi vi phạm hành chính, hình thức xử phạt, mức xử phạt, biện pháp khắc phục hậu quả đối với hành vi vi phạm hành chính, thâm quyền xử phạt và thẩm quyền lập biên bản vi phạm hành chính trong lĩnh vực chứng khoán và thị trường chứng khoán. 2. Vi phạm hành chính trong lĩnh vực chứng khoán và thị trường chứng khoán quy định tại Nghị định này bao gồm:",
+     "trang_pdf": 1
+    },
+    {
+     "dieu": 2,
+     "noi_dung": "Điều 2. Đối tượng bị xử phạt vi phạm hành chính 1. Tổ chức, cá nhân Việt Nam và tổ chức, cá nhân nước ngoài (sau đây gọi chung là tô chức, cá nhân) thực hiện hành vi vi phạm hành chính trong lĩnh vực chứng khoán và thị trường chứng khoán quy định tại Nghị định này. 2. Tổ chức quy định tại khoản 1 Điều này bao gồm: a) Công ty đại chúng;",
+     "trang_pdf": 2
+    },
+    {
+     "dieu": 3,
+     "noi_dung": "Điều 3. Giải thích từ ngữ Theo Nghị định này, các từ ngữ dưới đây được hiểu như sau: 1. “Sử dụng thông tin nội bộ để mua, bán chứng khoán” là việc thực hiện hành vi bị nghiêm câm trong hoạt động về chứng khoán và thị trường chứng khoán quy định tại khoản 2 Điều 12 Luật Chứng khoán, gồm một, một số hoặc tất cả các hành vi dưới đây: a) Sử dụng thông tin nội bộ để mua, bán chứng khoán cho chính mình hoặc cho người khác;",
+     "trang_pdf": 3
+    },
+    {
+     "dieu": 11,
+     "noi_dung": "Điều 11. Vi phạm quy định về phát hành trái phiếu ra thị trường quốc tế, chào bán chứng khoản tại nước ngoài và phát hành chứng khoán mới làm cơ sở chào bán chứng chỉ lưu ký chứng khoán tại nước ngoài hoặc hỗ trợ phát hành chứng chỉ lưu ký chứng khoán tại nước ngoài trên cơ sở cỗ phiếu đã phát hành tại Việt Nam",
+     "trang_pdf": 17
+    },
+    {
+     "dieu": 18,
+     "noi_dung": "Điều 18. Vi phạm quy định về niêm yết chứng khoán, đăng ký giao dịch chứng khoán 1. Phat tiền từ 70. 000.000 déng dén 100.000.000 déng déi véi hanh vi không làm thủ tục thay đôi đăng ký niêm vết chứng khoán, đăng ký giao dịch chứng khoán hoặc thực hiện niêm yết chứng khoán, đăng ký giao dịch chứng khoán bé sung không đúng thời hạn theo quy định pháp luật.",
+     "trang_pdf": 25
+    },
+    {
+     "dieu": 25,
+     "noi_dung": "Điều 25. Vi phạm quy định về những thay đổi phải được chấp thuận 1. Phạt tiền từ 50.000.000 đồng đến 100.000.000 đồng đối với công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán, công ty đầu tư chứng khoán, chỉ nhánh công ty chứng khoán hoặc công ty quản lý quỹ nước ngoài tại Việt Nam thay đổi tên của công ty, chỉ nhánh, văn phòng đại diện, phòng giao dịch khi chưa được Uy | ban Chứng khoán Nhà nước chấp thuận bằng văn bản.",
+     "trang_pdf": 31
+    },
+    {
+     "dieu": 33,
+     "noi_dung": "Điều 33. Vi phạm quy định về giao dịch của cỗ đồng Sang lap; cỗ đông lớn, nhóm người có liên quan sở hữu từ 5% trở lên số cỗ phiếu có quyên biéu quyết của công ty đại chúng; nhà đầu tư, nhóm người có liên quan sở hữu từ 5% trở lên chứng chỉ quỹ của quỹ đóng; nhóm nhà đầu tư nước ngoài có liên quan sở hữu từ 5% trở lên sô cô phiếu có quyền biểu quyết của 01 tổ chức phát hành hoặc từ 5% trở lên chứng chỉ quỹ của quỹ đóng;",
+     "trang_pdf": 45
+    },
+    {
+     "dieu": 39,
+     "noi_dung": "Điều 39. Vi phạm quy định về đăng ký, lưu ký, bù trừ và thanh toán chứng khoán 1. Phạt tiền từ 50.000.000 đồng đến 70.000.000 đồng đối với Tổng công ty lưu ký và bù trừ chứng khoán Việt Nam, thành viên lưu ký, thành viên bù trừ, ngân hàng thanh toán thực hiện một trong các hành vi vi phạm sau:",
+     "trang_pdf": 52
+    },
+    {
+     "dieu": 46,
+     "noi_dung": "Điều 46. Hanh vi can trở việc thanh tra, kiểm tra, yêu cầu cung cấp thông tin 1. Phạt tiền từ 50.000.000 đồng đến 100.000.000 đồng đối với một trong các hành vi vi phạm sau: a) Từ chối cung cấp thông tin, tài liệu, đữ liệu điện tử hoặc cung cấp thông tin, tài liệu, dữ liệu điện tử không đúng thời hạn, không đây đủ, chính. xác theo yêu câu của đoàn thanh tra, kiêm tra hoặc người có thâm quyên;",
+     "trang_pdf": 63
+    },
+    {
+     "dieu": 53,
+     "noi_dung": "Điều 53. Điều khoản chuyền tiếp 1. Đối với hành vi vi phạm xảy ra trước thời điểm Nghị định này có hiệu lực mà bị phát hiện hoặc xem xét ra quyết định xử phạt khi Nghị định này đã có hiệu lực thì áp dụng quy định của Nghị định này nêu Nghị định này không quy định trách nhiệm pháp lý hoặc quy định trách nhiệm pháp lý nhẹ hơn.",
+     "trang_pdf": 68
+    }
+   ]
+  },
+  {
+   "so_hieu": "16/2023/QH15",
+   "slug": "16-2023-qh15",
+   "ten": "Luật Giá",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2024-07-01",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=208367&classid=1&orggroupid=1",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "Điều 1. Phạm vi điều chỉnh Luật này quy định về quyền và nghĩa vụ của cơ quan, tổ chức, cá nhân, người tiêu dùng trong lĩnh vực giá, thẩm định giá; hoạt động quản lý, điều tiết giá của Nhà nước; tổng hợp, phân tích, dự báo giá thị trường; cơ sở dữ liệu về giá; thẩm định giá; thanh tra chuyên ngành về giá, kiểm tra việc chấp hành pháp luật về giá, thẩm định giá.",
+     "trang_pdf": 1,
+     "sha256_pdf": "9f9e5cc03f944c9f609e750c034e5f71c7c6256093adebe5aba91331732347ae"
+    },
+    {
+     "dieu": 2,
+     "noi_dung": "Điều 2. Đối tượng áp dụng Luật này áp dụng đối với tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ; người tiêu dùng; cơ quan nhà nước; tổ chức, cá nhân khác có liên quan đến hoạt động trong lĩnh vực giá, thẩm định giá trên lãnh thổ Việt Nam.",
+     "trang_pdf": 1,
+     "sha256_pdf": "9f9e5cc03f944c9f609e750c034e5f71c7c6256093adebe5aba91331732347ae"
+    },
+    {
+     "dieu": 3,
+     "noi_dung": "Điều 3. Áp dụng Luật Giá và pháp luật có liên quan 1. Trường hợp có quy định khác nhau về giá giữa Luật Giá và luật khác được ban hành trước ngày Luật Giá có hiệu lực thi hành thì thực hiện theo quy định của Luật Giá, trừ trường hợp quy định tại khoản 4 Điều này.",
+     "trang_pdf": 1,
+     "sha256_pdf": "9f9e5cc03f944c9f609e750c034e5f71c7c6256093adebe5aba91331732347ae"
+    },
+    {
+     "dieu": 14,
+     "noi_dung": "Điều 14. Nhiệm vụ, quyền hạn của Bộ Tài chính 1. Là cơ quan đầu mối giúp Chính phủ thống nhất quản lý nhà nước về giá, thẩm định giá.",
+     "trang_pdf": 12,
+     "sha256_pdf": "9f9e5cc03f944c9f609e750c034e5f71c7c6256093adebe5aba91331732347ae"
+    },
+    {
+     "dieu": 24,
+     "noi_dung": "Điều 24. Ban hành văn bản định giá hoặc điều chỉnh mức giá; văn bản quy định cơ chế, chính sách về giá 1. Văn bản định giá hoặc điều chỉnh mức giá do cơ quan nhà nước có thẩm quyền định giá ban hành là văn bản hành chính. Việc ban hành văn bản được thực hiện như sau: a) Lập phương án giá; b) Thẩm định phương án giá; c) Trình và ban hành văn bản định giá, điều chỉnh mức giá.",
+     "trang_pdf": 23,
+     "sha256_pdf": "9f9e5cc03f944c9f609e750c034e5f71c7c6256093adebe5aba91331732347ae"
+    },
+    {
+     "dieu": 34,
+     "noi_dung": "Điều 34. Hoạt động tổng hợp, phân tích, dự báo giá thị trường 1. Tổng hợp, phân tích, dự báo giá thị trường là việc thu thập, tổng hợp thông tin, dữ liệu về giá tài sản, hàng hóa, dịch vụ trong một giai đoạn, thời kỳ để phân tích, đánh giá, dự báo về xu hướng biến động của mặt bằng giá thị trường và đề ra phương hướng, giải pháp, biện pháp quản lý, điều tiết giá.",
+     "trang_pdf": 29,
+     "sha256_pdf": "9f9e5cc03f944c9f609e750c034e5f71c7c6256093adebe5aba91331732347ae"
+    },
+    {
+     "dieu": 44,
+     "noi_dung": "Điều 44. Thẻ thẩm định viên về giá 1. Thẻ thẩm định viên về giá là chứng nhận chuyên môn trong lĩnh vực thẩm định giá tài sản hoặc thẩm định giá doanh nghiệp, được cấp cho người đạt yêu cầu tại kỳ thi cấp thẻ thẩm định viên về giá.",
+     "trang_pdf": 33,
+     "sha256_pdf": "9f9e5cc03f944c9f609e750c034e5f71c7c6256093adebe5aba91331732347ae"
+    },
+    {
+     "dieu": 54,
+     "noi_dung": "Điều 54. Đình chỉ kinh doanh dịch vụ thẩm định giá và thu hồi giấy chứng nhận đủ điều kiện kinh doanh dịch vụ thẩm định giá 1. Doanh nghiệp thẩm định giá bị đình chỉ kinh doanh dịch vụ thẩm định giá khi thuộc một trong các trường hợp sau đây: a) Không đáp ứng một trong các điều kiện quy định tại khoản 1 Điều 49 của Luật này trong 03 tháng liên tục;",
+     "trang_pdf": 42,
+     "sha256_pdf": "9f9e5cc03f944c9f609e750c034e5f71c7c6256093adebe5aba91331732347ae"
+    },
+    {
+     "dieu": 64,
+     "noi_dung": "Điều 64. Thông báo kết quả thẩm định giá và báo cáo thẩm định giá 1. Thông báo kết quả thẩm định giá và báo cáo thẩm định giá của hội đồng thẩm định giá được sử dụng làm cơ sở để tham mưu cho cơ quan, tổ chức, người có thẩm quyền xem xét quyết định, phê duyệt giá theo quy định của pháp luật có liên quan. 2. Thời gian có hiệu lực của thông báo kết quả thẩm định giá và báo cáo thẩm định giá được quy định tại Chuẩn mực thẩm định giá Việt Nam.",
+     "trang_pdf": 49,
+     "sha256_pdf": "9f9e5cc03f944c9f609e750c034e5f71c7c6256093adebe5aba91331732347ae"
+    },
+    {
+     "dieu": 75,
+     "noi_dung": "Điều 75. Quy định chuyển tiếp 1. Trong thời hạn 12 tháng kể từ ngày Luật này có hiệu lực thi hành, các doanh nghiệp thẩm định giá đã được cấp giấy chứng nhận đủ điều kiện kinh doanh dịch vụ thẩm định giá theo quy định tại Luật Giá số 11/2012/QH13 phải bảo đảm điều kiện kinh doanh dịch vụ thẩm định giá theo quy định tại Luật này.",
+     "trang_pdf": 59,
+     "sha256_pdf": "9f9e5cc03f944c9f609e750c034e5f71c7c6256093adebe5aba91331732347ae"
     }
    ]
   },
@@ -12545,6 +13085,49 @@
      "dieu": 3,
      "noi_dung": "Điều 3. Truong Ban Công nghệ thông tin va Thong ké hai quan, Truong Ban Giam sat quan ly vé hai quan, Chanh Van phòng, Chi cục trưởng các Chi cục Hai quan khu vực chịu trách nhiệm thi hành Quyết định này./ _",
      "trang_pdf": 2
+    }
+   ]
+  },
+  {
+   "so_hieu": "182/2015/TT-BTC",
+   "slug": "182-2015-tt-btc",
+   "ten": "Ban hành Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi theo danh mục mặt hàng chịu thuế",
+   "tinh_trang": "HET_HIEU_LUC",
+   "hieu_luc_tu": "2016-01-01",
+   "het_hieu_luc_tu": "2016-09-01",
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://chinhphu.vn/default.aspx?pageid=27160&docid=183099",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "Điều 1. Ban hành Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi theo danh mục mặt hàng chịu thuế Ban hành kèm theo Thông tư này: 1. Biểu thuế xuất khẩu theo danh mục mặt hàng chịu thuế quy định tại Phụ lục I. 2. Biểu thuế nhập khẩu ưu đãi theo danh mục mặt hàng chịu thuế quy định tại",
+     "trang_pdf": 1
+    },
+    {
+     "dieu": 2,
+     "noi_dung": "Điều 2. Biểu thuế xuất khẩu theo danh mục mặt hàng chịu thuế 1. Biểu thuế xuất khẩu theo danh mục mặt hàng chịu thuế quy định tại Phụ lục I gồm mô tả hàng hoá và mã hàng (08 chữ số hoặc 10 chữ số), mức thuế suất thuế xuất khẩu quy định cho từng mặt hàng chịu thuế xuất khẩu.",
+     "trang_pdf": 2
+    },
+    {
+     "dieu": 3,
+     "noi_dung": "Điều 3. Biểu thuế nhập khẫu ưu đãi theo danh mục mặt hàng chịu thuế Biểu thuế. nhập khẩu ưu đãi theo danh mục mặt hàng chịu thuế quy định tại Phụ lục H bao gôm:",
+     "trang_pdf": 3
+    },
+    {
+     "dieu": 4,
+     "noi_dung": "Điều 4. Thuế suất thuế nhập khẩu ưu đãi đối với các mặt hàng máy gia công cơ khí trong nước chưa sản xuất được thuộc Chương 84.",
+     "trang_pdf": 4
+    },
+    {
+     "dieu": 5,
+     "noi_dung": "Điều 5. Thuế nhập khẩu ưu đãi đối với mặt hàng ô tô đã qua sử dụng nhập khẩu Thuế nhập khẩu ưu đãi đối với mặt hàng ô tô đã qua sử dụng nhập khẩu được quy định như sau:",
+     "trang_pdf": 4
+    },
+    {
+     "dieu": 6,
+     "noi_dung": "Điều 6. Tổ chức thực hiện 1. Thông tư này có hiệu lực thi hành ké từ ngày 01 tháng 01 năm 2016. 2. Thông tư này bãi bỏ:",
+     "trang_pdf": 4
     }
    ]
   },
@@ -13906,6 +14489,69 @@
    ]
   },
   {
+   "so_hieu": "217/2013/TT-BTC",
+   "slug": "217-2013-tt-btc",
+   "ten": "Hướng dẫn thực hiện xử phạt vi phạm hành chính trong lĩnh vực chứng khoán và thị trường chứng khoán",
+   "tinh_trang": "HET_HIEU_LUC",
+   "hieu_luc_tu": "2014-03-01",
+   "het_hieu_luc_tu": "2021-02-15",
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=172102",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "Điều 1. Đối tượng áp dung 1. Cá nhân, tổ chức có hành vi vi phạm hành chính trong lĩnh vực chứng khoán và thị trường chứng khoán. 2. Cá nhân, tổ chức có liên quan đến VIỆC Xử phạt vi phạm hành chính trong lĩnh vực chứng khoán và thị trường chứng khoán.",
+     "trang_pdf": 1
+    },
+    {
+     "dieu": 2,
+     "noi_dung": "Điều 2. Thời hiệu xử phạt 1. Thời hiệu xử phạt vi phạm hành chính đếi với hành Vi Vi pham trong lĩnh vực chứng khoán và thị trường chứng khoán là 02 năm kế từ ngày chấm đứt hành vi vi pham đối VỚI VÌ phạm hành chính đã kết thúc hoặc kế từ ngày phát hiện hành vi vi phạm đối với vi phạm hành chính đang được thực hiện. Ngày",
+     "trang_pdf": 1
+    },
+    {
+     "dieu": 3,
+     "noi_dung": "Điều 3. Hình thức phạt tiền và biện pháp khắc phục hậu quả 1. Việc xác định mức tiền phạt đối với cá nhân, tổ chức có hành vi vi phạm pháp luật trong lĩnh vực chứng khoán và thị trường chứng khoán được hướng dẫn cụ thé như sau:",
+     "trang_pdf": 2
+    },
+    {
+     "dieu": 6,
+     "noi_dung": "Điều 6. Vi phạm quy định về nộp hồ sơ đăng ký công ty đại chúng Quy định tại Điểm b Khoản 3 Điều 9 Nghị định số 108/2013/NĐ-CP được áp dụng trong trường hợp tổ chức vi phạm đã được hướng dẫn sửa đổi thông tin không chính xác trong hỗ so dang ky cong ty dai chúng nhưng không thực hiện - hoặc thực hiện không đúng theo yêu câu của Uy ban Chứng khoán Nhà nước.",
+     "trang_pdf": 6
+    },
+    {
+     "dieu": 8,
+     "noi_dung": "Điều 8. Vi phạm quy định về tố chức thị trường giao dich chứng khoán 1. Quy định tại Khoản 1 và Khoản 2 Điều 16 Nghị định SỐ 108/2013/NĐ- CP được áp dụng đối với trường hợp tổ chức bất kỳ một địa điểm hoặc một hình thức trao đổi thông tin nào để thực hiện khớp lệnh mua, bán và giao dịch chứng. khoán ngoài Sở giao dịch chứng khoán.",
+     "trang_pdf": 6
+    },
+    {
+     "dieu": 10,
+     "noi_dung": "Điều 10. Vi pham quy dinh vé giao dich nội bộ và giao dich thao ting thị trường chứng khoán 1. Số lợi bất hợp pháp có được do thực hiện hành vi vi phạm quy định tại Khoản 1 và Khoản 3 Điều 29 Nghị định số 108/2013/NĐ-CP là số lợi phát sinh từ việc thực hiện hành vi giao dịch nội bộ hoặc giao dịch thao túng thị trường chứng khoán, sau khi trừ đi các khoản thuê, phí phải nộp.",
+     "trang_pdf": 7
+    },
+    {
+     "dieu": 11,
+     "noi_dung": "Điều 11. Phân định tham quyền xử phat Trường hợp phát hiện hành vi vi phạm hành chính trong lĩnh vực chứng khoán và thị trường chứng khoán, Chánh Thanh tra Ủy ban Chứng khoán Nhà nước xử phạt theo thâm quyên quy định tại Khoản 1 Điều 37 Nghị định số 108/2013/NĐ-CP, trừ trường hợp hành vi vi phạm hành chính được phát hiện qua hoạt động thanh tra chuyên ngành thì thâm quyền xử phạt thuộc Trưởng đoàn Thanh tra chuyên ngành của Ủy ban Chứng khoán",
+     "trang_pdf": 7
+    },
+    {
+     "dieu": 14,
+     "noi_dung": "Điều 14. Chuyến giao vụ việc cho người có thấm quyền xử phat vi phạm hành chính 1. Cơ quan quản lý nhà nước trong quá trình thanh tra, kiểm tra đối với các cá nhân, tổ chức nếu phát hiện có hành vi vi phạm hành chính trong lĩnh vực chứng khoán và thị trường chứng khoán nhưng. không | thuộc thấm quyên xử phạt. của mình thì phải chuyển toàn bộ hồ SƠ vụ việc và đề xuất xử lý bằng văn bản tới Uỷ ban Chứng khoán Nhà nước để giải quyết",
+     "trang_pdf": 8
+    },
+    {
+     "dieu": 16,
+     "noi_dung": "Điều 16. Công bố thông tin về quyết định xử phạt vi phạm hành chính 1. Trong thời hạn 03 ngày làm việc, kế từ ngày ban hành quyết định xử phạt vi phạm hành chỉnh trong lĩnh vực chứng khoán và thị trường chứng khoán, Quyết định xử phạt phải được công bố trên trang thông tin điện tử của Uỷ ban Chứng khoán Nhà nước.",
+     "trang_pdf": 10
+    },
+    {
+     "dieu": 19,
+     "noi_dung": "Điều 19. Trách nhiệm thực hiện 1. Thông tư này có hiệu lực thi hành từ ngày 01 tháng 3-nam 2014 và thay thé Thong tu số 37/201 1/TT-BTC. ngay 16 tháng 03 năm 2011 của Bộ Tai chính hướng dan thi hành Tnột số điều của Nghị định số 85/2010/NĐ-CP ngày 02. tháng 8 năm 2010 của Chính phủ về xử phạt vi phạm hành chính trong lĩnh vực chứng khoán và thị trường chứng khoán.",
+     "trang_pdf": 11
+    }
+   ]
+  },
+  {
    "so_hieu": "217/2025/NĐ-CP",
    "slug": "217-2025-nd-cp",
    "ten": "Quy định về hoạt động kiểm tra chuyên ngành",
@@ -14107,6 +14753,39 @@
      "noi_dung": "Điều 2. Điều khoản thi hành 1. Thông tư này có hiệu lực thi hành kể từ ngày 12 tháng 02 năm 2019 và thay thế các Thông tư sau đây: a) Thông tư số 16/2015/TT-BTTTT ngày 17 tháng 6 năm 2015 của Bộ trưởng Bộ Thông tin và Truyền thông quy định chi tiết thi hành Nghị định số 187/2013/NĐ-CP ngày 20 tháng 11 năm 2013 của Chính phủ về xuất khẩu, nhập khẩu hàng hóa trong lĩnh vực in, phát hành xuất bản phẩm;",
      "trang_pdf": 2,
      "sha256_pdf": "45bf2810296379f26c72be20e945451a415d895d9c35a6fdfc0b0e9316a65382"
+    }
+   ]
+  },
+  {
+   "so_hieu": "22/2022/NĐ-CP",
+   "slug": "22-2022-nd-cp",
+   "ten": "Sửa đổi, bổ sung một số điều của Nghị định số 32/2012/NĐ-CP ngày 12 tháng 4 năm 2012 của Chính phủ về quản lý xuất khẩu, nhập khẩu văn hóa phẩm không nhằm mục đích kinh doanh",
+   "tinh_trang": "HET_HIEU_LUC",
+   "hieu_luc_tu": "2022-05-10",
+   "het_hieu_luc_tu": "2023-01-01",
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=205527",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "Điều 1. Sửa déi, bd sung một số điều của Nghị định số 32/2012/NĐ-CP ngày 12 tháng 4 năm 2012 của Chính phủ về quan lý xuất khẩu, nhập khẩu văn hóa phẫm không nhằm mục đích kinh doanh: 1. Sửa đổi, bd sung Điều 3 như sau: “Điều 3. Giải thích từ ngữ Trong Nghị định này, các từ ngữ dưới đây được hiểu như sau:",
+     "trang_pdf": 1
+    },
+    {
+     "dieu": 2,
+     "noi_dung": "Điều 2. Thay thé cum từ “Sở Văn hóa, Thể thao va Du lịch” của Nghị định số 32/2012/NĐ-CP ngày 12 tháng 4 năm 2012 của Chính phủ về quan lý xuất khẩu, nhập khẩu văn hóa phẩm không nhằm mục đích kinh đoanh Thay thế cụm từ “Sở Văn hóa, Thể thao và Du lịch” bằng “Sở Văn hóa, Thể thao và Du lịch/Sở Văn hóa và Thể thao” tại khoản 1 Điều 7.",
+     "trang_pdf": 3
+    },
+    {
+     "dieu": 3,
+     "noi_dung": "Điều 3. Trách nhiệm tổ chức thực hiện Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc trung ương và các tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành Nghị định này.",
+     "trang_pdf": 3
+    },
+    {
+     "dieu": 4,
+     "noi_dung": "Điều 4. Điều khoản thi hành 1. Nghị định này có hiệu lực từ ngày 10 thang 5 nam 2022.",
+     "trang_pdf": 3
     }
    ]
   },
@@ -14388,6 +15067,136 @@
    ]
   },
   {
+   "so_hieu": "23/2021/TT-BTC",
+   "slug": "23-2021-tt-btc",
+   "ten": "Hướng dẫn việc in, phát hành, quản lý và sử dụng tem điện tử rượu và tem điện tử thuốc lá",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2021-05-15",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-23-2021-tt-btc-33593/35527.htm",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "Điều 1. Phạm vi điều chỉnh Thông tư này quy định về việc in, phát hành, quản lý, sử dụng tem điện tử rượu và tem điện tử thuốc lá.",
+     "trang_pdf": 2,
+     "sha256_pdf": "967fd653b972b3f30e5679d2efe0aff53418ad2960bfc66fd13525b3ea66ab1d"
+    },
+    {
+     "dieu": 2,
+     "noi_dung": "Điều 2. Đối tượng áp dụng 1. Tổ chức, doanh nghiệp, cá nhân sản xuất, nhập khẩu những sản phẩm chịu thuế tiêu thụ đặc biệt (rượu, sản phẩm thuốc lá) thuộc đối tượng sử dụng tem theo quy định của pháp luật. 2. Cơ quan thuế, cơ quan hải quan. Chương II QUY ĐỊNH CỤ THỂ",
+     "trang_pdf": 2,
+     "sha256_pdf": "967fd653b972b3f30e5679d2efe0aff53418ad2960bfc66fd13525b3ea66ab1d"
+    },
+    {
+     "dieu": 3,
+     "noi_dung": "Điều 3. Mẫu tem và quy định về dán tem điện tử 1. Tem điện tử là tem có dấu hiệu nhận biết bằng mắt thường và có chứa các thông tin, dữ liệu điện tử được tra cứu trên Cổng thông tin điện tử của Tổng cục Thuế, Tổng cục Hải quan để phục vụ công tác quản lý của doanh nghiệp, người tiêu dùng và cơ quan quản lý nhà nước.",
+     "trang_pdf": 2,
+     "sha256_pdf": "967fd653b972b3f30e5679d2efe0aff53418ad2960bfc66fd13525b3ea66ab1d"
+    },
+    {
+     "dieu": 4,
+     "noi_dung": "Điều 4. Nguyên tắc quản lý, sử dụng tem điện tử 1. Nguyên tắc quản lý a) Tổng cục Hải quan thực hiện in, phát hành tem điện tử thuốc lá nhập khẩu, tem điện tử rượu nhập khẩu và thực hiện bán tem điện tử thuốc lá nhập khẩu, tem điện tử rượu nhập khẩu cho các doanh nghiệp, tổ chức được phép nhập khẩu sản phẩm thuốc lá, sản phẩm rượu hoặc được mua hàng tịch thu, bán đấu giá của cơ quan có thẩm quyền theo quy định.",
+     "trang_pdf": 4,
+     "sha256_pdf": "967fd653b972b3f30e5679d2efe0aff53418ad2960bfc66fd13525b3ea66ab1d"
+    },
+    {
+     "dieu": 5,
+     "noi_dung": "Điều 5. Quản lý, mua bán tem điện tử thuốc lá nhập khẩu, tem điện tử rượu nhập khẩu 1. Lập kế hoạch a) Doanh nghiệp, tổ chức nhập khẩu sản phẩm rượu, sản phẩm thuốc lá chịu trách nhiệm lập, đăng ký kế hoạch sử dụng tem điện tử trên Hệ thống xử lý dữ liệu điện tử hải quan trước ngày 30 tháng 4 của năm liền trước năm kế hoạch phù hợp với nhu cầu sử dụng tem điện tử của doanh nghiệp, tổ chức.",
+     "trang_pdf": 5,
+     "sha256_pdf": "967fd653b972b3f30e5679d2efe0aff53418ad2960bfc66fd13525b3ea66ab1d"
+    },
+    {
+     "dieu": 6,
+     "noi_dung": "Điều 6. Quản lý tem điện tử thuốc lá, tem điện tử rượu sản xuất để tiêu thụ trong nước 1. Trách nhiệm của cơ quan thuế các cấp trong quản lý Thông báo phát hành và cấp, bán tem điện tử thuốc lá, tem điện tử rượu sản xuất để tiêu thụ trong nước",
+     "trang_pdf": 10,
+     "sha256_pdf": "967fd653b972b3f30e5679d2efe0aff53418ad2960bfc66fd13525b3ea66ab1d"
+    },
+    {
+     "dieu": 7,
+     "noi_dung": "Điều 7. Kinh phí in tem Cơ quan hải quan thực hiện bán tem thuốc lá, rượu nhập khẩu cho các doanh nghiệp nhập khẩu sản phẩm thuốc lá, rượu. Cơ quan thuế thực hiện bán tem thuốc lá, rượu sản xuất để tiêu thụ trong nước cho các tổ chức, cá nhân có Giấy phép sản xuất sản phẩm thuốc lá, rượu (bao gồm Giấy phép sản xuất rượu thủ công nhằm mục đích kinh doanh, Giấy phép sản xuất rượu công nghiệp).",
+     "trang_pdf": 20,
+     "sha256_pdf": "967fd653b972b3f30e5679d2efe0aff53418ad2960bfc66fd13525b3ea66ab1d"
+    },
+    {
+     "dieu": 8,
+     "noi_dung": "Điều 8. Xử lý vi phạm Doanh nghiệp nhập khẩu rượu, tổ chức, cá nhân sản xuất rượu trong nước, doanh nghiệp nhập khẩu sản phẩm thuốc lá, tổ chức sản xuất sản phẩm thuốc lá trong nước làm mất, cháy, hỏng tem và không thực hiện đúng các quy định về báo cáo, hủy tem, quyết toán tem với cơ quan thuế, cơ quan hải quan bị xử phạt theo mức quy định tại Nghị định số 109/2013/NĐ-CP ngày 24/9/2013 của Chính phủ quy định về xử phạt vi phạm hành chính trong",
+     "trang_pdf": 20,
+     "sha256_pdf": "967fd653b972b3f30e5679d2efe0aff53418ad2960bfc66fd13525b3ea66ab1d"
+    },
+    {
+     "dieu": 9,
+     "noi_dung": "Điều 9. Hiệu lực thi hành 1. Thông tư này có hiệu lực thi hành kể từ ngày 15 tháng 5 năm 2021. 2. Từ ngày Thông tư này có hiệu lực thi hành đến ngày 30 tháng 6 năm 2022, các văn bản của Bộ Tài chính ban hành sau đây vẫn có hiệu lực thi hành: a) Thông tư số 15/2020/TT-BTC ngày 23/3/2020 của Bộ Tài chính hướng dẫn việc in, phát hành, quản lý và sử dụng tem đối với rượu sản xuất để tiêu thụ trong nước và rượu nhập khẩu;",
+     "trang_pdf": 21,
+     "sha256_pdf": "967fd653b972b3f30e5679d2efe0aff53418ad2960bfc66fd13525b3ea66ab1d"
+    }
+   ]
+  },
+  {
+   "so_hieu": "23/2024/TT-BCT",
+   "slug": "23-2024-tt-bct",
+   "ten": "Quy định về quản lý, sử dụng vật liệu nổ công nghiệp, tiền chất thuốc nổ thuộc thẩm quyền quản lý của Bộ Công Thương",
+   "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+   "hieu_luc_tu": "2025-01-01",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://chinhphu.vn/?pageid=27160&docid=211705",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "Điều 1. Phạm vi điều chỉnh Thông tư này quy định chi tiết một số điều của Luật Quản lý, sử dụng vũ khí, vật liệu nỗ và công cụ hỗ trợ về quản lý, sử dụng vật liệu nô công nghiệp, tiền chất thuốc nỗ thuộc thẩm quyền quản lý của Bộ Công Thương, bao gồm: Danh mục vật liệu nỗ công nghiệp, Danh mục tiền chất thuốc no được phép sản xuất, kinh doanh và sử dụng ở Việt Nam;",
+     "trang_pdf": 1
+    },
+    {
+     "dieu": 2,
+     "noi_dung": "Điều 2. Đối tượng áp dụng Thông tư này áp dụng đối với co quan, tổ chức, doanh nghiệp, cá nhân liên quan đến quản lý, sử dụng vật liệu nỗ công nghiệp, tiền chất thuốc nỗ ở Việt Nam.",
+     "trang_pdf": 2
+    },
+    {
+     "dieu": 3,
+     "noi_dung": "Điều 3. Danh mục vật liệu nỗ công nghiệp và Danh mục tiền chất thuốc nỗ được phép sản xuất, kinh doanh, sử dụng ở Việt Nam 1. Danh mục vật liệu nỗ công nghiệp được phép sản xuất, kinh doanh, sử dụng ở Việt Nam (sau đây viết tắt là Danh mục vật liệu nỗ công nghiệp), bao gồm: -a) Thuốc nỗ công nghiệp, phụ kiện nổ công nghiệp, thuốc nỗ mạnh quy định tại Phụ lục J ban hành kèm theo Thông tư này;",
+     "trang_pdf": 2
+    },
+    {
+     "dieu": 6,
+     "noi_dung": "Điều 6. Hồ sơ, thủ tục đăng ký mới, đăng ký bo sung để nghiên cứu, phát triển, thử nghiệm sản phẩm vật liệu nỗ - 1. Hồ sơ, thủ tục đăng ký mới, đăng ký bé sung dé nghiên cứu, phát triển, thử nghiệm sản phẩm vật liệu nô sử dụng ngân sách nhà nước thực hiện theo pO oy",
+     "trang_pdf": 3
+    },
+    {
+     "dieu": 8,
+     "noi_dung": "Điều 8. Nguyên tắc xây dựng, cập nhật, quan lý và khai thác Cơ sở dữ liệu về vật liệu nỗ công nghiệp, tiền chất thuốc nỗ 1. Cơ sở dữ liệu về vật liệu nỗ công nghiệp, tiền chất thuốc nỗ (sau day viết tat là Cơ sở dit liệu) do Bộ Công Thương xây dựng, quan lý. 2. Việc cập nhật Cơ sở dữ liệu phải được thực hiện thường xuyên, liên tục, kịp thời và hiệu quả.",
+     "trang_pdf": 6
+    },
+    {
+     "dieu": 10,
+     "noi_dung": "Điều 10. Nội dung quản lý Cơ sở dữ liệu 1. Xây dựng quy trình nghiệp vụ thực hiện việc quản lý, cập nhật, khai thác Cơ sở dữ liệu. 2. Quản lý, lưu trữ Cơ sở dữ liệu bảo đảm an toàn về thông tin, dữ liệu trên đường truyền. 3. Phân quyền và quản lý tài khoản đăng nhập vào Cơ sở dữ liệu thuộc phạm vi quan lý. 4. Tổ chức tập huấn nghiệp vụ cho cán bộ, công chức, viên chức thực hiện việc quản lý, cập nhật, khai thác Cơ sở đữ liệu.",
+     "trang_pdf": 7
+    },
+    {
+     "dieu": 13,
+     "noi_dung": "Điều 13. Kinh phí xây dựng, duy trì và phát triển Cơ sở dữ liệu 1. Kinh phí xây dựng, duy trì và phát triển Cơ sở dữ liệu được bảo đảm bang ngân sách nhà nước hoặc huy động từ các nguôn kinh phí khác. 2. Kinh phí xây dựng, duy trì và phát triển Cơ sở dữ liệu bao gồm: a) Kinh phí để thực hiện các nội dung quy định tại khoản 2 Điều 9, Điều 10, Điều 11 và Điều 12 của Thông tư này; b) Thu thập, xử lý, cập nhật, tích hợp thông tin vào Cơ sở dữ liệu;",
+     "trang_pdf": 8
+    },
+    {
+     "dieu": 15,
+     "noi_dung": "Điều 15. Phương án, hộ chiếu nỗ min 1. Tổ: chức, doanh nghiệp sử dụng vật liệu nỗ công nghiệp phải lập Phương án nỗ mìn theo nội dung quy định tại Phụ luc VII ban hành kèm theo Thông tư này và được người quản lý của tô chức, doanh nghiệp phê duyệt.",
+     "trang_pdf": 9
+    },
+    {
+     "dieu": 17,
+     "noi_dung": "Điều 17. Báo cáo định kỳ, đột xuất 1. Báo cáo định kỳ trong hoạt động sản xuất, kinh doanh, sử dụng vật liệu nỗ công nghiệp a) Tổ chức, doanh nghiệp sản xuất, kinh doanh vật liệu nỗ công nghiệp báo cáo Cục Kỹ thuật an toàn và Môi trường công nghiệp theo quy định tại Mẫu số 01 Phụ lục X ban hành kèm theo Thông tư này trước ngày 20 tháng 6 đối với báo cáo sáu tháng, trước ngày 20 tháng 12 đối với báo cáo năm;",
+     "trang_pdf": 10
+    },
+    {
+     "dieu": 20,
+     "noi_dung": "Điều 20. Điều khoản thi hành 1. Thông tư này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2025. 2. Bãi bỏ Thông tư số 13/2018/TT-BCT ngày 15 tháng 6 năm 2018 của Bộ trưởng Bộ Công Thương quy định về quản lý, sử dụng vật liệu nỗ công nghiệp, tiền chất thuốc nỗ sử dụng để sản xuất vật liệu nỗ công nghiệp;",
+     "trang_pdf": 13
+    }
+   ]
+  },
+  {
    "so_hieu": "23/2026/VBHN-TT-BKHCN",
    "slug": "23-2026-vbhn-tt-bkhcn",
    "ten": "Quy định về đo lường đối với phương tiện đo nhóm 2",
@@ -14643,6 +15452,69 @@
      "dieu": 5,
      "noi_dung": "Điều 5. Tô chức thực hiện 1. Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc trung ương chịu trách nhiệm thi hành Nghị định này.",
      "trang_pdf": 1
+    }
+   ]
+  },
+  {
+   "so_hieu": "24/2026/TT-BCT",
+   "slug": "24-2026-tt-bct",
+   "ten": "Quy định Quy tắc xuất xứ hàng hóa trong Hiệp định Đối tác kinh tế toàn diện giữa Chính phủ nước Cộng hòa xã hội chủ nghĩa Việt Nam và Chính phủ Các Tiểu vương quốc Ả-rập Thống nhất",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2026-05-05",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://chinhphu.vn/?pageid=27160&docid=218035",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "Điều 1. Phạm vi điều chỉnh Thông tư này quy định Quy tắc xuất xứ hàng hóa trong Hiệp định Đối tác kinh tế toàn diện giữa Chính phủ nước Cộng hòa Xã hội Chủ nghĩa Việt Nam và Chính phủ Các Tiểu vương quốc Ả-rập thống nhất (sau đây gọi là Hiệp định).",
+     "trang_pdf": 1
+    },
+    {
+     "dieu": 2,
+     "noi_dung": "Điều 2. Đối tượng áp dụng Thông tư này áp dụng đối với: 1. Cơ quan, tổ chức cấp Giấy chứng nhận xuất xứ hàng hóa (C/O). 2. Thương nhân.",
+     "trang_pdf": 1
+    },
+    {
+     "dieu": 3,
+     "noi_dung": "Điều 3. Giải thích từ ngữ Theo quy định tại Thông tư này, các thuật ngữ dưới đây được hiểu như sau: 1. “Nuôi trồng thủy sản” là nuôi trồng các sinh vật sống dưới nước, bao gồm cá, động vật thân mêm, động vật giáp xác, động vật không xương sống thủy sinh khác và thực vật thủy sinh, từ các loại giong như trứng, cá bột, ca giông va ấu trùng, bằng cách can thiệp vào quá trình nuôi trồng hoặc tăng trưởng đề tăng cường sản xuất như thả giống thường",
+     "trang_pdf": 2
+    },
+    {
+     "dieu": 8,
+     "noi_dung": "Điều 8. Hàng hóa trung gian Trường hợp hàng hóa có xuất xứ tại lãnh thé của một Nước thành viên theo quy định tại Điều 7 Thông tư này được sử dụng đề sản xuất ra một sản phâm khác, các điều kiện áp dụng cho sản phẩm khác đó không áp dụng đối với hàng hóa dùng làm nguyên liệu và không tính đến các nguyên liệu không có xuất xứ đã được sử dụng trong quá trình sản xuất ra hàng hóa đó.",
+     "trang_pdf": 6
+    },
+    {
+     "dieu": 13,
+     "noi_dung": "Điều 13. Phụ kiện, phụ tùng và dụng cụ 1. Phụ kiện, phụ tùng, dụng cụ và tài liệu hướng dẫn hoặc tài liệu mang tính thông tin khác đi kèm với hàng hóa tạo thành một phần phụ kiện tiêu chuẩn, phụ tùng, dụng cụ và tài liệu hướng dẫn hoặc tài liệu mang tính thông tin khác của hàng hóa được coi là một phần của hàng hóa và không được tính đến khi xác định liệu tất cả các nguyên liệu không có xuất xứ được sử dụng dé sản xuất hàng hóa có xuất xứ có đáp",
+     "trang_pdf": 7
+    },
+    {
+     "dieu": 17,
+     "noi_dung": "Điều 17. Hàng hóa hoặc nguyên liệu giống nhau và có thể thay thế lẫn nhau 1. Việc xác định xuất xứ của hàng hóa hoặc nguyên liệu giống nhau và có thể thay thế lẫn nhau được thực hiện thông qua phân loại thực tế từng hàng hóa hoặc nguyên liệu hoặc trong trường hợp có bat kỳ khó khăn nào, thông qua việc sử dụng bất kỳ phương pháp quản lý hàng tồn kho như tính trung bình, nhập sau xuât trước hoặc nhập trước xuất trước, được công nhận trong các",
+     "trang_pdf": 8
+    },
+    {
+     "dieu": 22,
+     "noi_dung": "Điều 22. Quy định chung về cơ chế chứng nhận xuất xứ hàng hóa 1. Hàng hóa có xuất xứ từ lãnh thé của Các tiểu vương quốc Ả-rập Thống nhất khi nhập khâu vào Việt Nam được hưởng ưu đãi thuế quan theo Hiệp định khi nộp cho cơ quan hải quan một trong những chứng từ chứng nhận xuất xứ hàng hóa sau: a) C/O được cấp đáp ứng quy định tại Điều 23 Thông tư này.",
+     "trang_pdf": 10
+    },
+    {
+     "dieu": 26,
+     "noi_dung": "Điều 26. C/O cấp sau 1. C/O mẫu UAE-VN có thê được cấp trước hoặc tại thời điểm giao hàng. 2. Trường hợp ngoại lệ khi C/O không được cấp trước hoặc tại thời điểm giao hang, do sai sót hoặc bỏ quên hoặc có lý do chính đáng khác, C/O có thé được cap sau nhưng không quá 01 năm kê từ ngày giao hàng và đánh dấu vào Ô “ISSUED RETROSPECTIVELY” theo quy định tại Phu lục II ban hành kèm theo Thông tư này.",
+     "trang_pdf": 12
+    },
+    {
+     "dieu": 31,
+     "noi_dung": "Điều 31. Hóa đơn của Nước không phải thành viên 1. Cơ quan hải quan của Nước thành viên nhập khẩu không từ chối cho hưởng ưu đãi thuế quan vì hóa đơn được phát hành bởi một Nước không phải thành viên và không bởi nhà xuất khẩu hoặc nhà sản xuất của Nước thành viên xuất khâu với điều kiện hàng hóa đáp ứng quy định tại Thông tư này.",
+     "trang_pdf": 13
+    },
+    {
+     "dieu": 36,
+     "noi_dung": "Điều 36. Hiệu lực thi hành 1. Thông tu này có hiệu lực thi hành ké từ ngày OSthang 5 năm 2026. 2. Cơ quan, tô chức cấp C/O xem xét cấp sau C/O m du UAE-VN theo quy định tại Thông tư này đối với hàng hóa của Việt Nam xuất khẩu từ ngày 03 tháng 02 năm 2026.",
+     "trang_pdf": 15
     }
    ]
   },
@@ -15607,6 +16479,44 @@
    ]
   },
   {
+   "so_hieu": "27/2024/TT-BYT",
+   "slug": "27-2024-tt-byt",
+   "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 20/2017/TT-BYT ngày 10 tháng 5 năm 2017 của Bộ trưởng Bộ Y tế quy định chi tiết một số điều của Luật Dược và Nghị định số 54/2017/NĐ-CP ngày 08 tháng 5 năm 2017 của Chính phủ về thuốc và nguyên liệu làm thuốc phải kiểm soát đặc biệt",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2025-01-30",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://chinhphu.vn/?pageid=27160&docid=211680",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "Điều 1. Sửa đối, bo sung một số điều của Thông tư số 20/2017/TT-BYT ngay 10 tháng 5 năm 2017 của Bộ trưởng Bộ Y tê quy định chỉ tiết một số điều của Luật dược và Neghi dinh sé 54/2017/NĐ-CP ngày 08 tháng 5 năm 2017 của Chính phủ về thuốc và nguyên liệu làm thuốc phải kiểm soát đặc biệt 1. Sửa đôi, bố sung điểm d khoản 1 Diéu 1 như sau: “d) Danh mục thuốc, dược chất thuộc danh mục chất bị cắm sử dụng trong",
+     "trang_pdf": 1
+    },
+    {
+     "dieu": 2,
+     "noi_dung": "Điều 2. Bãi bỏ một số nội dung của Thông tư số 20/2017/TT-BYT ngày 10 tháng 5 năm 2017 của Bộ trưởng Bộ Y tế quy định chỉ tiết một số điều của Luật dược và Nghị định sô 54/2017/NĐ-CP ngày 08 tháng 5 năm 2017 của Chính phủ về thuốc và nguyên liệu làm thuốc phải kiểm soát đặc biệt",
+     "trang_pdf": 3
+    },
+    {
+     "dieu": 3,
+     "noi_dung": "Điều 3. Hiệu lực thi hành Thông tư này có hiệu lực kế từ ngày30 thang 01 năm 2025.",
+     "trang_pdf": 4
+    },
+    {
+     "dieu": 4,
+     "noi_dung": "Điều 4. Điều khoản chuyển tiếp 1. Các hồ sơ nộp trước thời điểm Thông tư này có hiệu lực thì được tiếp tục thực hiện theo quy định tại thời điểm nop hồ sơ; trừ trường hợp cơ sở dé nghị thực hiện theo quy định tại Thông tư này.",
+     "trang_pdf": 4
+    },
+    {
+     "dieu": 5,
+     "noi_dung": "Điều 5. Trách nhiệm thi hành Chánh Văn phòng Bộ; Cục trưởng Cục Quan lý Dược; Chánh Thanh tra Bộ; Thủ trưởng các don vi thuộc và trực thuộc Bộ Y tê; Giám đốc Sở Y tế các tỉnh thành phố. trực thuộc Trung ương: Thủ trưởng cơ quan y tế các bộ, ngành và các cơ quan, tổ chức, cá nhân có liên quan chịu trách nhiệm thi hanh Thong tu nay.",
+     "trang_pdf": 4
+    }
+   ]
+  },
+  {
    "so_hieu": "27/2026/TT-BNNMT",
    "slug": "27-2026-tt-bnnmt",
    "ten": "Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý của Bộ Nông nghiệp và Môi trường",
@@ -16375,6 +17285,69 @@
      "noi_dung": "Điều 5. Trách nhiệm thi hành Vụ trưởng Vụ Pháp chế, Chánh Văn phòng Bộ, Chánh Thanh tra Bộ, Vụ trưởng, Cục trưởng, Tổng Cục trưởng các Vụ, Cục, Tổng cục thuộc Bộ Y tế và các cơ quan, tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành Thông tư này./.",
      "trang_pdf": 13,
      "sha256_pdf": "58d6b12572b64fd070eabfbbd1c0b1191b33b1959113304ba20a04e19609f4fe"
+    }
+   ]
+  },
+  {
+   "so_hieu": "29/2023/NĐ-CP",
+   "slug": "29-2023-nd-cp",
+   "ten": "Quy định về tinh giản biên chế",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2023-07-20",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=207999",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "Điều 1. Phạm vi điều chỉnh Nghị định này quy định về đối tượng, nguyên tắc, chính sách tinh giản biên chế và trách nhiệm thực hiện tinh giản biên chế › trong các cơ quan, tổ chức, đơn vị sự nghiệp công lập của Đảng, Nhà nước, tổ chức chính trị - xã hội từ Trung ương đến cấp xã.",
+     "trang_pdf": 1
+    },
+    {
+     "dieu": 2,
+     "noi_dung": "Điều 2. Đối tượng thực hiện chính sách tinh giản biên chế 1. Cán bộ, công chức, viên chức; cán bộ, công chức cấp xã và người làm việc theo chế độ hợp đồng lao động không xác định thời hạn trong các cơ quan hành chính được áp dụng chế độ, chính sách như công chức theo quy định của Chính phủ, nếu thuộc một trong các trường hợp sau:",
+     "trang_pdf": 1
+    },
+    {
+     "dieu": 3,
+     "noi_dung": "Điều 3. Nguyên tắc tỉnh giản biên chế 1. Bảo đảm sự lãnh đạo của Đảng, phát huy vai trò giám sát của các tổ chức chính trị - xã hội và nhân dân trong quá trình thực hiện tinh giản biên chê. 2. Gắn tỉnh giản biên chế với sắp xếp tô chức bộ máy theo hướng tỉnh gọn, hoạt động hiệu lực, hiệu quả và cơ cầu lại, nâng cao chất lượng đội ngũ cán bộ, công chức, viên chức theo vị trí việc làm, phù hợp với cơ chế tự chủ của cơ quan, tổ chức, đơn vị.",
+     "trang_pdf": 3
+    },
+    {
+     "dieu": 6,
+     "noi_dung": "Điều 6. Chính sách chuyền sang làm việc tại các tổ chức không hưởng lương thường xuyên từ ngân sách nhà nước 1. Đối tượng tỉnh giản biên chế chuyền sang làm việc tại các tổ chức không hưởng kinh phí thường xuyên từ ngân sách nhà nước được hưởng các khoản trợ câp sau: a) Được trợ cấp 03 tháng tiền lương hiện hưởng; b) Được trợ cấp 1/2 tháng tiền lương bình quân cho mỗi năm công tác có đóng bảo hiểm xã hội bắt buộc.",
+     "trang_pdf": 5
+    },
+    {
+     "dieu": 8,
+     "noi_dung": "Điều 8. Chính sách nghỉ hưu trước tuôi đối với cán bộ, công chức cấp xã đôi dư do sắp xếp. đơn vị hành chính cấp xã có tuôi thấp hơn tối đa đủ 10 tuổi và thấp hơn tối thiểu trên 05 tudi so với tuôi nghỉ hưu theo quy định của pháp luật về bảo hiểm xã hội",
+     "trang_pdf": 6
+    },
+    {
+     "dieu": 10,
+     "noi_dung": "Điều 10. Cách xác định thời gian và tiền lương để tính hướng trợ cấp tỉnh giản biên chế 1. Tiền lương hiện hưởng là tiền lương tháng liền kề trước khi tỉnh giản biên chế.",
+     "trang_pdf": 8
+    },
+    {
+     "dieu": 13,
+     "noi_dung": "Điều 13. Trách nhiệm của Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, người đứng đầu các tổ chức do Chính phủ, Thủ tướng Chính phủ thành lập mà không phải là đơn vị sự nghiệp công lập 1. Chỉ đạo triển khai tinh giản biên chế theo quy định tại Nghị định này.",
+     "trang_pdf": 10
+    },
+    {
+     "dieu": 15,
+     "noi_dung": "Điều 15. Trách nhiệm của Bộ Nội vụ 1. Kiểm tra việc thực hiện các quy định vẻ tỉnh giản biên chế tại các bộ, ngành, địa phương. 2. Định kỳ trước ngày 31 tháng 3 hàng năm, báo cáo Thủ tướng Chính phủ tình hình thực hiện Nghị định này.",
+     "trang_pdf": 12
+    },
+    {
+     "dieu": 17,
+     "noi_dung": "Điều 17. Trách nhiệm của Báo hiếm xã hội Việt Nam Bảo hiểm xã hội Việt Nam có trách nhiệm hướng dẫn nghiệp vụ, chỉ đạo Bảo hiểm xã hội tỉnh, thành phố trực thuộc trung ương giải quyét chính sách, chế độ bảo hiểm xã hội đối với đối tượng tinh giản biên chế theo quy định của Nghị định này. Chương IV DIEU KHOẢN THI HANH",
+     "trang_pdf": 13
+    },
+    {
+     "dieu": 20,
+     "noi_dung": "Điều 20. Điều khoản chuyền tiếp 1. Các trường hợp có thời điểm tinh giản biên chế sau khi Nghị định này có hiệu lực thi hành nhưng đã được cấp có thâm quyền quyết định cho tỉnh giản biên chế trước ngày Nghị định này ban hành thì không đặt van dé xem xét lại chế độ, chính sách theo Nghị định này và Bộ trưởng, Thủ trưởng cơ quan thuộc Chính phủ, người đứng dau các tô chức do Chính phủ, Thủ tướng Chính phủ thành lập mà không phải là đơn vị sự",
+     "trang_pdf": 14
     }
    ]
   },
@@ -17504,6 +18477,79 @@
      "dieu": 4,
      "noi_dung": "Điều 4. Chánh Văn phòng Bộ, Cục trưởng Cục Phòng vệ thương mại và Thủ trưởng các đơn vị, các bên liên quan chịu trách nhiệm thi hành Quyết định này./.",
      "trang_pdf": 2
+    }
+   ]
+  },
+  {
+   "so_hieu": "32/2012/NĐ-CP",
+   "slug": "32-2012-nd-cp",
+   "ten": "Về quản lý xuất khẩu, nhập khẩu văn hóa phẩm không nhằm mục đích kinh doanh",
+   "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+   "hieu_luc_tu": "2012-06-01",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-32-2012-nd-cp-15729.htm",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "Điều 1. Phạm vi điều chỉnh 1. Nghị định này quy định về quản lý các hoạt động xuất khẩu, nhập khẩu văn hóa phẩm không nhằm mục đích kinh doanh. 2. Nghị định này không điều chỉnh việc quản lý xuất khẩu, nhập khẩu xuất bản phẩm, báo, tạp chí không nhằm mục đích kinh doanh. Hoạt động xuất khẩu, nhập khẩu xuất bản phẩm, báo, tạp chí thực hiện theo quy định của pháp luật về báo chí và xuất bản.",
+     "trang_pdf": 1,
+     "sha256_pdf": "846ef510cec8a24ef83ae5540cf3dd2b1f953326bcfcf7eeed80c53fbd8778be"
+    },
+    {
+     "dieu": 2,
+     "noi_dung": "Điều 2. Đối tượng áp dụng Cá nhân, tổ chức Việt Nam, cá nhân, tổ chức nước ngoài (sau đây gọi là cá nhân, tổ chức) có văn hóa phẩm xuất khẩu, nhập khẩu không nhằm mục đích kinh doanh.",
+     "trang_pdf": 1,
+     "sha256_pdf": "846ef510cec8a24ef83ae5540cf3dd2b1f953326bcfcf7eeed80c53fbd8778be"
+    },
+    {
+     "dieu": 3,
+     "noi_dung": "Điều 3. Giải thích từ ngữ Trong Nghị định này, các từ ngữ dưới đây được hiểu như sau: 1. Hoạt động xuất khẩu, nhập khẩu văn hóa phẩm không nhằm mục đích kinh doanh (sau đây gọi là xuất khẩu, nhập khẩu văn hóa phẩm): Là hoạt động đưa từ",
+     "trang_pdf": 1,
+     "sha256_pdf": "846ef510cec8a24ef83ae5540cf3dd2b1f953326bcfcf7eeed80c53fbd8778be"
+    },
+    {
+     "dieu": 6,
+     "noi_dung": "Điều 6. Văn hóa phẩm cấm xuất khẩu, cấm nhập khẩu 1. Nghiêm cấm xuất khẩu, nhập khẩu các loại văn hóa phẩm sau đây: a) Có nội dung chống lại Nhà nước Cộng hòa xã hội chủ nghĩa Việt Nam, phá hoại khối đoàn kết toàn dân; b) Có nội dung kích động bạo lực, tuyên truyền chiến tranh xâm lược, gây hận thù giữa các dân tộc và nhân dân các nước; kích động dâm ô, đồi trụy, tội ác; c) Có nội dung thuộc về bí mật nhà nước;",
+     "trang_pdf": 2,
+     "sha256_pdf": "846ef510cec8a24ef83ae5540cf3dd2b1f953326bcfcf7eeed80c53fbd8778be"
+    },
+    {
+     "dieu": 7,
+     "noi_dung": "Điều 7. Xuất khẩu văn hóa phẩm 1. Cá nhân, tổ chức có văn hóa phẩm xuất khẩu đã được sản xuất, công bố, phổ biến và lưu hành hợp pháp trên lãnh thổ Việt Nam khi xuất khẩu không cần giấy phép của cơ quan quản lý nhà nước về văn hóa, thể thao và du lịch, chỉ làm thủ tục hải quan theo quy định của pháp luật về hải quan, trừ trường hợp pháp luật có quy định khác.",
+     "trang_pdf": 3,
+     "sha256_pdf": "846ef510cec8a24ef83ae5540cf3dd2b1f953326bcfcf7eeed80c53fbd8778be"
+    },
+    {
+     "dieu": 9,
+     "noi_dung": "Điều 9. Thủ tục cấp phép nhập khẩu văn hóa phẩm 1. Cá nhân, tổ chức nhập khẩu văn hóa phẩm trong các trường hợp quy định tại Điều 8 Nghị định này nộp hồ sơ đề nghị cấp giấy phép qua đường bưu điện hoặc trực tiếp tại trụ sở cơ quan quản lý nhà nước về văn hóa, thể thao và du lịch có thẩm quyền theo quy định.",
+     "trang_pdf": 4,
+     "sha256_pdf": "846ef510cec8a24ef83ae5540cf3dd2b1f953326bcfcf7eeed80c53fbd8778be"
+    },
+    {
+     "dieu": 11,
+     "noi_dung": "Điều 11. Thủ tục Hải quan nhập khẩu văn hóa phẩm 1. Giấy phép nhập khẩu văn hóa phẩm của cơ quan quản lý nhà nước về văn hóa, thể thao và du lịch có thẩm quyền là căn cứ để cơ quan Hải quan làm thủ tục nhập khẩu.",
+     "trang_pdf": 5,
+     "sha256_pdf": "846ef510cec8a24ef83ae5540cf3dd2b1f953326bcfcf7eeed80c53fbd8778be"
+    },
+    {
+     "dieu": 13,
+     "noi_dung": "Điều 13. Nhiệm vụ và quyền hạn của Bộ Văn hóa, Thể thao và Du lịch Bộ Văn hóa, Thể thao và Du lịch là cơ quan giúp Chính phủ thống nhất quản lý nhà nước về xuất khẩu, nhập khẩu văn hóa phẩm không nhằm mục đích kinh doanh có nhiệm vụ và quyền hạn sau:",
+     "trang_pdf": 5,
+     "sha256_pdf": "846ef510cec8a24ef83ae5540cf3dd2b1f953326bcfcf7eeed80c53fbd8778be"
+    },
+    {
+     "dieu": 14,
+     "noi_dung": "Điều 14. Nhiệm vụ và quyền hạn của Bộ Tài chính Bộ Tài chính có trách nhiệm chỉ đạo, hướng dẫn các cơ quan Hải quan thực hiện thủ tục xuất khẩu, nhập khẩu văn hóa phẩm; phối hợp kiểm tra, thanh tra, xử lý vi phạm, giải quyết khiếu nại, tố cáo đối với các hoạt động xuất khẩu, nhập khẩu văn hóa phẩm.",
+     "trang_pdf": 6,
+     "sha256_pdf": "846ef510cec8a24ef83ae5540cf3dd2b1f953326bcfcf7eeed80c53fbd8778be"
+    },
+    {
+     "dieu": 17,
+     "noi_dung": "Điều 17. Hiệu lực thi hành 1. Nghị định này có hiệu lực thi hành kể từ ngày 01 tháng 6 năm 2012. 2. Nghị định này thay thế Nghị định số 88/2002/NĐ-CP ngày 07 tháng 11 năm 2002 của Chính phủ về quản lý xuất khẩu, nhập khẩu văn hóa phẩm không nhằm mục đích kinh doanh.",
+     "trang_pdf": 6,
+     "sha256_pdf": "846ef510cec8a24ef83ae5540cf3dd2b1f953326bcfcf7eeed80c53fbd8778be"
     }
    ]
   },
@@ -19049,6 +20095,79 @@
    ]
   },
   {
+   "so_hieu": "35/2024/QH15",
+   "slug": "35-2024-qh15",
+   "ten": "Luật Đường bộ",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2025-01-01",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=211193",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "Điều 1. Phạm vi điều chỉnh Luật này quy định về hoạt động đường bộ và quản lý nhà nước về hoạt động đường bộ.",
+     "trang_pdf": 1,
+     "sha256_pdf": "debf33ad3b4781c04c143b3b684aaace3e4ecc24110d87ca551ab1cd0221c9fc"
+    },
+    {
+     "dieu": 2,
+     "noi_dung": "Điều 2. Giải thích từ ngữ Trong Luật này, các từ ngữ dưới đây được hiểu như sau: 1. Hoạt động đường bộ bao gồm: hoạt động về quy hoạch, đầu tư, xây dựng, quản lý, sử dụng, vận hành, khai thác, bảo trì, bảo vệ kết cấu hạ tầng đường bộ; vận tải đường bộ. 2. Đường bộ bao gồm: đường, cầu đường bộ, cống đường bộ, hầm đường bộ, bến phà đường bộ, cầu phao đường bộ, đường cứu nạn và các công trình phụ trợ gắn liền với đường bộ.",
+     "trang_pdf": 1,
+     "sha256_pdf": "debf33ad3b4781c04c143b3b684aaace3e4ecc24110d87ca551ab1cd0221c9fc"
+    },
+    {
+     "dieu": 3,
+     "noi_dung": "Điều 3. Nguyên tắc hoạt động đường bộ 1. Bảo đảm giao thông thông suốt, an toàn, kết nối đồng bộ, hiệu quả, thân thiện với môi trường, phục vụ nhu cầu vận tải hàng hóa và đi lại thuận tiện của người dân, góp phần phát triển kinh tế - xã hội, bảo đảm quốc phòng, an ninh và bảo vệ môi trường, phòng, chống thiên tai, hội nhập quốc tế.",
+     "trang_pdf": 2,
+     "sha256_pdf": "debf33ad3b4781c04c143b3b684aaace3e4ecc24110d87ca551ab1cd0221c9fc"
+    },
+    {
+     "dieu": 16,
+     "noi_dung": "Điều 16. Quản lý, sử dụng đất hành lang an toàn đường bộ 1. Đất hành lang an toàn đường bộ đã được Nhà nước thu hồi phải được quản lý, sử dụng theo quy định của Luật này, quy định của pháp luật về đất đai, pháp luật về quản lý, sử dụng tài sản công và quy định khác của pháp luật có liên quan.",
+     "trang_pdf": 13,
+     "sha256_pdf": "debf33ad3b4781c04c143b3b684aaace3e4ecc24110d87ca551ab1cd0221c9fc"
+    },
+    {
+     "dieu": 27,
+     "noi_dung": "Điều 27. Tải trọng và khổ giới hạn của đường bộ 1. Tải trọng của đường bộ là khả năng chịu tải khai thác của đường bộ để bảo đảm khai thác an toàn và tuổi thọ công trình đường bộ. 2. Khổ giới hạn của đường bộ là khoảng trống có kích thước giới hạn về chiều rộng, chiều cao của đường bộ để các xe, bao gồm cả hàng hoá xếp trên xe đi qua được an toàn và được xác định theo quy chuẩn, tiêu chuẩn kỹ thuật của đường bộ.",
+     "trang_pdf": 26,
+     "sha256_pdf": "debf33ad3b4781c04c143b3b684aaace3e4ecc24110d87ca551ab1cd0221c9fc"
+    },
+    {
+     "dieu": 39,
+     "noi_dung": "Điều 39. Bến xe, bãi đỗ xe, trạm dừng nghỉ, điểm dừng xe, trạm thu phí đường bộ, công trình kiểm soát tải trọng xe trên đường bộ 1. Bến xe, bãi đỗ xe, trạm dừng nghỉ được quy định như sau: a) Bến xe phải được xây dựng tại các đô thị là trung tâm hành chính cấp huyện trở lên và các khu vực cần thiết khác để phục vụ vận tải hành khách công cộng;",
+     "trang_pdf": 38,
+     "sha256_pdf": "debf33ad3b4781c04c143b3b684aaace3e4ecc24110d87ca551ab1cd0221c9fc"
+    },
+    {
+     "dieu": 50,
+     "noi_dung": "Điều 50. Phí sử dụng đường cao tốc 1. Nhà nước thu phí sử dụng đường cao tốc đối với phương tiện lưu thông trên đường cao tốc thuộc sở hữu toàn dân do Nhà nước đại diện chủ sở hữu và trực tiếp quản lý, khai thác, bao gồm: a) Đường cao tốc do Nhà nước đầu tư theo hình thức đầu tư công; b) Đường cao tốc được đầu tư theo các hình thức khác khi kết thúc hợp đồng, chuyển giao cho Nhà nước.",
+     "trang_pdf": 45,
+     "sha256_pdf": "debf33ad3b4781c04c143b3b684aaace3e4ecc24110d87ca551ab1cd0221c9fc"
+    },
+    {
+     "dieu": 62,
+     "noi_dung": "Điều 62. Quyền và nghĩa vụ của đơn vị kinh doanh vận tải hàng hóa bằng xe ô tô 1. Đơn vị kinh doanh vận tải hàng hóa bằng xe ô tô có quyền sau đây: a) Yêu cầu người thuê vận tải cung cấp thông tin cần thiết về hàng hóa để ghi vào giấy vận tải và có quyền kiểm tra tính xác thực của thông tin đó; b) Yêu cầu người thuê vận tải thanh toán đủ tiền cước và chi phí phát sinh;",
+     "trang_pdf": 56,
+     "sha256_pdf": "debf33ad3b4781c04c143b3b684aaace3e4ecc24110d87ca551ab1cd0221c9fc"
+    },
+    {
+     "dieu": 73,
+     "noi_dung": "Điều 73. Dịch vụ bãi đỗ xe 1. Đơn vị kinh doanh dịch vụ bãi đỗ xe được thành lập theo quy định của pháp luật về doanh nghiệp, pháp luật về hợp tác xã. 2. Đơn vị kinh doanh dịch vụ bãi đỗ xe được thực hiện các dịch vụ sau đây: a) Trông giữ phương tiện giao thông đường bộ; b) Bảo dưỡng, sửa chữa phương tiện giao thông đường bộ; c) Cung cấp nhiên liệu, năng lượng cho phương tiện giao thông đường bộ; d) Dịch vụ khác theo quy định của pháp luật.",
+     "trang_pdf": 62,
+     "sha256_pdf": "debf33ad3b4781c04c143b3b684aaace3e4ecc24110d87ca551ab1cd0221c9fc"
+    },
+    {
+     "dieu": 86,
+     "noi_dung": "Điều 86. Quy định chuyển tiếp 1. Đối với dự án đường cao tốc đã được quyết định chủ trương đầu tư trước ngày Luật này có hiệu lực thi hành mà chưa đáp ứng đầy đủ các yêu cầu tại Luật này thì được tiếp tục đầu tư theo quyết định chủ trương đầu tư được cấp có thẩm quyền phê duyệt.",
+     "trang_pdf": 69,
+     "sha256_pdf": "debf33ad3b4781c04c143b3b684aaace3e4ecc24110d87ca551ab1cd0221c9fc"
+    }
+   ]
+  },
+  {
    "so_hieu": "35/2025/NĐ-CP",
    "slug": "35-2025-nd-cp",
    "ten": "Quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Nông nghiệp và Môi trường",
@@ -20315,6 +21434,69 @@
    ]
   },
   {
+   "so_hieu": "38/2025/TT-BCT",
+   "slug": "38-2025-tt-bct",
+   "ten": "Sửa đổi, bổ sung một số quy định về phân cấp thực hiện thủ tục hành chính trong các lĩnh vực thuộc phạm vi quản lý của Bộ Công Thương",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2025-07-01",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=214097&classid=1",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "Điều 1. Sửa đổi, bd sung một số điều của Thông tư số 23/2024/TT-BCT ngày 07 tháng 11 năm 2024 của Bộ trưởng Bộ Công Thương quy định về quản lý, sử dụng vật liệu nỗ công nghiệp, tiền chất thuốc nỗ thuộc thâm quyền quản lý của Bộ Công Thương ý bởi: Bộ Công Thương quan: Bộ Công thương Phời gian ký: 23.06.2025 10 fe",
+     "trang_pdf": 1
+    },
+    {
+     "dieu": 2,
+     "noi_dung": "Điều 2. Sửa đổi khoản 1 Điều 3 Thông tư số 37/2018/TT-BCT ngày 25 tháng, 10 nam 2018 của Bộ trưởng Bộ Công Thương sửa déi, bỗ sung, bãi bó một số quy định về quản lý an toàn và kiểm định kỹ thuật an toàn lao động thuộc thầm quyền quan lý của Bộ Công Thương “_",
+     "trang_pdf": 3
+    },
+    {
+     "dieu": 3,
+     "noi_dung": "Điều 3. BO sung khoản la vào Điều 3 Thông tư số 37/2018/TT- BCT ngày 25 tháng 10 năm 2018 của Bộ trưởng Bộ Công Thuong sửa đổi, bo sung, bãi bỏ một số quy định về quản lý an toàn và kiểm định kỹ thuật an toàn lao động thuộc thâm quyền quản lý của Bộ Công Thương “la. Uỷ ban nhân dân cấp tỉnh thực hiện cấp, cấp lại, điều chỉnh, thu hồi giấy chứng nhận đủ điều kiện sản xuất, sửa chữa chai LPG và giấy chứng nhận đủ điều kiện sản xuất chai LPG mini”",
+     "trang_pdf": 4
+    },
+    {
+     "dieu": 9,
+     "noi_dung": "Điều 9. Sửa đối, bố sung Điều 19 Thông tư số 02/2025/TT-BCT ngay 01 tháng 02 năm 2025 của Bộ trưởng Bộ Công Thương quy định về bảo vệ công trình điện lực và an toàn trong lĩnh vực điện lực “ Điều 19. Trách nhiệm của Ủy ban nhân dân cấp tỉnh",
+     "trang_pdf": 7
+    },
+    {
+     "dieu": 13,
+     "noi_dung": "Điều 13. Sửa déi, bổ sung một số điều của Thông tư số 39/2011/TT- BCT ngày 28 tháng 10 năm 2011 của Bộ trưởng Bộ Công Thương quy định về đào tạo, cấp chứng chỉ quản lý năng lượng và kiểm toán viên năng lượng 1. Sửa đổi, bổ sung khoản | Điều 10 như sau: “Điều 10. Cấp chứng chỉ và công nhận, thừa nhận chứng chỉ",
+     "trang_pdf": 11
+    },
+    {
+     "dieu": 18,
+     "noi_dung": "Điều 18. Sửa đối, bố sung một số điều , Thông tư liên tịch số 20/2013/TTLT-BYT-BCT-BNNPTNT quy định điều kiện, trình tự thủ tục chỉ định co sở kiểm nghiệm thực phẩm phục vụ quản lý Nhà nước 1. Bồ sung Điều 21a trước Điều 21 “Điều 21a. Trách nhiệm của Bộ Công Thương",
+     "trang_pdf": 14
+    },
+    {
+     "dieu": 22,
+     "noi_dung": "Điều 22. Sửa déi, bo sung, thay thế một số nội dung của Thông tư số 11/2015/TT-BCT ngày 04 tháng 6 năm 2015 của Bộ trưởng Bộ Công Thương quy định về quá cảnh hàng hóa của nước cộng hòa nhân dân Trung Hoa qua lãnh thé nước Cộng hòa xã hội chủ nghĩa Việt Nam 1. Sửa đổi, bổ sung Điều 5 như sau: “Điều 5. Tham quyền giải quyết hồ sơ và hình thức nộp hồ sơ",
+     "trang_pdf": 17
+    },
+    {
+     "dieu": 27,
+     "noi_dung": "Điều 27. Sửa đối, bổ sung, thay thế một số nội dung của Thông tư số 12/2018/TT-BCT ngày 15 tháng 6 năm 2018 của Bộ trưởng Bộ Công Thương quy định chỉ tiết một số điều của Luật Quản lý ngoại thương và Nghị định số 62/2018/NĐ- CP ngày 15 thang 5 năm 2018 của Chính phủ quy định chi tiết một số điều của Luật Quản lý ngoại thương 1. Sửa đổi khoản 3 Điều 7 như sau:",
+     "trang_pdf": 20
+    },
+    {
+     "dieu": 31,
+     "noi_dung": "Điều 31. Sửa đối, bố sung, thay thế một số nội dung tại Thông tư số 43/2023/TT-BCT của Bộ trưởng Bộ Công Thương sửa đổi, bỗ sung một số điều của Thông tư số 57/2018/T T- BCT ngày 26 tháng 12 năm 2018 của Bộ Công Thương quy định chỉ tiết một số điều của các Nghị định liên quan đến kinh doanh thuốc lá 1. Sửa đổi, b6 sung khoản 2 Điều 1 như sau: “2. Khoản 9 Điều 13 được sửa đổi như sau:",
+     "trang_pdf": 25
+    },
+    {
+     "dieu": 37,
+     "noi_dung": "Điều 37. Điều khoản thi hành 1. Thông tư này có hiệu lực từ ngày 01 tháng 7 năm 2025. 2. Ban hành kèm theo Thông tư này các biểu mẫu thay thế trong các thủ tục hành chính tại Phụ luc I, các biéu mẫu mới quy định trong các thủ tục hành chính tai Phụ lục II. 3. Quy định chuyền tiếp Các Giấy phép, Giấy Chứng nhận, Chứng chỉ, văn bản phê duyệt, văn bản chấp thuận đối với các thủ tục hành chính trong các lĩnh vực đã được cơ quan Ms",
+     "trang_pdf": 29
+    }
+   ]
+  },
+  {
    "so_hieu": "3830/QĐ-BKHCN",
    "slug": "3830-qd-bkhcn",
    "ten": "Quyết định về việc hủy bỏ sản phẩm có mã HS 9405.11.99 tại Quyết định số 367/QĐ-BKHCN ngày 12 tháng 3 năm 2024 của Bộ trưởng Bộ Khoa học và Công nghệ",
@@ -21502,6 +22684,59 @@
      "noi_dung": "Điều 33. Hiệu lực thi hành Thông tư này có hiệu lực thi hành kể từ ngày 15 tháng 02 năm 2014 và thay thế Quyết định số 42/2005/QĐ-BCN ngày 30 tháng 12 năm 2005 của Bộ trưởng Bộ Công nghiệp quy định nội dung, trình tự, thủ tục lập và thẩm định quy hoạch phát triển điện lực./.",
      "trang_pdf": 22,
      "sha256_pdf": "721981ae3dd9840fbc817625a5aab15bce9e7da9d05b71fcca419039715fccd1"
+    }
+   ]
+  },
+  {
+   "so_hieu": "43/2023/TT-BCT",
+   "slug": "43-2023-tt-bct",
+   "ten": "Sửa đổi, bổ sung một số điều của Thông tư số 57/2018/TT-BCT ngày 26 tháng 12 năm 2018 của Bộ trưởng Bộ Công Thương quy định chi tiết một số điều của các Nghị định liên quan đến kinh doanh thuốc lá",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2024-02-12",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=209394&classid=0",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "Điều 1. Sửa đổi khoản 1, khoản 9 Điều 13 của Thông tư số 57/2018/TT- BCT ngày 26 tháng 12 nam 2018 của Bộ trưởng Bộ Công Thương quy định chỉ tiết một số điều của các nghị định liên quan đến kinh doanh thuốc lá 1. Khoản 1 Điều 13 được sửa đổi như sau: |",
+     "trang_pdf": 2
+    },
+    {
+     "dieu": 2,
+     "noi_dung": "Điều 2. Sửa đổi, bd sung Khoản 1, Điều 21 của Thông tư số 57/2018/TT- BCT ngày 26 tháng 12 năm 2018 của Bộ trưởng Bộ Công Thương quy định chỉ tiết một số điều của các nghị định liên quan đến kinh doanh thuốc lá như sau: 1. Sửa đổi điểm a, b, Khoản 1 như sau: “a) Tổ chức tiếp nhận hồ sơ, kiểm tra, giám sát, thâm định, trình Lãnh đạo ` ` ' H H Fa l ls Bộ phê duyệt vê chủ trương đầu tư sản xuất sản phẩm thuốc lá, Giây phép chê",
+     "trang_pdf": 2
+    },
+    {
+     "dieu": 3,
+     "noi_dung": "Điều 3. Mẫu đơn đề nghị nhập khẩu thuốc lá nhằm mục đích phi thương mại; đầu tư đổi mới thiết bị, công nghệ, đầu tư sản xuất thuốc lá xuất khẩu, gìa công thuốc lá xuất khẩu, di chuyển địa điểm theo quy hoạch; đầu tư chế biến nguyên liệu thuốc lá; nhập khẩu máy moc, thiết bị chuyên ngành thuốc lá; nhập khẩu nguyên liệu thuốc lá để chế biến nguyên liệu thuốc lá xuất khẩu hoặc gia công chế biến nguyên liệu thuốc lá xuất khẩu;",
+     "trang_pdf": 3
+    },
+    {
+     "dieu": 4,
+     "noi_dung": "Điều 4. Mẫu văn bản trả loi nhập khẩu thuốc lá nhằm mục đích phì thương - mại đầu tư đổi mới thiết bị, công nghệ, đầu tư sản xuất thuốc lá xuất khẩu, gia công thuốc lá xuất khẩu, di chuyển địa điểm theo quy hoạch; đầu tư chế biến nguyên liệu thuốc lá; nhập khẩu máy móc, thiết bị chuyên ngành thuốc lá; nhập aa ft",
+     "trang_pdf": 3
+    },
+    {
+     "dieu": 5,
+     "noi_dung": "Điều 5. Danh mục chỉ tiết theo mã HS đối với nguyên liệu thuốc lá, giấy cuốn điều thuốc lá Ban hành kèm theo Thông tư này Phụ lục 16 - Danh mục chi tiết theo mã HS đối với nguyên liệu thuốc lá, giấy cuốn điều thuốc lá.",
+     "trang_pdf": 4
+    },
+    {
+     "dieu": 6,
+     "noi_dung": "Điều 6. Bãi bồ một số Phụ lục kèm theo Thông tư số 57/2018/TT-BCT ngày 26 tháng 12 năm 2018 của Bộ trưởng Bộ Công Thương quy định chỉ tiết - một số điều của các Nghị định liên quan đến kinh doanh thuốc lá và Thông tư số 08/2023/TT-BCT ngày 31 thang 3 năm 2023 của Bộ trưởng Bộ Công Thương sửa đỗi, bỗ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công",
+     "trang_pdf": 4
+    },
+    {
+     "dieu": 7,
+     "noi_dung": "5 1. Trường hợp đã tiếp nhận hồ sơ đối với các thủ tục hành chính quy định tại Điều 2 của Thông tư này trước ngày Thông tư này có hiệu lực thì tiếp tục thực hiện theo quy định của pháp luật tại thời điểm tiếp nhận hồ sơ. 2. Đối với các văn bản phê duyệt, chấp thuận đối với các thủ tục hành chính quy định tại Điều 2 của Thông tư này trước ngày Thông tư này có hiệu lực thì vẫn có hiệu lực cho đến hết thời hạn của văn bản.",
+     "trang_pdf": 5
+    },
+    {
+     "dieu": 8,
+     "noi_dung": "Điều 8. Hiệu lực thi hành 1. Thông tư này có hiệu lực thi hành từ ngay4ol thangdo?s năm.2024. 2. Trong quá trình thực hiện, đề nghị các cá nhân, tổ chức phản ánh kịp thời khó khăn, vướng mắc về Bộ Công Thương để Bộ Công Thương giải quyết và xem xét điều chỉnh Thông tư theo thẳm quyén./.",
+     "trang_pdf": 5
     }
    ]
   },
@@ -24681,6 +25916,37 @@
      "dieu": 3,
      "noi_dung": "Điều 3. Điều khoản chuyển tiếp Trường hợp tiêu chuẩn, quy chuẩn kỹ thuật đã được tổ chức xây dựng, thâm định nhưng đên ngày Luật này có hiệu lực thi hành chưa được công bo, ban hành thì việc xây dựng tiêu chuẩn, quy chuẩn kỹ thuật được tiếp tục thực hiện theo quy định của Luật Tiêu chuẩn và quy chuân kỹ thuật số 68/2006/QH11 đã được sửa đổi, bổ sung một số điều theo Luật số 35/2018/QH14.",
      "trang_pdf": 22
+    }
+   ]
+  },
+  {
+   "so_hieu": "71/2010/TT-BNNPTNT",
+   "slug": "71-2010-tt-bnnptnt",
+   "ten": "Ban hành Quy chuẩn kỹ thuật quốc gia về Kiểm dịch và Bảo vệ thực vật",
+   "tinh_trang": "HET_HIEU_LUC_MOT_PHAN",
+   "hieu_luc_tu": "2011-06-10",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-71-2010-tt-bnnptnt-6576.htm",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "Điều 1. Ban hành kèm theo Thông tư này các Quy chuẩn kỹ thuật quốc gia về lĩnh vực Kiểm dịch và Bảo vệ thực vật: 1. Quy chuẩn kỹ thuật quốc gia về khảo nghiệm trên đồng ruộng hiệu lực của các thuốc trừ rầy hại lúa Ký hiệu: QCVN 01-29: 2010/BNNPTNT. 2. Quy chuẩn kỹ thuật quốc gia về khảo nghiệm trên đồng ruộng hiệu lực của các thuốc trừ sâu đục thân hại lúa Ký hiệu: QCVN 01-30: 2010/BNNPTNT.",
+     "trang_pdf": 1,
+     "sha256_pdf": "a3f3cc6455a7af2e740145078913ecf99c0608b5023a0e2a07c99ca6fb0361ce"
+    },
+    {
+     "dieu": 2,
+     "noi_dung": "Điều 2. Thông tư này có hiệu lực sau 6 tháng, kể từ ngày ký ban hành.",
+     "trang_pdf": 2,
+     "sha256_pdf": "a3f3cc6455a7af2e740145078913ecf99c0608b5023a0e2a07c99ca6fb0361ce"
+    },
+    {
+     "dieu": 3,
+     "noi_dung": "Điều 3. Chánh Văn phòng Bộ, Vụ trưởng Vụ Khoa học, Công nghệ và Môi trường, Cục trưởng Cục Bảo vệ thực vật, Thủ trưởng các đơn vị và cá nhân có liên quan chịu trách nhiệm tổ chức thực hiện. Trong quá trình thực hiện, nếu có vấn đề vướng mắc, đề nghị các cơ quan, tổ chức, cá nhân kịp thời phản ánh về Bộ Nông nghiệp và Phát triển nông thôn để Bộ nghiên cứu, sửa đổi, bổ sung./.",
+     "trang_pdf": 2,
+     "sha256_pdf": "a3f3cc6455a7af2e740145078913ecf99c0608b5023a0e2a07c99ca6fb0361ce"
     }
    ]
   },

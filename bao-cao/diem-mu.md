@@ -1,29 +1,25 @@
 # Báo cáo điểm mù — 2026-11-25
 
-Tổng 3082 điểm: **13 cao**, 40 vừa, 3029 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
+Tổng 3045 điểm: **8 cao**, 17 vừa, 3020 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
 
 Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điểm mù trong mô tả.
 
 | Nhóm | Mức | Số điểm | Luồng việc |
 |---|---|---|---|
 | Sắp hết hiệu lực (≤60 ngày) | Cao | 8 | `hieu-luc` |
-| Được nhắc nhưng chưa có trong sổ | Cao | 4 | `he-thong-hoa` |
-| Văn bản hướng dẫn mất gốc | Cao | 1 | `hieu-luc` |
-| Wiki nhắc văn bản chưa đăng ký | Vừa | 32 | `lien-ket-cheo` |
+| Wiki nhắc văn bản chưa đăng ký | Vừa | 9 | `lien-ket-cheo` |
 | Sắp có hiệu lực (≤60 ngày) | Vừa | 3 | `doc-hieu` |
 | Thư viện hs-code-api ghi khác sổ | Vừa | 1 | `hieu-luc` |
 | TB-TCHQ cá biệt chưa có nguồn chính thống | Thấp | 1367 | `tb-tchq` |
 | TB-TCHQ cá biệt chưa đối chiếu nguồn A | Thấp | 1367 | `tb-tchq` |
 | Mã HS AHTN cũ đã ánh xạ sang biểu thuế EN2022 | Thấp | 201 | `danh-muc-hs` |
-| Văn bản của cơ quan đã sáp nhập | Thấp | 21 | `do-tham` |
+| Văn bản của cơ quan đã sáp nhập | Thấp | 22 | `do-tham` |
 | Hiệu lực chưa đối chiếu nguồn A | Thấp | 20 | `hieu-luc` |
 | Biểu thuế Tổng cục còn coi là hiện hành nhưng sổ ghi hết/tạm ngưng — cần văn bản thay | Thấp | 18 | `hieu-luc` |
 | Chưa có nguồn chính thống | Thấp | 16 | `truy-vet-nguon` |
-| Chưa xếp vào cây | Thấp | 7 | `cay-du-lieu` |
 | Chưa có toàn văn | Thấp | 5 | `nap-lam-sach` |
 | Tệp doc-hieu thiếu nghĩa vụ XNK (≥50% điều hợp lệ trống) | Thấp | 4 | `doc-hieu` |
 | HS_API đã chặn săn — chờ nguồn A / số hiệu đúng (không săn lặp) | Thấp | 4 | `hieu-luc` |
-| Mã HS có hàng thật chưa đối chiếu KTCN 2026 (hs-code-api /api/demand) | Thấp | 3 | `danh-muc-hs` |
 
 ## Sắp hết hiệu lực (≤60 ngày) (8)
 
@@ -36,45 +32,11 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **43/2026/NQ-CP hết hiệu lực ngày 2026-12-31** — Tới ngày thì chuyển tinh_trang; rà mọi trang wiki và văn bản đang dẫn chiếu 43/2026/NQ-CP.
 - [ ] **72/2026/NĐ-CP hết hiệu lực ngày 2027-01-01** — Tới ngày thì chuyển tinh_trang; rà mọi trang wiki và văn bản đang dẫn chiếu 72/2026/NĐ-CP.
 
-## Được nhắc nhưng chưa có trong sổ (4)
+## Wiki nhắc văn bản chưa đăng ký (9)
 
-- [ ] **Chưa có trong sổ: 71/2010/TT-BNNPTNT** — Tạo registry/van-ban/ cho 71/2010/TT-BNNPTNT (được nhắc bởi 114/2026/VBHN-TT-BNNMT (hop_nhat)). Dùng: node tools/them-van-ban.mjs "71/2010/TT-BNNPTNT"
-- [ ] **Chưa có trong sổ: 15/2023/TT-BNNPTNT** — Tạo registry/van-ban/ cho 15/2023/TT-BNNPTNT (được nhắc bởi 114/2026/VBHN-TT-BNNMT (hop_nhat)). Dùng: node tools/them-van-ban.mjs "15/2023/TT-BNNPTNT"
-- [ ] **Chưa có trong sổ: 12/2025/TT-BNNMT** — Tạo registry/van-ban/ cho 12/2025/TT-BNNMT (được nhắc bởi 114/2026/VBHN-TT-BNNMT (hop_nhat)). Dùng: node tools/them-van-ban.mjs "12/2025/TT-BNNMT"
-- [ ] **Chưa có trong sổ: 11/2015/TT-BCT** — Tạo registry/van-ban/ cho 11/2015/TT-BCT (được nhắc bởi 26/2026/TT-BCT (sua_doi)). Dùng: node tools/them-van-ban.mjs "11/2015/TT-BCT"
-
-## Văn bản hướng dẫn mất gốc (1)
-
-- [ ] **2371/QĐ-BTC hướng dẫn văn bản đã hết hiệu lực (38/2019/QH14)** — Kiểm tra văn bản này còn được áp dụng không (thường hết hiệu lực theo văn bản gốc), hoặc đã có văn bản hướng dẫn mới.
-
-## Wiki nhắc văn bản chưa đăng ký (32)
-
-- [ ] **Wiki nhắc 71/2010/TT-BNNPTNT nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/114-2026-vbhn-tt-bnnmt.md).
-- [ ] **Wiki nhắc 15/2023/TT-BNNPTNT nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/114-2026-vbhn-tt-bnnmt.md).
-- [ ] **Wiki nhắc 12/2025/TT-BNNMT nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/114-2026-vbhn-tt-bnnmt.md).
-- [ ] **Wiki nhắc 29/2023/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/13-2024-tt-btc.md).
-- [ ] **Wiki nhắc 11/2014/TT-NHNN nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/15029-chq-gsql-2026.md).
-- [ ] **Wiki nhắc 27/2024/TT-BYT nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/18-2026-tt-byt.md).
 - [ ] **Wiki nhắc 3235/QĐ-BYT nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/18-2026-tt-byt.md).
 - [ ] **Wiki nhắc 178/2011/TT-BTC nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/1813-btc-tchq-2025.md).
-- [ ] **Wiki nhắc 35/2024/QH15 nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/23-2008-qh12.md).
 - [ ] **Wiki nhắc 90/2024/TT-BYT nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/23153-chq-nvthq-2026.md).
-- [ ] **Wiki nhắc 122/2016/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/25-2016-tt-btc.md).
-- [ ] **Wiki nhắc 182/2015/TT-BTC nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/25-2016-tt-btc.md).
-- [ ] **Wiki nhắc 24/2026/TT-BCT nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/26-2026-tt-bct.md).
-- [ ] **Wiki nhắc 11/2015/TT-BCT nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/26-2026-tt-bct.md).
-- [ ] **Wiki nhắc 23/2024/TT-BCT nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/26-2026-tt-bct.md).
-- [ ] **Wiki nhắc 43/2023/TT-BCT nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/26-2026-tt-bct.md).
-- [ ] **Wiki nhắc 18/2025/TT-BCT nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/26-2026-tt-bct.md).
-- [ ] **Wiki nhắc 38/2025/TT-BCT nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/26-2026-tt-bct.md).
-- [ ] **Wiki nhắc 131/2022/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/295-da-pbp.md).
-- [ ] **Wiki nhắc 22/2022/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/295-da-pbp.md).
-- [ ] **Wiki nhắc 32/2012/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/295-da-pbp.md).
-- [ ] **Wiki nhắc 16/2023/QH15 nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/30-2024-tt-btc.md).
-- [ ] **Wiki nhắc 217/2013/TT-BTC nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/36-2017-tt-btc.md).
-- [ ] **Wiki nhắc 156/2020/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/36-2017-tt-btc.md).
-- [ ] **Wiki nhắc 23/2021/TT-BTC nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/3982-tchq-gsql.md).
-- [ ] **Wiki nhắc 100/2020/NĐ-CP nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/3982-tchq-gsql.md).
 - [ ] **Wiki nhắc 4286/QĐ-TCHQ nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/467-qd-chq-2025.md).
 - [ ] **Wiki nhắc 136/QĐ-TCHQ nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/467-qd-chq-2025.md).
 - [ ] **Wiki nhắc 85/2021/TT-BTC nhưng sổ chưa có** — Thêm vào sổ (wiki/sources/61-2016-tt-btc.md).
@@ -224,7 +186,7 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **09/2024/TT-BYT: mã 33045099 (AHTN cũ) → đã ánh xạ sang 33049990 (don_le)** — danh-muc/09-2024-tt-byt.csv dòng 1390 ("Calcipotriol"). Đã ánh xạ sang hs_moi: 33049990 (loai: don_le) trong registry/phien-ban-bieu-thue-mapping.yaml; đối chiếu bản gốc khi cập nhật danh-muc/.
 - … và 161 điểm khác (xem bao-cao/diem-mu.json)
 
-## Văn bản của cơ quan đã sáp nhập (21)
+## Văn bản của cơ quan đã sáp nhập (22)
 
 - [ ] **01/2024/TT-BNNPTNT (Bộ Nông nghiệp và Phát triển nông thôn) còn ghi hiệu lực — cơ quan đã sáp nhập vào BNNMT** — Kiểm tra BNNMT đã ban hành văn bản thay thế chưa.
 - [ ] **03/2024/TT-BNNPTNT (Bộ Nông nghiệp và Phát triển nông thôn) còn ghi hiệu lực — cơ quan đã sáp nhập vào BNNMT** — Kiểm tra BNNMT đã ban hành văn bản thay thế chưa.
@@ -238,6 +200,7 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **1340/BTNMT-KSONMT (Bộ Tài nguyên và Môi trường) còn ghi hiệu lực — cơ quan đã sáp nhập vào BNNMT** — Kiểm tra BNNMT đã ban hành văn bản thay thế chưa.
 - [ ] **1357/QĐ-TCHQ (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ** — Kiểm tra CHQ đã ban hành văn bản thay thế chưa.
 - [ ] **139/TXNK-CST (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ** — Kiểm tra CHQ đã ban hành văn bản thay thế chưa.
+- [ ] **15/2023/TT-BNNPTNT (Bộ Nông nghiệp và Phát triển nông thôn) còn ghi hiệu lực — cơ quan đã sáp nhập vào BNNMT** — Kiểm tra BNNMT đã ban hành văn bản thay thế chưa.
 - [ ] **17/2023/TT-BNNPTNT (Bộ Nông nghiệp và Phát triển nông thôn) còn ghi hiệu lực — cơ quan đã sáp nhập vào BNNMT** — Kiểm tra BNNMT đã ban hành văn bản thay thế chưa.
 - [ ] **1798/TCHQ-GSQL (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ** — Kiểm tra CHQ đã ban hành văn bản thay thế chưa.
 - [ ] **2079/QĐ-TCHQ (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ** — Kiểm tra CHQ đã ban hành văn bản thay thế chưa.
@@ -311,16 +274,6 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **8378/QĐ-BCA: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **9981/QĐ-BCA: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 
-## Chưa xếp vào cây (7)
-
-- [ ] **13/2024/TT-BTC: chưa xếp vào cây** — Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.
-- [ ] **28/2016/TT-BTC: chưa xếp vào cây** — Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.
-- [ ] **30/2024/TT-BTC: chưa xếp vào cây** — Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.
-- [ ] **38/2016/QĐ-TTg: chưa xếp vào cây** — Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.
-- [ ] **45/2016/TT-BTC: chưa xếp vào cây** — Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.
-- [ ] **61/2016/TT-BTC: chưa xếp vào cây** — Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.
-- [ ] **71/2018/TT-BTC: chưa xếp vào cây** — Chọn nút phù hợp trong registry/cay-xnk.yaml; thiếu nút thì đề xuất nút mới.
-
 ## Chưa có toàn văn (5)
 
 - [ ] **03/2026/TT-BCT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "03/2026/TT-BCT" --ghi
@@ -342,9 +295,3 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **Chờ mở chặn 2284/QĐ-BKHCN (THIEU_PDF_A) — 19 mã HS** — Đã ghi xac_minh.chan: THIEU_PDF_A (2026-10-04). Việc tiếp: Đã có toàn văn trên vntr.moit.gov.vn (bản đánh máy lại của Bộ Công Thương, không phải bản gốc BKHCN); vẫn chờ bản gốc có chữ ký trên datafiles/most/mst và nguồn A xác nhận tình trạng hiệu lực (danh mục nhóm 2 đã được TT 03/2024/TT-BKHCN cập nhật).. Không săn lại cùng URL chết — chạy node tools/san-hieu-luc.mjs để xem hàng đợi còn làm được.
 - [ ] **Chờ mở chặn 9981/QĐ-BCA (THIEU_PDF_A) — 12 mã HS** — Đã ghi xac_minh.chan: THIEU_PDF_A (2026-10-09). Việc tiếp: customs Attachments/12857 đã 404; chờ bản ký số trên datafiles/bocongan. Không nạp từ TVXNK (C) để đánh true. Ngoài ra, 6266/QĐ-BCA (2023) thay TT 08/2019/TT-BCA, KHÔNG thay QĐ 9981. 125/2026/TT-BCA Điều 5 quy định chuyển tiếp nhưng không ghi rõ thay 9981 — cần đối chiếu thêm khi có nguồn A.. Không săn lại cùng URL chết — chạy node tools/san-hieu-luc.mjs để xem hàng đợi còn làm được.
 - [ ] **Chờ mở chặn 45/2024/TT-BCT (SO_HIEU_LECH) — 1 mã HS** — Đã ghi xac_minh.chan: SO_HIEU_LECH (2026-10-04). Việc tiếp: Đối chiếu mã HS bên hs-code-api — Công báo không có 45/2024/TT-BCT (có 45/2024/TT-BTC, 45/2025/TT-BCT). Mở issue hs-code-api nếu lệch số hiệu.. Không săn lại cùng URL chết — chạy node tools/san-hieu-luc.mjs để xem hàng đợi còn làm được.
-
-## Mã HS có hàng thật chưa đối chiếu KTCN 2026 (hs-code-api /api/demand) (3)
-
-- [ ] **Hàng thật mã 84135090 chưa đối chiếu danh mục KTCN 2026** — Món hàng thật (OZ, gặp gần nhất 2026-11-16) mang mã 84135090 nhưng chưa bảng danh mục KTCN 2026 nào trong danh-muc/ phủ mã này. Bảng KTCN 2026 có dòng cùng nhóm 8413: 125/2026/TT-BCA — mở bản gốc đối chiếu xem mã 84135090 có bị trích sót không. Kết luận: thuộc diện → bổ sung dòng vào bảng (docs/luoc-do-danh-muc-hs.md); không thuộc diện → ghi 1 dòng vào doi-chieu/hang-that.csv (ma_hs,ket_luan,can_cu,ngay,ghi_chu) để việc tự đóng.
-- [ ] **Hàng thật mã 84718010 chưa đối chiếu danh mục KTCN 2026** — Món hàng thật (OZ, gặp gần nhất 2026-11-16) mang mã 84718010 nhưng chưa bảng danh mục KTCN 2026 nào trong danh-muc/ phủ mã này. Biểu thuế đang dẫn: 08/2023/TT-BCT, 11/2018/TT-BTTTT. Bảng KTCN 2026 có dòng cùng nhóm 8471: 126/2026/TT-BQP, 36/2026/TT-BKHCN — mở bản gốc đối chiếu xem mã 84718010 có bị trích sót không. Kết luận: thuộc diện → bổ sung dòng vào bảng (docs/luoc-do-danh-muc-hs.md); không thuộc diện → ghi 1 dòng vào doi-chieu/hang-that.csv (ma_hs,ket_luan,can_cu,ngay,ghi_chu) để việc tự đóng.
-- [ ] **Hàng thật mã 34060000 chưa đối chiếu danh mục KTCN 2026** — Món hàng thật (OZ, gặp gần nhất 2026-11-16) mang mã 34060000 nhưng chưa bảng danh mục KTCN 2026 nào trong danh-muc/ phủ mã này. Chưa bảng KTCN 2026 nào có dòng nhóm 3406 — nhiều khả năng không thuộc diện; xác nhận theo phạm vi các danh mục. Kết luận: thuộc diện → bổ sung dòng vào bảng (docs/luoc-do-danh-muc-hs.md); không thuộc diện → ghi 1 dòng vào doi-chieu/hang-that.csv (ma_hs,ket_luan,can_cu,ngay,ghi_chu) để việc tự đóng.
