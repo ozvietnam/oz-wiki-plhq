@@ -1,0 +1,31 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 23489/CHQ-NVTHQ
+so_hieu_khac:
+  - 23489/CHQ-NVTHQ/2026
+loai: CONG_VAN
+ten: 'Về việc mã HS và thuế chống bán phá giá đối với mặt hàng thanh nhôm hợp kim nhập khẩu (A6061 T6 cán nóng cắt cơ học 50 x 414 x 2805 mm, mã số 7604.29.90)'
+co_quan: CHQ
+ngay_ban_hanh: '2026-10-26'
+hieu_luc_tu: '2026-10-26'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - phan-loai-hs
+quan_he:
+  huong_dan:
+    - 54/2014/QH13
+    - 107/2016/QH13
+    - 05/2017/QH14
+    - 31/2022/TT-BTC
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=106545&cid=1294
+    truy_cap: '2026-11-24'
+  - url: https://files.customs.gov.vn/CustomsCMS/DONG_NAI/2026/10/27/23489_CHQ_NVTHQ_27_10_2026.pdf
+    truy_cap: '2026-11-24'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/DONG_NAI/2026/10/27/23489_CHQ_NVTHQ_27_10_2026.pdf, id=106545, SHA-256 02bc2bb7853cd9e9d7e3d40b4c8f40e43c3d8861fef9e2fe5e12f11acca6f136): Công văn số 23489/CHQ-NVTHQ ngày 26-10-2026 của Cục Hải quan hướng dẫn phân loại mã HS và thuế chống bán phá giá đối với mặt hàng Thanh nhôm hợp kim A6061 T6 kích thước 50 x 414 x 2805 mm sản xuất bằng phương pháp cán nóng (không đùn ép) rồi cắt cơ học từ tấm nhôm 50 x 1.500 x 3.000 mm, có tỷ lệ chiều dày/chiều rộng 50/414 ≈ 0,121 lớn hơn 1/10 nên đáp ứng định nghĩa "Thanh và que" tại Chú giải 9(a) Phần XV Thông tư 31/2022/TT-BTC, phù hợp phân loại vào nhóm 76.04 ("Nhôm ở dạng thanh, que và hình"), phân nhóm 7604.29, mã số 7604.29.90; việc xác định đối tượng, kiểm tra hồ sơ và miễn trừ áp dụng biện pháp phòng vệ thương mại (thuế CBPG) thuộc thẩm quyền của Bộ Công Thương theo khoản 3 Điều 15 Luật Thuế xuất khẩu, thuế nhập khẩu số 107/2016/QH13 và Điều 67 Luật Quản lý ngoại thương số 05/2017/QH14; đang còn hiệu lực'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-24'
+  boi: gd-bo-ba@ozvietnam
+ghi_chu: 'Tiêu chí phân biệt thanh/que nhôm (nhóm 76.04) với tấm/lá nhôm (nhóm 76.06) theo Chú giải 9(a) Phần XV Thông tư 31/2022/TT-BTC: sản phẩm cán nóng cắt cơ học không ở dạng cuộn, mặt cắt ngang hình chữ nhật có chiều dày vượt quá 1/10 chiều rộng (50/414 ≈ 0,121 > 0,1) vẫn thuộc khái niệm thanh và que nhôm hợp kim mã 7604.29.90 dù không sản xuất bằng đùn ép.'
+toan_van: raw/download/files.customs.gov.vn/23489-chq-nvthq-2026.pdf

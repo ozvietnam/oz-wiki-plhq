@@ -1,0 +1,32 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 23153/CHQ-NVTHQ
+so_hieu_khac:
+  - 23153/CHQ-NVTHQ/2026
+loai: CONG_VAN
+ten: 'Về việc xác nhận mã HS code đối với sản phẩm Đông trùng hạ thảo nhập khẩu (Cordyceps Sinensis dạng khô nguyên con, nhóm 12.11, mã số 1211.90.19 / 1211.90.99)'
+co_quan: CHQ
+ngay_ban_hanh: '2026-10-19'
+hieu_luc_tu: '2026-10-19'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - phan-loai-hs
+  - kiem-tra-chuyen-nganh/byt
+quan_he:
+  huong_dan:
+    - 54/2014/QH13
+    - 31/2022/TT-BTC
+    - 09/2024/TT-BYT
+    - 85/2026/TT-BTC
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=106445&cid=1294
+    truy_cap: '2026-11-24'
+  - url: https://files.customs.gov.vn/CustomsCMS/DONG_NAI/2026/10/20/23153_CHQ_NVTHQ_19_10_2026.pdf
+    truy_cap: '2026-11-24'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/DONG_NAI/2026/10/20/23153_CHQ_NVTHQ_19_10_2026.pdf, id=106445, SHA-256 5e43312b20efd7ebb80aa265023dc798c2c64e376a1cac09c67b9c924b74ccf2): Công văn số 23153/CHQ-NVTHQ ngày 19-10-2026 của Cục Hải quan hướng dẫn phân loại mặt hàng Đông trùng hạ thảo (Cordyceps Sinensis) dạng khô, nguyên con, chưa cắt, nghiền hoặc xay thành bột: nếu chủ yếu dùng làm nước hoa, làm dược phẩm hoặc thuốc trừ sâu, thuốc diệt nấm hoặc các mục đích tương tự theo mô tả nhóm 12.11 Thông tư 31/2022/TT-BTC thì phân loại vào mã số 1211.90.19 đối với loại chủ yếu dùng làm dược liệu (dẫn chiếu STT 130 Danh mục 11 dược liệu làm thuốc ban hành kèm Thông tư 09/2024/TT-BYT ngày 11-06-2024 của Bộ Y tế — trong bản PDF công văn gõ nhầm số hiệu thành 90/2024/TT-BYT — gồm 1211.90.17 dạng tươi/khô đã cắt nghiền bột, 1211.90.18 dạng đã cắt nghiền bột, 1211.90.19 dạng khác), hoặc mã số 1211.90.99 nếu không phải loại chủ yếu dùng làm dược liệu; trường hợp không xác định được công dụng theo mô tả nhóm 12.11 hoặc thiếu giấy chứng nhận của cơ quan có thẩm quyền chứng minh mục đích dùng làm thực phẩm thì không thuộc nhóm 12.11; đang còn hiệu lực'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-24'
+  boi: gd-bo-ba@ozvietnam
+ghi_chu: 'Hướng dẫn phân loại Đông trùng hạ thảo (Cordyceps Sinensis) dạng khô nguyên con: thuộc nhóm 12.11 khi đáp ứng công dụng làm dược phẩm/nước hoa/thuốc diệt nấm (chủ yếu làm dược liệu: 1211.90.19; loại khác trong nhóm 12.11: 1211.90.99). Lưu ý lỗi gõ trong văn bản gốc: trang 2 ghi "Thông tư số 90/2024/TT-BYT ngày 11/6/2024" thực chất là Thông tư 09/2024/TT-BYT ngày 11/06/2024 (STT 130 Danh mục 11).'
+toan_van: raw/download/files.customs.gov.vn/23153-chq-nvthq-2026.pdf
