@@ -1,0 +1,30 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 18100/TB-CHQ/2026
+so_hieu_khac:
+  - 18100/TB-CHQ
+  - 18100/CHQ-NVTHQ
+  - 18100/CHQ-NVTHQ/2026
+loai: THONG_BAO
+loai_phan_loai: XAC_DINH_TRUOC
+loai_phan_loai_can_cu: title_xac_dinh_truoc
+loai_phan_loai_ngay: '2026-11-24'
+ten: 'Thông báo về kết quả xác định trước mã số (Thực phẩm chế biến sẵn dạng lỏng sệt Nước yến đường phèn hàm lượng tổ yến 100 mg/lít, mã số 2202.99.50)'
+co_quan: CHQ
+ngay_ban_hanh: '2026-06-26'
+hieu_luc_tu: '2026-06-26'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - phan-loai-hs
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=104901&cid=1294
+    truy_cap: '2026-11-24'
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/6/26/VB_18100.pdf
+    truy_cap: '2026-11-24'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/6/26/VB_18100.pdf, id=104901, SHA-256 b68cff1dfd47252e7c7af36c7f85c37a369c8fd9382802f414c2c9837c9c7d3c): Thông báo số 18100/TB-CHQ ngày 26-06-2026 của Cục Hải quan (trên mục lục cổng ghi ký hiệu 18100/CHQ-NVTHQ) về kết quả xác định trước mã số đối với mặt hàng Nước yến đường phèn (thực phẩm chế biến sẵn dạng lỏng sệt, chưng từ tổ yến hàm lượng thấp 100 mg yến tươi/lít với đường phèn, dùng trực tiếp; tỷ lệ hàm lượng gồm Nước 91.303%, Đường phèn 8%, Phụ gia 0.689% gồm chất làm dày INS 415, INS 327, chất ổn định INS 401, INS 406, chất bảo quản INS 202, hương yến tổng hợp, và Tổ yến tươi 0.008%; tiệt trùng ở 119 độ C trong 15-38 phút; quy cách hũ 70 ml, hộp 6 hũ x 70 ml, hũ 190 ml, chai 180 ml hoặc thể tích thực khác), phân loại vào nhóm 22.02, phân nhóm 2202.99, mã số 2202.99.50; có hiệu lực từ ngày ký'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-24'
+  boi: gd-bo-ba@ozvietnam
+ghi_chu: 'Xác định trước mã số mặt hàng Nước yến đường phèn (thực phẩm chế biến sẵn dạng lỏng sệt dùng trực tiếp không có ga, thành phần nước 91.303%, đường phèn 8%, phụ gia INS 415, INS 327, INS 401, INS 406, INS 202 và hương yến tổng hợp 0.689%, tổ yến tươi 0.008% tương ứng 100 mg/lít, tiệt trùng ở 119 độ C) thuộc nhóm 22.02, phân nhóm 2202.99, mã số 2202.99.50.'
+toan_van: raw/download/files.customs.gov.vn/18100-tb-chq-2026.pdf
