@@ -3,7 +3,7 @@ id: van-ban-sap-het-hieu-luc-2026-2027
 title: "Cẩm nang hành động: 8 văn bản sắp hết hiệu lực & 3 văn bản sắp có hiệu lực 31/12/2026 – 01/01/2027"
 type: summary
 created: 2026-11-22
-updated: 2026-11-22
+updated: 2026-11-24
 covers:
   - thue-gtgt-hang-nhap-khau
   - hang-cu-cam-nhap-khau
@@ -72,7 +72,7 @@ Chính sách thuế đối với xăng, dầu và nhiên liệu bay cuối năm 
 Theo Điều 64 khoản 4 `292/2026/NĐ-CP` (hiệu lực từ `05/09/2026`, thay thế văn bản lịch sử đã hết hiệu lực `69/2018/NĐ-CP`), các thông tư đang có hiệu lực hướng dẫn `69/2018/NĐ-CP` chỉ được tiếp tục thực hiện **đến hết ngày `31/12/2026`**:
 
 - **Sản phẩm CNTT / công nghệ số đã qua sử dụng (`11/2018/TT-BTTTT` → `63/2026/TT-BKHCN`):**
-  - `11/2018/TT-BTTTT` (`CON_HIEU_LUC` đến hết `2026-12-31`, [[sources/11-2018-tt-btttt]]) hiện điều chỉnh Danh mục sản phẩm CNTT đã qua sử dụng cấm nhập khẩu (`danh-muc/11-2018-tt-btttt.csv`, 39 dòng / `186` mã HS biểu thuế).
+  - `11/2018/TT-BTTTT` (`CON_HIEU_LUC` đến hết `2026-12-31`, [[sources/11-2018-tt-btttt]]) hiện điều chỉnh Danh mục sản phẩm CNTT đã qua sử dụng cấm nhập khẩu (`danh-muc/11-2018-tt-btttt.csv`, 38 dòng lá, `da_doi_chieu: true` / `186` mã HS biểu thuế).
   - Sau hợp nhất `BTTTT` → `BKHCN` ([[concepts/co-quan-tiep-nhan-sau-sap-nhap]]), Bộ KH&CN đã ban hành **`63/2026/TT-BKHCN`** (`CHUA_CO_HIEU_LUC`, hiệu lực từ `2027-01-01`, `NGUON_A`). Kể từ `01/01/2027`, thông tư mới này sẽ thay thế toàn bộ `11/2018/TT-BTTTT` (trừ chuyển tiếp giấy phép đã cấp theo Điều 3 khoản 3). `danh-muc/63-2026-tt-bkhcn.csv` gồm **37 dòng lá** (8 mã nhóm `8443`, 11 nhóm 4 số, 18 mã nhóm `8544`), đã bỏ mã `8443.32.49` theo `31/2022/TT-BTC` và bỏ 2 dòng tiêu đề cha `8443`/`8544`.
   - Lưu ý phạm vi: quy định này tách biệt với thông tư cấp phép sản phẩm an toàn thông tin mạng (`10/2022/TT-BTTTT`, `CON_HIEU_LUC`) và sửa đổi danh mục in/xuất bản phẩm/CNTT (`11/2024/TT-BTTTT`, `CON_HIEU_LUC`).
 - **Hàng tiêu dùng, phương tiện & thiết bị y tế đã qua sử dụng (`12/2018/TT-BCT` & `08/2023/TT-BCT`):**
@@ -80,13 +80,13 @@ Theo Điều 64 khoản 4 `292/2026/NĐ-CP` (hiệu lực từ `05/09/2026`, tha
   - Cụ thể: từ `05/09/2026`, [[sources/48-2026-tt-bct]] (`48/2026/TT-BCT`) Điều 20 bãi bỏ toàn bộ `12/2018/TT-BCT` và bãi bỏ **khoản 1 Điều 1 + Phụ lục I** của `08/2023/TT-BCT` (chuyển hàng tiêu dùng và phương tiện đã qua sử dụng cấm nhập khẩu sang Phụ lục I, II của `48/2026/TT-BCT` — xem [[concepts/hang-cu-cam-nhap-khau]]).
   - Tuy nhiên, Điều 21 khoản 3 `48/2026/TT-BCT` cho phép **Danh mục thiết bị y tế đã qua sử dụng cấm nhập khẩu** (Mục III Phụ lục I `12/2018/TT-BCT` sửa đổi bởi Phụ lục I `08/2023/TT-BCT`, gồm 5 nhóm `9018`–`9022`) tiếp tục thực hiện **đến hết `31/12/2026`**.
   - **Cảnh báo dễ nhầm đối với `08/2023/TT-BCT` ([[sources/08-2023-tt-bct]]):** Khoản 2 Điều 1 (**Phụ lục II** — tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu) và Điều 2 (**Phụ lục III, IV, V** sửa đổi `41/2019/TT-BCT` về thóc gạo xuất khẩu, nguyên liệu/giấy thuốc lá, máy móc thiết bị chuyên ngành thuốc lá) **vẫn còn hiệu lực** và **không** hết hiệu lực vào `31/12/2026`.
-  - **Điểm mù trung thực phần thiết bị y tế cũ:** Theo Phụ lục I Mục II `292/2026/NĐ-CP`, thẩm quyền quản lý `"Thiết bị y tế đã qua sử dụng"` thuộc **Bộ Y tế** (trong khi `07/2023/NĐ-CP` sửa đổi `98/2021/NĐ-CP` tại Điều 46 khoản 6 lại dẫn chiếu về pháp luật quản lý ngoại thương). Đến `22/11/2026`, **chưa có** Thông tư mới của Bộ Công Thương hay Bộ Y tế trong sổ ban hành danh mục mã HS thay thế riêng cho Mục III Phụ lục I sau `31/12/2026`. Ngoài ra `danh-muc/08-2023-tt-bct.csv` (`464` dòng) đang ghi `da_doi_chieu: false`.
+  - **Điểm mù trung thực phần thiết bị y tế cũ:** Theo Phụ lục I Mục II `292/2026/NĐ-CP`, thẩm quyền quản lý `"Thiết bị y tế đã qua sử dụng"` thuộc **Bộ Y tế** (trong khi `07/2023/NĐ-CP` sửa đổi `98/2021/NĐ-CP` tại Điều 46 khoản 6 lại dẫn chiếu về pháp luật quản lý ngoại thương). Đến `24/11/2026`, **chưa có** Thông tư mới của Bộ Công Thương hay Bộ Y tế trong sổ ban hành danh mục mã HS thay thế riêng cho Mục III Phụ lục I sau `31/12/2026`. Bảng `danh-muc/08-2023-tt-bct.csv` (`427` dòng lá) đã hoàn tất đối chiếu người thứ hai (`da_doi_chieu: true`), tách rõ `dieu_kien` giữa Mục I–II đã hết hiệu lực từ `05/09/2026` với Mục III (`9018`–`9022`) còn chuyển tiếp đến hết `31/12/2026` và Phụ lục II–V còn hiệu lực.
 
 ### 5. Hàng hóa cấm XK/NK chuyên ngành Quốc phòng (`173/2018/TT-BQP`) & mốc chuyển tiếp `31/12/2026` khác
 
-- **`173/2018/TT-BQP` (`CON_HIEU_LUC`, `2019-01-01` → `het_hieu_luc_tu: 2026-12-31`):** Ban hành 24 mục hàng hóa cấm xuất khẩu, cấm nhập khẩu thuộc diện quản lý chuyên ngành Bộ Quốc phòng (thay thế văn bản lịch sử đã hết hiệu lực `40/2017/TT-BQP`), gồm 12 mục có mã HS trích tại `danh-muc/173-2018-tt-bqp.csv` (phủ `41` mã HS trong biểu thuế) và 12 mục không gắn mã HS.
+- **`173/2018/TT-BQP` (`CON_HIEU_LUC`, `2019-01-01` → `het_hieu_luc_tu: 2026-12-31`):** Ban hành 24 mục hàng hóa cấm xuất khẩu, cấm nhập khẩu thuộc diện quản lý chuyên ngành Bộ Quốc phòng (thay thế văn bản lịch sử đã hết hiệu lực `40/2017/TT-BQP`), gồm 12 mục có mã HS trích tại `danh-muc/173-2018-tt-bqp.csv` (phủ `41` mã HS trong biểu thuế, `da_doi_chieu: true`) và 12 mục không gắn mã HS.
   - **Vì sao hết hạn `31/12/2026`:** `173/2018/TT-BQP` hướng dẫn văn bản lịch sử đã hết hiệu lực `69/2018/NĐ-CP`, nên chỉ còn hiệu lực chuyển tiếp đến hết `31/12/2026` theo Điều 64 khoản 4 `292/2026/NĐ-CP`. Trong khi đó, Điều 9 khoản 1 `292/2026/NĐ-CP` giao Bộ trưởng Bộ Quốc phòng quyết định danh mục hàng hóa XNK phục vụ quốc phòng, an ninh và cấp phép XNK.
-  - **Điểm mù kép cần nêu rõ:** (1) Đến `22/11/2026`, **chưa có** Thông tư BQP mới trên nguồn bậc A thay thế danh mục cấm XK/NK của `173/2018/TT-BQP` (lưu ý `126/2026/TT-BQP` là danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn phục vụ KTCN, không thay thế `173/2018/TT-BQP`); (2) PDF gốc `173-2018-tt-bqp.pdf` là bản scan ảnh OCR, chưa trích `xac_minh.dieu_khoan`, và `danh-muc/173-2018-tt-bqp.csv` đang ở trạng thái `da_doi_chieu: false`.
+  - **Điểm mù trung thực cần nêu rõ:** (1) Đến `24/11/2026` (Công báo số 584), **chưa có** Thông tư BQP mới trên nguồn bậc A thay thế danh mục cấm XK/NK của `173/2018/TT-BQP` (lưu ý `126/2026/TT-BQP` là danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn phục vụ KTCN, không thay thế `173/2018/TT-BQP`); (2) PDF gốc `173-2018-tt-bqp.pdf` đã được OCR, trích nguyên văn Điều 1, Điều 2, Điều 3 vào `xac_minh.dieu_khoan` và bảng `danh-muc/173-2018-tt-bqp.csv` (12 mục có mã HS) đã hoàn tất đối chiếu người thứ hai (`da_doi_chieu: true`).
 - **Các mốc chuyển tiếp `31/12/2026` liên quan về hóa chất, tiền chất & hạn ngạch:**
   - Về hóa chất và tiền chất (xem chi tiết tại [[concepts/hoa-chat-tien-chat-cas-xnk]]): **trước ngày `31/12/2026`**, doanh nghiệp kinh doanh/sử dụng hợp pháp **1,4-Butanediol (`BDO`, CAS `110-63-4`)** phải tuân thủ quy định quản lý tiền chất theo Điều 3 khoản 4 `28/2026/NĐ-CP`; các cơ sở có hóa chất mới thuộc diện kiểm soát đặc biệt/có điều kiện và lập Kế hoạch ứng phó sự cố hóa chất cũng có mốc hoàn tất trước `31/12/2026` theo Điều 30 khoản 3, 4, 7 `26/2026/NĐ-CP` và Điều 40 khoản 2 `25/2026/NĐ-CP`.
   - Về hạn ngạch thuế quan theo cam kết song phương trong Phụ lục IV `48/2026/TT-BCT`: các mục **XIII** (Việt Nam – Campuchia), **XIV** (Nghị định thư Việt Nam – Nga) và **XV** (Nghị định thư Việt Nam – Bê-la-rút) đều có mốc hiệu lực ghi đến `31/12/2026`.
@@ -119,14 +119,33 @@ Song song với 8 văn bản sắp hết hiệu lực, sổ đăng ký ghi nhậ
 | [[sources/372-2026-nd-cp]] (`372/2026/NĐ-CP`) | `CP` (`29/09/2026`) | `2027-01-01` | Quy định Nền tảng quốc gia về định danh, xác thực và truy xuất nguồn gốc (`VnUID`) và mã `UID` (GS1 Digital Link / W3C `DID` / TCVN 13274:2020): **bắt buộc** đối với **hàng hóa mức độ rủi ro cao** theo `37/2026/NĐ-CP` (gồm dữ liệu chủ chuẩn hóa mã HS, sự kiện trọng yếu thông quan/hóa đơn, số hóa C/O và chứng nhận chất lượng thành chứng chỉ số), khuyến khích tự nguyện với rủi ro trung bình/thấp & hàng XK, loại trừ TNTX/quá cảnh/chuyển khẩu/kho ngoại quan; chuyển tiếp kết nối tối đa `06` tháng từ khi công bố Nền tảng đủ điều kiện. |
 | [[sources/63-2026-tt-bkhcn]] (`63/2026/TT-BKHCN`) | `BKHCN` (`27/10/2026`) | `2027-01-01` | Thay thế toàn bộ `11/2018/TT-BTTTT` về Danh mục sản phẩm công nghệ số đã qua sử dụng cấm nhập khẩu kèm mã HS theo `292/2026/NĐ-CP` (chuẩn hóa `37` dòng lá trong `danh-muc/63-2026-tt-bkhcn.csv` theo `31/2022/TT-BTC`, bỏ mã `8443.32.49`), bổ sung **ngoại lệ mới** cho máy móc/dây chuyền phục vụ dự án sản xuất, đóng gói, kiểm thử **vi mạch bán dẫn** hoặc đào tạo, R&D công nghệ số (điểm e khoản 2 Điều 2) và chuyển tiếp giấy phép đã cấp trước `01/01/2027` (khoản 3 Điều 3). |
 
+### 8. Kịch bản cắt chuyển trạng thái sổ đăng ký (`registry/van-ban/`) tại mốc `31/12/2026` – `01/01/2027`
+
+Do cổng kiểm tự động `tools/kiem-tra.mjs` chặn việc đặt `tinh_trang: HET_HIEU_LUC` khi `het_hieu_luc_tu > today` (và chặn giữ `CON_HIEU_LUC` khi `het_hieu_luc_tu <= today`), việc cập nhật sổ đăng ký được chia thành **2 pha rõ ràng**:
+
+1. **Pha trước `15/12/2026`:** Hoàn tất toàn bộ 8/8 trang `wiki/sources/` và đồng bộ các trang `wiki/concepts/`, `wiki/summary/`; canh Công báo mỗi kỳ đối với 7 văn bản chưa có văn bản kế nhiệm/gia hạn (nếu có văn bản mới ban hành thì nạp ngay toàn văn bậc A và gắn `quan_he.thay_the` / `sua_doi`).
+2. **Pha cắt chuyển đúng hạn (`31/12/2026` – `01/01/2027`):** Nếu đến ngày hết hạn mà cơ quan có thẩm quyền không ban hành văn bản gia hạn mới, áp dụng bảng chuyển trạng thái YAML chuẩn dưới đây:
+
+| Tệp `registry/van-ban/` | Trạng thái hiện tại | Thao tác cắt chuyển tại mốc `31/12/2026` – `01/01/2027` (nếu không có VB gia hạn mới) | Lý do & kiểm chứng `kiem-tra.mjs` |
+|---|---|---|---|
+| `11-2018-tt-btttt.yaml` | `CON_HIEU_LUC` (`het_hieu_luc_tu: '2026-12-31'`) | Đổi `tinh_trang: HET_HIEU_LUC` | Đã có `63-2026-tt-bkhcn.yaml` ghi `quan_he.thay_the` từ `2027-01-01` |
+| `12-2018-tt-bct.yaml` | `HET_HIEU_LUC_MOT_PHAN` (`het_hieu_luc_tu: '2026-12-31'`) | Đổi `tinh_trang: HET_HIEU_LUC` | Phần chính đã bị `48/2026/TT-BCT` bãi bỏ toàn bộ từ `05/09/2026`; phần chuyển tiếp duy nhất còn lại (Phụ lục I thiết bị y tế cũ theo khoản 3 Điều 21 `48/2026/TT-BCT`) kết thúc ngày `31/12/2026` |
+| `08-2023-tt-bct.yaml` | `HET_HIEU_LUC_MOT_PHAN` (`het_hieu_luc_tu: '2026-12-31'`) | **Giữ** `tinh_trang: HET_HIEU_LUC_MOT_PHAN`, **bỏ** trường `het_hieu_luc_tu: '2026-12-31'` và cập nhật `ghi_chu` | Chỉ phần chuyển tiếp thiết bị y tế cũ tại Phụ lục I kết thúc ngày `31/12/2026`; Khoản 2 Điều 1 (Phụ lục II) và Điều 2 (Phụ lục III–V sửa `41/2019/TT-BCT`) **vẫn còn hiệu lực** nên tuyệt đối không chuyển sang `HET_HIEU_LUC` |
+| `173-2018-tt-bqp.yaml` | `CON_HIEU_LUC` (`het_hieu_luc_tu: '2026-12-31'`) | Đổi `tinh_trang: HET_HIEU_LUC` (hoặc gắn `quan_he.thay_the` từ TT-BQP mới nếu ban hành kịp) | Hết thời hạn chuyển tiếp văn bản hướng dẫn `69/2018/NĐ-CP` theo khoản 4 Điều 64 `292/2026/NĐ-CP` |
+| `204-2025-qh15.yaml` | `CON_HIEU_LUC` (`het_hieu_luc_tu: '2026-12-31'`) | Đổi `tinh_trang: HET_HIEU_LUC` (trừ khi có NQ Quốc hội mới kéo dài) | Hết thời hạn thi hành theo Điều 2 `204/2025/QH15` |
+| `174-2025-nd-cp.yaml` | `CON_HIEU_LUC` (`het_hieu_luc_tu: '2026-12-31'`) | Đổi `tinh_trang: HET_HIEU_LUC` (trừ khi có NĐ/NQ mới kéo dài) | Hết thời hạn thi hành theo khoản 1 Điều 2 `174/2025/NĐ-CP` |
+| `43-2026-nq-cp.yaml` | `CON_HIEU_LUC` (`het_hieu_luc_tu: '2026-12-31'`) | Đổi `tinh_trang: HET_HIEU_LUC` | Hết thời hạn kéo dài quý IV/2026 theo khoản 1 Điều 3 `43/2026/NQ-CP` |
+| `72-2026-nd-cp.yaml` | `CON_HIEU_LUC` (`het_hieu_luc_tu: '2027-01-01'`) | Đổi `tinh_trang: HET_HIEU_LUC` từ `2027-01-01` (trừ khi có NQ-CP mới kéo dài theo khoản 2 Điều 2) | Hết hạn kéo dài theo Điều 1 `43/2026/NQ-CP`; thuế MFN xăng dầu tự động quay về `26/2023/NĐ-CP` |
+| `63-2026-tt-bkhcn.yaml`, `154-2026-tt-btc.yaml`, `372-2026-nd-cp.yaml` | `CHUA_CO_HIEU_LUC` (`hieu_luc_tu: '2027-01-01'`) | Đổi `tinh_trang: CON_HIEU_LUC` vào ngày `2027-01-01` | Đóng cả 3 điểm mù `SAP_CO_HIEU_LUC` và ngăn phát sinh `MAU_THUAN_HIEU_LUC` |
+
 ## Sources covered
 
-- **8 văn bản `SAP_HET_HIEU_LUC` mức Cao:**
+- **8 văn bản `SAP_HET_HIEU_LUC` mức Cao (đã có đủ 8/8 trang `wiki/sources/`):**
   - [[sources/204-2025-qh15]] (`204/2025/QH15`) & [[sources/174-2025-nd-cp]] (`174/2025/NĐ-CP`) — nhóm giảm thuế GTGT `8%`.
-  - [[sources/72-2026-nd-cp]] (`72/2026/NĐ-CP`) & `registry/van-ban/43-2026-nq-cp.yaml` (`43/2026/NQ-CP`) — nhóm ưu đãi thuế xăng, dầu (kèm `registry/van-ban/19-2026-qh16.yaml`, [[sources/26-2023-nd-cp]], [[sources/80-2023-nd-cp]]).
+  - [[sources/72-2026-nd-cp]] (`72/2026/NĐ-CP`) & [[sources/43-2026-nq-cp]] (`43/2026/NQ-CP`) — nhóm ưu đãi thuế xăng, dầu (kèm [[sources/19-2026-qh16]] `19/2026/QH16`, [[sources/26-2023-nd-cp]] `26/2023/NĐ-CP`, [[sources/80-2023-nd-cp]] `80/2023/NĐ-CP`).
   - [[sources/11-2018-tt-btttt]] (`11/2018/TT-BTTTT`) — kèm văn bản kế nhiệm [[sources/63-2026-tt-bkhcn]] (`63/2026/TT-BKHCN`).
-  - `registry/van-ban/12-2018-tt-bct.yaml` (`12/2018/TT-BCT`) & [[sources/08-2023-tt-bct]] (`08/2023/TT-BCT`) — kèm [[sources/48-2026-tt-bct]] (`48/2026/TT-BCT`), `registry/van-ban/98-2021-nd-cp.yaml` (`98/2021/NĐ-CP`), [[sources/07-2023-nd-cp]] (`07/2023/NĐ-CP`).
-  - `registry/van-ban/173-2018-tt-bqp.yaml` (`173/2018/TT-BQP`) — gắn điều khoản chuyển tiếp của [[sources/292-2026-nd-cp]] (`292/2026/NĐ-CP`, thay thế văn bản lịch sử đã hết hiệu lực `69/2018/NĐ-CP`).
+  - [[sources/12-2018-tt-bct]] (`12/2018/TT-BCT`) & [[sources/08-2023-tt-bct]] (`08/2023/TT-BCT`) — kèm [[sources/48-2026-tt-bct]] (`48/2026/TT-BCT`), `registry/van-ban/98-2021-nd-cp.yaml` (`98/2021/NĐ-CP`), [[sources/07-2023-nd-cp]] (`07/2023/NĐ-CP`).
+  - [[sources/173-2018-tt-bqp]] (`173/2018/TT-BQP`) — gắn điều khoản chuyển tiếp của [[sources/292-2026-nd-cp]] (`292/2026/NĐ-CP`, thay thế văn bản lịch sử đã hết hiệu lực `69/2018/NĐ-CP`).
 - **3 văn bản `SAP_CO_HIEU_LUC` hiệu lực `01/01/2027`:**
   - [[sources/154-2026-tt-btc]] (`154/2026/TT-BTC`, sửa đổi `80/2019/TT-BTC`, kèm [[sources/14-2018-nd-cp]], [[sources/122-2024-nd-cp]], [[sources/34-2025-tt-bct]]).
   - [[sources/372-2026-nd-cp]] (`372/2026/NĐ-CP`, gắn với [[sources/37-2026-nd-cp]]).
@@ -147,9 +166,8 @@ Song song với 8 văn bản sắp hết hiệu lực, sổ đăng ký ghi nhậ
 - Quốc hội và Chính phủ có ban hành nghị quyết gia hạn chính sách giảm thuế GTGT `8%` (`204/2025/QH15`, `174/2025/NĐ-CP`) và ưu đãi thuế xăng dầu (`43/2026/NQ-CP`, `72/2026/NĐ-CP`, `19/2026/QH16`) cho giai đoạn từ `01/01/2027` hay không?
 - Bộ Y tế (theo thẩm quyền Phụ lục I `292/2026/NĐ-CP`) và Bộ Công Thương sẽ ban hành văn bản hướng dẫn chi tiết mã HS nào đối với **thiết bị y tế đã qua sử dụng** sau khi chuyển tiếp tại Điều 21 khoản 3 `48/2026/TT-BCT` kết thúc ngày `31/12/2026`?
 - Bộ Quốc phòng có ban hành Thông tư mới thay thế danh mục hàng hóa cấm XK/NK trong `173/2018/TT-BQP` theo Điều 9 khoản 1 `292/2026/NĐ-CP` trước ngày `31/12/2026` hay không?
-- Khi nào có nguồn PDF có lớp chữ để trích `xac_minh.dieu_khoan` nguyên văn bậc A cho `204/2025/QH15`, `174/2025/NĐ-CP`, `43/2026/NQ-CP`, `12/2018/TT-BCT`, `173/2018/TT-BQP` (và trích `xac_minh.dieu_khoan` từ PDF lớp chữ sẵn có của `63/2026/TT-BKHCN`) cùng đối chiếu dòng-theo-dòng `danh-muc/08-2023-tt-bct.csv`, `danh-muc/11-2018-tt-btttt.csv`, `danh-muc/173-2018-tt-bqp.csv` (`da_doi_chieu: false`)?
 
 ## Notes
 
-- Rà soát trực tiếp từ `registry/van-ban/*.yaml`, `danh-muc/*.csv`, và kết quả `node tools/diem-mu.mjs --stdout` ngày `22/11/2026`.
+- Rà soát trực tiếp từ `registry/van-ban/*.yaml`, `danh-muc/*.csv`, và kết quả `node tools/diem-mu.mjs --stdout` ngày `24/11/2026` (đối chiếu Công báo đến số 584).
 - Trong sổ hiện có các văn bản lịch sử liên quan đã `HET_HIEU_LUC` được nêu rõ ngữ cảnh thay thế/bãi bỏ: `69/2018/NĐ-CP` (đã hết hiệu lực từ `05/09/2026`, bị thay thế bởi `292/2026/NĐ-CP`), `40/2017/TT-BQP` (đã hết hiệu lực từ `01/01/2019`, bị thay thế bởi `173/2018/TT-BQP`), `04/2014/TT-BCT` / `11/2017/TT-BCT` / `49/2015/TT-BCT` (đã hết hiệu lực từ `15/06/2018`, bị bãi bỏ bởi `12/2018/TT-BCT`). *(Ghi chú đối chiếu kỹ thuật: căn cứ mới thay thế `69/2018/NĐ-CP` là `292/2026/NĐ-CP`.)*

@@ -3,7 +3,7 @@ id: khung-thu-tuc-hai-quan
 title: "Khung thủ tục hải quan hàng xuất nhập khẩu"
 type: summary
 created: 2026-10-04
-updated: 2026-11-22
+updated: 2026-11-24
 covers:
   - thu-tuc-hai-quan-xnk
   - phan-loai-ma-hs
@@ -61,7 +61,7 @@ Các số hiệu khác dẫn trong trang này đều có tệp trong `registry/v
 ## Open questions
 
 - Sau mốc `2026-10-15`, cần trích điều khoản `336/2026/NĐ-CP` và đối chiếu tác động đối với dẫn chiếu Điều 17 `85/2019/NĐ-CP` (đã hết hiệu lực) trong `37/2026/NĐ-CP`.
-- Cần trích `xac_minh.dieu_khoan` (nguyên văn bậc A) cho các văn bản khung đã có `NGUON_A` như `54/2014/QH13`, `08/2015/NĐ-CP`, `167/2025/NĐ-CP`, `38/2015/TT-BTC`, `39/2018/TT-BTC`, `121/2025/TT-BTC`, `336/2026/NĐ-CP`, `174/2025/NĐ-CP`.
+- Cần trích `xac_minh.dieu_khoan` (nguyên văn bậc A) cho các văn bản khung đã có `NGUON_A` như `54/2014/QH13`, `08/2015/NĐ-CP`, `167/2025/NĐ-CP`, `38/2015/TT-BTC`, `39/2018/TT-BTC`, `121/2025/TT-BTC`, `336/2026/NĐ-CP`.
 - Chờ `customs.gov.vn` mở truy cập tự động để gắn URL bậc A và nâng `117/QĐ-CHQ`, `2169/QĐ-CHQ`, `2123/QĐ-CHQ` từ `NGUON_B` lên `NGUON_A`.
 - Theo dõi văn bản mới sau `2026-12-31` khi `174/2025/NĐ-CP` và `204/2025/QH15` hết thời hạn giảm thuế GTGT 8%.
 - Văn bản nào đang điều chỉnh nhãn phụ tiếng Việt sau khi `43/2017/NĐ-CP` và `111/2021/NĐ-CP` hết hiệu lực từ `2026-01-23`?
