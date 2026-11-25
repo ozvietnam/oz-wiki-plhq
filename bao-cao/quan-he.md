@@ -1,4 +1,4 @@
-# Quan hệ cũ – mới giữa các văn bản — 2026-11-24
+# Quan hệ cũ – mới giữa các văn bản — 2026-11-25
 
 Mũi tên đi từ văn bản MỚI tới văn bản bị tác động. Sinh tự động bằng `node tools/dung.mjs`.
 
@@ -228,6 +228,7 @@ flowchart LR
   n_26_2011_N__CP["26/2011/NĐ-CP<br/>hết hiệu lực"]
   n_12_2022_TT_BGTVT["12/2022/TT-BGTVT<br/>hết hiệu lực"]
   n_41_2018_TT_BGTVT["41/2018/TT-BGTVT<br/>hết hiệu lực"]
+  n_120_2024_N__CP["120/2024/NĐ-CP<br/>còn hiệu lực"]
   n_129_2024_N__CP["129/2024/NĐ-CP<br/>còn hiệu lực"]
   n_91_2016_N__CP["91/2016/NĐ-CP<br/>còn hiệu lực"]
   n_30_2014_TT_BNNPTNT["30/2014/TT-BNNPTNT<br/>hết hiệu lực"]
@@ -369,6 +370,7 @@ flowchart LR
   n_113_2017_N__CP -->|thay thế từ 2017-11-25| n_108_2008_N__CP
   n_113_2017_N__CP -->|thay thế từ 2017-11-25| n_26_2011_N__CP
   n_12_2022_TT_BGTVT -->|thay thế toàn bộ từ 2022-08-15| n_41_2018_TT_BGTVT
+  n_120_2024_N__CP -->|sửa đổi| n_102_2020_N__CP
   n_129_2024_N__CP -->|sửa đổi| n_91_2016_N__CP
   n_129_2024_N__CP -->|sửa đổi| n_155_2018_N__CP
   n_14_2024_TT_BNNPTNT -->|thay thế từ 2024-12-15| n_30_2014_TT_BNNPTNT
@@ -532,8 +534,11 @@ flowchart LR
   n_228_Q__BCT["228/QĐ-BCT<br/>hết hiệu lực"]
   n_2174_Q__BCT["2174/QĐ-BCT<br/>còn hiệu lực"]
   n_2333_Q__BCT["2333/QĐ-BCT<br/>hết hiệu lực"]
+  n_2177_CHQ_NVTHQ["2177/CHQ-NVTHQ<br/>hết hiệu lực"]
+  n_438_CHQ_NVTHQ["438/CHQ-NVTHQ<br/>hết hiệu lực"]
   n_2652_Q__BCT["2652/QĐ-BCT<br/>còn hiệu lực"]
   n_3546_Q__BCT["3546/QĐ-BCT<br/>hết hiệu lực"]
+  n_662_Q__BCT["662/QĐ-BCT<br/>hết hiệu lực"]
   n_86_2025_N__CP["86/2025/NĐ-CP<br/>còn hiệu lực"]
   n_10_2018_N__CP["10/2018/NĐ-CP<br/>hết hiệu lực"]
   n_915_Q__BCT["915/QĐ-BCT<br/>còn hiệu lực"]
@@ -547,7 +552,11 @@ flowchart LR
   n_1400_Q__BCT -->|thay thế từ 2026-06-14| n_228_Q__BCT
   n_2105_Q__BCT -->|sửa đổi Sửa đổi, bổ sung một số nội dung của Quyết định 1989/QĐ-BCT ngày 03-08-2023 về kết quả rà soát lần thứ nhất việc áp dụng biện pháp CBPG và CTC đối với một số sản phẩm đường mía có xuất xứ từ Vương quốc Thái Lan từ 2025-07-21| n_1989_Q__BCT
   n_2174_Q__BCT -->|thay thế Kết thúc giai đoạn điều tra khởi xướng tại Quyết định 2333/QĐ-BCT và chuyển sang áp dụng thuế chống bán phá giá chính thức đối với vụ việc AD23 từ 2026-09-22| n_2333_Q__BCT
+  n_2177_CHQ_NVTHQ -->|sửa đổi| n_438_CHQ_NVTHQ
   n_2652_Q__BCT -->|thay thế Kết thúc rà soát cuối kỳ vụ việc ER01.AD10 và ban hành kết quả rà soát lần thứ hai / cuối kỳ áp dụng biện pháp chống bán phá giá sợi polyester từ 2026-10-16| n_3546_Q__BCT
+  n_662_Q__BCT -->|sửa đổi| n_1578_Q__BCT
+  n_662_Q__BCT -->|sửa đổi| n_2961_Q__BCT
+  n_662_Q__BCT -->|sửa đổi| n_1989_Q__BCT
   n_86_2025_N__CP -->|thay thế từ 2025-07-01| n_10_2018_N__CP
   n_915_Q__BCT -->|thay thế Kết thúc rà soát cuối kỳ vụ việc ER01.AD12 khởi xướng tại Quyết định 1978/QĐ-BCT và quyết định không gia hạn biện pháp chống bán phá giá tại Quyết định 1975/QĐ-BCT từ 2026-04-16| n_1978_Q__BCT
   n_915_Q__BCT -->|thay thế Không gia hạn áp dụng biện pháp chống bán phá giá đối với thép hình chữ H xuất xứ từ Ma-lai-xi-a (vụ việc ER01.AD12) từ 2026-04-16| n_1975_Q__BCT
@@ -724,6 +733,8 @@ flowchart LR
   n_201_2026_N__CP["201/2026/NĐ-CP<br/>còn hiệu lực"]
   n_206_2025_N__CP["206/2025/NĐ-CP<br/>còn hiệu lực"]
   n_127_2022_N__CP["127/2022/NĐ-CP<br/>hết hiệu lực"]
+  n_25_2026_NQ_CP["25/2026/NQ-CP<br/>còn hiệu lực"]
+  n_72_2026_N__CP["72/2026/NĐ-CP<br/>còn hiệu lực"]
   n_26_2015_TT_BTC["26/2015/TT-BTC<br/>hết hiệu lực"]
   n_219_2013_TT_BTC["219/2013/TT-BTC<br/>hết hiệu lực"]
   n_57_2020_N__CP["57/2020/NĐ-CP<br/>hết hiệu lực"]
@@ -736,7 +747,6 @@ flowchart LR
   n_19_2026_QH16["19/2026/QH16<br/>còn hiệu lực"]
   n_66_2025_QH15["66/2025/QH15<br/>còn hiệu lực"]
   n_03_2022_QH15["03/2022/QH15<br/>hết hiệu lực một phần"]
-  n_72_2026_N__CP["72/2026/NĐ-CP<br/>còn hiệu lực"]
   n_73_2025_N__CP["73/2025/NĐ-CP<br/>còn hiệu lực"]
   n_86_2026_TT_BTC["86/2026/TT-BTC<br/>còn hiệu lực"]
   n_06_2021_TT_BTC["06/2021/TT-BTC<br/>hết hiệu lực"]
@@ -776,6 +786,8 @@ flowchart LR
   n_201_2026_N__CP -->|sửa đổi Phụ lục I — thuế suất thuế xuất khẩu một số mặt hàng thuộc nhóm 25.29 và 81.06 từ 2026-07-23| n_26_2023_N__CP
   n_206_2025_N__CP -->|bãi bỏ toàn bộ từ 2025-07-15| n_127_2022_N__CP
   n_21_2025_N__CP -->|sửa đổi tên Điều 9 và khoản 1 Điều 9 (kéo dài Chương trình ưu đãi thuế công nghiệp hỗ trợ ô tô đến ngày 31/12/2027) từ 2025-02-10| n_26_2023_N__CP
+  n_25_2026_NQ_CP -->|sửa đổi Kéo dài thời hạn áp dụng Nghị định số 72/2026/NĐ-CP từ ngày 01/05/2026 đến hết ngày 30/06/2026 (sau đó được Điều 1 Nghị quyết 43/2026/NQ-CP tiếp tục kéo dài đến hết ngày 31/12/2026) từ 2026-05-01| n_72_2026_N__CP
+  n_25_2026_NQ_CP -->|sửa đổi Quy định mức thuế suất thuế nhập khẩu ưu đãi 0% đối với 3 mã hàng nguyên liệu sản xuất xăng, dầu: 2710.19.20 (Dầu thô đã tách phần nhẹ), 2710.19.89 (Dầu trung khác và các chế phẩm) và 2711.19.00 (Loại khác) từ 2026-05-01| n_26_2023_N__CP
   n_26_2015_TT_BTC -->|sửa đổi| n_219_2013_TT_BTC
   n_26_2023_N__CP -->|bãi bỏ toàn bộ từ 2023-07-15| n_57_2020_N__CP
   n_346_2025_N__CP -->|thay thế toàn bộ từ 2026-01-01| n_53_2020_N__CP

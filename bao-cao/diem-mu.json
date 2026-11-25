@@ -1,6 +1,6 @@
 {
-  "ngay": "2026-11-24",
-  "tong": 3029,
+  "ngay": "2026-11-25",
+  "tong": 3046,
   "diem": [
     {
       "ma": "CO_QUAN_DA_SAP_NHAP",
@@ -16,6 +16,33 @@
       "muc": "Thấp",
       "tieuDe": "03/2024/TT-BNNPTNT (Bộ Nông nghiệp và Phát triển nông thôn) còn ghi hiệu lực — cơ quan đã sáp nhập vào BNNMT",
       "muc_tieu": "03/2024/TT-BNNPTNT",
+      "viec": "Kiểm tra BNNMT đã ban hành văn bản thay thế chưa.",
+      "luong": "do-tham",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "03/2026/TT-BCT: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "03/2026/TT-BCT",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Thấp",
+      "tieuDe": "03/2026/TT-BCT: chưa có toàn văn trong raw/",
+      "muc_tieu": "03/2026/TT-BCT",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"03/2026/TT-BCT\" --ghi",
+      "luong": "nap-lam-sach",
+      "trongSo": 0
+    },
+    {
+      "ma": "CO_QUAN_DA_SAP_NHAP",
+      "muc": "Thấp",
+      "tieuDe": "04/2023/TT-BNNPTNT (Bộ Nông nghiệp và Phát triển nông thôn) còn ghi hiệu lực — cơ quan đã sáp nhập vào BNNMT",
+      "muc_tieu": "04/2023/TT-BNNPTNT",
       "viec": "Kiểm tra BNNMT đã ban hành văn bản thay thế chưa.",
       "luong": "do-tham",
       "trongSo": 0
@@ -3468,6 +3495,15 @@
       "trongSo": 0
     },
     {
+      "ma": "CO_QUAN_DA_SAP_NHAP",
+      "muc": "Thấp",
+      "tieuDe": "1340/BTNMT-KSONMT (Bộ Tài nguyên và Môi trường) còn ghi hiệu lực — cơ quan đã sáp nhập vào BNNMT",
+      "muc_tieu": "1340/BTNMT-KSONMT",
+      "viec": "Kiểm tra BNNMT đã ban hành văn bản thay thế chưa.",
+      "luong": "do-tham",
+      "trongSo": 0
+    },
+    {
       "ma": "TB_TCHQ_KHONG_NGUON_A",
       "muc": "Thấp",
       "tieuDe": "1345/TB-TCHQ/2019: TB-TCHQ chưa có nguồn chính thống",
@@ -3618,6 +3654,15 @@
       "muc_tieu": "138/TB-TCHQ/2020",
       "viec": "Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "tb-tchq",
+      "trongSo": 0
+    },
+    {
+      "ma": "CO_QUAN_DA_SAP_NHAP",
+      "muc": "Thấp",
+      "tieuDe": "139/TXNK-CST (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
+      "muc_tieu": "139/TXNK-CST",
+      "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
+      "luong": "do-tham",
       "trongSo": 0
     },
     {
@@ -5025,6 +5070,15 @@
       "trongSo": 0
     },
     {
+      "ma": "CO_QUAN_DA_SAP_NHAP",
+      "muc": "Thấp",
+      "tieuDe": "1798/TCHQ-GSQL (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
+      "muc_tieu": "1798/TCHQ-GSQL",
+      "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
+      "luong": "do-tham",
+      "trongSo": 0
+    },
+    {
       "ma": "TB_TCHQ_KHONG_NGUON_A",
       "muc": "Thấp",
       "tieuDe": "1799/TB-TCHQ/2018: TB-TCHQ chưa có nguồn chính thống",
@@ -5040,6 +5094,24 @@
       "muc_tieu": "1799/TB-TCHQ/2018",
       "viec": "Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "tb-tchq",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "18/2026/TT-BYT: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "18/2026/TT-BYT",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Thấp",
+      "tieuDe": "18/2026/TT-BYT: chưa có toàn văn trong raw/",
+      "muc_tieu": "18/2026/TT-BYT",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"18/2026/TT-BYT\" --ghi",
+      "luong": "nap-lam-sach",
       "trongSo": 0
     },
     {
@@ -8991,6 +9063,15 @@
       "muc_tieu": "237/TB-TCHQ/2022",
       "viec": "Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "tb-tchq",
+      "trongSo": 0
+    },
+    {
+      "ma": "HUONG_DAN_MO_COI",
+      "muc": "Cao",
+      "tieuDe": "2371/QĐ-BTC hướng dẫn văn bản đã hết hiệu lực (38/2019/QH14)",
+      "muc_tieu": "2371/QĐ-BTC",
+      "viec": "Kiểm tra văn bản này còn được áp dụng không (thường hết hiệu lực theo văn bản gốc), hoặc đã có văn bản hướng dẫn mới.",
+      "luong": "hieu-luc",
       "trongSo": 0
     },
     {
@@ -15078,6 +15159,15 @@
       "trongSo": 0
     },
     {
+      "ma": "CO_QUAN_DA_SAP_NHAP",
+      "muc": "Thấp",
+      "tieuDe": "3894/TCHQ-GSQL (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
+      "muc_tieu": "3894/TCHQ-GSQL",
+      "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
+      "luong": "do-tham",
+      "trongSo": 0
+    },
+    {
       "ma": "TB_TCHQ_KHONG_NGUON_A",
       "muc": "Thấp",
       "tieuDe": "3913/TB-TCHQ/2019: TB-TCHQ chưa có nguồn chính thống",
@@ -15417,6 +15507,15 @@
       "muc_tieu": "3979/TB-TCHQ/2019",
       "viec": "Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "tb-tchq",
+      "trongSo": 0
+    },
+    {
+      "ma": "CO_QUAN_DA_SAP_NHAP",
+      "muc": "Thấp",
+      "tieuDe": "3982/TCHQ-GSQL (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
+      "muc_tieu": "3982/TCHQ-GSQL",
+      "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
+      "luong": "do-tham",
       "trongSo": 0
     },
     {
@@ -16068,6 +16167,33 @@
       "trongSo": 0
     },
     {
+      "ma": "KHONG_NGUON_A",
+      "muc": "Vừa",
+      "tieuDe": "417/2026/NĐ-CP: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)",
+      "muc_tieu": "417/2026/NĐ-CP",
+      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
+      "luong": "truy-vet-nguon",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "417/2026/NĐ-CP: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "417/2026/NĐ-CP",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_TOAN_VAN",
+      "muc": "Thấp",
+      "tieuDe": "417/2026/NĐ-CP: chưa có toàn văn trong raw/",
+      "muc_tieu": "417/2026/NĐ-CP",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"417/2026/NĐ-CP\" --ghi",
+      "luong": "nap-lam-sach",
+      "trongSo": 0
+    },
+    {
       "ma": "TB_TCHQ_KHONG_NGUON_A",
       "muc": "Thấp",
       "tieuDe": "4185/TB-TCHQ/2019: TB-TCHQ chưa có nguồn chính thống",
@@ -16434,6 +16560,15 @@
       "muc_tieu": "4328/TB-TCHQ/2019",
       "viec": "Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "tb-tchq",
+      "trongSo": 0
+    },
+    {
+      "ma": "CO_QUAN_DA_SAP_NHAP",
+      "muc": "Thấp",
+      "tieuDe": "438/TCHQ-TXNK (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
+      "muc_tieu": "438/TCHQ-TXNK",
+      "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
+      "luong": "do-tham",
       "trongSo": 0
     },
     {
@@ -19917,6 +20052,15 @@
       "muc_tieu": "613/TB-TCHQ/2018",
       "viec": "Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "tb-tchq",
+      "trongSo": 0
+    },
+    {
+      "ma": "CO_QUAN_DA_SAP_NHAP",
+      "muc": "Thấp",
+      "tieuDe": "6156/TCHQ-GSQL (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
+      "muc_tieu": "6156/TCHQ-GSQL",
+      "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
+      "luong": "do-tham",
       "trongSo": 0
     },
     {
@@ -23916,6 +24060,15 @@
       "trongSo": 0
     },
     {
+      "ma": "CO_QUAN_DA_SAP_NHAP",
+      "muc": "Thấp",
+      "tieuDe": "787/TCHQ-TXNK (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
+      "muc_tieu": "787/TCHQ-TXNK",
+      "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
+      "luong": "do-tham",
+      "trongSo": 0
+    },
+    {
       "ma": "TB_TCHQ_KHONG_NGUON_A",
       "muc": "Thấp",
       "tieuDe": "796/TB-TCHQ/2019: TB-TCHQ chưa có nguồn chính thống",
@@ -25252,7 +25405,7 @@
       "muc": "Thấp",
       "tieuDe": "08/2023/TT-BCT: mã 40199999 (AHTN cũ) → đã ánh xạ sang 40169999 (don_le)",
       "muc_tieu": "08/2023/TT-BCT",
-      "viec": "danh-muc/08-2023-tt-bct.csv dòng 12 (\"Các sản phẩm khác bằng cao su lưu hóa trừ cao su cứng: - Loạ\"). Đã ánh xạ sang hs_moi: 40169999 (loai: don_le) trong registry/phien-ban-bieu-thue-mapping.yaml; đối chiếu bản gốc khi cập nhật danh-muc/.",
+      "viec": "danh-muc/08-2023-tt-bct.csv dòng 10 (\"Các sản phẩm khác bằng cao su lưu hóa trừ cao su cứng: - Loạ\"). Đã ánh xạ sang hs_moi: 40169999 (loai: don_le) trong registry/phien-ban-bieu-thue-mapping.yaml; đối chiếu bản gốc khi cập nhật danh-muc/.",
       "luong": "danh-muc-hs",
       "trongSo": 0
     },
@@ -25261,7 +25414,7 @@
       "muc": "Thấp",
       "tieuDe": "08/2023/TT-BCT: mã 85392292 (AHTN cũ) → đã ánh xạ sang 85392299 (tu_dong_6s)",
       "muc_tieu": "08/2023/TT-BCT",
-      "viec": "danh-muc/08-2023-tt-bct.csv dòng 156 (\"Bóng đèn dây tóc hoặc bóng đèn phóng điện, kể cả đèn pha gắn\"). Đã ánh xạ sang hs_moi: 85392299 (loai: tu_dong_6s) trong registry/phien-ban-bieu-thue-mapping.yaml; đối chiếu bản gốc khi cập nhật danh-muc/.",
+      "viec": "danh-muc/08-2023-tt-bct.csv dòng 154 (\"Bóng đèn dây tóc hoặc bóng đèn phóng điện, kể cả đèn pha gắn\"). Đã ánh xạ sang hs_moi: 85392299 (loai: tu_dong_6s) trong registry/phien-ban-bieu-thue-mapping.yaml; đối chiếu bản gốc khi cập nhật danh-muc/.",
       "luong": "danh-muc-hs",
       "trongSo": 0
     },
@@ -25270,7 +25423,7 @@
       "muc": "Thấp",
       "tieuDe": "08/2023/TT-BCT: mã 40151900 (AHTN cũ) → đã ánh xạ sang 401519 (tach_en2022_6s)",
       "muc_tieu": "08/2023/TT-BCT",
-      "viec": "danh-muc/08-2023-tt-bct.csv dòng 222 (\"Sản phẩm may mặc và đồ phụ trợ may mặc (kể cả găng tay, găng\"). Đã ánh xạ sang hs_moi: 401519 (loai: tach_en2022_6s) trong registry/phien-ban-bieu-thue-mapping.yaml; đối chiếu bản gốc khi cập nhật danh-muc/.",
+      "viec": "danh-muc/08-2023-tt-bct.csv dòng 220 (\"Sản phẩm may mặc và đồ phụ trợ may mặc (kể cả găng tay, găng\"). Đã ánh xạ sang hs_moi: 401519 (loai: tach_en2022_6s) trong registry/phien-ban-bieu-thue-mapping.yaml; đối chiếu bản gốc khi cập nhật danh-muc/.",
       "luong": "danh-muc-hs",
       "trongSo": 0
     },

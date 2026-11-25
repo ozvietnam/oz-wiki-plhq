@@ -1,6 +1,6 @@
-# Cây văn bản pháp luật XNK — 2026-11-24
+# Cây văn bản pháp luật XNK — 2026-11-25
 
-3113 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+3179 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -33,28 +33,50 @@ _Khung pháp lý chung về hải quan và thủ tục làm hàng xuất nhập 
 
 ### Thủ tục hải quan, khai báo, hồ sơ `hai-quan/thu-tuc`
 
-54 văn bản, 31 chưa hết hiệu lực.
+76 văn bản, 52 chưa hết hiệu lực.
 
+- 🟢 [417/2026/NĐ-CP](../registry/van-ban/417-2026-nd-cp.yaml) — Quy định về quản lý hải quan đối với hàng hóa xuất khẩu, nhập khẩu qua nền tảng thương mại điện tử
 - 🟢 [3318/QĐ-BTC](../registry/van-ban/3318-qd-btc-2026.yaml) — Công bố danh mục 133 thủ tục hành chính trong lĩnh vực hải quan thực hiện không phụ thuộc vào địa giới hành chính
 - 🔵 [154/2026/TT-BTC](../registry/van-ban/154-2026-tt-btc.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 80/2019/TT-BTC ngày 15 tháng 11 năm 2019 của Bộ trưởng Bộ Tài chính quy định về thủ tục hải quan, quản lý thuế đối với hàng hóa xuất khẩu, nhập khẩu mua gom của người nước ngoài
 - 🟢 [54/2026/VBHN-TT-BTC](../registry/van-ban/54-2026-vbhn-tt-btc.yaml) — Hợp nhất Thông tư quy định thủ tục hải quan đối với thư, gói, kiện hàng hóa xuất khẩu, nhập khẩu gửi qua dịch vụ bưu chính của doanh nghiệp được chỉ định
 - 🟢 [142/2026/TT-BTC](../registry/van-ban/142-2026-tt-btc.yaml) — Sửa đổi, bổ sung một số điều của các Thông tư quy định thủ tục hải quan đối với hàng hóa xuất khẩu, nhập khẩu, quá cảnh gửi qua dịch vụ bưu chính của doanh nghiệp được chỉ định và dịch vụ chuyển phát nhanh quốc tế
 - 🟢 [127/2026/TT-BTC](../registry/van-ban/127-2026-tt-btc.yaml) — Quy định về chỉ tiêu thông tin, mẫu chứng từ khai báo khi làm thủ tục xuất cảnh, nhập cảnh, quá cảnh đối với phương tiện vận tải qua cửa khẩu, cảng hàng không quốc tế
 - 🟢 [293/2026/NĐ-CP](../registry/van-ban/293-2026-nd-cp.yaml) — Hướng dẫn thực thi Công ước La Hay ngày 05 tháng 10 năm 1961 về miễn hợp pháp hóa đối với giấy tờ công của nước ngoài (Công ước Apostille)
+- 🟢 [18837/CHQ-GSQL](../registry/van-ban/18837-chq-gsql-2026.yaml) — Về việc triển khai các giải pháp tạo thuận lợi thông quan đối với hàng hóa nông sản xuất khẩu
 - 🟢 [273/2026/NĐ-CP](../registry/van-ban/273-2026-nd-cp.yaml) — Về kinh doanh hàng miễn thuế
 - 🟢 [78/2026/TT-BTC](../registry/van-ban/78-2026-tt-btc.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 203/2014/TT-BTC ngày 22 tháng 12 năm 2014 của Bộ trưởng Bộ Tài chính hướng dẫn xử lý hàng hóa tồn đọng thuộc địa bàn hoạt động hải quan
 - 🟢 [83/2026/TT-BTC](../registry/van-ban/83-2026-tt-btc.yaml) — Quy định tiêu chuẩn hoạt động đại lý làm thủ tục hải quan, tiêu chuẩn nhân viên đại lý làm thủ tục hải quan; tổ chức thi, cấp chứng chỉ nghiệp vụ khai hải quan; quản lý hoạt động đại lý làm thủ tục hải quan, nhân viên đại lý làm thủ tục hải quan
 - 🟢 [31/2026/QĐ-TTg](../registry/van-ban/31-2026-qd-ttg.yaml) — Ban hành Danh mục hàng hóa nhập khẩu phải làm thủ tục hải quan tại cửa khẩu nhập
+- 🟢 [16107/CHQ-NVTHQ](../registry/van-ban/16107-chq-nvthq-2026.yaml) — Về việc phân loại hàng hóa thiết bị ghi hình hệ thống phẫu thuật nội soi (Chú giải 1(h) Chương 90 và nhóm 85.25)
+- 🟢 [15029/CHQ-GSQL](../registry/van-ban/15029-chq-gsql-2026.yaml) — Về việc thực hiện thủ tục hải quan đối với người nhập cảnh mang theo vàng trang sức
 - ⚫ [25/2026/TT-BTC](../registry/van-ban/25-2026-tt-btc.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 12/2015/TT-BTC ngày 30 tháng 01 năm 2015 của Bộ trưởng Bộ Tài chính quy định chi tiết về thủ tục cấp Chứng chỉ nghiệp vụ khai hải quan, cấp và thu hồi mã số nhân viên khai hải quan _(hết hiệu lực 2026-07-01)_
+- 🟢 [13582/TB-CHQ/2026](../registry/van-ban/13582-tb-chq-2026.yaml) — Thông báo việc phát hành Tem điện tử rượu nhập khẩu
+- 🟢 [13251/CHQ-NVTHQ](../registry/van-ban/13251-chq-nvthq-2026.yaml) — Về việc chính sách thuế nhập khẩu và thủ tục hải quan đối với loại hình gia công lại
 - 🟢 [344/2026/QĐ-BTC](../registry/van-ban/344-2026-qd-btc.yaml) — Về việc công bố thủ tục hành chính mới ban hành, được sửa đổi, bổ sung và bãi bỏ trong lĩnh vực hải quan thuộc phạm vi chức năng quản lý nhà nước của Bộ Tài chính
+- 🟢 [12232/CHQ-NVTHQ](../registry/van-ban/12232-chq-nvthq-2026.yaml) — Về việc thực hiện Nghị định số 56/2026/NĐ-CP ngày 12/02/2026 (Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam thực hiện Bản Thỏa thuận thúc đẩy thương mại song phương Việt Nam - Campuchia giai đoạn 2025-2026)
+- 🟢 [8881/CHQ-GSQL](../registry/van-ban/8881-chq-gsql-2026.yaml) — Về việc kiểm dịch, kiểm tra nhà nước về an toàn thực phẩm đối với các lô hàng là sản phẩm động vật, thủy sản nhập khẩu làm thực phẩm
+- 🟢 [8882/CHQ-GSQL](../registry/van-ban/8882-chq-gsql-2026.yaml) — Về việc kiểm tra an toàn thực phẩm đối với dụng cụ, bao bì chứa đựng, tiếp xúc trực tiếp với thực phẩm
+- 🟢 [8883/CHQ-GSQL](../registry/van-ban/8883-chq-gsql-2026.yaml) — Về việc thông quan thực phẩm nhập khẩu (triển khai Công điện số 08/CĐ-TTg ngày 03/02/2026 của Thủ tướng Chính phủ)
+- 🟢 [581/CHQ-NVTHQ](../registry/van-ban/581-chq-nvthq-2026.yaml) — Về việc triển khai thực hiện Thông tư số 121/2025/TT-BTC ngày 18/12/2025 (hướng dẫn thủ tục xác nhận hoàn thành nghĩa vụ nộp thuế theo khoản 61 Điều 1 sửa đổi Điều 140 Thông tư số 38/2015/TT-BTC)
 - 🟢 [121/2025/TT-BTC](../registry/van-ban/121-2025-tt-btc.yaml) — Sửa đổi, bổ sung một số điều của các Thông tư quy định về thủ tục hải quan, kiểm tra, giám sát hải quan, thuế xuất khẩu, thuế nhập khẩu và quản lý thuế đối với hàng hóa xuất khẩu, nhập khẩu
 - 🟢 [211/2025/NĐ-CP](../registry/van-ban/211-2025-nd-cp.yaml) — Quy định về hoạt động mật mã dân sự và sửa đổi, bổ sung một số điều của Nghị định số 15/2020/NĐ-CP ngày 03 tháng 02 năm 2020 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực bưu chính, viễn thông, tần số vô tuyến điện, công nghệ thông tin và giao dịch điện tử được sửa đổi, bổ sung một số điều tại Nghị định số 14/2022/NĐ-CP ngày 27 tháng 01 năm 2022 của Chính phủ
+- 🟢 [2371/QĐ-BTC](../registry/van-ban/2371-qd-btc-2025.yaml) — Về việc công bố thủ tục hành chính được sửa đổi, bổ sung trong lĩnh vực hải quan thuộc phạm vi chức năng quản lý của Bộ Tài chính
+- 🟢 [2122/QĐ-BTC](../registry/van-ban/2122-qd-btc-2025.yaml) — Về việc công bố thủ tục hành chính được sửa đổi, bổ sung, bị bãi bỏ trong lĩnh vực quản lý thuế, hải quan thuộc phạm vi chức năng quản lý của Bộ Tài chính
 - 🟢 [47/2025/TT-BTC](../registry/van-ban/47-2025-tt-btc.yaml) — Bãi bỏ các Thông tư quy định về thủ tục hải quan đối với hàng hóa xuất khẩu, nhập khẩu do Bộ trưởng Bộ Tài chính ban hành trong bối cảnh dịch Covid-19
 - 🟢 [29/2025/TT-BTC](../registry/van-ban/29-2025-tt-btc.yaml) — Sửa đổi, bổ sung một số điều của Thông tư 191/2015/TT-BTC quy định thủ tục hải quan đối với hàng hóa xuất khẩu, nhập khẩu, quá cảnh gửi qua dịch vụ chuyển phát nhanh quốc tế
+- 🟢 [1391/CHQ-NVTHQ](../registry/van-ban/1391-chq-nvthq-2025.yaml) — Về việc phân loại hàng hóa và hướng dẫn hồ sơ xác định trước mã số đối với thiết bị thang máy nhập khẩu
+- 🟢 [1813/BTC-TCHQ](../registry/van-ban/1813-btc-tchq-2025.yaml) — Về việc thực hiện Quyết định số 01/2025/QĐ-TTg ngày 03/01/2025 của Thủ tướng Chính phủ
 - 🟢 [4151/TB-TCHQ/2024](../registry/van-ban/4151-tb-tchq-2024.yaml) — V/v Thủ tục hải quan, chính sách thuế (Công ty TNHH Gotech)
+- 🟢 [3894/TCHQ-GSQL](../registry/van-ban/3894-tchq-gsql-2024.yaml) — Về việc doanh nghiệp nội địa bán hàng hóa cho doanh nghiệp chế xuất
 - 🟢 [06/2024/TT-BTC](../registry/van-ban/06-2024-tt-btc.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 81/2019/TT-BTC ngày 15 tháng 11 năm 2019 của Bộ trưởng Bộ Tài chính quy định quản lý rủi ro trong hoạt động nghiệp vụ hải quan
+- 🟢 [6156/TCHQ-GSQL](../registry/van-ban/6156-tchq-gsql-2023.yaml) — Về việc thủ tục hải quan đối với hàng hóa gửi qua dịch vụ chuyển phát nhanh
+- 🟢 [492/CĐ-TTg](../registry/van-ban/492-cd-ttg.yaml) — Công điện về việc chủ động triển khai các biện pháp cấp bách nhằm giảm ùn ứ và thúc đẩy xuất khẩu nông sản tại các cửa khẩu biên giới phía Bắc
 - 🟢 [14/2023/QĐ-TTg](../registry/van-ban/14-2023-qd-ttg.yaml) — Ban hành Danh mục và lộ trình phương tiện, thiết bị sử dụng năng lượng phải loại bỏ và các tổ máy phát điện hiệu suất thấp không được xây dựng mới
+- 🟢 [1798/TCHQ-GSQL](../registry/van-ban/1798-tchq-gsql.yaml) — V/v quản lý hoạt động xuất khẩu, nhập khẩu các chất HFC
+- 🟢 [295/ĐA-PBP](../registry/van-ban/295-da-pbp.yaml) — V/v không cấp giấy phép nhập khẩu văn hóa phẩm không nhằm mục đích kinh doanh có nội dung là phim từ 01/01/2023
+- ⚫ [248/GSQL-TH](../registry/van-ban/248-gsql-th.yaml) — V/v thông báo cấp mã số nhân viên đại lý làm thủ tục hải quan _(hết hiệu lực 2026-02-23)_
 - ⚫ [23/VBHN-BTC](../registry/van-ban/23-vbhn-btc-2022.yaml) — Nghị định quy định xử phạt vi phạm hành chính trong lĩnh vực hải quan _(hết hiệu lực 2026-07-01)_
+- 🟢 [3982/TCHQ-GSQL](../registry/van-ban/3982-tchq-gsql.yaml) — V/v xử lý vướng mắc trong quá trình thực hiện Thông tư 23/2021/TT-BTC
 - 🟢 [102/2021/NĐ-CP](../registry/van-ban/102-2021-nd-cp.yaml) — Nghị định số 102/2021/NĐ-CP ngày 16/11/2021 của Chính phủ sửa đổi, bổ sung một số điều của các Nghị định về xử phạt vi phạm hành chính trong lĩnh vực thuế, hóa đơn; hải quan; kinh doanh bảo hiểm, kinh doanh xổ số; quản lý, sử dụng tài sản công; thực hành tiết kiệm, chống lãng phí; dự trữ quốc gia; kho bạc nhà nước; kế toán, kiểm toán độc lập
 - ⚫ [18/2021/TT-BTC](../registry/van-ban/18-2021-tt-btc.yaml) — Quy định mức thu, nộp phí thẩm định cấp giấy phép kinh doanh sản phẩm, dịch vụ mật mã dân sự, giấy chứng nhận hợp chuẩn sản phẩm mật mã dân sự, giấy chứng nhận hợp quy sản phẩm mật mã dân sự _(hết hiệu lực 2022-01-01)_
 - ⚫ [06/2021/TT-BTC](../registry/van-ban/06-2021-tt-btc.yaml) — Hướng dẫn thi hành một số điều của Luật Quản lý thuế ngày 13 tháng 6 năm 2019 về quản lý thuế đối với hàng hóa xuất khẩu, nhập khẩu _(hết hiệu lực 2026-07-01)_
@@ -92,13 +114,17 @@ _Khung pháp lý chung về hải quan và thủ tục làm hàng xuất nhập 
 
 ### Kiểm tra, giám sát, kiểm soát hải quan `hai-quan/kiem-tra-giam-sat`
 
-48 văn bản, 36 chưa hết hiệu lực.
+52 văn bản, 40 chưa hết hiệu lực.
 
 - 🟢 [166/2026/TT-BTC](../registry/van-ban/166-2026-tt-btc.yaml) — Bãi bỏ một số thông tư liên tịch do Bộ trưởng Bộ Tài chính liên tịch ban hành liên quan đến lĩnh vực tài chính
 - 🟢 [66/2026/TT-BKHCN](../registry/van-ban/66-2026-tt-bkhcn.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 11/2015/TT-BKHCN ngày 26 tháng 6 năm 2015 của Bộ trưởng Bộ Khoa học và Công nghệ
 - 🟢 [25/VBHN-BKHCN](../registry/van-ban/25-vbhn-bkhcn-2026.yaml) — Văn bản hợp nhất Nghị định số 99/2013/NĐ-CP ngày 29 tháng 8 năm 2013 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực sở hữu công nghiệp
+- 🟢 [21582/TB-CHQ/2026](../registry/van-ban/21582-tb-chq-2026.yaml) — Thông báo về việc triển khai thực hiện Nghị định số 286/2026/NĐ-CP ngày 17/7/2026 của Chính phủ
 - 🟢 [128/2026/TT-BTC](../registry/van-ban/128-2026-tt-btc.yaml) — Quy định về kiểm tra, giám sát và quản lý hải quan đối với hàng hóa xuất khẩu, nhập khẩu, quá cảnh và phương tiện vận tải hoạt động trong khu vực cửa khẩu thông minh
+- 🟢 [18837/CHQ-GSQL](../registry/van-ban/18837-chq-gsql-2026.yaml) — Về việc triển khai các giải pháp tạo thuận lợi thông quan đối với hàng hóa nông sản xuất khẩu
 - 🟢 [186/2026/NĐ-CP](../registry/van-ban/186-2026-nd-cp.yaml) — Sửa đổi, bổ sung một số điều của Nghị định số 99/2013/NĐ-CP ngày 29 tháng 8 năm 2013 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực sở hữu công nghiệp đã được sửa đổi, bổ sung một số điều theo Nghị định số 126/2021/NĐ-CP ngày 30 tháng 12 năm 2021 và Nghị định số 46/2024/NĐ-CP ngày 04 tháng 5 năm 2024 của Chính phủ
+- 🟢 [15029/CHQ-GSQL](../registry/van-ban/15029-chq-gsql-2026.yaml) — Về việc thực hiện thủ tục hải quan đối với người nhập cảnh mang theo vàng trang sức
+- 🟢 [13582/TB-CHQ/2026](../registry/van-ban/13582-tb-chq-2026.yaml) — Thông báo việc phát hành Tem điện tử rượu nhập khẩu
 - 🟢 [06/2026/TT-BTC](../registry/van-ban/06-2026-tt-btc.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 13/2015/TT-BTC quy định về kiểm tra, giám sát, tạm dừng làm thủ tục hải quan đối với hàng hóa xuất khẩu, nhập khẩu có yêu cầu bảo vệ quyền sở hữu trí tuệ
 - 🟢 [05/2026/TT-BTC](../registry/van-ban/05-2026-tt-btc.yaml) — Quy định về phân cấp trong hoạt động kiểm tra chuyên ngành trong một số lĩnh vực của Bộ Tài chính
 - 🟢 [2123/QĐ-CHQ](../registry/van-ban/2123-qd-chq-2025.yaml) — Ban hành Quy trình Kiểm tra sau thông quan và quản lý chế độ ưu tiên
@@ -158,8 +184,9 @@ _Khung pháp lý chung về hải quan và thủ tục làm hàng xuất nhập 
 
 ### Mã loại hình xuất nhập khẩu `hai-quan/loai-hinh`
 
-1 văn bản, 1 chưa hết hiệu lực.
+2 văn bản, 2 chưa hết hiệu lực.
 
+- 🟢 [6156/TCHQ-GSQL](../registry/van-ban/6156-tchq-gsql-2023.yaml) — Về việc thủ tục hải quan đối với hàng hóa gửi qua dịch vụ chuyển phát nhanh
 - 🟢 [1357/QĐ-TCHQ](../registry/van-ban/1357-qd-tchq-2021.yaml) — Về việc ban hành Bảng mã loại hình xuất khẩu, nhập khẩu và hướng dẫn sử dụng
 
 ### Cơ chế một cửa quốc gia, một cửa ASEAN `hai-quan/mot-cua`
@@ -174,13 +201,34 @@ _Khung pháp lý chung về hải quan và thủ tục làm hàng xuất nhập 
 
 _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung (không phải văn bản quy phạm nhưng thực tế áp dụng)._
 
-11 văn bản, 8 chưa hết hiệu lực.
+32 văn bản, 23 chưa hết hiệu lực.
 
 - 🟢 [1813/2026/QĐ-CHQ](../registry/van-ban/1813-2026-qd-chq.yaml) — Về việc ban hành Quy định về định dạng thông điệp dữ liệu tờ khai hàng hóa xuất khẩu, nhập khẩu gửi qua dịch vụ bưu chính của doanh nghiệp được chỉ định, dịch vụ chuyển phát nhanh quốc tế
+- 🟢 [22446/CHQ-NVTHQ](../registry/van-ban/22446-chq-nvthq-2026.yaml) — Về việc áp dụng mức thuế (kéo dài thời hạn áp dụng thuế nhập khẩu ưu đãi, thuế bảo vệ môi trường, thuế giá trị gia tăng đối với mặt hàng xăng, dầu, nguyên liệu sản xuất xăng, dầu và nhiên liệu bay theo Nghị quyết số 43/2026/NQ-CP)
+- 🟢 [21582/TB-CHQ/2026](../registry/van-ban/21582-tb-chq-2026.yaml) — Thông báo về việc triển khai thực hiện Nghị định số 286/2026/NĐ-CP ngày 17/7/2026 của Chính phủ
+- 🟢 [1336/QĐ-CHQ](../registry/van-ban/1336-qd-chq-2026.yaml) — Về việc công bố công khai điều chỉnh dự toán chi ngân sách nhà nước năm 2026 của Cục Hải quan
+- 🟢 [18837/CHQ-GSQL](../registry/van-ban/18837-chq-gsql-2026.yaml) — Về việc triển khai các giải pháp tạo thuận lợi thông quan đối với hàng hóa nông sản xuất khẩu
+- 🟢 [738/NVTHQ-PL](../registry/van-ban/738-nvthq-pl-2026.yaml) — Về việc cập nhật Nghị định Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi theo Nghị quyết số 25/2026/NQ-CP ngày 30/4/2026 của Chính phủ
 - 🟢 [15289/CHQ-NVTHQ](../registry/van-ban/15289-chq-nvthq-2026.yaml) — Về việc áp dụng mức thuế bảo vệ môi trường, thuế giá trị gia tăng, thuế tiêu thụ đặc biệt đối với xăng, dầu và nhiên liệu bay theo Nghị quyết số 19/2026/QH16
+- 🟢 [15029/CHQ-GSQL](../registry/van-ban/15029-chq-gsql-2026.yaml) — Về việc thực hiện thủ tục hải quan đối với người nhập cảnh mang theo vàng trang sức
+- ⚫ [14487/CHQ-NVTHQ](../registry/van-ban/14487-chq-nvthq-2026.yaml) — Về việc áp dụng mức thuế bảo vệ môi trường, thuế giá trị gia tăng, thuế tiêu thụ đặc biệt đối với xăng, dầu và nhiên liệu bay theo Quyết định số 482/QĐ-TTg _(hết hiệu lực 2026-04-16)_
+- 🟢 [13582/TB-CHQ/2026](../registry/van-ban/13582-tb-chq-2026.yaml) — Thông báo việc phát hành Tem điện tử rượu nhập khẩu
+- 🟢 [12232/CHQ-NVTHQ](../registry/van-ban/12232-chq-nvthq-2026.yaml) — Về việc thực hiện Nghị định số 56/2026/NĐ-CP ngày 12/02/2026 (Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam thực hiện Bản Thỏa thuận thúc đẩy thương mại song phương Việt Nam - Campuchia giai đoạn 2025-2026)
+- 🟢 [8883/CHQ-GSQL](../registry/van-ban/8883-chq-gsql-2026.yaml) — Về việc thông quan thực phẩm nhập khẩu (triển khai Công điện số 08/CĐ-TTg ngày 03/02/2026 của Thủ tướng Chính phủ)
 - 🟢 [117/QĐ-CHQ](../registry/van-ban/117-qd-chq-2026.yaml) — Ban hành Quy trình Xác định trước mã số; Kiểm tra tên hàng, mô tả hàng hóa, mã số, mức thuế, đơn vị tính của hàng hóa xuất khẩu, nhập khẩu trong thông quan; Thống nhất công tác phân loại hàng hóa, áp dụng mức thuế đối với hàng hóa xuất khẩu, nhập khẩu
+- 🟢 [581/CHQ-NVTHQ](../registry/van-ban/581-chq-nvthq-2026.yaml) — Về việc triển khai thực hiện Thông tư số 121/2025/TT-BTC ngày 18/12/2025 (hướng dẫn thủ tục xác nhận hoàn thành nghĩa vụ nộp thuế theo khoản 61 Điều 1 sửa đổi Điều 140 Thông tư số 38/2015/TT-BTC)
 - 🟢 [2123/QĐ-CHQ](../registry/van-ban/2123-qd-chq-2025.yaml) — Ban hành Quy trình Kiểm tra sau thông quan và quản lý chế độ ưu tiên
+- ⚫ [23606/CHQ-NVTHQ](../registry/van-ban/23606-chq-nvthq-2025.yaml) — Về việc thực hiện Quyết định số 2491/QĐ-BCT của Bộ Công Thương (áp dụng thuế chống bán phá giá tạm thời đối với một số sản phẩm ván sợi gỗ có xuất xứ từ Vương quốc Thái Lan và Cộng hòa nhân dân Trung Hoa) _(hết hiệu lực 2026-01-18)_
+- ⚫ [333/NVTHQ-QLT](../registry/van-ban/333-nvthq-qlt-2025.yaml) — Thực hiện Quyết định số 1204/QĐ-BCT ngày 28/4/2025 của Bộ Công Thương về việc sửa đổi, bổ sung Quyết định số 460/QĐ-BCT ngày 21/02/2025 về việc áp dụng biện pháp chống bán phá giá tạm thời đối với một số sản phẩm thép cán nóng có xuất xứ từ Cộng hòa Ấn Độ và Cộng hòa nhân dân Trung Hoa _(hết hiệu lực 2025-07-06)_
+- 🟢 [467/QĐ-CHQ](../registry/van-ban/467-qd-chq-2025.yaml) — Về việc ban hành Quy trình kiểm tra, xác định xuất xứ hàng hóa xuất khẩu, nhập khẩu
+- ⚫ [2177/CHQ-NVTHQ](../registry/van-ban/2177-chq-nvthq-2025.yaml) — Về việc đính chính văn bản (đính chính thời hạn hiệu lực của Quyết định số 662/QĐ-BCT tại Công văn số 438/CHQ-NVTHQ ngày 25/03/2025) _(hết hiệu lực 2026-06-16)_
+- ⚫ [438/CHQ-NVTHQ](../registry/van-ban/438-chq-nvthq-2025.yaml) — Về việc thực hiện Quyết định 662/QĐ-BCT của Bộ Công Thương (áp dụng biện pháp chống lẩn tránh phòng vệ thương mại đối với sản phẩm đường mía) _(hết hiệu lực 2026-06-16)_
+- ⚫ [1087/TCHQ-TXNK](../registry/van-ban/1087-tchq-txnk-2025.yaml) — Về việc thực hiện Quyết định 460/QĐ-BCT của Bộ Công Thương (áp dụng biện pháp chống bán phá giá tạm thời đối với một số sản phẩm thép cán nóng có xuất xứ từ Cộng hòa Ấn Độ và Cộng hòa nhân dân Trung Hoa) _(hết hiệu lực 2025-07-06)_
+- 🟢 [787/TCHQ-TXNK](../registry/van-ban/787-tchq-txnk-2025.yaml) — Về việc cập nhật nghĩa vụ thuế theo Quyết định số 01/2025/QĐ-TTg ngày 03/01/2025 của Thủ tướng Chính phủ
+- 🟢 [139/TXNK-CST](../registry/van-ban/139-txnk-cst-2025.yaml) — Về việc cập nhật thông tin khai báo thuế chống bán phá giá theo Quyết định số 143/QĐ-BCT _(hết hiệu lực 2030-01-29)_
+- 🟢 [438/TCHQ-TXNK](../registry/van-ban/438-tchq-txnk-2025.yaml) — Về việc thực hiện Quyết định 143/QĐ-BCT của Bộ Công Thương (áp dụng biện pháp chống bán phá giá chính thức đối với một số sản phẩm cáp thép dự ứng lực có xuất xứ từ Ma-lai-xi-a, Vương quốc Thái Lan và Cộng hòa nhân dân Trung Hoa) _(hết hiệu lực 2030-01-29)_
 - 🟢 [2538/QĐ-TCHQ](../registry/van-ban/2538-qd-tchq.yaml) — Ban hành Quy trình trình tự thực hiện thủ tục hải quan đối với hàng hóa xuất khẩu, nhập khẩu; hàng hóa vận chuyển chịu sự giám sát hải quan
+- 🟢 [3982/TCHQ-GSQL](../registry/van-ban/3982-tchq-gsql.yaml) — V/v xử lý vướng mắc trong quá trình thực hiện Thông tư 23/2021/TT-BTC
 - 🟢 [2079/QĐ-TCHQ](../registry/van-ban/2079-qd-tchq.yaml) — Ban hành Danh mục hàng hóa rủi ro về phân loại hàng hóa
 - ⚫ [583/QĐ-TCHQ](../registry/van-ban/583-qd-tchq-2019.yaml) — Ban hành Danh mục hàng hóa xuất khẩu, nhập khẩu rủi ro về phân loại hàng hóa và áp dụng mức thuế _(hết hiệu lực 2021-07-19)_
 - ❔ [1920/QĐ-TCHQ](../registry/van-ban/1920-qd-tchq-2018.yaml) — Ban hành Sổ tay nghiệp vụ thực hiện thủ tục thông quan hàng hóa xuất khẩu, nhập khẩu tại cấp Chi cục Hải quan
@@ -190,11 +238,18 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ## Thuế xuất khẩu, nhập khẩu và các thuế khác khâu nhập khẩu `thue`
 
-17 văn bản, 10 chưa hết hiệu lực.
+24 văn bản, 17 chưa hết hiệu lực.
 
 - 🟢 [86/2026/TT-BTC](../registry/van-ban/86-2026-tt-btc.yaml) — Quy định về quản lý thuế đối với hàng hóa xuất khẩu, nhập khẩu
+- 🟢 [17920/TB-CHQ/2026](../registry/van-ban/17920-tb-chq-2026.yaml) — Thông báo về thông tin tài khoản thu NSNN (các đơn vị Hải quan thống nhất 1 mã từ 01/07/2026 và các đơn vị thay đổi mã Hải quan)
+- 🟢 [16753/TB-CHQ/2026](../registry/van-ban/16753-tb-chq-2026.yaml) — Thông báo về thông tin tài khoản thu NSNN (Chi cục HQKV XV)
+- 🟢 [16496/TB-CHQ/2026](../registry/van-ban/16496-tb-chq-2026.yaml) — Thông báo về thông tin tài khoản thu NSNN (Đội Thông quan thuộc Chi cục HQKV III)
+- 🟢 [16016/TB-CHQ/2026](../registry/van-ban/16016-tb-chq-2026.yaml) — Thông báo về thông tin mã đơn vị quan hệ ngân sách của Đội Thông quan, Chi cục Hải quan khu vực III
 - 🟢 [346/2025/NĐ-CP](../registry/van-ban/346-2025-nd-cp.yaml) — Quy định phí bảo vệ môi trường đối với nước thải
 - 🟢 [108/2025/QH15](../registry/van-ban/108-2025-qh15.yaml) — Luật Quản lý thuế
+- 🟢 [27091/TB-CHQ/2025](../registry/van-ban/27091-tb-chq-2025.yaml) — Thông báo về thông tin tài khoản thu NSNN (cập nhật sửa đổi, bổ sung thông tin thu của Hải quan Buôn Ma Thuột thuộc Chi cục HQKV XIV — tiếp theo 11801/TB-CHQ)
+- 🟢 [17501/TB-CHQ/2025](../registry/van-ban/17501-tb-chq-2025.yaml) — Thông báo về thông tin tài khoản thu NSNN (cập nhật sửa đổi, bổ sung thông tin thu một số đơn vị HQKV X, XIII, XIV, XIX — tiếp theo 11801/TB-CHQ)
+- 🟢 [12377/TB-CHQ/2025](../registry/van-ban/12377-tb-chq-2025.yaml) — Thông báo về thông tin tài khoản thu NSNN (cập nhật sửa đổi, bổ sung thông tin thu một số đơn vị HQKV II, XII, XIX — tiếp theo 11801/TB-CHQ)
 - 🟢 [3702/TB-TCHQ/2024](../registry/van-ban/3702-tb-tchq-2024.yaml) — V/v Chính sách thuế hàng hóa xuất khẩu (Công ty TNHH Vĩnh Thắng)
 - 🟢 [963/TB-TCHQ/2024](../registry/van-ban/963-tb-tchq-2024.yaml) — V/v Hàng hóa nhập khẩu để sản xuất xuất khẩu giao gia công lại (Công ty Cổ phần XNK May Anh Vũ)
 - 🟢 [428/TB-TCHQ/2024](../registry/van-ban/428-tb-tchq-2024.yaml) — V/v Chính sách thuế hàng hóa nhập khẩu sau đó tái xuất (Công ty TNHH XNK gỗ An Lạc)
@@ -236,12 +291,16 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ### Biểu thuế XK, NK ưu đãi và biểu thuế FTA `thue/bieu-thue`
 
-61 văn bản, 42 chưa hết hiệu lực.
+66 văn bản, 46 chưa hết hiệu lực.
 
+- 🟢 [22446/CHQ-NVTHQ](../registry/van-ban/22446-chq-nvthq-2026.yaml) — Về việc áp dụng mức thuế (kéo dài thời hạn áp dụng thuế nhập khẩu ưu đãi, thuế bảo vệ môi trường, thuế giá trị gia tăng đối với mặt hàng xăng, dầu, nguyên liệu sản xuất xăng, dầu và nhiên liệu bay theo Nghị quyết số 43/2026/NQ-CP)
 - 🟢 [43/2026/NQ-CP](../registry/van-ban/43-2026-nq-cp.yaml) — Về việc kéo dài thời hạn áp dụng thuế nhập khẩu ưu đãi, thuế bảo vệ môi trường, thuế giá trị gia tăng đối với xăng, dầu, nguyên liệu sản xuất xăng, dầu và nhiên liệu bay _(hết hiệu lực 2026-12-31)_
 - 🟢 [201/2026/NĐ-CP](../registry/van-ban/201-2026-nd-cp.yaml) — Sửa đổi, bổ sung thuế suất thuế xuất khẩu của một số mặt hàng tại Biểu thuế xuất khẩu ban hành kèm Nghị định số 26/2023/NĐ-CP
 - 🟢 [143/2026/NĐ-CP](../registry/van-ban/143-2026-nd-cp.yaml) — Ban hành Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Đối tác kinh tế toàn diện Việt Nam – Tiểu vương quốc Ả Rập Thống nhất (CEPA), giai đoạn 2026–2027
+- 🟢 [25/2026/NQ-CP](../registry/van-ban/25-2026-nq-cp.yaml) — Về việc kéo dài thời hạn áp dụng của Nghị định số 72/2026/NĐ-CP ngày 09 tháng 3 năm 2026 của Chính phủ sửa đổi mức thuế suất thuế nhập khẩu ưu đãi đối với một số mặt hàng xăng, dầu, nguyên liệu sản xuất xăng, dầu tại Biểu thuế nhập khẩu ưu đãi ban hành kèm theo Nghị định số 26/2023/NĐ-CP ngày 31 tháng 5 năm 2023 của Chính phủ về Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi, Danh mục hàng hóa và mức thuế tuyệt đối, thuế hỗn hợp, thuế nhập khẩu ngoài hạn ngạch thuế quan và mức thuế suất thuế nhập khẩu ưu đãi của một số mặt hàng nguyên liệu sản xuất xăng, dầu
+- 🟢 [738/NVTHQ-PL](../registry/van-ban/738-nvthq-pl-2026.yaml) — Về việc cập nhật Nghị định Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi theo Nghị quyết số 25/2026/NQ-CP ngày 30/4/2026 của Chính phủ
 - 🟢 [72/2026/NĐ-CP](../registry/van-ban/72-2026-nd-cp.yaml) — Sửa đổi mức thuế suất thuế nhập khẩu ưu đãi đối với một số mặt hàng xăng, dầu, nguyên liệu sản xuất xăng, dầu tại Biểu thuế nhập khẩu ưu đãi ban hành kèm theo Nghị định số 26/2023/NĐ-CP _(hết hiệu lực 2027-01-01)_
+- 🟢 [12232/CHQ-NVTHQ](../registry/van-ban/12232-chq-nvthq-2026.yaml) — Về việc thực hiện Nghị định số 56/2026/NĐ-CP ngày 12/02/2026 (Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam thực hiện Bản Thỏa thuận thúc đẩy thương mại song phương Việt Nam - Campuchia giai đoạn 2025-2026)
 - 🟢 [56/2026/NĐ-CP](../registry/van-ban/56-2026-nd-cp.yaml) — Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Bản Thỏa thuận thúc đẩy thương mại song phương giữa Chính phủ nước Cộng hòa xã hội chủ nghĩa Việt Nam và Chính phủ Vương quốc Campuchia giai đoạn 2025 - 2026
 - 🟢 [3830/QĐ-BKHCN](../registry/van-ban/3830-qd-bkhcn.yaml) — Quyết định về việc hủy bỏ sản phẩm có mã HS 9405.11.99 tại Quyết định số 367/QĐ-BKHCN ngày 12 tháng 3 năm 2024 của Bộ trưởng Bộ Khoa học và Công nghệ
 - 🟢 [109/2025/UBTVQH15](../registry/van-ban/109-2025-ubtvqh15.yaml) — Thuế bảo vệ môi trường
@@ -256,6 +315,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [21/2025/NĐ-CP](../registry/van-ban/21-2025-nd-cp.yaml) — Sửa đổi, bổ sung Điều 9 của Nghị định số 26/2023/NĐ-CP ngày 31 tháng 5 năm 2023 của Chính phủ về Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi, Danh mục hàng hóa và mức thuế tuyệt đối, thuế hỗn hợp, thuế nhập khẩu ngoài hạn ngạch thuế quan
 - 🟢 [13/2025/NĐ-CP](../registry/van-ban/13-2025-nd-cp.yaml) — Sửa đổi, bổ sung một số điều của Nghị định số 115/2022/NĐ-CP ngày 30 tháng 12 năm 2022 của Chính phủ ban hành Biểu thuế xuất khẩu ưu đãi, Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Đối tác Toàn diện và Tiến bộ xuyên Thái Bình Dương giai đoạn 2022 - 2027 đã được sửa đổi, bổ sung một số điều theo Nghị định số 68/2023/NĐ-CP ngày 07 tháng 9 năm 2023 của Chính phủ
 - 🟢 [144/2024/NĐ-CP](../registry/van-ban/144-2024-nd-cp.yaml) — Sửa đổi, bổ sung một số điều của Nghị định số 26/2023/NĐ-CP ngày 31 tháng 5 năm 2023 của Chính phủ về Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi, Danh mục hàng hóa và mức thuế tuyệt đối, thuế hỗn hợp, thuế nhập khẩu ngoài hạn ngạch thuế quan
+- ⚫ [06/2024/TT-BCT](../registry/van-ban/06-2024-tt-bct.yaml) — Quy định việc nhập khẩu mặt hàng gạo và lá thuốc lá khô có xuất xứ từ Vương quốc Campuchia theo hạn ngạch thuế quan năm 2023 và năm 2024 _(hết hiệu lực 2025-01-01)_
 - 🟢 [77/2023/NĐ-CP](../registry/van-ban/77-2023-nd-cp.yaml) — Quản lý nhập khẩu hàng hóa tân trang theo Hiệp định CPTPP
 - 🟢 [15/2023/QĐ-TTg](../registry/van-ban/15-2023-qd-ttg.yaml) — Biểu thuế NK thông thường
 - 🟢 [26/2023/NĐ-CP](../registry/van-ban/26-2023-nd-cp.yaml) — Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi, Danh mục hàng hoá và mức thuế tuyệt đối, thuế hỗn hợp, thuế nhập khẩu ngoài hạn ngạch thuế quan
@@ -345,8 +405,13 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ### Miễn, giảm, hoàn thuế `thue/mien-giam-hoan`
 
-10 văn bản, 7 chưa hết hiệu lực.
+15 văn bản, 12 chưa hết hiệu lực.
 
+- 🟢 [13251/CHQ-NVTHQ](../registry/van-ban/13251-chq-nvthq-2026.yaml) — Về việc chính sách thuế nhập khẩu và thủ tục hải quan đối với loại hình gia công lại
+- 🟢 [581/CHQ-NVTHQ](../registry/van-ban/581-chq-nvthq-2026.yaml) — Về việc triển khai thực hiện Thông tư số 121/2025/TT-BTC ngày 18/12/2025 (hướng dẫn thủ tục xác nhận hoàn thành nghĩa vụ nộp thuế theo khoản 61 Điều 1 sửa đổi Điều 140 Thông tư số 38/2015/TT-BTC)
+- 🟢 [2371/QĐ-BTC](../registry/van-ban/2371-qd-btc-2025.yaml) — Về việc công bố thủ tục hành chính được sửa đổi, bổ sung trong lĩnh vực hải quan thuộc phạm vi chức năng quản lý của Bộ Tài chính
+- 🟢 [1813/BTC-TCHQ](../registry/van-ban/1813-btc-tchq-2025.yaml) — Về việc thực hiện Quyết định số 01/2025/QĐ-TTg ngày 03/01/2025 của Thủ tướng Chính phủ
+- 🟢 [01/2025/QĐ-TTg](../registry/van-ban/01-2025-qd-ttg.yaml) — Bãi bỏ toàn bộ Quyết định số 78/2010/QĐ-TTg ngày 30 tháng 11 năm 2010 của Thủ tướng Chính phủ về mức giá trị hàng hóa nhập khẩu gửi qua dịch vụ chuyển phát nhanh được miễn thuế
 - 🟢 [5262/TB-TCHQ/2024](../registry/van-ban/5262-tb-tchq-2024.yaml) — V/v Hoàn thuế nhập khẩu (Công ty TNHH Unique Sound Việt Nam)
 - 🟢 [2269/TB-TCHQ/2024](../registry/van-ban/2269-tb-tchq-2024.yaml) — V/v Thủ tục hải quan, hoàn thuế NK (Công ty TNHH Global Gases Việt Nam)
 - 🟢 [1008/TB-TCHQ/2024](../registry/van-ban/1008-tb-tchq-2024.yaml) — V/v Hàng hóa tạm nhập miễn thuế thay đổi mục đích sử dụng (Công ty TNHH Seojin Auto)
@@ -360,12 +425,20 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ### Thuế GTGT, TTĐB, BVMT ở khâu nhập khẩu (gồm giảm GTGT) `thue/thue-noi-dia-khau-nk`
 
-30 văn bản, 24 chưa hết hiệu lực.
+39 văn bản, 31 chưa hết hiệu lực.
 
+- 🟢 [22446/CHQ-NVTHQ](../registry/van-ban/22446-chq-nvthq-2026.yaml) — Về việc áp dụng mức thuế (kéo dài thời hạn áp dụng thuế nhập khẩu ưu đãi, thuế bảo vệ môi trường, thuế giá trị gia tăng đối với mặt hàng xăng, dầu, nguyên liệu sản xuất xăng, dầu và nhiên liệu bay theo Nghị quyết số 43/2026/NQ-CP)
 - 🟢 [15289/CHQ-NVTHQ](../registry/van-ban/15289-chq-nvthq-2026.yaml) — Về việc áp dụng mức thuế bảo vệ môi trường, thuế giá trị gia tăng, thuế tiêu thụ đặc biệt đối với xăng, dầu và nhiên liệu bay theo Nghị quyết số 19/2026/QH16
 - 🟢 [19/2026/QH16](../registry/van-ban/19-2026-qh16.yaml) — Về thuế bảo vệ môi trường, thuế giá trị gia tăng, thuế tiêu thụ đặc biệt đối với xăng, dầu và nhiên liệu bay
+- ⚫ [14487/CHQ-NVTHQ](../registry/van-ban/14487-chq-nvthq-2026.yaml) — Về việc áp dụng mức thuế bảo vệ môi trường, thuế giá trị gia tăng, thuế tiêu thụ đặc biệt đối với xăng, dầu và nhiên liệu bay theo Quyết định số 482/QĐ-TTg _(hết hiệu lực 2026-04-16)_
+- ⚫ [482/QĐ-TTg](../registry/van-ban/482-qd-ttg-2026.yaml) — Về việc áp dụng mức thuế bảo vệ môi trường, thuế giá trị gia tăng, thuế tiêu thụ đặc biệt đối với xăng, dầu và nhiên liệu bay trong trường hợp cần thiết vì lợi ích quốc gia _(hết hiệu lực 2026-04-16)_
+- 🟢 [2371/QĐ-BTC](../registry/van-ban/2371-qd-btc-2025.yaml) — Về việc công bố thủ tục hành chính được sửa đổi, bổ sung trong lĩnh vực hải quan thuộc phạm vi chức năng quản lý của Bộ Tài chính
 - 🟢 [174/2025/NĐ-CP](../registry/van-ban/174-2025-nd-cp.yaml) — Quy định chính sách giảm thuế giá trị gia tăng theo Nghị quyết số 204/2025/QH15 ngày 17 tháng 6 năm 2025 của Quốc hội _(hết hiệu lực 2026-12-31)_
+- 🟢 [2122/QĐ-BTC](../registry/van-ban/2122-qd-btc-2025.yaml) — Về việc công bố thủ tục hành chính được sửa đổi, bổ sung, bị bãi bỏ trong lĩnh vực quản lý thuế, hải quan thuộc phạm vi chức năng quản lý của Bộ Tài chính
 - 🟢 [204/2025/QH15](../registry/van-ban/204-2025-qh15.yaml) — Nghị quyết về giảm thuế giá trị gia tăng theo Nghị quyết số 204/2025/QH15 _(hết hiệu lực 2026-12-31)_
+- 🟢 [787/TCHQ-TXNK](../registry/van-ban/787-tchq-txnk-2025.yaml) — Về việc cập nhật nghĩa vụ thuế theo Quyết định số 01/2025/QĐ-TTg ngày 03/01/2025 của Thủ tướng Chính phủ
+- 🟢 [1813/BTC-TCHQ](../registry/van-ban/1813-btc-tchq-2025.yaml) — Về việc thực hiện Quyết định số 01/2025/QĐ-TTg ngày 03/01/2025 của Thủ tướng Chính phủ
+- 🟢 [01/2025/QĐ-TTg](../registry/van-ban/01-2025-qd-ttg.yaml) — Bãi bỏ toàn bộ Quyết định số 78/2010/QĐ-TTg ngày 30 tháng 11 năm 2010 của Thủ tướng Chính phủ về mức giá trị hàng hóa nhập khẩu gửi qua dịch vụ chuyển phát nhanh được miễn thuế
 - 🟢 [3037/TB-TCHQ/2024](../registry/van-ban/3037-tb-tchq-2024.yaml) — V/v Thuế GTGT hóa chất cơ bản và sản phẩm hóa chất (Công ty Cổ phần Stromann)
 - 🟢 [2255/TB-TCHQ/2024](../registry/van-ban/2255-tb-tchq-2024.yaml) — V/v Thuế GTGT theo Nghị định số 94/2023/NĐ-CP (Công ty TNHH Artron Việt Nam)
 - 🟢 [1879/TB-TCHQ/2024](../registry/van-ban/1879-tb-tchq-2024.yaml) — V/v Vướng mắc thuế nhập khẩu chà là sấy dẻo (Công ty TNHH Hạt Dinh Dưỡng)
@@ -385,6 +458,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [5003/TB-TCHQ/2023](../registry/van-ban/5003-tb-tchq-2023.yaml) — V/v Thuế GTGT thiết bị điện (Công ty Cổ phần Điện Master)
 - ⚫ [44/2023/NĐ-CP](../registry/van-ban/44-2023-nd-cp.yaml) — Quy định chính sách giảm thuế giá trị gia tăng theo Nghị quyết số 101/2023/QH15 ngày 24 tháng 6 năm 2023 của Quốc hội _(hết hiệu lực 2024-01-01)_
 - 🟢 [101/2023/QH15](../registry/van-ban/101-2023-qh15.yaml) — Kỳ họp thứ 5, Quốc hội khóa XV
+- 🟢 [3982/TCHQ-GSQL](../registry/van-ban/3982-tchq-gsql.yaml) — V/v xử lý vướng mắc trong quá trình thực hiện Thông tư 23/2021/TT-BTC
 - 🟡 [03/2022/QH15](../registry/van-ban/03-2022-qh15.yaml) — Luật sửa đổi, bổ sung một số điều của Luật Đầu tư công, Luật Đầu tư theo phương thức đối tác công tư, Luật Đầu tư, Luật Nhà ở, Luật Đấu thầu, Luật Điện lực, Luật Doanh nghiệp, Luật Thuế tiêu thụ đặc biệt và Luật Thi hành án dân sự
 - ⚫ [43/2022/QH15](../registry/van-ban/43-2022-qh15.yaml) — Về chính sách tài khóa, tiền tệ hỗ trợ Chương trình phục hồi và phát triển kinh tế - xã hội _(hết hiệu lực 2024-01-01)_
 - ⚫ [20/2019/NĐ-CP](../registry/van-ban/20-2019-nd-cp.yaml) — Sửa đổi, bổ sung một số điều của Nghị định số 140/2016/NĐ-CP ngày 10 tháng 10 năm 2016 của Chính phủ về lệ phí trước bạ _(hết hiệu lực 2022-03-01)_
@@ -395,13 +469,14 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ## Phân loại hàng hoá (mã HS) `phan-loai-hs`
 
-2413 văn bản, 2411 chưa hết hiệu lực.
+2422 văn bản, 2420 chưa hết hiệu lực.
 
 - 🟢 [24035/TB-CHQ/2026](../registry/van-ban/24035-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thỏi hợp kim nhôm Aluminium Alloy Ingot chưa gia công, kích thước 60 cm x 10 cm x 5 cm, khối lượng khoảng 7,00-7,56 kg/thỏi, thu được từ quá trình nấu chảy, tinh luyện phế liệu nhôm, dùng để cán, kéo, đúc và làm nguyên liệu đầu vào trong ngành luyện kim, mã số 7601.20.00)
 - 🟢 [23941/TB-CHQ/2026](../registry/van-ban/23941-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hương caramel CARAMEL FLAVOR S2503915, dạng chất lỏng, thành phần Medium chain triglycerides 80-100%, hương liệu 5-10%, Triacetin <2%, dùng làm hương liệu trong sản xuất bánh ngọt, kẹo, mã số 3302.10.30)
 - 🟢 [23872/TB-CHQ/2026](../registry/van-ban/23872-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Module giao tiếp kỹ thuật số Digital Communication Module DCM, ký mã hiệu SC8080, dùng cho máy lọc máu liên tục CRRT PrisMax để nhận và truyền dữ liệu điều trị qua WiFi tới hệ thống bệnh án điện tử EMR, mã số 8517.62.59)
 - 🟢 [23449/TB-CHQ/2026](../registry/van-ban/23449-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hương chanh LEMON FLAVOR FT02171033 dạng chất lỏng không màu đến nâu nhạt, mùi đặc trưng, tỷ trọng riêng 1,032-1,072 ở 20 độ C, thành phần gồm Propylene glycol 60-80%, Triacetin 20-40%, hương liệu 2-5%, dùng làm hương liệu trong sản xuất bánh ngọt nhân kem và kẹo, mã số 3302.10.30)
 - 🟢 [23450/TB-CHQ/2026](../registry/van-ban/23450-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hương bạc hà COOLING FLAVOR MT 02561001 dạng chất lỏng không màu đến vàng nhạt, mùi đặc trưng, tỷ trọng riêng 0,966-0,986 ở 20 độ C, thành phần gồm Propylene glycol 40-60% và hương liệu 40-60%, dùng làm hương liệu trong sản xuất bánh ngọt nhân kem và kẹo, mã số 3302.10.30)
+- 🟢 [23489/CHQ-NVTHQ](../registry/van-ban/23489-chq-nvthq-2026.yaml) — Về việc mã HS và thuế chống bán phá giá đối với mặt hàng thanh nhôm hợp kim nhập khẩu (A6061 T6 cán nóng cắt cơ học 50 x 414 x 2805 mm, mã số 7604.29.90)
 - 🟢 [23490/TB-CHQ/2026](../registry/van-ban/23490-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hương bắp rang caramel CARAMEL POPCORN FLAVOR S2503913, dạng chất lỏng, thành phần Medium chain triglycerides 80-100%, hương liệu 10-20%, Triacetin <2%, dùng làm hương liệu trong sản xuất bánh ngọt nhân kem, kẹo, mã số 3302.10.30)
 - 🟢 [23491/TB-CHQ/2026](../registry/van-ban/23491-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Mô đun đi-ốt phát quang Led module TROOPER 5B, cụm 512 chip LED cấu hình 16S2P trên tấm mạch in nền nhôm PCB kèm 8 điện trở cân bằng dòng, hệ thống cầu chì và đầu nối nhận nguồn DC, kích thước 1200mm x 150mm x 1.76mm, công suất 13.92-15.84 W, dùng để sản xuất đèn chiếu sáng công nghiệp, thương mại, mã số 8541.41.00)
 - 🟢 [23406/TB-CHQ/2026](../registry/van-ban/23406-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Vảy nhựa PET rửa nóng - trong suốt Hot washed PET Flake-clear primary form, mã hiệu CPC-101, thành phần >99% Polyethylene Terephthalate tái sinh từ chai nhựa PET đã qua sử dụng, mật độ khối lượng 250-400 kg/m3, độ nhớt <78 mL/g, dùng làm nguyên liệu sản xuất hạt nhựa PET tái sinh cho ngành thực phẩm, mã số 3907.69.90)
@@ -409,6 +484,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [23454/TB-CHQ/2026](../registry/van-ban/23454-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Khung từ Coil ass'y mã hiệu HP74422 cấu tạo gồm dây nhôm Al coil 13-14 gram quấn quanh lõi cuốn nhựa chịu nhiệt Bobbin và 01 linh kiện bán dẫn Diode, lắp cố định với lõi sắt tạo ra cuộn dây nam châm điện của còi xe ô tô 12V/24V, mã số 8505.90.90)
 - 🟢 [23348/TB-CHQ/2026](../registry/van-ban/23348-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Module diode phát quang LED mã hiệu ZYE004-081 cấu tạo gồm 01 bản mạch in điện tử tấm đế vật liệu cách điện FR4, 01 diode phát quang LED, 01 diode biến đổi nguồn xoay chiều thành 1 chiều và 02 điện trở, kích thước 15x12x4mm, điện áp 12V/1A, công suất 0,35W, dùng làm linh kiện sản xuất đèn chiếu sáng cốp xe máy, mã số 8539.51.00)
 - 🟢 [23282/TB-CHQ/2026](../registry/van-ban/23282-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hương vải LYCHEE FLAVOR S2313394, dạng chất lỏng, thành phần Propylene glycol 80-100%, hương liệu 5-10%, dùng làm hương liệu trong sản xuất bánh ngọt, kẹo, mã số 3302.10.30)
+- 🟢 [23153/CHQ-NVTHQ](../registry/van-ban/23153-chq-nvthq-2026.yaml) — Về việc xác nhận mã HS code đối với sản phẩm Đông trùng hạ thảo nhập khẩu (Cordyceps Sinensis dạng khô nguyên con, nhóm 12.11, mã số 1211.90.19 / 1211.90.99)
 - 🟢 [23161/TB-CHQ/2026](../registry/van-ban/23161-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Hóa chất JS-12000 dạng lỏng gồm Acrylic Copolymer 36-38%, Ethyl acetate 43-46%, Toluene 12-15% và Acetone 2-4%, nguyên liệu polymer trung gian dùng chế tạo chất keo nhạy áp PSA sản xuất băng keo điện tử và màng bảo vệ, mã số 3208.20.90)
 - 🟢 [23022/TB-CHQ/2026](../registry/van-ban/23022-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thức ăn chăn nuôi bổ sung dạng hỗn hợp axit hữu cơ FORMI STABLE dạng bột, thành phần Axit Formic 30,6-37,4%, Natri Formate 45-55%, khoáng Diatomaceous Earth 12,6-15,4%, bổ sung vào thức ăn hỗn hợp cho gia súc và gia cầm, mã số 2309.90.20)
 - 🟢 [23039/TB-CHQ/2026](../registry/van-ban/23039-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Cáp tín hiệu có chống nhiễu 1PR x 1.5mm2, cách điện bằng nhựa PE, điện áp 30V, chưa gắn với đầu nối, không dùng trong viễn thông, dùng truyền tín hiệu chuẩn RS-232, RS-485, Modbus/Bacnet, hệ thống âm thanh, báo cháy, camera, BMS, mã số 8544.49.24)
@@ -458,6 +534,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [20233/TB-CHQ/2026](../registry/van-ban/20233-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Cụm IP / MODULE ASSY-COCKPIT, ký mã hiệu 84700-I7AA0TC2, cụm bảng táp-lô trung tâm điều khiển lắp ráp thống nhất từ xương IP kim loại, thân IP, trục lái, dây điện, cửa gió, cụm điều khiển điều hòa, túi khí hành khách, hộp điều khiển AVN, cụm đồng hồ táp-lô lắp trên xe ô tô chở người dưới 9 chỗ ngồi, mã số 8708.29.95)
 - 🟢 [19770/TB-CHQ/2026](../registry/van-ban/19770-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Cảm biến hồng ngoại IR OPTICS SENSOR, ký mã hiệu IMS1910, gồm vi mạch tích hợp đèn LED hồng ngoại và đi-ốt quang trên bảng mạch in FR-4 tích hợp bộ chuyển đổi ADC, dùng lắp trên thiết bị đeo thông minh để phát hiện tiếp xúc với da, mã số 9031.49.90)
 - 🟢 [19783/TB-CHQ/2026](../registry/van-ban/19783-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Vỏ thùng rác thép không gỉ SUS304 sử dụng nơi công cộng có in sẵn logo và hướng dẫn phân loại rác, mã số 7323.93.00)
+- 🟢 [19525/CHQ-NVTHQ](../registry/van-ban/19525-chq-nvthq-2026.yaml) — Về việc bổ sung Tuyển tập ý kiến phân loại của WCO tại phiên họp lần thứ 77 (WP77 và HSC77 tháng 03/2026)
 - 🟢 [19468/TB-CHQ/2026](../registry/van-ban/19468-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thuốc không kê đơn ZY-10 Forte dạng viên nang mềm chứa Ubidecarenone 100mg, mã số 3004.90.89)
 - 🟢 [19488/TB-CHQ/2026](../registry/van-ban/19488-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Vỏ hộp bộ điều khiển điện tử trong hệ thống phanh ABS của xe máy Housing, ECU, ký mã hiệu 009V79185-00000, mã số 8536.90.94)
 - 🟢 [19489/TB-CHQ/2026](../registry/van-ban/19489-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Vỏ hộp bộ điều khiển điện tử trong hệ thống phanh ABS của xe máy Housing, ECU, ký mã hiệu 009V79187-00000, mã số 8536.90.94)
@@ -500,11 +577,13 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [16407/TB-CHQ/2026](../registry/van-ban/16407-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Cao cô đặc xương ngựa bạch Equus ferus caballus dạng bánh/cao đặc, tổng hàm lượng 18 axit amin > 70 g/100g, dùng làm nguyên liệu sản xuất thực phẩm, mã số 2106.90.99)
 - 🟢 [16252/TB-CHQ/2026](../registry/van-ban/16252-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thiết bị sạc không dây đôi ACC HHP,CHARGING PAD,E ENG,UNIT, ký mã hiệu EP-P5400BBEGBR, công suất sạc tối đa 15W dùng cho điện thoại thông minh, thiết bị đeo tay thông minh và tai nghe bluetooth, mã số 8504.40.40)
 - 🟢 [16181/TB-CHQ/2026](../registry/van-ban/16181-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thiết bị chuyển mạch mạng LAN model C9200L-24T-4G-E, 24 cổng dữ liệu 10/100/1000 Mbps và 4 cổng uplink SFP 1G, điện áp 100-240 VAC, mã số 8517.62.49)
+- 🟢 [16107/CHQ-NVTHQ](../registry/van-ban/16107-chq-nvthq-2026.yaml) — Về việc phân loại hàng hóa thiết bị ghi hình hệ thống phẫu thuật nội soi (Chú giải 1(h) Chương 90 và nhóm 85.25)
 - 🟢 [16108/TB-CHQ/2026](../registry/van-ban/16108-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Chất ghép nối Silane cho sản phẩm đá nhân tạo GENIOSIL® CS 2 chứa Ethyl silicate 25%-<50% và Triethoxyphenylsilane 1%-<3%, mã số 3824.99.99)
 - 🟢 [16109/TB-CHQ/2026](../registry/van-ban/16109-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Keo dán Glue LG-850 dạng lỏng màu vàng dùng để dán đế lót giày, đóng gói 15 kg/thùng, mã số 3506.91.90)
 - 🟢 [16110/TB-CHQ/2026](../registry/van-ban/16110-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Keo dán Glue LG-T-211 dạng lỏng màu vàng nhạt dùng để cố định mặt giày trong khâu may, đóng gói 15 kg/thùng, mã số 3506.91.90)
 - 🟢 [16061/TB-CHQ/2026](../registry/van-ban/16061-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Mặt nạ xông hơi mắt thư giãn MegRhythm loại có hương, ký mã hiệu MSEM-LA / MSEM-CH / MSEM-OS / MSEM-CI / MSEM-FO, chứa lõi hạt sinh nhiệt Fe và H2O 56,1%, đóng gói 5 miếng/hộp, mã số 3824.99.99)
 - 🟢 [16062/TB-CHQ/2026](../registry/van-ban/16062-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Mặt nạ xông hơi mắt thư giãn MegRhythm loại không hương, ký mã hiệu MSEM-US, chứa lõi hạt sinh nhiệt Fe và H2O 55,1%, đóng gói 5 miếng/hộp, mã số 3824.99.99)
+- 🟢 [15987/CHQ-NVTHQ](../registry/van-ban/15987-chq-nvthq-2026.yaml) — Về việc phân loại hàng hóa phụ gia thực phẩm nhập khẩu (nhóm 38.24 và nhóm 34.04 theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam)
 - 🟢 [15745/TB-CHQ/2026](../registry/van-ban/15745-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Chế phẩm dầu cắt gọt tổng hợp đa năng hiệu suất cao TEXMO MEX 209 dạng lỏng, đóng gói 18 lít/thùng, mã số 3403.99.19)
 - 🟢 [15746/TB-CHQ/2026](../registry/van-ban/15746-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (tệp PDF gốc 1.VB_15746.pdf trên Cổng Hải quan bị lỗi null-byte, chưa xác minh chi tiết tên mặt hàng và mã số HS)
 - 🟢 [15747/TB-CHQ/2026](../registry/van-ban/15747-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Chế phẩm dầu cắt gọt tổng hợp đa năng hiệu suất cao TEXMO MEX 201 dạng lỏng, đóng gói 18 lít/thùng, mã số 3403.99.19)
@@ -527,6 +606,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [10280/TB-CHQ/2026](../registry/van-ban/10280-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Máy đọc sách Boox Palma 2 Pro, model Palma2 Pro, màn hình mực điện tử E-Ink 6.13 inch Kaleido 3, RAM 8GB, ROM 128GB, Android 15, không có chức năng nghe gọi, mã số 8471.30.90)
 - 🟢 [9572/TB-CHQ/2026](../registry/van-ban/9572-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Thiết bị đo độ ẩm đất bằng bức xạ vi sóng thụ động TurfRad Moisture Sensor, ký mã hiệu TurfRad Rev. 1.4, băng tần L 1400-1427 MHz chỉ thu, mã số 9027.89.90)
 - 🟢 [8848/TB-CHQ/2026](../registry/van-ban/8848-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Dụng cụ kiểm tra độ thẳng hàng chân pin tiếp xúc mạch điện bằng thép không gỉ, ký mã hiệu 7386-8850A00 49YC002837, mã số 9031.80.90)
+- 🟢 [8997/CHQ-NVTHQ](../registry/van-ban/8997-chq-nvthq-2026.yaml) — Về việc bổ sung Tuyển tập ý kiến phân loại của WCO tại phiên họp lần thứ 76 (WP76 và HSC76 tháng 09/2025)
 - 🟢 [7700/TB-CHQ/2026](../registry/van-ban/7700-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Nguyên liệu thực phẩm AQUAMIN F từ tảo biển đỏ Lithothamnion sp. dạng bột bổ sung canxi và khoáng chất tự nhiên, mã số 1212.21.90)
 - 🟢 [7911/TB-CHQ/2026](../registry/van-ban/7911-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Màn hình hiển thị Left Monitor for Room 70 Dual cho hệ thống hội nghị truyền hình Webex Room 70D, ký mã hiệu CS-ROOM70D-MON-L, mã số 8528.52.00)
 - 🟢 [7912/TB-CHQ/2026](../registry/van-ban/7912-tb-chq-2026.yaml) — Thông báo về kết quả xác định trước mã số (Màn hình hiển thị Monitor for Room 70S cho hệ thống hội nghị truyền hình Webex Room 70S, ký mã hiệu CS-ROOM70S-MON-S=, mã số 8528.52.00)
@@ -666,12 +746,15 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [2381/TB-CHQ/2025](../registry/van-ban/2381-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (5607.49.00)
 - 🟢 [2382/TB-CHQ/2025](../registry/van-ban/2382-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2103.90.19)
 - 🟢 [2573/TB-CHQ/2025](../registry/van-ban/2573-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (0406.30.00)
+- 🟢 [1391/CHQ-NVTHQ](../registry/van-ban/1391-chq-nvthq-2025.yaml) — Về việc phân loại hàng hóa và hướng dẫn hồ sơ xác định trước mã số đối với thiết bị thang máy nhập khẩu
+- 🟢 [1392/CHQ-NVTHQ](../registry/van-ban/1392-chq-nvthq-2025.yaml) — Về việc phân loại mặt hàng xy lanh điện (Electric Actuator tích hợp động cơ điện không thể tháo rời và cơ cấu trục vít, hộp số thuộc nhóm 85.01)
 - 🟢 [1413/TB-CHQ/2025](../registry/van-ban/1413-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (3505.10.10)
 - 🟢 [1259/TB-CHQ/2025](../registry/van-ban/1259-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Polymer acrylic nguyên sinh dạng phân tán trong nước GJ-901 ACRYLIC POLYMER hàm lượng rắn 55%, mã số 3906.90.20)
 - 🟢 [1141/TB-CHQ/2025](../registry/van-ban/1141-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Khung máy chủ phiến Dell PowerEdge MX7000 Modular Chassis, Regulatory Model E44S, mã số 8473.30.90)
 - 🟢 [1150/TB-CHQ/2025](../registry/van-ban/1150-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Bản mạch in đã lắp ráp Source PCB Assembly của mô-đun màn hình OLED 15.6 inch trên ô tô, mã hiệu 6871L-8301A, mã số 8529.90.53)
 - 🟢 [1151/TB-CHQ/2025](../registry/van-ban/1151-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Bộ ổ cắm điện dưới 1000V, dòng điện dưới 16A, ký mã hiệu T411, 250VAC - 10A, 2500W, mã số 8536.69.92)
 - 🟢 [1152/TB-CHQ/2025](../registry/van-ban/1152-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Bộ ổ cắm điện dưới 1000V, dòng điện dưới 16A, ký mã hiệu T414, 250VAC - 10A, 2500W, mã số 8536.69.92)
+- 🟢 [1153/CHQ-NVTHQ](../registry/van-ban/1153-chq-nvthq-2025.yaml) — Về việc nguyên tắc phân loại hàng hóa đối với mặt hàng Bộ cửa nhôm nhập khẩu theo khoản 1 Điều 26 Luật Hải quan
 - 🟢 [1174/TB-CHQ/2025](../registry/van-ban/1174-tb-chq-2025.yaml) — Thông báo về kết quả xác định trước mã số (Sáp thực vật Carnauba wax làm bóng bánh kẹo tráng đường, ký mã hiệu Shellglaze CTP, mã số 1521.10.00)
 - 🟢 [1175/TB-CHQ/2025](../registry/van-ban/1175-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2106.90.72)
 - 🟢 [1184/TB-CHQ/2025](../registry/van-ban/1184-tb-chq-2025.yaml) — Phân loại mã HS theo tracuuhs.com (2936.90.00)
@@ -2823,11 +2906,12 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ### Phân loại, phân tích để phân loại, xác định trước mã số `phan-loai-hs/quy-trinh-phan-loai`
 
-17 văn bản, 3 chưa hết hiệu lực.
+18 văn bản, 4 chưa hết hiệu lực.
 
 - 🟢 [85/2026/TT-BTC](../registry/van-ban/85-2026-tt-btc.yaml) — Quy định về phân loại hàng hoá, phân tích để phân loại hàng hoá xuất khẩu, nhập khẩu
 - 🟢 [117/QĐ-CHQ](../registry/van-ban/117-qd-chq-2026.yaml) — Ban hành Quy trình Xác định trước mã số; Kiểm tra tên hàng, mô tả hàng hóa, mã số, mức thuế, đơn vị tính của hàng hóa xuất khẩu, nhập khẩu trong thông quan; Thống nhất công tác phân loại hàng hóa, áp dụng mức thuế đối với hàng hóa xuất khẩu, nhập khẩu
 - 🟢 [2169/QĐ-CHQ](../registry/van-ban/2169-qd-chq-2025.yaml) — Ban hành Quy trình phân tích phân loại hàng hoá xuất khẩu, nhập khẩu và kiểm tra, đánh giá tiêu chí kỹ thuật của hàng hoá bằng máy móc, trang thiết bị tại cơ quan Kiểm định hải quan
+- 🟢 [3894/TCHQ-GSQL](../registry/van-ban/3894-tchq-gsql-2024.yaml) — Về việc doanh nghiệp nội địa bán hàng hóa cho doanh nghiệp chế xuất
 - ⚫ [2166/QĐ-TCHQ](../registry/van-ban/2166-qd-tchq-2021.yaml) — Ban hành Quy trình Phân tích để phân loại hàng hoá xuất khẩu, nhập khẩu _(hết hiệu lực 2026-02-01)_
 - ⚫ [17/2021/TT-BTC](../registry/van-ban/17-2021-tt-btc.yaml) — Sửa đổi, bổ sung một số điều của Thông tư 14/2015/TT-BTC _(hết hiệu lực 2026-09-15)_
 - ⚫ [1921/QĐ-TCHQ](../registry/van-ban/1921-qd-tchq-2018.yaml) — Về việc ban hành Quy trình phân loại hàng hóa, áp dụng mức thuế đối với hàng hóa xuất khẩu nhập khẩu _(hết hiệu lực 2026-02-01)_
@@ -2870,12 +2954,13 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ### Quy tắc xuất xứ, chứng nhận và kiểm tra xuất xứ `xuat-xu-fta/quy-tac-xuat-xu`
 
-12 văn bản, 11 chưa hết hiệu lực.
+13 văn bản, 12 chưa hết hiệu lực.
 
 - 🟢 [384/2026/NĐ-CP](../registry/van-ban/384-2026-nd-cp.yaml) — Quy định xác định xuất xứ Việt Nam đối với hàng hóa sản xuất và lưu thông trong nước
 - 🟢 [124/2026/TT-BTC](../registry/van-ban/124-2026-tt-btc.yaml) — Bổ sung khoản 10 Điều 15 Thông tư số 33/2023/TT-BTC quy định về xác định xuất xứ hàng hoá xuất khẩu, nhập khẩu
 - 🟢 [48/2026/VBHN-BCT](../registry/van-ban/48-2026-vbhn-bct.yaml) — Hợp nhất quy định về cấp Giấy chứng nhận xuất xứ hàng hóa và chấp thuận thương nhân tự chứng nhận xuất xứ hàng hóa
 - 🟢 [26/2026/TT-BCT](../registry/van-ban/26-2026-tt-bct.yaml) — Sửa đổi, bổ sung một số quy định về cấp Giấy chứng nhận xuất xứ hàng hóa và chấp thuận thương nhân tự chứng nhận xuất xứ theo Thông tư 40/2025/TT-BCT
+- 🟢 [467/QĐ-CHQ](../registry/van-ban/467-qd-chq-2025.yaml) — Về việc ban hành Quy trình kiểm tra, xác định xuất xứ hàng hóa xuất khẩu, nhập khẩu
 - 🟢 [33/2023/TT-BTC](../registry/van-ban/33-2023-tt-btc.yaml) — Quy định về xác định xuất xứ hàng hoá xuất khẩu, nhập khẩu
 - 🟢 [10/2022/TT-BCT](../registry/van-ban/10-2022-tt-bct.yaml) — Sửa đổi, bổ sung một số Thông tư quy định thực hiện Quy tắc xuất xứ hàng hóa trong Hiệp định Thương mại hàng hóa ASEAN
 - ❔ [755/TCHQ-GSQL](../registry/van-ban/755-tchq-gsql-2020.yaml) — Kiểm tra, xác định xuất xứ, chống gian lận, giả mạo xuất xứ, ghi nhãn hàng hóa, chuyển tải bất hợp pháp và thủ tục hải quan
@@ -2945,12 +3030,13 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ## Quản lý ngoại thương `quan-ly-ngoai-thuong`
 
-21 văn bản, 19 chưa hết hiệu lực.
+22 văn bản, 20 chưa hết hiệu lực.
 
 - 🔵 [372/2026/NĐ-CP](../registry/van-ban/372-2026-nd-cp.yaml) — Quy định về hoạt động định danh, xác thực, truy xuất nguồn gốc sản phẩm, hàng hoá
 - 🟢 [365/2026/NĐ-CP](../registry/van-ban/365-2026-nd-cp.yaml) — Về kinh doanh xuất, nhập khẩu gạo
 - 🟢 [342/2026/NĐ-CP](../registry/van-ban/342-2026-nd-cp.yaml) — Quy định chi tiết Luật Thương mại và Luật Quản lý ngoại thương về hoạt động mua bán hàng hóa và các hoạt động liên quan trực tiếp đến mua bán hàng hóa của nhà đầu tư nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài tại Việt Nam
 - 🟢 [42/2026/TT-BCT](../registry/van-ban/42-2026-tt-bct.yaml) — Quy định về việc xác định 31 mặt hàng hàng hóa lưỡng dụng
+- 🟢 [03/2026/TT-BCT](../registry/van-ban/03-2026-tt-bct.yaml) — Quy định về hạn ngạch thuế quan nhập khẩu mặt hàng muối và trứng gia cầm năm 2026
 - 🟢 [143/2025/QH15](../registry/van-ban/143-2025-qh15.yaml) — Luật Đầu tư
 - 🟢 [282/2025/NĐ-CP](../registry/van-ban/282-2025-nd-cp.yaml) — Quy định xử phạt vi phạm hành chính trong lĩnh vực an ninh, trật tự, an toàn xã hội; phòng, chống tệ nạn xã hội; phòng, chống bạo lực gia đình
 - 🟢 [211/2025/NĐ-CP](../registry/van-ban/211-2025-nd-cp.yaml) — Quy định về hoạt động mật mã dân sự và sửa đổi, bổ sung một số điều của Nghị định số 15/2020/NĐ-CP ngày 03 tháng 02 năm 2020 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực bưu chính, viễn thông, tần số vô tuyến điện, công nghệ thông tin và giao dịch điện tử được sửa đổi, bổ sung một số điều tại Nghị định số 14/2022/NĐ-CP ngày 27 tháng 01 năm 2022 của Chính phủ
@@ -2989,7 +3075,7 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ### Giấy phép, hạn ngạch, hàng cấm, tạm ngừng `quan-ly-ngoai-thuong/giay-phep`
 
-40 văn bản, 30 chưa hết hiệu lực.
+45 văn bản, 34 chưa hết hiệu lực.
 
 - 🟢 [4502/QĐ-BKHCN](../registry/van-ban/4502-2026-qd-bkhcn.yaml) — Công bố thủ tục hành chính mới về cấp giấy phép xuất khẩu, tạm nhập tái xuất, chuyển khẩu trong lĩnh vực quản lý nhà nước của Bộ Khoa học và Công nghệ
 - 🟢 [68/2026/TT-BCT](../registry/van-ban/68-2026-tt-bct.yaml) — Quy định tỷ lệ hao hụt xăng dầu trong hoạt động kinh doanh xăng dầu
@@ -2999,6 +3085,9 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [19/2026/TT-BCT](../registry/van-ban/19-2026-tt-bct.yaml) — Quy định về tạm ứng cho Quỹ bình ổn giá xăng dầu từ nguồn ngân sách nhà nước, trích lập Quỹ bình ổn giá xăng dầu và hoàn trả tạm ứng ngân sách nhà nước
 - 🟢 [11/2026/TT-BXD](../registry/van-ban/11-2026-tt-bxd.yaml) — Quy định danh mục, quy cách và chỉ tiêu kỹ thuật khoáng sản làm vật liệu xây dựng được phép xuất khẩu
 - 🟢 [07/2026/TT-BCT](../registry/van-ban/07-2026-tt-bct.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 37/2013/TT-BCT ngày 30 tháng 12 năm 2013 của Bộ trưởng Bộ Công Thương quy định nhập khẩu thuốc lá điếu, xì gà
+- 🟢 [18/2024/TT-BCT](../registry/van-ban/18-2024-tt-bct.yaml) — Quy định về danh mục phế liệu tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu _(hết hiệu lực 2030-01-01)_
+- 🟢 [120/2024/NĐ-CP](../registry/van-ban/120-2024-nd-cp.yaml) — Sửa đổi, bổ sung một số điều của Nghị định số 102/2020/NĐ-CP ngày 01 tháng 9 năm 2020 của Chính phủ quy định Hệ thống bảo đảm gỗ hợp pháp Việt Nam
+- ⚫ [06/2024/TT-BCT](../registry/van-ban/06-2024-tt-bct.yaml) — Quy định việc nhập khẩu mặt hàng gạo và lá thuốc lá khô có xuất xứ từ Vương quốc Campuchia theo hạn ngạch thuế quan năm 2023 và năm 2024 _(hết hiệu lực 2025-01-01)_
 - 🟢 [33/2024/NĐ-CP](../registry/van-ban/33-2024-nd-cp.yaml) — Quy định việc thực hiện Công ước Cấm phát triển, sản xuất, tàng trữ, sử dụng và phá hủy vũ khí hóa học
 - 🟢 [01/2024/TT-BNNPTNT](../registry/van-ban/01-2024-tt-bnnptnt.yaml) — Ban hành bảng mã số HS đối với danh mục hàng hóa thuộc thẩm quyền quản lý nhà nước của Bộ Nông nghiệp và Phát triển nông thôn và danh mục hàng hóa xuất, nhập khẩu phải kiểm tra chuyên ngành trong lĩnh vực nông nghiệp và phát triển nông thôn
 - 🟢 [45/2023/TT-BCT](../registry/van-ban/45-2023-tt-bct.yaml) — Sửa đổi, bổ sung Thông tư số 23/2021/TT-BCT ngày 15 tháng 12 năm 2021 của Bộ trưởng Bộ Công Thương quy định về danh mục chủng loại, tiêu chuẩn chất lượng khoáng sản xuất khẩu do Bộ Công Thương quản lý
@@ -3007,7 +3096,9 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 - 🟢 [07/2023/TT-NHNN](../registry/van-ban/07-2023-tt-nhnn.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 38/2018/TT-NHNN ngày 25/12/2018 của Thống đốc Ngân hàng Nhà nước Việt Nam quy định việc nhập khẩu hàng hóa phục vụ hoạt động in, đúc tiền của Ngân hàng Nhà nước Việt Nam
 - ⚫ [32/2023/NĐ-CP](../registry/van-ban/32-2023-nd-cp.yaml) — Sửa đổi, bổ sung Nghị định số 53/2018/NĐ-CP ngày 16 tháng 4 năm 2018 của Chính phủ sửa đổi, bổ sung Nghị định số 58/2016/NĐ-CP ngày 01 tháng 7 năm 2016 của Chính phủ quy định chi tiết về kinh doanh sản phẩm, dịch vụ mật mã dân sự và xuất khẩu, nhập khẩu sản phẩm mật mã dân sự _(hết hiệu lực 2025-09-09)_
 - 🟢 [13/2023/QĐ-TTg](../registry/van-ban/13-2023-qd-ttg.yaml) — Ban hành Danh mục phế liệu được phép nhập khẩu từ nước ngoài làm nguyên liệu sản xuất
+- 🟢 [1798/TCHQ-GSQL](../registry/van-ban/1798-tchq-gsql.yaml) — V/v quản lý hoạt động xuất khẩu, nhập khẩu các chất HFC
 - 🟡 [08/2023/TT-BCT](../registry/van-ban/08-2023-tt-bct.yaml) — Sửa đổi, bổ sung một số điều quy định Danh mục chi tiết theo mã số HS của hàng hóa xuất khẩu, nhập khẩu ban hành kèm theo một số Thông tư của Bộ trưởng Bộ Công Thương _(hết hiệu lực 2026-12-31)_
+- 🟢 [295/ĐA-PBP](../registry/van-ban/295-da-pbp.yaml) — V/v không cấp giấy phép nhập khẩu văn hóa phẩm không nhằm mục đích kinh doanh có nội dung là phim từ 01/01/2023
 - ⚫ [2961/QĐ-BCT](../registry/van-ban/2961-qd-bct-2022.yaml) — Về việc sửa đổi, bổ sung Quyết định số 1578/QĐ-BCT ngày 15 tháng 6 năm 2021 của Bộ trưởng Bộ Công Thương về việc áp dụng thuế chống bán phá giá và thuế chống trợ cấp chính thức đối với một số sản phẩm đường mía có xuất xứ từ Vương quốc Thái Lan _(hết hiệu lực 2026-06-16)_
 - 🟢 [QCVN 1:2023/BKHCN](../registry/van-ban/qcvn-1-2023-bkhcn.yaml) — Quy chuẩn kỹ thuật quốc gia về xăng, nhiên liệu điêzen và nhiên liệu sinh học (QCVN 01:2022/BKHCN và Sửa đổi 01:2026 QCVN 01:2022/BKHCN)
 - 🟢 [10/2022/TT-BTTTT](../registry/van-ban/10-2022-tt-btttt.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 13/2018/TT-BTTTT ngày 15/10/2018 của Bộ trưởng Bộ Thông tin và Truyền thông quy định Danh mục sản phẩm an toàn thông tin mạng nhập khẩu theo giấy phép và trình tự, thủ tục, hồ sơ cấp Giấy phép nhập khẩu sản phẩm an toàn thông tin mạng
@@ -3034,19 +3125,21 @@ _Quy trình nội bộ, sổ tay nghiệp vụ, công văn hướng dẫn chung 
 
 ### Hàng đã qua sử dụng `quan-ly-ngoai-thuong/hang-da-qua-su-dung`
 
-3 văn bản, 3 chưa hết hiệu lực.
+4 văn bản, 4 chưa hết hiệu lực.
 
 - 🔵 [63/2026/TT-BKHCN](../registry/van-ban/63-2026-tt-bkhcn.yaml) — Công bố chi tiết Danh mục sản phẩm công nghệ số đã qua sử dụng cấm nhập khẩu kèm theo mã số hàng hóa (mã HS)
+- 🟢 [1340/BTNMT-KSONMT](../registry/van-ban/1340-btnmt-ksonmt-2025.yaml) — Về việc quy định về bảo vệ môi trường đối với hoạt động nhập khẩu máy kéo để sửa chữa
 - 🟢 [01/2022/NĐ-CP](../registry/van-ban/01-2022-nd-cp.yaml) — Sửa đổi, bổ sung một số điều của Nghị định số 65/2018/NĐ-CP ngày 12 tháng 5 năm 2018 của Chính phủ quy định chi tiết thi hành một số điều của Luật Đường sắt
 - 🟢 [11/2018/TT-BTTTT](../registry/van-ban/11-2018-tt-btttt.yaml) — Công bố chi tiết Danh mục sản phẩm công nghệ thông tin đã qua sử dụng cấm nhập khẩu kèm theo mã số HS _(hết hiệu lực 2026-12-31)_
 
 ### Mua bán, trao đổi qua biên giới, cửa khẩu phụ, lối mở `quan-ly-ngoai-thuong/bien-gioi`
 
-5 văn bản, 5 chưa hết hiệu lực.
+6 văn bản, 6 chưa hết hiệu lực.
 
 - 🟢 [33/2025/TT-BCT](../registry/van-ban/33-2025-tt-bct.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 01/2018/TT-BCT ngày 27/02/2018 của Bộ trưởng Bộ Công Thương quy định chi tiết hàng hóa mua bán, trao đổi qua cửa khẩu phụ, lối mở biên giới của thương nhân
 - 🟢 [34/2025/TT-BCT](../registry/van-ban/34-2025-tt-bct.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 02/2018/TT-BCT ngày 27/02/2018 của Bộ trưởng Bộ Công Thương quy định chi tiết Danh mục hàng hóa mua bán, trao đổi của cư dân biên giới
 - 🟢 [122/2024/NĐ-CP](../registry/van-ban/122-2024-nd-cp.yaml) — Sửa đổi, bổ sung một số điều của Nghị định số 14/2018/NĐ-CP ngày 23 tháng 01 năm 2018 của Chính phủ quy định chi tiết về hoạt động thương mại biên giới
+- 🟢 [492/CĐ-TTg](../registry/van-ban/492-cd-ttg.yaml) — Công điện về việc chủ động triển khai các biện pháp cấp bách nhằm giảm ùn ứ và thúc đẩy xuất khẩu nông sản tại các cửa khẩu biên giới phía Bắc
 - 🟡 [01/2018/TT-BCT](../registry/van-ban/01-2018-tt-bct.yaml) — Quy định chi tiết hàng hóa mua bán, trao đổi qua cửa khẩu phụ, lối mở biên giới của thương nhân
 - 🟢 [14/2018/NĐ-CP](../registry/van-ban/14-2018-nd-cp.yaml) — Quy định chi tiết về hoạt động thương mại biên giới
 
@@ -3086,13 +3179,16 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 
 ### Kiểm tra nhà nước về an toàn thực phẩm `kiem-tra-chuyen-nganh/an-toan-thuc-pham`
 
-12 văn bản, 10 chưa hết hiệu lực.
+15 văn bản, 13 chưa hết hiệu lực.
 
 - 🟢 [27/2026/TT-BYT](../registry/van-ban/27-2026-tt-byt.yaml) — Ban hành Danh mục thực phẩm; dụng cụ chứa đựng thực phẩm, vật liệu bao gói tiếp xúc trực tiếp với thực phẩm có mức độ rủi ro trung bình thuộc trách nhiệm quản lý của Bộ Y tế
 - 🟢 [28/2026/TT-BCT](../registry/van-ban/28-2026-tt-bct.yaml) — Ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã số HS) thực hiện kiểm tra nhà nước về an toàn thực phẩm thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương
 - 🟢 [22/2026/TT-BNNMT](../registry/van-ban/22-2026-tt-bnnmt.yaml) — Sửa đổi, bổ sung một số Thông tư liên quan phân cấp, cắt giảm, đơn giản hóa thủ tục hành chính thuộc phạm vi quản lý nhà nước của Bộ Nông nghiệp và Môi trường
 - 🟢 [15/2026/NQ-CP](../registry/van-ban/15-2026-nq-cp.yaml) — Tạm ngưng hiệu lực Nghị định số 46/2026/NĐ-CP ngày 26 tháng 01 năm 2026 và Nghị quyết số 66.13/2026/NQ-CP ngày 27 tháng 01 năm 2026 của Chính phủ
 - 🟢 [09/2026/NQ-CP](../registry/van-ban/09-2026-nq-cp.yaml) — Tạm ngưng hiệu lực và điều chỉnh thời hạn áp dụng Nghị định số 46/2026/NĐ-CP ngày 26 tháng 01 năm 2026 và Nghị quyết số 66.13/2026/NQ-CP ngày 27 tháng 01 năm 2026
+- 🟢 [8881/CHQ-GSQL](../registry/van-ban/8881-chq-gsql-2026.yaml) — Về việc kiểm dịch, kiểm tra nhà nước về an toàn thực phẩm đối với các lô hàng là sản phẩm động vật, thủy sản nhập khẩu làm thực phẩm
+- 🟢 [8882/CHQ-GSQL](../registry/van-ban/8882-chq-gsql-2026.yaml) — Về việc kiểm tra an toàn thực phẩm đối với dụng cụ, bao bì chứa đựng, tiếp xúc trực tiếp với thực phẩm
+- 🟢 [8883/CHQ-GSQL](../registry/van-ban/8883-chq-gsql-2026.yaml) — Về việc thông quan thực phẩm nhập khẩu (triển khai Công điện số 08/CĐ-TTg ngày 03/02/2026 của Thủ tướng Chính phủ)
 - ⏸️ [46/2026/NĐ-CP](../registry/van-ban/46-2026-nd-cp.yaml) — Quy định chi tiết thi hành một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật An toàn thực phẩm
 - 🟢 [15/2024/TT-BYT](../registry/van-ban/15-2024-tt-byt.yaml) — Ban hành Danh mục thực phẩm, phụ gia thực phẩm và dụng cụ chứa đựng thực phẩm, vật liệu bao gói tiếp xúc trực tiếp với thực phẩm đã được xác định mã số hàng hóa theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam phải kiểm tra nhà nước về an toàn thực phẩm nhập khẩu thuộc phạm vi quản lý của Bộ Y tế
 - ⚫ [11/2022/TT-BCT](../registry/van-ban/11-2022-tt-bct.yaml) — Danh mục mặt hàng nhập khẩu kèm mã HS phải kiểm tra nhà nước về an toàn thực phẩm thuộc Bộ Công Thương (cũ) _(hết hiệu lực 2026-07-17)_
@@ -3103,7 +3199,7 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 
 ### Kiểm dịch động vật, thực vật, thuỷ sản, y tế `kiem-tra-chuyen-nganh/kiem-dich`
 
-35 văn bản, 32 chưa hết hiệu lực.
+37 văn bản, 34 chưa hết hiệu lực.
 
 - 🟢 [115/2026/VBHN-TT-BNNMT](../registry/van-ban/115-2026-vbhn-tt-bnnmt.yaml) — Ban hành Quy chuẩn kỹ thuật Quốc gia về Kiểm dịch và Bảo vệ thực vật
 - 🟢 [114/2026/VBHN-TT-BNNMT](../registry/van-ban/114-2026-vbhn-tt-bnnmt.yaml) — Văn bản hợp nhất Quy chuẩn kỹ thuật quốc gia về Kiểm dịch và Bảo vệ thực vật
@@ -3117,6 +3213,7 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 - 🟢 [3445/QĐ-BNNMT](../registry/van-ban/3445-qd-bnnmt-2026.yaml) — Về việc công bố thủ tục hành chính được sửa đổi, bổ sung lĩnh vực trồng trọt và bảo vệ thực vật thuộc phạm vi chức năng quản lý của Bộ Nông nghiệp và Môi trường
 - 🟢 [67/2026/VBHN-BNNMT](../registry/van-ban/67-2026-vbhn-bnnmt.yaml) — Quy định về kiểm dịch động vật, sản phẩm động vật trên cạn
 - 🟢 [165/2026/NĐ-CP](../registry/van-ban/165-2026-nd-cp.yaml) — Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Phòng bệnh
+- 🟢 [8881/CHQ-GSQL](../registry/van-ban/8881-chq-gsql-2026.yaml) — Về việc kiểm dịch, kiểm tra nhà nước về an toàn thực phẩm đối với các lô hàng là sản phẩm động vật, thủy sản nhập khẩu làm thực phẩm
 - 🟢 [07/2026/TT-BNNMT](../registry/van-ban/07-2026-tt-bnnmt.yaml) — Quy định chi tiết một số điều của Luật Bảo vệ và kiểm dịch thực vật, Luật Trồng trọt và sửa đổi, bổ sung một số điều của các thông tư trong lĩnh vực trồng trọt và bảo vệ thực vật
 - 🟢 [01/2026/TT-BNNMT](../registry/van-ban/01-2026-tt-bnnmt.yaml) — Quy định về kiểm dịch động vật, sản phẩm động vật trên cạn
 - 🟢 [146/2025/QH15](../registry/van-ban/146-2025-qh15.yaml) — Luật sửa đổi, bổ sung một số điều của 15 luật trong lĩnh vực nông nghiệp và môi trường
@@ -3126,6 +3223,7 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 - 🟢 [43/2024/QH15](../registry/van-ban/43-2024-qh15.yaml) — Luật sửa đổi, bổ sung một số điều của Luật Đất đai số 31/2024/QH15, Luật Nhà ở số 27/2023/QH15, Luật Kinh doanh bất động sản số 29/2023/QH15 và Luật Các tổ chức tín dụng số 32/2024/QH15
 - 🟡 [19/VBHN-BNNPTNT/2024](../registry/van-ban/19-vbhn-bnnptnt-2024.yaml) — Thông tư quy định trình tự, thủ tục kiểm dịch thực vật nhập khẩu, xuất khẩu, quá cảnh và sau nhập khẩu vật thể thuộc diện kiểm dịch thực vật
 - 🟢 [03/2024/TT-BNNPTNT](../registry/van-ban/03-2024-tt-bnnptnt.yaml) — Bãi bỏ một số quy định tại Thông tư số 34/2018/TT-BNNPTNT ngày 16 tháng 11 năm 2018 của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn sửa đổi, bổ sung một số điều của Thông tư số 33/2014/TT-BNNPTNT ngày 30 tháng 10 năm 2014 và Thông tư số 20/2017/TT-BNNPTNT ngày 10 tháng 11 năm 2017 của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn
+- 🟢 [04/2023/TT-BNNPTNT](../registry/van-ban/04-2023-tt-bnnptnt.yaml) — Ban hành Danh mục đối tượng kiểm dịch thực vật của nước Cộng hòa xã hội chủ nghĩa Việt Nam
 - ⚫ [06/VBHN-BNNPTNT](../registry/van-ban/06-vbhn-bnnptnt.yaml) — Hợp nhất Thông tư quy định về trình tự, thủ tục kiểm dịch thực vật nhập khẩu, xuất khẩu, quá cảnh và sau nhập khẩu vật thể thuộc diện kiểm dịch thực vật _(hết hiệu lực 2024-05-27)_
 - ⚫ [11/2022/TT-BNNPTNT](../registry/van-ban/11-2022-tt-bnnptnt.yaml) — Sửa đổi, bổ sung một số quy định về thủ tục hành chính trong lĩnh vực bảo vệ và kiểm dịch thực vật _(hết hiệu lực 2026-01-23)_
 - 🟡 [20/2021/TT-BNNPTNT](../registry/van-ban/20-2021-tt-bnnptnt.yaml) — Quy định về hồ sơ nghiệp vụ kiểm dịch thực vật
@@ -3143,7 +3241,7 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 
 ### Danh mục thuộc Bộ Công Thương `kiem-tra-chuyen-nganh/bct`
 
-56 văn bản, 35 chưa hết hiệu lực.
+57 văn bản, 36 chưa hết hiệu lực.
 
 - 🟢 [33/2026/TT-BCT](../registry/van-ban/33-2026-tt-bct.yaml) — Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương
 - 🟢 [28/2026/TT-BCT](../registry/van-ban/28-2026-tt-bct.yaml) — Ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã số HS) thực hiện kiểm tra nhà nước về an toàn thực phẩm thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương
@@ -3156,6 +3254,7 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 - 🟢 [07/VBHN-BTTTT](../registry/van-ban/07-vbhn-btttt-2024.yaml) — Thông tư quy định chi tiết và hướng dẫn thi hành một số điều, khoản của Nghị định số 60/2014/NĐ-CP ngày 19 tháng 6 năm 2014 của Chính phủ quy định về hoạt động in
 - 🟢 [08/VBHN-BTTTT](../registry/van-ban/08-vbhn-btttt-2024.yaml) — Thông tư quy định về quản lý và sử dụng mã số sách tiêu chuẩn quốc tế
 - 🟢 [09/VBHN-BTTTT](../registry/van-ban/09-vbhn-btttt-2024.yaml) — Thông tư ban hành danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm
+- 🟢 [18/2024/TT-BCT](../registry/van-ban/18-2024-tt-bct.yaml) — Quy định về danh mục phế liệu tạm ngừng kinh doanh tạm nhập, tái xuất, chuyển khẩu _(hết hiệu lực 2030-01-01)_
 - 🟢 [11/2024/TT-BTTTT](../registry/van-ban/11-2024-tt-btttt.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 03/2015/TT-BTTTT ngày 06 tháng 3 năm 2015 của Bộ trưởng Bộ Thông tin và Truyền thông quy định chi tiết và hướng dẫn thi hành một số điều, khoản của Nghị định số 60/2014/NĐ-CP ngày 19 tháng 6 năm 2014 của Chính phủ quy định về hoạt động in, Thông tư số 05/2016/TT-BTTTT ngày 01 tháng 3 năm 2016 của Bộ trưởng Bộ Thông tin và Truyền thông quy định về quản lý và sử dụng mã số sách tiêu chuẩn quốc tế, Thông tư số 22/2018/TT-BTTTT ngày 28 tháng 12 năm 2018 của Bộ trưởng Bộ Thông tin và Truyền thông ban hành Danh mục hàng hóa nhập khẩu, xuất khẩu trong lĩnh vực in, phát hành xuất bản phẩm và Thông tư số 09/2013/TT-BTTTT ngày 08 tháng 4 năm 2013 của Bộ trưởng Bộ Thông tin và Truyền thông ban hành Danh mục sản phẩm phần mềm và phần cứng, điện tử (được sửa đổi, bổ sung bởi Thông tư số 20/2021/TT-BTTTT ngày 03 tháng 12 năm 2021 của Bộ trưởng Bộ Thông tin và Truyền thông)
 - ⚫ [90/2024/NĐ-CP](../registry/van-ban/90-2024-nd-cp.yaml) — Sửa đổi, bổ sung danh mục chất ma túy và tiền chất ban hành kèm theo Nghị định số 57/2022/NĐ-CP _(hết hiệu lực 2026-01-19)_
 - 🟢 [1725/QĐ-BCT](../registry/van-ban/1725-qd-bct-2024.yaml) — Về việc ban hành Danh mục các mặt hàng kiểm tra hiệu suất năng lượng và dán nhãn năng lượng thuộc trách nhiệm quản lý của Bộ Công Thương
@@ -3204,9 +3303,11 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 
 ### Danh mục thuộc Bộ Y tế `kiem-tra-chuyen-nganh/byt`
 
-52 văn bản, 37 chưa hết hiệu lực.
+54 văn bản, 39 chưa hết hiệu lực.
 
+- 🟢 [18/2026/TT-BYT](../registry/van-ban/18-2026-tt-byt.yaml) — Quy định chi tiết một số điều của Luật Dược và Nghị định 163/2025/NĐ-CP về thuốc và nguyên liệu làm thuốc phải kiểm soát đặc biệt
 - 🟢 [44/2026/TT-BYT](../registry/van-ban/44-2026-tt-byt.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 07/2022/TT-BYT của Bộ trưởng Bộ Y tế quy định thuốc phải thử tương đương sinh học và các yêu cầu đối với hồ sơ báo cáo số liệu nghiên cứu tương đương sinh học trong đăng ký lưu hành thuốc tại Việt Nam
+- 🟢 [23153/CHQ-NVTHQ](../registry/van-ban/23153-chq-nvthq-2026.yaml) — Về việc xác nhận mã HS code đối với sản phẩm Đông trùng hạ thảo nhập khẩu (Cordyceps Sinensis dạng khô nguyên con, nhóm 12.11, mã số 1211.90.19 / 1211.90.99)
 - 🟢 [18/2026/VBHN-QĐ-BYT](../registry/van-ban/18-2026-vbhn-qd-byt.yaml) — Hợp nhất Quyết định về việc triển khai áp dụng và hướng dẫn thực hiện các nguyên tắc, tiêu chuẩn "Thực hành tốt sản xuất mỹ phẩm" của Hiệp hội các nước Đông Nam Á
 - 🟢 [32/2026/TT-BYT](../registry/van-ban/32-2026-tt-byt.yaml) — Quy định việc đăng ký lưu hành thuốc, nguyên liệu làm thuốc
 - 🟢 [26/2026/TT-BYT](../registry/van-ban/26-2026-tt-byt.yaml) — Danh mục dược liệu, thuốc cổ truyền theo mức độ rủi ro (rủi ro trung bình)
@@ -3261,7 +3362,7 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 
 ### Danh mục thuộc Bộ Nông nghiệp và Môi trường `kiem-tra-chuyen-nganh/bnnmt`
 
-32 văn bản, 15 chưa hết hiệu lực.
+36 văn bản, 19 chưa hết hiệu lực.
 
 - 🟢 [44/2026/TT-BNNMT](../registry/van-ban/44-2026-tt-bnnmt.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 27/2026/TT-BNNMT ngày 30 tháng 6 năm 2026 của Bộ trưởng Bộ Nông nghiệp và Môi trường ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý của Bộ Nông nghiệp và Môi trường
 - 🟢 [91/2026/VBHN-TT-BNNMT](../registry/van-ban/91-2026-vbhn-tt-bnnmt.yaml) — Hợp nhất Thông tư ban hành Danh mục loài cây trồng biến đổi gen được phép khảo nghiệm đánh giá rủi ro đối với đa dạng sinh học và môi trường cho mục đích làm giống cây trồng ở Việt Nam
@@ -3272,8 +3373,12 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 - 🟢 [01/2026/TT-BNNMT](../registry/van-ban/01-2026-tt-bnnmt.yaml) — Quy định về kiểm dịch động vật, sản phẩm động vật trên cạn
 - 🟢 [26/2025/TT-BNNMT](../registry/van-ban/26-2025-tt-bnnmt.yaml) — Quy định về quản lý lâm sản; xử lý lâm sản, thủy sản là tài sản được xác lập quyền sở hữu toàn dân
 - 🟢 [17/2025/TT-BNNMT](../registry/van-ban/17-2025-tt-bnnmt.yaml) — Quy định về phân cấp quản lý nhà nước trong lĩnh vực quản lý chất lượng nông lâm sản và thủy sản
+- 🟢 [1340/BTNMT-KSONMT](../registry/van-ban/1340-btnmt-ksonmt-2025.yaml) — Về việc quy định về bảo vệ môi trường đối với hoạt động nhập khẩu máy kéo để sửa chữa
 - ⚫ [13/2024/TT-BLĐTBXH](../registry/van-ban/13-2024-tt-bldtbxh.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 26/2018/TT-BLĐTBXH ngày 25 tháng 12 năm 2018 của Bộ trưởng Bộ Lao động - Thương binh và Xã hội quy định về quản lý chất lượng sản phẩm, hàng hóa có khả năng gây mất an toàn thuộc trách nhiệm quản lý nhà nước của Bộ Lao động - Thương binh và Xã hội _(hết hiệu lực 2026-07-28)_
+- 🟢 [120/2024/NĐ-CP](../registry/van-ban/120-2024-nd-cp.yaml) — Sửa đổi, bổ sung một số điều của Nghị định số 102/2020/NĐ-CP ngày 01 tháng 9 năm 2020 của Chính phủ quy định Hệ thống bảo đảm gỗ hợp pháp Việt Nam
 - 🟢 [17/2023/TT-BNNPTNT](../registry/van-ban/17-2023-tt-bnnptnt.yaml) — Ban hành Bảng mã HS đối với hàng hóa là thực vật rừng, động vật rừng nguy cấp, quý, hiếm và động vật, thực vật thuộc các Phụ lục Công ước về buôn bán quốc tế các loài động vật, thực vật hoang dã nguy cấp
+- 🟢 [04/2023/TT-BNNPTNT](../registry/van-ban/04-2023-tt-bnnptnt.yaml) — Ban hành Danh mục đối tượng kiểm dịch thực vật của nước Cộng hòa xã hội chủ nghĩa Việt Nam
+- 🟢 [1798/TCHQ-GSQL](../registry/van-ban/1798-tchq-gsql.yaml) — V/v quản lý hoạt động xuất khẩu, nhập khẩu các chất HFC
 - ⚫ [19/VBHN-BNNPTNT](../registry/van-ban/19-vbhn-bnnptnt.yaml) — Thông tư quy định về quản lý giống thủy sản, thức ăn thủy sản, sản phẩm xử lý môi trường nuôi trồng thủy sản _(hết hiệu lực 2026-03-09)_
 - ⚫ [26/2022/TT-BNNPTNT](../registry/van-ban/26-2022-tt-bnnptnt.yaml) — Quy định về quản lý, truy xuất nguồn gốc lâm sản _(hết hiệu lực 2025-07-01)_
 - 🟡 [01/2022/TT-BNNPTNT](../registry/van-ban/01-2022-tt-bnnptnt.yaml) — Sửa đổi, bổ sung một số Thông tư trong lĩnh vực thủy sản
@@ -3298,7 +3403,7 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 
 ### Danh mục thuộc Bộ Khoa học và Công nghệ `kiem-tra-chuyen-nganh/bkhcn`
 
-16 văn bản, 12 chưa hết hiệu lực.
+17 văn bản, 12 chưa hết hiệu lực.
 
 - 🟢 [23/2026/VBHN-TT-BKHCN](../registry/van-ban/23-2026-vbhn-tt-bkhcn.yaml) — Quy định về đo lường đối với phương tiện đo nhóm 2
 - 🟢 [45/2026/TT-BKHCN](../registry/van-ban/45-2026-tt-bkhcn.yaml) — Sửa đổi, bổ sung một số điều của các thông tư của Bộ trưởng Bộ Khoa học và Công nghệ để thực hiện cắt giảm, đơn giản hóa thủ tục hành chính trong lĩnh vực đo lường
@@ -3307,6 +3412,7 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 - ⚫ [29/2025/TT-BKHCN](../registry/van-ban/29-2025-tt-bkhcn.yaml) — Quy định Danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn lĩnh vực công nghệ thông tin và viễn thông thuộc trách nhiệm quản lý của Bộ Khoa học và Công nghệ _(hết hiệu lực 2026-07-01)_
 - ⚫ [10/2024/TT-BKHCN](../registry/van-ban/10-2024-tt-bkhcn.yaml) — Danh mục sản phẩm, hàng hoá thuộc trách nhiệm quản lý của Bộ KH&CN (cũ) _(hết hiệu lực 2026-07-01)_
 - 🟡 [367/QĐ-BKHCN](../registry/van-ban/367-qd-bkhcn-2024.yaml) — Về việc sửa đổi, bổ sung nhóm sản phẩm chiếu sáng bằng công nghệ LED tại mục 10 Phụ lục ban hành kèm theo Quyết định số 2711/QĐ-BKHCN ngày 30/12/2022 của Bộ trưởng Bộ Khoa học và Công nghệ về việc công bố sản phẩm, hàng hóa nhóm 2 thuộc trách nhiệm quản lý của Bộ Khoa học và Công nghệ
+- ⚫ [10/2023/TT-BTTTT](../registry/van-ban/10-2023-tt-btttt.yaml) — Ngưng hiệu lực áp dụng quy định thi hành một phần/toàn bộ của một số quy chuẩn kỹ thuật tại Thông tư số 04/2023/TT-BTTTT ngày 31 tháng 5 năm 2023 của Bộ trưởng Bộ Thông tin và Truyền thông quy định Danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn thuộc trách nhiệm quản lý của Bộ Thông tin và Truyền thông _(hết hiệu lực 2024-07-01)_
 - 🟢 [366/QĐ-BKHCN](../registry/van-ban/366-qd-bkhcn-2023.yaml) — Về việc công bố bổ sung sản phẩm, hàng hóa nhóm 2 thuộc trách nhiệm quản lý của Bộ Khoa học và Công nghệ
 - 🟡 [2711/QĐ-BKHCN](../registry/van-ban/2711-qd-bkhcn.yaml) — Về việc công bố sản phẩm, hàng hóa nhóm 2 thuộc trách nhiệm quản lý của Bộ Khoa học và Công nghệ
 - 🟢 [10/2022/TT-BTTTT](../registry/van-ban/10-2022-tt-btttt.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 13/2018/TT-BTTTT ngày 15/10/2018 của Bộ trưởng Bộ Thông tin và Truyền thông quy định Danh mục sản phẩm an toàn thông tin mạng nhập khẩu theo giấy phép và trình tự, thủ tục, hồ sơ cấp Giấy phép nhập khẩu sản phẩm an toàn thông tin mạng
@@ -3394,7 +3500,7 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 
 ### Chống bán phá giá, chống trợ cấp, tự vệ `phong-ve-thuong-mai/chong-ban-pha-gia`
 
-31 văn bản, 20 chưa hết hiệu lực.
+41 văn bản, 22 chưa hết hiệu lực.
 
 - 🟢 [2652/QĐ-BCT](../registry/van-ban/2652-qd-bct-2026.yaml) — Về kết quả rà soát cuối kỳ việc áp dụng biện pháp chống bán phá giá đối với một số sản phẩm sợi dài làm từ polyester có xuất xứ từ Cộng hòa Nhân dân Trung Hoa, Cộng hòa Ấn Độ, Cộng hòa In-đô-nê-xi-a và Ma-lai-xi-a
 - 🟢 [2174/QĐ-BCT](../registry/van-ban/2174-qd-bct-2025.yaml) — Áp dụng thuế chống bán phá giá chính thức đối với một số sản phẩm gạch gốm, sứ ốp lát có xuất xứ từ Cộng hòa Ấn Độ _(hết hiệu lực 2031-09-22)_
@@ -3407,6 +3513,7 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 - 🟢 [3765/QĐ-BCT](../registry/van-ban/3765-qd-bct-2025.yaml) — Kết quả rà soát cuối kỳ việc áp dụng biện pháp chống bán phá giá đối với một số sản phẩm thép cán nguội (ép nguội) dạng cuộn hoặc tấm có xuất xứ từ nước Cộng hòa nhân dân Trung Hoa _(hết hiệu lực 2030-12-28)_
 - ⚫ [3546/QĐ-BCT](../registry/van-ban/3546-qd-bct-2025.yaml) — Về kết quả rà soát lần thứ hai việc áp dụng biện pháp chống bán phá giá đối với một số sản phẩm sợi dài làm từ polyester có xuất xứ từ Cộng hòa Nhân dân Trung Hoa, Cộng hòa Ấn Độ, Cộng hòa In-đô-nê-xi-a và Ma-lai-xi-a _(hết hiệu lực 2026-10-16)_
 - 🟢 [3176/QĐ-BCT](../registry/van-ban/3176-qd-bct-2025.yaml) — Khởi xướng điều tra chống lẩn tránh biện pháp phòng vệ thương mại đối với một số sản phẩm thép cán nóng có xuất xứ từ Cộng hòa nhân dân Trung Hoa
+- ⚫ [23606/CHQ-NVTHQ](../registry/van-ban/23606-chq-nvthq-2025.yaml) — Về việc thực hiện Quyết định số 2491/QĐ-BCT của Bộ Công Thương (áp dụng thuế chống bán phá giá tạm thời đối với một số sản phẩm ván sợi gỗ có xuất xứ từ Vương quốc Thái Lan và Cộng hòa nhân dân Trung Hoa) _(hết hiệu lực 2026-01-18)_
 - ⚫ [2333/QĐ-BCT](../registry/van-ban/2333-qd-bct-2025.yaml) — Điều tra áp dụng biện pháp chống bán phá giá đối với một số sản phẩm gạch gốm, sứ ốp lát có xuất xứ từ Cộng hòa Ấn Độ _(hết hiệu lực 2026-09-22)_
 - 🟢 [2310/QĐ-BCT](../registry/van-ban/2310-qd-bct-2025.yaml) — Áp dụng thuế chống bán phá giá chính thức đối với một số sản phẩm thép mạ có xuất xứ từ Cộng hòa nhân dân Trung Hoa và Đại Hàn Dân Quốc _(hết hiệu lực 2030-08-14)_
 - ⚫ [2105/QĐ-BCT](../registry/van-ban/2105-qd-bct-2025.yaml) — Về việc sửa đổi, bổ sung Quyết định số 1989/QĐ-BCT ngày 03 tháng 8 năm 2023 của Bộ trưởng Bộ Công Thương về kết quả rà soát lần thứ nhất việc áp dụng biện pháp chống bán phá giá và chống trợ cấp đối với một số sản phẩm đường mía có xuất xứ từ Vương quốc Thái Lan _(hết hiệu lực 2026-06-16)_
@@ -3415,7 +3522,16 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 - ⚫ [1978/QĐ-BCT](../registry/van-ban/1978-qd-bct.yaml) — Rà soát cuối kỳ việc áp dụng biện pháp chống bán phá giá đối với một số sản phẩm thép hình chữ H có xuất xứ từ Ma-lai-xi-a _(hết hiệu lực 2026-04-16)_
 - 🟢 [1959/QĐ-BCT](../registry/van-ban/1959-qd-bct.yaml) — Áp dụng thuế chống bán phá giá chính thức đối với một số sản phẩm thép cán nóng có xuất xứ từ Cộng hòa nhân dân Trung Hoa và chấm dứt điều tra áp dụng biện pháp chống bán phá giá đối với một số sản phẩm thép cán nóng có xuất xứ từ Cộng hòa Ấn Độ _(hết hiệu lực 2030-07-06)_
 - 🟢 [1914/QĐ-BCT](../registry/van-ban/1914-qd-bct.yaml) — Kết quả rà soát cuối kỳ việc áp dụng biện pháp chống bán phá giá đối với một số sản phẩm bột ngọt có xuất xứ từ Cộng hòa In-đô-nê-xi-a và Cộng hòa nhân dân Trung Hoa _(hết hiệu lực 2030-07-23)_
+- ⚫ [333/NVTHQ-QLT](../registry/van-ban/333-nvthq-qlt-2025.yaml) — Thực hiện Quyết định số 1204/QĐ-BCT ngày 28/4/2025 của Bộ Công Thương về việc sửa đổi, bổ sung Quyết định số 460/QĐ-BCT ngày 21/02/2025 về việc áp dụng biện pháp chống bán phá giá tạm thời đối với một số sản phẩm thép cán nóng có xuất xứ từ Cộng hòa Ấn Độ và Cộng hòa nhân dân Trung Hoa _(hết hiệu lực 2025-07-06)_
+- ⚫ [2177/CHQ-NVTHQ](../registry/van-ban/2177-chq-nvthq-2025.yaml) — Về việc đính chính văn bản (đính chính thời hạn hiệu lực của Quyết định số 662/QĐ-BCT tại Công văn số 438/CHQ-NVTHQ ngày 25/03/2025) _(hết hiệu lực 2026-06-16)_
 - 🟢 [86/2025/NĐ-CP](../registry/van-ban/86-2025-nd-cp.yaml) — Quy định chi tiết một số điều của Luật Quản lý ngoại thương về các biện pháp phòng vệ thương mại
+- ⚫ [914/QĐ-BCT](../registry/van-ban/914-qd-bct-2025.yaml) — Áp dụng thuế chống bán phá giá tạm thời đối với một số sản phẩm thép mạ có xuất xứ từ Cộng hòa nhân dân Trung Hoa và Đại Hàn Dân Quốc _(hết hiệu lực 2025-08-14)_
+- ⚫ [438/CHQ-NVTHQ](../registry/van-ban/438-chq-nvthq-2025.yaml) — Về việc thực hiện Quyết định 662/QĐ-BCT của Bộ Công Thương (áp dụng biện pháp chống lẩn tránh phòng vệ thương mại đối với sản phẩm đường mía) _(hết hiệu lực 2026-06-16)_
+- ⚫ [662/QĐ-BCT](../registry/van-ban/662-qd-bct-2025.yaml) — Kết quả rà soát vụ việc áp dụng biện pháp chống lẩn tránh biện pháp phòng vệ thương mại đối với một số sản phẩm đường mía (mã vụ việc AR01.AC02-AD13.AS01) _(hết hiệu lực 2026-06-16)_
+- ⚫ [1087/TCHQ-TXNK](../registry/van-ban/1087-tchq-txnk-2025.yaml) — Về việc thực hiện Quyết định 460/QĐ-BCT của Bộ Công Thương (áp dụng biện pháp chống bán phá giá tạm thời đối với một số sản phẩm thép cán nóng có xuất xứ từ Cộng hòa Ấn Độ và Cộng hòa nhân dân Trung Hoa) _(hết hiệu lực 2025-07-06)_
+- ⚫ [460/QĐ-BCT](../registry/van-ban/460-qd-bct-2025.yaml) — Áp dụng thuế chống bán phá giá tạm thời đối với một số sản phẩm thép cán nóng có xuất xứ từ Cộng hòa Ấn Độ và Cộng hòa nhân dân Trung Hoa _(hết hiệu lực 2025-07-06)_
+- 🟢 [139/TXNK-CST](../registry/van-ban/139-txnk-cst-2025.yaml) — Về việc cập nhật thông tin khai báo thuế chống bán phá giá theo Quyết định số 143/QĐ-BCT _(hết hiệu lực 2030-01-29)_
+- 🟢 [438/TCHQ-TXNK](../registry/van-ban/438-tchq-txnk-2025.yaml) — Về việc thực hiện Quyết định 143/QĐ-BCT của Bộ Công Thương (áp dụng biện pháp chống bán phá giá chính thức đối với một số sản phẩm cáp thép dự ứng lực có xuất xứ từ Ma-lai-xi-a, Vương quốc Thái Lan và Cộng hòa nhân dân Trung Hoa) _(hết hiệu lực 2030-01-29)_
 - 🟢 [143/QĐ-BCT](../registry/van-ban/143-qd-bct-2025.yaml) — Áp dụng biện pháp chống bán phá giá chính thức đối với sản phẩm cáp thép dự ứng lực từ Ma-lai-xi-a, Vương quốc Thái Lan và Cộng hòa nhân dân Trung Hoa _(hết hiệu lực 2030-01-29)_
 - 🟢 [3453/QĐ-BCT](../registry/van-ban/3453-qd-bct-2024.yaml) — Áp dụng biện pháp chống bán phá giá chính thức đối với một số sản phẩm tháp điện gió có xuất xứ từ Cộng hòa nhân dân Trung Hoa _(hết hiệu lực 2030-01-08)_
 - 🟢 [3011/QĐ-BCT](../registry/van-ban/3011-qd-bct.yaml) — Kết quả rà soát cuối kỳ áp dụng CBPG thép không gỉ cán nguội (TW, ID, MA, CN)
@@ -3456,8 +3572,9 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 
 ## Điều ước quốc tế, chuẩn quốc tế (WCO, Công ước HS, Kyoto sửa đổi) `dieu-uoc-quoc-te`
 
-2 văn bản, 2 chưa hết hiệu lực.
+3 văn bản, 3 chưa hết hiệu lực.
 
+- 🟢 [60/2023/NĐ-CP](../registry/van-ban/60-2023-nd-cp.yaml) — Quy định về việc kiểm tra, chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường ô tô nhập khẩu và linh kiện nhập khẩu theo các Điều ước quốc tế mà Việt Nam là thành viên
 - 🟢 [49/QĐ-CTN](../registry/van-ban/49-qd-ctn-1998.yaml) — Về việc Việt Nam tham gia Công ước quốc tế về Hệ thống hài hòa mô tả và mã hóa hàng hóa
 - 🟢 [Công ước HS](../registry/van-ban/cong-uoc-hs.yaml) — Công ước quốc tế về Hệ thống hài hòa mô tả và mã hóa hàng hoá (International Convention on the Harmonized Commodity Description and Coding System)
 
@@ -3465,8 +3582,9 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 
 _Cần để biết cơ quan nào đang quản lý sau sáp nhập 2025–2026._
 
-34 văn bản, 20 chưa hết hiệu lực.
+36 văn bản, 22 chưa hết hiệu lực.
 
+- 🟢 [21582/TB-CHQ/2026](../registry/van-ban/21582-tb-chq-2026.yaml) — Thông báo về việc triển khai thực hiện Nghị định số 286/2026/NĐ-CP ngày 17/7/2026 của Chính phủ
 - 🟢 [351/2026/NĐ-CP](../registry/van-ban/351-2026-nd-cp.yaml) — Quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Công Thương
 - 🟢 [354/2026/NĐ-CP](../registry/van-ban/354-2026-nd-cp.yaml) — Sửa đổi, bổ sung một số điều của Nghị định số 33/2025/NĐ-CP ngày 25 tháng 02 năm 2025 của Chính phủ quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Xây dựng
 - 🟢 [313/2026/NĐ-CP](../registry/van-ban/313-2026-nd-cp.yaml) — Quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Y tế
@@ -3474,6 +3592,7 @@ _Cần để biết cơ quan nào đang quản lý sau sáp nhập 2025–2026._
 - 🟢 [50/VBHN-BXD](../registry/van-ban/50-vbhn-bxd-2026.yaml) — Nghị định về thoát nước và xử lý nước thải
 - 🟢 [155/2026/NĐ-CP](../registry/van-ban/155-2026-nd-cp.yaml) — Sửa đổi, bổ sung một số điều của Nghị định số 124/2020/NĐ-CP quy định chi tiết một số điều và biện pháp thi hành Luật Khiếu nại
 - 🟢 [112/2025/QH15](../registry/van-ban/112-2025-qh15.yaml) — Luật Quy hoạch
+- 🟢 [13961/TB-CHQ/2025](../registry/van-ban/13961-tb-chq-2025.yaml) — Thông báo về việc thay đổi địa chỉ Trụ sở làm việc do điều chỉnh địa giới hành chính
 - 🟢 [81/2025/QH15](../registry/van-ban/81-2025-qh15.yaml) — Luật sửa đổi, bổ sung một số điều của Luật Tổ chức Tòa án nhân dân, Luật Tố tụng hành chính, Luật Khiếu nại và Luật Thi hành án dân sự
 - 🟢 [94/2025/NĐ-CP](../registry/van-ban/94-2025-nd-cp.yaml) — Quy định về Cơ chế thử nghiệm có kiểm soát trong lĩnh vực ngân hàng
 - 🟢 [40/2025/NĐ-CP](../registry/van-ban/40-2025-nd-cp.yaml) — Quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Công Thương
