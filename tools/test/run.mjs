@@ -478,17 +478,29 @@ t('tiền lệ: tra theo đầu số hiệu 503/TB-TCHQ', /503\/TB-TCHQ\/2018/.t
 const tienLeRong = execSyncNode('node tools/tien-le.mjs 99999999');
 t('tiền lệ: mã không khớp → báo rõ không có kết quả', /Không có tiền lệ nào khớp "99999999"/.test(tienLeRong));
 
-// 8b. Chú giải chương TT 31/2022 (danh-muc/chu-giai-chuong.json) — trích từ Công báo gốc.
+// 8b. Chú giải Phần + chương TT 31/2022 (danh-muc/chu-giai-chuong.json) — trích từ Công báo gốc.
 const cg = JSON.parse(readFileSync(join(ROOT, 'danh-muc', 'chu-giai-chuong.json'), 'utf8'));
 t('chú giải: đủ 97 chương + GIR có cả 6 quy tắc',
   cg.tong_chuong === 97 && Object.keys(cg.chuong).length === 97
   && ['QUY TẮC 1', 'QUY TẮC 6'].every((x) => cg.quy_tac_tong_quat.includes(x)) && cg.quy_tac_tong_quat.includes('SÁU QUY TẮC TỔNG QUÁT'));
+t('chú giải Phần: đủ 21 Phần (I..XXI), 9 Phần có chú giải, đủ nguồn file + trang + khoảng chương',
+  cg.tong_phan === 21 && cg.phan && Object.keys(cg.phan).length === 21
+  && Object.values(cg.phan).every((p) => p.ten && typeof p.co_chu_giai === 'boolean' && Boolean(p.chu_giai) === p.co_chu_giai && p.chuong_tu && p.chuong_den && p.nguon_file && p.nguon_trang > 0)
+  && Object.values(cg.phan).filter((p) => p.co_chu_giai).length === 9
+  && cg.phan.VII.co_chu_giai && cg.phan.VII.chuong_tu === '39' && cg.phan.VII.chuong_den === '40'
+  && cg.phan.VII.chu_giai.includes('xếp thành bộ') && cg.phan.VII.chu_giai.includes('Chương 49')
+  && !cg.phan.III.co_chu_giai && cg.phan.III.chu_giai === '');
 t('chú giải ch.87: note khung gầm + phân nhóm 8708.22 (nguồn Công báo 553+554)',
   cg.chuong['87'].chu_giai.includes('Khung gầm có động cơ') && cg.chuong['87'].chu_giai_phan_nhom.includes('8708.22')
   && cg.chuong['87'].nguon_file.includes('553-554'));
 t('chú giải ch.50: chương không note vẫn có tên, chu_giai rỗng', cg.chuong['50'].ten.includes('Tơ tằm') && cg.chuong['50'].chu_giai === '');
 const cgOut = execSyncNode('node tools/chu-giai.mjs 8708.22');
 t('chu-giai.mjs: tra mã 8708.22 → chương 87 + dòng nhắc phân nhóm', /Chương 87/.test(cgOut) && /Dòng chú giải nhắc tới 8708\.22/.test(cgOut) && /Khung gầm/.test(cgOut));
+const cg39 = execSyncNode('node tools/chu-giai.mjs 39');
+const cg28 = execSyncNode('node tools/chu-giai.mjs 28');
+t('chu-giai.mjs: tra ch.39 in chú giải Phần VII (2 mục) + tra ch.28 in chú giải Phần VI',
+  /Chú giải Phần VII \(Chương 39–40\)/.test(cg39) && /1\. Các mặt hàng xếp thành bộ/.test(cg39) && /2\. Trừ những mặt hàng trong nhóm 39\.18/.test(cg39)
+  && /Chú giải Phần VI \(Chương 28–38\)/.test(cg28) && /nhóm 28\.44 hoặc 28\.45/.test(cg28) && /nhóm 38\.27/.test(cg28));
 
 // 8c. Đóng gói lô TB-TCHQ → format community hs-code-api (tools/dong-goi-lo-tb-tchq.mjs)
 const tmpLo = mkdtempSync(join(tmpdir(), 'kb-lo-'));

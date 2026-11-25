@@ -171,16 +171,130 @@ for (let i = 0; i < dòngPhẳng.length; i++) {
   }
 }
 
+// Quét 21 Phần (PHẦN I SECTION I .. PHẦN XXI SECTION XXI) ngay trước chương đầu của mỗi Phần
+const VĂN_PHÒNG_PHẦN = [
+  ...VĂN_PHÒNG,
+  /^ban hành Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam$/,
+  /^\(Xem tiếp Công báo số/,
+];
+const RÁC_EN_PHẦN = /^(Notes?\.?|Subheading Notes?\.?|Code|Description|Unit of|quantity|Chapter \d+|Mã hàng Mô tả hàng hóa|Mã hàng$|Mô tả hàng hóa$|Đơn vị$|tính$)/;
+function táchVNPhần(l) {
+  return l
+    .replace(/ Chapter \d+$/, '').replace(/ Subheading Notes?\.?$/, '').replace(/ Notes?\.?$/, '').replace(/ Title$/, '')
+    .replace(/ RULE \d+( \([a-z]\))?$/, '').replace(/ EXPLANATORY NOTES?$/, '').trim();
+}
+function dọnNhãnThừaPhần(l) {
+  return l.replace(/\s*\(([A-Za-z]{1,3})\)$/, (m, c) => (l.startsWith('(' + c + ')') ? '' : m)).trimEnd();
+}
+function cắtĐuôiENPhần(l) {
+  // 1. Dòng bắt đầu bằng nhãn (a), (b), (ij), (B), (i), (ii), (iii), 1., 2. và lặp lại nhãn đó ở cột tiếng Anh bên phải
+  const mNhãn = l.match(/^(\([A-Za-z]{1,3}\)|\d+\.)\s+/);
+  if (mNhãn) {
+    const nhãn = mNhãn[1];
+    const idx = l.indexOf(' ' + nhãn, nhãn.length);
+    if (idx > 0) {
+      const trái = l.slice(0, idx).trimEnd();
+      const phải = l.slice(idx + 1).trim();
+      if (cóDấu(trái) && /^[\x20-\x7E“”‘’]+$/.test(phải)) return trái;
+    }
+  }
+  // 2. Cắt đuôi tiếng Anh dính cùng dòng với tiếng Việt
+  for (const m of [...l.matchAll(/(?<=[\s:])(?=\d+\.\s+[A-Z])|(?<=\s)(?=[A-Z][a-z])/g)]) {
+    const i = m.index;
+    const trái = l.slice(0, i).trimEnd();
+    const phải = l.slice(i).trim();
+    if (!trái || !phải) continue;
+    const sốTừEN = (phải.match(/[A-Za-z]{2,}/g) || []).length;
+    if (!/\d/.test(phải) && sốTừEN < (trái.endsWith(':') ? 2 : 3)) continue;
+    const phảiToànAscii = /^[\x20-\x7E“”‘’]+$/.test(phải);
+    if (phảiToànAscii && sốTừEN >= 2 && cóDấu(trái)) return dọnNhãnThừaPhần(trái);
+  }
+  return dọnNhãnThừaPhần(l);
+}
+
+const phan = {};
+const thuTuPhan = [];
+for (let i = 0; i < dòngPhẳng.length; i++) {
+  const l = dòngPhẳng[i].l.trim();
+  const m = l.match(/^PHẦN ([IVX]+) SECTION \1$/);
+  if (!m) continue;
+  const so = m[1];
+  if (phan[so]) continue;
+  const t0 = dòngPhẳng[i].t;
+  const tạm = { ten: [], chu_giai: [], chuong_tu: null, nguon_file: trang[t0].file, nguon_trang: trang[t0].so };
+  let pha = 'ten';
+  let đangVN = false;
+  for (let j = i + 1; j < dòngPhẳng.length; j++) {
+    const raw = dòngPhẳng[j].l.trim();
+    if (!raw) continue;
+    const cm = raw.match(/^Chương (\d{1,2})(?: Chapter \d+)?$/);
+    if (cm) {
+      tạm.chuong_tu = String(Number(cm[1])).padStart(2, '0');
+      break;
+    }
+    if (VĂN_PHÒNG_PHẦN.some((r) => r.test(raw))) continue;
+    const t2 = táchVNPhần(raw);
+    if (!t2 || RÁC_EN_PHẦN.test(t2)) continue;
+    const tMốc = t2.replace(/\.$/, '');
+    if (tMốc === 'Chú giải') { pha = 'chu_giai'; đangVN = false; continue; }
+    if (tMốc === 'Chú giải phân nhóm') {
+      pha = 'chu_giai';
+      đangVN = false;
+      tạm.chu_giai.push('Chú giải phân nhóm');
+      continue;
+    }
+    if (pha === 'ten') {
+      if (!cóDấu(t2)) continue;
+      const tenSạch = t2.replace(/\s+[A-Z][A-Z\s;,-]+\b(?:PRODUCTS|ARTICLES)$/, '').trim();
+      tạm.ten.push(tenSạch);
+      continue;
+    }
+    if (cóDấu(t2)) {
+      đangVN = true;
+      tạm.chu_giai.push(cắtĐuôiENPhần(t2));
+    } else if (đangVN && (/…/.test(t2) || /^[\d.,\s]+$/.test(t2) || /^(?:\d+(?:[.,]\d+)?\s*)?(?:decitex|mm)\b[.;:]?$/.test(t2))) {
+      tạm.chu_giai.push(t2);
+    } else {
+      đangVN = false;
+    }
+  }
+  const chuGiaiPhan = tạm.chu_giai.join('\n').replace(/\n{3,}/g, '\n\n').trim();
+  phan[so] = {
+    ten: tạm.ten.join(' ').replace(/\s+/g, ' ').trim(),
+    chu_giai: chuGiaiPhan,
+    co_chu_giai: Boolean(chuGiaiPhan),
+    chuong_tu: tạm.chuong_tu,
+    chuong_den: null,
+    nguon_file: tạm.nguon_file,
+    nguon_trang: tạm.nguon_trang,
+  };
+  thuTuPhan.push(so);
+}
+for (let k = 0; k < thuTuPhan.length; k++) {
+  const so = thuTuPhan[k];
+  const nextTu = k + 1 < thuTuPhan.length ? Number(phan[thuTuPhan[k + 1]].chuong_tu) : 98;
+  phan[so].chuong_den = String(nextTu - 1).padStart(2, '0');
+}
+
+let ngayTrich = '2026-11-25';
+try {
+  const cu = JSON.parse(readFileSync(RA, 'utf8'));
+  if (cu && cu.phan && cu.ngay_trich) ngayTrich = cu.ngay_trich;
+} catch {}
+
 const ra = {
-  _comment: 'Chú giải chương + chú giải phân nhóm (bản tiếng Việt) của Danh mục hàng hóa XK-NK Việt Nam — trích từ Công báo gốc TT 31/2022/TT-BTC bằng tools/trich-chu-giai.mjs (pdftotext -raw, bỏ bản dịch EN). Bản gốc có giá trị pháp lý; tệp này là bản tra cứu.',
+  _comment: 'Chú giải Phần + chú giải chương + chú giải phân nhóm (bản tiếng Việt) của Danh mục hàng hóa XK-NK Việt Nam — trích từ Công báo gốc TT 31/2022/TT-BTC bằng tools/trich-chu-giai.mjs (pdftotext -raw, bỏ bản dịch EN). Bản gốc có giá trị pháp lý; tệp này là bản tra cứu.',
   nguon: 'TT 31/2022/TT-BTC — Công báo số 523-558, 18 phần, tại raw/download/congbaocdn.chinhphu.vn/tt-31-2022-cb-*.pdf',
-  ngay_trich: new Date().toISOString().slice(0, 10),
+  ngay_trich: ngayTrich,
   quy_tac_tong_quat: gir.quy_tac,
   quy_tac_nguon: gir.nguon,
+  tong_phan: Object.keys(phan).length,
+  phan,
   tong_chuong: Object.keys(chuong).length,
   chuong,
 };
 writeFileSync(RA, JSON.stringify(ra, null, 1) + '\n');
+const coChuGiaiPhan = Object.values(phan).filter((x) => x.co_chu_giai).length;
 const coChuGiai = Object.values(chuong).filter((c) => c.chu_giai).length;
 const coPhanNhom = Object.values(chuong).filter((c) => c.chu_giai_phan_nhom).length;
-console.log(`danh-muc/chu-giai-chuong.json — ${ra.tong_chuong} chương (${coChuGiai} có chú giải, ${coPhanNhom} có chú giải phân nhóm), GIR ${gir.quy_tac ? 'OK' : 'THIẾU'}`);
+console.log(`danh-muc/chu-giai-chuong.json — ${ra.tong_phan} Phần (${coChuGiaiPhan} có chú giải), ${ra.tong_chuong} chương (${coChuGiai} có chú giải, ${coPhanNhom} có chú giải phân nhóm), GIR ${gir.quy_tac ? 'OK' : 'THIẾU'}`);

@@ -30,6 +30,11 @@ const soChuong = sạch.length <= 2 ? String(Number(sạch)).padStart(2, '0') : 
 const c = d.chuong[soChuong];
 if (!c) { console.error(`Không có chương ${soChuong} trong tệp (1-97).`); process.exit(2); }
 
+const soChuongNum = Number(soChuong);
+const mucPhan = Object.entries(d.phan || {}).find(
+  ([, p]) => Number(p.chuong_tu) <= soChuongNum && soChuongNum <= Number(p.chuong_den),
+);
+
 const mãTra = sạch.length > 2 ? sạch : null;
 console.log(`# Chương ${soChuong} — ${c.ten.replace(/\n/g, ' ')}`);
 console.log(`# Nguồn: TT 31/2022/TT-BTC — ${c.nguon_file}, trang ${c.nguon_trang}`);
@@ -40,13 +45,20 @@ if (mãTra) {
     // so khớp mã hoặc nhóm 4 số đầu của mã
     return gọnDòng.includes(gọnMã) || (gọnMã.length >= 6 && gọnDòng.includes(gọnMã.slice(0, 4)));
   };
-  const nhắc = [...(c.chu_giai + '\n' + c.chu_giai_phan_nhom).split('\n')].filter(khớp);
+  const vănBảnNhắc = [mucPhan?.[1]?.chu_giai || '', c.chu_giai, c.chu_giai_phan_nhom].join('\n');
+  const nhắc = [...vănBảnNhắc.split('\n')].filter(khớp);
   if (nhắc.length) {
     console.log(`\n## Dòng chú giải nhắc tới ${arg}`);
     nhắc.forEach((l) => console.log('  · ' + l.trim()));
   } else {
     console.log(`\n## Chú giải chương không nhắc trực tiếp ${arg} (tra thêm GIR bằng --quy-tac)`);
   }
+}
+if (mucPhan) {
+  const [soPhan, p] = mucPhan;
+  console.log(`\n## Chú giải Phần ${soPhan} (Chương ${p.chuong_tu}–${p.chuong_den}) — ${p.ten}`);
+  console.log(`# Nguồn Phần ${soPhan}: TT 31/2022/TT-BTC — ${p.nguon_file}, trang ${p.nguon_trang}`);
+  console.log(p.co_chu_giai && p.chu_giai ? p.chu_giai : `(Phần ${soPhan} không có chú giải — nguồn không in note)`);
 }
 console.log('\n## Chú giải chương');
 console.log(c.chu_giai ? c.chu_giai : '(chương này không có chú giải chương — nguồn không in note)');
