@@ -425,7 +425,6 @@ flowchart LR
   n_22_2018_TT_BTTTT -->|thay thế Toàn bộ Thông tư số 16/2015/TT-BTTTT ngày 17/6/2015 quy định chi tiết thi hành Nghị định số 187/2013/NĐ-CP về xuất khẩu, nhập khẩu hàng hóa trong lĩnh vực in, phát hành xuất bản phẩm (cùng Thông tư sửa đổi, bổ sung số 41/2016/TT-BTTTT ngày 26/12/2016) từ 2019-02-12| n_16_2015_TT_BTTTT
   n_22_2026_N__CP -->|thay thế toàn bộ từ 2026-01-16| n_127_2007_N__CP
   n_2393_Q__BYT -->|sửa đổi từ 2025-08-18| n_7866_Q__BYT
-  n_24_2026_TT_BYT -->|sửa đổi| n_05_2022_TT_BYT
   n_24_2026_TT_BYT -->|sửa đổi Điều 8 (lộ trình kiểm định) từ 2026-07-01| n_05_2022_TT_BYT
   n_24_2026_TT_BYT -->|bãi bỏ từ 2026-07-01| n_59_2025_TT_BYT
   n_26_2018_TT_BNNPTNT -->|bãi bỏ Nội dung quản lý về thức ăn thủy sản tại Thông tư số 20/2017/TT-BNNPTNT ngày 10 tháng 11 năm 2017 hướng dẫn thực hiện Nghị định số 39/2017/NĐ-CP ngày 04 tháng 4 năm 2017 của Chính phủ về quản lý thức ăn chăn nuôi, thủy sản từ 2019-01-01| n_20_2017_TT_BNNPTNT
