@@ -14,7 +14,37 @@ jobs:
         with:
           node-version: 24
           cache: npm
+      - name: Cài pdftotext (poppler-utils) để đối chiếu nguyên văn điều khoản
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq --no-install-recommends poppler-utils
       - run: npm ci
+      - name: Kiểm nguyên văn điều khoản với PDF (bắt buộc có pdftotext)
+        shell: bash
+        run: |
+          set -euo pipefail
+          # Thiếu pdftotext thì bộ kiểm tự bỏ qua êm — trên CI phải ĐỎ.
+          if ! command -v pdftotext >/dev/null 2>&1; then
+            echo "::error::Thiếu pdftotext trên CI — không đối chiếu được điều khoản với PDF"
+            exit 1
+          fi
+          pdftotext -v 2>&1 | head -1
+          # Chạy MỘT lần (~1 phút) ra JSON rồi tự in tóm tắt + chặn.
+          node tools/kiem-tra-dieu-khoan.mjs --json > kiem-tra-dieu-khoan.json || true
+          node -e '
+            const r = JSON.parse(require("fs").readFileSync("kiem-tra-dieu-khoan.json", "utf8"));
+            const k = r.thongKe;
+            for (const e of r.loi) console.log(`LỖI       ${e.file}: ${e.msg}`);
+            const tomTat = `kiem-tra-dieu-khoan: ${k.soVanBanCoDieuKhoan} văn bản có điều khoản (${k.soDieuKhoan} mục) · khớp nguyên văn ${k.soDieuKhoanKhop}/${k.soDieuKhoanDaDoiChieu} đã đối chiếu · bỏ qua scan ${k.soDieuKhoanBoQuaPdfScan} · bỏ qua vì thiếu pdftotext ${k.soDieuKhoanBoQuaThieuPdftotext} · ${r.loi.length} lỗi`;
+            console.log(tomTat);
+            require("fs").writeFileSync("kiem-tra-dieu-khoan.txt", tomTat + "\n");
+            const loi = [];
+            if (k.soDieuKhoanBoQuaThieuPdftotext > 0) loi.push(`${k.soDieuKhoanBoQuaThieuPdftotext} văn bản bị bỏ qua vì thiếu pdftotext`);
+            if (!(k.soDieuKhoanDaDoiChieu > 0)) loi.push("không đối chiếu được điều khoản nào (0 mục)");
+            if (r.loi.length) loi.push(`${r.loi.length} lỗi điều khoản`);
+            if (loi.length) { for (const m of loi) console.log(`::error::${m}`); process.exit(1); }
+          '
+          { echo '## Kiểm nguyên văn điều khoản'; tail -1 kiem-tra-dieu-khoan.txt; } >> "$GITHUB_STEP_SUMMARY"
       - name: Kiểm sổ + công cụ + wiki
         run: npm test
       - name: Báo cáo điểm mù (không chặn)
