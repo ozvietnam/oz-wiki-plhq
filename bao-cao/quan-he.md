@@ -14,10 +14,14 @@ flowchart LR
   n_124_2020_N__CP["124/2020/NĐ-CP<br/>còn hiệu lực"]
   n_81_2013_N__CP["81/2013/NĐ-CP<br/>hết hiệu lực"]
   n_155_2026_N__CP["155/2026/NĐ-CP<br/>còn hiệu lực"]
+  n_35_2026_TT_BTC["35/2026/TT-BTC<br/>còn hiệu lực"]
+  n_71_2018_TT_BTC["71/2018/TT-BTC<br/>hết hiệu lực"]
   n_50_VBHN_BXD["50/VBHN-BXD<br/>còn hiệu lực"]
   n_80_2014_N__CP["80/2014/NĐ-CP<br/>còn hiệu lực"]
   n_81_2025_QH15["81/2025/QH15<br/>còn hiệu lực"]
   n_02_2011_QH13["02/2011/QH13<br/>còn hiệu lực"]
+  n_85_2021_TT_BTC["85/2021/TT-BTC<br/>còn hiệu lực"]
+  n_61_2016_TT_BTC["61/2016/TT-BTC<br/>hết hiệu lực"]
   n_96_2022_N__CP["96/2022/NĐ-CP<br/>hết hiệu lực"]
   n_98_2017_N__CP["98/2017/NĐ-CP<br/>hết hiệu lực"]
   n_105_2022_N__CP -->|thay thế từ 2023-01-15| n_15_2017_N__CP
@@ -25,8 +29,10 @@ flowchart LR
   n_112_2025_QH15 -->|sửa đổi Sửa đổi một số cụm từ về quy hoạch ngành đường sắt tại Điều 9, Điều 14, Điều 19 và Điều 37 Luật Đường sắt từ 2026-03-01| n_95_2025_QH15
   n_124_2020_N__CP -->|thay thế từ 2020-12-10| n_81_2013_N__CP
   n_155_2026_N__CP -->|sửa đổi| n_124_2020_N__CP
+  n_35_2026_TT_BTC -->|thay thế từ 2026-05-18| n_71_2018_TT_BTC
   n_50_VBHN_BXD -->|hợp nhất| n_80_2014_N__CP
   n_81_2025_QH15 -->|sửa đổi| n_02_2011_QH13
+  n_85_2021_TT_BTC -->|thay thế từ 2022-01-01| n_61_2016_TT_BTC
   n_96_2022_N__CP -->|thay thế từ 2022-12-01| n_98_2017_N__CP
 ```
 
@@ -867,6 +873,8 @@ flowchart LR
   n_1175_Q__TTg["1175/QĐ-TTg<br/>hết hiệu lực"]
   n_127_Q__TTg["127/QĐ-TTg<br/>còn hiệu lực"]
   n_734_Q__TTg["734/QĐ-TTg<br/>hết hiệu lực"]
+  n_136_Q__TCHQ["136/QĐ-TCHQ<br/>hết hiệu lực"]
+  n_4286_Q__TCHQ["4286/QĐ-TCHQ<br/>hết hiệu lực"]
   n_26_2026_TT_BCT["26/2026/TT-BCT<br/>còn hiệu lực"]
   n_40_2025_TT_BCT["40/2025/TT-BCT<br/>còn hiệu lực"]
   n_12_2018_TT_BCT["12/2018/TT-BCT<br/>hết hiệu lực một phần"]
@@ -875,6 +883,7 @@ flowchart LR
   n_124_2026_TT_BTC -->|sửa đổi bổ sung khoản 10 Điều 15 từ 2026-08-22| n_33_2023_TT_BTC
   n_126_Q__TTg -->|thay thế từ 2026-01-16| n_1175_Q__TTg
   n_127_Q__TTg -->|thay thế từ 2026-01-16| n_734_Q__TTg
+  n_136_Q__TCHQ -->|sửa đổi| n_4286_Q__TCHQ
   n_26_2026_TT_BCT -->|sửa đổi| n_40_2025_TT_BCT
   n_26_2026_TT_BCT -->|sửa đổi| n_12_2018_TT_BCT
   n_26_2026_TT_BCT -->|sửa đổi| n_11_2015_TT_BCT

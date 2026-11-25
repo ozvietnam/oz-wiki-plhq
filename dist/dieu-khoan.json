@@ -5,12 +5,12 @@
  "mien_tru": "Tham khảo, không phải tư vấn pháp lý. Xem và đối chiếu văn bản gốc nguồn bậc A trước khi áp dụng.",
  "canh_bao_tang_nhap": "Tầng TOM_TAT_NHAP được trích tự động bởi LLM (da_soat: false) — CHỈ dùng để định vị điều khoản, KHÔNG trích dẫn nguyên văn hay làm căn cứ pháp lý; chỉ dùng NGUYEN_VAN_NGUON_A để trích dẫn căn cứ.",
  "thong_ke": {
-  "so_van_ban_nguon_a": 510,
-  "so_dieu_khoan_nguon_a": 10507,
+  "so_van_ban_nguon_a": 512,
+  "so_dieu_khoan_nguon_a": 10524,
   "so_van_ban_tom_tat_nhap": 88,
   "so_dieu_khoan_tom_tat_nhap": 3684,
   "so_tep_doc_hieu": 91,
-  "so_tep_dieu_khoan_day_du": 463,
+  "so_tep_dieu_khoan_day_du": 465,
   "so_dong_loi": 0,
   "so_dong_rac_da_loc": 0
  },
@@ -27127,6 +27127,103 @@
    ]
   },
   {
+   "so_hieu": "178/2011/TT-BTC",
+   "slug": "178-2011-tt-btc",
+   "ten": "Hướng dẫn về việc tạo, phát hành, sử dụng và quản lý Biên lai thu thuế, lệ phí hải quan đối với hàng hóa xuất khẩu, nhập khẩu của các Doanh nghiệp kinh doanh dịch vụ chuyển phát nhanh đường hàng không quốc tế",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2012-01-22",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-178-2011-tt-btc-13781.htm",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "Điều 1. Phạm vi điều chỉnh Thông tư này hướng dẫn về việc tạo, phát hành, sử dụng và quản lý Biên lai thu thuế, lệ phí hải quan đối với hàng hóa xuất khẩu, nhập khẩu (sau đây gọi tắt là Biên lai) của các Doanh nghiệp kinh doanh dịch vụ chuyển phát nhanh đường hàng không quốc tế và xử phạt vi phạm hành chính liên quan đến việc tạo, phát hành, sử dụng và quản lý Biên lai.",
+     "trang_pdf": 1,
+     "sha256_pdf": "af0bbec095146349531dde790fb259d60092a5cd147dc446c32670742c34843f"
+    },
+    {
+     "dieu": 2,
+     "noi_dung": "Điều 2. Đối tượng áp dụng 1. Doanh nghiệp kinh doanh dịch vụ chuyển phát nhanh đường hàng không quốc tế đối với hàng hóa xuất khẩu, nhập khẩu theo quy định hiện hành của pháp luật Việt Nam (sau đây gọi tắt là Doanh nghiệp). 74 2. Cơ quan, tổ chức, cá nhân có hàng hóa xuất khẩu, nhập khẩu gửi qua dịch vụ chuyển phát nhanh đường hàng không quốc tế (dưới đây gọi tắt là Khách hàng). 3. Cơ quan Hải quan.",
+     "trang_pdf": 1,
+     "sha256_pdf": "af0bbec095146349531dde790fb259d60092a5cd147dc446c32670742c34843f"
+    },
+    {
+     "dieu": 3,
+     "noi_dung": "Điều 3. Nội dung Biên lai 1. Biên lai thu thuế, phí hải quan là ấn chỉ thuế do cơ quan hải quan ủy nhiệm cho Doanh nghiệp tạo ra trên các thiết bị tin học, để ghi nhận thông tin số thuế, lệ phí hải quan phải thu của Khách hàng theo quy định pháp luật khi cung cấp dịch vụ chuyển phát nhanh đường hàng không quốc tế đối với hàng hóa xuất khẩu, nhập khẩu. 2. Nội dung chi tiết của Biên lai: 2.1. Nội dung bắt buộc trên Biên lai: - Tên Biên lai: Biên lai thu thuế, lệ phí hải quan; - Ký hiệu mẫu số Biên lai: Là thông tin thể hiện ký hiệu tên loại Biên lai, số liên, số thứ tự mẫu trong một loại Biên lai; - Ký hiệu Biên lai: Là dấu hiệu phân biệt Biên lai bằng hệ thống chữ cái tiếng Việt và năm phát hành Biên lai; - Số sê ri: Là mã số của Biên lai; - Tên liên Biên lai: Liên Biên lai là các tờ trong cùng một số Biên lai. Mỗi số Biên lai phải có từ 2 liên trở lên và tối đa không quá 9 liên và các Liên phải thể hiện cùng một nội dung. Trong đó: + Liên 1: Lưu tại Doanh nghiệp. + Liên 2: Giao cơ quan hải quan (nơi Doanh nghiệp đăng ký tờ khai hải quan). + Liên 3: Giao Khách hàng. + Liên 4 trở đi phải được đặt tên theo mục đích sử dụng của Liên. - Số thứ tự Biên lai: Là số thứ tự theo dãy số tự nhiên trong ký hiệu Biên lai, gồm 07 chữ số trong một ký hiệu Biên lai; - Tên, địa chỉ, mã số thuế của Khách hàng; - Số tờ khai hải quan, ngày... tháng... năm; Đăng ký tại Chi cục Hải quan.... thuộc Cục Hải quan........ - Số hiệu tài khoản...; - Hình thức thanh toán...; - Tên, địa chỉ, mã số thuế của Doanh nghiệp; - Thuế nhập khẩu; thuế TTĐB; thuế GTGT; thành tiền (ghi bằng số và bằng chữ); - Lệ phí hải quan (nếu có); - Tổng số tiền thuế, lệ phí hải quan phải nộp; - Họ và tên người tạo Biên lai; ngày tháng năm tạo Biên lai.",
+     "trang_pdf": 2,
+     "sha256_pdf": "af0bbec095146349531dde790fb259d60092a5cd147dc446c32670742c34843f"
+    },
+    {
+     "dieu": 4,
+     "noi_dung": "Điều 4. Trách nhiệm của Doanh nghiệp và cơ quan Hải quan 1. Trách nhiệm của Doanh nghiệp: 1.1. Tạo, phát hành, sử dụng và quản lý Biên lai theo hướng dẫn tại Điều 5 Thông tư này; Không được tạo, phát hành, sử dụng và quản lý Biên lai trái quy định dẫn đến chiếm dụng thuế, lệ phí của Nhà nước hoặc tiền của Khách hàng. 1.2. Gửi Thông báo phát hành Biên lai và các Báo cáo theo hướng dẫn tại Thông tư này (sau đây gọi tắt là Báo cáo). 1.3. Các Doanh nghiệp được tự tạo Biên lai và giao cho Khách hàng theo hướng dẫn tại Thông tư này. 2. Trách nhiệm của cơ quan Hải quan: 2.1. Tổng cục Hải quan (Vụ Tài vụ quản trị) căn cứ nội dung phát hành Biên lai của Doanh nghiệp hướng dẫn tại Điều 6 Thông tư này để tổ chức xây dựng hệ thống dữ liệu thông tin về phát hành Biên lai trên trang thông tin điện tử của Tổng cục Hải quan để mọi tổ chức, cá nhân tra cứu được nội dung cần thiết về Biên lai đã thông báo phát hành của Doanh nghiệp. 2.2. Quản lý việc tạo, phát hành, sử dụng và quản lý Biên lai thu thuế và lệ phí hải quan của các Doanh nghiệp theo hướng dẫn tại Điều 8 Thông tư này. 2.3. Kiểm tra Thông báo phát hành Biên lai và các Báo cáo do Doanh nghiệp gửi đến. 76 Chương II TẠO, PHÁT HÀNH, SỬ DỤNG VÀ QUẢN LÝ BIÊN LAI",
+     "trang_pdf": 3,
+     "sha256_pdf": "af0bbec095146349531dde790fb259d60092a5cd147dc446c32670742c34843f"
+    },
+    {
+     "dieu": 5,
+     "noi_dung": "Điều 5. Tạo Biên lai 1. Biên lai được tạo phải đảm bảo: 1.1. Phần mềm ứng dụng để in Biên lai phải đáp ứng yêu cầu bảo mật bằng việc phân quyền cho người sử dụng, người không được phân quyền không được can thiệp làm thay đổi dữ liệu trên ứng dụng. 1.2. Việc đánh số thứ tự được thực hiện tự động, mỗi liên của một số Biên lai chỉ được in ra một lần. 2. Biên lai phải được tạo vào cùng ngày hoặc ngày sau liền kề (bao gồm cả ngày thứ 7, chủ nhật và ngày lễ) với ngày đăng ký tờ khai hải quan. 3. Nội dung ghi trên các liên Biên lai cùng số phải giống nhau. Nội dung trên Biên lai phải đúng nội dung nghiệp vụ kinh tế phát sinh; không được tẩy xóa, sửa chữa; phải dùng cùng màu mực, loại mực không phai, không sử dụng mực đỏ; chữ số và chữ viết phải liên tục, không ngắt quãng, không viết hoặc in đè lên chữ in sẵn và gạch chéo phần còn trống (nếu có); các thông tin thể hiện trên Biên lai phải khớp với thông tin tại Tờ khai hải quan và các chứng từ khác trong hồ sơ hải quan.",
+     "trang_pdf": 4,
+     "sha256_pdf": "af0bbec095146349531dde790fb259d60092a5cd147dc446c32670742c34843f"
+    },
+    {
+     "dieu": 6,
+     "noi_dung": "Điều 6. Thông báo phát hành Biên lai 1. Các Doanh nghiệp trước khi sử dụng Biên lai tự tạo theo hướng dẫn tại Điều 5 phải lập Thông báo phát hành Biên lai theo mẫu số 1 ban hành kèm theo Thông tư này. 2. Thông báo phát hành Biên lai gồm: Tên đơn vị phát hành Biên lai, mã số thuế, địa chỉ, điện thoại, loại Biên lai phát hành (tên loại Biên lai, ký hiệu Biên lai, ngày bắt đầu sử dụng, Biên lai mẫu), ngày lập Thông báo phát hành Biên lai, tên, chữ ký của người đại diện theo pháp luật và dấu của Doanh nghiệp. Trường hợp có sự thay đổi địa chỉ kinh doanh hoặc nội dung đã thông báo phát hành, Doanh nghiệp phải gửi Thông báo phát hành Biên lai cho Cục hải quan tỉnh, thành phố nơi Doanh nghiệp đăng ký phát hành Biên lai. Trường hợp Doanh nghiệp khi gửi thông báo phát hành từ lần thứ 2 trở đi, nếu không có sự thay đổi về nội dung và hình thức Biên lai phát hành thì không cần phải gửi kèm Biên lai mẫu. 3. Biên lai mẫu là bản in thể hiện đúng, đủ các tiêu thức trên các liên của Biên lai giao cho Khách hàng loại được phát hành, có số Biên lai là một dãy các chữ số 0 và in hoặc đóng chữ “Mẫu” trên tờ Biên lai. Trên mẫu Biên lai tự in phải có chữ ký, ghi rõ họ, tên của người đứng đầu tổ chức. 4. Thông báo phát hành Biên lai và Biên lai mẫu phải được gửi đến Cục Hải quan tỉnh, thành phố nơi Doanh nghiệp đăng ký tờ khai hải quan trong thời hạn mười (10) ngày, kể từ ngày ký Thông báo phát hành Biên lai. Thông báo phát hành",
+     "trang_pdf": 4,
+     "sha256_pdf": "af0bbec095146349531dde790fb259d60092a5cd147dc446c32670742c34843f"
+    },
+    {
+     "dieu": 7,
+     "noi_dung": "Điều 7. Sử dụng Biên lai 1. Nguyên tắc sử dụng Biên lai: 1.1. Sau khi tạo Biên lai, Doanh nghiệp giao Biên lai cho Khách theo hướng dẫn của Thông tư này khi làm xong thủ tục hải quan. 1.2. Phải sử dụng Biên lai theo đúng thứ tự từ số nhỏ đến số lớn, không được dùng cách số. 1.3. Khách hàng được sử dụng Biên lai hợp pháp để hạch toán kế toán hoạt động mua hàng hóa, dịch vụ theo quy định của pháp luật về kế toán; kê khai, khấu trừ thuế, phí theo quy định. 2. Xử lý đối với Biên lai đã tạo: 2.1. Trường hợp tạo Biên lai chưa giao cho Khách hàng, nếu phát hiện Biên lai tạo sai, Doanh nghiệp gạch chéo các liên và lưu giữ số Biên lai tạo sai. 2.2. Trường hợp Biên lai đã tạo và giao cho Khách hàng nhưng Doanh nghiệp chưa giao hàng hóa, cung ứng dịch vụ cho Khách hàng nếu phát hiện sai phải hủy bỏ, Doanh nghiệp và Khách hàng lập biên bản thu hồi các liên của số Biên lai đã tạo sai. Biên bản thu hồi Biên lai phải thể hiện được lý do thu hồi Biên lai. Doanh nghiệp gạch chéo các liên, lưu giữ số Biên lai tạo sai và tạo lại Biên lai mới theo quy định. 2.3. Trường hợp Biên lai đã tạo và giao cho Khách hàng, đã giao hàng hóa, cung ứng dịch vụ nếu phát hiện sai sót hoặc trường hợp cơ quan hải quan ấn định thuế đối với tờ khai hải quan đã thu thuế: 2.3.1. Đối với trường hợp điều chỉnh tăng số thuế, lệ phí hải quan phải nộp: Doanh nghiệp tạo thêm Biên lai mới thể hiện số thuế, lệ phí điều chỉnh tăng, trong đó ghi rõ điều chỉnh tăng cho Biên lai số..., ký hiệu... 78",
+     "trang_pdf": 5,
+     "sha256_pdf": "af0bbec095146349531dde790fb259d60092a5cd147dc446c32670742c34843f"
+    },
+    {
+     "dieu": 8,
+     "noi_dung": "Điều 8. Quản lý Biên lai 1. Định kỳ 6 tháng, trước ngày mùng 10 của tháng kế tiếp, các Doanh nghiệp có trách nhiệm nộp báo cáo tình hình sử dụng Biên lai cho Cục hải quan tỉnh/thành phố nơi Doanh nghiệp đăng ký tờ khai hải quan theo mẫu số 3 ban hành kèm theo Thông tư này. Trường hợp Báo cáo không đảm bảo đủ nội dung theo đúng quy định thì trong thời hạn tối đa mười (10) ngày làm việc kể từ ngày nhận được Báo cáo, Cục Hải quan tỉnh/thành phố nơi nhận Báo cáo của Doanh nghiệp phải có văn bản thông báo cho Doanh nghiệp biết. Doanh nghiệp có trách nhiệm điều chỉnh để ra Báo cáo mới. Định kỳ 6 tháng, Cục Hải quan tỉnh/thành phố nơi nhận Báo cáo của Doanh nghiệp có trách nhiệm báo cáo công tác kiểm tra, thanh tra, giải quyết khiếu nại tố cáo vi phạm về Biên lai. 2. Doanh nghiệp chịu trách nhiệm quản lý Biên lai đã tạo hoặc chưa tạo, trường hợp phát hiện mất, cháy, hỏng Biên lai đã tạo hoặc chưa tạo phải lập báo cáo về việc mất, cháy, hỏng và thông báo với Cục Hải quan tỉnh/thành phố nơi Doanh nghiệp đăng ký tờ khai hải quan theo mẫu số 2 ban hành kèm theo Thông tư này, chậm nhất không quá năm (05) ngày kể từ ngày xảy ra việc mất, cháy, hỏng Biên lai. 3. Lưu trữ, bảo quản Biên lai. Biên lai được lưu trữ trong hệ thống máy tính theo chế độ bảo mật thông tin; và lưu trữ, bảo quản theo quy định lưu trữ, bảo quản chứng từ kế toán. Việc lưu trữ phải đảm bảo khi cơ quan chức năng yêu cầu thì phải khai thác, kiểm tra, in ra được biên lai từ phần mềm. 4. Hủy Biên lai.",
+     "trang_pdf": 7,
+     "sha256_pdf": "af0bbec095146349531dde790fb259d60092a5cd147dc446c32670742c34843f"
+    },
+    {
+     "dieu": 9,
+     "noi_dung": "Điều 9. Xử phạt các hành vi vi phạm quy định về Biên lai 1. Xử phạt vi phạm về Biên lai được thực hiện theo quy định tại Nghị định số 185/2004/NĐ-CP ngày 04/11/2004 về xử phạt vi phạm hành chính trong lĩnh vực kế toán và Nghị định số 39/2011/NĐ-CP ngày 26/5/2011 sửa đổi, bổ sung một số điều của Nghị định số 185/2004/NĐ-CP. 2. Trường hợp vi phạm về Biên lai mà dẫn đến hành vi khai sai làm thiếu số tiền thuế, lệ phí phải nộp hoặc tăng số tiền thuế, lệ phí được hoàn hoặc dẫn đến hành vi trốn thuế, gian lận thuế thì xử phạt các hành vi đó theo quy định của pháp luật về thuế, hải quan.",
+     "trang_pdf": 9,
+     "sha256_pdf": "af0bbec095146349531dde790fb259d60092a5cd147dc446c32670742c34843f"
+    },
+    {
+     "dieu": 10,
+     "noi_dung": "Điều 10. Thẩm quyền xử phạt vi phạm về Biên lai 1. Thẩm quyền xử phạt vi phạm về Biên lai được thực hiện theo quy định tại các Điều 29, 30, 36 và 38 Pháp lệnh Xử lý vi phạm hành chính và Nghị định số 185/2004/NĐ-CP ngày 04/11/2004 về xử phạt vi phạm hành chính trong lĩnh vực kế toán, Nghị định số 39/2011/NĐ-CP ngày 26/5/2011 sửa đổi, bổ sung một số điều của Nghị định số 185/2004/NĐ-CP. 2. Trường hợp vi phạm có liên quan đến hoạt động in Biên lai giả đến mức truy cứu trách nhiệm hình sự thì chuyển hồ sơ đến cơ quan có thẩm quyền để khởi tố theo quy định của pháp luật. 3. Cơ quan tiến hành tố tụng có trách nhiệm thông báo kết quả xử lý các hành vi vi phạm về Biên lai cho cơ quan đã đề nghị truy cứu trách nhiệm hình sự. 4. Đối với trường hợp đã ra quyết định xử phạt, nếu sau đó phát hiện hành vi vi phạm có dấu hiệu tội phạm mà chưa hết thời hiệu truy cứu trách nhiệm hình sự thì người đã ra quyết định xử phạt phải hủy quyết định đó và trong thời hạn ba (03) ngày, kể từ ngày hủy quyết định xử phạt, phải chuyển hồ sơ vụ vi phạm cho cơ quan tiến hành tố tụng hình sự có thẩm quyền. Chương IV KIỂM TRA, THANH TRA, GIẢI QUYẾT KHIẾU NẠI, TỐ CÁO VI PHẠM VỀ BIÊN LAI",
+     "trang_pdf": 9,
+     "sha256_pdf": "af0bbec095146349531dde790fb259d60092a5cd147dc446c32670742c34843f"
+    },
+    {
+     "dieu": 11,
+     "noi_dung": "Điều 11. Kiểm tra, thanh tra việc in, phát hành, quản lý và sử dụng Biên lai 1. Kiểm tra tại trụ sở cơ quan hải quan. 1.1. Cơ quan hải quan nơi đăng ký tờ khai hải quan thực hiện kiểm tra việc tạo, phát hành, quản lý và sử dụng Biên lai trên báo cáo tình hình sử dụng Biên lai của các Doanh nghiệp. Tối đa là mười (10) ngày làm việc kể từ ngày nhận được báo 82",
+     "trang_pdf": 9,
+     "sha256_pdf": "af0bbec095146349531dde790fb259d60092a5cd147dc446c32670742c34843f"
+    },
+    {
+     "dieu": 12,
+     "noi_dung": "Điều 12. Khiếu nại, tố cáo và giải quyết khiếu nại, tố cáo về Biên lai Khiếu nại, tố cáo và giải quyết khiếu nại, tố cáo về Biên lai hướng dẫn tại Thông tư này thực hiện theo quy định của pháp luật về khiếu nại, tố cáo. Chương V TỔ CHỨC THỰC HIỆN",
+     "trang_pdf": 11,
+     "sha256_pdf": "af0bbec095146349531dde790fb259d60092a5cd147dc446c32670742c34843f"
+    },
+    {
+     "dieu": 13,
+     "noi_dung": "Điều 13. Hiệu lực thi hành Thông tư này có hiệu lực thi hành kể từ ngày 22/01/2012.",
+     "trang_pdf": 11,
+     "sha256_pdf": "af0bbec095146349531dde790fb259d60092a5cd147dc446c32670742c34843f"
+    },
+    {
+     "dieu": 14,
+     "noi_dung": "Điều 14. Trách nhiệm thi hành 1. Cơ quan hải quan có trách nhiệm phổ biến, hướng dẫn các Doanh nghiệp, thực hiện theo nội dung Thông tư này, kiểm tra và xử lý các vi phạm của Doanh nghiệp sử dụng Biên lai. 2. Các Doanh nghiệp có hoạt động liên quan đến việc tạo, phát hành và sử dụng Biên lai thực hiện đầy đủ các hướng dẫn tại Thông tư này. Trong quá trình thực hiện nếu có vướng mắc, đề nghị các tổ chức, cá nhân phản ánh kịp thời về Bộ Tài chính để nghiên cứu giải quyết./.",
+     "trang_pdf": 11,
+     "sha256_pdf": "af0bbec095146349531dde790fb259d60092a5cd147dc446c32670742c34843f"
+    }
+   ]
+  },
+  {
    "so_hieu": "1798/TCHQ-GSQL",
    "slug": "1798-tchq-gsql",
    "ten": "V/v quản lý hoạt động xuất khẩu, nhập khẩu các chất HFC",
@@ -49049,6 +49146,37 @@
      "noi_dung": "Điều 3. Điều khoản thi hành 1. Thông tư này có hiệu lực thi hành từ ngày 20 tháng 6 năm 2025. 2. Cục trưởng Cục Hải quan, Thủ trưởng các đơn vị thuộc Bộ Tài chính và các cơ quan, tổ chức, cá nhân khác có liên quan chịu trách nhiệm thi hành Thông tư này./.",
      "trang_pdf": 2,
      "sha256_pdf": "2022b6f927c2722012668c1eb9d251b3818bed2bccfa1a3402bde21677dcf72a"
+    }
+   ]
+  },
+  {
+   "so_hieu": "47/2025/TT-BYT",
+   "slug": "47-2025-tt-byt",
+   "ten": "Bãi bỏ một số văn bản quy phạm pháp luật do Bộ trưởng Bộ Y tế ban hành, liên tịch ban hành",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2026-02-15",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://chinhphu.vn/?pageid=27160&docid=216427",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "dieu_khoan": [
+    {
+     "dieu": 1,
+     "noi_dung": "Điều 1. Bãi bỏ toàn bộ 43 văn bản quy phạm pháp luật do Bộ trưởng Bộ Y tế ban hành, liên tịch ban hành 1. Quyết định số 37-BYT/QĐ ngày 29/01/1972 của Bộ trưởng Bộ Y tế về việc ban hành 5 tiêu chuẩn ngành y tế. 2. Quyết định số 500-BYT/QĐ ngày 10/04/1992 của Bộ trưởng Bộ Y tế về Quy chế hành nghề dược tại nhà thuốc. 3. Quyết định số 695-BYT/QĐ ngày 08/09/1993 của Bộ trưởng Bộ Y tế sửa đổi Điều 15 Quy chế hành nghề dược tại nhà thuốc kèm theo Quyết định 500/BYTQĐ. 4. Quyết định số 1716/1999/QĐ-BYT ngày 04/06/1999 của Bộ trưởng Bộ Y tế về tổ chức và chức năng, nhiệm vụ của Ban phòng chống AIDS - Ngành y tế các tỉnh, thành phố trực thuộc Trung ương. 5. Quyết định số 2155/1999/QĐ-BYT ngày 21/07/1999 của Bộ trưởng Bộ Y tế ban hành “Hướng dẫn giám sát và phòng chống bệnh sốt Dengue, sốt xuất huyết Dengue”.",
+     "trang_pdf": 1,
+     "sha256_pdf": "032d48b23b5154814be596cfcb5f9e657907f925e91da587925d9aa801b03cfb"
+    },
+    {
+     "dieu": 2,
+     "noi_dung": "Điều 2. Bãi bỏ một phần 02 văn bản quy phạm pháp luật do Bộ trưởng Bộ Y tế ban hành 1. Bãi bỏ Quy trình bảo quản thuốc và nguyên liệu làm thuốc dự trữ Quốc gia tại Quyết định số 2774/1999/QĐ-BYT ngày 13/09/1999 của Bộ trưởng Bộ Y tế Quy định bảo quản thiết bị y tế Dự trữ Quốc gia; Quy trình bảo quản thuốc và nguyên liệu làm thuốc dự trữ Quốc gia. 2. Bãi bỏ một phần tại Bản hướng dẫn triển khai thực hiện “Thực hành tốt sản xuất mỹ phẩm” của Hiệp hội các nước Đông Nam Á được ban hành kèm theo Quyết định số 24/2006/QĐ-BYT ngày 14/8/2006 của Bộ trưởng Bộ Y tế về việc triển khai áp dụng và hướng dẫn thực hiện các nguyên tắc, tiêu chuẩn “Thực hành tốt sản xuất mỹ phẩm” của Hiệp hội các nước Đông Nam Á như sau: a) Bãi bỏ đoạn “Giấy chứng nhận có giá trị 02 năm kể từ ngày ký” tại mục 3.2 phần II của Hướng dẫn ban hành kèm theo Quyết định số 24/2006/QĐ-BYT; b) Bãi bỏ Mẫu số 01/CGMP-MP của Hướng dẫn ban hành kèm theo Quyết định số 24/2006/QĐ-BYT. 5",
+     "trang_pdf": 4,
+     "sha256_pdf": "032d48b23b5154814be596cfcb5f9e657907f925e91da587925d9aa801b03cfb"
+    },
+    {
+     "dieu": 3,
+     "noi_dung": "Điều 3. Điều khoản thi hành 1. Thông tư này có hiệu lực thi hành kể từ ngày 15 tháng 02 năm 2026. 2. Chánh Văn phòng Bộ, Vụ trưởng Vụ Pháp chế, Vụ trưởng, Cục trưởng các Vụ, Cục thuộc Bộ Y tế và các cơ quan, tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành Thông tư này./.",
+     "trang_pdf": 5,
+     "sha256_pdf": "032d48b23b5154814be596cfcb5f9e657907f925e91da587925d9aa801b03cfb"
     }
    ]
   },

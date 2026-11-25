@@ -4,7 +4,7 @@
  "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
  "ghi_nguon_chuan": "Nguồn: oz-wiki-plhq — https://github.com/ozvietnam/oz-wiki-plhq (CC BY 4.0, bản 2026-11-25).",
  "mien_tru": "Tham khảo, không phải tư vấn pháp lý. Xem và đối chiếu văn bản gốc nguồn bậc A trước khi áp dụng.",
- "tong": 5666,
+ "tong": 5674,
  "chunks": [
   {
    "chunk_id": "dong-bo-quan-diem-phan-loai#1",
@@ -79184,6 +79184,16 @@
      "bi_thay_the_boi": [],
      "bi_bai_bo_boi": [],
      "nguon_a": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=99376"
+    },
+    {
+     "so_hieu": "47/2025/TT-BYT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-02-15",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://chinhphu.vn/?pageid=27160&docid=216427"
     }
    ],
    "canh_bao_hieu_luc": false
@@ -83930,6 +83940,30 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "chunk_id": "1647-qd-tchq-2020#1",
+   "slug": "1647-qd-tchq-2020",
+   "duong_dan": "wiki/sources/1647-qd-tchq-2020.md",
+   "loai_trang": "sources",
+   "tieu_de": "1647/QĐ-TCHQ — Sổ tay nghiệp vụ kế toán thuế và thu khác, quản lý nợ thuế XNK",
+   "muc": "Tóm tắt & trạng thái nguồn",
+   "noi_dung": "**1647/QĐ-TCHQ** (ban hành **2020-06-26**, cơ quan: **Tổng cục Hải quan**): ban hành Sổ tay nghiệp vụ kế toán thuế và thu khác, quản lý nợ thuế đối với hàng hóa XNK trên hệ thống Kế toán thuế tập trung KTTTT (được dẫn chiếu tại [[sources/787-tchq-txnk-2025]]).\n\n- **Tình trạng hiện tại:** `CON_HIEU_LUC` (`NGUON_THU_CAP`, `xac_minh.chan.ma: THIEU_PDF_A` — chờ bản gốc công bố trên `customs.gov.vn`). Xem [[concepts/doc-tinh-trang-hieu-luc]].",
+   "tags": [],
+   "confidence": "medium",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "1647/QĐ-TCHQ",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": null,
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": false,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": null
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "chunk_id": "165-2026-nd-cp#1",
    "slug": "165-2026-nd-cp",
    "duong_dan": "wiki/sources/165-2026-nd-cp.md",
@@ -87269,6 +87303,43 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "chunk_id": "178-2011-tt-btc#1",
+   "slug": "178-2011-tt-btc",
+   "duong_dan": "wiki/sources/178-2011-tt-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "178/2011/TT-BTC — Tạo, phát hành, sử dụng và quản lý Biên lai thu thuế, lệ phí hải quan CPN hàng không quốc tế",
+   "muc": "Tóm tắt & nội dung chính",
+   "noi_dung": "**178/2011/TT-BTC** (ban hành **2011-12-08**, hiệu lực từ **2012-01-22**, cơ quan: **Bộ Tài chính**): hướng dẫn tạo, phát hành, sử dụng và quản lý Biên lai thu thuế, lệ phí hải quan đối với hàng hóa XNK của các doanh nghiệp kinh doanh dịch vụ chuyển phát nhanh đường hàng không quốc tế (14 điều; xem bối cảnh áp dụng cùng [[sources/1813-btc-tchq-2025]] và [[sources/123-2020-nd-cp]]).",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "178/2011/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2012-01-22",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-178-2011-tt-btc-13781.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "178-2011-tt-btc#2",
+   "slug": "178-2011-tt-btc",
+   "duong_dan": "wiki/sources/178-2011-tt-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "178/2011/TT-BTC — Tạo, phát hành, sử dụng và quản lý Biên lai thu thuế, lệ phí hải quan CPN hàng không quốc tế",
+   "muc": "Nguồn & tình trạng hiệu lực",
+   "noi_dung": "- **Tình trạng hiện tại:** `CON_HIEU_LUC` (Điều 13 quy định có hiệu lực từ `22/01/2012`).\n- Xác minh mức `NGUON_A` qua Công báo Chính phủ số 653+654 (`13781`) và bản PDF 10 trang có lớp chữ. Xem [[concepts/doc-tinh-trang-hieu-luc]].",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "chunk_id": "18-2017-tt-bct#1",
    "slug": "18-2017-tt-bct",
    "duong_dan": "wiki/sources/18-2017-tt-bct.md",
@@ -87884,6 +87955,16 @@
      "bi_thay_the_boi": [],
      "bi_bai_bo_boi": [],
      "nguon_a": "https://chinhphu.vn/?pageid=27160&docid=211680"
+    },
+    {
+     "so_hieu": "3235/QĐ-BYT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-01-30",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": false,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": null
     }
    ],
    "canh_bao_hieu_luc": false
@@ -88676,6 +88757,16 @@
      "bi_thay_the_boi": [],
      "bi_bai_bo_boi": [],
      "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=201365"
+    },
+    {
+     "so_hieu": "178/2011/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2012-01-22",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-178-2011-tt-btc-13781.htm"
     },
     {
      "so_hieu": "107/2016/QH13",
@@ -101417,7 +101508,7 @@
    "loai_trang": "sources",
    "tieu_de": "23153/CHQ-NVTHQ — Về việc xác nhận mã HS code đối với sản phẩm Đông trùng hạ thảo nhập khẩu (Cordyceps Sinensis dạng khô nguyên con, nhóm 12.11, mã số 1211.90.19 / 1211.90.99)",
    "muc": "Nội dung chính",
-   "noi_dung": "- **Tóm lược nghiệp vụ:** Hướng dẫn phân loại Đông trùng hạ thảo (Cordyceps Sinensis) dạng khô nguyên con: thuộc nhóm 12.11 khi đáp ứng công dụng làm dược phẩm/nước hoa/thuốc diệt nấm (chủ yếu làm dược liệu: 1211.90.19; loại khác trong nhóm 12.11: 1211.90.99). Lưu ý lỗi gõ trong văn bản gốc: trang 2 ghi \"Thông tư số 90/2024/TT-BYT ngày 11/6/2024\" thực chất là Thông tư 09/2024/TT-BYT ngày 11/06/2024 (STT 130 Danh mục 11).\n- **Đối chiếu bản gốc (OCR toàn văn):** đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/DONG_NAI/2026/10/20/23153_CHQ_NVTHQ_19_10_2026.pdf, id=106445, SHA-256 5e43312b20efd7ebb80aa265023dc798c2c64e376a1cac09c67b9c924b74ccf2): Công văn số 23153/CHQ-NVTHQ ngày 19-10-2026 của Cục Hải quan hướng dẫn phân loại mặt hàng Đông trùng hạ thảo (Cordyceps Sinensis) dạng khô, nguyên con, chưa cắt, nghiền hoặc xay thành bột: nếu chủ yếu dùng làm nước hoa, làm dược phẩm hoặc thuốc trừ sâu, thuốc diệt nấm hoặc các mục đích tương tự theo mô tả nhóm 12.11 Thông tư 31/2022/TT-BTC thì phân loại vào mã số 1211.90.19 đối với loại chủ yếu dùng làm dược liệu (dẫn chiếu STT 130 Danh mục 11 dược liệu làm thuốc ban hành kèm Thông tư 09/2024/TT-BYT ngày 11-06-2024 của Bộ Y tế — trong bản PDF công văn gõ nhầm số hiệu thành 90/2024/TT-BYT — gồm 1211.90.17 dạng tươi/khô đã cắt nghiền bột, 1211.90.18 dạng đã cắt nghiền bột, 1211.90.19 dạng khác), hoặc mã số 1211.90.99 nếu không phải loại chủ yếu dùng làm dược liệu; trường hợp không xác định được công dụng theo mô tả nhóm 12.11 hoặc thiếu giấy chứng nhận của cơ quan có thẩm quyền chứng minh mục đích dùng làm thực phẩm thì không thuộc nhóm 12.11; đang còn hiệu lực\n- **Văn bản dẫn chiếu liên quan:** `54/2014/QH13`, `31/2022/TT-BTC`, `09/2024/TT-BYT`, `85/2026/TT-BTC`",
+   "noi_dung": "- **Tóm lược nghiệp vụ:** Hướng dẫn phân loại Đông trùng hạ thảo (Cordyceps Sinensis) dạng khô nguyên con: thuộc nhóm 12.11 khi đáp ứng công dụng làm dược phẩm/nước hoa/thuốc diệt nấm (chủ yếu làm dược liệu: 1211.90.19; loại khác trong nhóm 12.11: 1211.90.99). Lưu ý lỗi gõ trong văn bản gốc: trang 2 ghi nhầm số hiệu hai chữ số đầu thành `\"90/2024\"` thay vì Thông tư [[sources/09-2024-tt-byt]] (`09/2024/TT-BYT` ngày 11/06/2024, STT 130 Danh mục 11).\n- **Đối chiếu bản gốc (OCR toàn văn):** đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/DONG_NAI/2026/10/20/23153_CHQ_NVTHQ_19_10_2026.pdf, id=106445, SHA-256 5e43312b20efd7ebb80aa265023dc798c2c64e376a1cac09c67b9c924b74ccf2): Công văn số 23153/CHQ-NVTHQ ngày 19-10-2026 của Cục Hải quan hướng dẫn phân loại mặt hàng Đông trùng hạ thảo (Cordyceps Sinensis) dạng khô, nguyên con, chưa cắt, nghiền hoặc xay thành bột: nếu chủ yếu dùng làm nước hoa, làm dược phẩm hoặc thuốc trừ sâu, thuốc diệt nấm hoặc các mục đích tương tự theo mô tả nhóm 12.11 Thông tư 31/2022/TT-BTC thì phân loại vào mã số 1211.90.19 đối với loại chủ yếu dùng làm dược liệu (dẫn chiếu STT 130 Danh mục 11 dược liệu làm thuốc ban hành kèm Thông tư 09/2024/TT-BYT ngày 11-06-2024 của Bộ Y tế — trong bản PDF công văn gõ nhầm hai chữ số đầu số hiệu — gồm 1211.90.17 dạng tươi/khô đã cắt nghiền bột, 1211.90.18 dạng đã cắt nghiền bột, 1211.90.19 dạng khác), hoặc mã số 1211.90.99 nếu không phải loại chủ yếu dùng làm dược liệu; trường hợp không xác định được công dụng theo mô tả nhóm 12.11 hoặc thiếu giấy chứng nhận của cơ quan có thẩm quyền chứng minh mục đích dùng làm thực phẩm thì không thuộc nhóm 12.11; đang còn hiệu lực\n- **Văn bản dẫn chiếu liên quan:** `54/2014/QH13`, `31/2022/TT-BTC`, `09/2024/TT-BYT`, `85/2026/TT-BTC`",
    "tags": [],
    "confidence": "high",
    "van_ban_lien_quan": [
@@ -120580,6 +120671,30 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "chunk_id": "3235-qd-byt-2024#1",
+   "slug": "3235-qd-byt-2024",
+   "duong_dan": "wiki/sources/3235-qd-byt-2024.md",
+   "loai_trang": "sources",
+   "tieu_de": "3235/QĐ-BYT — Công bố Danh mục thuốc, dược chất thuộc Danh mục chất bị cấm sử dụng",
+   "muc": "Tóm tắt & trạng thái nguồn",
+   "noi_dung": "**3235/QĐ-BYT** (ban hành **2024-11-01**, hiệu lực từ **2025-01-30**, cơ quan: **Bộ Y tế**): công bố Danh mục thuốc, dược chất thuộc Danh mục chất bị cấm sử dụng trong một số ngành, lĩnh vực (được chuyển tiếp áp dụng tại [[sources/18-2026-tt-byt]] Điều 17).\n\n- **Tình trạng hiện tại:** `CON_HIEU_LUC` (`NGUON_B`, `xac_minh.chan.ma: THIEU_PDF_A` — đang chờ bản PDF gốc trên `moh.gov.vn` / `dav.gov.vn`). Xem [[concepts/doc-tinh-trang-hieu-luc]].",
+   "tags": [],
+   "confidence": "medium",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "3235/QĐ-BYT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-01-30",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": false,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": null
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "chunk_id": "326-2018-qd-bct#1",
    "slug": "326-2018-qd-bct",
    "duong_dan": "wiki/sources/326-2018-qd-bct.md",
@@ -128219,6 +128334,42 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "chunk_id": "35-2026-tt-btc#1",
+   "slug": "35-2026-tt-btc",
+   "duong_dan": "wiki/sources/35-2026-tt-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "35/2026/TT-BTC — Chế độ tiếp khách nước ngoài, hội thảo quốc tế và tiếp khách trong nước",
+   "muc": "Tóm tắt & trạng thái nguồn",
+   "noi_dung": "**35/2026/TT-BTC** (ban hành **2026-03-31**, hiệu lực từ **2026-05-18**, cơ quan: **Bộ Tài chính**): quy định chế độ tiếp khách nước ngoài vào làm việc tại Việt Nam, chế độ chi tổ chức hội nghị, hội thảo quốc tế tại Việt Nam và chế độ tiếp khách trong nước, thay thế [[sources/71-2018-tt-btc]] (`71/2018/TT-BTC`). Đây là văn bản định mức chi ngân sách, không phải quy định XNK trực tiếp.\n\n- **Tình trạng hiện tại:** `CON_HIEU_LUC` (`NGUON_B`, `xac_minh.chan.ma: THIEU_PDF_A` — chờ bản gốc Công báo / `vanban.chinhphu.vn`). Xem [[concepts/doc-tinh-trang-hieu-luc]].",
+   "tags": [],
+   "confidence": "medium",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "35/2026/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-05-18",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": false,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": null
+    },
+    {
+     "so_hieu": "71/2018/TT-BTC",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2018-11-01",
+     "het_hieu_luc_tu": "2026-05-18",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "35/2026/TT-BTC"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-71-2018-tt-btc-27578.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "chunk_id": "351-2026-nd-cp#1",
    "slug": "351-2026-nd-cp",
    "duong_dan": "wiki/sources/351-2026-nd-cp.md",
@@ -129547,7 +129698,18 @@
    "noi_dung": "- **Điều 1:** Sửa đổi mức thuế suất thuế xuất khẩu tại Thông tư `164/2013/TT-BTC` đối với các mặt hàng thuộc nhóm `71.13`, `71.14`, `71.15`: vàng có hàm lượng **từ 95% trở lên** chịu thuế **2%**; hàm lượng vàng **dưới 95%** (loại khác) áp dụng **0%**.\n- **Điều 2:** Điều kiện áp dụng mức **0%** là phải có Phiếu kết quả thử nghiệm xác định hàm lượng vàng dưới 95% do tổ chức được chỉ định cấp (QUATEST 1, QUATEST 3, Viện Doji, ACB - Trung tâm vàng...), trừ gia công xuất khẩu hoặc sản xuất xuất khẩu từ toàn bộ nguyên liệu nhập khẩu theo giấy phép NHNN.\n- **Tình trạng hiện tại:** `HET_HIEU_LUC` từ `2016-01-01`. Xem quy tắc tra cứu tại [[concepts/doc-tinh-trang-hieu-luc]].",
    "tags": [],
    "confidence": "high",
-   "van_ban_lien_quan": [],
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "164/2013/TT-BTC",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2014-01-01",
+     "het_hieu_luc_tu": "2016-01-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=171769"
+    }
+   ],
    "canh_bao_hieu_luc": false
   },
   {
@@ -142865,6 +143027,26 @@
    "confidence": "high",
    "van_ban_lien_quan": [
     {
+     "so_hieu": "4286/QĐ-TCHQ",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2015-12-31",
+     "het_hieu_luc_tu": "2025-04-29",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://www.customs.gov.vn/index.jsp?pageId=3&id=99988&cid=1294"
+    },
+    {
+     "so_hieu": "136/QĐ-TCHQ",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2016-01-25",
+     "het_hieu_luc_tu": "2025-04-29",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://www.customs.gov.vn/index.jsp?pageId=3&id=99988&cid=1294"
+    },
+    {
      "so_hieu": "31/2018/NĐ-CP",
      "tinh_trang": "CON_HIEU_LUC",
      "hieu_luc_tu": "2018-03-08",
@@ -143402,6 +143584,43 @@
     "hai-quan",
     "bai-bo"
    ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "47-2025-tt-byt#1",
+   "slug": "47-2025-tt-byt",
+   "duong_dan": "wiki/sources/47-2025-tt-byt.md",
+   "loai_trang": "sources",
+   "tieu_de": "47/2025/TT-BYT — Bãi bỏ một số văn bản quy phạm pháp luật do Bộ trưởng Bộ Y tế ban hành",
+   "muc": "Tóm tắt & nội dung chính",
+   "noi_dung": "**47/2025/TT-BYT** (ban hành **2025-12-30**, hiệu lực từ **2026-02-15**, cơ quan: **Bộ Y tế**): bãi bỏ toàn bộ 43 văn bản quy phạm pháp luật cũ (Điều 1) và bãi bỏ một phần 02 văn bản (Điều 2), trong đó có quy định thời hạn 02 năm của Giấy chứng nhận CGMP-ASEAN và Mẫu số 01/CGMP-MP trong hướng dẫn thực hành tốt sản xuất mỹ phẩm (liên kết đồng bộ TTHC mỹ phẩm tại [[sources/1536-qd-byt-2026]], [[sources/7866-qd-byt]], [[sources/06-2011-tt-byt]], [[sources/34-2025-tt-byt]]).",
+   "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "47/2025/TT-BYT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-02-15",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://chinhphu.vn/?pageid=27160&docid=216427"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "47-2025-tt-byt#2",
+   "slug": "47-2025-tt-byt",
+   "duong_dan": "wiki/sources/47-2025-tt-byt.md",
+   "loai_trang": "sources",
+   "tieu_de": "47/2025/TT-BYT — Bãi bỏ một số văn bản quy phạm pháp luật do Bộ trưởng Bộ Y tế ban hành",
+   "muc": "Nguồn & tình trạng hiệu lực",
+   "noi_dung": "- **Tình trạng hiện tại:** `CON_HIEU_LUC` (Điều 3 khoản 1 quy định có hiệu lực từ `15/02/2026`).\n- Xác minh mức `NGUON_A` qua Cổng TTĐT Chính phủ (`docid=216427`) và tệp PDF có lớp chữ `47-byt.pdf` (5 trang). Xem [[concepts/doc-tinh-trang-hieu-luc]].",
+   "tags": [],
    "confidence": "high",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
@@ -152413,7 +152632,9 @@
      "hieu_luc_tu": "2016-05-26",
      "het_hieu_luc_tu": "2022-01-01",
      "hieu_luc_da_doi_chieu": true,
-     "bi_thay_the_boi": [],
+     "bi_thay_the_boi": [
+      "85/2021/TT-BTC"
+     ],
      "bi_bai_bo_boi": [],
      "nguon_a": "https://chinhphu.vn/?pageid=27160&docid=185183"
     }
@@ -152430,7 +152651,18 @@
    "noi_dung": "- **Tình trạng hiện tại:** `HET_HIEU_LUC` (đối chiếu Cổng TTĐT Chính phủ (docid=185183) và PDF ký số 16 trang đã OCR (SHA-256 f083cada5511...): Thứ trưởng Đỗ Hoàng Anh Tuấn ký ngày 11-04-2016, hiệu lực 26-05-2016; hết hiệu lực từ 01-01-2022 theo Thông tư 85/2021/TT-BTC).\n- **Ghi chú:** Nạp từ nhu cầu khách tra (issue [miss] #414). Đã hết hiệu lực từ 01-01-2022 (thay bởi TT 85/2021/TT-BTC).",
    "tags": [],
    "confidence": "high",
-   "van_ban_lien_quan": [],
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "85/2021/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2022-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": false,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": null
+    }
+   ],
    "canh_bao_hieu_luc": false
   },
   {
@@ -157094,7 +157326,9 @@
      "hieu_luc_tu": "2018-11-01",
      "het_hieu_luc_tu": "2026-05-18",
      "hieu_luc_da_doi_chieu": true,
-     "bi_thay_the_boi": [],
+     "bi_thay_the_boi": [
+      "35/2026/TT-BTC"
+     ],
      "bi_bai_bo_boi": [],
      "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-71-2018-tt-btc-27578.htm"
     }
@@ -157111,7 +157345,18 @@
    "noi_dung": "- **Tình trạng hiện tại:** `HET_HIEU_LUC` (đối chiếu toàn văn Công báo số 1029+1030 ngày 10-11-2018 (31 trang có lớp chữ, SHA-256 796856a43b52...): ban hành ngày 10-08-2018, hiệu lực từ 01-11-2018; hết hiệu lực từ 18-05-2026 theo Thông tư 35/2026/TT-BTC ngày 31-03-2026).\n- **Ghi chú:** Nạp từ nhu cầu khách tra (issue [miss] #416). Đã hết hiệu lực từ 18-05-2026 (thay bởi TT 35/2026/TT-BTC).",
    "tags": [],
    "confidence": "high",
-   "van_ban_lien_quan": [],
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "35/2026/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-05-18",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": false,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": null
+    }
+   ],
    "canh_bao_hieu_luc": false
   },
   {
@@ -162679,6 +162924,16 @@
      "nguon_a": "https://www.customs.gov.vn/index.jsp?pageId=3&id=98391&cid=1294"
     },
     {
+     "so_hieu": "1647/QĐ-TCHQ",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": null,
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": false,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": null
+    },
+    {
      "so_hieu": "191/2015/TT-BTC",
      "tinh_trang": "CON_HIEU_LUC",
      "hieu_luc_tu": "2016-01-01",
@@ -165744,6 +165999,42 @@
    ],
    "confidence": "low",
    "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "85-2021-tt-btc#1",
+   "slug": "85-2021-tt-btc",
+   "duong_dan": "wiki/sources/85-2021-tt-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "85/2021/TT-BTC — Hướng dẫn thu, nộp lợi nhuận, cổ tức cho phần vốn nhà nước tại doanh nghiệp",
+   "muc": "Tóm tắt & trạng thái nguồn",
+   "noi_dung": "**85/2021/TT-BTC** (ban hành **2021-10-05**, hiệu lực từ **2022-01-01**, cơ quan: **Bộ Tài chính**): hướng dẫn thu, nộp khoản lợi nhuận, cổ tức được chia cho phần vốn nhà nước đầu tư tại doanh nghiệp, thay thế [[sources/61-2016-tt-btc]] (`61/2016/TT-BTC`). Đây là văn bản quản lý tài chính doanh nghiệp nhà nước, không quy định trực tiếp thủ tục hay thuế xuất nhập khẩu.\n\n- **Tình trạng hiện tại:** `CON_HIEU_LUC` (`NGUON_B`, `xac_minh.chan.ma: THIEU_PDF_A` — chờ bản gốc Công báo / `vanban.chinhphu.vn`). Xem [[concepts/doc-tinh-trang-hieu-luc]].",
+   "tags": [],
+   "confidence": "medium",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "85/2021/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2022-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": false,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": null
+    },
+    {
+     "so_hieu": "61/2016/TT-BTC",
+     "tinh_trang": "HET_HIEU_LUC",
+     "hieu_luc_tu": "2016-05-26",
+     "het_hieu_luc_tu": "2022-01-01",
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "85/2021/TT-BTC"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://chinhphu.vn/?pageid=27160&docid=185183"
+    }
+   ],
    "canh_bao_hieu_luc": false
   },
   {

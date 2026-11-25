@@ -1,6 +1,6 @@
 {
   "ngay": "2026-11-25",
-  "tong": 3040,
+  "tong": 3033,
   "diem": [
     {
       "ma": "CO_QUAN_DA_SAP_NHAP",
@@ -4023,6 +4023,33 @@
       "muc_tieu": "1621/TB-TCHQ/2020",
       "viec": "Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "tb-tchq",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_NGUON_A",
+      "muc": "Thấp",
+      "tieuDe": "1647/QĐ-TCHQ: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)",
+      "muc_tieu": "1647/QĐ-TCHQ",
+      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
+      "luong": "truy-vet-nguon",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "1647/QĐ-TCHQ: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "1647/QĐ-TCHQ",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
+      "ma": "CO_QUAN_DA_SAP_NHAP",
+      "muc": "Thấp",
+      "tieuDe": "1647/QĐ-TCHQ (Tổng cục Hải quan) còn ghi hiệu lực — cơ quan đã sáp nhập vào CHQ",
+      "muc_tieu": "1647/QĐ-TCHQ",
+      "viec": "Kiểm tra CHQ đã ban hành văn bản thay thế chưa.",
+      "luong": "do-tham",
       "trongSo": 0
     },
     {
@@ -12738,6 +12765,24 @@
       "trongSo": 0
     },
     {
+      "ma": "KHONG_NGUON_A",
+      "muc": "Thấp",
+      "tieuDe": "3235/QĐ-BYT: chưa có nguồn chính thống",
+      "muc_tieu": "3235/QĐ-BYT",
+      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
+      "luong": "truy-vet-nguon",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "3235/QĐ-BYT: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "3235/QĐ-BYT",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
       "ma": "TB_TCHQ_KHONG_NGUON_A",
       "muc": "Thấp",
       "tieuDe": "3235/TB-TCHQ/2018: TB-TCHQ chưa có nguồn chính thống",
@@ -13851,6 +13896,24 @@
       "muc_tieu": "3424/TB-TCHQ/2018",
       "viec": "Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "tb-tchq",
+      "trongSo": 0
+    },
+    {
+      "ma": "KHONG_NGUON_A",
+      "muc": "Thấp",
+      "tieuDe": "35/2026/TT-BTC: chưa có nguồn chính thống",
+      "muc_tieu": "35/2026/TT-BTC",
+      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
+      "luong": "truy-vet-nguon",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "35/2026/TT-BTC: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "35/2026/TT-BTC",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
       "trongSo": 0
     },
     {
@@ -24474,6 +24537,24 @@
       "trongSo": 0
     },
     {
+      "ma": "KHONG_NGUON_A",
+      "muc": "Thấp",
+      "tieuDe": "85/2021/TT-BTC: chưa có nguồn chính thống",
+      "muc_tieu": "85/2021/TT-BTC",
+      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
+      "luong": "truy-vet-nguon",
+      "trongSo": 0
+    },
+    {
+      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
+      "muc": "Thấp",
+      "tieuDe": "85/2021/TT-BTC: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
+      "muc_tieu": "85/2021/TT-BTC",
+      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
+      "luong": "hieu-luc",
+      "trongSo": 0
+    },
+    {
       "ma": "TB_TCHQ_KHONG_NGUON_A",
       "muc": "Thấp",
       "tieuDe": "857/TB-TCHQ/2019: TB-TCHQ chưa có nguồn chính thống",
@@ -25200,150 +25281,6 @@
       "muc_tieu": "99899/TB-TCHQ/2023",
       "viec": "Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "tb-tchq",
-      "trongSo": 0
-    },
-    {
-      "ma": "WIKI_NHAC_CHUA_DANG_KY",
-      "muc": "Vừa",
-      "tieuDe": "Wiki nhắc 47/2025/TT-BYT nhưng sổ chưa có",
-      "muc_tieu": "47/2025/TT-BYT",
-      "viec": "Thêm vào sổ (wiki/sources/1536-qd-byt-2026.md).",
-      "luong": "lien-ket-cheo",
-      "trongSo": 0
-    },
-    {
-      "ma": "WIKI_NHAC_CHUA_DANG_KY",
-      "muc": "Vừa",
-      "tieuDe": "Wiki nhắc 3235/QĐ-BYT nhưng sổ chưa có",
-      "muc_tieu": "3235/QĐ-BYT",
-      "viec": "Thêm vào sổ (wiki/sources/18-2026-tt-byt.md).",
-      "luong": "lien-ket-cheo",
-      "trongSo": 0
-    },
-    {
-      "ma": "WIKI_NHAC_CHUA_DANG_KY",
-      "muc": "Vừa",
-      "tieuDe": "Wiki nhắc 178/2011/TT-BTC nhưng sổ chưa có",
-      "muc_tieu": "178/2011/TT-BTC",
-      "viec": "Thêm vào sổ (wiki/sources/1813-btc-tchq-2025.md).",
-      "luong": "lien-ket-cheo",
-      "trongSo": 0
-    },
-    {
-      "ma": "WIKI_NHAC_CHUA_DANG_KY",
-      "muc": "Vừa",
-      "tieuDe": "Wiki nhắc 90/2024/TT-BYT nhưng sổ chưa có",
-      "muc_tieu": "90/2024/TT-BYT",
-      "viec": "Thêm vào sổ (wiki/sources/23153-chq-nvthq-2026.md).",
-      "luong": "lien-ket-cheo",
-      "trongSo": 0
-    },
-    {
-      "ma": "WIKI_NHAC_CHUA_DANG_KY",
-      "muc": "Vừa",
-      "tieuDe": "Wiki nhắc 5113/QĐ-BCT nhưng sổ chưa có",
-      "muc_tieu": "5113/QĐ-BCT",
-      "viec": "Thêm vào sổ (wiki/sources/326-2018-qd-bct.md).",
-      "luong": "lien-ket-cheo",
-      "trongSo": 0
-    },
-    {
-      "ma": "WIKI_NHAC_CHUA_DANG_KY",
-      "muc": "Vừa",
-      "tieuDe": "Wiki nhắc 164/2013/TT-BTC nhưng sổ chưa có",
-      "muc_tieu": "164/2013/TT-BTC",
-      "viec": "Thêm vào sổ (wiki/sources/36-2015-tt-btc.md).",
-      "luong": "lien-ket-cheo",
-      "trongSo": 0
-    },
-    {
-      "ma": "WIKI_NHAC_CHUA_DANG_KY",
-      "muc": "Vừa",
-      "tieuDe": "Wiki nhắc 4286/QĐ-TCHQ nhưng sổ chưa có",
-      "muc_tieu": "4286/QĐ-TCHQ",
-      "viec": "Thêm vào sổ (wiki/sources/467-qd-chq-2025.md).",
-      "luong": "lien-ket-cheo",
-      "trongSo": 0
-    },
-    {
-      "ma": "WIKI_NHAC_CHUA_DANG_KY",
-      "muc": "Vừa",
-      "tieuDe": "Wiki nhắc 136/QĐ-TCHQ nhưng sổ chưa có",
-      "muc_tieu": "136/QĐ-TCHQ",
-      "viec": "Thêm vào sổ (wiki/sources/467-qd-chq-2025.md).",
-      "luong": "lien-ket-cheo",
-      "trongSo": 0
-    },
-    {
-      "ma": "WIKI_NHAC_CHUA_DANG_KY",
-      "muc": "Vừa",
-      "tieuDe": "Wiki nhắc 85/2021/TT-BTC nhưng sổ chưa có",
-      "muc_tieu": "85/2021/TT-BTC",
-      "viec": "Thêm vào sổ (wiki/sources/61-2016-tt-btc.md).",
-      "luong": "lien-ket-cheo",
-      "trongSo": 0
-    },
-    {
-      "ma": "WIKI_NHAC_CHUA_DANG_KY",
-      "muc": "Vừa",
-      "tieuDe": "Wiki nhắc 35/2026/TT-BTC nhưng sổ chưa có",
-      "muc_tieu": "35/2026/TT-BTC",
-      "viec": "Thêm vào sổ (wiki/sources/71-2018-tt-btc.md).",
-      "luong": "lien-ket-cheo",
-      "trongSo": 0
-    },
-    {
-      "ma": "WIKI_NHAC_CHUA_DANG_KY",
-      "muc": "Vừa",
-      "tieuDe": "Wiki nhắc 1647/QĐ-TCHQ nhưng sổ chưa có",
-      "muc_tieu": "1647/QĐ-TCHQ",
-      "viec": "Thêm vào sổ (wiki/sources/787-tchq-txnk-2025.md).",
-      "luong": "lien-ket-cheo",
-      "trongSo": 0
-    },
-    {
-      "ma": "WIKI_NHAC_CHUA_DANG_KY",
-      "muc": "Vừa",
-      "tieuDe": "Wiki nhắc 35/2015/TT-BYT nhưng sổ chưa có",
-      "muc_tieu": "35/2015/TT-BYT",
-      "viec": "Thêm vào sổ (wiki/sources/qcvn-12-4-2015-byt.md).",
-      "luong": "lien-ket-cheo",
-      "trongSo": 0
-    },
-    {
-      "ma": "DOC_HIEU_THIEU_NGHIA_VU",
-      "muc": "Thấp",
-      "tieuDe": "data/doc-hieu/tt-31-2022-cb-523-524.dieu.jsonl: 353/359 (98%) điều hợp lệ trống nghia_vu_xnk",
-      "muc_tieu": "tt-31-2022-cb-523-524",
-      "viec": "Soát tay data/doc-hieu/tt-31-2022-cb-523-524.dieu.jsonl: 353/359 điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.",
-      "luong": "doc-hieu",
-      "trongSo": 0
-    },
-    {
-      "ma": "DOC_HIEU_THIEU_NGHIA_VU",
-      "muc": "Thấp",
-      "tieuDe": "data/doc-hieu/tt-31-2022-cb-545-546.dieu.jsonl: 144/156 (92%) điều hợp lệ trống nghia_vu_xnk",
-      "muc_tieu": "tt-31-2022-cb-545-546",
-      "viec": "Soát tay data/doc-hieu/tt-31-2022-cb-545-546.dieu.jsonl: 144/156 điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.",
-      "luong": "doc-hieu",
-      "trongSo": 0
-    },
-    {
-      "ma": "DOC_HIEU_THIEU_NGHIA_VU",
-      "muc": "Thấp",
-      "tieuDe": "data/doc-hieu/tt-31-2022-cb-549-550.dieu.jsonl: 384/384 (100%) điều hợp lệ trống nghia_vu_xnk",
-      "muc_tieu": "tt-31-2022-cb-549-550",
-      "viec": "Soát tay data/doc-hieu/tt-31-2022-cb-549-550.dieu.jsonl: 384/384 điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.",
-      "luong": "doc-hieu",
-      "trongSo": 0
-    },
-    {
-      "ma": "DOC_HIEU_THIEU_NGHIA_VU",
-      "muc": "Thấp",
-      "tieuDe": "data/doc-hieu/tt-31-2022-cb-557-558.dieu.jsonl: 135/159 (85%) điều hợp lệ trống nghia_vu_xnk",
-      "muc_tieu": "tt-31-2022-cb-557-558",
-      "viec": "Soát tay data/doc-hieu/tt-31-2022-cb-557-558.dieu.jsonl: 135/159 điều hợp lệ đang để trống nghia_vu_xnk (≥50%), bổ sung nghĩa vụ XNK nếu điều có tác động.",
-      "luong": "doc-hieu",
       "trongSo": 0
     },
     {

@@ -2,7 +2,7 @@
   "phien_ban": "2026-11-25",
   "luoc_do_phien_ban": "1.5.0",
   "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
-  "tong": 3268,
+  "tong": 3277,
   "van_ban": [
     {
       "so_hieu": "01/2009/TT-BKHCN",
@@ -29232,6 +29232,46 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "136/QĐ-TCHQ",
+      "loai": "QUYET_DINH",
+      "ten": "Về việc bổ sung Điều 4 Quyết định số 4286/QĐ-TCHQ ngày 31/12/2015 ban hành Quy trình kiểm tra, xác định xuất xứ hàng hóa xuất khẩu, nhập khẩu",
+      "co_quan": "TCHQ",
+      "ngay_ban_hanh": "2016-01-25",
+      "hieu_luc_tu": "2016-01-25",
+      "het_hieu_luc_tu": "2025-04-29",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "xuat-xu-fta/quy-tac-xuat-xu",
+        "hai-quan/so-tay-nghiep-vu"
+      ],
+      "quan_he": {
+        "sua_doi": [
+          "4286/QĐ-TCHQ"
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=99988&cid=1294",
+          "truy_cap": "2026-11-25"
+        },
+        {
+          "url": "https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/5/6/VB_467.pdf",
+          "truy_cap": "2026-11-25"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu nguyên văn Điều 2 Quyết định 467/QĐ-CHQ ngày 29-04-2025 (PDF ký số bậc A VB_467.pdf trên Cổng Hải quan): xác nhận Quyết định 136/QĐ-TCHQ ngày 25-01-2016 đã hết hiệu lực và bị thay thế bởi Quyết định 467/QĐ-CHQ từ ngày 29-04-2025.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-25",
+        "boi": "antigravity@ozvietnam"
+      },
+      "ghi_chu": "Đóng điểm mù WIKI_NHAC_CHUA_DANG_KY từ wiki/sources/467-qd-chq-2025.md.",
+      "slug": "136-qd-tchq-2016",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "136/TB-TCHQ/2020",
       "loai": "THONG_BAO",
       "loai_phan_loai": "KIEM_TRA_XAC_DINH_LAI",
@@ -38715,6 +38755,40 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "164/2013/TT-BTC",
+      "loai": "THONG_TU",
+      "ten": "Ban hành Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi theo danh mục mặt hàng chịu thuế",
+      "co_quan": "BTC",
+      "ngay_ban_hanh": "2013-11-15",
+      "hieu_luc_tu": "2014-01-01",
+      "het_hieu_luc_tu": "2016-01-01",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "thue/bieu-thue"
+      ],
+      "nguon": [
+        {
+          "url": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=171769",
+          "truy_cap": "2026-11-25"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2014/01/tt-164-1.pdf",
+          "truy_cap": "2026-11-25"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Cổng TTĐT Chính phủ (docid=171769) xác nhận ban hành 15-11-2013, hiệu lực 01-01-2014 và hết hiệu lực từ 01-01-2016 (khi Thông tư 182/2015/TT-BTC có hiệu lực).",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-25",
+        "boi": "antigravity@ozvietnam"
+      },
+      "ghi_chu": "Đóng điểm mù WIKI_NHAC_CHUA_DANG_KY từ wiki/sources/36-2015-tt-btc.md.",
+      "slug": "164-2013-tt-btc",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "16407/TB-CHQ/2026",
       "so_hieu_khac": [
         "16407/TB-CHQ"
@@ -38794,6 +38868,44 @@
       "toan_van": "raw/download/files.customs.gov.vn/16460-tb-chq-2025.pdf",
       "slug": "16460-tb-chq-2025",
       "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "1647/QĐ-TCHQ",
+      "loai": "QUYET_DINH",
+      "ten": "Ban hành Sổ tay nghiệp vụ kế toán thuế và thu khác, quản lý nợ thuế đối với hàng hóa xuất khẩu, nhập khẩu",
+      "co_quan": "TCHQ",
+      "ngay_ban_hanh": "2020-06-26",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/so-tay-nghiep-vu",
+        "thue"
+      ],
+      "nguon": [
+        {
+          "url": "https://taisancong.vn/mot-so-vuong-mac-ve-phan-mem-ke-toan-thue-tap-trung-127988.html",
+          "truy_cap": "2026-11-25"
+        },
+        {
+          "url": "https://bachkhoaluat.vn/van-ban/1647-qd-tchq-2020-so-tay-nghiep-vu-ke-toan-thue-va-thu-khac-quan-ly-no-thue-doi-voi-hang-hoa-xuat-khau-nhap-khau-302923.html",
+          "truy_cap": "2026-11-25"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "Quyết định nghiệp vụ nội bộ ngành Hải quan ngày 26-06-2020 về Sổ tay nghiệp vụ kế toán thuế và thu khác trên hệ thống KTTTT (được dẫn chiếu tại Công văn 787/TCHQ-TXNK ngày 18-02-2025); chờ bản gốc công bố trên customs.gov.vn.",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-11-25",
+        "boi": "antigravity@ozvietnam",
+        "chan": {
+          "ma": "THIEU_PDF_A",
+          "ngay": "2026-11-25",
+          "viec_tiep": "Quyết định sổ tay nghiệp vụ nội bộ ngành Hải quan — chờ công bố PDF gốc trên customs.gov.vn."
+        }
+      },
+      "ghi_chu": "Đóng điểm mù WIKI_NHAC_CHUA_DANG_KY từ wiki/sources/787-tchq-txnk-2025.md.",
+      "slug": "1647-qd-tchq-2020",
+      "bac_nguon_cao_nhat": "C",
       "quan_he_nguoc": {}
     },
     {
@@ -43437,6 +43549,103 @@
       "ghi_chu": "Xác định trước mã số mặt hàng Thuốc nhỏ mắt Levo JP Eye Drops 0.5% dạng dung dịch (mỗi lọ 5 mL chứa Levofloxacin hydrate JP 25 mg và tá dược, mã ATC S01AE05, đóng gói hộp 1 lọ 5 mL để bán lẻ) thuộc nhóm 30.04, phân nhóm 3004.90, mã số 3004.90.99.",
       "toan_van": "raw/download/files.customs.gov.vn/17792-tb-chq-2026.pdf",
       "slug": "17792-tb-chq-2026",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "178/2011/TT-BTC",
+      "loai": "THONG_TU",
+      "ten": "Hướng dẫn về việc tạo, phát hành, sử dụng và quản lý Biên lai thu thuế, lệ phí hải quan đối với hàng hóa xuất khẩu, nhập khẩu của các Doanh nghiệp kinh doanh dịch vụ chuyển phát nhanh đường hàng không quốc tế",
+      "co_quan": "BTC",
+      "ngay_ban_hanh": "2011-12-08",
+      "hieu_luc_tu": "2012-01-22",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/thu-tuc",
+        "thue/thue-noi-dia-khau-nk"
+      ],
+      "nguon": [
+        {
+          "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-178-2011-tt-btc-13781.htm",
+          "truy_cap": "2026-11-25"
+        },
+        {
+          "url": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2011/12/13781/8894-1-2011653-654-1782011tt-btcpdf",
+          "truy_cap": "2026-11-25"
+        }
+      ],
+      "toan_van": "raw/download/congbaocdn.chinhphu.vn/178-2011-tt-btc.pdf",
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Công báo Chính phủ số 653+654 (doc 13781, PDF 10 trang có lớp chữ 39.444 ký tự): ban hành 08-12-2011, Điều 13 có hiệu lực từ 22-01-2012; được Công văn 1813/BTC-TCHQ (17-02-2025) tiếp tục dẫn chiếu cùng Nghị định 123/2020/NĐ-CP về biên lai thu thuế chuyển phát nhanh.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-25",
+        "boi": "antigravity@ozvietnam",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Điều 1. Phạm vi điều chỉnh Thông tư này hướng dẫn về việc tạo, phát hành, sử dụng và quản lý Biên lai thu thuế, lệ phí hải quan đối với hàng hóa xuất khẩu, nhập khẩu (sau đây gọi tắt là Biên lai) của các Doanh nghiệp kinh doanh dịch vụ chuyển phát nhanh đường hàng không quốc tế và xử phạt vi phạm hành chính liên quan đến việc tạo, phát hành, sử dụng và quản lý Biên lai.",
+            "trang_pdf": 1,
+            "sha256_pdf": "af0bbec095146349531dde790fb259d60092a5cd147dc446c32670742c34843f"
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "Điều 2. Đối tượng áp dụng 1. Doanh nghiệp kinh doanh dịch vụ chuyển phát nhanh đường hàng không quốc tế đối với hàng hóa xuất khẩu, nhập khẩu theo quy định hiện hành của pháp luật Việt Nam (sau đây gọi tắt là Doanh nghiệp).",
+            "trang_pdf": 1,
+            "sha256_pdf": "af0bbec095146349531dde790fb259d60092a5cd147dc446c32670742c34843f"
+          },
+          {
+            "dieu": 3,
+            "noi_dung": "Điều 3. Nội dung Biên lai 1. Biên lai thu thuế, phí hải quan là ấn chỉ thuế do cơ quan hải quan ủy nhiệm cho Doanh nghiệp tạo ra trên các thiết bị tin học, để ghi nhận thông tin số thuế, lệ phí hải quan phải thu của Khách hàng theo quy định pháp luật khi cung cấp dịch vụ chuyển phát nhanh đường hàng không quốc tế đối với hàng hóa xuất khẩu, nhập khẩu.",
+            "trang_pdf": 2,
+            "sha256_pdf": "af0bbec095146349531dde790fb259d60092a5cd147dc446c32670742c34843f"
+          },
+          {
+            "dieu": 5,
+            "noi_dung": "Điều 5. Tạo Biên lai 1. Biên lai được tạo phải đảm bảo: 1.1. Phần mềm ứng dụng để in Biên lai phải đáp ứng yêu cầu bảo mật bằng việc phân quyền cho người sử dụng, người không được phân quyền không được can thiệp làm thay đổi dữ liệu trên ứng dụng. 1.2. Việc đánh số thứ tự được thực hiện tự động, mỗi liên của một số Biên lai chỉ được in ra một lần.",
+            "trang_pdf": 4,
+            "sha256_pdf": "af0bbec095146349531dde790fb259d60092a5cd147dc446c32670742c34843f"
+          },
+          {
+            "dieu": 6,
+            "noi_dung": "Điều 6. Thông báo phát hành Biên lai 1. Các Doanh nghiệp trước khi sử dụng Biên lai tự tạo theo hướng dẫn tại Điều 5 phải lập Thông báo phát hành Biên lai theo mẫu số 1 ban hành kèm theo Thông tư này.",
+            "trang_pdf": 4,
+            "sha256_pdf": "af0bbec095146349531dde790fb259d60092a5cd147dc446c32670742c34843f"
+          },
+          {
+            "dieu": 7,
+            "noi_dung": "Điều 7. Sử dụng Biên lai 1. Nguyên tắc sử dụng Biên lai: 1.1. Sau khi tạo Biên lai, Doanh nghiệp giao Biên lai cho Khách theo hướng dẫn của Thông tư này khi làm xong thủ tục hải quan. 1.2. Phải sử dụng Biên lai theo đúng thứ tự từ số nhỏ đến số lớn, không được dùng cách số.",
+            "trang_pdf": 5,
+            "sha256_pdf": "af0bbec095146349531dde790fb259d60092a5cd147dc446c32670742c34843f"
+          },
+          {
+            "dieu": 9,
+            "noi_dung": "Điều 9. Xử phạt các hành vi vi phạm quy định về Biên lai 1. Xử phạt vi phạm về Biên lai được thực hiện theo quy định tại Nghị định số 185/2004/NĐ-CP ngày 04/11/2004 về xử phạt vi phạm hành chính trong lĩnh vực kế toán và Nghị định số 39/2011/NĐ-CP ngày 26/5/2011 sửa đổi, bổ sung một số điều của Nghị định số 185/2004/NĐ-CP.",
+            "trang_pdf": 9,
+            "sha256_pdf": "af0bbec095146349531dde790fb259d60092a5cd147dc446c32670742c34843f"
+          },
+          {
+            "dieu": 10,
+            "noi_dung": "Điều 10. Thẩm quyền xử phạt vi phạm về Biên lai 1. Thẩm quyền xử phạt vi phạm về Biên lai được thực hiện theo quy định tại các Điều 29, 30, 36 và 38 Pháp lệnh Xử lý vi phạm hành chính và Nghị định số 185/2004/NĐ-CP ngày 04/11/2004 về xử phạt vi phạm hành chính trong lĩnh vực kế toán, Nghị định số 39/2011/NĐ-CP ngày 26/5/2011 sửa đổi, bổ sung một số điều của Nghị định số 185/2004/NĐ-CP.",
+            "trang_pdf": 9,
+            "sha256_pdf": "af0bbec095146349531dde790fb259d60092a5cd147dc446c32670742c34843f"
+          },
+          {
+            "dieu": 11,
+            "noi_dung": "Điều 11. Kiểm tra, thanh tra việc in, phát hành, quản lý và sử dụng Biên lai 1. Kiểm tra tại trụ sở cơ quan hải quan. 1.1. Cơ quan hải quan nơi đăng ký tờ khai hải quan thực hiện kiểm tra việc tạo, phát hành, quản lý và sử dụng Biên lai trên báo cáo tình hình sử dụng Biên lai của các Doanh nghiệp. Tối đa là mười (10) ngày làm việc kể từ ngày nhận được báo",
+            "trang_pdf": 9,
+            "sha256_pdf": "af0bbec095146349531dde790fb259d60092a5cd147dc446c32670742c34843f"
+          },
+          {
+            "dieu": 13,
+            "noi_dung": "Điều 13. Hiệu lực thi hành Thông tư này có hiệu lực thi hành kể từ ngày 22/01/2012.",
+            "trang_pdf": 11,
+            "sha256_pdf": "af0bbec095146349531dde790fb259d60092a5cd147dc446c32670742c34843f"
+          }
+        ]
+      },
+      "ghi_chu": "Đóng điểm mù WIKI_NHAC_CHUA_DANG_KY từ wiki/sources/1813-btc-tchq-2025.md.",
+      "slug": "178-2011-tt-btc",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
@@ -86189,6 +86398,44 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "3235/QĐ-BYT",
+      "loai": "QUYET_DINH",
+      "ten": "Về việc công bố Danh mục thuốc, dược chất thuộc Danh mục chất bị cấm sử dụng trong một số ngành, lĩnh vực",
+      "co_quan": "BYT",
+      "ngay_ban_hanh": "2024-11-01",
+      "hieu_luc_tu": "2025-01-30",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/byt"
+      ],
+      "nguon": [
+        {
+          "url": "https://thuvienphapluat.vn/van-ban/The-thao-Y-te/Quyet-dinh-3235-QD-BYT-2024-thuoc-thuoc-Danh-muc-chat-bi-cam-su-dung-mot-so-nganh-linh-vuc-629723.aspx",
+          "truy_cap": "2026-11-25"
+        },
+        {
+          "url": "https://medgate.vn/wp-content/uploads/2024/11/QD-3235-danh-muc-cac-chat-bi-cam-su-dung-trong-mot-so-nganh-linh-vuc.pdf",
+          "truy_cap": "2026-11-25"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "Đối chiếu qua Thư viện Pháp luật (629723) và bản PDF đăng lại trên cổng doanh nghiệp dược: Quyết định 3235/QĐ-BYT ngày 01-11-2024 (hiệu lực từ 30-01-2025); đang chờ bản PDF gốc ký số trên cổng moh.gov.vn / dav.gov.vn.",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-11-25",
+        "boi": "antigravity@ozvietnam",
+        "chan": {
+          "ma": "THIEU_PDF_A",
+          "ngay": "2026-11-25",
+          "viec_tiep": "Tìm và nạp bản gốc ký số trên moh.gov.vn / dav.gov.vn / vanban.chinhphu.vn."
+        }
+      },
+      "ghi_chu": "Đóng điểm mù WIKI_NHAC_CHUA_DANG_KY từ wiki/sources/18-2026-tt-byt.md.",
+      "slug": "3235-qd-byt-2024",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {}
+    },
+    {
       "so_hieu": "3235/TB-TCHQ/2018",
       "loai": "THONG_BAO",
       "loai_phan_loai": "KIEM_TRA_XAC_DINH_LAI",
@@ -92151,6 +92398,52 @@
           }
         ]
       }
+    },
+    {
+      "so_hieu": "35/2026/TT-BTC",
+      "loai": "THONG_TU",
+      "ten": "Quy định chế độ tiếp khách nước ngoài vào làm việc tại Việt Nam, chế độ chi tổ chức hội nghị, hội thảo quốc tế tại Việt Nam và chế độ tiếp khách trong nước",
+      "co_quan": "BTC",
+      "ngay_ban_hanh": "2026-03-31",
+      "hieu_luc_tu": "2026-05-18",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "bo-may"
+      ],
+      "quan_he": {
+        "thay_the": [
+          {
+            "so_hieu": "71/2018/TT-BTC",
+            "tu_ngay": "2026-05-18"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://thuvienphapluat.vn/van-ban/Tai-chinh-nha-nuoc/Thong-tu-35-2026-TT-BT%D0%A1-che-do-tiep-khach-nuoc-ngoai-vao-lam-viec-tai-Viet-Nam-700176.aspx",
+          "truy_cap": "2026-11-25"
+        },
+        {
+          "url": "https://stc.quangngai.gov.vn/thong-tin-hoat-dong-nganh/bo-tai-chinh-ban-hanh-thong-tu-so-35-2026-tt-btc-ngay-31-thang-3-nam-2026-quy-dinh-che-do-tiep-khach-nuoc-ngoai-vao-lam-.html",
+          "truy_cap": "2026-11-25"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "Đối chiếu qua Thư viện Pháp luật (700176) và cổng Sở Tài chính Quảng Ngãi: ban hành 31-03-2026, hiệu lực từ 18-05-2026, thay thế Thông tư 71/2018/TT-BTC; chờ link/PDF gốc trên vanban.chinhphu.vn / congbao.chinhphu.vn.",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-11-25",
+        "boi": "antigravity@ozvietnam",
+        "chan": {
+          "ma": "THIEU_PDF_A",
+          "ngay": "2026-11-25",
+          "viec_tiep": "Tìm và nạp bản gốc Công báo / Cổng TTĐT Chính phủ cho 35/2026/TT-BTC."
+        }
+      },
+      "ghi_chu": "Đóng điểm mù WIKI_NHAC_CHUA_DANG_KY từ wiki/sources/71-2018-tt-btc.md. Văn bản định mức chi ngân sách tiếp khách/hội nghị, không phải quy định XNK trực tiếp.",
+      "slug": "35-2026-tt-btc",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "350/TB-CHQ/2025",
@@ -108793,6 +109086,49 @@
       "quan_he_nguoc": {}
     },
     {
+      "so_hieu": "4286/QĐ-TCHQ",
+      "loai": "QUYET_DINH",
+      "ten": "Về việc ban hành Quy trình kiểm tra, xác định xuất xứ hàng hóa xuất khẩu, nhập khẩu",
+      "co_quan": "TCHQ",
+      "ngay_ban_hanh": "2015-12-31",
+      "hieu_luc_tu": "2015-12-31",
+      "het_hieu_luc_tu": "2025-04-29",
+      "tinh_trang": "HET_HIEU_LUC",
+      "nhanh": [
+        "xuat-xu-fta/quy-tac-xuat-xu",
+        "hai-quan/so-tay-nghiep-vu"
+      ],
+      "nguon": [
+        {
+          "url": "https://www.customs.gov.vn/index.jsp?pageId=3&id=99988&cid=1294",
+          "truy_cap": "2026-11-25"
+        },
+        {
+          "url": "https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/5/6/VB_467.pdf",
+          "truy_cap": "2026-11-25"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Đối chiếu nguyên văn Điều 2 Quyết định 467/QĐ-CHQ ngày 29-04-2025 (PDF ký số bậc A VB_467.pdf trên Cổng Hải quan): xác nhận Quyết định 4286/QĐ-TCHQ ngày 31-12-2015 đã hết hiệu lực và bị thay thế bởi Quyết định 467/QĐ-CHQ từ ngày 29-04-2025.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-25",
+        "boi": "antigravity@ozvietnam"
+      },
+      "ghi_chu": "Đóng điểm mù WIKI_NHAC_CHUA_DANG_KY từ wiki/sources/467-qd-chq-2025.md.",
+      "slug": "4286-qd-tchq-2015",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {
+        "bi_sua_doi_boi": [
+          {
+            "tu": "136/QĐ-TCHQ",
+            "quan_he": "sua_doi",
+            "so_hieu": "4286/QĐ-TCHQ"
+          }
+        ]
+      }
+    },
+    {
       "so_hieu": "4287/TB-TCHQ/2023",
       "loai": "THONG_BAO",
       "loai_phan_loai": "XAC_DINH_TRUOC",
@@ -113621,6 +113957,60 @@
       "toan_van": "raw/download/congbaocdn.chinhphu.vn/47-2025-tt-btc.pdf",
       "ghi_chu": "Bãi bỏ Thông tư 121/2021/TT-BTC và Thông tư 82/2021/TT-BTC; riêng Điều 2 bị bãi bỏ từ 01-02-2026 bởi điểm c khoản 2 Điều 2 Thông tư 121/2025/TT-BTC.",
       "slug": "47-2025-tt-btc",
+      "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "so_hieu": "47/2025/TT-BYT",
+      "loai": "THONG_TU",
+      "ten": "Bãi bỏ một số văn bản quy phạm pháp luật do Bộ trưởng Bộ Y tế ban hành, liên tịch ban hành",
+      "co_quan": "BYT",
+      "ngay_ban_hanh": "2025-12-30",
+      "hieu_luc_tu": "2026-02-15",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/byt"
+      ],
+      "nguon": [
+        {
+          "url": "https://chinhphu.vn/?pageid=27160&docid=216427",
+          "truy_cap": "2026-11-25"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/47-byt.pdf",
+          "truy_cap": "2026-11-25"
+        }
+      ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/47-2025-tt-byt.pdf",
+      "xac_minh": {
+        "muc": "NGUON_A",
+        "pham_vi": "Cổng TTĐT Chính phủ (docid=216427) & PDF 5 trang có lớp chữ 47-byt.pdf (ban hành 30-12-2025, hiệu lực từ 15-02-2026): bãi bỏ toàn bộ 43 VBQPPL và bãi bỏ một phần 02 VBQPPL lĩnh vực y tế (gồm bãi bỏ thời hạn 02 năm GCN CGMP-ASEAN và Mẫu 01/CGMP-MP).",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-25",
+        "boi": "antigravity@ozvietnam",
+        "dieu_khoan": [
+          {
+            "dieu": 1,
+            "noi_dung": "Điều 1. Bãi bỏ toàn bộ 43 văn bản quy phạm pháp luật do Bộ trưởng Bộ Y tế ban hành, liên tịch ban hành 1. Quyết định số 37-BYT/QĐ ngày 29/01/1972 của Bộ trưởng Bộ Y tế về việc ban hành 5 tiêu chuẩn ngành y tế. 2. Quyết định số 500-BYT/QĐ ngày 10/04/1992 của Bộ trưởng Bộ Y tế về Quy chế hành nghề dược tại nhà thuốc.",
+            "trang_pdf": 1,
+            "sha256_pdf": "032d48b23b5154814be596cfcb5f9e657907f925e91da587925d9aa801b03cfb"
+          },
+          {
+            "dieu": 2,
+            "noi_dung": "Điều 2. Bãi bỏ một phần 02 văn bản quy phạm pháp luật do Bộ trưởng Bộ Y tế ban hành 1. Bãi bỏ Quy trình bảo quản thuốc và nguyên liệu làm thuốc dự trữ Quốc gia tại Quyết định số 2774/1999/QĐ-BYT ngày 13/09/1999 của Bộ trưởng Bộ Y tế Quy định bảo quản thiết bị y tế Dự trữ Quốc gia; Quy trình bảo quản thuốc và nguyên liệu làm thuốc dự trữ Quốc gia.",
+            "trang_pdf": 4,
+            "sha256_pdf": "032d48b23b5154814be596cfcb5f9e657907f925e91da587925d9aa801b03cfb"
+          },
+          {
+            "dieu": 3,
+            "noi_dung": "Điều 3. Điều khoản thi hành 1. Thông tư này có hiệu lực thi hành kể từ ngày 15 tháng 02 năm 2026. 2. Chánh Văn phòng Bộ, Vụ trưởng Vụ Pháp chế, Vụ trưởng, Cục trưởng các Vụ, Cục thuộc Bộ Y tế và các cơ quan, tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành Thông tư này./.",
+            "trang_pdf": 5,
+            "sha256_pdf": "032d48b23b5154814be596cfcb5f9e657907f925e91da587925d9aa801b03cfb"
+          }
+        ]
+      },
+      "ghi_chu": "Đóng điểm mù WIKI_NHAC_CHUA_DANG_KY từ wiki/sources/1536-qd-byt-2026.md.",
+      "slug": "47-2025-tt-byt",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
@@ -128672,7 +129062,16 @@
       "ghi_chu": "Nạp từ nhu cầu khách tra (issue [miss] #414). Đã hết hiệu lực từ 01-01-2022 (thay bởi TT 85/2021/TT-BTC).",
       "slug": "61-2016-tt-btc",
       "bac_nguon_cao_nhat": "A",
-      "quan_he_nguoc": {}
+      "quan_he_nguoc": {
+        "bi_thay_the_boi": [
+          {
+            "tu": "85/2021/TT-BTC",
+            "quan_he": "thay_the",
+            "so_hieu": "61/2016/TT-BTC",
+            "tu_ngay": "2022-01-01"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "6101/TB-TCHQ/2018",
@@ -137348,7 +137747,16 @@
       "ghi_chu": "Nạp từ nhu cầu khách tra (issue [miss] #416). Đã hết hiệu lực từ 18-05-2026 (thay bởi TT 35/2026/TT-BTC).",
       "slug": "71-2018-tt-btc",
       "bac_nguon_cao_nhat": "A",
-      "quan_he_nguoc": {}
+      "quan_he_nguoc": {
+        "bi_thay_the_boi": [
+          {
+            "tu": "35/2026/TT-BTC",
+            "quan_he": "thay_the",
+            "so_hieu": "71/2018/TT-BTC",
+            "tu_ngay": "2026-05-18"
+          }
+        ]
+      }
     },
     {
       "so_hieu": "71/2025/TT-BXD",
@@ -145392,6 +145800,52 @@
           }
         ]
       }
+    },
+    {
+      "so_hieu": "85/2021/TT-BTC",
+      "loai": "THONG_TU",
+      "ten": "Hướng dẫn một số nội dung về thu, nộp khoản lợi nhuận, cổ tức được chia cho phần vốn nhà nước đầu tư tại doanh nghiệp",
+      "co_quan": "BTC",
+      "ngay_ban_hanh": "2021-10-05",
+      "hieu_luc_tu": "2022-01-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "bo-may"
+      ],
+      "quan_he": {
+        "thay_the": [
+          {
+            "so_hieu": "61/2016/TT-BTC",
+            "tu_ngay": "2022-01-01"
+          }
+        ]
+      },
+      "nguon": [
+        {
+          "url": "https://thuvienphapluat.vn/van-ban/Doanh-nghiep/Thong-tu-85-2021-TT-BTC-loi-nhuan-duoc-chia-cho-phan-von-nha-nuoc-dau-tu-tai-doanh-nghiep-295823.aspx",
+          "truy_cap": "2026-11-25"
+        },
+        {
+          "url": "http://tcvg.hochiminhcity.gov.vn/hinhanhposttin/2021-10/85TT2021BTC.pdf",
+          "truy_cap": "2026-11-25"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_B",
+        "pham_vi": "Đối chiếu qua Thư viện Pháp luật (295823) và bản PDF đăng lại trên cổng Sở Tài chính TP.HCM: ban hành 05-10-2021, hiệu lực từ 01-01-2022, thay thế Thông tư 61/2016/TT-BTC; chờ link trang gốc trên vanban.chinhphu.vn / congbao.chinhphu.vn.",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-11-25",
+        "boi": "antigravity@ozvietnam",
+        "chan": {
+          "ma": "THIEU_PDF_A",
+          "ngay": "2026-11-25",
+          "viec_tiep": "Tìm và nạp bản gốc Công báo / Cổng TTĐT Chính phủ cho 85/2021/TT-BTC."
+        }
+      },
+      "ghi_chu": "Đóng điểm mù WIKI_NHAC_CHUA_DANG_KY từ wiki/sources/61-2016-tt-btc.md. Văn bản quản lý tài chính doanh nghiệp nhà nước, không phải quy định XNK trực tiếp.",
+      "slug": "85-2021-tt-btc",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {}
     },
     {
       "so_hieu": "85/2026/TT-BTC",
