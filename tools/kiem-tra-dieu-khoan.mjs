@@ -91,6 +91,12 @@ function docTaiLieuVanBan(fileInfo, { coPdftotext, docPdf, textCache }) {
         res = { kind: 'pdf', ok: false, err: `lỗi đọc PDF ${fileInfo.rel}: ${e.message}` };
       }
     } else {
+      // Chế độ layout mặc định xếp chữ theo toạ độ và tùy bản poppler có thể xen
+      // kẽ chữ đóng dấu phủ chồng (VD "30"/"3" đè lên chỗ "ngày ....." để trống)
+      // vào câu theo thứ tự khác nhau giữa các bản poppler (OZV-2288: CI poppler
+      // 26.01 khác máy chạy cục bộ 25.03). Giữ layout làm chính, còn trích thêm
+      // chế độ -raw (theo thứ tự dòng nội dung, ổn định giữa các bản poppler) để
+      // dùng làm phương án đối chiếu phụ khi layout không khớp.
       const r = spawnSync('pdftotext', [fileInfo.abs, '-'], {
         encoding: 'utf8',
         maxBuffer: MAX_PDFTOTEXT_BUFFER,
@@ -101,6 +107,13 @@ function docTaiLieuVanBan(fileInfo, { coPdftotext, docPdf, textCache }) {
       } else {
         const out = r.stdout || '';
         res = { kind: 'pdf', ok: true, out, pages: tachTrang(out), trimmedLen: out.trim().length };
+        res._trichRaw = () => {
+          const rr = spawnSync('pdftotext', ['-raw', fileInfo.abs, '-'], {
+            encoding: 'utf8',
+            maxBuffer: MAX_PDFTOTEXT_BUFFER,
+          });
+          return rr.error || rr.status !== 0 ? null : (rr.stdout || '');
+        };
       }
     }
   } else {
@@ -120,12 +133,35 @@ function taoMucLoi(d, it, msg) {
   };
 }
 
+function khopTrongCuaSo(normPages, cleanNormPages, start, end, normNoiDung) {
+  const normSlice = normPages.slice(start, end).filter(Boolean).join(' ');
+  if (normSlice.includes(normNoiDung)) return true;
+  const cleanNormSlice = cleanNormPages.slice(start, end).filter(Boolean).join(' ');
+  return cleanNormSlice.includes(normNoiDung);
+}
+
+function layNormPagesRaw(docRes) {
+  if (typeof docRes._trichRaw !== 'function') return null;
+  if (docRes._normPagesRaw == null) {
+    const rawOut = docRes._trichRaw();
+    if (rawOut == null) {
+      docRes._normPagesRaw = false;
+      return null;
+    }
+    const rawPages = tachTrang(rawOut);
+    docRes._normPagesRaw = rawPages.map((p) => chuanHoaKhopNguyenVan(p));
+    docRes._cleanNormPagesRaw = rawPages.map((p) => chuanHoaKhopNguyenVan(boHeaderCongBaoDauTrang(p)));
+  }
+  return docRes._normPagesRaw === false ? null : { norm: docRes._normPagesRaw, clean: docRes._cleanNormPagesRaw };
+}
+
 function kiemTraKhopTrenTaiLieu(docRes, it, normNoiDung) {
   const { pages, out } = docRes;
   if (!docRes._normPages) {
     docRes._normPages = pages.map((p) => chuanHoaKhopNguyenVan(p));
     docRes._cleanNormPages = pages.map((p) => chuanHoaKhopNguyenVan(boHeaderCongBaoDauTrang(p)));
   }
+  // Phương án đối chiếu phụ bằng trích -raw (xem _trichRaw): chỉ chạy khi layout không khớp.
   if (it.trang_pdf != null) {
     const p = it.trang_pdf;
     if (p < 1 || p > pages.length) {
@@ -136,13 +172,12 @@ function kiemTraKhopTrenTaiLieu(docRes, it, normNoiDung) {
     }
     const start = Math.max(0, p - 2);
     const end = Math.min(pages.length, p + 1);
-    const normSlice = docRes._normPages.slice(start, end).filter(Boolean).join(' ');
-    if (normSlice.includes(normNoiDung)) return { ok: true };
-    const cleanNormSlice = docRes._cleanNormPages.slice(start, end).filter(Boolean).join(' ');
-    if (cleanNormSlice.includes(normNoiDung)) return { ok: true };
+    if (khopTrongCuaSo(docRes._normPages, docRes._cleanNormPages, start, end, normNoiDung)) return { ok: true };
+    const raw = layNormPagesRaw(docRes);
+    if (raw && khopTrongCuaSo(raw.norm, raw.clean, start, end, normNoiDung)) return { ok: true, cheDo: 'raw' };
     return {
       ok: false,
-      reason: `không khớp nguyên văn tại trang_pdf=${p} (đã kiểm trang ${start + 1}..${end})`,
+      reason: `không khớp nguyên văn tại trang_pdf=${p} (đã kiểm trang ${start + 1}..${end}, layout và -raw)`,
     };
   }
   if (docRes._normOut == null) {
@@ -153,7 +188,13 @@ function kiemTraKhopTrenTaiLieu(docRes, it, normNoiDung) {
   }
   if (docRes._normOut.includes(normNoiDung)) return { ok: true };
   if (pages.length > 1 && docRes._cleanNormOut.includes(normNoiDung)) return { ok: true };
-  return { ok: false, reason: 'không khớp nguyên văn trong toàn bộ văn bản' };
+  const raw = layNormPagesRaw(docRes);
+  if (raw) {
+    const normRawOut = raw.norm.filter(Boolean).join(' ');
+    if (normRawOut.includes(normNoiDung)) return { ok: true, cheDo: 'raw' };
+    if (pages.length > 1 && raw.clean.filter(Boolean).join(' ').includes(normNoiDung)) return { ok: true, cheDo: 'raw' };
+  }
+  return { ok: false, reason: 'không khớp nguyên văn trong toàn bộ văn bản (layout và -raw)' };
 }
 
 /**
