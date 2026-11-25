@@ -3,7 +3,7 @@ so_hieu: 467/QĐ-CHQ
 so_hieu_khac:
   - 467/QĐ-CHQ/2025
 loai: QUYET_DINH
-ten: 'Về việc ban hành Quy trình kiểm tra, xác định xuất xứ hàng hóa xuất khẩu, nhập khẩu'
+ten: Về việc ban hành Quy trình kiểm tra, xác định xuất xứ hàng hóa xuất khẩu, nhập khẩu
 co_quan: CHQ
 ngay_ban_hanh: '2025-04-29'
 hieu_luc_tu: '2025-04-29'
@@ -26,5 +26,17 @@ xac_minh:
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-24'
   boi: gd-bo-ba@ozvietnam
-ghi_chu: 'Quy trình nghiệp vụ kiểm tra, xác định xuất xứ hàng hóa XNK của Cục Hải quan từ 29-04-2025.'
-toan_van: raw/download/files.customs.gov.vn/467-qd-chq-2025.pdf
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Ban hành kèm theo Quyết định này: 1. Quy trình kiểm tra, xác định xuất xứ hàng hóa xuất khẩu, nhập khẩu; 2. Các Phụ lục kèm Quy trình: a) Phụ lục I. Trang thông tin điện tử của co quan có thâm quyền của nước xuất khẩu/Tra cứu mã nhà xuất khẩu đủ điều kiện cấp chứng từ tự chứng nhận xuât xứ. b) Phụ lục II. Các biéu mẫu Thông báo của Cục trưởng Cục Hải quan.'
+      trang_pdf: 2
+    - dieu: 2
+      noi_dung: Điều 2. Quyết định này có hiệu lực thi hành ké từ ngày ký và thay thế Quyết định số 4286/QD-TCHQ ngày 31/12/2015 của Tông cục trưởng Tổng cục Hải quan về việc ban hành Quy trình kiểm tra, xác định xuất xứ hàng hóa xuất khâu, nhập khẩu; Quyết định số 136/QD-TCHQ ngày 25/01/2016 bổ sung Quyết định sô 4286/QD-TCHQ ngày 31/12/2015 của Tổng cục trưởng Cục Hải quan về việc ban hành Quy trình kiếm tra, xác định xuất xứ hàng hóa xuất khâu, nhập khẩu.
+      trang_pdf: 2
+    - dieu: 3
+      noi_dung: Điều 3. Thủ trưởng các đơn vị thuộc và trực thuộc Cục Hải quan chịu trách nhiệm tô chức thi hành Quyết định này. Trong quá trình thực hiện, nêu phát sinh vướng mắc, các đơn vị báo cáo, đề xuất dé Cục Hải quan xem xét, điều chỉnh cho phù hợp..ƒ|z
+      trang_pdf: 2
+ghi_chu: Quy trình nghiệp vụ kiểm tra, xác định xuất xứ hàng hóa XNK của Cục Hải quan từ 29-04-2025.
+toan_van:
+  - raw/download/files.customs.gov.vn/467-qd-chq-2025.pdf
+  - raw/ocr/467-qd-chq-2025.ocr.txt

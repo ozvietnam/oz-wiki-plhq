@@ -1,19 +1,66 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 26/2026/TT-BCT
 loai: THONG_TU
-ten: 'Sửa đổi, bổ sung một số quy định về cấp Giấy chứng nhận xuất xứ hàng hóa và chấp thuận thương nhân tự chứng nhận xuất xứ theo Thông tư 40/2025/TT-BCT'
+ten: Sửa đổi, bổ sung một số quy định về phân cấp, cắt giảm, đơn giản hóa thủ tục hành chính trong các lĩnh vực thuộc phạm vi quản lý của Bộ Công Thương
 co_quan: BCT
-ngay_ban_hanh: '2026-05-25'
+ngay_ban_hanh: '2026-05-20'
+hieu_luc_tu: '2026-05-29'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - xuat-xu-fta/quy-tac-xuat-xu
+  - quan-ly-ngoai-thuong/giay-phep
+  - kiem-tra-chuyen-nganh/bct
+quan_he:
+  sua_doi:
+    - 40/2025/TT-BCT
+    - 12/2018/TT-BCT
+    - 11/2015/TT-BCT
+    - 01/2026/TT-BCT
 nguon:
-  - url: https://thuvienphapluat.vn
-    truy_cap: '2026-11-23'
+  - url: https://chinhphu.vn/?pageid=27160&docid=218236
+    truy_cap: '2026-11-25'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/5/26-bctfn.pdf
+    truy_cap: '2026-11-25'
+  - url: https://moit.gov.vn/tin-tuc/bo-cong-thuong-ban-hanh-thong-tu-sua-doi-cat-giam-don-gian-hoa-thu-tuc-hanh-chinh-trong-8-linh-vuc.html
+    truy_cap: '2026-11-25'
 xac_minh:
-  muc: NGUON_THU_CAP
-  pham_vi: 'số hiệu + ngày ban hành 25-05-2026, hiệu lực 29-05-2026 (K3 Đ19 từ 01-08-2026) — TVPL tổng hợp phân cấp cấp C/O về Sở Công Thương; cần nguồn chính thống khi lên A'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-11-23'
-  boi: zcode@ozvietnam
-ghi_chu: 'Trinh thám đêm 23/11. Phân cấp cấp C/O mạnh về Sở CT + 12 mẫu C/O FTA lớn DN tự chứng nhận — đụng trực tiếp luồng xin C/O của khách. Đúng họ 40/2025 đã có.'
+  muc: NGUON_A
+  pham_vi: đối chiếu trang VBQPPL Cổng TTĐT Chính phủ (docid=218236), Cổng Bộ Công Thương (moit.gov.vn) và toàn văn PDF scan 22 trang đã OCR (datafiles.chinhphu.vn/cpp/files/vbpq/2026/5/26-bctfn.pdf, SHA-256 58251a26ead5055f7e90be716f710d1740a8a391f0bd3759d5e412008a2a92ee); ban hành 20-05-2026, hiệu lực chung từ 29-05-2026 (riêng K1 Đ1 hiệu lực 01-07-2026, K3 Đ19 hiệu lực 01-08-2026, Đ15-16 hiệu lực 01-01-2027)
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-25'
+  boi: antigravity@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Sửa déi, bố sung một số điều của | Thong tư số 23/2024/T T-BCT của Bộ trưởng Bộ Công Thương quy định về quản lý, sử dụng vật liệu nỗ công nghiệp, tiền chất thuốc nỗ thuộc thấm quyền quản lý của Bộ Công Thương 1. Sửa đổi, bô sung Điều 4 như sau:'
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: Điều 2. Bãi bỏ khoản 1, khoản 2 và khoản 3 Điều 1 Thông tư số 38/2025/TT-BCT của Bộ trưởng Bộ Công Thương sửa déi, bỗ sung một số quy định về phân cấp thực hiện thủ tục hành chính trong các lĩnh vực tthuộc phạm vi quản lý của Bộ Công Thương.
+      trang_pdf: 4
+    - dieu: 3
+      noi_dung: 'Điều 3. Bãi bỏ khoản 1 Điều 1 Thông tư số 15/2026/TT-BCT của Bộ trưởng Bộ Công Thương sửa đổi, bỗ sung một số điều của Thông tư số 38/2025/TT-BCT của Bộ trưởng Bộ Công Thương sửa đổi, bố sung một số quy định về phân cấp thực hiện thủ tục hành chính trong các lĩnh vực thuộc phạm vi quản lý của Bộ Công Thương. #ˆ'
+      trang_pdf: 4
+    - dieu: 7
+      noi_dung: 'Điều 7. Sửa đổi, bổ sung, bãi bỏ một số điều khoản của Thông tư số 43/2023/TT-BCT của Bộ trưởng Bộ Công Thương sửa đổi, bố sung một số điều của Thông tư số 57/2018/TT-BCT ngày 26 tháng 12 năm 2018 của Bộ trưởng Bộ Công Thương quy định chỉ tiết một số điều của các Nghị định liên quan đến kinh doanh thuốc lá 1. Sửa đôi, bố sung Điều 3 như sau:'
+      trang_pdf: 9
+    - dieu: 11
+      noi_dung: Điều 11. Bãi bỏ khoản 2 Điều 2 Thông tư số 18/2025/TT-BCT của Bộ trưởng Bộ Công Thương sửa đối, bo sung, bãi bỏ một số quy định tại các Thông tư quy định về kinh doanh xăng dau.
+      trang_pdf: 11
+    - dieu: 14
+      noi_dung: 'Điều 14. Sửa đối, bỗ sung một số điều của Thông tư số 11/2015/TT- BCT của Bộ trưởng Bộ Công Thương quy định về qua cảnh hàng hóa của nước Cộng hòa nhân dân Trung Hoa qua lãnh thé nước Cộng hòa xã hội chủ nghĩa Việt Nam 1. Sửa đối, bé sung khoản 2 Điều 3 như sau: “2, Đối với hàng hóa không thuộc trường hợp quy định tại Khoản | Điều này, việc quá cảnh lãnh thô "Việt Nam chỉ được thực hiện sau khi có giấy phép của cơ quan có thầm quyên.”'
+      trang_pdf: 12
+    - dieu: 18
+      noi_dung: Điều 18. Sửa đổi, bổ sung, bãi bỏ một số quy định của Thông tư số 12/2018/TT-BCT của Bộ trưởng Bộ Công Thương quy định chỉ tiết một số điều của Luật Quản lý ngoại thương và Nghị định số 69/2018/NĐ-CP 1. Bãi bỏ khoản 3 Điều 9. 2. Thay thế Phụ lục X, XI ban hành kèm theo Thông tư số 12/2018/TT- BCT tương ứng bằng các Mẫu số 15, 16 Phần II Phụ lục ban hành kèm theo Thông tư này.
+      trang_pdf: 16
+    - dieu: 21
+      noi_dung: Điều 21. Bãi bỏ khoản 2, khoản 3, khoản 4, khoản 5 Điều 19, khoản 2 Điều 20, Điều 21, khoản 1, khoản 3, khoản 4 Điều 22 Thông tư số 38/2025/TT-BCT.
+      trang_pdf: 17
+    - dieu: 24
+      noi_dung: 'Điều 24. Sửa đỗi, bé sung, bai bo mot số điều khoản của Thông tư số 01/2026/TT-BCT của Bộ trưởng Bộ Công Thương quy định chỉ tiết và hướng dẫn thi hành một số điều của Luật Hóa chất và Nghị định số 26/2026/NĐ- CP của Chính phủ quy định chỉ tiết và hướng dẫn thi hành một số điều của Luật Hóa chat về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa 1. Sửa đổi, bố sung điểm a khoản 1 Điều | như sau:'
+      trang_pdf: 18
+    - dieu: 28
+      noi_dung: Điều 28. Điều khoản chuyền tiếp 1. Đối với hồ sơ đề nghị giải quyết thủ tục hành chính thuộc các lĩnh vực được quy định tại Thông tu này đã được cơ quan có thầm quyền tiếp nhận hoặc đã được đóng dấu bưu chính trước ngày Thông tư này có hiệu lực thì thực hiện theo quy định của pháp luật đang có hiệu lực điều chỉnh trong lĩnh vực đó tại thời điểm hồ sơ được tiếp nhận.
+      trang_pdf: 21
+ghi_chu: Trinh thám đêm 23/11. Phân cấp cấp C/O mạnh về Sở CT + 12 mẫu C/O FTA lớn DN tự chứng nhận — đụng trực tiếp luồng xin C/O của khách. Đúng họ 40/2025 đã có.
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/26-2026-tt-bct.pdf
+  - raw/ocr/26-2026-tt-bct.ocr.txt

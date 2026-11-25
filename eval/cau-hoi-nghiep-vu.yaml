@@ -226,14 +226,15 @@ cau_hoi:
   - id: CH-15
     nhanh: kiem-tra-chuyen-nganh/nhan-hang-hoa
     cau_hoi: Văn bản nào đang quy định nhãn phụ tiếng Việt cho hàng nhập khẩu?
-    van_ban_bat_buoc: []
+    van_ban_bat_buoc:
+      - 37/2026/NĐ-CP
     van_ban_het_hieu_luc_can_tranh:
       - 43/2017/NĐ-CP
       - 111/2021/NĐ-CP
     trang_wiki:
       - concepts/nhan-hang-hoa-nhap-khau
       - summary/khung-thu-tuc-hai-quan
-    nguon_can_cu_ky_vong: Điểm mù đã ghi nhận — NĐ 43/2017/NĐ-CP và NĐ 111/2021/NĐ-CP đã hết hiệu lực từ 23/01/2026 theo Điều 97 khoản 4 điểm b, c NĐ 37/2026/NĐ-CP; văn bản mới điều chỉnh nhãn phụ tiếng Việt chưa xác minh.
+    nguon_can_cu_ky_vong: NĐ 37/2026/NĐ-CP (Điều 39 khoản 3, Điều 40, Điều 42) quy định ngôn ngữ nhãn hàng hóa và ghi nhãn phụ tiếng Việt đối với hàng hóa nhập khẩu; đồng thời Điều 97 khoản 4 điểm b, c bãi bỏ NĐ 43/2017/NĐ-CP và NĐ 111/2021/NĐ-CP từ 23/01/2026 (Điều 98 quy định chuyển tiếp).
 
   - id: CH-16
     nhanh: phong-ve-thuong-mai/chong-ban-pha-gia

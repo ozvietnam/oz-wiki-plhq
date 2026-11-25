@@ -1,21 +1,38 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 114/2026/VBHN-TT-BNNMT
 loai: VAN_BAN_HOP_NHAT
-ten: 'Văn bản hợp nhất Quy chuẩn kỹ thuật quốc gia về Kiểm dịch và Bảo vệ thực vật'
+ten: Văn bản hợp nhất Quy chuẩn kỹ thuật quốc gia về Kiểm dịch và Bảo vệ thực vật
 co_quan: BNNMT
-ngay_ban_hanh: '2026-11-14'
+ngay_ban_hanh: '2026-11-17'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - kiem-tra-chuyen-nganh/kiem-dich
+quan_he:
+  hop_nhat:
+    - 71/2010/TT-BNNPTNT
+    - 15/2023/TT-BNNPTNT
+    - 12/2025/TT-BNNMT
 nguon:
-  - url: https://luatvietnam.vn/thuc-pham/van-ban-hop-nhat-114-2026-vbhn-tt-bnnmt-2026-ve-quy-chuan-ky-thuat-quoc-gia-kiem-dich-va-bao-ve-thuc-vat-456803-d5.html
-    truy_cap: '2026-11-23'
   - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/11/114-vbhn-bnnmt.signed.pdf
-    truy_cap: '2026-11-23'
+    truy_cap: '2026-11-25'
 xac_minh:
-  muc: NGUON_THU_CAP
-  pham_vi: 'số hiệu + tên + ngày ban hành 14-11-2026 (luatvietnam + PDF chính thức datafiles.chinhphu.vn); đổi danh xưng bộ theo TT 12/2025'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-11-23'
-  boi: zcode@ozvietnam
-ghi_chu: 'Trinh thám đêm 23/11. Đủ cặp với 115/VBHN (nạp 18/11) — họ QCVN kiểm dịch + bảo vệ thực vật.'
+  muc: NGUON_A
+  pham_vi: đối chiếu PDF ký số xác thực VBHN trên Cổng TTĐT Chính phủ (datafiles.chinhphu.vn/cpp/files/vbpq/2026/11/114-vbhn-bnnmt.signed.pdf, 22 trang, Thứ trưởng Đặng Ngọc Điệp ký ngày 17-11-2026, SHA-256 fcd47203575e2323c3029554dc53ac22b9d6980e9c5e09a3deb6aadb82ce8a9e); hợp nhất TT 71/2010/TT-BNNPTNT với TT 15/2023/TT-BNNPTNT và TT 12/2025/TT-BNNMT (hiệu lực 01-07-2025)
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-25'
+  boi: antigravity@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Ban hành kèm theo Thông tư này các Quy chuẩn kỹ thuật quốc gia về lĩnh vực Kiểm dịch và Bảo vệ thực vật: 1.2 (được bãi bỏ) 2.3 (được bãi bỏ) 3.4 (được bãi bỏ) 4. Quy chuẩn kỹ thuật quốc gia về quy trình kiểm dịch nấm có ích nhập khẩu trong khu cách ly kiểm dịch thực vật Ký hiệu: QCVN 01-32 : 2010/BNNPTNT.'
+      trang_pdf: 2
+      sha256_pdf: fcd47203575e2323c3029554dc53ac22b9d6980e9c5e09a3deb6aadb82ce8a9e
+    - dieu: 2
+      noi_dung: Điều 2. Thông tư này có hiệu lực sau 6 tháng, kể từ ngày ký ban hành.10
+      trang_pdf: 3
+      sha256_pdf: fcd47203575e2323c3029554dc53ac22b9d6980e9c5e09a3deb6aadb82ce8a9e
+    - dieu: 3
+      noi_dung: Điều 3. Chánh Văn phòng Bộ, Vụ trưởng Vụ Khoa học và Công nghệ 11, Cục trưởng Cục Trồng trọt và Bảo vệ thực vật 12, Thủ trưởng các đơn vị và cá nhân có liên quan chịu trách nhiệm tổ chức thực hiện. Khoản này được bãi bỏ theo quy định tại khoản 3 Điều 2 Thông tư số 15/2023/TTBNNPTNT, có hiệu lực kể từ ngày 05 tháng 02 năm 2024.
+      trang_pdf: 3
+      sha256_pdf: fcd47203575e2323c3029554dc53ac22b9d6980e9c5e09a3deb6aadb82ce8a9e
+ghi_chu: Trinh thám đêm 23/11. Đủ cặp với 115/VBHN (nạp 18/11) — họ QCVN kiểm dịch + bảo vệ thực vật.
+toan_van: raw/download/datafiles.chinhphu.vn/114-2026-vbhn-tt-bnnmt.pdf

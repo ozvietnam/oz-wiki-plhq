@@ -3,7 +3,7 @@ so_hieu: 8882/CHQ-GSQL
 so_hieu_khac:
   - 8882/CHQ-GSQL/2026
 loai: CONG_VAN
-ten: 'Về việc kiểm tra an toàn thực phẩm đối với dụng cụ, bao bì chứa đựng, tiếp xúc trực tiếp với thực phẩm'
+ten: Về việc kiểm tra an toàn thực phẩm đối với dụng cụ, bao bì chứa đựng, tiếp xúc trực tiếp với thực phẩm
 co_quan: CHQ
 ngay_ban_hanh: '2026-02-04'
 hieu_luc_tu: '2026-02-04'
@@ -25,9 +25,24 @@ nguon:
     truy_cap: '2026-11-24'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/2/4/8882.pdf, id=102549, 2 trang, Phó Cục trưởng Âu Anh Tuấn ký ngày 04-02-2026, SHA-256 4c79f0e1c24e4341b9f8bb4b5fa660caecf7d0f0f5a0dccde9a14c46f97e917e): Công văn hỏa tốc số 8882/CHQ-GSQL ngày 04-02-2026 của Cục Hải quan gửi Bộ Y tế, Bộ Công Thương, Bộ Nông nghiệp và Môi trường trao đổi vướng mắc khi triển khai các Điều 4, 19, 21, 45, 46, 47 và Phụ lục II, III, IV Nghị định số 46/2026/NĐ-CP ngày 26-01-2026: trước đây theo các văn bản hướng dẫn Nghị định 15/2018/NĐ-CP (Thông tư 15/2024/TT-BYT, Thông tư 01/2024/TT-BNNPTNT, Quyết định 1182/QĐ-BCT) chỉ có Thông tư 15/2024/TT-BYT quy định kiểm tra nhà nước về ATTP đối với dụng cụ, bao bì bằng nhựa tổng hợp và núm vú bình ăn trẻ em bằng cao su; trong khi chờ ban hành văn bản hướng dẫn Nghị định 46/2026/NĐ-CP, Cục Hải quan đề nghị 3 Bộ có ý kiến đối với các mặt hàng dụng cụ, bao bì chứa đựng, tiếp xúc trực tiếp với thực phẩm nằm ngoài danh mục cũ có phải kiểm tra ATTP hay không'
+  pham_vi: >-
+    đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/2/4/8882.pdf,
+    id=102549, 2 trang, Phó Cục trưởng Âu Anh Tuấn ký ngày 04-02-2026, SHA-256
+    4c79f0e1c24e4341b9f8bb4b5fa660caecf7d0f0f5a0dccde9a14c46f97e917e): Công văn hỏa tốc số 8882/CHQ-GSQL ngày 04-02-2026
+    của Cục Hải quan gửi Bộ Y tế, Bộ Công Thương, Bộ Nông nghiệp và Môi trường trao đổi vướng mắc khi triển khai các
+    Điều 4, 19, 21, 45, 46, 47 và Phụ lục II, III, IV Nghị định số 46/2026/NĐ-CP ngày 26-01-2026: trước đây theo các văn
+    bản hướng dẫn Nghị định 15/2018/NĐ-CP (Thông tư 15/2024/TT-BYT, Thông tư 01/2024/TT-BNNPTNT, Quyết định 1182/QĐ-BCT)
+    chỉ có Thông tư 15/2024/TT-BYT quy định kiểm tra nhà nước về ATTP đối với dụng cụ, bao bì bằng nhựa tổng hợp và núm
+    vú bình ăn trẻ em bằng cao su; trong khi chờ ban hành văn bản hướng dẫn Nghị định 46/2026/NĐ-CP, Cục Hải quan đề
+    nghị 3 Bộ có ý kiến đối với các mặt hàng dụng cụ, bao bì chứa đựng, tiếp xúc trực tiếp với thực phẩm nằm ngoài danh
+    mục cũ có phải kiểm tra ATTP hay không
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-24'
   boi: gd-bo-ba@ozvietnam
-ghi_chu: 'Nêu rõ phạm vi dụng cụ, bao bì tiếp xúc trực tiếp với thực phẩm thuộc diện kiểm tra ATTP theo Thông tư 15/2024/TT-BYT, Thông tư 01/2024/TT-BNNPTNT, Quyết định 1182/QĐ-BCT và vướng mắc chuyển tiếp khi áp dụng Phụ lục II, III, IV Nghị định 46/2026/NĐ-CP.'
-toan_van: raw/download/files.customs.gov.vn/8882-chq-gsql-2026.pdf
+ghi_chu: >-
+  Nêu rõ phạm vi dụng cụ, bao bì tiếp xúc trực tiếp với thực phẩm thuộc diện kiểm tra ATTP theo Thông tư 15/2024/TT-BYT,
+  Thông tư 01/2024/TT-BNNPTNT, Quyết định 1182/QĐ-BCT và vướng mắc chuyển tiếp khi áp dụng Phụ lục II, III, IV Nghị định
+  46/2026/NĐ-CP.
+toan_van:
+  - raw/download/files.customs.gov.vn/8882-chq-gsql-2026.pdf
+  - raw/ocr/8882-chq-gsql-2026.ocr.txt
