@@ -259,6 +259,75 @@ function chenThongTinDung(noiDung, meta) {
     .replaceAll('{{THOI_DIEM_DUNG}}', meta.thoi_diem_dung);
 }
 
+function taoTenManhAnToan(rawSlug, idx, usedSet) {
+  const base = String(rawSlug || `doc-${idx}`)
+    .toLowerCase()
+    .replace(/[^a-z0-9._-]+/g, '-')
+    .replace(/^\.+/, '')
+    .replace(/^-+|-+$/g, '') || `doc-${idx}`;
+  let candidate = base;
+  let n = 2;
+  while (usedSet.has(candidate)) {
+    candidate = `${base}-${n}`;
+    n += 1;
+  }
+  usedSet.add(candidate);
+  return candidate;
+}
+
+export function chiaManhDieuKhoan(dieuKhoanData = {}) {
+  const usedA = new Set();
+  const usedB = new Set();
+  const shards = {};
+
+  const mapDoc = (doc, idx, prefix, tierName, usedSet) => {
+    const safeSlug = taoTenManhAnToan(doc.slug || doc.so_hieu, idx, usedSet);
+    const shardPath = `dk/${prefix}-${safeSlug}.json`;
+    const clauses = Array.isArray(doc.dieu_khoan) ? doc.dieu_khoan : [];
+    shards[shardPath] = {
+      _tier: tierName,
+      so_hieu: doc.so_hieu ?? null,
+      slug: doc.slug ?? safeSlug,
+      ten: doc.ten ?? null,
+      tinh_trang: doc.tinh_trang ?? null,
+      hieu_luc_tu: doc.hieu_luc_tu ?? null,
+      het_hieu_luc_tu: doc.het_hieu_luc_tu ?? null,
+      nguon_a: doc.nguon_a ?? null,
+      dieu_khoan: clauses,
+    };
+    return {
+      so_hieu: doc.so_hieu ?? null,
+      slug: doc.slug ?? safeSlug,
+      ten: doc.ten ?? null,
+      tinh_trang: doc.tinh_trang ?? null,
+      hieu_luc_tu: doc.hieu_luc_tu ?? null,
+      het_hieu_luc_tu: doc.het_hieu_luc_tu ?? null,
+      nguon_a: doc.nguon_a ?? null,
+      so_dieu: clauses.length,
+      shard: shardPath,
+    };
+  };
+
+  const nguyenVan = (dieuKhoanData.nguyen_van_nguon_a || []).map(
+    (doc, idx) => mapDoc(doc, idx, 'a', 'NGUYEN_VAN_NGUON_A', usedA)
+  );
+  const tomTat = (dieuKhoanData.tom_tat_nhap || []).map(
+    (doc, idx) => mapDoc(doc, idx, 'b', 'TOM_TAT_NHAP', usedB)
+  );
+
+  return {
+    index: {
+      phien_ban: dieuKhoanData.phien_ban,
+      luoc_do_phien_ban: dieuKhoanData.luoc_do_phien_ban,
+      canh_bao_tang_nhap: dieuKhoanData.canh_bao_tang_nhap,
+      thong_ke: dieuKhoanData.thong_ke,
+      nguyen_van_nguon_a: nguyenVan,
+      tom_tat_nhap: tomTat,
+    },
+    shards,
+  };
+}
+
 /**
  * Dựng cổng tra cứu tĩnh hoàn chỉnh vào `outDir`.
  * Đọc trực tiếp từ `distDir` nếu đủ 5 tệp JSON; nếu `distDir` chưa có tệp thì tự chạy fallback in-memory từ `root`.
@@ -340,18 +409,24 @@ export function dungWeb({
     nguonUyTin: taiNguonUyTin(baseRoot),
   });
 
+  const { index: dieuKhoanIndex, shards: dieuKhoanShards } = chiaManhDieuKhoan(datasets['dieu-khoan.json']);
+
   const outDatasets = {
     'registry.json': regGon,
     'wiki-index.json': datasets['wiki-index.json'],
     'wiki-chunks.json': datasets['wiki-chunks.json'],
     'dieu-khoan.json': datasets['dieu-khoan.json'],
+    'dieu-khoan-index.json': dieuKhoanIndex,
     'cas-index.json': datasets['cas-index.json'],
     'hs-policy.json': hsPolicy,
     'sap-het-hieu-luc.json': sapHetHieuLuc,
   };
 
   const dataOutDir = join(targetOut, 'data');
+  const dkShardDir = join(dataOutDir, 'dk');
   mkdirSync(dataOutDir, { recursive: true });
+  rmSync(dkShardDir, { recursive: true, force: true });
+  mkdirSync(dkShardDir, { recursive: true });
   // Bảo đảm không sót tệp ngoài ranh giới HS hoặc tệp cũ trong <outDir>/data/
   for (const forbidden of TEP_CAM_RANH_GIOI) {
     rmSync(join(dataOutDir, forbidden), { force: true });
@@ -374,6 +449,14 @@ export function dungWeb({
     dataStats.push({ name, bytes });
   }
 
+  let tongBytesManhDieuKhoan = 0;
+  const shardEntries = Object.entries(dieuKhoanShards);
+  for (const [relPath, shardPayload] of shardEntries) {
+    const jsonText = JSON.stringify(shardPayload);
+    writeFileSync(join(dataOutDir, relPath), jsonText);
+    tongBytesManhDieuKhoan += Buffer.byteLength(jsonText, 'utf8');
+  }
+
   return {
     outDir: targetOut,
     distDir: inDist,
@@ -381,6 +464,8 @@ export function dungWeb({
     ...meta,
     dataFiles: dataStats,
     tongBytesData,
+    soManhDieuKhoan: shardEntries.length,
+    tongBytesManhDieuKhoan,
   };
 }
 
@@ -412,5 +497,6 @@ if (process.argv[1] && import.meta.url === pathToFileURL(resolve(process.argv[1]
   for (const f of kq.dataFiles) {
     console.log(`  - data/${f.name}: ${(f.bytes / 1024).toFixed(1)} KB (${f.bytes} B)`);
   }
-  console.log(`Tổng data/: ${mb(kq.tongBytesData)}`);
+  console.log(`  - data/dk/*.json (${kq.soManhDieuKhoan} mảnh): ${(kq.tongBytesManhDieuKhoan / 1024).toFixed(1)} KB (${kq.tongBytesManhDieuKhoan} B)`);
+  console.log(`Tổng data/*.json: ${mb(kq.tongBytesData)}`);
 }
