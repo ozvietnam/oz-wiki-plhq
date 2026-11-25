@@ -3,7 +3,7 @@ so_hieu: 914/QĐ-BCT
 so_hieu_khac:
   - 914/QĐ-BCT/2025
 loai: QUYET_DINH
-ten: 'Áp dụng thuế chống bán phá giá tạm thời đối với một số sản phẩm thép mạ có xuất xứ từ Cộng hòa nhân dân Trung Hoa và Đại Hàn Dân Quốc'
+ten: Áp dụng thuế chống bán phá giá tạm thời đối với một số sản phẩm thép mạ có xuất xứ từ Cộng hòa nhân dân Trung Hoa và Đại Hàn Dân Quốc
 co_quan: BCT
 ngay_ban_hanh: '2025-04-01'
 hieu_luc_tu: '2025-04-16'
@@ -28,16 +28,15 @@ xac_minh:
   boi: gd-bo-ba@ozvietnam
   dieu_khoan:
     - dieu: 1
-      tieu_de: Áp dụng thuế chống bán phá giá tạm thời đối với sản phẩm thép mạ từ Trung Quốc và Hàn Quốc
-      noi_dung: 'Điều 1. Áp dụng thuế chống bán phá giá tạm thời đối với một số sản phẩm thép mạ có xuất xứ từ Cộng hòa nhân dân Trung Hoa và Đại Hàn Dân Quốc được phân loại theo các mã HS 7210.41.11, 7210.41.12, 7210.41.19, 7210.49.11, 7210.49.14, 7210.49.15, 7210.49.16, 7210.49.17, 7210.49.18, 7210.49.19, 7210.50.00, 7210.61.11, 7210.61.12, 7210.61.19, 7210.69.11, 7210.69.19, 7210.90.10, 7210.90.90, 7212.30.11, 7212.30.12, 7212.30.13, 7212.30.14, 7212.30.19, 7212.50.14, 7212.50.19, 7212.50.23, 7212.50.24, 7212.50.29, 7212.50.93, 7212.50.94, 7212.50.99, 7212.60.11, 7212.60.12, 7212.60.19, 7225.92.20, 7225.92.90, 7226.99.11, 7226.99.91 (mã vụ việc: AD19) với nội dung chi tiết nêu tại Thông báo kèm theo Quyết định này.'
+      noi_dung: Điều 1. Áp dụng thuế chống bán phá giá tạm thời đối với một số sản phẩm thép mạ có xuất xứ từ Cộng hòa nhân dân Trung Hoa và Đại Hàn Dân Quốc được phân loại theo các mã HS 7210.41.11, 7210.41.12, 7210.41.19, 7210.49.11, 7210.49.14, 7210.49.15, 7210.49.16, 7210.49.17, 7210.49.18, 7210.49.19, 7210.50.00, 7210.61.11, 7210.61.12, 7210.61.19, 7210.69.11, 7210.69.19, 7210.90.10, 7210.90.90, 7212.30.11, 7212.30.12, 7212.30.13, 7212.30.14, 7212.30.19,
       trang_pdf: 2
     - dieu: 2
-      tieu_de: Hiệu lực thi hành
-      noi_dung: 'Điều 2. Quyết định này có hiệu lực sau 15 ngày kể từ ngày ban hành.'
+      noi_dung: Điều 2. Quyết định này có hiệu lực sau 15 ngày ké từ ngày ban hành.
       trang_pdf: 2
     - dieu: 3
-      tieu_de: Trách nhiệm thi hành
-      noi_dung: 'Điều 3. Chánh Văn phòng Bộ, Cục trưởng Cục Phòng vệ thương mại và Thủ trưởng các đơn vị, các bên liên quan chịu trách nhiệm thi hành Quyết định này.'
+      noi_dung: Điều 3. Chánh Văn phòng Bộ, Cục trưởng Cục Phòng vệ thương mại và Thủ trưởng các đơn vị, các bên liên quan chịu trách nhiệm thi hành Quyết định này./ AZ
       trang_pdf: 2
 ghi_chu: 'Mã vụ việc AD19 (38 mã HS thép mạ/tôn mạ nhóm 7210, 7212, 7225, 7226; lưu ý tại điểm b khoản 1 Thông báo trang 5 in nhầm 7212.50.19 thành 7215.50.19). Mức thuế chống bán phá giá tạm thời: Trung Quốc 0%–37,13%, Hàn Quốc 0%–15,67%, không nộp C/O áp mức 37,13%; thời hạn áp dụng 120 ngày kể từ ngày 16/04/2025 đến hết ngày 13/08/2025.'
-toan_van: raw/download/files.customs.gov.vn/914-qd-bct-2025.pdf
+toan_van:
+  - raw/download/files.customs.gov.vn/914-qd-bct-2025.pdf
+  - raw/ocr/914-qd-bct-2025.ocr.txt

@@ -3,7 +3,7 @@ so_hieu: 8883/CHQ-GSQL
 so_hieu_khac:
   - 8883/CHQ-GSQL/2026
 loai: CONG_VAN
-ten: 'Về việc thông quan thực phẩm nhập khẩu (triển khai Công điện số 08/CĐ-TTg ngày 03/02/2026 của Thủ tướng Chính phủ)'
+ten: Về việc thông quan thực phẩm nhập khẩu (triển khai Công điện số 08/CĐ-TTg ngày 03/02/2026 của Thủ tướng Chính phủ)
 co_quan: CHQ
 ngay_ban_hanh: '2026-02-04'
 hieu_luc_tu: '2026-02-04'
@@ -22,9 +22,23 @@ nguon:
     truy_cap: '2026-11-24'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'đối chiếu toàn văn PDF bản gốc trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/2/4/VBDI_8883.pdf.PDF, id=102552, 1 trang, Phó Cục trưởng Âu Anh Tuấn ký ngày 04-02-2026, SHA-256 d4e1737a17a2f63746619f1bd57a964d419b9af62e7c09910fb0be43e4b58847): Công văn hỏa tốc số 8883/CHQ-GSQL ngày 04-02-2026 của Cục Hải quan triển khai Công điện số 08/CĐ-TTg ngày 03-02-2026 của Thủ tướng Chính phủ về tháo gỡ ngay các vướng mắc, khó khăn trong kiểm tra thực phẩm, hàng hóa xuất nhập khẩu: (1) Chi cục trưởng các Chi cục Hải quan khu vực bố trí lãnh đạo, công chức trực 24/7 để giải quyết thông quan nhanh hàng hóa XNK, ưu tiên thông quan ngay thực phẩm nhập khẩu đã đảm bảo hồ sơ theo quy định và hướng dẫn của các Bộ chuyên ngành; báo cáo số liệu thực phẩm tồn đọng tại cảng chưa thông quan vào 8h00 và 13h30 hàng ngày theo 3 nhóm hàng hóa tại Phụ lục II, III, IV Nghị định 46/2026/NĐ-CP; (2) Ban CNTT và Thống kê hải quan bố trí cán bộ trực đảm bảo hệ thống xử lý dữ liệu điện tử hải quan hoạt động thông suốt'
+  pham_vi: >-
+    đối chiếu toàn văn PDF bản gốc trên Cổng Hải quan
+    (files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/2/4/VBDI_8883.pdf.PDF, id=102552, 1 trang, Phó Cục trưởng Âu Anh Tuấn
+    ký ngày 04-02-2026, SHA-256 d4e1737a17a2f63746619f1bd57a964d419b9af62e7c09910fb0be43e4b58847): Công văn hỏa tốc số
+    8883/CHQ-GSQL ngày 04-02-2026 của Cục Hải quan triển khai Công điện số 08/CĐ-TTg ngày 03-02-2026 của Thủ tướng Chính
+    phủ về tháo gỡ ngay các vướng mắc, khó khăn trong kiểm tra thực phẩm, hàng hóa xuất nhập khẩu: (1) Chi cục trưởng
+    các Chi cục Hải quan khu vực bố trí lãnh đạo, công chức trực 24/7 để giải quyết thông quan nhanh hàng hóa XNK, ưu
+    tiên thông quan ngay thực phẩm nhập khẩu đã đảm bảo hồ sơ theo quy định và hướng dẫn của các Bộ chuyên ngành; báo
+    cáo số liệu thực phẩm tồn đọng tại cảng chưa thông quan vào 8h00 và 13h30 hàng ngày theo 3 nhóm hàng hóa tại Phụ lục
+    II, III, IV Nghị định 46/2026/NĐ-CP; (2) Ban CNTT và Thống kê hải quan bố trí cán bộ trực đảm bảo hệ thống xử lý dữ
+    liệu điện tử hải quan hoạt động thông suốt
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-24'
   boi: gd-bo-ba@ozvietnam
-ghi_chu: 'Chỉ đạo trực 24/7 giải quyết thông quan nhanh thực phẩm nhập khẩu theo Công điện 08/CĐ-TTg ngày 03/02/2026 và chế độ báo cáo tồn đọng theo 3 nhóm hàng tại Phụ lục II, III, IV Nghị định 46/2026/NĐ-CP.'
-toan_van: raw/download/files.customs.gov.vn/8883-chq-gsql-2026.pdf
+ghi_chu: >-
+  Chỉ đạo trực 24/7 giải quyết thông quan nhanh thực phẩm nhập khẩu theo Công điện 08/CĐ-TTg ngày 03/02/2026 và chế độ
+  báo cáo tồn đọng theo 3 nhóm hàng tại Phụ lục II, III, IV Nghị định 46/2026/NĐ-CP.
+toan_van:
+  - raw/download/files.customs.gov.vn/8883-chq-gsql-2026.pdf
+  - raw/ocr/8883-chq-gsql-2026.ocr.txt

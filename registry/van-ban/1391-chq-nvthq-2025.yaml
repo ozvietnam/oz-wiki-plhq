@@ -3,7 +3,7 @@ so_hieu: 1391/CHQ-NVTHQ
 so_hieu_khac:
   - 1391/CHQ-NVTHQ/2025
 loai: CONG_VAN
-ten: 'Về việc phân loại hàng hóa và hướng dẫn hồ sơ xác định trước mã số đối với thiết bị thang máy nhập khẩu'
+ten: Về việc phân loại hàng hóa và hướng dẫn hồ sơ xác định trước mã số đối với thiết bị thang máy nhập khẩu
 co_quan: CHQ
 ngay_ban_hanh: '2025-04-09'
 hieu_luc_tu: '2025-04-09'
@@ -25,9 +25,25 @@ nguon:
     truy_cap: '2026-11-24'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/DONG_NAI/2025/4/9/1391_CHQ_NVTHQ_09_04_2025.pdf, id=99782, SHA-256 5464045f35141baeecbcf558bac571d15eaa39fb4e26038963456b591e3ca230): Công văn số 1391/CHQ-NVTHQ ngày 09-04-2025 của Cục Hải quan hướng dẫn nguyên tắc phân loại và thủ tục xác định trước mã số đối với thiết bị thang máy nhập khẩu: căn cứ Luật Hải quan số 54/2014/QH13, Nghị định 08/2015/NĐ-CP (sửa đổi, bổ sung tại Nghị định 59/2018/NĐ-CP) và Thông tư 38/2015/TT-BTC (sửa đổi, bổ sung tại Thông tư 39/2018/TT-BTC), khi phân loại phải căn cứ hồ sơ hải quan, tài liệu kỹ thuật xác định rõ các thành phần đầy đủ của một thiết bị thang máy hoàn chỉnh, quy cách hàng hóa dự kiến nhập khẩu là nguyên chiếc hay tháo rời, quy trình lắp ráp sản phẩm hoàn thiện và có trải qua quá trình gia công thêm nào không; trường hợp hàng hóa dự kiến nhập khẩu thì thực hiện thủ tục xác định trước mã số theo Điều 24 Nghị định 08/2015/NĐ-CP (sửa đổi tại khoản 11 Điều 1 Nghị định 59/2018/NĐ-CP) với đơn theo mẫu số 01/XĐTMS/TXNK Phụ lục VI Thông tư 39/2018/TT-BTC kèm tài liệu kỹ thuật và mẫu hàng hóa (nếu có); đang còn hiệu lực'
+  pham_vi: >-
+    đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan
+    (files.customs.gov.vn/CustomsCMS/DONG_NAI/2025/4/9/1391_CHQ_NVTHQ_09_04_2025.pdf, id=99782, SHA-256
+    5464045f35141baeecbcf558bac571d15eaa39fb4e26038963456b591e3ca230): Công văn số 1391/CHQ-NVTHQ ngày 09-04-2025 của
+    Cục Hải quan hướng dẫn nguyên tắc phân loại và thủ tục xác định trước mã số đối với thiết bị thang máy nhập khẩu:
+    căn cứ Luật Hải quan số 54/2014/QH13, Nghị định 08/2015/NĐ-CP (sửa đổi, bổ sung tại Nghị định 59/2018/NĐ-CP) và
+    Thông tư 38/2015/TT-BTC (sửa đổi, bổ sung tại Thông tư 39/2018/TT-BTC), khi phân loại phải căn cứ hồ sơ hải quan,
+    tài liệu kỹ thuật xác định rõ các thành phần đầy đủ của một thiết bị thang máy hoàn chỉnh, quy cách hàng hóa dự kiến
+    nhập khẩu là nguyên chiếc hay tháo rời, quy trình lắp ráp sản phẩm hoàn thiện và có trải qua quá trình gia công thêm
+    nào không; trường hợp hàng hóa dự kiến nhập khẩu thì thực hiện thủ tục xác định trước mã số theo Điều 24 Nghị định
+    08/2015/NĐ-CP (sửa đổi tại khoản 11 Điều 1 Nghị định 59/2018/NĐ-CP) với đơn theo mẫu số 01/XĐTMS/TXNK Phụ lục VI
+    Thông tư 39/2018/TT-BTC kèm tài liệu kỹ thuật và mẫu hàng hóa (nếu có); đang còn hiệu lực
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-24'
   boi: gd-bo-ba@ozvietnam
-ghi_chu: 'Yêu cầu thông tin kỹ thuật khi phân loại thiết bị thang máy nhập khẩu: phải làm rõ danh mục thành phần đầy đủ của thang máy hoàn chỉnh, trạng thái nhập khẩu nguyên chiếc hay tháo rời, quy trình lắp ráp và gia công thêm; hướng dẫn hồ sơ xác định trước mã số theo mẫu 01/XĐTMS/TXNK Phụ lục VI Thông tư 39/2018/TT-BTC.'
-toan_van: raw/download/files.customs.gov.vn/1391-chq-nvthq-2025.pdf
+ghi_chu: >-
+  Yêu cầu thông tin kỹ thuật khi phân loại thiết bị thang máy nhập khẩu: phải làm rõ danh mục thành phần đầy đủ của
+  thang máy hoàn chỉnh, trạng thái nhập khẩu nguyên chiếc hay tháo rời, quy trình lắp ráp và gia công thêm; hướng dẫn hồ
+  sơ xác định trước mã số theo mẫu 01/XĐTMS/TXNK Phụ lục VI Thông tư 39/2018/TT-BTC.
+toan_van:
+  - raw/download/files.customs.gov.vn/1391-chq-nvthq-2025.pdf
+  - raw/ocr/1391-chq-nvthq-2025.ocr.txt

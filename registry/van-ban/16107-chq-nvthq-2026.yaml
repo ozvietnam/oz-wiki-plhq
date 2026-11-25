@@ -3,7 +3,7 @@ so_hieu: 16107/CHQ-NVTHQ
 so_hieu_khac:
   - 16107/CHQ-NVTHQ/2026
 loai: CONG_VAN
-ten: 'Về việc phân loại hàng hóa thiết bị ghi hình hệ thống phẫu thuật nội soi (Chú giải 1(h) Chương 90 và nhóm 85.25)'
+ten: Về việc phân loại hàng hóa thiết bị ghi hình hệ thống phẫu thuật nội soi (Chú giải 1(h) Chương 90 và nhóm 85.25)
 co_quan: CHQ
 ngay_ban_hanh: '2026-05-12'
 hieu_luc_tu: '2026-05-12'
@@ -26,9 +26,24 @@ nguon:
     truy_cap: '2026-11-24'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/DONG_NAI/2026/5/13/16107_CHQ_NVTHQ_12_05_2026.pdf, id=103641, SHA-256 50180a0f5ee5dda08070d28503767a723c86d4c98a4d07c3212618f3c7e16b0c): Công văn số 16107/CHQ-NVTHQ ngày 12-05-2026 của Cục Hải quan hướng dẫn nguyên tắc phân loại thiết bị thuộc hệ thống phẫu thuật nội soi: theo Chú giải 1(h) Chương 90 thì Chương 90 không bao gồm "camera truyền hình, camera kỹ thuật số và camera ghi hình ảnh (nhóm 85.25)", do đó trường hợp mặt hàng được xác định là camera tại nhóm 85.25 thì không phân loại vào các nhóm thuộc Chương 90; khi phân loại cần xác định rõ mặt hàng nhập khẩu riêng biệt hay đồng bộ theo hệ thống phẫu thuật nội soi, lắp đặt sẵn với ống nội soi hay bộ xử lý hình ảnh; hướng dẫn thủ tục xác định trước mã số theo Điều 24 Nghị định 08/2015/NĐ-CP (sửa đổi tại khoản 11 Điều 1 Nghị định 167/2025/NĐ-CP) và Điều 7 Thông tư 38/2015/TT-BTC (sửa đổi tại Điều 1 Thông tư 39/2018/TT-BTC và Thông tư 121/2025/TT-BTC); đang còn hiệu lực'
+  pham_vi: >-
+    đối chiếu toàn văn PDF ký số bậc A trên Cổng Hải quan
+    (files.customs.gov.vn/CustomsCMS/DONG_NAI/2026/5/13/16107_CHQ_NVTHQ_12_05_2026.pdf, id=103641, SHA-256
+    50180a0f5ee5dda08070d28503767a723c86d4c98a4d07c3212618f3c7e16b0c): Công văn số 16107/CHQ-NVTHQ ngày 12-05-2026 của
+    Cục Hải quan hướng dẫn nguyên tắc phân loại thiết bị thuộc hệ thống phẫu thuật nội soi: theo Chú giải 1(h) Chương 90
+    thì Chương 90 không bao gồm "camera truyền hình, camera kỹ thuật số và camera ghi hình ảnh (nhóm 85.25)", do đó
+    trường hợp mặt hàng được xác định là camera tại nhóm 85.25 thì không phân loại vào các nhóm thuộc Chương 90; khi
+    phân loại cần xác định rõ mặt hàng nhập khẩu riêng biệt hay đồng bộ theo hệ thống phẫu thuật nội soi, lắp đặt sẵn
+    với ống nội soi hay bộ xử lý hình ảnh; hướng dẫn thủ tục xác định trước mã số theo Điều 24 Nghị định 08/2015/NĐ-CP
+    (sửa đổi tại khoản 11 Điều 1 Nghị định 167/2025/NĐ-CP) và Điều 7 Thông tư 38/2015/TT-BTC (sửa đổi tại Điều 1 Thông
+    tư 39/2018/TT-BTC và Thông tư 121/2025/TT-BTC); đang còn hiệu lực
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-24'
   boi: gd-bo-ba@ozvietnam
-ghi_chu: 'Nguyên tắc loại trừ theo Chú giải 1(h) Chương 90: camera truyền hình, camera kỹ thuật số và camera ghi hình ảnh thuộc nhóm 85.25 không phân loại vào Chương 90; việc phân loại thiết bị y tế nội soi phụ thuộc vào trạng thái nhập khẩu riêng biệt hay đồng bộ kèm ống nội soi/bộ xử lý hình ảnh.'
-toan_van: raw/download/files.customs.gov.vn/16107-chq-nvthq-2026.pdf
+ghi_chu: >-
+  Nguyên tắc loại trừ theo Chú giải 1(h) Chương 90: camera truyền hình, camera kỹ thuật số và camera ghi hình ảnh thuộc
+  nhóm 85.25 không phân loại vào Chương 90; việc phân loại thiết bị y tế nội soi phụ thuộc vào trạng thái nhập khẩu
+  riêng biệt hay đồng bộ kèm ống nội soi/bộ xử lý hình ảnh.
+toan_van:
+  - raw/download/files.customs.gov.vn/16107-chq-nvthq-2026.pdf
+  - raw/ocr/16107-chq-nvthq-2026.ocr.txt

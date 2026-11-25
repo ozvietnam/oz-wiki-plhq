@@ -3,7 +3,7 @@ so_hieu: 1813/BTC-TCHQ
 so_hieu_khac:
   - 1813/BTC-TCHQ/2025
 loai: CONG_VAN
-ten: 'Về việc thực hiện Quyết định số 01/2025/QĐ-TTg ngày 03/01/2025 của Thủ tướng Chính phủ'
+ten: Về việc thực hiện Quyết định số 01/2025/QĐ-TTg ngày 03/01/2025 của Thủ tướng Chính phủ
 co_quan: BTC
 ngay_ban_hanh: '2025-02-17'
 hieu_luc_tu: '2025-02-18'
@@ -30,9 +30,24 @@ nguon:
     truy_cap: '2026-11-24'
 xac_minh:
   muc: NGUON_A
-  pham_vi: 'đối chiếu toàn văn PDF ký số bậc A của Bộ Tài chính trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/2/18/1813_2025.BTC.TCHQ.pdf, id=99001, SHA-256 c3e0d03db56ec8f2c0ca45660f31312148e570ccdcf70b03aa7e0d3bf5872b69): Công văn số 1813/BTC-TCHQ ngày 17-02-2025 của Bộ Tài chính (TL. Bộ trưởng, KT. Tổng cục trưởng Tổng cục Hải quan, Phó Tổng cục trưởng Âu Anh Tuấn ký) hướng dẫn các Cục Hải quan tỉnh, thành phố thực hiện Quyết định số 01/2025/QĐ-TTg ngày 03-01-2025 về việc thu thuế giá trị gia tăng (GTGT) đối với hàng hóa nhập khẩu trị giá thấp thuộc nhóm 2 gửi qua dịch vụ chuyển phát nhanh kể từ ngày 18-02-2025 (mục 1 về chính sách thuế GTGT và miễn thuế nhập khẩu; mục 2 về khai tờ khai MIC trên VNACCS kèm Bảng kê Mẫu số 02-BKTKTGT đối với đường không, đường biển và tờ khai HQ/2015/NK kèm file HYS đối với đường bộ, đường sắt; mục 3 về biên lai điện tử thu thuế, phí hải quan theo Nghị định 123/2020/NĐ-CP và Thông tư 178/2011/TT-BTC; kèm Phụ lục mẫu Bảng kê tờ khai hàng hóa xuất khẩu, nhập khẩu trị giá thấp tính thuế để thông quan)'
+  pham_vi: >-
+    đối chiếu toàn văn PDF ký số bậc A của Bộ Tài chính trên Cổng Hải quan
+    (files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/2/18/1813_2025.BTC.TCHQ.pdf, id=99001, SHA-256
+    c3e0d03db56ec8f2c0ca45660f31312148e570ccdcf70b03aa7e0d3bf5872b69): Công văn số 1813/BTC-TCHQ ngày 17-02-2025 của Bộ
+    Tài chính (TL. Bộ trưởng, KT. Tổng cục trưởng Tổng cục Hải quan, Phó Tổng cục trưởng Âu Anh Tuấn ký) hướng dẫn các
+    Cục Hải quan tỉnh, thành phố thực hiện Quyết định số 01/2025/QĐ-TTg ngày 03-01-2025 về việc thu thuế giá trị gia
+    tăng (GTGT) đối với hàng hóa nhập khẩu trị giá thấp thuộc nhóm 2 gửi qua dịch vụ chuyển phát nhanh kể từ ngày
+    18-02-2025 (mục 1 về chính sách thuế GTGT và miễn thuế nhập khẩu; mục 2 về khai tờ khai MIC trên VNACCS kèm Bảng kê
+    Mẫu số 02-BKTKTGT đối với đường không, đường biển và tờ khai HQ/2015/NK kèm file HYS đối với đường bộ, đường sắt;
+    mục 3 về biên lai điện tử thu thuế, phí hải quan theo Nghị định 123/2020/NĐ-CP và Thông tư 178/2011/TT-BTC; kèm Phụ
+    lục mẫu Bảng kê tờ khai hàng hóa xuất khẩu, nhập khẩu trị giá thấp tính thuế để thông quan)
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-24'
   boi: gd-bo-ba@ozvietnam
-ghi_chu: 'Hướng dẫn kê khai, thu nộp thuế GTGT (5%, 8%, 10%) đối với hàng hóa nhập khẩu trị giá thấp nhóm 2 gửi qua dịch vụ chuyển phát nhanh quốc tế từ ngày 18/02/2025 theo Quyết định số 01/2025/QĐ-TTg (trên tờ khai MIC đối với đường hàng không/đường biển và tờ khai HQ/2015/NK đối với đường bộ/đường sắt).'
-toan_van: raw/download/files.customs.gov.vn/1813-btc-tchq-2025.pdf
+ghi_chu: >-
+  Hướng dẫn kê khai, thu nộp thuế GTGT (5%, 8%, 10%) đối với hàng hóa nhập khẩu trị giá thấp nhóm 2 gửi qua dịch vụ
+  chuyển phát nhanh quốc tế từ ngày 18/02/2025 theo Quyết định số 01/2025/QĐ-TTg (trên tờ khai MIC đối với đường hàng
+  không/đường biển và tờ khai HQ/2015/NK đối với đường bộ/đường sắt).
+toan_van:
+  - raw/download/files.customs.gov.vn/1813-btc-tchq-2025.pdf
+  - raw/ocr/1813-btc-tchq-2025.ocr.txt

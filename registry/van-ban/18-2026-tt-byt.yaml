@@ -1,19 +1,70 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 18/2026/TT-BYT
 loai: THONG_TU
-ten: 'Quy định chi tiết một số điều của Luật Dược và Nghị định 163/2025/NĐ-CP về thuốc và nguyên liệu làm thuốc phải kiểm soát đặc biệt'
+ten: Quy định chi tiết một số điều của Luật Dược và Nghị định 163/2025/NĐ-CP về thuốc và nguyên liệu làm thuốc phải kiểm soát đặc biệt
 co_quan: BYT
-ngay_ban_hanh: '2026-11-14'
+ngay_ban_hanh: '2026-06-01'
+hieu_luc_tu: '2026-07-16'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - kiem-tra-chuyen-nganh/byt
+quan_he:
+  huong_dan:
+    - 105/2016/QH13
+    - 44/2024/QH15
+    - 163/2025/NĐ-CP
+    - 28/2026/NĐ-CP
 nguon:
   - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-18-2026-tt-byt-469674.htm
     truy_cap: '2026-11-24'
+  - url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/6/12/469674-1781254593_v1_1781258925_signed.pdf
+    truy_cap: '2026-11-25'
 xac_minh:
-  muc: NGUON_THU_CAP
-  pham_vi: 'số hiệu + tên + công báo điện tử (trích 23-11); chi tiết ngày ban hành cần đối chiếu bản gốc khi lên A'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-11-24'
-  boi: zcode@ozvietnam
-ghi_chu: 'Trinh thám đêm 24/11. Thuốc kiểm soát đặc biệt = nhập khẩu theo giấy phép HQ riêng (phụ lục ma túy/tiền chất) — đụng trực tiếp lô thuốc đặc biệt của khách.'
+  muc: NGUON_A
+  pham_vi: đối chiếu Công báo điện tử số 329 ngày 14-06-2026 PDF ký số (congbaocdn.chinhphu.vn, 45 trang, SHA-256 754c244801353c00007b55e16209fe8655c6a6dc489f3cebd3b5ed9d85ee3f04); ban hành 01-06-2026, hiệu lực từ 16-07-2026 (riêng K2 Đ16 về Etomidate/Carisoprodol và K1 Đ17 từ 01-06-2026; K4 Đ16 bãi bỏ TT 20/2017/TT-BYT và TT 27/2024/TT-BYT từ 16-07-2026)
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-25'
+  boi: antigravity@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Phạm vi điều chỉnh Thông tư này quy định chi tiết một số điều của Luật Dược số 105/2016/QH13 được sửa đổi, bổ sung bởi Luật số 44/2024/QH15 (sau đây gọi tắt là Luật Dược) và Nghị định số 163/2025/NĐ-CP về: 1. Các danh mục liên quan đến thuốc, nguyên liệu làm thuốc phải kiểm soát đặc biệt bao gồm: a) Danh mục dược chất gây nghiện theo quy định tại khoản 17 Điều 2 Luật Dược;'
+      trang_pdf: 1
+      sha256_pdf: 754c244801353c00007b55e16209fe8655c6a6dc489f3cebd3b5ed9d85ee3f04
+    - dieu: 2
+      noi_dung: Điều 2. Ban hành danh mục thuốc phải kiểm soát đặc biệt và bảng giới hạn nồng độ, hàm lượng dược chất gây nghiện, dược chất hướng thần, tiền chất dùng làm thuốc trong thuốc dạng phối hợp 1. Danh mục dược chất gây nghiện quy định tại Phụ lục I kèm theo Thông tư này và Bảng giới hạn nồng độ, hàm lượng dược chất gây nghiện trong thuốc dạng phối hợp theo quy định tại Phụ lục IV kèm theo Thông tư này.
+      trang_pdf: 2
+      sha256_pdf: 754c244801353c00007b55e16209fe8655c6a6dc489f3cebd3b5ed9d85ee3f04
+    - dieu: 3
+      noi_dung: 'Điều 3. Bảo quản 1. Cơ sở có hoạt động dược không vì mục đích thương mại phải tuân thủ yêu cầu về Thực hành tốt bảo quản thuốc, nguyên liệu làm thuốc trong đó: a) Thuốc gây nghiện, thuốc hướng thần, thuốc tiền chất, nguyên liệu làm thuốc là dược chất gây nghiện, dược chất hướng thần, tiền chất dùng làm thuốc phải được bảo quản tại kho, tủ riêng có khóa chắc chắn và không được để cùng các thuốc, nguyên liệu làm thuốc khác.'
+      trang_pdf: 3
+      sha256_pdf: 754c244801353c00007b55e16209fe8655c6a6dc489f3cebd3b5ed9d85ee3f04
+    - dieu: 6
+      noi_dung: Điều 6. Giao nhận, vận chuyển 1. Việc giao nhận, vận chuyển thuốc, nguyên liệu làm thuốc phải kiểm soát đặc biệt giữa các cơ sở phải thực hiện theo quy định chung về giao nhận, vận chuyển thuốc, nguyên liệu làm thuốc và các quy định tại Điều 33 Nghị định số 163/2025/NĐ-CP, trong đó, người giao, người nhận thuốc, nguyên liệu làm thuốc phải kiểm soát đặc biệt phải có bằng tốt nghiệp trung cấp ngành dược trở lên hoặc người được người đứng đầu cơ sở
+      trang_pdf: 6
+      sha256_pdf: 754c244801353c00007b55e16209fe8655c6a6dc489f3cebd3b5ed9d85ee3f04
+    - dieu: 7
+      noi_dung: 'Điều 7. Báo cáo 1. Trước ngày 15 tháng 01 hàng năm, cơ sở có hoạt động dược không vì mục đích thương mại lập báo cáo xuất, nhập, tồn kho, sử dụng thuốc gây nghiện, thuốc hướng thần, thuốc tiền chất, thuốc phóng xạ, thuốc dạng phối hợp có chứa tiền chất theo mẫu báo cáo quy định tại Phụ lục IX kèm theo Thông tư này và gửi các cơ quan sau: a) Cục Quân y - Bộ Quốc phòng đối với trường hợp cơ sở thuộc phạm vi quản lý của Bộ Quốc phòng;'
+      trang_pdf: 6
+      sha256_pdf: 754c244801353c00007b55e16209fe8655c6a6dc489f3cebd3b5ed9d85ee3f04
+    - dieu: 9
+      noi_dung: 'Điều 9. Hồ sơ, sổ sách đối với cơ sở sản xuất 1. Cơ sở sản xuất thuốc gây nghiện; thuốc hướng thần; thuốc tiền chất; nguyên liệu làm thuốc là dược chất gây nghiện, dược chất hướng thần, tiền chất dùng làm thuốc phải lập, quản lý và lưu trữ đầy đủ các loại hồ sơ, sổ theo dõi sau đây: a) Sổ theo dõi pha chế, sản xuất thuốc gây nghiện, thuốc hướng thần, thuốc tiền chất theo mẫu sổ quy định tại Phụ lục XIV kèm theo Thông tư này;'
+      trang_pdf: 8
+      sha256_pdf: 754c244801353c00007b55e16209fe8655c6a6dc489f3cebd3b5ed9d85ee3f04
+    - dieu: 11
+      noi_dung: 'Điều 11. Hồ sơ, sổ sách đối với cơ sở bán buôn, cơ sở tổ chức chuỗi nhà thuốc 1. Cơ sở bán buôn, cơ sở tổ chức chuỗi nhà thuốc có kinh doanh thuốc gây nghiện, thuốc hướng thần, thuốc tiền chất phải lập, quản lý và lưu trữ đầy đủ các loại hồ sơ, sổ theo dõi sau đây: a) Sổ theo dõi xuất, nhập, tồn kho thuốc gây nghiện, thuốc hướng thần, thuốc tiền chất theo mẫu sổ quy định tại Phụ lục VIII kèm theo Thông tư này;'
+      trang_pdf: 10
+      sha256_pdf: 754c244801353c00007b55e16209fe8655c6a6dc489f3cebd3b5ed9d85ee3f04
+    - dieu: 13
+      noi_dung: Điều 13. Hồ sơ, sổ sách đối với cơ sở kinh doanh dịch vụ bảo quản thuốc, kinh doanh dịch vụ thử thuốc trên lâm sàng, kinh doanh dịch vụ thử tương đương sinh học của thuốc, kinh doanh dịch vụ kiểm nghiệm 1. Đối với thuốc gây nghiện; thuốc hướng thần; thuốc tiền chất;
+      trang_pdf: 12
+      sha256_pdf: 754c244801353c00007b55e16209fe8655c6a6dc489f3cebd3b5ed9d85ee3f04
+    - dieu: 14
+      noi_dung: 'Điều 14. Hồ sơ, sổ sách đối với cơ sở có hoạt động dược không vì mục đích thương mại 1. Các cơ sở có hoạt động dược không vì mục đích thương mại, trừ cơ sở điều trị nghiện chất dạng thuốc phiện bằng thuốc thay thế, cơ sở cai nghiện ma túy, phải lập, quản lý và lưu trữ đầy đủ các loại hồ sơ, sổ theo dõi sau đây: a) Sổ pha chế thuốc gây nghiện, thuốc hướng thần, thuốc tiền chất, thuốc phóng xạ theo mẫu sổ quy định tại Phụ lục XIV và Phụ lục XVII'
+      trang_pdf: 12
+      sha256_pdf: 754c244801353c00007b55e16209fe8655c6a6dc489f3cebd3b5ed9d85ee3f04
+    - dieu: 17
+      noi_dung: Điều 17. Điều khoản chuyển tiếp 1. Việc quản lý đối với dược chất Etomidate, Carisoprodol và các thuốc có chứa dược chất Etomidate, Carisoprodol từ ngày 01 tháng 6 năm 2026 đến trước ngày Thông tư này có hiệu lực thực hiện theo quy định về thuốc hướng thần, nguyên liệu làm thuốc là dược chất hướng thần tại Thông tư số 20/2017/TT-BYT được sửa đổi, bổ sung bởi Thông tư số 27/2024/TT-BYT và các quy định của pháp luật có liên quan về thuốc hướng
+      trang_pdf: 14
+      sha256_pdf: 754c244801353c00007b55e16209fe8655c6a6dc489f3cebd3b5ed9d85ee3f04
+ghi_chu: Trinh thám đêm 24/11. Thuốc kiểm soát đặc biệt = nhập khẩu theo giấy phép HQ riêng (phụ lục ma túy/tiền chất) — đụng trực tiếp lô thuốc đặc biệt của khách.
+toan_van: raw/download/congbaocdn.chinhphu.vn/18-2026-tt-byt.pdf
