@@ -126,25 +126,54 @@ export function gopDieuKhoanNguonA(yamlClauses = [], fullClauses = []) {
   const base = Array.isArray(yamlClauses) ? [...yamlClauses] : [];
   if (!Array.isArray(fullClauses) || fullClauses.length === 0) return base;
 
-  const dieuCoPhanCap = new Set();
+  const dieuCoPhanCapYaml = new Set();
+  const idxTheoKhoaDayDu = new Map();
   const idxMucDieuDon = new Map();
   base.forEach((yc, idx) => {
     const dNum = Number(yc?.dieu);
     if (!Number.isInteger(dNum) || dNum < 1) return;
+    const compKey = `${dNum}:${yc.khoan ?? ''}:${yc.diem ?? ''}`;
+    idxTheoKhoaDayDu.set(compKey, idx);
     if (yc.khoan != null || yc.diem != null) {
-      dieuCoPhanCap.add(dNum);
+      dieuCoPhanCapYaml.add(dNum);
     } else if (!idxMucDieuDon.has(dNum)) {
       idxMucDieuDon.set(dNum, idx);
     }
   });
 
+  const dieuCoNhieuKhoanTrongFull = new Set();
+  const countKhoanByDieu = new Map();
+  for (const fc of fullClauses) {
+    if (fc?.khoan != null && Number.isInteger(Number(fc.dieu))) {
+      const dNum = Number(fc.dieu);
+      countKhoanByDieu.set(dNum, (countKhoanByDieu.get(dNum) || 0) + 1);
+    }
+  }
+  for (const [dNum, cnt] of countKhoanByDieu) {
+    if (cnt >= 2) dieuCoNhieuKhoanTrongFull.add(dNum);
+  }
+
   const out = [...base];
   for (const fc of fullClauses) {
     const dNum = Number(fc?.dieu);
     if (!Number.isInteger(dNum) || dNum < 1) continue;
-    if (dieuCoPhanCap.has(dNum)) continue;
+    if (fc.khoan != null) {
+      const compKey = `${dNum}:${fc.khoan}:${fc.diem ?? ''}`;
+      if (idxTheoKhoaDayDu.has(compKey)) {
+        const idx = idxTheoKhoaDayDu.get(compKey);
+        if (String(fc.noi_dung || '').length > String(out[idx]?.noi_dung || '').length) {
+          out[idx] = { ...out[idx], ...fc };
+        }
+        continue;
+      }
+      idxTheoKhoaDayDu.set(compKey, out.length);
+      out.push(fc);
+      continue;
+    }
+
+    if (dieuCoPhanCapYaml.has(dNum) || dieuCoNhieuKhoanTrongFull.has(dNum)) continue;
     if (idxMucDieuDon.has(dNum)) {
-      const idx = idxMucDieuDon.get(dNum);
+      const idx = idxTheoKhoaDayDu.get(`${dNum}::`) ?? idxMucDieuDon.get(dNum);
       if (String(fc.noi_dung || '').length > String(out[idx]?.noi_dung || '').length) {
         out[idx] = fc;
       }

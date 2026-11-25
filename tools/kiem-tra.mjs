@@ -81,9 +81,13 @@ export function kiemTra(so, opts = {}) {
     for (const [qh, arr] of Object.entries(d.quan_he || {})) {
       if (!QUAN_HE[qh]) { L(f, `quan_he "${qh}" không hợp lệ (${Object.keys(QUAN_HE).join(', ')})`); continue; }
       if (!Array.isArray(arr)) { L(f, `quan_he.${qh} phải là danh sách`); continue; }
+      const seenQh = new Set();
       for (const raw of arr) {
         const c = chuanCanh(raw);
         if (!c) { L(f, `quan_he.${qh}: phần tử phải là số hiệu hoặc {so_hieu, pham_vi, tu_ngay, can_cu}`); continue; }
+        const dupKey = `${khoa(c.so_hieu)}|${String(c.pham_vi || '').trim()}`;
+        if (seenQh.has(dupKey)) W(f, `quan_he.${qh} trùng cạnh tới ${c.so_hieu}${c.pham_vi ? ` (${c.pham_vi})` : ''}`);
+        seenQh.add(dupKey);
         if (khoa(c.so_hieu) === khoa(d.so_hieu)) L(f, `quan_he.${qh} trỏ vào chính nó`);
         if (c.tu_ngay && !NGAY.test(String(c.tu_ngay))) L(f, `quan_he.${qh}.tu_ngay phải dạng YYYY-MM-DD`);
         // Chiều đi & vai trò quan hệ: văn bản mới tác động văn bản cũ; văn bản dưới hướng dẫn văn bản trên; chỉ VBHN mới hợp nhất.

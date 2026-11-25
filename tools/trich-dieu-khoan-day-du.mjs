@@ -26,6 +26,107 @@ import {
 export const MAC_DINH_MAX_LEN = 1800;
 const MIN_DOAN_DAY_DU_KY_TU = 80;
 
+const RE_KHOAN_SUA_DOI = /^\s*(\d{1,3})\s*[.)]\s+(?=.*?(?:s[uửư][aảe]|b[oổỗd]\s*sung|b[aã]i\s*b[oỏ]|thay\s*th[eế]|[đd]i[eềê]u\s+\d+|kho[aả]n\s+\d+|ph[uụ]\s*l[uụ]c|b[oỏ]\s+c[uụ]m))/iu;
+const RE_KHOAN_DAU_MUC_SUA_DOI = /^\s*(\d{1,3})\s*[.)]\s+(?:(?:kho[aả]n|đi[eể]m|[đd]i[eềê]u|m[uụ]c|ch[uươ]{1,2}ng|ph[uụ]\s*l[uụ]c)(?=$|[\s,.;:])[^\n]{0,140}?(?:đ[uư][oợ]c\s+)?(?:s[uửư][aảe]|b[oổỗd]\s*sung|b[aã]i\s*b[oỏ]|thay\s*th[eế])|(?:s[uửư][aảe]|b[oổỗd]\s*sung|b[aã]i\s*b[oỏ]|thay\s*th[eế]|[đd]ổi\s*tên|b[oỏ]\s+c[uụ]m)(?=$|[\s,.;:]))/iu;
+
+export function laVanBanSuaDoiGop(doc) {
+  return Boolean((doc?.quan_he?.sua_doi?.length || 0) > 0 || (doc?.quan_he?.bai_bo?.length || 0) > 0);
+}
+
+/**
+ * Tách các khoản sửa đổi đánh số `1. ... 2. ...` bên trong một Điều gộp dài hơn `maxLen`
+ * (thường gặp ở Điều 1 của các Thông tư/Nghị định sửa đổi bổ sung).
+ * Mỗi khoản được kiểm chứng 100% qua `kiemKhopCuaSoTrang` trước khi nhận.
+ */
+export function trichKhoanSuaDoiTuKhoi(block, docData, maxLen = MAC_DINH_MAX_LEN, { allowWithoutRelation = false } = {}) {
+  const { pages, kind } = docData;
+  const totalTextLen = (block.segments || []).reduce((s, seg) => s + String(seg.text || '').length, 0);
+  if (totalTextLen <= maxLen) return [];
+
+  const subBlocks = [];
+  let cur = null;
+  let prevKhoan = 0;
+
+  for (const seg of block.segments || []) {
+    const lines = String(seg.text || '').split('\n');
+    for (const line of lines) {
+      const trimmed = line.trim();
+      if (!trimmed) {
+        if (cur) {
+          const last = cur.segments[cur.segments.length - 1];
+          if (last && last.pageNum === seg.pageNum && last.lines[last.lines.length - 1] !== '') {
+            last.lines.push('');
+          }
+        }
+        continue;
+      }
+
+      const m = trimmed.match(RE_KHOAN_DAU_MUC_SUA_DOI) || (allowWithoutRelation ? trimmed.match(RE_KHOAN_SUA_DOI) : null);
+      if (m) {
+        const kNum = Number(m[1]);
+        if (Number.isInteger(kNum) && kNum > prevKhoan && kNum <= prevKhoan + 8) {
+          if (cur) subBlocks.push(cur);
+          cur = {
+            dieu: block.dieu,
+            khoan: kNum,
+            segments: [{ pageNum: seg.pageNum, lines: [trimmed] }],
+          };
+          prevKhoan = kNum;
+          continue;
+        }
+      }
+
+      if (cur) {
+        let targetSeg = cur.segments[cur.segments.length - 1];
+        if (!targetSeg || targetSeg.pageNum !== seg.pageNum) {
+          targetSeg = { pageNum: seg.pageNum, lines: [] };
+          cur.segments.push(targetSeg);
+        }
+        targetSeg.lines.push(trimmed);
+      }
+    }
+  }
+  if (cur) subBlocks.push(cur);
+
+  if (subBlocks.length < 2) return [];
+
+  const verified = [];
+  for (const sb of subBlocks) {
+    const firstSeg = sb.segments[0];
+    if (!firstSeg) continue;
+    const p0 = firstSeg.pageNum;
+    const checkPage = kind === 'docx' ? null : p0;
+    const inWindow = kind === 'docx'
+      ? sb.segments
+      : sb.segments.filter((s) => s.pageNum >= p0 && s.pageNum <= p0 + 1);
+    const candTexts = [];
+    if (inWindow.length > 1) {
+      candTexts.push(inWindow.map((s) => s.lines.join('\n').trim()).join('\n\n'));
+    }
+    candTexts.push(firstSeg.lines.join('\n').trim());
+
+    let matched = null;
+    for (const rawSeg of candTexts) {
+      const excerpt = catDoanNguyenVan(rawSeg, 30, maxLen);
+      if (!excerpt) continue;
+      const norm = chuanHoaKhopNguyenVan(excerpt);
+      if (!norm) continue;
+      if (kiemKhopCuaSoTrang(pages, checkPage, norm)) {
+        matched = {
+          dieu: sb.dieu,
+          khoan: sb.khoan,
+          noi_dung: excerpt,
+          ...(kind === 'docx' ? {} : { trang_pdf: p0 }),
+        };
+        break;
+      }
+    }
+    if (matched) verified.push(matched);
+  }
+
+  return verified.length >= 2 ? verified : [];
+}
+
 function tinhSha256Tep(absPath) {
   return createHash('sha256').update(readFileSync(absPath)).digest('hex');
 }
@@ -80,6 +181,7 @@ function dinhDangMucJsonl(item, readRes) {
   const sha = hasMatchedPdfSha ? item.sha256_pdf : tinhSha256Tep(readRes.fileInfo.abs);
   const out = {
     dieu: item.dieu,
+    ...(item.khoan != null ? { khoan: item.khoan } : {}),
     noi_dung: item.noi_dung,
   };
   // Chỉ giữ trang_pdf khi trích trực tiếp từ PDF hoặc khớp chính xác lớp chữ của PDF kèm trong toan_van.
@@ -134,7 +236,19 @@ export function trichDieuKhoanDayDuChoVanBan(
       continue;
     }
     const blocks = phanTichCacKhoiDieu(readRes.pages);
-    const verified = blocks.map((b) => trichKhoiDayDu(b, readRes, maxLen)).filter(Boolean);
+    const laSuaDoiGop = laVanBanSuaDoiGop(doc);
+    const verified = [];
+    for (const b of blocks) {
+      if (laSuaDoiGop || b.dieu <= 3) {
+        const subItems = trichKhoanSuaDoiTuKhoi(b, readRes, maxLen, { allowWithoutRelation: false });
+        if (subItems.length >= 2) {
+          verified.push(...subItems);
+          continue;
+        }
+      }
+      const single = trichKhoiDayDu(b, readRes, maxLen);
+      if (single) verified.push(single);
+    }
     if (verified.length > 0) {
       chosenResult = { readRes, verified };
       break;
@@ -157,7 +271,7 @@ export function trichDieuKhoanDayDuChoVanBan(
   }
 
   const withSha = ganShaPdfNeuKhop(chosenResult.verified, chosenResult.readRes, pdfFiles, readOpts)
-    .sort((a, b) => a.dieu - b.dieu)
+    .sort((a, b) => a.dieu - b.dieu || (a.khoan ?? -1) - (b.khoan ?? -1))
     .map((it) => dinhDangMucJsonl(it, chosenResult.readRes));
 
   if (write) {

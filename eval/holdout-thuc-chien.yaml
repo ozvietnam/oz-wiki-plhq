@@ -1,0 +1,243 @@
+# Bộ câu hỏi Holdout thực chiến (48 câu MÙ — tách hoàn toàn khỏi 60 câu dev eval/cau-hoi-nghiep-vu.yaml)
+# QUY TẮC NGHIÊM NGẶT: Tuyệt đối KHÔNG viết từ khóa hay ngoại lệ vá riêng theo từng câu trong tệp này.
+# Chỉ dùng để đo năng lực tổng quát hóa thật sự của engine tra cứu qua các pha Wave 25 -> Wave 29.
+phien_ban: '2026-11-25'
+tong_so_cau: 48
+cau_hoi:
+  # ==================== NHÓM 1: NGHIỆP VỤ MỚI (10 câu) ====================
+  - id: HO-01
+    nhom: nghiep_vu_moi
+    cau_hoi: Đơn hàng thương mại điện tử xuyên biên giới dưới 1 triệu đồng có được miễn thuế nhập khẩu không, áp dụng từ ngày nào?
+    van_ban_ky_vong: [417/2026/NĐ-CP]
+
+  - id: HO-02
+    nhom: nghiep_vu_moi
+    cau_hoi: Quy định bắt buộc gắn mã truy xuất nguồn gốc UID cho hàng rủi ro cao có hiệu lực từ khi nào, văn bản nào quy định?
+    van_ban_ky_vong: [372/2026/NĐ-CP, 37/2026/NĐ-CP]
+
+  - id: HO-03
+    nhom: nghiep_vu_moi
+    cau_hoi: Doanh nghiệp FDI nhập dây chuyền sản xuất vi mạch bán dẫn đã qua sử dụng từ 01/01/2027 có bị cấm theo TT 11/2018/TT-BTTTT không?
+    van_ban_ky_vong: [63/2026/TT-BKHCN]
+
+  - id: HO-04
+    nhom: nghiep_vu_moi
+    cau_hoi: Nhập khẩu hóa chất 1,4-Butanediol (BDO) cần giấy phép tiền chất công nghiệp gì và mốc chuyển tiếp đến khi nào?
+    van_ban_ky_vong: [28/2026/NĐ-CP, 26/2026/NĐ-CP]
+
+  - id: HO-05
+    nhom: nghiep_vu_moi
+    cau_hoi: DN nội địa bán hàng cho DNCX làm XNK tại chỗ cần thủ tục hải quan gì theo quy định mới 2025-2026?
+    van_ban_ky_vong: [90/2025/QH15, 38/2015/TT-BTC]
+
+  - id: HO-06
+    nhom: nghiep_vu_moi
+    cau_hoi: Hàng gửi kho ngoại quan được lưu giữ tối đa bao lâu, gia hạn thế nào và có được chia tách đóng gói lại trong kho không?
+    van_ban_ky_vong: [54/2014/QH13, 08/2015/NĐ-CP]
+
+  - id: HO-07
+    nhom: nghiep_vu_moi
+    cau_hoi: Lô hàng cập cảng 28/12/2026 nhưng mở tờ khai ngày 02/01/2027 thì còn được giảm thuế GTGT 8% không?
+    van_ban_ky_vong: [174/2025/NĐ-CP, 204/2025/QH15, 181/2025/NĐ-CP]
+
+  - id: HO-08
+    nhom: nghiep_vu_moi
+    cau_hoi: Thủ tục hải quan và hóa đơn mua gom hàng cư dân biên giới từ 01/01/2027 thay đổi điểm nào lớn nhất?
+    van_ban_ky_vong: [154/2026/TT-BTC, 80/2019/TT-BTC]
+
+  - id: HO-09
+    nhom: nghiep_vu_moi
+    cau_hoi: Hàng nhập khẩu vi phạm nhãn hàng hóa và quá thời hạn lưu giữ trong kho ngoại quan bị xử phạt thế nào?
+    van_ban_ky_vong: [169/2026/NĐ-CP]
+
+  - id: HO-10
+    nhom: nghiep_vu_moi
+    cau_hoi: Hàng hóa gửi qua dịch vụ chuyển phát nhanh quốc tế thực hiện thủ tục hải quan điện tử theo thông tư nào mới?
+    van_ban_ky_vong: [142/2026/TT-BTC]
+
+  # ==================== NHÓM 2: BẪY VĂN BẢN CŨ / HẾT HIỆU LỰC (8 câu) ====================
+  - id: HO-11
+    nhom: bay_van_ban_cu
+    cau_hoi: Nhập máy giặt đã qua sử dụng từ Nhật Bản, áp dụng Nghị định 69/2018/NĐ-CP hay văn bản nào mới nhất?
+    van_ban_thay_the_ky_vong: [292/2026/NĐ-CP, 48/2026/TT-BCT]
+    van_ban_cu_can_tranh_nham: 69/2018/NĐ-CP
+
+  - id: HO-12
+    nhom: bay_van_ban_cu
+    cau_hoi: Thông tư 14/2015/TT-BTC về phân loại hàng hóa và lấy mẫu phân tích có còn dùng được không?
+    van_ban_thay_the_ky_vong: [85/2026/TT-BTC]
+    van_ban_cu_can_tranh_nham: 14/2015/TT-BTC
+
+  - id: HO-13
+    nhom: bay_van_ban_cu
+    cau_hoi: Khai báo hóa chất nhập khẩu theo Nghị định 113/2017/NĐ-CP hiện nay còn áp dụng không hay đổi sang văn bản nào?
+    van_ban_thay_the_ky_vong: [26/2026/NĐ-CP, 24/2026/NĐ-CP]
+    van_ban_cu_can_tranh_nham: 113/2017/NĐ-CP
+
+  - id: HO-14
+    nhom: bay_van_ban_cu
+    cau_hoi: Kiểm tra an toàn thực phẩm theo Nghị định 46/2026/NĐ-CP đã bắt buộc áp dụng chưa hay vẫn dùng Nghị định 15/2018/NĐ-CP?
+    van_ban_thay_the_ky_vong: [15/2018/NĐ-CP, 09/2026/NQ-CP]
+    van_ban_cu_can_tranh_nham: 46/2026/NĐ-CP
+
+  - id: HO-15
+    nhom: bay_van_ban_cu
+    cau_hoi: Thông tư 39/2015/TT-BTC về trị giá hải quan hiện tại còn hiệu lực không hay đã bị văn bản khác thay thế?
+    van_ban_thay_the_ky_vong: [29/2025/TT-BTC]
+    van_ban_cu_can_tranh_nham: 39/2015/TT-BTC
+
+  - id: HO-16
+    nhom: bay_van_ban_cu
+    cau_hoi: Danh mục hàng tiêu dùng đã qua sử dụng cấm nhập khẩu có còn tra theo Thông tư 12/2018/TT-BCT không?
+    van_ban_thay_the_ky_vong: [48/2026/TT-BCT]
+    van_ban_cu_can_tranh_nham: 12/2018/TT-BCT
+
+  - id: HO-17
+    nhom: bay_van_ban_cu
+    cau_hoi: Kiểm tra chất lượng sản phẩm hàng hóa nhóm 2 có còn dùng Nghị định 132/2008/NĐ-CP không?
+    van_ban_thay_the_ky_vong: [37/2026/NĐ-CP]
+    van_ban_cu_can_tranh_nham: 132/2008/NĐ-CP
+
+  - id: HO-18
+    nhom: bay_van_ban_cu
+    cau_hoi: Tạm nhập tái xuất kinh doanh thực phẩm đông lạnh theo Thông tư 12/2018/TT-BCT bây giờ chuyển sang thông tư nào?
+    van_ban_thay_the_ky_vong: [48/2026/TT-BCT, 08/2023/TT-BCT]
+    van_ban_cu_can_tranh_nham: 12/2018/TT-BCT
+
+  # ==================== NHÓM 3: SỬA ĐỔI CẤP ĐIỀU KHOẢN (8 câu) ====================
+  - id: HO-19
+    nhom: sua_doi_cap_dieu
+    cau_hoi: Quy định hủy tờ khai hải quan tại Điều 22 Thông tư 38/2015/TT-BTC đã được sửa đổi bổ sung ra sao?
+    van_ban_ky_vong: [38/2015/TT-BTC, 121/2025/TT-BTC]
+
+  - id: HO-20
+    nhom: sua_doi_cap_dieu
+    cau_hoi: Sửa đổi bổ sung thủ tục khai bổ sung hồ sơ hải quan tại Điều 20 Thông tư 38/2015/TT-BTC theo Thông tư 39/2018 và 121/2025?
+    van_ban_ky_vong: [38/2015/TT-BTC, 121/2025/TT-BTC]
+
+  - id: HO-21
+    nhom: sua_doi_cap_dieu
+    cau_hoi: Nghị định 167/2025/NĐ-CP sửa đổi Nghị định 08/2015/NĐ-CP về kiểm tra, giám sát và địa điểm làm thủ tục hải quan như thế nào?
+    van_ban_ky_vong: [08/2015/NĐ-CP, 167/2025/NĐ-CP]
+
+  - id: HO-22
+    nhom: sua_doi_cap_dieu
+    cau_hoi: Điều kiện miễn thuế và hoàn thuế đối với hàng hóa sản xuất xuất khẩu theo Nghị định 134/2016/NĐ-CP và 18/2021/NĐ-CP?
+    van_ban_ky_vong: [134/2016/NĐ-CP, 18/2021/NĐ-CP]
+
+  - id: HO-23
+    nhom: sua_doi_cap_dieu
+    cau_hoi: Thời hạn nộp bổ sung chứng từ chứng nhận xuất xứ hàng hóa C/O theo TT 33/2023/TT-BTC và TT 124/2026/TT-BTC?
+    van_ban_ky_vong: [33/2023/TT-BTC, 124/2026/TT-BTC]
+
+  - id: HO-24
+    nhom: sua_doi_cap_dieu
+    cau_hoi: Thuế suất thuế nhập khẩu ưu đãi MFN mặt hàng xăng dầu theo NĐ 72/2026/NĐ-CP sửa đổi NĐ 26/2023/NĐ-CP đến bao giờ?
+    van_ban_ky_vong: [26/2023/NĐ-CP, 72/2026/NĐ-CP]
+
+  - id: HO-25
+    nhom: sua_doi_cap_dieu
+    cau_hoi: Thông tư 48/2026/TT-BCT bãi bỏ những phần nào của Thông tư 08/2023/TT-BCT và phần nào chuyển tiếp đến hết 2026?
+    van_ban_ky_vong: [48/2026/TT-BCT, 08/2023/TT-BCT]
+
+  - id: HO-26
+    nhom: sua_doi_cap_dieu
+    cau_hoi: Quy định sửa đổi tại Nghị định 182/2025/NĐ-CP bổ sung ưu đãi thuế xuất nhập khẩu từ Nghị định 134/2016/NĐ-CP?
+    van_ban_ky_vong: [134/2016/NĐ-CP, 182/2025/NĐ-CP]
+
+  # ==================== NHÓM 4: CÂU GHÉP ĐA Ý (6 câu) ====================
+  - id: HO-27
+    nhom: cau_ghep_da_y
+    cau_hoi: Khi nào doanh nghiệp được hủy tờ khai hải quan đã đăng ký và thời hạn nộp bổ sung C/O ưu đãi đặc biệt là bao lâu?
+    van_ban_bat_buoc_du: [38/2015/TT-BTC, 33/2023/TT-BTC]
+
+  - id: HO-28
+    nhom: cau_ghep_da_y
+    cau_hoi: Doanh nghiệp sản xuất xuất khẩu miễn thuế theo Nghị định 134/2016 nhưng doanh nghiệp chế xuất DNCX nộp báo cáo quyết toán theo quy định nào?
+    van_ban_bat_buoc_du: [134/2016/NĐ-CP, 38/2015/TT-BTC]
+
+  - id: HO-29
+    nhom: cau_ghep_da_y
+    cau_hoi: Hóa chất tiền chất công nghiệp thuộc Nghị định 28/2026 và thủ tục khai báo hóa chất qua Một cửa quốc gia theo Nghị định 26/2026?
+    van_ban_bat_buoc_du: [28/2026/NĐ-CP, 26/2026/NĐ-CP]
+
+  - id: HO-30
+    nhom: cau_ghep_da_y
+    cau_hoi: Yêu cầu ghi nhãn phụ tiếng Việt hàng nhập khẩu theo Nghị định 43/2017 và mức phạt vi phạm hành chính nhãn tại Nghị định 169/2026?
+    van_ban_bat_buoc_du: [43/2017/NĐ-CP, 169/2026/NĐ-CP]
+
+  - id: HO-31
+    nhom: cau_ghep_da_y
+    cau_hoi: Sau sáp nhập bộ ngành, kiểm dịch thực vật thuộc Bộ Nông nghiệp và Môi trường còn kiểm tra an toàn thực phẩm hàng chế biến vẫn theo Nghị định 15/2018?
+    van_ban_bat_buoc_du: [15/2018/NĐ-CP, 28/2026/TT-BCT]
+
+  - id: HO-32
+    nhom: cau_ghep_da_y
+    cau_hoi: Nhập khẩu máy móc dây chuyền sản xuất cũ thực hiện theo Quyết định 18/2019 còn hàng tiêu dùng cũ cấm nhập thực hiện theo Thông tư 48/2026?
+    van_ban_bat_buoc_du: [18/2019/QĐ-TTg, 48/2026/TT-BCT]
+
+  # ==================== NHÓM 5: BẪY RANH GIỚI HS-CODE-API (6 câu) ====================
+  - id: HO-33
+    nhom: ranh_gioi_hs_api
+    cau_hoi: Máy lọc không khí có màng lọc HEPA công suất 50W nhập từ Trung Quốc áp mã HS nào và thuế nhập khẩu ưu đãi bao nhiêu %?
+
+  - id: HO-34
+    nhom: ranh_gioi_hs_api
+    cau_hoi: Pin lithium-ion dung lượng 100Ah dùng cho xe đạp điện phân loại mã HS mấy số và hưởng thuế ACFTA Form E bao nhiêu phần trăm?
+
+  - id: HO-35
+    nhom: ranh_gioi_hs_api
+    cau_hoi: Bu lông ốc vít bằng thép không gỉ đường kính 12mm áp vào nhóm HS nào theo quy tắc GIR 1?
+
+  - id: HO-36
+    nhom: ranh_gioi_hs_api
+    cau_hoi: Cá hồi đông lạnh nguyên con nhập từ Na Uy mã HS là gì và thuế suất MFN bao nhiêu?
+
+  - id: HO-37
+    nhom: ranh_gioi_hs_api
+    cau_hoi: Biến tần năng lượng mặt trời công suất 5kW khai mã HS nào để tính thuế nhập khẩu?
+
+  - id: HO-38
+    nhom: ranh_gioi_hs_api
+    cau_hoi: Vải dệt thoi 100% sợi polyester nhuộm màu định lượng 180g/m2 phân loại mã HS bao nhiêu?
+
+  # ==================== NHÓM 6: NGOÀI PHẠM VI OOS KHÓ (10 câu) ====================
+  - id: HO-39
+    nhom: ngoai_pham_vi_oos
+    cau_hoi: Thủ tục ly hôn đơn phương và chia tài sản chung vợ chồng theo Luật Hôn nhân Gia đình?
+
+  - id: HO-40
+    nhom: ngoai_pham_vi_oos
+    cau_hoi: Điều kiện người lao động đơn phương chấm dứt hợp đồng lao động và trợ cấp thôi việc theo Bộ luật Lao động?
+
+  - id: HO-41
+    nhom: ngoai_pham_vi_oos
+    cau_hoi: Thủ tục sang tên sổ đỏ quyền sử dụng đất và lệ phí trước bạ nhà đất theo Luật Đất đai?
+
+  - id: HO-42
+    nhom: ngoai_pham_vi_oos
+    cau_hoi: Mức xử phạt vi phạm hành chính khi vượt đèn đỏ bằng ô tô cá nhân theo quy định giao thông đường bộ?
+
+  - id: HO-43
+    nhom: ngoai_pham_vi_oos
+    cau_hoi: Thủ tục đăng ký thành lập công ty trách nhiệm hữu hạn một thành viên tại Sở Kế hoạch và Đầu tư?
+
+  - id: HO-44
+    nhom: ngoai_pham_vi_oos
+    cau_hoi: Điều kiện rút bảo hiểm xã hội một lần khi nghỉ việc chưa đủ 20 năm đóng bảo hiểm?
+
+  - id: HO-45
+    nhom: ngoai_pham_vi_oos
+    cau_hoi: Chia thừa kế theo pháp luật khi người mất không để lại di chúc gồm những hàng thừa kế nào?
+
+  - id: HO-46
+    nhom: ngoai_pham_vi_oos
+    cau_hoi: Thời hạn tạm giam điều tra vụ án hình sự đối với tội phạm rất nghiêm trọng theo Bộ luật Tố tụng Hình sự?
+
+  - id: HO-47
+    nhom: ngoai_pham_vi_oos
+    cau_hoi: Quy định miễn giảm học phí cho sinh viên đại học công lập ngành sư phạm năm học 2026-2027?
+
+  - id: HO-48
+    nhom: ngoai_pham_vi_oos
+    cau_hoi: Tranh chấp hợp đồng thuê căn hộ chung cư khi bên thuê chậm thanh toán tiền đặt cọc xử lý thế nào?

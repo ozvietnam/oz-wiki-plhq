@@ -281,7 +281,11 @@ export function phanTichCacKhoiDieu(pages) {
     const pageNum = pIdx + 1;
     const cleanedPage = boHeaderCongBao(pages[pIdx]);
     const lines = cleanedPage.replace(/\r\n?/g, '\n').split('\n');
-    let prevNonEmptyLine = '';
+    const recentNonEmptyLines = [];
+    const pushRecentLine = (s) => {
+      recentNonEmptyLines.push(s);
+      if (recentNonEmptyLines.length > 3) recentNonEmptyLines.shift();
+    };
 
     for (const line of lines) {
       const trimmed = line.trim();
@@ -306,16 +310,22 @@ export function phanTichCacKhoiDieu(pages) {
         const dieuNum = Number(m[1]);
         const suffix = m[2] || '';
         const isToc = RE_MUC_LUC_DOTS.test(trimmed);
+        const prevNonEmptyLine = recentNonEmptyLines[recentNonEmptyLines.length - 1] || '';
         const isWrappedCitation = RE_THAM_CHIEU_NOI_TIEP.test(prevNonEmptyLine);
         const currentActiveDieu = Math.max(maxDieuSeen, cur && !cur.skip ? cur.dieu : 0);
-        const isQuotedBlock = RE_MO_TRICH_DAN.test(prevNonEmptyLine) || (quoteDepth > 0 && dieuNum !== currentActiveDieu + 1);
+        const hasRecentMoTrichDan = recentNonEmptyLines.some((l) => RE_MO_TRICH_DAN.test(l));
+        const isQuotedBlock = RE_MO_TRICH_DAN.test(prevNonEmptyLine)
+          || hasRecentMoTrichDan
+          || (quoteDepth > 0 && dieuNum !== currentActiveDieu + 1);
         const isBackwardDieu = currentActiveDieu > 0 && (suffix ? dieuNum < currentActiveDieu : dieuNum <= currentActiveDieu);
+        const isLargeForwardJump = currentActiveDieu > 0 && dieuNum > currentActiveDieu + 3;
 
         if (
           !isToc
           && !isWrappedCitation
           && !isQuotedBlock
           && !isBackwardDieu
+          && !isLargeForwardJump
           && Number.isInteger(dieuNum)
           && dieuNum >= 1
         ) {
@@ -327,7 +337,7 @@ export function phanTichCacKhoiDieu(pages) {
             segments: [{ pageNum, lines: [trimmed] }],
           };
           capNhatQuote(trimmed);
-          prevNonEmptyLine = trimmed;
+          pushRecentLine(trimmed);
           continue;
         }
       }
@@ -341,7 +351,7 @@ export function phanTichCacKhoiDieu(pages) {
         seg.lines.push(trimmed);
       }
       capNhatQuote(trimmed);
-      prevNonEmptyLine = trimmed;
+      pushRecentLine(trimmed);
     }
 
     if (daKetThucPhanQuyPham) break;
