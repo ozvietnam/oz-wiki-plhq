@@ -1,0 +1,29 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 1798/TCHQ-GSQL
+loai: CONG_VAN
+ten: 'V/v quản lý hoạt động xuất khẩu, nhập khẩu các chất HFC'
+co_quan: TCHQ
+ngay_ban_hanh: '2023-04-18'
+hieu_luc_tu: '2023-04-18'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - quan-ly-ngoai-thuong/giay-phep
+  - kiem-tra-chuyen-nganh/bnnmt
+  - hai-quan/thu-tuc
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=84612&cid=1294
+    truy_cap: '2026-11-24'
+  - url: https://files.customs.gov.vn/CustomsCMS/DA_NANG/2023/4/20/1798(5).PDF
+    truy_cap: '2026-11-24'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu PDF trên Cổng Hải quan (id=84612, 17 trang gồm 1 trang công văn do Phó Tổng cục trưởng Hoàng Việt Cường ký ngày 18-04-2023 và 16 trang đính kèm Nghị quyết 50/NQ-CP ngày 08-04-2023, SHA-256 fd30953c35d94a88c3a685201feac456d6f5c5384151167546d26a55e9c32121): hướng dẫn Cục Hải quan các tỉnh, thành phố căn cứ điểm 29 Mục I Nghị quyết 50/NQ-CP ngày 08-04-2023 tiếp tục thực hiện cấp Giấy phép xuất khẩu, nhập khẩu các chất HFC theo Thông tư 05/2020/TT-BCT của Bộ Công Thương đến hết ngày 31-12-2023; từ ngày 01-01-2024 thực hiện theo Nghị định 06/2022/NĐ-CP ngày 07-01-2022 về giảm nhẹ phát thải khí nhà kính và bảo vệ tầng ô-dôn'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-24'
+  boi: gd-bo-ba@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Thực hiện điểm 29 Mục I Nghị quyết 50/NQ-CP ngày 08-04-2023: tiếp tục quản lý cấp giấy phép xuất khẩu, nhập khẩu các chất HFC theo Thông tư 05/2020/TT-BCT của Bộ Công Thương đến hết ngày 31-12-2023; từ ngày 01-01-2024 thực hiện theo Nghị định 06/2022/NĐ-CP.'
+      sha256_pdf: fd30953c35d94a88c3a685201feac456d6f5c5384151167546d26a55e9c32121
+ghi_chu: 'Hướng dẫn thủ tục hải quan và giấy phép xuất khẩu, nhập khẩu các chất HFC theo điểm 29 Mục I Nghị quyết 50/NQ-CP ngày 08-04-2023 (chuyển giao từ Thông tư 05/2020/TT-BCT sang Nghị định 06/2022/NĐ-CP từ 01-01-2024).'
+toan_van: raw/download/files.customs.gov.vn/1798-tchq-gsql-2023.pdf

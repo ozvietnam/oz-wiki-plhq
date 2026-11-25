@@ -1,0 +1,31 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 492/CĐ-TTg
+loai: CONG_VAN
+ten: 'Công điện về việc chủ động triển khai các biện pháp cấp bách nhằm giảm ùn ứ và thúc đẩy xuất khẩu nông sản tại các cửa khẩu biên giới phía Bắc'
+co_quan: TTG
+ngay_ban_hanh: '2023-05-31'
+hieu_luc_tu: '2023-05-31'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - quan-ly-ngoai-thuong/bien-gioi
+  - hai-quan/thu-tuc
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=85451&cid=1294
+    truy_cap: '2026-11-24'
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2023/6/5/568292.pdf
+    truy_cap: '2026-11-24'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu PDF trên Cổng Hải quan (id=85451, 4 trang, Phó Thủ tướng Lê Minh Khái ký thay Thủ tướng Chính phủ ngày 31-05-2023, SHA-256 faeb26f3a5422b2067727cd9ee0c662e3ae20f4a3b3df0c541c2c4658c55d152): chỉ đạo UBND 7 tỉnh biên giới phía Bắc (Lạng Sơn, Quảng Ninh, Lào Cai, Cao Bằng, Hà Giang, Lai Châu, Điện Biên) và các Bộ Công Thương, Tài chính, NN&PTNT, Ngoại giao, GTVT, Quốc phòng, Công an triển khai giải pháp trước mắt (tăng thời gian và hiệu suất thông quan, điều tiết phương tiện đưa hàng lên cửa khẩu) và lâu dài (thúc đẩy xuất khẩu chính ngạch, đa dạng hóa vận tải, đàm phán mở cửa thị trường và kiểm dịch nông sản xuất khẩu sang Trung Quốc)'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-24'
+  boi: gd-bo-ba@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Giải pháp trước mắt: rà soát quy định xuất nhập khẩu nông sản Việt Nam - Trung Quốc, đơn giản hóa thủ tục, tăng thời gian và hiệu suất thông quan, điều tiết phương tiện lên cửa khẩu biên giới phía Bắc.'
+      sha256_pdf: faeb26f3a5422b2067727cd9ee0c662e3ae20f4a3b3df0c541c2c4658c55d152
+    - dieu: 2
+      noi_dung: 'Giải pháp lâu dài: thúc đẩy xuất khẩu nông sản chính ngạch, đa dạng hóa phương thức vận tải, đàm phán tháo gỡ rào cản kỹ thuật, truy xuất nguồn gốc, chỉ dẫn địa lý và hoàn thiện hạ tầng logistics thương mại biên giới.'
+      sha256_pdf: faeb26f3a5422b2067727cd9ee0c662e3ae20f4a3b3df0c541c2c4658c55d152
+ghi_chu: 'Công điện 492/CĐ-TTg ngày 31-05-2023 của Thủ tướng Chính phủ về giải pháp giảm ùn ứ, nâng hiệu suất thông quan và thúc đẩy xuất khẩu nông sản chính ngạch qua các cửa khẩu biên giới phía Bắc.'
+toan_van: raw/download/files.customs.gov.vn/492-cd-ttg-2023.pdf

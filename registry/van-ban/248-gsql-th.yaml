@@ -1,0 +1,34 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 248/GSQL-TH
+loai: CONG_VAN
+ten: 'V/v thông báo cấp mã số nhân viên đại lý làm thủ tục hải quan'
+co_quan: TCHQ
+ngay_ban_hanh: '2023-02-23'
+hieu_luc_tu: '2023-02-23'
+het_hieu_luc_tu: '2026-02-23'
+tinh_trang: HET_HIEU_LUC
+nhanh:
+  - hai-quan/thu-tuc
+quan_he:
+  huong_dan:
+    - 12/2015/TT-BTC
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=83672&cid=1294
+    truy_cap: '2026-11-24'
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2023/3/9/248-GSQL.%20Cap%20ma.pdf
+    truy_cap: '2026-11-24'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu PDF trên Cổng Hải quan (id=83672, 1 trang, Phó Cục trưởng Cục Giám sát quản lý về Hải quan Nguyễn Thế Việt ký ngày 23-02-2023, SHA-256 7df3b2fcb1c6d3ec148cedfa02feaf7f2e305f50f5b30de18b9f92ad51f1fb73): thông báo cấp mã số nhân viên đại lý làm thủ tục hải quan (mã số 031089008800) cho nhân viên thuộc Công ty Cổ phần Xây dựng công trình Giao thông và Cơ giới (MST 0200504886) theo Luật Hải quan, Thông tư 12/2015/TT-BTC và Thông tư 22/2019/TT-BTC; thời hạn sử dụng đến ngày 23-02-2026 (đã hết hạn hiệu lực)'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-24'
+  boi: gd-bo-ba@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Cấp mã số nhân viên đại lý làm thủ tục hải quan 031089008800 thuộc Công ty Cổ phần Xây dựng công trình Giao thông và Cơ giới (MST 0200504886), thời hạn sử dụng đến ngày 23-02-2026.'
+      sha256_pdf: 7df3b2fcb1c6d3ec148cedfa02feaf7f2e305f50f5b30de18b9f92ad51f1fb73
+    - dieu: 2
+      noi_dung: 'Doanh nghiệp và nhân viên đại lý làm thủ tục hải quan có trách nhiệm thực hiện đúng quy định của Luật Hải quan, Thông tư 12/2015/TT-BTC ngày 30-01-2015 và Thông tư 22/2019/TT-BTC ngày 16-04-2019.'
+      sha256_pdf: 7df3b2fcb1c6d3ec148cedfa02feaf7f2e305f50f5b30de18b9f92ad51f1fb73
+ghi_chu: 'Thông báo cấp mã số nhân viên đại lý làm thủ tục hải quan theo Thông tư 12/2015/TT-BTC và Thông tư 22/2019/TT-BTC, thời hạn sử dụng đến 23-02-2026.'
+toan_van: raw/download/files.customs.gov.vn/248-gsql-th-2023.pdf
