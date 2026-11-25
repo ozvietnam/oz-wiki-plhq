@@ -20,6 +20,7 @@ import { dungChiMuc, dungChiMucTheoMa, docBieuThue } from './danh-muc.mjs';
 import { dungWikiDist, RE_SO_HIEU_WIKI } from './wiki-dist.mjs';
 import { dungDieuKhoan, dungCasIndex } from './dieu-khoan-dist.mjs';
 import { taoChiMucBm25, chuanBiTruyVanBm25, truyVanBm25 } from './bm25-vi.mjs';
+import { chuanHoaTaiNgay, tinhTinhTrangTaiNgay, locLichSuDieuTaiNgay } from './hieu-luc-theo-ngay.mjs';
 
 export const GHI_NGUON_CC_BY = 'Nguồn: oz-wiki-plhq — https://github.com/ozvietnam/oz-wiki-plhq (CC BY 4.0).';
 export const MIEN_TRU_PHAP_LY = 'Tham khảo, không phải tư vấn pháp lý. Xem văn bản gốc nguồn bậc A trước khi áp dụng.';
@@ -897,7 +898,20 @@ function goiYSoHieu(store, soHieu, max = 8) {
  * @param {object} store
  * @param {string} soHieu
  */
-export function traHieuLuc(store, soHieu) {
+export function traHieuLuc(store, soHieu, { tai_ngay } = {}) {
+  const tnCheck = chuanHoaTaiNgay(tai_ngay);
+  if (!tnCheck.hopLe) {
+    return {
+      tim_thay: false,
+      truy_van: soHieu ?? null,
+      tai_ngay: String(tai_ngay),
+      loi: tnCheck.loi,
+      goi_y: [],
+      ghi_nguon: GHI_NGUON_CC_BY,
+      mien_tru: MIEN_TRU_PHAP_LY,
+    };
+  }
+  const taiNgay = tnCheck.giaTri;
   const truyVan = String(soHieu || '').trim();
   const k = khoa(truyVan);
   if (!k) {
@@ -917,6 +931,7 @@ export function traHieuLuc(store, soHieu) {
     return {
       tim_thay: false,
       truy_van: truyVan,
+      ...(taiNgay ? { tai_ngay: taiNgay } : {}),
       goi_y: goiYSoHieu(store, truyVan),
       ghi_nguon: GHI_NGUON_CC_BY,
       mien_tru: MIEN_TRU_PHAP_LY,
@@ -938,6 +953,7 @@ export function traHieuLuc(store, soHieu) {
   const daDoiChieu = doc.xac_minh?.hieu_luc_da_doi_chieu === true;
   const nguonBacA = locNguonBacA(doc, store.nguonUyTin);
   const chuoiQuanHe = truyVetChuoiThayThe(doc, store);
+  const ttTaiNgay = taiNgay ? tinhTinhTrangTaiNgay(doc, taiNgay, store) : null;
 
   return {
     tim_thay: true,
@@ -954,6 +970,7 @@ export function traHieuLuc(store, soHieu) {
     hieu_luc_tu: doc.hieu_luc_tu || null,
     het_hieu_luc_tu: doc.het_hieu_luc_tu || null,
     tinh_trang: doc.tinh_trang || 'CHUA_XAC_MINH',
+    ...(taiNgay ? { tai_ngay: taiNgay, ...ttTaiNgay } : {}),
     nhanh: Array.isArray(doc.nhanh) ? doc.nhanh : [],
     quan_he: quanHe,
     quan_he_nguoc: quanHeNguoc,
@@ -1040,8 +1057,31 @@ function diemKhopTuKhoa(text, kwInfo) {
  */
 export function traDieuKhoan(
   store,
-  { so_hieu, dieu, khoan, diem, tu_khoa, chi_nguyen_van = false, limit = 15 } = {},
+  { so_hieu, dieu, khoan, diem, tu_khoa, chi_nguyen_van = false, limit = 15, tai_ngay } = {},
 ) {
+  const tnCheck = chuanHoaTaiNgay(tai_ngay);
+  if (!tnCheck.hopLe) {
+    return {
+      truy_van: {
+        so_hieu: so_hieu ?? null,
+        dieu: dieu ?? null,
+        khoan: khoan ?? null,
+        diem: diem ?? null,
+        tu_khoa: tu_khoa ?? null,
+        chi_nguyen_van: Boolean(chi_nguyen_van),
+        tai_ngay: String(tai_ngay),
+      },
+      loi: tnCheck.loi,
+      tong_nguyen_van: 0,
+      tong_tom_tat_nhap: 0,
+      nguyen_van_nguon_a: [],
+      tom_tat_nhap: [],
+      canh_bao_tang_nhap: null,
+      ghi_nguon: GHI_NGUON_CC_BY,
+      mien_tru: MIEN_TRU_PHAP_LY,
+    };
+  }
+  const taiNgay = tnCheck.giaTri;
   const maxItems = Number.isFinite(Number(limit)) && Number(limit) > 0 ? Number(limit) : 15;
   const dieuNorm = chuanHoaDieu(dieu);
   const khoanNorm = chuanHoaKhoan(khoan);
@@ -1063,6 +1103,8 @@ export function traDieuKhoan(
     : (store.dieuKhoan?.nguyen_van_nguon_a || []);
   for (const vb of nguonAVbList) {
     if (targetKhoa && khoa(vb.so_hieu) !== targetKhoa) continue;
+    const docMetaA = chonBanGhi(store.byKhoa.get(khoa(vb.so_hieu)), khoa(vb.so_hieu));
+    const ttVb = taiNgay ? tinhTinhTrangTaiNgay(docMetaA || vb, taiNgay, store) : null;
     for (const dk of vb.dieu_khoan || []) {
       if (dieuNorm !== null && chuanHoaDieu(dk.dieu) !== dieuNorm) continue;
       if (khoanNorm !== null && chuanHoaKhoan(dk.khoan) !== khoanNorm) continue;
@@ -1072,10 +1114,14 @@ export function traDieuKhoan(
         kwInfo,
       );
       if (kwInfo.norm && kwScore === 0) continue;
-      const lichSuTacDong = Array.isArray(dk.lich_su_tac_dong) ? dk.lich_su_tac_dong : [];
-      const trangThaiDieu = dk.trang_thai_dieu || (lichSuTacDong.length > 0 ? 'DA_SUA_DOI' : 'NGUYEN_BAN');
+      const rawLichSu = Array.isArray(dk.lich_su_tac_dong) ? dk.lich_su_tac_dong : [];
+      const locLs = taiNgay ? locLichSuDieuTaiNgay(rawLichSu, taiNgay) : null;
+      const lichSuTacDong = locLs ? locLs.lich_su_tac_dong : rawLichSu;
+      const trangThaiDieu = locLs
+        ? locLs.trang_thai_dieu
+        : (dk.trang_thai_dieu || (lichSuTacDong.length > 0 ? 'DA_SUA_DOI' : 'NGUYEN_BAN'));
       const canhBaoSuaDoi = lichSuTacDong.length > 0
-        ? `Điều này ở trạng thái ${trangThaiDieu}: bị tác động bởi ${lichSuTacDong.map((e) => `${e.can_cu || e.van_ban_nguon}${e.tu_ngay ? ` (hiệu lực ${e.tu_ngay})` : ''}`).join('; ')}.`
+        ? `Điều này${taiNgay ? ` (tại ngày ${taiNgay})` : ''} ở trạng thái ${trangThaiDieu}: bị tác động bởi ${lichSuTacDong.map((e) => `${e.can_cu || e.van_ban_nguon}${e.tu_ngay ? ` (hiệu lực ${e.tu_ngay})` : ''}`).join('; ')}.`
         : null;
       const dieuKhoanSuaDoiLienQuan = lichSuTacDong.length > 0 && store.dkNguonAByKhoa instanceof Map
         ? lichSuTacDong.slice(-3).map((e) => {
@@ -1104,6 +1150,11 @@ export function traDieuKhoan(
         slug: vb.slug,
         ten_van_ban: vb.ten || null,
         tinh_trang: vb.tinh_trang || null,
+        ...(taiNgay ? {
+          tai_ngay: taiNgay,
+          tinh_trang_tai_ngay: ttVb?.tinh_trang_tai_ngay || null,
+          do_chinh_xac_ngay: ttVb?.do_chinh_xac_ngay || null,
+        } : {}),
         hieu_luc_tu: vb.hieu_luc_tu || null,
         het_hieu_luc_tu: vb.het_hieu_luc_tu || null,
         hieu_luc_da_doi_chieu: vb.hieu_luc_da_doi_chieu === true,
@@ -1205,7 +1256,9 @@ export function traDieuKhoan(
       diem: diem ?? null,
       tu_khoa: tu_khoa ?? null,
       chi_nguyen_van: Boolean(chi_nguyen_van),
+      ...(taiNgay ? { tai_ngay: taiNgay } : {}),
     },
+    ...(taiNgay ? { tai_ngay: taiNgay } : {}),
     tong_nguyen_van: nguyenVan.length,
     tong_tom_tat_nhap: tomTatNhap.length,
     nguyen_van_nguon_a: nguyenVan,
@@ -1381,9 +1434,15 @@ function daDangHoaTheoDoPhuIdf(candidates, bm25Index, qSpec, getDocIdx, getGroup
 }
 
 function lamMoiVanBanLienQuan(refs, store, opts = {}) {
-  const { pinnedSet = new Set(), relevanceMap = null, includeReplacements = true } = opts;
+  const { pinnedSet = new Set(), relevanceMap = null, includeReplacements = true, taiNgay = null } = opts;
   const out = [];
   const seen = new Set();
+
+  const layTrangThaiVb = (d, fallback = null) => (
+    taiNgay && d
+      ? tinhTinhTrangTaiNgay(d, taiNgay, store).tinh_trang_tai_ngay
+      : (d?.tinh_trang || fallback)
+  );
 
   const thuThapThayThe = (rootDoc, maxDepth = 3) => {
     const outReps = [];
@@ -1400,7 +1459,8 @@ function lamMoiVanBanLienQuan(refs, store, opts = {}) {
           visited.add(rk);
           const rDoc = chonBanGhi(store.byKhoa.get(rk), rk);
           if (!rDoc) continue;
-          if (rDoc.tinh_trang !== 'HET_HIEU_LUC') {
+          const rTt = layTrangThaiVb(rDoc);
+          if (rTt !== 'HET_HIEU_LUC') {
             outReps.push(rDoc);
           } else {
             queue.push({ doc: rDoc, depth: depth + 1 });
@@ -1425,7 +1485,9 @@ function lamMoiVanBanLienQuan(refs, store, opts = {}) {
         ? [...new Set((ng.bi_bai_bo_boi || []).map((e) => e.tu))]
         : (rawRef.bi_bai_bo_boi || []);
     const nguonBacA = doc ? locNguonBacA(doc, store.nguonUyTin) : rawRef.nguon_a ? [rawRef.nguon_a] : [];
-    const tinhTrang = doc?.tinh_trang || rawRef.tinh_trang || null;
+    const ttInfo = taiNgay && doc ? tinhTinhTrangTaiNgay(doc, taiNgay, store) : null;
+    const tinhTrangGoc = doc?.tinh_trang || rawRef.tinh_trang || null;
+    const tinhTrang = ttInfo ? ttInfo.tinh_trang_tai_ngay : tinhTrangGoc;
     const daDoiChieu = doc ? doc.xac_minh?.hieu_luc_da_doi_chieu === true : Boolean(rawRef.hieu_luc_da_doi_chieu);
     const khopTrucTiep = pinnedSet.has(k) || Boolean(meta.khopTrucTiep);
     const chuaToanVan = doc ? kiemVanBanChuaCoToanVan(doc, store) : false;
@@ -1435,7 +1497,7 @@ function lamMoiVanBanLienQuan(refs, store, opts = {}) {
           ? thuThapThayThe(doc)
           : (ng.bi_bai_bo_boi || [])
               .map((e) => chonBanGhi(store.byKhoa.get(khoa(e?.tu)), khoa(e?.tu)))
-              .filter((r) => r && r.tinh_trang === 'CON_HIEU_LUC'))
+              .filter((r) => r && layTrangThaiVb(r) === 'CON_HIEU_LUC'))
       : [];
     const hasReplacement = replacements.length > 0;
 
@@ -1460,6 +1522,12 @@ function lamMoiVanBanLienQuan(refs, store, opts = {}) {
       ten: doc?.ten || null,
       loai: doc?.loai || null,
       tinh_trang: tinhTrang,
+      ...(ttInfo ? {
+        tai_ngay: taiNgay,
+        tinh_trang_hien_tai: tinhTrangGoc,
+        tinh_trang_tai_ngay: ttInfo.tinh_trang_tai_ngay,
+        do_chinh_xac_ngay: ttInfo.do_chinh_xac_ngay,
+      } : {}),
       hieu_luc_tu: doc?.hieu_luc_tu ?? rawRef.hieu_luc_tu ?? null,
       het_hieu_luc_tu: doc?.het_hieu_luc_tu ?? rawRef.het_hieu_luc_tu ?? null,
       hieu_luc_da_doi_chieu: daDoiChieu,
@@ -1475,7 +1543,7 @@ function lamMoiVanBanLienQuan(refs, store, opts = {}) {
       _ngay: doc?.ngay_ban_hanh || '',
       canh_bao:
         tinhTrang === 'HET_HIEU_LUC'
-          ? `Văn bản ${doc?.so_hieu || rawRef.so_hieu} đã HET_HIEU_LUC${
+          ? `Văn bản ${doc?.so_hieu || rawRef.so_hieu} đã HET_HIEU_LUC${taiNgay ? ` tại ngày ${taiNgay}` : ''}${
               biThayTheBoi.length
                 ? ` (bị thay thế bởi ${biThayTheBoi.join(', ')})`
                 : biBaiBoBoi.length
@@ -1490,7 +1558,8 @@ function lamMoiVanBanLienQuan(refs, store, opts = {}) {
     for (const repDoc of replacements) {
       const repK = khoa(repDoc.so_hieu);
       if (!repK || seen.has(repK)) continue;
-      const isRepActive = repDoc.tinh_trang === 'CON_HIEU_LUC' || repDoc.tinh_trang === 'HET_HIEU_LUC_MOT_PHAN';
+      const repTt = layTrangThaiVb(repDoc);
+      const isRepActive = repTt === 'CON_HIEU_LUC' || repTt === 'HET_HIEU_LUC_MOT_PHAN';
       const repPrio = khopTrucTiep ? (isRepActive ? 4 : 3) : (isRepActive ? 3 : 2);
       pushDoc(repK, { so_hieu: repDoc.so_hieu }, {
         thayTheCho: doc?.so_hieu || rawRef.so_hieu,
@@ -1847,9 +1916,13 @@ function chamDiemKhoi({ tieuDe, muc, noiDung, tags, refs, soHieuHits, preferredA
   return Math.max(0, score);
 }
 
-function canHaUuTienChuaCoHieuLuc(tinhTrang, hieuLucTu, soHieuKhoa, pinnedSet, qInfo, storeYear) {
-  if (tinhTrang !== 'CHUA_CO_HIEU_LUC') return false;
+function canHaUuTienChuaCoHieuLuc(tinhTrang, hieuLucTu, soHieuKhoa, pinnedSet, qInfo, storeYear, taiNgay = null, doc = null, store = null) {
+  const effStatus = taiNgay
+    ? (doc ? tinhTinhTrangTaiNgay(doc, taiNgay, store).tinh_trang_tai_ngay : (hieuLucTu && taiNgay < String(hieuLucTu) ? 'CHUA_CO_HIEU_LUC' : tinhTrang))
+    : tinhTrang;
+  if (effStatus !== 'CHUA_CO_HIEU_LUC') return false;
   if (soHieuKhoa && pinnedSet.has(soHieuKhoa)) return false;
+  if (taiNgay) return true;
   const effStr = String(hieuLucTu || '').trim();
   const m = effStr.match(/^(\d{4})(?:-(\d{2})-(\d{2}))?/);
   if (!m) return true;
@@ -1871,7 +1944,7 @@ function haDiemChuaCoHieuLuc(score) {
   return score > 0 ? Math.max(1, Math.round(score * 0.6) - 30) : 0;
 }
 
-function canHaUuTienTrangWiki(ownDoc, refs, store, pinnedSet, qInfo, storeYear) {
+function canHaUuTienTrangWiki(ownDoc, refs, store, pinnedSet, qInfo, storeYear, taiNgay = null) {
   if (ownDoc) {
     return canHaUuTienChuaCoHieuLuc(
       ownDoc.tinh_trang,
@@ -1880,6 +1953,9 @@ function canHaUuTienTrangWiki(ownDoc, refs, store, pinnedSet, qInfo, storeYear) 
       pinnedSet,
       qInfo,
       storeYear,
+      taiNgay,
+      ownDoc,
+      store,
     );
   }
   const resolved = (refs || [])
@@ -1887,11 +1963,11 @@ function canHaUuTienTrangWiki(ownDoc, refs, store, pinnedSet, qInfo, storeYear) 
     .filter(Boolean);
   if (!resolved.length) return false;
   return resolved.every((d) =>
-    canHaUuTienChuaCoHieuLuc(d.tinh_trang, d.hieu_luc_tu, khoa(d.so_hieu), pinnedSet, qInfo, storeYear),
+    canHaUuTienChuaCoHieuLuc(d.tinh_trang, d.hieu_luc_tu, khoa(d.so_hieu), pinnedSet, qInfo, storeYear, taiNgay, d, store),
   );
 }
 
-function timTrongRegistry(store, qInfo, soHieuHits, { nhanh, limit = 5, storeYear = null } = {}) {
+function timTrongRegistry(store, qInfo, soHieuHits, { nhanh, limit = 5, storeYear = null, taiNgay = null } = {}) {
   const results = [];
   const pinSet = new Set(soHieuHits);
   const prepCache = store._prepCache || (store._prepCache = new WeakMap());
@@ -1900,6 +1976,7 @@ function timTrongRegistry(store, qInfo, soHieuHits, { nhanh, limit = 5, storeYea
     if (nhanh && !khopNhanh(nhanh, [{ so_hieu: doc.so_hieu }], doc.nhanh || [], store)) continue;
     const k = khoa(doc.so_hieu);
     const isPinned = pinSet.has(k);
+    const effTt = taiNgay ? tinhTinhTrangTaiNgay(doc, taiNgay, store).tinh_trang_tai_ngay : doc.tinh_trang;
     const blockInput = {
       tieuDe: `${doc.so_hieu} ${doc.ten || ''}`,
       muc: (doc.nhanh || []).join(' '),
@@ -1907,7 +1984,7 @@ function timTrongRegistry(store, qInfo, soHieuHits, { nhanh, limit = 5, storeYea
       tags: doc.nhanh || [],
       refs: [{ so_hieu: doc.so_hieu }],
       soHieuHits,
-      canhBaoHieuLuc: doc.tinh_trang === 'HET_HIEU_LUC',
+      canhBaoHieuLuc: effTt === 'HET_HIEU_LUC',
       loaiTrang: 'registry',
       confidence: doc.xac_minh?.muc === 'NGUON_A' ? 'high' : 'medium',
     };
@@ -1916,7 +1993,7 @@ function timTrongRegistry(store, qInfo, soHieuHits, { nhanh, limit = 5, storeYea
       qInfo,
       layPrepKhoi(doc, prepCache, blockInput),
     );
-    if (canHaUuTienChuaCoHieuLuc(doc.tinh_trang, doc.hieu_luc_tu, k, pinSet, qInfo, storeYear)) {
+    if (canHaUuTienChuaCoHieuLuc(doc.tinh_trang, doc.hieu_luc_tu, k, pinSet, qInfo, storeYear, taiNgay, doc, store)) {
       score = haDiemChuaCoHieuLuc(score);
     }
     if (isPinned) score = Math.max(score, 120);
@@ -1932,7 +2009,36 @@ function timTrongRegistry(store, qInfo, soHieuHits, { nhanh, limit = 5, storeYea
  * Hỏi đáp pháp luật hải quan trên `wiki-chunks`, `wiki-index`, `dieu-khoan.json` và `registry`.
  * Luôn kiểm `laYeuCauThuocHsCodeApi(cauHoi)` trước để chặn ranh giới `hs-code-api`.
  */
-export function hoiPhapLuat(store, cauHoi, { nhanh, limit = 8 } = {}) {
+export function hoiPhapLuat(store, cauHoi, { nhanh, limit = 8, tai_ngay } = {}) {
+  const tnCheck = chuanHoaTaiNgay(tai_ngay);
+  if (!tnCheck.hopLe) {
+    return {
+      cau_hoi: String(cauHoi || ''),
+      nhanh: nhanh || null,
+      tai_ngay: String(tai_ngay),
+      loi: tnCheck.loi,
+      chuyen_huong: null,
+      tong: 0,
+      ket_qua: [],
+      sap_co_hieu_luc: [],
+      trang_wiki_lien_quan: [],
+      dieu_khoan_nguon_a: [],
+      dieu_khoan_tom_tat_nhap: [],
+      van_ban_lien_quan: [],
+      canh_bao: [tnCheck.loi],
+      do_tin_cay_tra_loi: 'KHONG_TIM_THAY',
+      pham_vi_du_lieu: PHAM_VI_DU_LIEU_PLHQ,
+      goi_y_du_phong: null,
+      ghi_nguon: GHI_NGUON_CC_BY,
+      mien_tru: MIEN_TRU_PHAP_LY,
+    };
+  }
+  const taiNgay = tnCheck.giaTri;
+  const layTinhTrangMoc = (doc, fallback = null) => (
+    taiNgay && doc
+      ? tinhTinhTrangTaiNgay(doc, taiNgay, store).tinh_trang_tai_ngay
+      : (doc?.tinh_trang ?? fallback)
+  );
   const hsCheck = laYeuCauThuocHsCodeApi(cauHoi);
   if (hsCheck.thuoc_hs_code_api) {
     return {
@@ -2012,7 +2118,7 @@ export function hoiPhapLuat(store, cauHoi, { nhanh, limit = 8 } = {}) {
     const ownRefs = ownDoc?.so_hieu ? [{ so_hieu: ownDoc.so_hieu }] : [];
     const mergedPageRefs = [...(trang.van_ban_lien_quan || []), ...ownRefs];
     if (!khopNhanh(nhanh, mergedPageRefs, trang.tags, store)) continue;
-    const ownHetUnpinned = Boolean(ownDoc?.tinh_trang === 'HET_HIEU_LUC' && !pinnedSet.has(khoa(ownDoc.so_hieu)));
+    const ownHetUnpinned = Boolean(layTinhTrangMoc(ownDoc) === 'HET_HIEU_LUC' && !pinnedSet.has(khoa(ownDoc.so_hieu)));
     const blockInput = {
       tieuDe: trang.tieu_de,
       muc: trang.slug,
@@ -2020,7 +2126,7 @@ export function hoiPhapLuat(store, cauHoi, { nhanh, limit = 8 } = {}) {
       tags: trang.tags,
       refs: mergedPageRefs,
       soHieuHits,
-      canhBaoHieuLuc: Boolean(trang.canh_bao_hieu_luc) || ownHetUnpinned,
+      canhBaoHieuLuc: (taiNgay ? ownHetUnpinned : (Boolean(trang.canh_bao_hieu_luc) || ownHetUnpinned)),
       loaiTrang: trang.loai_trang,
       confidence: trang.confidence,
       laStub: (trang.tags || []).includes('stub'),
@@ -2030,7 +2136,7 @@ export function hoiPhapLuat(store, cauHoi, { nhanh, limit = 8 } = {}) {
       qInfo,
       layPrepKhoi(trang, prepCache, blockInput),
     );
-    if (score > 0 && canHaUuTienTrangWiki(ownDoc, mergedPageRefs, store, pinnedSet, qInfo, storeYear)) {
+    if (score > 0 && canHaUuTienTrangWiki(ownDoc, mergedPageRefs, store, pinnedSet, qInfo, storeYear, taiNgay)) {
       score = haDiemChuaCoHieuLuc(score);
     }
     if (score > 0) {
@@ -2054,7 +2160,7 @@ export function hoiPhapLuat(store, cauHoi, { nhanh, limit = 8 } = {}) {
     ];
     if (!khopNhanh(nhanh, effectiveRefs, chunk.tags, store)) continue;
 
-    const ownHetUnpinned = Boolean(ownDoc?.tinh_trang === 'HET_HIEU_LUC' && !pinnedSet.has(khoa(ownDoc.so_hieu)));
+    const ownHetUnpinned = Boolean(layTinhTrangMoc(ownDoc) === 'HET_HIEU_LUC' && !pinnedSet.has(khoa(ownDoc.so_hieu)));
     const blockInput = {
       tieuDe: chunk.tieu_de,
       muc: chunk.muc,
@@ -2062,7 +2168,7 @@ export function hoiPhapLuat(store, cauHoi, { nhanh, limit = 8 } = {}) {
       tags: chunk.tags,
       refs: effectiveRefs,
       soHieuHits,
-      canhBaoHieuLuc: Boolean(chunk.canh_bao_hieu_luc) || ownHetUnpinned,
+      canhBaoHieuLuc: (taiNgay ? ownHetUnpinned : (Boolean(chunk.canh_bao_hieu_luc) || ownHetUnpinned)),
       loaiTrang: chunk.loai_trang,
       confidence: chunk.confidence,
       laStub: (chunk.tags || []).includes('stub'),
@@ -2084,8 +2190,9 @@ export function hoiPhapLuat(store, cauHoi, { nhanh, limit = 8 } = {}) {
     const refreshedRefs = lamMoiVanBanLienQuan(effectiveRefs, store, {
       pinnedSet,
       includeReplacements: true,
+      taiNgay,
     });
-    const haFuture = canHaUuTienTrangWiki(ownDoc, effectiveRefs, store, pinnedSet, qInfo, storeYear);
+    const haFuture = canHaUuTienTrangWiki(ownDoc, effectiveRefs, store, pinnedSet, qInfo, storeYear, taiNgay);
     if (haFuture) {
       sapCoHieuLucPool.push({
         diem_phu_hop: score,
@@ -2098,7 +2205,7 @@ export function hoiPhapLuat(store, cauHoi, { nhanh, limit = 8 } = {}) {
         tieu_de: chunk.tieu_de,
         muc: chunk.muc,
         noi_dung: chunk.noi_dung,
-        tinh_trang: ownDoc?.tinh_trang || 'CHUA_CO_HIEU_LUC',
+        tinh_trang: layTinhTrangMoc(ownDoc, 'CHUA_CO_HIEU_LUC'),
         hieu_luc_tu: ownDoc?.hieu_luc_tu || null,
         tags: chunk.tags || [],
         confidence: chunk.confidence || null,
@@ -2110,8 +2217,9 @@ export function hoiPhapLuat(store, cauHoi, { nhanh, limit = 8 } = {}) {
     }
 
     const vbHet = refreshedRefs.filter((v) => v.tinh_trang === 'HET_HIEU_LUC');
+    const canhBaoChunkHieuLuc = taiNgay ? ownHetUnpinned : (Boolean(chunk.canh_bao_hieu_luc) || ownHetUnpinned);
     let canhBao = null;
-    if (chunk.canh_bao_hieu_luc) {
+    if (canhBaoChunkHieuLuc) {
       canhBao = `Cảnh báo hiệu lực: đoạn này dẫn văn bản hết hiệu lực (${vbHet.map((v) => v.so_hieu).join(', ') || 'kiểm tra sổ'}) mà chưa kèm ngữ cảnh lịch sử/thay thế; không dùng làm kết luận quy định hiện hành.`;
     } else if (vbHet.length > 0) {
       canhBao = `Lưu ý: đoạn có nhắc văn bản hết hiệu lực (${vbHet.map((v) => v.so_hieu).join(', ')}) trong ngữ cảnh lịch sử/thay thế; kiểm tra văn bản thay thế hoặc nguồn bậc A.`;
@@ -2130,7 +2238,7 @@ export function hoiPhapLuat(store, cauHoi, { nhanh, limit = 8 } = {}) {
       noi_dung: chunk.noi_dung,
       tags: chunk.tags || [],
       confidence: chunk.confidence || null,
-      canh_bao_hieu_luc: Boolean(chunk.canh_bao_hieu_luc),
+      canh_bao_hieu_luc: Boolean(canhBaoChunkHieuLuc),
       canh_bao: canhBao,
       van_ban_lien_quan: refreshedRefs,
     });
@@ -2154,7 +2262,7 @@ export function hoiPhapLuat(store, cauHoi, { nhanh, limit = 8 } = {}) {
   for (const { trang, score } of pageMatches) {
     if (matchedChunkSlugs.has(trang.slug) || trang.so_chunks > 0) continue;
     const mergedRefs = [...(trang.van_ban_lien_quan || []), ...ownSoHieuForSlug(trang.slug)];
-    const refreshedRefs = lamMoiVanBanLienQuan(mergedRefs, store, { pinnedSet, includeReplacements: true });
+    const refreshedRefs = lamMoiVanBanLienQuan(mergedRefs, store, { pinnedSet, includeReplacements: true, taiNgay });
     topWikiChunks.push({
       diem_phu_hop: score,
       loai: 'wiki_index',
@@ -2179,7 +2287,7 @@ export function hoiPhapLuat(store, cauHoi, { nhanh, limit = 8 } = {}) {
   const wikiPoolAll = [...rawTopChunks, ...chunkCandidates.filter((c) => !rawTopChunks.includes(c))];
   const wikiKetQua = topWikiChunks.slice(0, maxItems);
   const registryPoolLimit = Math.max(12, maxItems * 2);
-  const registryHits = timTrongRegistry(store, qInfo, soHieuHits, { nhanh, limit: registryPoolLimit, storeYear });
+  const registryHits = timTrongRegistry(store, qInfo, soHieuHits, { nhanh, limit: registryPoolLimit, storeYear, taiNgay });
 
   const relevanceMap = new Map();
   const addRel = (soHieu, delta) => {
@@ -2215,8 +2323,8 @@ export function hoiPhapLuat(store, cauHoi, { nhanh, limit = 8 } = {}) {
     const doc = chonBanGhi(store.byKhoa.get(k), k);
     if (
       doc &&
-      doc.tinh_trang !== 'HET_HIEU_LUC' &&
-      !canHaUuTienChuaCoHieuLuc(doc.tinh_trang, doc.hieu_luc_tu, k, pinnedSet, qInfo, storeYear)
+      layTinhTrangMoc(doc) !== 'HET_HIEU_LUC' &&
+      !canHaUuTienChuaCoHieuLuc(doc.tinh_trang, doc.hieu_luc_tu, k, pinnedSet, qInfo, storeYear, taiNgay, doc, store)
     ) {
       preferredActiveSet.add(k);
     }
@@ -2228,9 +2336,9 @@ export function hoiPhapLuat(store, cauHoi, { nhanh, limit = 8 } = {}) {
     const kVb = khoa(vb.so_hieu);
     const docMeta = chonBanGhi(store.byKhoa.get(kVb), kVb);
     if (nhanh && !khopNhanh(nhanh, [{ so_hieu: vb.so_hieu }], docMeta?.nhanh || [], store)) continue;
-    const vbTinhTrang = vb.tinh_trang || docMeta?.tinh_trang || null;
+    const vbTinhTrang = layTinhTrangMoc(docMeta, vb.tinh_trang || docMeta?.tinh_trang || null);
     const vbHieuLuc = vb.hieu_luc_tu || docMeta?.hieu_luc_tu || null;
-    const haFuture = canHaUuTienChuaCoHieuLuc(vbTinhTrang, vbHieuLuc, kVb, pinnedSet, qInfo, storeYear);
+    const haFuture = canHaUuTienChuaCoHieuLuc(vbTinhTrang, vbHieuLuc, kVb, pinnedSet, qInfo, storeYear, taiNgay, docMeta, store);
     const unpinnedHet = Boolean(vbTinhTrang === 'HET_HIEU_LUC' && !pinnedSet.has(kVb));
     const isVbhn = Boolean(docMeta?.loai === 'VAN_BAN_HOP_NHAT');
     const tieuDeVb = `${vb.so_hieu} ${vb.ten || ''}`;
@@ -2296,7 +2404,8 @@ export function hoiPhapLuat(store, cauHoi, { nhanh, limit = 8 } = {}) {
         nguyen_van_da_xac_minh: true,
         so_hieu: vb.so_hieu,
         ten_van_ban: vb.ten || null,
-        tinh_trang: vb.tinh_trang || null,
+        tinh_trang: vbTinhTrang || null,
+        ...(taiNgay ? { tinh_trang_tai_ngay: vbTinhTrang || null } : {}),
         hieu_luc_tu: vb.hieu_luc_tu || null,
         het_hieu_luc_tu: vb.het_hieu_luc_tu || null,
         nguon_a: vb.nguon_a || null,
@@ -2307,8 +2416,8 @@ export function hoiPhapLuat(store, cauHoi, { nhanh, limit = 8 } = {}) {
         trang_pdf: dk.trang_pdf ?? null,
         sha256_pdf: dk.sha256_pdf ?? null,
         canh_bao:
-          vb.tinh_trang === 'HET_HIEU_LUC'
-            ? `Lưu ý: điều khoản thuộc văn bản ${vb.so_hieu} đã HET_HIEU_LUC.`
+          vbTinhTrang === 'HET_HIEU_LUC'
+            ? `Lưu ý: điều khoản thuộc văn bản ${vb.so_hieu} đã HET_HIEU_LUC${taiNgay ? ` tại ngày ${taiNgay}` : ''}.`
             : null,
       });
     }
@@ -2354,9 +2463,9 @@ export function hoiPhapLuat(store, cauHoi, { nhanh, limit = 8 } = {}) {
       if (!kVb) continue;
       const docMeta = chonBanGhi(store.byKhoa.get(kVb), kVb);
       if (nhanh && !khopNhanh(nhanh, [{ so_hieu: vb.so_hieu }], docMeta?.nhanh || [], store)) continue;
-      const vbTinhTrang = vb.tinh_trang || docMeta?.tinh_trang || null;
+      const vbTinhTrang = layTinhTrangMoc(docMeta, vb.tinh_trang || docMeta?.tinh_trang || null);
       const vbHieuLuc = vb.hieu_luc_tu || docMeta?.hieu_luc_tu || null;
-      const haFuture = canHaUuTienChuaCoHieuLuc(vbTinhTrang, vbHieuLuc, kVb, pinnedSet, qInfo, storeYear);
+      const haFuture = canHaUuTienChuaCoHieuLuc(vbTinhTrang, vbHieuLuc, kVb, pinnedSet, qInfo, storeYear, taiNgay, docMeta, store);
       const unpinnedHetTt = Boolean(vbTinhTrang === 'HET_HIEU_LUC' && !pinnedSet.has(kVb));
       const tieuDeTt = `${vb.so_hieu || vb.slug} ${docMeta?.ten || ''}`;
       const tagsTt = docMeta?.nhanh || [];
@@ -2396,7 +2505,8 @@ export function hoiPhapLuat(store, cauHoi, { nhanh, limit = 8 } = {}) {
           da_soat: false,
           so_hieu: vb.so_hieu || null,
           slug: vb.slug || null,
-          tinh_trang: vb.tinh_trang || docMeta?.tinh_trang || null,
+          tinh_trang: vbTinhTrang,
+          ...(taiNgay ? { tinh_trang_tai_ngay: vbTinhTrang } : {}),
           nguon_a: vb.nguon_a || null,
           dieu: dk.dieu ?? null,
           ten: dk.ten ?? null,
@@ -2467,12 +2577,14 @@ export function hoiPhapLuat(store, cauHoi, { nhanh, limit = 8 } = {}) {
     rawRefs.push({ so_hieu: dk.so_hieu });
     addRel(dk.so_hieu, dk.diem_phu_hop >= maxDkScore * 0.85 ? 20 : 14);
     const dkDoc = chonBanGhi(store.byKhoa.get(kDk), kDk);
-    if (dkDoc && (dkDoc.tinh_trang === 'CON_HIEU_LUC' || dkDoc.tinh_trang === 'HET_HIEU_LUC_MOT_PHAN')) {
+    const dkDocTt = layTinhTrangMoc(dkDoc);
+    if (dkDoc && (dkDocTt === 'CON_HIEU_LUC' || dkDocTt === 'HET_HIEU_LUC_MOT_PHAN')) {
       for (const sd of dkDoc.quan_he_nguoc?.bi_sua_doi_boi || []) {
         const sdK = khoa(sd?.tu);
         if (!sdK) continue;
         const sdDoc = chonBanGhi(store.byKhoa.get(sdK), sdK);
-        if (sdDoc && (sdDoc.tinh_trang === 'CON_HIEU_LUC' || sdDoc.tinh_trang === 'HET_HIEU_LUC_MOT_PHAN')) {
+        const sdDocTt = layTinhTrangMoc(sdDoc);
+        if (sdDoc && (sdDocTt === 'CON_HIEU_LUC' || sdDocTt === 'HET_HIEU_LUC_MOT_PHAN')) {
           rawRefs.push({ so_hieu: sdDoc.so_hieu });
           addRel(sdDoc.so_hieu, 10);
         }
@@ -2486,7 +2598,11 @@ export function hoiPhapLuat(store, cauHoi, { nhanh, limit = 8 } = {}) {
   // Liên kết chuỗi sửa đổi/hướng dẫn còn hiệu lực từ các văn bản top CON_HIEU_LUC có điểm liên quan cao nhất (tối đa 3 bước cho cạnh sửa đổi)
   const topActiveSeeds = [...relevanceMap.entries()]
     .map(([k, rel]) => ({ k, rel, doc: chonBanGhi(store.byKhoa.get(k), k) }))
-    .filter((x) => x.doc && (x.doc.tinh_trang === 'CON_HIEU_LUC' || x.doc.tinh_trang === 'HET_HIEU_LUC_MOT_PHAN'))
+    .filter((x) => {
+      if (!x.doc) return false;
+      const tt = layTinhTrangMoc(x.doc);
+      return tt === 'CON_HIEU_LUC' || tt === 'HET_HIEU_LUC_MOT_PHAN';
+    })
     .sort((a, b) => b.rel - a.rel)
     .slice(0, 14);
   const maxTopRel = topActiveSeeds[0]?.rel || 0;
@@ -2518,7 +2634,8 @@ export function hoiPhapLuat(store, cauHoi, { nhanh, limit = 8 } = {}) {
         if (seedTenNorm.length >= 10) {
           for (const d of store.registry?.van_ban || []) {
             if (!d?.so_hieu || laTbTchq(d)) continue;
-            if (d.tinh_trang !== 'CON_HIEU_LUC' && d.tinh_trang !== 'HET_HIEU_LUC_MOT_PHAN') continue;
+            const dTt = layTinhTrangMoc(d);
+            if (dTt !== 'CON_HIEU_LUC' && dTt !== 'HET_HIEU_LUC_MOT_PHAN') continue;
             const dTenNorm = chuanHoaVanBan(d.ten);
             if (!dTenNorm.includes(seedTenNorm)) continue;
             if (!/(?:huong dan thi hanh|quy dinh chi tiet)/.test(dTenNorm)) continue;
@@ -2533,7 +2650,8 @@ export function hoiPhapLuat(store, cauHoi, { nhanh, limit = 8 } = {}) {
         if (!relK) continue;
         const relDoc = chonBanGhi(store.byKhoa.get(relK), relK);
         if (!relDoc) continue;
-        if (relDoc.tinh_trang !== 'CON_HIEU_LUC' && relDoc.tinh_trang !== 'HET_HIEU_LUC_MOT_PHAN') continue;
+        const relTt = layTinhTrangMoc(relDoc);
+        if (relTt !== 'CON_HIEU_LUC' && relTt !== 'HET_HIEU_LUC_MOT_PHAN') continue;
         if (nhanh && !khopNhanh(nhanh, [{ so_hieu: relDoc.so_hieu }], relDoc.nhanh || [], store)) continue;
         const relHay = chuanHoaVanBan(
           `${relDoc.so_hieu} ${relDoc.ten || ''} ${(relDoc.nhanh || []).join(' ')} ${relDoc.ghi_chu || ''}`,
@@ -2677,6 +2795,7 @@ export function hoiPhapLuat(store, cauHoi, { nhanh, limit = 8 } = {}) {
     pinnedSet,
     relevanceMap,
     includeReplacements: true,
+    taiNgay,
   });
 
   const canhBaoList = [];
@@ -2751,6 +2870,7 @@ export function hoiPhapLuat(store, cauHoi, { nhanh, limit = 8 } = {}) {
   return {
     cau_hoi: String(cauHoi || ''),
     nhanh: nhanh || null,
+    ...(taiNgay ? { tai_ngay: taiNgay } : {}),
     chuyen_huong: null,
     ngoai_pham_vi: false,
     tong: wikiKetQua.length,
@@ -2885,7 +3005,22 @@ export function traHoaChatCas(store, query, { phu_luc, limit = 20 } = {}) {
  * Tra văn bản chính sách / KTCN / giấy phép theo mã HS ĐÃ BIẾT trên `hs-index-theo-ma.json`.
  * Không phân loại HS hay tính thuế suất (thuộc hs-code-api).
  */
-export function traChinhSachTheoMaHs(store, maHs, { limit = 25 } = {}) {
+export function traChinhSachTheoMaHs(store, maHs, { limit = 25, tai_ngay } = {}) {
+  const tnCheck = chuanHoaTaiNgay(tai_ngay);
+  if (!tnCheck.hopLe) {
+    return {
+      ma_hs: String(maHs || '').replace(/[.\s-]/g, '').trim() || null,
+      ma_hs_goc: maHs ?? null,
+      tai_ngay: String(tai_ngay),
+      ranh_gioi: RANH_GIOI_HS_DA_BIET,
+      loi: tnCheck.loi,
+      tong: 0,
+      ket_qua: [],
+      ghi_nguon: GHI_NGUON_CC_BY,
+      mien_tru: MIEN_TRU_PHAP_LY,
+    };
+  }
+  const taiNgay = tnCheck.giaTri;
   const maxItems = Number.isFinite(Number(limit)) && Number(limit) > 0 ? Number(limit) : 25;
   const maChuan = String(maHs || '').replace(/[.\s-]/g, '').trim();
 
@@ -2893,6 +3028,7 @@ export function traChinhSachTheoMaHs(store, maHs, { limit = 25 } = {}) {
     return {
       ma_hs: maChuan || null,
       ma_hs_goc: maHs ?? null,
+      ...(taiNgay ? { tai_ngay: taiNgay } : {}),
       ranh_gioi: RANH_GIOI_HS_DA_BIET,
       loi: 'Mã HS tra cứu chính sách phải là 4 đến 8 chữ số (mã HS đã biết, bỏ dấu chấm). Nếu chưa có mã HS, hãy chuyển sang hs-code-api để phân loại.',
       tong: 0,
@@ -2930,6 +3066,8 @@ export function traChinhSachTheoMaHs(store, maHs, { limit = 25 } = {}) {
     for (const edge of maMap[khoa_hs] || []) {
       const doc = chonBanGhi(store.byKhoa.get(khoa(edge.so_hieu)), khoa(edge.so_hieu));
       const nguonBacA = doc ? locNguonBacA(doc, store.nguonUyTin) : [];
+      const ttInfo = taiNgay ? tinhTinhTrangTaiNgay(doc || edge, taiNgay, store) : null;
+      const effTinhTrang = ttInfo ? ttInfo.tinh_trang_tai_ngay : (doc?.tinh_trang || edge.tinh_trang);
       items.push({
         khoa_hs,
         ma_nhom: khoa_hs,
@@ -2938,7 +3076,13 @@ export function traChinhSachTheoMaHs(store, maHs, { limit = 25 } = {}) {
         so_hieu: edge.so_hieu,
         slug: edge.slug,
         ten: edge.ten,
-        tinh_trang: doc?.tinh_trang || edge.tinh_trang,
+        tinh_trang: effTinhTrang,
+        ...(ttInfo
+          ? {
+              tinh_trang_tai_ngay: ttInfo.tinh_trang_tai_ngay,
+              do_chinh_xac_ngay: ttInfo.do_chinh_xac_ngay,
+            }
+          : {}),
         hieu_luc_tu: doc?.hieu_luc_tu ?? edge.hieu_luc_tu ?? null,
         het_hieu_luc_tu: doc?.het_hieu_luc_tu ?? edge.het_hieu_luc_tu ?? null,
         hieu_luc_da_doi_chieu: doc ? doc.xac_minh?.hieu_luc_da_doi_chieu === true : Boolean(edge.hieu_luc_da_doi_chieu),
@@ -2952,6 +3096,15 @@ export function traChinhSachTheoMaHs(store, maHs, { limit = 25 } = {}) {
     }
   }
 
+  if (taiNgay) {
+    const rankTt = (tt) => (
+      tt === 'CON_HIEU_LUC' || tt === 'HET_HIEU_LUC_MOT_PHAN' ? 0
+        : tt === 'CHUA_CO_HIEU_LUC' ? 1
+          : tt === 'HET_HIEU_LUC' ? 3 : 2
+    );
+    items.sort((a, b) => rankTt(a.tinh_trang) - rankTt(b.tinh_trang));
+  }
+
   const ketQua = items.slice(0, maxItems);
   const canhBao = [];
   if (ngoaiBieuThue.length > 0) {
@@ -2960,7 +3113,7 @@ export function traChinhSachTheoMaHs(store, maHs, { limit = 25 } = {}) {
     );
   }
   if (items.some((x) => x.tinh_trang === 'HET_HIEU_LUC')) {
-    canhBao.push('Có văn bản đã HET_HIEU_LUC trong kết quả — kiểm tra văn bản thay thế trước khi áp dụng.');
+    canhBao.push(`Có văn bản đã HET_HIEU_LUC${taiNgay ? ` tại ngày ${taiNgay}` : ''} trong kết quả — kiểm tra văn bản thay thế trước khi áp dụng.`);
   }
   if (items.some((x) => !x.hieu_luc_da_doi_chieu)) {
     canhBao.push('Có văn bản chưa đối chiếu hiệu lực nguồn bậc A (hieu_luc_da_doi_chieu: false).');
@@ -2971,6 +3124,7 @@ export function traChinhSachTheoMaHs(store, maHs, { limit = 25 } = {}) {
 
   return {
     ma_hs: maChuan,
+    ...(taiNgay ? { tai_ngay: taiNgay } : {}),
     ranh_gioi: RANH_GIOI_HS_DA_BIET,
     tong_khoa_khop: matchedKeys.length,
     tong_truoc_gioi_han: items.length,
