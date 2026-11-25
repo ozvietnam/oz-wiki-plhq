@@ -1,0 +1,38 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: QCVN 12-4:2015/BYT
+so_hieu_khac:
+  - 35/2015/TT-BYT
+loai: TIEU_CHUAN
+ten: Quy chuẩn kỹ thuật quốc gia về vệ sinh an toàn đối với bao bì, dụng cụ làm bằng thủy tinh, gốm, sứ và tráng men tiếp xúc trực tiếp với thực phẩm (ban hành kèm theo Thông tư số 35/2015/TT-BYT)
+co_quan: BYT
+ngay_ban_hanh: '2015-10-28'
+hieu_luc_tu: '2016-05-01'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - kiem-tra-chuyen-nganh/an-toan-thuc-pham
+  - kiem-tra-chuyen-nganh/byt
+nguon:
+  - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-35-2015-tt-byt-18091.htm
+    truy_cap: '2026-11-25'
+  - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2015/10/18091/12699-1-352015tt-byt12702pdf
+    truy_cap: '2026-11-25'
+toan_van:
+  - raw/download/congbaocdn.chinhphu.vn/qcvn-12-4-2015-byt.pdf
+  - raw/ocr/qcvn-12-4-2015-byt.ocr.txt
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn Công báo số 1153+1154 ngày 28-11-2015 (congbaocdn.chinhphu.vn, đã OCR 10 trang) và Thông tư 35/2015/TT-BYT ngày 28-10-2015 (Thứ trưởng Nguyễn Thanh Long ký): QCVN 12-4:2015/BYT có hiệu lực từ 01-05-2016, quy định giới hạn thôi nhiễm Chì (Pb) và Cadmi (Cd) đối với bao bì, dụng cụ thủy tinh, gốm, sứ, tráng men tiếp xúc trực tiếp thực phẩm; đang còn hiệu lực'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-25'
+  boi: antigravity@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: 'Điều 1. Ban hành kèm theo Thông tư này: QCVN 12-4:2015/BYT - Quy chuẩn kỹ thuật quốc gia về vệ sinh an toàn đối với bao bì, dụng cụ làm bằng thủy tỉnh, gốm, sứ và tráng men tiếp xúc trực tiếp với thực phẩm.'
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: Điều 2. Thông tư này có hiệu lực thi hành kể từ ngày 01 tháng 5 năm 2016.
+      trang_pdf: 1
+    - dieu: 3
+      noi_dung: Điều 3. Cục trưởng Cục An toàn thực phẩm, thủ trưởng các don vi thuộc Bộ Y tê, đơn vị trực thuộc Bộ Y tê; giám đốc Sở Y tê các tỉnh, thành phô trực thuộc trung ương và các cơ quan, tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành Thông tư này./.
+      trang_pdf: 1
+ghi_chu: 'Nạp từ nhu cầu khách tra (issue [miss] #423). QCVN chuyên ngành ATTP bao bì thủy tinh, gốm, sứ, tráng men tiếp xúc thực phẩm.'

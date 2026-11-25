@@ -1,0 +1,40 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 63/2012/TT-BTC
+loai: THONG_TU
+ten: Sửa đổi mức thuế suất thuế nhập khẩu ưu đãi đặc biệt đối với một số nhóm mặt hàng trong các Biểu thuế nhập khẩu ưu đãi đặc biệt
+co_quan: BTC
+ngay_ban_hanh: '2012-04-23'
+hieu_luc_tu: '2012-06-07'
+tinh_trang: HET_HIEU_LUC
+nhanh:
+  - thue/bieu-thue
+nguon:
+  - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-63-2012-tt-btc-4569.htm
+    truy_cap: '2026-11-25'
+  - url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2012/4/4569/10812-1-2012367-368-632012tt-btcpdf
+    truy_cap: '2026-11-25'
+toan_van: raw/download/congbaocdn.chinhphu.vn/63-2012-tt-btc.pdf
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn PDF Công báo số 367+368 ngày 16-05-2012 (32 trang có lớp chữ, SHA-256 cadfc68d47f7...): ban hành ngày 23-04-2012, hiệu lực sau 45 ngày từ ngày ký (07-06-2012); sửa đổi thuế suất thuế NK ưu đãi đặc biệt giai đoạn cũ (nhóm 8702, 8703, 8704, 8708, 8716), nay đã hết hiệu lực khi các Biểu thuế FTA giai đoạn mới có hiệu lực'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-25'
+  boi: antigravity@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Sửa đổi mức thuế suất thuế nhập khẩu ưu đãi đặc biệt của một số mặt hàng thuộc nhóm 8702, 8703, 8704, 8708, 8716 quy định tại Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Đối tác kinh tế toàn diện ASEAN - Nhật Bản giai đoạn 2012 - 2015 ban hành kèm theo Thông tư số 20/2012/TT-BTC ngày 15/02/2012 của Bộ Tài chính thành mức thuế suất thuế nhập khẩu ưu đãi đặc biệt mới quy định tại Phụ lục I ban hành kèm theo
+      trang_pdf: 2
+      sha256_pdf: cadfc68d47f73c114453026a91146c1c2bb7c9e5b679861d0394314954f8d624
+    - dieu: 2
+      noi_dung: Điều 2. Sửa đổi mức thuế suất thuế nhập khẩu ưu đãi đặc biệt của một số mặt hàng thuộc nhóm 8702, 8703, 8704, 8708, 8716 quy định tại Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Đối tác kinh tế Việt Nam Nhật Bản giai đoạn 2012 - 2015 ban hành kèm theo Thông tư số 21/2012/TT-BTC ngày 15/02/2012 của Bộ Tài chính thành mức thuế suất thuế nhập khẩu ưu đãi đặc biệt mới quy định tại Phụ lục II ban hành kèm theo Thông tư này.
+      trang_pdf: 2
+      sha256_pdf: cadfc68d47f73c114453026a91146c1c2bb7c9e5b679861d0394314954f8d624
+    - dieu: 3
+      noi_dung: Điều 3. Sửa đổi mức thuế suất thuế nhập khẩu ưu đãi đặc biệt của một số mặt hàng thuộc nhóm 8702, 8703, 8704, 8716 quy định tại Biểu thuế nhập khẩu ưu đãi đặc biệt của Việt Nam để thực hiện Hiệp định Khu vực thương mại tự do ASEAN Úc - Niu Di-lân giai đoạn 2012 - 2014 ban hành kèm theo Thông tư số 44/2012/ TT-BTC ngày 16/3/2012 của Bộ Tài chính thành mức thuế suất thuế nhập khẩu ưu đãi đặc biệt mới quy định tại Phụ lục III ban hành kèm theo
+      trang_pdf: 2
+      sha256_pdf: cadfc68d47f73c114453026a91146c1c2bb7c9e5b679861d0394314954f8d624
+    - dieu: 4
+      noi_dung: Điều 4. Thông tư này có hiệu lực sau 45 ngày, kể từ ngày ký./.
+      trang_pdf: 2
+      sha256_pdf: cadfc68d47f73c114453026a91146c1c2bb7c9e5b679861d0394314954f8d624
+ghi_chu: 'Nạp từ nhu cầu khách tra (issue [miss] #415). Biểu thuế FTA giai đoạn cũ, đã hết hiệu lực.'

@@ -1,0 +1,25 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 06/2015/TT-BTC
+loai: THONG_TU
+ten: >-
+  Sửa đổi mức thuế suất thuế nhập khẩu ưu đãi đối với một số mặt hàng xăng, dầu thuộc nhóm 27.10 tại Biểu thuế nhập khẩu
+  ưu đãi
+co_quan: BTC
+ngay_ban_hanh: '2015-01-20'
+hieu_luc_tu: '2015-01-20'
+het_hieu_luc_tu: '2015-01-21'
+tinh_trang: HET_HIEU_LUC
+nhanh:
+  - thue/bieu-thue
+nguon:
+  - url: https://vbpl.vn/van-ban/chi-tiet/x--48801
+    truy_cap: '2026-11-25'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: >-
+    đối chiếu CSDLQG vbpl.vn (ID 48801) và Thông tư 07/2015/TT-BTC (đã có toàn văn PDF Công báo trong sổ): ban hành ngày
+    20-01-2015, bị bãi bỏ từ ngày 21-01-2015 theo Điều 1 Thông tư 07/2015/TT-BTC
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-25'
+  boi: antigravity@ozvietnam
+ghi_chu: 'Nạp từ nhu cầu khách tra (issue [miss] #393). Đã hết hiệu lực ngay từ 21-01-2015 (bị bãi bỏ bởi TT 07/2015/TT-BTC).'

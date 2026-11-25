@@ -1,0 +1,33 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 25/2016/TT-BTC
+loai: THONG_TU
+ten: Sửa đổi mức thuế suất thuế nhập khẩu ưu đãi đối với mặt hàng Diamoni hydro orthophosphat (diamoni phosphat) thuộc mã hàng 3105.30.00 tại Biểu thuế nhập khẩu ưu đãi
+co_quan: BTC
+ngay_ban_hanh: '2016-02-16'
+hieu_luc_tu: '2016-04-03'
+het_hieu_luc_tu: '2016-09-01'
+tinh_trang: HET_HIEU_LUC
+nhanh:
+  - thue/bieu-thue
+nguon:
+  - url: https://chinhphu.vn/?pageid=27160&docid=184149
+    truy_cap: '2026-11-25'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2016/04/25-btc.signed.pdf
+    truy_cap: '2026-11-25'
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/25-2016-tt-btc.pdf
+  - raw/ocr/25-2016-tt-btc.ocr.txt
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu Cổng TTĐT Chính phủ (docid=184149) và PDF ký số 2 trang đã OCR (SHA-256 68973cc3e17f...): Thứ trưởng Vũ Thị Mai ký ngày 16-02-2016, hiệu lực 03-04-2016; hết hiệu lực từ 01-09-2016 khi Nghị định 122/2016/NĐ-CP thay thế Biểu thuế MFN theo Thông tư 182/2015/TT-BTC'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-25'
+  boi: antigravity@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Sửa đổi mức thuế suất thuế nhập khẩu ưu đãi đối với mặt hàng Diamoni hydro orthophosphat (diamoni phosphat) thuộc mã hàng 3105.30.00 tại Biểu thuế nhập khẩu ưu đãi.
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: Điều 2. Thông tư này có hiệu lực thi hành kể từ ngày63tháng0£năm 2016./ 4
+      trang_pdf: 2
+ghi_chu: 'Nạp từ nhu cầu khách tra (issue [miss] #406). Liên quan phân bón DAP mã 3105.30.00 giai đoạn 2016, đã hết hiệu lực.'

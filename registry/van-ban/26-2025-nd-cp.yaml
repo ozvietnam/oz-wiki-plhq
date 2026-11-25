@@ -1,0 +1,41 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 26/2025/NĐ-CP
+loai: NGHI_DINH
+ten: Quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Ngân hàng Nhà nước Việt Nam
+co_quan: CP
+ngay_ban_hanh: '2025-02-24'
+hieu_luc_tu: '2025-03-01'
+tinh_trang: CON_HIEU_LUC
+nhanh:
+  - bo-may
+nguon:
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=212835
+    truy_cap: '2026-11-25'
+  - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/02/26-cp.signed.pdf
+    truy_cap: '2026-11-25'
+toan_van:
+  - raw/download/datafiles.chinhphu.vn/26-2025-nd-cp.pdf
+  - raw/ocr/26-2025-nd-cp.ocr.txt
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu Cổng TTĐT Chính phủ (docid=212835) và PDF ký số 9 trang đã OCR (SHA-256 86824626edaf...): Phó Thủ tướng Hồ Đức Phớc ký ngày 24-02-2025, hiệu lực từ 01-03-2025, đang còn hiệu lực'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-25'
+  boi: antigravity@ozvietnam
+  dieu_khoan:
+    - dieu: 1
+      noi_dung: Điều 1. Vị trí và chức năng Ngân hàng Nhà nước Việt Nam (sau đây gọi tắt là Ngân hàng Nhà nước) là cơ quan ngang bộ của Chính phủ, Ngân hàng Trung ương của nước Cộng hoà xã hội chủ nghĩa Việt Nam; thực hiện chức năng quản lý nhà nước về tiền tệ, hoạt động ngân hàng và ngoại hỗi (sau đây gọi là tiền tệ và ngân hàng) và các dịch vụ công thuộc phạm vi quản ly của Ngân hang Nhà nước;
+      trang_pdf: 1
+    - dieu: 2
+      noi_dung: 'Điều 2. Nhiệm vụ và quyền hạn Ngân hàng Nhà nước thực hiện các nhiệm vụ, quyền hạn quy định tại Luật Ngân hàng Nhà nước Việt Nam, Luật Tổ chức Chính phủ, quy định của Chính phủ vê chức năng, nhiệm vụ, quyền hạn và cơ cấu tô chức của bộ, cơ quan ngang bộ và những nhiệm vụ, quyền hạn cụ thê sau:'
+      trang_pdf: 1
+    - dieu: 3
+      noi_dung: Điều 3. Cơ cau tô chức 1. Vụ Chính sách tiền tệ. 2. Vụ Thanh toán. 3. Vụ Tín dụng các ngành kinh tế. 4. Vụ Dự báo, thống kê - Ôn định tiền tệ, tài chính. 5. Vụ Hợp tác quốc tế. 6. Vụ Pháp chế. 7. Vụ Tài chính - Kế toán. 8. Vụ Tổ chức cán bộ. 9. Văn phòng. 10. Thanh tra Ngân hàng Nhà nước. 11. Sở Giao dịch. 12. Cục Công nghệ thông tin. 13. Cục Phát hành và kho quỹ. 14. Cục Quản lý ngoại hối. 15. Cục Phòng, chống rửa tiền.
+      trang_pdf: 7
+    - dieu: 4
+      noi_dung: 'Điều 4. Hiệu lực thi hành 1. Nghị định này có hiệu lực thi hành từ ngày 01 tháng 3 năm 2025. 2. Nghị định này bãi bỏ: a) Nghị định số 102/2022/NĐ-CP ngày 12 tháng 12 năm 2022 của Chính phủ quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tô chức của Ngân hàng Nhà nước Việt Nam; b) Nghị định số 26/2014/NĐ-CP ngày 07 tháng 4 năm 2014 của Chính phủ về tổ chức và hoạt động của Thanh tra, giám sát ngành Ngân hàng:'
+      trang_pdf: 8
+    - dieu: 5
+      noi_dung: Điều 5. Trách nhiệm thi hành Thống đốc Ngân hàng Nhà nước, các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc trung ương chịu trách nhiệm thi hành Nghị định này,
+      trang_pdf: 9
+ghi_chu: 'Nạp từ nhu cầu khách tra (issue [miss] #407). Quy định tổ chức bộ máy Ngân hàng Nhà nước sau sắp xếp 2025.'
