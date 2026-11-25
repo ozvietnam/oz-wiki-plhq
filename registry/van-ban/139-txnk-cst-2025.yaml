@@ -1,0 +1,32 @@
+# Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
+so_hieu: 139/TXNK-CST
+so_hieu_khac:
+  - 139/TXNK-CST/2025
+loai: CONG_VAN
+ten: 'Về việc cập nhật thông tin khai báo thuế chống bán phá giá theo Quyết định số 143/QĐ-BCT'
+co_quan: TCHQ
+ngay_ban_hanh: '2025-01-23'
+hieu_luc_tu: '2025-01-29'
+tinh_trang: CON_HIEU_LUC
+het_hieu_luc_tu: '2030-01-29'
+nhanh:
+  - phong-ve-thuong-mai/chong-ban-pha-gia
+  - hai-quan/so-tay-nghiep-vu
+quan_he:
+  huong_dan:
+    - 143/QĐ-BCT
+    - 38/2015/TT-BTC
+    - 39/2018/TT-BTC
+nguon:
+  - url: https://www.customs.gov.vn/index.jsp?pageId=3&id=98767&cid=1294
+    truy_cap: '2026-11-24'
+  - url: https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/1/24/139.TXNK.pdf
+    truy_cap: '2026-11-24'
+xac_minh:
+  muc: NGUON_A
+  pham_vi: 'đối chiếu toàn văn PDF bản gốc trên Cổng Hải quan (files.customs.gov.vn/CustomsCMS/TONG_CUC/2025/1/24/139.TXNK.pdf, id=98767, SHA-256 a5ed76cd0845b26d1c031260bd5ad6eae2822f806ea6f382282ffd1fb6ffca55): Công văn số 139/TXNK-CST ngày 23-01-2025 của Cục Thuế xuất nhập khẩu - Tổng cục Hải quan (Phó Cục trưởng Đặng Sơn Tùng ký) gửi Cục Công nghệ thông tin và Thống kê hải quan đề nghị tạo file CFS và cập nhật thông tin khai báo thuế chống bán phá giá lên Hệ thống VNACCS/VCIS đối với mã HS 7312.10.91 và 7312.10.99 theo Quyết định số 143/QĐ-BCT ngày 14-01-2025 của Bộ Công Thương (tạo bảng mã khai báo thuế CBPG mới từ G158 đến G171: Malaysia G158 9,79%, G159 10,99%, G160 12,06%; Thái Lan G161–G163 11%; Trung Quốc G164–G166 28%, G167 18,74%, G168 10,48%, G169–G170 28%; không nộp C/O G171 28%; thời hạn áp dụng 05 năm từ ngày 29-01-2025 đến hết ngày 28-01-2030)'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-24'
+  boi: gd-bo-ba@ozvietnam
+ghi_chu: 'Bảng mã khai báo thuế chống bán phá giá trên hệ thống VNACCS/VCIS từ mã G158 đến G171 đối với sản phẩm cáp thép dự ứng lực (HS 7312.10.91, 7312.10.99; mã vụ việc AD17) theo Quyết định số 143/QĐ-BCT ngày 14/01/2025 của Bộ Công Thương.'
+toan_van: raw/download/files.customs.gov.vn/139-txnk-cst-2025.pdf
