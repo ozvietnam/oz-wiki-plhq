@@ -4,20 +4,17 @@ loai: QUYET_DINH
 ten: 'Công bố thủ tục hành chính mới về cấp giấy phép xuất khẩu, tạm nhập tái xuất, chuyển khẩu trong lĩnh vực quản lý nhà nước của Bộ Khoa học và Công nghệ'
 co_quan: BKHCN
 ngay_ban_hanh: '2026-11-19'
+hieu_luc_tu: '2026-11-19'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - quan-ly-ngoai-thuong/giay-phep
 nguon:
-  - url: https://thuvienphapluat.vn
-    truy_cap: '2026-11-23'
+  - url: https://mst.gov.vn/van-ban-phap-luat/25582.htm
+    truy_cap: '2026-11-26'
 xac_minh:
-  muc: NGUON_THU_CAP
-  pham_vi: 'số hiệu + ngày ban hành 19-11-2026 (tổng hợp TVPL trong bản tin tuần; cổng địa phương haiphong.gov.vn/gialai.gov.vn công bố theo TT 30/2026/TT-BKHCN); TTHC cấp GP XK/tạm nhập tái xuất/chuyển khẩu hàng hóa lưỡng dụng — chờ mst.gov.vn công bố bản gốc.'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-11-25'
+  muc: NGUON_A
+  pham_vi: 'Đã đối chiếu trang văn bản và 2 tệp PDF toàn văn (Quyết định + Phụ lục TTHC) đăng tải trên Cổng TTĐT Bộ Khoa học và Công nghệ (mst.gov.vn/van-ban-phap-luat/25582.htm): số 4502/QĐ-BKHCN ban hành 19-11-2026 (Bộ trưởng Vũ Hải Quân ký), Điều 2 quy định hiệu lực thi hành kể từ ngày ký (19-11-2026), công bố TTHC mới liên quan cấp phép xuất khẩu, tạm nhập tái xuất, chuyển khẩu, trung chuyển, quá cảnh hàng hóa lưỡng dụng theo Thông tư 30/2026/TT-BKHCN. Đang còn hiệu lực.'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-26'
   boi: antigravity@ozvietnam
-  chan:
-    ma: CHO_CONG_BO_A
-    ngay: '2026-11-25'
-    viec_tiep: 'QĐ công bố TTHC cấp phép hàng hóa lưỡng dụng ngày 19-11-2026 (căn cứ Thông tư 30/2026/TT-BKHCN); chờ mst.gov.vn công bố PDF gốc bậc A.'
 ghi_chu: 'Trinh thám đêm 23/11. GP XNK mảng khoa học công nghệ (hàng hóa lưỡng dụng) — luồng giấy phép ít khi gặp nhưng đúng phạm vi.'

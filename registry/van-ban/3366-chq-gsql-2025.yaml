@@ -16,11 +16,11 @@ xac_minh:
   muc: NGUON_B
   pham_vi: 'Số hiệu 3366/CHQ-GSQL, ngày ban hành 25-04-2025, cơ quan ban hành Cục Hải quan (Ban Giám sát quản lý về hải quan), trích yếu về chính sách quản lý đối với hàng hóa xuất khẩu, nhập khẩu chứa tiền chất công nghiệp — đã đối chiếu qua nguồn bậc B (thuvienphapluat.vn, mã văn bản 655019) và bản đăng lại trên hethongphapluat.com. Đã rà soát ngày 18-11-2026 trên Cổng Hải quan (customs.gov.vn — OZV-1421), Hệ thống văn bản Chính phủ (vanban.chinhphu.vn — classid=1,2), Công báo (congbao.chinhphu.vn) và Cổng Bộ Tài chính (mof.gov.vn): đều không đăng tải bản gốc bậc A của công văn hướng dẫn nghiệp vụ này. Nâng từ NGUON_THU_CAP lên NGUON_B.'
   hieu_luc_da_doi_chieu: false
-  ngay: '2026-11-18'
-  boi: tho-bo-ba-01@ozvietnam
+  ngay: '2026-11-26'
+  boi: antigravity@ozvietnam
   chan:
     ma: THIEU_PDF_A
-    ngay: '2026-11-18'
-    viec_tiep: 'Công văn hướng dẫn nghiệp vụ của Cục Hải quan (không đăng Công báo); đã quét customs.gov.vn (OZV-1421), vanban.chinhphu.vn (classid=1,2), congbao.chinhphu.vn và mof.gov.vn đều không có bản gốc bậc A. Chờ Cục Hải quan công bố bản gốc trên customs.gov.vn.'
+    ngay: '2026-11-26'
+    viec_tiep: 'Công văn hướng dẫn nghiệp vụ của Cục Hải quan (không đăng Công báo); đã rà soát lại ngày 26-11-2026 trên customs.gov.vn (/customs/api/lay_van_ban), mof.gov.vn, vbpl.vn và congbao.chinhphu.vn đều chưa công bố bản gốc bậc A.'
 ghi_chu: Công văn Cục Hải quan (GSQL) — tham khảo. Cùng chuỗi có CV 1546/CHQ-GSQL (10-04-2025) và CV 22574/CHQ-GSQL (05-09-2025, bổ sung hướng dẫn) — chưa nạp. Nâng nguồn khi tìm bản gốc customs.gov.vn.
 tu_khoa: [tien-chat, hoa-chat, hai-quan]

@@ -4,22 +4,26 @@ loai: QUYET_DINH
 ten: Ban hành Danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn thuộc trách nhiệm quản lý của Bộ Công an
 co_quan: BCA
 ngay_ban_hanh: '2023-09-13'
-hieu_luc_tu: '2023-09-13'
+hieu_luc_tu: '2024-02-01'
 tinh_trang: CHUA_XAC_MINH
 nhanh:
   - kiem-tra-chuyen-nganh/bca
 nguon:
+  - url: https://vanban.bocongan.gov.vn/co-so-du-lieu-van-ban/quyet-dinh-ban-hanh-danh-muc-san-pham-hang-hoa-co-kha-nang-gay-mat-an-toan-thuoc-trach-nhiem-quan-ly-cua-bo-cong-an-1225
+    truy_cap: '2026-11-26'
+  - url: https://bocongan.gov.vn/media/bca-media/bo-cong-an/documents/legal_documents_new/1225/Quyet%20dinh%20so%206266.Q%C4%90.BCA.pdf
+    truy_cap: '2026-11-26'
   - url: https://luatvietnam.vn/an-ninh-trat-tu/quyet-dinh-6266-qd-bca-cua-bo-cong-an-ban-hanh-danh-muc-san-pham-hang-hoa-co-kha-nang-gay-mat-an-toan-thuoc-trach-nhiem-quan-ly-cua-bo-cong-an-361705-d1.html
     truy_cap: '2026-07-02'
 trich_dan_trong_bieu_thue: 19
 xac_minh:
-  muc: NGUON_B
-  pham_vi: số hiệu, tiêu đề, ngày ban hành/hiệu lực
+  muc: NGUON_A
+  pham_vi: 'Đã đối chiếu trang văn bản và PDF bản scan 4 trang (có chữ ký Đại tướng Tô Lâm) trên Cổng văn bản Bộ Công an (vanban.bocongan.gov.vn): số 6266/QĐ-BCA ngày 13-09-2023; Điều 2 quy định có hiệu lực sau khi Thông tư 08/2019/TT-BCA bị bãi bỏ (tức từ 01-02-2024 theo TT 60/2023/TT-BCA trên vbpl.vn ItemID=174944). Tuy nhiên Cổng BCA để trống trường tình trạng hiệu lực và bản gốc PDF của QĐ 8378/QĐ-BCA (nguồn B nói thay thế 6266) chưa đăng trên nguồn A, nên tình trạng hiện tại giữ CHUA_XAC_MINH.'
   hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: khoi-tao
+  ngay: '2026-11-26'
+  boi: antigravity@ozvietnam
   chan:
-    ma: THIEU_PDF_A
-    viec_tiep: Chờ PDF A của 6266 hoặc của QĐ 8378/4814 (nguồn B nói 8378 thay 6266 rồi 4814 bãi 8378). Theo dõi bocongan.gov.vn/media.
-    ngay: '2026-10-04'
+    ma: THIEU_BAI_TUONG_MINH
+    viec_tiep: 'Đã có PDF bậc A của 6266/QĐ-BCA và 4814/QĐ-BCA; cổng vanban.bocongan.gov.vn để trống trạng thái 6266 và thiếu PDF bậc A của 8378/QĐ-BCA để xác nhận tường minh Điều 2 thay thế 6266.'
+    ngay: '2026-11-26'
 ghi_chu: 'Nhập từ hs-code-api data/legal-docs.json (văn bản được dẫn trong cột chính sách của biểu thuế, 19 mã HS). Tiêu đề đã đối chiếu (luatvietnam.vn). KHUNG KTCN 2026 (tin cậy MEDIUM): Danh mục rủi ro mới của Bộ Công an là TT 125/2026/TT-BCA (PCCC & cứu nạn cứu hộ, thiết bị an toàn giao thông, giám sát an ninh). Tem kiểm định cũ hết 30/6/2026. Cần đối chiếu mã. GHI CHÚ NGHIỆP VỤ (hs-code-api): Hiệu lực sau khi TT 08/2019/TT-BCA bị bãi bỏ. Theo dõi QĐ danh mục BCA mới hơn nếu Bộ Công an ban hành thay thế. Chưa gắn được nguồn bậc A (vanban/congbao/moit van-ban-phap-luat) sau truy vết 2026-10-04; đang dựa nguồn B/thứ cấp hoặc chưa có URL.'

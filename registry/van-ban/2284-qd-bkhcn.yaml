@@ -18,12 +18,12 @@ xac_minh:
   muc: NGUON_B
   pham_vi: Số hiệu, ngày, tên đối chiếu được trên bản đánh máy lại do Bộ Công Thương đăng (vntr.moit.gov.vn); chưa có bản gốc của BKHCN, nên giữ NGUON_B.
   hieu_luc_da_doi_chieu: false
-  ngay: '2026-11-18'
-  boi: tho-bo-ba-01@ozvietnam
+  ngay: '2026-11-26'
+  boi: antigravity@ozvietnam
   chan:
     ma: THIEU_PDF_A
-    viec_tiep: Đã có toàn văn trên vntr.moit.gov.vn (bản đánh máy lại của Bộ Công Thương, không phải bản gốc BKHCN); vẫn chờ bản gốc có chữ ký trên datafiles/most/mst và nguồn A xác nhận tình trạng hiệu lực (danh mục nhóm 2 đã được TT 03/2024/TT-BKHCN cập nhật).
-    ngay: '2026-10-04'
+    viec_tiep: 'Đã có bản đánh máy lại trên vntr.moit.gov.vn; đã rà soát lại ngày 26-11-2026 trên mst.gov.vn, vbpl.vn, congbao.chinhphu.vn, vanban.chinhphu.vn (chưa đăng tải) và most.gov.vn (timeout). Chờ bản gốc ký số của BKHCN và nguồn A xác nhận tình trạng hiệu lực (danh mục nhóm 2 đã được TT 03/2024/TT-BKHCN cập nhật).'
+    ngay: '2026-11-26'
   dieu_khoan:
     - dieu: 1
       noi_dung: Điều 1. Công bố Bảng mã HS đối với phương tiện đo nhóm 2 phải phê duyệt mẫu thuộc đối tượng kiểm tra nhà nước về đo lường khi nhập khẩu tại Phụ lục ban hành kèm theo Quyết định này, bao gồm tên phương tiện đo nhóm 2, mã HS, yêu cầu kỹ thuật đo lường (ĐLVN) tương ứng và văn bản quy phạm pháp luật quản lý.

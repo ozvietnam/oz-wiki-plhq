@@ -13,18 +13,18 @@ quan_he:
     - so_hieu: 61/2016/TT-BTC
       tu_ngay: '2022-01-01'
 nguon:
+  - url: https://vbpl.vn/van-ban/chi-tiet/150950
+    truy_cap: '2026-11-26'
+  - url: https://vbpl.vn/TW/Pages/vbpq-thuoctinh.aspx?ItemID=150950
+    truy_cap: '2026-11-26'
+  - url: https://www.mof.gov.vn/tin-tuc-tai-chinh/thoi-su/mofucm211349
+    truy_cap: '2026-11-26'
   - url: https://thuvienphapluat.vn/van-ban/Doanh-nghiep/Thong-tu-85-2021-TT-BTC-loi-nhuan-duoc-chia-cho-phan-von-nha-nuoc-dau-tu-tai-doanh-nghiep-295823.aspx
     truy_cap: '2026-11-25'
-  - url: http://tcvg.hochiminhcity.gov.vn/hinhanhposttin/2021-10/85TT2021BTC.pdf
-    truy_cap: '2026-11-25'
 xac_minh:
-  muc: NGUON_B
-  pham_vi: 'Đối chiếu qua Thư viện Pháp luật (295823) và bản PDF đăng lại trên cổng Sở Tài chính TP.HCM: ban hành 05-10-2021, hiệu lực từ 01-01-2022, thay thế Thông tư 61/2016/TT-BTC; chờ link trang gốc trên vanban.chinhphu.vn / congbao.chinhphu.vn.'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-11-25'
+  muc: NGUON_A
+  pham_vi: 'Đã đối chiếu toàn văn và thuộc tính trên CSDL Quốc gia về VBPL (vbpl.vn/van-ban/chi-tiet/150950, hasOriginalPdf=true, trạng thái Còn hiệu lực) và Cổng TTĐT Bộ Tài chính (mof.gov.vn mofucm211349): ban hành 05-10-2021 (KT. Bộ trưởng Thứ trưởng Trần Xuân Hà ký), Điều 7 quy định hiệu lực từ 01-01-2022 và thay thế Thông tư 61/2016/TT-BTC ngày 11-04-2016. Đang còn hiệu lực.'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-26'
   boi: antigravity@ozvietnam
-  chan:
-    ma: THIEU_PDF_A
-    ngay: '2026-11-25'
-    viec_tiep: 'Tìm và nạp bản gốc Công báo / Cổng TTĐT Chính phủ cho 85/2021/TT-BTC.'
 ghi_chu: Đóng điểm mù WIKI_NHAC_CHUA_DANG_KY từ wiki/sources/61-2016-tt-btc.md. Văn bản quản lý tài chính doanh nghiệp nhà nước, không phải quy định XNK trực tiếp.
