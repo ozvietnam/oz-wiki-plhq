@@ -646,6 +646,8 @@ flowchart LR
   n_45_2023_TT_BCT["45/2023/TT-BCT<br/>còn hiệu lực"]
   n_23_2021_TT_BCT["23/2021/TT-BCT<br/>còn hiệu lực"]
   n_48_2026_TT_BCT["48/2026/TT-BCT<br/>còn hiệu lực"]
+  n_38_2025_TT_BCT["38/2025/TT-BCT<br/>còn hiệu lực"]
+  n_26_2026_TT_BCT["26/2026/TT-BCT<br/>còn hiệu lực"]
   n_51_VBHN_BCT["51/VBHN-BCT<br/>còn hiệu lực"]
   n_38_2014_TT_BCT["38/2014/TT-BCT<br/>còn hiệu lực"]
   n_63_2026_TT_BKHCN["63/2026/TT-BKHCN<br/>chưa có hiệu lực"]
@@ -691,6 +693,8 @@ flowchart LR
   n_48_2026_TT_BCT -->|bãi bỏ khoản 1 Điều 1 và Phụ lục I (Phụ lục I còn thực hiện chuyển tiếp đến 31-12-2026 — Điều 21 khoản 3) từ 2026-09-05| n_08_2023_TT_BCT
   n_48_2026_TT_BCT -->|bãi bỏ Điều 3 và Phụ lục III từ 2026-09-05| n_41_2019_TT_BCT
   n_48_2026_TT_BCT -->|bãi bỏ Điều 25 từ 2026-09-05| n_42_2019_TT_BCT
+  n_48_2026_TT_BCT -->|bãi bỏ Điều 27 và điểm n, p khoản 4 Điều 37 từ 2026-09-05| n_38_2025_TT_BCT
+  n_48_2026_TT_BCT -->|bãi bỏ Điều 18 từ 2026-09-05| n_26_2026_TT_BCT
   n_51_VBHN_BCT -->|hợp nhất| n_38_2014_TT_BCT
   n_51_VBHN_BCT -->|hợp nhất| n_42_2019_TT_BCT
   n_63_2026_TT_BKHCN -->|thay thế từ 2027-01-01| n_11_2018_TT_BTTTT

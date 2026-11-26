@@ -74869,6 +74869,16 @@
       "van": "38a369dcd27af41fda86da13c3e69ca0d96d58894ea4348c0c44ba0b85db5ca6",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
+        "bi_bai_bo_boi": [
+          {
+            "tu": "48/2026/TT-BCT",
+            "quan_he": "bai_bo",
+            "so_hieu": "26/2026/TT-BCT",
+            "pham_vi": "Điều 18",
+            "tu_ngay": "2026-09-05",
+            "can_cu": "Điều 20 khoản 3 điểm đ TT 48/2026/TT-BCT"
+          }
+        ],
         "duoc_hop_nhat_boi": [
           {
             "tu": "48/2026/VBHN-BCT",
@@ -103902,7 +103912,18 @@
       "slug": "38-2025-tt-bct",
       "van": "11c672d1680d13af73c26d417c7ed131a493f83b0230296a8e4743d45e1d6d95",
       "bac_nguon_cao_nhat": "A",
-      "quan_he_nguoc": {}
+      "quan_he_nguoc": {
+        "bi_bai_bo_boi": [
+          {
+            "tu": "48/2026/TT-BCT",
+            "quan_he": "bai_bo",
+            "so_hieu": "38/2025/TT-BCT",
+            "pham_vi": "Điều 27 và điểm n, p khoản 4 Điều 37",
+            "tu_ngay": "2026-09-05",
+            "can_cu": "Điều 20 khoản 3 điểm d TT 48/2026/TT-BCT"
+          }
+        ]
+      }
     },
     {
       "id": "vb:3800-tb-tchq-2019",
@@ -120084,6 +120105,18 @@
             "pham_vi": "Điều 25",
             "tu_ngay": "2026-09-05",
             "can_cu": "Điều 20 khoản 3 điểm b TT 48/2026/TT-BCT"
+          },
+          {
+            "so_hieu": "38/2025/TT-BCT",
+            "pham_vi": "Điều 27 và điểm n, p khoản 4 Điều 37",
+            "tu_ngay": "2026-09-05",
+            "can_cu": "Điều 20 khoản 3 điểm d TT 48/2026/TT-BCT"
+          },
+          {
+            "so_hieu": "26/2026/TT-BCT",
+            "pham_vi": "Điều 18",
+            "tu_ngay": "2026-09-05",
+            "can_cu": "Điều 20 khoản 3 điểm đ TT 48/2026/TT-BCT"
           }
         ]
       },
@@ -120178,7 +120211,7 @@
         "ghi_chu": "Trích từ PDF Công báo số 521 ngày 23-09-2026 (trang 14–50, 318 dòng dữ liệu / 276 mã HS duy nhất, 0 mã ngoài biểu thuế): Phụ lục I (260 dòng: 197 dòng lá 4/6/8 số + 63 nhóm 4 số mở từ 7 dòng Toàn bộ Chương 46, 57, 58, 60, 61, 62, 64 trừ 64.06), Phụ lục II (6 dòng = 3 mã kim cương thô Kimberley × CAM_NHAP_KHAU/CAM_XUAT_KHAU cho kim cương xung đột), Phụ lục III (3 dòng kim cương thô Kimberley GIAY_PHEP), Phụ lục IV (49 dòng hạn ngạch thuế quan NK mục I–XIII; mục XIV, XV thực hiện theo QĐ 20/2024/QĐ-TTg và QĐ 22/2022/QĐ-TTg không in bảng mã HS)."
       },
       "slug": "48-2026-tt-bct",
-      "van": "6424c92f1d4217fef827adc9ff717ba457044b2700575e73eda57c0093dc965b",
+      "van": "61ad181131753ef2c812f1891c71c790d9b3622e41cf2dacbcc875f43a304eb0",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {
         "duoc_hop_nhat_boi": [
