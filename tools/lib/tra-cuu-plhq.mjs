@@ -3007,14 +3007,21 @@ export function traHoaChatCas(store, query, { phu_luc, limit = 20 } = {}) {
  */
 export function traChinhSachTheoMaHs(store, maHs, { limit = 25, tai_ngay } = {}) {
   const tnCheck = chuanHoaTaiNgay(tai_ngay);
+  const nhomRong = { dang_ap_dung: [], cat_giam: [], het_hieu_luc_hoac_sap_co_hieu_luc: [] };
   if (!tnCheck.hopLe) {
+    const maLoi = String(maHs || '').replace(/[.\s-]/g, '').trim() || null;
     return {
-      ma_hs: String(maHs || '').replace(/[.\s-]/g, '').trim() || null,
+      ma_hs: maLoi,
       ma_hs_goc: maHs ?? null,
+      nut_bieu: maLoi && /^\d{4,8}$/.test(maLoi) ? `bieu:${maLoi}` : null,
       tai_ngay: String(tai_ngay),
       ranh_gioi: RANH_GIOI_HS_DA_BIET,
       loi: tnCheck.loi,
       tong: 0,
+      can_kiem_cas: false,
+      ly_do_kiem_cas: null,
+      nhom_theo_trang_thai: nhomRong,
+      dieu_khoan_lien_quan: [],
       ket_qua: [],
       ghi_nguon: GHI_NGUON_CC_BY,
       mien_tru: MIEN_TRU_PHAP_LY,
@@ -3028,10 +3035,15 @@ export function traChinhSachTheoMaHs(store, maHs, { limit = 25, tai_ngay } = {})
     return {
       ma_hs: maChuan || null,
       ma_hs_goc: maHs ?? null,
+      nut_bieu: null,
       ...(taiNgay ? { tai_ngay: taiNgay } : {}),
       ranh_gioi: RANH_GIOI_HS_DA_BIET,
       loi: 'Mã HS tra cứu chính sách phải là 4 đến 8 chữ số (mã HS đã biết, bỏ dấu chấm). Nếu chưa có mã HS, hãy chuyển sang hs-code-api để phân loại.',
       tong: 0,
+      can_kiem_cas: false,
+      ly_do_kiem_cas: null,
+      nhom_theo_trang_thai: nhomRong,
+      dieu_khoan_lien_quan: [],
       ket_qua: [],
       ghi_nguon: GHI_NGUON_CC_BY,
       mien_tru: MIEN_TRU_PHAP_LY,
@@ -3059,11 +3071,13 @@ export function traChinhSachTheoMaHs(store, maHs, { limit = 25, tai_ngay } = {})
 
   const items = [];
   const ngoaiBieuThue = [];
+  const matchedSlugs = new Set();
   for (const { khoa_hs, pham_vi_khop } of matchedKeys) {
     const laNgoaiBieuThue = store.canhBaoMaSet.has(khoa_hs);
     if (laNgoaiBieuThue) ngoaiBieuThue.push(khoa_hs);
 
     for (const edge of maMap[khoa_hs] || []) {
+      if (edge.slug) matchedSlugs.add(edge.slug);
       const doc = chonBanGhi(store.byKhoa.get(khoa(edge.so_hieu)), khoa(edge.so_hieu));
       const nguonBacA = doc ? locNguonBacA(doc, store.nguonUyTin) : [];
       const ttInfo = taiNgay ? tinhTinhTrangTaiNgay(doc || edge, taiNgay, store) : null;
@@ -3071,6 +3085,8 @@ export function traChinhSachTheoMaHs(store, maHs, { limit = 25, tai_ngay } = {})
       items.push({
         khoa_hs,
         ma_nhom: khoa_hs,
+        nut_bieu: edge.nut_bieu || `bieu:${khoa_hs}`,
+        van: edge.van || null,
         pham_vi_khop,
         ngoai_bieu_thue: laNgoaiBieuThue,
         so_hieu: edge.so_hieu,
@@ -3106,6 +3122,121 @@ export function traChinhSachTheoMaHs(store, maHs, { limit = 25, tai_ngay } = {})
   }
 
   const ketQua = items.slice(0, maxItems);
+
+  // Liên kết tất định điều khoản NGUYEN_VAN_NGUON_A theo regex "Điều <số>" trong dieu_kien / phu_luc
+  const dkTheoSlug = new Map();
+  for (const vb of store.dieuKhoan?.nguyen_van_nguon_a || []) {
+    if (!vb?.slug) continue;
+    const byDieu = new Map();
+    for (const c of vb.dieu_khoan || []) {
+      if (c?.dieu === undefined || c?.dieu === null) continue;
+      const key = String(c.dieu).toLowerCase();
+      const prev = byDieu.get(key);
+      if (!prev || (c.khoan == null && c.diem == null && (prev.khoan != null || prev.diem != null))) {
+        byDieu.set(key, c);
+      }
+    }
+    dkTheoSlug.set(vb.slug, byDieu);
+  }
+
+  const dieuKhoanLienQuan = [];
+  const seenClauseIds = new Set();
+  const reDieu = /Điều\s+(\d+[a-z]?)/gi;
+  for (const item of ketQua) {
+    const itemClauseIds = [];
+    const seenItemIds = new Set();
+    const byDieu = item.slug ? dkTheoSlug.get(item.slug) : null;
+    if (byDieu) {
+      const vanBanQuet = [item.dieu_kien, item.phu_luc].filter(Boolean).join(' ');
+      if (vanBanQuet) {
+        reDieu.lastIndex = 0;
+        let match;
+        while ((match = reDieu.exec(vanBanQuet)) !== null) {
+          const clause = byDieu.get(match[1].toLowerCase());
+          if (!clause) continue;
+          const cid = clause.id || `vb:${item.slug}:d:${clause.dieu}`;
+          if (!seenItemIds.has(cid)) {
+            seenItemIds.add(cid);
+            itemClauseIds.push(cid);
+          }
+          if (!seenClauseIds.has(cid)) {
+            seenClauseIds.add(cid);
+            dieuKhoanLienQuan.push({
+              id: cid,
+              so_hieu: item.so_hieu,
+              slug: item.slug,
+              dieu: String(clause.dieu),
+              trang_thai_dieu: clause.trang_thai_dieu || 'HIEU_LUC',
+              van: clause.van || null,
+            });
+          }
+        }
+      }
+    }
+    item.dieu_khoan_ids = itemClauseIds;
+  }
+
+  // Phân nhóm thuần dữ liệu theo trạng thái hiệu lực & tác động cắt giảm trên ketQua
+  const nhomTheoTrangThai = {
+    dang_ap_dung: [],
+    cat_giam: [],
+    het_hieu_luc_hoac_sap_co_hieu_luc: [],
+  };
+  for (const x of ketQua) {
+    const hieuLuc = x.tinh_trang === 'CON_HIEU_LUC' || x.tinh_trang === 'HET_HIEU_LUC_MOT_PHAN';
+    if (x.loai_tac_dong !== 'CAT_GIAM_KIEM_TRA' && hieuLuc) {
+      nhomTheoTrangThai.dang_ap_dung.push(x);
+    } else if (x.loai_tac_dong === 'CAT_GIAM_KIEM_TRA' && hieuLuc) {
+      nhomTheoTrangThai.cat_giam.push(x);
+    } else {
+      nhomTheoTrangThai.het_hieu_luc_hoac_sap_co_hieu_luc.push(x);
+    }
+  }
+
+  // Cờ kiểm tra CAS tất định: Chương 28/29/38 hoặc khớp slug / mã HS trong casIndex
+  const chuong = maChuan.slice(0, 2);
+  const laChuongHoaChat = ['28', '29', '38'].includes(chuong);
+  const casEntries = Array.isArray(store.allCasEntries)
+    ? store.allCasEntries
+    : [
+        ...Object.values(store.casIndex?.theo_cas || {}).flat(),
+        ...(store.casIndex?.khong_co_cas || []),
+      ];
+  const casVbList = Array.isArray(store.casIndex?.van_ban) ? store.casIndex.van_ban : [];
+  const casDocKhopSet = new Set();
+  let khopCasMaHs = false;
+
+  for (const vb of casVbList) {
+    const vbSlug = typeof vb === 'string' ? vb : vb?.slug;
+    if (vbSlug && matchedSlugs.has(vbSlug)) {
+      casDocKhopSet.add(vb?.so_hieu || vbSlug);
+    }
+  }
+  for (const entry of casEntries) {
+    if (entry?.slug && matchedSlugs.has(entry.slug)) {
+      casDocKhopSet.add(entry.so_hieu || entry.slug);
+    }
+    if (entry?.ma_hs) {
+      const casHs = String(entry.ma_hs).replace(/[.\s-]/g, '').trim();
+      if (/^\d{4,8}$/.test(casHs) && (maChuan.startsWith(casHs) || casHs.startsWith(maChuan))) {
+        khopCasMaHs = true;
+      }
+    }
+  }
+  const khopCasDoc = casDocKhopSet.size > 0 || khopCasMaHs;
+  const canKiemCas = Boolean(laChuongHoaChat || khopCasDoc);
+  let lyDoKiemCas = null;
+  if (canKiemCas) {
+    const docTag = casDocKhopSet.size > 0 ? Array.from(casDocKhopSet).join(', ') : null;
+    if (laChuongHoaChat && khopCasDoc) {
+      lyDoKiemCas = `Mã HS thuộc Chương ${chuong} (nhóm hóa chất) và khớp danh mục kiểm soát CAS${docTag ? ` (${docTag})` : ''} — cần tra plhq_tra_cas để đối chiếu tên chất/mã CAS.`;
+    } else if (laChuongHoaChat) {
+      lyDoKiemCas = `Mã HS thuộc Chương ${chuong} (hóa chất / sản phẩm hóa chất) — cần tra plhq_tra_cas để đối chiếu danh mục và ngưỡng kiểm soát theo mã CAS.`;
+    } else {
+      lyDoKiemCas = `Mã HS khớp ${docTag ? `văn bản kiểm soát CAS (${docTag})` : 'tiền tố mã HS trong cas-index'} — cần tra plhq_tra_cas để đối chiếu mã CAS cụ thể.`;
+    }
+  }
+
   const canhBao = [];
   if (ngoaiBieuThue.length > 0) {
     canhBao.push(
@@ -3124,11 +3255,16 @@ export function traChinhSachTheoMaHs(store, maHs, { limit = 25, tai_ngay } = {})
 
   return {
     ma_hs: maChuan,
+    nut_bieu: `bieu:${maChuan}`,
     ...(taiNgay ? { tai_ngay: taiNgay } : {}),
     ranh_gioi: RANH_GIOI_HS_DA_BIET,
     tong_khoa_khop: matchedKeys.length,
     tong_truoc_gioi_han: items.length,
     tong: ketQua.length,
+    can_kiem_cas: canKiemCas,
+    ly_do_kiem_cas: lyDoKiemCas,
+    nhom_theo_trang_thai: nhomTheoTrangThai,
+    dieu_khoan_lien_quan: dieuKhoanLienQuan,
     canh_bao_ma: ngoaiBieuThue,
     canh_bao_ngoai_bieu_thue: ngoaiBieuThue,
     canh_bao: canhBao,

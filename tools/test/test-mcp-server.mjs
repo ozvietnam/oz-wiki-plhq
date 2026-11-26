@@ -3,7 +3,7 @@
 //   tools/list, cả 6 tools/call (kèm ranh giới hs-code-api, tách tầng NGUYEN_VAN_NGUON_A vs TOM_TAT_NHAP, isError),
 //   resources/list + resources/read, lỗi JSON-RPC -32700 / -32600 / -32601 / -32602, và fallback in_memory.
 // - E2E child process thật (`node tools/mcp-server.mjs`) cho CẢ HAI framing: Newline-delimited JSON và Content-Length.
-import { spawn } from 'node:child_process';
+import { spawn, execFileSync } from 'node:child_process';
 import { cpSync, mkdtempSync, mkdirSync, rmSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
@@ -482,13 +482,42 @@ try {
     params: { name: 'plhq_chinh_sach_theo_hs', arguments: { ma_hs: '3808', limit: 10 } },
   });
   const cs3808Sc = cs3808?.result?.structuredContent;
+  const cs3808Nhom = cs3808Sc?.nhom_theo_trang_thai;
+  const cs3808NhomTong = (cs3808Nhom?.dang_ap_dung?.length || 0)
+    + (cs3808Nhom?.cat_giam?.length || 0)
+    + (cs3808Nhom?.het_hieu_luc_hoac_sap_co_hieu_luc?.length || 0);
   t(
-    'tools/call plhq_chinh_sach_theo_hs ("3808"): trả văn bản chính sách + ranh_gioi hs-code-api',
+    'tools/call plhq_chinh_sach_theo_hs ("3808"): nut_bieu, nhom_theo_trang_thai, can_kiem_cas=true + ranh_gioi hs-code-api',
     !cs3808?.result?.isError
+      && cs3808Sc?.nut_bieu === 'bieu:3808'
       && cs3808Sc?.ket_qua?.length > 0
       && cs3808Sc.ket_qua.length <= 10
+      && cs3808NhomTong === cs3808Sc.ket_qua.length
+      && cs3808Sc?.can_kiem_cas === true
+      && Boolean(cs3808Sc?.ly_do_kiem_cas)
+      && cs3808Sc.ket_qua.every((x) => Boolean(x.nut_bieu) && 'van' in x && Array.isArray(x.dieu_khoan_ids))
       && String(cs3808Sc.ranh_gioi || '').includes('hs-code-api')
-      && cs3808.result.content[0].text.includes('hs-code-api'),
+      && cs3808.result.content[0].text.includes('hs-code-api')
+      && cs3808.result.content[0].text.includes('`bieu:3808`')
+      && cs3808.result.content[0].text.includes('plhq_tra_cas'),
+  );
+
+  const cs2504 = await server.xuLyYeuCau({
+    jsonrpc: '2.0',
+    id: 220,
+    method: 'tools/call',
+    params: { name: 'plhq_chinh_sach_theo_hs', arguments: { ma_hs: '2504', limit: 10 } },
+  });
+  const cs2504Sc = cs2504?.result?.structuredContent;
+  t(
+    'tools/call plhq_chinh_sach_theo_hs ("2504"): liên kết điều khoản NGUYEN_VAN_NGUON_A + can_kiem_cas=false',
+    !cs2504?.result?.isError
+      && cs2504Sc?.can_kiem_cas === false
+      && cs2504Sc?.ly_do_kiem_cas === null
+      && Array.isArray(cs2504Sc?.dieu_khoan_lien_quan)
+      && cs2504Sc.dieu_khoan_lien_quan.some((d) => d.id === 'vb:41-2019-tt-bct:d:5')
+      && cs2504.result.content[0].text.includes('Điều khoản liên quan (NGUYEN_VAN_NGUON_A)')
+      && cs2504.result.content[0].text.includes('vb:41-2019-tt-bct:d:5'),
   );
 
   const csCanhBao = await server.xuLyYeuCau({
@@ -498,8 +527,9 @@ try {
     params: { name: 'plhq_chinh_sach_theo_hs', arguments: { ma_hs: '28389000' } },
   });
   t(
-    'tools/call plhq_chinh_sach_theo_hs ("28389000"): đính canh_bao_ma ngoài biểu thuế',
+    'tools/call plhq_chinh_sach_theo_hs ("28389000"): đính canh_bao_ma ngoài biểu thuế & can_kiem_cas=true',
     !csCanhBao?.result?.isError
+      && csCanhBao?.result?.structuredContent?.can_kiem_cas === true
       && csCanhBao?.result?.structuredContent?.canh_bao_ma?.includes('28389000')
       && csCanhBao.result.content[0].text.includes('28389000'),
   );
@@ -565,6 +595,12 @@ try {
       && metaJson.thong_ke?.dieu_khoan_2_tang?.tom_tat_nhap?.da_soat === false
       && typeof metaJson.thong_ke?.sua_doi_cap_dieu?.so_dieu_co_lich_su === 'number'
       && metaJson.tinh_nang_ozplugin?.ho_tro_tai_ngay === true
+      && metaJson.tinh_nang_ozplugin?.van_tay_sha256 === true
+      && metaJson.tinh_nang_ozplugin?.chuan_lop_du_lieu === 'lop-kho@1'
+      && metaJson.tinh_nang_ozplugin?.manifest === 'dist/manifest.json'
+      && metaJson.tinh_nang_ozplugin?.nhom_chinh_sach_thuan_du_lieu === true
+      && metaJson.tinh_nang_ozplugin?.can_kiem_cas === true
+      && metaJson.tinh_nang_ozplugin?.giao_thuc_he_sinh_thai === 'hs-code-api (ho-so-ma@1) <-> oz-wiki-plhq (1.7.0) <-> ozplugin'
       && metaJson.tinh_nang_ozplugin?.tai_nguyen_quy_trinh === 'plhq://huong-dan/quy-trinh-agent'
       && metaJson.ghi_nguon === GHI_NGUON_CC_BY
       && String(metaJson.ranh_gioi_hs_code_api || '').includes('hs-code-api'),
@@ -593,13 +629,37 @@ try {
   });
   const guideText = rGuide?.result?.contents?.[0]?.text || '';
   t(
-    'resources/read plhq://huong-dan/quy-trinh-agent: trả Markdown hướng dẫn tai_ngay, 2 bước, sap_co_hieu_luc & hs-code-api',
+    'resources/read plhq://huong-dan/quy-trinh-agent: trả Markdown hướng dẫn tai_ngay, 2 bước, giao thức 3 bước & hs-code-api',
     rGuide?.result?.contents?.[0]?.mimeType === 'text/markdown'
       && guideText.includes('tai_ngay')
       && guideText.includes('NGUYEN_VAN_NGUON_A')
       && guideText.includes('sap_co_hieu_luc')
       && guideText.includes('hs-code-api')
+      && guideText.includes('ho-so-ma@1')
+      && guideText.includes('plhq_chinh_sach_theo_hs')
+      && guideText.includes('ozplugin')
       && guideText.includes('CC BY 4.0'),
+  );
+
+  // 4b. CLI fmtChinhSach qua `node tools/tra-cuu.mjs chinh-sach`
+  const cliText = execFileSync(process.execPath, [join(ROOT, 'tools', 'tra-cuu.mjs'), 'chinh-sach', '2504'], {
+    cwd: ROOT,
+    encoding: 'utf8',
+  });
+  const cliJson = JSON.parse(
+    execFileSync(process.execPath, [join(ROOT, 'tools', 'tra-cuu.mjs'), 'chinh-sach', '2504', '--json'], {
+      cwd: ROOT,
+      encoding: 'utf8',
+    }),
+  );
+  t(
+    'CLI tra-cuu.mjs chinh-sach 2504: xuất nut_bieu, Nhóm trạng thái, Điều khoản liên quan và giữ nguyên --json',
+    cliText.includes('[bieu:2504]')
+      && cliText.includes('Nhóm trạng thái:')
+      && cliText.includes('vb:41-2019-tt-bct:d:5')
+      && cliJson.nut_bieu === 'bieu:2504'
+      && Array.isArray(cliJson.dieu_khoan_lien_quan)
+      && cliJson.dieu_khoan_lien_quan.some((d) => d.id === 'vb:41-2019-tt-bct:d:5'),
   );
 
   const rOos = await server.xuLyYeuCau({
