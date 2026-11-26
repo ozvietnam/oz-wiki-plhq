@@ -1,6 +1,6 @@
 # Cây văn bản pháp luật XNK — 2026-11-26
 
-3277 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
+3280 văn bản. 🟢 còn hiệu lực · ⚫ hết hiệu lực · 🟡 hết hiệu lực một phần · ⏸️ tạm ngưng · 🔵 chưa có hiệu lực · ❔ chưa xác minh
 
 Sinh tự động từ `registry/` bằng `node tools/dung.mjs`. Đừng sửa tay file này — sửa `registry/` rồi chạy lại.
 
@@ -33,7 +33,7 @@ _Khung pháp lý chung về hải quan và thủ tục làm hàng xuất nhập 
 
 ### Thủ tục hải quan, khai báo, hồ sơ `hai-quan/thu-tuc`
 
-85 văn bản, 61 chưa hết hiệu lực.
+86 văn bản, 62 chưa hết hiệu lực.
 
 - 🔵 [417/2026/NĐ-CP](../registry/van-ban/417-2026-nd-cp.yaml) — Quy định về quản lý hải quan đối với hàng hóa xuất khẩu, nhập khẩu qua nền tảng thương mại điện tử
 - 🟢 [3318/QĐ-BTC](../registry/van-ban/3318-qd-btc-2026.yaml) — Công bố danh mục 133 thủ tục hành chính trong lĩnh vực hải quan thực hiện không phụ thuộc vào địa giới hành chính
@@ -43,6 +43,7 @@ _Khung pháp lý chung về hải quan và thủ tục làm hàng xuất nhập 
 - 🟢 [142/2026/TT-BTC](../registry/van-ban/142-2026-tt-btc.yaml) — Sửa đổi, bổ sung một số điều của các Thông tư quy định thủ tục hải quan đối với hàng hóa xuất khẩu, nhập khẩu, quá cảnh gửi qua dịch vụ bưu chính của doanh nghiệp được chỉ định và dịch vụ chuyển phát nhanh quốc tế
 - 🟢 [127/2026/TT-BTC](../registry/van-ban/127-2026-tt-btc.yaml) — Quy định về chỉ tiêu thông tin, mẫu chứng từ khai báo khi làm thủ tục xuất cảnh, nhập cảnh, quá cảnh đối với phương tiện vận tải qua cửa khẩu, cảng hàng không quốc tế
 - 🟢 [20245/TB-CHQ/2026](../registry/van-ban/20245-tb-chq-2026.yaml) — Thông báo việc phát hành ấn chỉ bán thu tiền
+- 🟢 [2017/QĐ-BTC](../registry/van-ban/2017-qd-btc.yaml) — Công bố thủ tục hành chính được sửa đổi, bổ sung trong lĩnh vực hải quan
 - 🟢 [293/2026/NĐ-CP](../registry/van-ban/293-2026-nd-cp.yaml) — Hướng dẫn thực thi Công ước La Hay ngày 05 tháng 10 năm 1961 về miễn hợp pháp hóa đối với giấy tờ công của nước ngoài (Công ước Apostille)
 - 🟢 [18837/CHQ-GSQL](../registry/van-ban/18837-chq-gsql-2026.yaml) — Về việc triển khai các giải pháp tạo thuận lợi thông quan đối với hàng hóa nông sản xuất khẩu
 - 🟢 [18689/TB-CHQ/2026](../registry/van-ban/18689-tb-chq-2026.yaml) — Thông báo việc phát hành ấn chỉ bán thu tiền
@@ -3350,8 +3351,9 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 
 ### Danh mục thuộc Bộ Công Thương `kiem-tra-chuyen-nganh/bct`
 
-59 văn bản, 38 chưa hết hiệu lực.
+60 văn bản, 39 chưa hết hiệu lực.
 
+- 🟢 [63/2026/TT-BCT](../registry/van-ban/63-2026-tt-bct.yaml) — Quy định về cơ sở dữ liệu thực phẩm thuộc phạm vi quản lý của Bộ Công Thương
 - 🟢 [33/2026/TT-BCT](../registry/van-ban/33-2026-tt-bct.yaml) — Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương
 - 🟢 [28/2026/TT-BCT](../registry/van-ban/28-2026-tt-bct.yaml) — Ban hành Danh mục các mặt hàng nhập khẩu (kèm theo mã số HS) thực hiện kiểm tra nhà nước về an toàn thực phẩm thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương
 - 🟢 [26/2026/TT-BCT](../registry/van-ban/26-2026-tt-bct.yaml) — Sửa đổi, bổ sung một số quy định về phân cấp, cắt giảm, đơn giản hóa thủ tục hành chính trong các lĩnh vực thuộc phạm vi quản lý của Bộ Công Thương
@@ -3414,9 +3416,10 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 
 ### Danh mục thuộc Bộ Y tế `kiem-tra-chuyen-nganh/byt`
 
-58 văn bản, 43 chưa hết hiệu lực.
+59 văn bản, 44 chưa hết hiệu lực.
 
 - 🟢 [44/2026/TT-BYT](../registry/van-ban/44-2026-tt-byt.yaml) — Sửa đổi, bổ sung một số điều của Thông tư số 07/2022/TT-BYT của Bộ trưởng Bộ Y tế quy định thuốc phải thử tương đương sinh học và các yêu cầu đối với hồ sơ báo cáo số liệu nghiên cứu tương đương sinh học trong đăng ký lưu hành thuốc tại Việt Nam
+- 🟢 [45/2026/TT-BYT](../registry/van-ban/45-2026-tt-byt.yaml) — Sửa đổi, bổ sung một số điều của Thông tư 28/2025/TT-BYT về quản lý nguyên liệu làm thuốc
 - 🟢 [23153/CHQ-NVTHQ](../registry/van-ban/23153-chq-nvthq-2026.yaml) — Về việc xác nhận mã HS code đối với sản phẩm Đông trùng hạ thảo nhập khẩu (Cordyceps Sinensis dạng khô nguyên con, nhóm 12.11, mã số 1211.90.19 / 1211.90.99)
 - 🟢 [18/2026/VBHN-QĐ-BYT](../registry/van-ban/18-2026-vbhn-qd-byt.yaml) — Hợp nhất Quyết định về việc triển khai áp dụng và hướng dẫn thực hiện các nguyên tắc, tiêu chuẩn "Thực hành tốt sản xuất mỹ phẩm" của Hiệp hội các nước Đông Nam Á
 - 🟢 [32/2026/TT-BYT](../registry/van-ban/32-2026-tt-byt.yaml) — Quy định việc đăng ký lưu hành thuốc, nguyên liệu làm thuốc

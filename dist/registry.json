@@ -3,7 +3,7 @@
   "luoc_do_phien_ban": "1.7.0",
   "lop_du_lieu": "LUAT",
   "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
-  "tong": 3277,
+  "tong": 3280,
   "van_ban": [
     {
       "id": "vb:01-2009-tt-bkhcn",
@@ -56747,6 +56747,36 @@
       "slug": "2016-tb-tchq-2023",
       "van": "a8a63bcee63826d2d571cc750446d045d5dbb54a822bda23b3cabd164ed04188",
       "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "id": "vb:2017-qd-btc",
+      "so_hieu": "2017/QĐ-BTC",
+      "loai": "QUYET_DINH",
+      "ten": "Công bố thủ tục hành chính được sửa đổi, bổ sung trong lĩnh vực hải quan",
+      "co_quan": "BTC",
+      "ngay_ban_hanh": "2026-07-28",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "hai-quan/thu-tuc"
+      ],
+      "nguon": [
+        {
+          "url": "https://thuvienphapluat.vn",
+          "truy_cap": "2026-11-25"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "số hiệu + tên + ngày ban hành 28-07-2026 (tổng hợp TVPL — giải nốt mục treo từ 24/11); cần danh mục TTHC chi tiết khi lên A",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-11-25",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Trinh thám đêm 25/11. Đúng họ 344/QĐ-BTC + 3318/QĐ-BTC đã có — cập nhật danh mục TTHC hải quan.",
+      "slug": "2017-qd-btc",
+      "van": "1e1c2cbd253bbce6fd55f734a5dea4740c1c8a3fe258391e5bd6aaf6a2f79666",
+      "bac_nguon_cao_nhat": "B",
       "quan_he_nguoc": {}
     },
     {
@@ -116509,6 +116539,36 @@
       "quan_he_nguoc": {}
     },
     {
+      "id": "vb:45-2026-tt-byt",
+      "so_hieu": "45/2026/TT-BYT",
+      "loai": "THONG_TU",
+      "ten": "Sửa đổi, bổ sung một số điều của Thông tư 28/2025/TT-BYT về quản lý nguyên liệu làm thuốc",
+      "co_quan": "BYT",
+      "ngay_ban_hanh": "2026-11-01",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/byt"
+      ],
+      "nguon": [
+        {
+          "url": "https://thuvienphapluat.vn",
+          "truy_cap": "2026-11-25"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "số hiệu + tên + ngày ban hành 01-11-2026, hiệu lực 01-01-2027 (tổng hợp TVPL tuần 23-25/11); cần bản gốc khi lên A",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-11-25",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Trinh thám đêm 25/11 (giải nốt mục treo từ 23/11). Nguyên liệu làm thuốc — đụng GP nhập nguyên liệu dược, khớp NQ 20/11 về cấp phép nhập nguyên liệu sản xuất thuốc XK.",
+      "slug": "45-2026-tt-byt",
+      "van": "ba9f5863adf20a8fcd7173bf59e7f22d0e58012db7acb88ba0933f0408f5e5ee",
+      "bac_nguon_cao_nhat": "B",
+      "quan_he_nguoc": {}
+    },
+    {
       "id": "vb:450-tb-tchq-2019",
       "so_hieu": "450/TB-TCHQ/2019",
       "loai": "THONG_BAO",
@@ -136192,6 +136252,36 @@
       "slug": "63-2012-tt-btc",
       "van": "ac0075aeadc5207f62a4f1a9b7807b14ff6a23c72ef1a74bf616d0b25312052f",
       "bac_nguon_cao_nhat": "A",
+      "quan_he_nguoc": {}
+    },
+    {
+      "id": "vb:63-2026-tt-bct",
+      "so_hieu": "63/2026/TT-BCT",
+      "loai": "THONG_TU",
+      "ten": "Quy định về cơ sở dữ liệu thực phẩm thuộc phạm vi quản lý của Bộ Công Thương",
+      "co_quan": "BCT",
+      "ngay_ban_hanh": "2026-10-15",
+      "tinh_trang": "CON_HIEU_LUC",
+      "nhanh": [
+        "kiem-tra-chuyen-nganh/bct"
+      ],
+      "nguon": [
+        {
+          "url": "https://tqc.vn/thong-tu-63-2026-tt-bct-doanh-nghiep-thuc-pham.htm",
+          "truy_cap": "2026-11-25"
+        }
+      ],
+      "xac_minh": {
+        "muc": "NGUON_THU_CAP",
+        "pham_vi": "số hiệu + tên + hiệu lực 15-11-2026 (tqc.vn phân tích 5 nội dung DN phải thực hiện); ngày ban hành 15-10-2026 cần đối chiếu bản gốc",
+        "hieu_luc_da_doi_chieu": false,
+        "ngay": "2026-11-25",
+        "boi": "zcode@ozvietnam"
+      },
+      "ghi_chu": "Trinh thám đêm 25/11. CSDL thực phẩm BCT — DN kinh doanh thực phẩm (gồm nhập) phải khai báo/kết nối; khớp TT 28/2026 (danh mục ATTP kèm HS) đã có.",
+      "slug": "63-2026-tt-bct",
+      "van": "6bfb6bb2b8031cddd2c88aa84019148357b0f0c3da3a1de5b729216f6417d4b4",
+      "bac_nguon_cao_nhat": "C",
       "quan_he_nguoc": {}
     },
     {
