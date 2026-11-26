@@ -21,14 +21,28 @@ Mỗi luồng có nhãn GitHub riêng (`luong:<id>`), đầu vào, đầu ra và
 
 ---
 
+## Chu trình tự động hoá khép kín hằng ngày (06:30 VN → 07:00 VN → Sau gộp `main`)
+
+Ba workflow định kỳ & hậu gộp phối hợp nối liền Luồng 1 → Luồng 3 → Luồng 5 → Luồng 9/10 mà không bao giờ đẩy thẳng vào `main`:
+
+1. **06:30 VN (`radar-va-hieu-luc.yml`)**:
+   - **Radar 5 trạm** (`congbao`, `vanban.chinhphu`, `moit`, `pvtm`, `customs`) kết hợp danh sách loại trừ `data/radar-bo-qua.json` phát hiện văn bản mới, tự động bóc URL PDF nguồn bậc A nhúng trong trang chi tiết, mở PR stub `auto/nap-radar` (kèm kích hoạt CI `kiem-tra.yml`) và mở issue `[radar]` (`luong:do-tham`).
+   - **Canh hiệu lực hằng ngày** (`canh-hieu-luc.mjs`) tự chạy `chuyen-hieu-luc.mjs --ghi` khi tới ngày G, mở PR `auto/chuyen-hieu-luc-YYYY-MM-DD` (kèm kích hoạt CI `kiem-tra.yml`) và cập nhật issue `luong:hieu-luc`.
+2. **07:00 VN (`tu-tai-toan-van.yml`)**:
+   - Tự tải toàn văn PDF nguồn bậc A theo lô, kiểm khớp số hiệu/tiêu đề trang đầu PDF (chống gắn nhầm VBHN hoặc tài liệu liên quan), trích xuất điều khoản đầy đủ `.dieu.jsonl` và chạy bộ quét tất định `tools/lib/quet-hieu-luc-thi-hanh.mjs` để đính kèm bảng kiểm tác động dây chuyền (`hieu_luc_tu` gợi ý, văn bản cũ bị thay thế/bãi bỏ chưa có `het_hieu_luc_tu`, văn bản sửa đổi cấp Điều cần tạo `data/sua-doi-dieu/<slug>.json`, tín hiệu phụ lục `DANH_MUC_HS` / `HOA_CHAT_CAS` / `XUAT_XU_FTA` và nhắc tạo `wiki/sources/<slug>.md`) ngay trên PR `auto/tu-tai-toan-van` (kèm kích hoạt CI `kiem-tra.yml`).
+3. **Sau khi duyệt gộp vào `main` (`bao-hs-code-api.yml`)**:
+   - Dựng lại **9 tệp `dist/*`** (bao gồm `dist/xuat-xu-fta.json` + `dist/manifest.json`), cắt GitHub Release bất biến `dist-YYYY-MM-DD` kèm `SHA256SUMS`, bắn sự kiện `plhq-updated` sang `hs-code-api` và cấp nguồn cho cơ chế tự đồng bộ nguyên tử GitHub Release & hot-reload cache của Gateway `ozplugin`.
+
+---
+
 ## 1. Do thám văn bản mới — `luong:do-tham`
 
 - **Mục tiêu:** không để lọt văn bản mới (luật, nghị định, thông tư, quyết định công bố danh mục, công văn hướng dẫn chung) có ảnh hưởng tới xuất nhập khẩu.
-- **Nguồn quét:** Công báo (congbao.chinhphu.vn), vanban.chinhphu.vn, vbpl.vn, customs.gov.vn, cổng các bộ (xem [nguồn uy tín](../registry/nguon-uy-tin.yaml)). Ưu tiên 8 bộ có danh mục kiểm tra chuyên ngành.
-- **Đầu ra:** mỗi văn bản mới một tệp trong `registry/van-ban/` (dùng `node tools/them-van-ban.mjs "<số hiệu>" --ten ... --url ... --nhanh ...`), `tinh_trang: CHUA_XAC_MINH` nếu chưa chắc. Thay/sửa văn bản cũ thì ghi luôn `quan_he`.
+- **Nguồn quét:** 5 trạm tự động (`congbao.chinhphu.vn`, `vanban.chinhphu.vn`, cổng Bộ Công Thương `moit`, Cục Phòng vệ thương mại `pvtm`, Hải quan `customs`) cùng `vbpl.vn` và cổng các bộ chuyên ngành (xem [nguồn uy tín](../registry/nguon-uy-tin.yaml)). Ưu tiên 8 bộ có danh mục kiểm tra chuyên ngành.
+- **Đầu ra:** mỗi văn bản mới một tệp trong `registry/van-ban/` (dùng `node tools/them-van-ban.mjs "<số hiệu>" --ten ... --url ... --nhanh ...`), `tinh_trang: CHUA_XAC_MINH` nếu chưa chắc. Thay/sửa văn bản cũ thì ghi luôn `quan_he`. Các số hiệu ngoài phạm vi XNK đã xác nhận được ghi vào `data/radar-bo-qua.json` để không báo lặp.
 - **Xong khi:** PR có văn bản mới + nguồn; nếu thay văn bản cũ thì báo điểm mù `MAU_THUAN_HIEU_LUC` đã hết.
 - **Cho agent:** chạy theo lịch (vd mỗi sáng), so với sổ bằng `khoa()` trong `tools/lib/registry.mjs` để không tạo trùng. Một PR một nhóm văn bản cùng ngày.
-- **Tự động hoá hằng ngày:** `node tools/radar-luat-moi.mjs` (`npm run radar:luat-moi`) chạy qua [`.github/workflows/radar-va-hieu-luc.yml`](../.github/workflows/radar-va-hieu-luc.yml) lúc 06:30 VN hằng ngày — quét RSS Công báo & `vanban.chinhphu.vn`, đối chiếu sổ và issue `[radar]` đã mở để mở issue mới với nhãn `radar,luong:do-tham`.
+- **Tự động hoá hằng ngày:** `node tools/radar-luat-moi.mjs` (`npm run radar:luat-moi`) chạy qua [`.github/workflows/radar-va-hieu-luc.yml`](../.github/workflows/radar-va-hieu-luc.yml) lúc 06:30 VN hằng ngày — quét 5 trạm (`congbao`, `vanban.chinhphu`, `moit`, `pvtm`, `customs`), lọc qua `data/radar-bo-qua.json`, tự động bóc URL PDF bậc A nhúng trong trang để mở/cập nhật PR stub `auto/nap-radar` (kèm dispatch `kiem-tra.yml`) và mở issue `[radar]` với nhãn `radar,luong:do-tham`.
 
 ## 2. Hệ thống hoá — `luong:he-thong-hoa`
 
@@ -44,7 +58,7 @@ Mỗi luồng có nhãn GitHub riêng (`luong:<id>`), đầu vào, đầu ra và
 - **Phân biệt kỹ:** *thay thế* (cả văn bản) ≠ *sửa đổi* (một phần) ≠ *bãi bỏ* (không có văn bản thay) ≠ *tạm ngưng* (chưa bị bãi bỏ, có thể sống lại — vd NĐ 46/2026 thay NĐ 15/2018 nhưng đang tạm ngưng nên NĐ 15/2018 vẫn áp dụng).
 - **Đầu vào:** điểm mù `MAU_THUAN_HIEU_LUC`, `SAP_HET_HIEU_LUC`, `SAP_CO_HIEU_LUC`, `HUONG_DAN_MO_COI`, `HIEU_LUC_CHUA_DOI_CHIEU`, `HS_API_UU_TIEN_DOI_CHIEU`.
 - **Trước khi săn hàng đợi HS_API:** `node tools/san-hieu-luc.mjs` — chỉ làm mục «Làm được ngay». Mục đã `xac_minh.chan` nằm ở `HS_API_CHO_MO_CHAN` (Thấp): đừng săn lặp.
-- **Canh hiệu lực tự động hằng ngày:** `node tools/canh-hieu-luc.mjs` (`npm run canh:hieu-luc`) chạy lúc 06:30 VN trong [`.github/workflows/radar-va-hieu-luc.yml`](../.github/workflows/radar-va-hieu-luc.yml) — tổng hợp văn bản đến hạn cắt chuyển ngày G (tự chạy `tools/chuyen-hieu-luc.mjs --ghi` và mở PR `auto/chuyen-hieu-luc-YYYY-MM-DD` khi `npm test` xanh), danh sách sắp hết / sắp có hiệu lực trong 30 & 60 ngày và hàng đợi săn hiệu lực để mở/cập nhật issue `luong:hieu-luc`.
+- **Canh hiệu lực tự động hằng ngày:** `node tools/canh-hieu-luc.mjs` (`npm run canh:hieu-luc`) chạy lúc 06:30 VN trong [`.github/workflows/radar-va-hieu-luc.yml`](../.github/workflows/radar-va-hieu-luc.yml) — tổng hợp văn bản đến hạn cắt chuyển ngày G (tự chạy `tools/chuyen-hieu-luc.mjs --ghi`, mở PR `auto/chuyen-hieu-luc-YYYY-MM-DD` khi `npm test` xanh và kích hoạt CI `kiem-tra.yml`), danh sách sắp hết / sắp có hiệu lực trong 30 & 60 ngày và hàng đợi săn hiệu lực để mở/cập nhật issue `luong:hieu-luc`. Đồng thời ở lượt tự tải 07:00 VN, `tools/lib/quet-hieu-luc-thi-hanh.mjs` tự quét điều khoản thi hành của văn bản mới để cảnh báo sớm `hieu_luc_tu` còn trống/lệch, văn bản cũ đang `CON_HIEU_LUC` bị thay thế/bãi bỏ nhưng chưa có `het_hieu_luc_tu`, và văn bản sửa đổi cần sinh `data/sua-doi-dieu/<slug>.json`.
 - **Xong khi:** đặt `xac_minh.hieu_luc_da_doi_chieu: true` + `ngay` + `boi` **chỉ sau khi** mở nguồn bậc A (và xóa `chan` nếu có).
 
 ## 4. Truy vết nguồn uy tín — `luong:truy-vet-nguon`
@@ -58,7 +72,7 @@ Mỗi luồng có nhãn GitHub riêng (`luong:<id>`), đầu vào, đầu ra và
 
 - **Mục tiêu:** có bản gốc toàn văn trong kho để đọc, đối chiếu, trích dẫn.
 - **Công cụ:** `node tools/nap.mjs <url> --so-hieu "<số hiệu>" --ghi` → `raw/download/<tên miền>/<slug>.pdf|html` + `.nguon.json` (url, ngày, sha256, bậc nguồn) + `.txt` sạch với HTML. Trang giới thiệu có link PDF thì công cụ gợi ý tải PDF.
-- **Tự tải toàn văn theo lô hằng ngày:** `node tools/tu-tai-toan-van.mjs [--limit N] [--slug <slug>] [--dry-run]` chạy tự động lúc 07:00 VN qua [`.github/workflows/tu-tai-toan-van.yml`](../.github/workflows/tu-tai-toan-van.yml) (runner `ubuntu-26.04` + `poppler-utils` ghim bản) — chọn ứng viên còn thiếu toàn văn / vỏ HTML, tải PDF nguồn bậc A, trích điều khoản đầy đủ, kiểm cổng `kiem-tra-dieu-khoan.mjs` + `npm test` rồi mở/cập nhật PR `auto/tu-tai-toan-van`.
+- **Tự tải toàn văn theo lô hằng ngày:** `node tools/tu-tai-toan-van.mjs [--limit N] [--slug <slug>] [--dry-run]` chạy tự động lúc 07:00 VN qua [`.github/workflows/tu-tai-toan-van.yml`](../.github/workflows/tu-tai-toan-van.yml) (runner `ubuntu-26.04` + `poppler-utils` ghim bản) — chọn ứng viên còn thiếu toàn văn / chưa trích điều khoản, tải PDF nguồn bậc A, kiểm khớp số hiệu & tiêu đề trang đầu PDF, trích điều khoản đầy đủ `.dieu.jsonl`, chạy `quet-hieu-luc-thi-hanh.mjs` sinh checklist tác động dây chuyền (hiệu lực, thay thế/bãi bỏ, sửa đổi cấp Điều, phụ lục HS/CAS/FTA & nhắc tạo `wiki/sources/<slug>.md`), kiểm cổng `kiem-tra-dieu-khoan.mjs` + `npm test`, mở/cập nhật PR `auto/tu-tai-toan-van` và tự kích hoạt workflow CI `kiem-tra.yml`. Sau khi PR gộp vào `main`, `bao-hs-code-api.yml` dựng lại 9 tệp `dist/*` (`xuat-xu-fta.json`, `manifest.json`...), cắt Release `dist-YYYY-MM-DD` + `SHA256SUMS`, bắn `plhq-updated` sang `hs-code-api` và nuôi bộ đồng bộ nguyên tử / hot-reload cache của Gateway `ozplugin`.
 - **Quy tắc:** `raw/` bất biến — không sửa, không xoá; nội dung khác cùng tên thì báo lỗi (có thể văn bản đã bị sửa ở nguồn → mở issue hiệu lực). PDF quét ảnh: ghi chú để luồng 9 OCR, không tự gõ lại.
 - **Xong khi:** `toan_van` có trong tệp sổ, điểm mù `KHONG_TOAN_VAN` biến mất.
 
@@ -92,7 +106,7 @@ Mỗi luồng có nhãn GitHub riêng (`luong:<id>`), đầu vào, đầu ra và
 - **Mục tiêu:** với mỗi văn bản có phụ lục mã HS (danh mục KTCN 2026, cấm, giấy phép, phòng vệ thương mại…), có
   `danh-muc/<slug>.csv` trích **nguyên văn** từ bản gốc → ứng dụng trả lời được "mã 8 số này hôm nay chịu văn bản
   nào, theo phụ lục nào, điều kiện gì".
-- **Đầu vào:** điểm mù `DANH_MUC_CHUA_TRICH` (xếp sẵn: danh mục KTCN từ 01/7/2026 trước, rồi theo số mã biểu thuế dẫn).
+- **Đầu vào:** điểm mù `DANH_MUC_CHUA_TRICH` (xếp sẵn: danh mục KTCN từ 01/7/2026 trước, rồi theo số mã biểu thuế dẫn) và cảnh báo tín hiệu phụ lục tự động `DANH_MUC_HS` / `HOA_CHAT_CAS` / `XUAT_XU_FTA` từ `quet-hieu-luc-thi-hanh.mjs` trên PR `auto/tu-tai-toan-van`.
 - **Cách làm:** [docs/luoc-do-danh-muc-hs.md](luoc-do-danh-muc-hs.md). Bản có phụ lục thường là **Công báo** (có lớp
   chữ); trích bằng máy, không gõ lại, không đoán mã; bản chỉ có ảnh quét → ghi chú và để lại.
 - **Kiểm:** `npm test` (định dạng), `npm run diem-mu` (mã không có trong biểu thuế → `HS_KHONG_TON_TAI`); PR kèm 10 dòng

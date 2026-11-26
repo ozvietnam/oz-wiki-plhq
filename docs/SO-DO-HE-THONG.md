@@ -1,6 +1,6 @@
 # Sơ đồ kiến trúc & ranh giới hệ thống (`oz-wiki-plhq`)
 
-Tài liệu chuẩn hoá vai trò của **`oz-wiki-plhq`** trong hệ sinh thái tri thức hải quan – xuất nhập khẩu của OZ (Wave 1–35; xem tầm nhìn & trạng thái Wave 30–33 tại **[TAM-NHIN-VA-KE-HOACH-HE-SINH-THAI.md](TAM-NHIN-VA-KE-HOACH-HE-SINH-THAI.md)** và mẫu tích hợp copy-paste chuẩn `1.7.0` / `lop-kho@1` tại **[mau-tich-hop-he-sinh-thai.md](mau-tich-hop-he-sinh-thai.md)**), làm rõ ranh giới tuyệt đối **0% trùng lặp** với **`hs-code-api`** và **Cổng MCP (`ozplugin` / client AI)**, theo nguyên lý *“kho giữ sự thật sạch & cấu trúc chắc — LLM đảm nhận nhận thức và suy luận”*, dòng chảy gói dữ liệu máy `1.7.0` (**9 tệp** `dist/*.json` gồm `dist/xuat-xu-fta.json` chuẩn `fta-psr@1` + **`dist/manifest.json`** với `id` chuẩn, vân tay `van` SHA-256, phân lớp `lop-kho@1`, `phien_ban_ahtn`, đồ thị sửa đổi cấp Điều `data/sua-doi-dieu/` và `tai_ngay`), chuỗi thu thập toàn văn bậc A → OCR → trích xuất & kiểm nguyên văn điều khoản, máy chủ MCP Stdio (6 tools + **3 resources**) & CLI (`--tai-ngay`), bộ đánh giá (`eval:qa` 60 câu, `eval:retrieval` Okapi BM25, `eval:holdout` 48 ca mù), cổng tra cứu web V2 trên GitHub Pages và vòng lặp phản hồi hai chiều.
+Tài liệu chuẩn hoá vai trò của **`oz-wiki-plhq`** trong hệ sinh thái tri thức hải quan – xuất nhập khẩu của OZ (Wave 1–35; xem tầm nhìn & trạng thái Wave 30–33 tại **[TAM-NHIN-VA-KE-HOACH-HE-SINH-THAI.md](TAM-NHIN-VA-KE-HOACH-HE-SINH-THAI.md)** và mẫu tích hợp copy-paste chuẩn `1.7.0` / `lop-kho@1` tại **[mau-tich-hop-he-sinh-thai.md](mau-tich-hop-he-sinh-thai.md)**), làm rõ ranh giới tuyệt đối **0% trùng lặp** với **`hs-code-api`** và **Cổng MCP (`ozplugin` / client AI)**, theo nguyên lý *“kho giữ sự thật sạch & cấu trúc chắc — LLM đảm nhận nhận thức và suy luận”*, dòng chảy gói dữ liệu máy `1.7.0` (**9 tệp** `dist/*.json` gồm `dist/xuat-xu-fta.json` chuẩn `fta-psr@1` + **`dist/manifest.json`** với `id` chuẩn, vân tay `van` SHA-256, phân lớp `lop-kho@1`, `phien_ban_ahtn`, đồ thị sửa đổi cấp Điều `data/sua-doi-dieu/` và `tai_ngay`), vòng lặp vận hành khép kín hằng ngày (**06:30 VN** Radar 5 trạm + PR stub `auto/nap-radar` + cắt chuyển hiệu lực `auto/chuyen-hieu-luc-YYYY-MM-DD` → **07:00 VN** tự tải PDF bậc A + trích điều khoản + quét dây chuyền hiệu lực/phụ lục `auto/tu-tai-toan-van` → **sau gộp `main`** phát hành Release `dist-YYYY-MM-DD` bất biến, bắn `plhq-updated` sang `hs-code-api` và đồng bộ nguyên tử / hot-reload bộ nhớ đệm trên Gateway `ozplugin`), máy chủ MCP Stdio (6 tools + **3 resources**) & CLI (`--tai-ngay`), bộ đánh giá (`eval:qa` 60 câu, `eval:retrieval` Okapi BM25, `eval:holdout` 48 ca mù), cổng tra cứu web V2 trên GitHub Pages và vòng lặp phản hồi hai chiều.
 
 ---
 
@@ -60,7 +60,7 @@ flowchart LR
 
   subgraph S4["4. Bên tiêu thụ"]
     HSAPI["hs-code-api (ho-so-ma@1)\n(sync-plhq: manifest.json, lop-kho@1, van)"]
-    MCP["Cổng MCP ozplugin & AI Clients\n(Giao thức 3 bước, Claude, Cursor, Antigravity)"]
+    MCP["Cổng MCP ozplugin & AI Clients\n(tự đồng bộ nguyên tử Release + hot-reload cache,\nGiao thức 3 bước, Claude, Cursor, Antigravity)"]
     XH["Cộng đồng XNK & AI agent\n(GitHub Pages site/ V2, wiki, CLI, Release CC BY 4.0)"]
   end
 
@@ -100,58 +100,61 @@ flowchart LR
 
 ---
 
-## Phần 3 — Sơ đồ luồng thu thập toàn văn bậc A, OCR & trích điều khoản nguyên văn
+## Phần 3 — Sơ đồ luồng tự động hoá hằng ngày, thu thập toàn văn bậc A, OCR & quét dây chuyền hiệu lực
 
-Từ Wave 9 trở đi, kho chuẩn hóa chuỗi khép kín từ kiểm toán hiện trạng tệp thô đến trích xuất và tự kiểm chứng nguyên văn `xac_minh.dieu_khoan` (không tạo `.txt` giả từ vỏ HTML và không bao giờ ghi đè PDF gốc trong `raw/download/`):
+Từ Wave 9 đến Giai đoạn 15+, kho vận hành chuỗi khép kín hằng ngày từ do thám 5 trạm lúc **06:30 VN**, tự tải toàn văn PDF bậc A kèm quét tác động dây chuyền lúc **07:00 VN**, đến kiểm toán tệp thô / OCR / trích điều khoản và phát hành bản chụp bất biến sau khi gộp `main` (không tạo `.txt` giả từ vỏ HTML và không bao giờ ghi đè PDF gốc trong `raw/download/`):
 
 ```mermaid
 flowchart LR
-  NAP["tools/nap.mjs\n(tải URL nguồn A -> raw/download/\n+ .nguon.json; chặn .txt giả từ vỏ HTML)"]
-  KTN["tools/kiem-tra-nap.mjs\n(kiểm toán 5 nhóm phủ toàn văn\ntừ raw/ + registry/ + wiki/ + doc-hieu/)"]
-  VO["Nhóm VO_HTML_CHUA_TAI_PDF\n(vỏ HTML/pdf.js chưa có PDF gốc)"]
-  SCAN["Nhóm PDF_BAN_SCAN_CAN_OCR\n(PDF ảnh dưới 50 ký tự lớp chữ)"]
+  RADAR["06:30 VN · radar-va-hieu-luc.yml\n(Radar 5 trạm: congbao, vanban.chinhphu,\nmoit, pvtm, customs + data/radar-bo-qua.json)"]
+  STUB["PR auto/nap-radar & auto/chuyen-hieu-luc-YYYY-MM-DD\n(bóc sẵn URL PDF bậc A nhúng trong trang,\nchuyển hiệu lực ngày G + dispatch kiem-tra.yml)"]
+  TUTAI["07:00 VN · tu-tai-toan-van.yml\n(tải PDF bậc A + chốt khớp số hiệu/tiêu đề PDF\n+ trích .dieu.jsonl + quet-hieu-luc-thi-hanh)"]
+  PR_TUTAI["PR auto/tu-tai-toan-van + dispatch kiem-tra.yml\n(bảng kiểm hieu_luc_tu, cắt hiệu lực VB cũ,\nsua-doi-dieu/*.json, phụ lục HS/CAS/FTA)"]
+  NAP["tools/nap.mjs & tools/kiem-tra-nap.mjs\n(tải URL nguồn A -> raw/download/ + .nguon.json;\nkiểm toán 5 nhóm phủ toàn văn)"]
+  VO["Nhóm VO_HTML_CHUA_TAI_PDF\n-> tools/tai-pdf-tu-vo-html.mjs"]
+  SCAN["Nhóm PDF_BAN_SCAN_CAN_OCR\n-> tools/ocr-raw.mjs (raw/ocr/*.ocr.txt)"]
   TEXT["Nhóm CO_TOAN_VAN_CHUA_INGEST\n(PDF lớp chữ, .txt, .ocr.txt, .docx)"]
-  TAIPDF["tools/tai-pdf-tu-vo-html.mjs\n(lọc nguồn bậc A, bỏ vbpl.vn,\nkiểm %PDF & khớp số hiệu/tiêu đề)"]
-  OCR["tools/ocr-raw.mjs\n(pdftoppm -png -r 250 + tesseract vie+eng\nra raw/ocr/*.ocr.txt giữ từng trang + .ocr.json)"]
-  TRICH["tools/trich-dieu-khoan.mjs\n(trích Điều N, đối chiếu chuanHoaKhopNguyenVan\n+ sha256_pdf -> xac_minh.dieu_khoan)"]
-  SOAT["Biên soạn wiki/sources/*.md\n& kiểm 2 cổng cuối:\nkiem-tra:dieu-khoan + Lumina lint"]
+  TRICH["tools/trich-dieu-khoan(-day-du).mjs\n(đối chiếu chuanHoaKhopNguyenVan + sha256_pdf)"]
+  SOAT["Duyệt PR, bổ sung quan_he / danh-muc / wiki/sources\n& gộp main -> bao-hs-code-api.yml\n(9 tệp dist/* + Release + hs-code-api & ozplugin)"]
 
-  NAP --> KTN
-  KTN -->|"vỏ HTML"| VO
-  KTN -->|"PDF scan"| SCAN
-  KTN -->|"đủ toàn văn"| TEXT
-  VO --> TAIPDF
-  TAIPDF -->|"PDF scan"| SCAN
-  TAIPDF -->|"PDF lớp chữ"| TEXT
-  SCAN --> OCR
-  OCR --> TEXT
+  RADAR --> STUB
+  STUB --> TUTAI
+  TUTAI --> PR_TUTAI
+  PR_TUTAI --> SOAT
+  NAP -->|"vỏ HTML"| VO
+  NAP -->|"PDF scan"| SCAN
+  NAP -->|"đủ toàn văn"| TEXT
+  VO -->|"PDF scan"| SCAN
+  VO -->|"PDF lớp chữ"| TEXT
+  SCAN --> TEXT
   TEXT --> TRICH
-  TEXT --> SOAT
   TRICH --> SOAT
 ```
 
 ---
 
-## Phần 4 — Sơ đồ vòng lặp phản hồi hai chiều
+## Phần 4 — Sơ đồ vòng lặp phản hồi hai chiều & đồng bộ hệ sinh thái
 
-Hai kho tự động nuôi nhau theo chu kỳ: `hs-code-api` gửi tín hiệu sử dụng thực tế (`nhu-cau/*`, tín hiệu `legal-status-miss`) và các issue `[miss]` mở được công cụ chỉ đọc `phan-loai-miss` sàng lọc để giữ ranh giới 0% trùng lặp, còn `oz-wiki-plhq` đối chiếu nguồn bậc A, kiểm nguyên văn điều khoản, ánh xạ AHTN cũ → EN2022 và đẩy ngược bản chụp `dist-YYYY-MM-DD` (9 tệp), cập nhật MCP/CLI cùng cổng web tĩnh V2 `site/`:
+Ba thành phần tự động nuôi nhau theo chu kỳ khép kín: `hs-code-api` gửi tín hiệu sử dụng thực tế (`nhu-cau/*`, `legal-status-miss`) và các issue `[miss]` mở được công cụ chỉ đọc `phan-loai-miss` sàng lọc để giữ ranh giới 0% trùng lặp; `oz-wiki-plhq` vận hành Radar 5 trạm (06:30 VN) + tự tải/quét dây chuyền hiệu lực (07:00 VN), đối chiếu nguồn bậc A và sau mỗi lần gộp `main` (`bao-hs-code-api.yml`) dựng lại **9 tệp** `dist/*` (`registry`, `hs-index*`, `wiki-*`, `dieu-khoan`, `cas-index`, `chinh-sach-mo-ta`, `xuat-xu-fta` + `manifest.json`), cắt GitHub Release bất biến `dist-YYYY-MM-DD` kèm `SHA256SUMS`, bắn `plhq-updated` sang `hs-code-api` đồng thời cấp nguồn cho bộ tự đồng bộ nguyên tử & hot-reload cache trên Gateway `ozplugin`:
 
 ```mermaid
 flowchart LR
-  subgraph HS["hs-code-api (phân loại HS, biểu thuế, tiền lệ)"]
+  subgraph HS["hs-code-api & Cổng MCP ozplugin"]
     BENCH["data/plhq-bench-latest.json\n(văn bản biểu thuế dẫn, lệch thư viện)"]
     DEMAND["GET /api/demand (ktcn2026)\n(mã HS hàng thật chưa phủ KTCN)"]
     VBBT["data/bieu-thue/van-ban-bieu-thue.json\nvà data/tax.json"]
     MISS["Tín hiệu legal-status-miss & issue miss\n(truy vấn thiếu hoặc lệch hiệu lực)"]
-    SYNC["Workflow plhq-sync\n(08:17 VN hằng ngày hoặc dispatch)"]
+    SYNC["hs-code-api workflow plhq-sync\n(08:17 VN hằng ngày hoặc plhq-updated)"]
+    OZP["ozplugin Gateway\n(tự đồng bộ nguyên tử GitHub Release\n+ kiểm SHA256SUMS & hot-reload cache)"]
   end
 
-  subgraph WIKI["oz-wiki-plhq (hiệu lực VBQPPL, điều khoản, KTCN/CAS, wiki)"]
+  subgraph WIKI["oz-wiki-plhq (hiệu lực VBQPPL, điều khoản, KTCN/CAS/FTA, wiki)"]
+    LOOP["06:30 VN radar-va-hieu-luc.yml (5 trạm + canh ngày G)\n07:00 VN tu-tai-toan-van.yml (PDF A + quet-hieu-luc-thi-hanh)"]
     NHUCAU["tools/nhu-cau.mjs\n(cập nhật nhu-cau/* vào thứ Hai 07:00 VN)"]
     TRIAGE["tools/phan-loai-miss.mjs (triage:miss)\n(phân loại chỉ đọc 5 nhóm, tách ca HS API)"]
     DMMU2["tools/diem-mu.mjs\n(sinh việc HS_API_*, HANG_THAT_*, BIEU_THUE_*,\nghi nhận HS_AHTN_CU_DA_ANH_XA)"]
-    DOICHIEU["Đối chiếu nguồn bậc A, OCR/trích ĐK & kiểm cổng\n(san-hieu-luc, trich-dieu-khoan,\nkiem-tra:dieu-khoan, eval:qa 60, eval:retrieval)"]
-    REL2["CI bao-hs-code-api.yml & trang-web.yml\n(9 tệp dist/ 1.7.0 + manifest.json, Release, MCP/CLI & site/ V2)"]
+    DOICHIEU["Đối chiếu nguồn bậc A, OCR/trích ĐK & kiểm cổng\n(san-hieu-luc, trich-dieu-khoan, trich-anh-xa-sua-doi,\nkiem-tra:dieu-khoan, eval:qa 60, eval:retrieval)"]
+    REL2["CI bao-hs-code-api.yml & trang-web.yml\n(9 tệp dist/ 1.7.0 + manifest.json + SHA256SUMS,\nRelease dist-YYYY-MM-DD, MCP/CLI & site/ V2)"]
   end
 
   BENCH -->|"kéo bản đo"| NHUCAU
@@ -159,6 +162,7 @@ flowchart LR
   VBBT -->|"kéo VB và bảng thuế"| NHUCAU
   MISS -->|"tín hiệu thiếu lệch"| DMMU2
   MISS -->|"issue miss mở"| TRIAGE
+  LOOP -->|"PR auto/* + dispatch kiem-tra.yml"| DOICHIEU
   TRIAGE -->|"việc thuộc biên PLHQ"| DOICHIEU
   TRIAGE -.->|"chuyển ca HS, GIR, thuế"| HS
   NHUCAU --> DMMU2
@@ -166,6 +170,7 @@ flowchart LR
   DOICHIEU -->|"PR xanh npm test gộp main"| REL2
   REL2 -->|"repository_dispatch plhq-updated"| SYNC
   REL2 -->|"tải gói Release 9 tệp + manifest.json + SHA256SUMS"| SYNC
+  REL2 -->|"đồng bộ nguyên tử Release + hot-reload cache"| OZP
 ```
 
 ---
@@ -176,18 +181,18 @@ flowchart LR
 |---|---|---|---|
 | **Kiểm sổ, mapping & chiều đi `quan_he`** | `npm run kiem-tra`<br/>(`tools/kiem-tra.mjs`) | Báo cáo lỗi/cảnh báo (chặn PR nếu lỗi) | Kiểm lược đồ 2.980+ tệp YAML, CSV HS/CAS, `danh-muc/chinh-sach-mo-ta.yaml` (`kiemChinhSachMoTa`), `registry/phien-ban-bieu-thue-mapping.yaml` (`kiemAnhXaAhtn`), nguồn bậc A và **3 cổng chiều đi `quan_he`** (chặn cạnh ngược thời gian, chặn `HIEN_PHAP`/`LUAT`/`NGHI_QUYET` dùng `huong_dan`, chỉ `VAN_BAN_HOP_NHAT` dùng `hop_nhat`) |
 | **Kiểm nguyên văn điều khoản** | `npm run kiem-tra:dieu-khoan`<br/>(`tools/kiem-tra-dieu-khoan.mjs`) | Kết quả đối chiếu từng mục `xac_minh.dieu_khoan` | Kiểm độ dài/chỉ số `dieu`, xác thực `sha256_pdf` thuần Node trên mọi môi trường và so khớp nguyên văn theo `trang_pdf` khi có `pdftotext` hoặc `.ocr.txt`/`.txt` (an toàn trên CI Linux thiếu `pdftotext`) |
-| **Thu thập, kiểm toán nạp & OCR bậc A** | `npm run nap` (`tools/nap.mjs`)<br/>`node tools/kiem-tra-nap.mjs`<br/>`node tools/tai-pdf-tu-vo-html.mjs`<br/>`node tools/ocr-raw.mjs`<br/>`node tools/tu-tai-toan-van.mjs` | `raw/download/` + `.nguon.json`, báo cáo 5 nhóm nạp, `raw/ocr/*.ocr.txt` + `.ocr.json`, tải theo lô & trích ĐK | Chặn tạo `.txt` giả từ vỏ HTML; kiểm toán 5 nhóm (`DA_INGEST_TRI_THUC`, `CO_TOAN_VAN_CHUA_INGEST`, `PDF_BAN_SCAN_CAN_OCR`, `VO_HTML_CHUA_TAI_PDF`, `THIEU_RAW`); tự động tải PDF bậc A từ vỏ HTML, tự tải toàn văn theo lô (`--limit`/`--slug`) kèm trích điều khoản và OCR PDF scan giữ nguyên dấu phân trang `\f` |
+| **Thu thập, kiểm toán nạp, quét dây chuyền & OCR bậc A** | `npm run nap` (`tools/nap.mjs`)<br/>`node tools/kiem-tra-nap.mjs`<br/>`node tools/tai-pdf-tu-vo-html.mjs`<br/>`node tools/ocr-raw.mjs`<br/>`node tools/tu-tai-toan-van.mjs`<br/>(`tools/lib/quet-hieu-luc-thi-hanh.mjs`) | `raw/download/` + `.nguon.json`, báo cáo 5 nhóm nạp, `raw/ocr/*.ocr.txt` + `.ocr.json`, tải theo lô, trích `.dieu.jsonl` & checklist tác động dây chuyền | Chặn tạo `.txt` giả từ vỏ HTML; kiểm toán 5 nhóm (`DA_INGEST_TRI_THUC`, `CO_TOAN_VAN_CHUA_INGEST`, `PDF_BAN_SCAN_CAN_OCR`, `VO_HTML_CHUA_TAI_PDF`, `THIEU_RAW`); tự tải toàn văn PDF bậc A có chốt kiểm khớp số hiệu/tiêu đề trang đầu, trích điều khoản đầy đủ, quét tất định `hieu_luc_tu` gợi ý, văn bản cũ bị thay thế/bãi bỏ cần điền `het_hieu_luc_tu`, văn bản sửa đổi cần `data/sua-doi-dieu/<slug>.json`, tín hiệu phụ lục `DANH_MUC_HS`/`HOA_CHAT_CAS`/`XUAT_XU_FTA` và OCR PDF scan giữ nguyên dấu phân trang `\f` |
 | **Trích điều khoản & làm sạch `doc-hieu`** | `node tools/trich-dieu-khoan.mjs`<br/>`tools/gop-doc-hieu.py` | `xac_minh.dieu_khoan` trong YAML & `data/doc-hieu/*.dieu.jsonl` sạch | Tự trích điều khoản nguyên văn bậc A từ `.ocr.txt`/`.txt`/`.md`/PDF lớp chữ/`.docx` kèm tự kiểm chứng `chuanHoaKhopNguyenVan` + `sha256_pdf`; lọc bỏ dòng điều rác (`laDieuRac` / `la_rac_phu_luc`) ở tầng `TOM_TAT_NHAP` |
 | **Phát hiện điểm mù** | `npm run diem-mu`<br/>(`tools/diem-mu.mjs` → `bao-cao/diem-mu.md`, `.json`) | Báo cáo điểm mù tách tầng & xếp ưu tiên | Tách riêng VBQPPL vs TB-TCHQ cá biệt (`TB_TCHQ_KHONG_NGUON_A`, `TB_TCHQ_CHUA_DOI_CHIEU`), ghi nhận `HS_AHTN_CU_DA_ANH_XA`, phát hiện `DOC_HIEU_DIEU_RAC`/`DOC_HIEU_THIEU_NGHIA_VU`, cảnh báo `SAP_HET_HIEU_LUC` (`≤60` ngày), rà `WIKI_DAN_VB_HET_HIEU_LUC` và `WIKI_CHUA_CO_VB_NEN_TANG` |
 | **Đánh giá QA nghiệp vụ** | `npm run eval:qa`<br/>(`tools/eval-qa.mjs`) | Báo cáo Markdown / `--json` trên **60 câu** (`eval/cau-hoi-nghiep-vu.yaml`) | Đo độ phủ 3 tiêu chí trên `CH-01..CH-60`: `(a)` sổ `CON_HIEU_LUC` + `NGUON_A`, `(b)` trang wiki hiện hành, `(c)` có điều khoản `NGUYEN_VAN_NGUON_A` hoặc `TOM_TAT_NHAP` |
 | **Đo chất lượng truy hồi sống** | `npm run eval:retrieval`<br/>(`tools/eval-retrieval.mjs`) | Báo cáo hit rate, `expiredTop1`, `pin`, `abbr`, `outOfScope` | Kiểm thử sống `hoiPhapLuat` trên **60 câu** nghiệp vụ + 5 câu ghim số hiệu + 5 câu viết tắt + 2 câu ngoài kho (ngưỡng: `expiredTop1 === 0`, `hitAny >= 95%`, `soHieuPinRate = 5/5`, `abbrQueriesRate = 5/5`, `outOfScopeFallbackRate = 2/2`) |
 | **Phân loại issue `[miss]` & cắt chuyển hiệu lực** | `npm run triage:miss` (`tools/phan-loai-miss.mjs`)<br/>`npm run chuyen-hieu-luc` (`tools/chuyen-hieu-luc.mjs`) | Báo cáo Markdown / `--json` & cập nhật `tinh_trang` theo ngày (`--ghi`) | Phân loại issue `[miss]` thành 5 nhóm giữ biên `hs-code-api`; rà soát & cắt chuyển `CON_HIEU_LUC`/`CHUA_CO_HIEU_LUC` tại mốc ngày (dry-run mặc định, bảo vệ `HET_HIEU_LUC_MOT_PHAN`) |
-| **Radar luật mới & canh hiệu lực hằng ngày** | `npm run radar:luat-moi` (`tools/radar-luat-moi.mjs`)<br/>`npm run canh:hieu-luc` (`tools/canh-hieu-luc.mjs`) | Báo cáo Markdown / `--json` & cờ `can_mo_pr`, `can_canh_bao_issue` | Quét RSS Công báo & `vanban.chinhphu.vn` đối chiếu sổ + khử trùng issue `[radar]`; tổng hợp văn bản cắt chuyển ngày G, mốc sắp hết/sắp có hiệu lực (30/60 ngày) và hàng đợi `san-hieu-luc` hằng ngày |
+| **Radar luật mới 5 trạm & canh hiệu lực hằng ngày** | `npm run radar:luat-moi` (`tools/radar-luat-moi.mjs`, `data/radar-bo-qua.json`)<br/>`npm run canh:hieu-luc` (`tools/canh-hieu-luc.mjs`) | Báo cáo Markdown / `--json`, PR stub `auto/nap-radar` & PR cắt chuyển `auto/chuyen-hieu-luc-YYYY-MM-DD` | Quét 5 trạm (`congbao`, `vanban.chinhphu`, `moit`, `pvtm`, `customs`) kết hợp danh sách bỏ qua `data/radar-bo-qua.json`, bóc sẵn URL PDF nguồn bậc A nhúng trong trang chi tiết để tự động mở PR stub `auto/nap-radar` (kèm kích hoạt CI `kiem-tra.yml`) và khử trùng issue `[radar]`; tổng hợp văn bản cắt chuyển ngày G (`auto/chuyen-hieu-luc-YYYY-MM-DD` + kích hoạt `kiem-tra.yml`), mốc sắp hết/sắp có hiệu lực (30/60 ngày) và hàng đợi `san-hieu-luc` hằng ngày |
 | **Dựng gói máy `1.7.0` & báo cáo** | `npm run dung`<br/>(`tools/dung.mjs`, `tools/lib/van-tay.mjs`) | **9 tệp** `dist/*.json` (`1.7.0` · `lop-kho@1`) + `dist/manifest.json` + `bao-cao/cay-van-ban.md`, `bao-cao/quan-he.md` | Sinh `registry.json`, `hs-index.json`, `hs-index-theo-ma.json` (kèm `anh_xa_ahtn_cu` & `phien_ban_ahtn`), `wiki-index.json`, `wiki-chunks.json`, `dieu-khoan.json` (kèm `trang_thai_dieu` & `lich_su_tac_dong`), `cas-index.json`, `chinh-sach-mo-ta.json` (`VUA_SUY_RA` + 25 viết tắt), `xuat-xu-fta.json` (`fta-psr@1`, `LUAT`), gắn `id` chuẩn, `nut_bieu`, `van` SHA-256 và `dist/manifest.json` |
 | **Cổng MCP Stdio & CLI tra cứu** | `npm run mcp:server` (`tools/mcp-server.mjs`)<br/>`npm run tra-cuu` (`tools/tra-cuu.mjs`)<br/>(`tools/lib/tra-cuu-plhq.mjs`, `docs/mcp-server.md`) | JSON-RPC 2.0 MCP stdio (6 tools + **3 resources**) & CLI `--tai-ngay`, `--json` | Tra cứu hiệu lực hiện hành & tại ngày (`tai_ngay`), điều khoản tách 2 tầng kèm `trang_thai_dieu`, hỏi đáp PLHQ (BM25 + 2 tuyến `sap_co_hieu_luc` + cổng OOS + dự phòng 3 tầng), hóa chất CAS, chính sách theo mã HS đã biết (`nut_bieu`, `nhom_theo_trang_thai`, `can_kiem_cas`, `dieu_khoan_lien_quan`), cảnh báo `≤60` ngày; chuyển hướng câu hỏi áp mã HS/GIR/thuế sang `hs-code-api` |
 | **Dựng cổng tra cứu web tĩnh V2** | `npm run dung:web`<br/>(`tools/dung-web.mjs`, `tools/web-template/*`) | Thư mục `site/` (`.nojekyll`, `index.html`, `app.js`, `style.css`, `8` tệp `data/*.json` + `600` mảnh `data/dk/*.json`) | Cổng tra cứu công khai `0` CDN gồm **5 tab**, tải lười `wiki-chunks.json`, mục lục `dieu-khoan-index.json` + chia mảnh từng văn bản `data/dk/<tier>-<slug>.json` cho deep-link `#dk=`, dải cảnh báo `sap-het-hieu-luc.json`, `hs-policy.json` rút gọn và hash router |
 | **Kiểm tra wiki Lumina** | `node _lumina/scripts/lint.mjs --summary` | Tóm tắt JSON (`L01..L22`) | Kiểm frontmatter, cấu trúc mục, thứ tự alphabet `wiki/index.md` và liên kết hai chiều toàn bộ `wiki/` |
-| **Bộ kiểm thử tự động & CI/CD** | `npm test` (gồm `tools/test/*.mjs`, `scripts/*.mjs`)<br/>`.github/workflows/{kiem-tra,bao-hs-code-api,trang-web,bao-cao-tuan,radar-va-hieu-luc,tu-tai-toan-van}.yml` | Kiểm PR, Release `dist-YYYY-MM-DD` (9 tệp + `SHA256SUMS`), GitHub Pages `site/`, báo cáo tuần, radar/canh hiệu lực & PR tự tải hằng ngày | Tự động hóa kiểm thử (`run.mjs`, `tb-noi-dung-tb.mjs`, `test-mcp-dist.mjs`, `test-diem-mu-nang-cap.mjs`, `test-quan-he-chieu-di.mjs`, `test-dieu-khoan-nguyen-van.mjs`, `test-phan-loai-miss.mjs`, `test-dung-web.mjs`, `test-mcp-server.mjs`, `test-chuyen-hieu-luc.mjs`, `test-radar-luat-moi.mjs`, `test-canh-hieu-luc.mjs`, `test-trich-dieu-khoan.mjs`, `test-xuat-xu-fta.mjs`, kiểm sổ/điều khoản/toàn vẹn registry/Lumina lint; kèm các bộ test bổ trợ `test-tra-cuu-plhq.mjs`, `test-kiem-tra-nap.mjs`, `test-ocr-raw.mjs`, `test-tai-pdf-tu-vo-html.mjs`), phát hành bản chụp `dist/` bất biến, đồng bộ `hs-code-api`, triển khai cổng web V2, chạy `radar-va-hieu-luc.yml` (06:30 VN) & `tu-tai-toan-van.yml` (07:00 VN) |
+| **Bộ kiểm thử tự động & CI/CD** | `npm test` (gồm `tools/test/*.mjs`, `scripts/*.mjs`)<br/>`.github/workflows/{kiem-tra,bao-hs-code-api,trang-web,bao-cao-tuan,radar-va-hieu-luc,tu-tai-toan-van}.yml` | Kiểm PR (kể cả `workflow_dispatch` cho PR `auto/*`), Release `dist-YYYY-MM-DD` (9 tệp + `manifest.json` + `SHA256SUMS`), GitHub Pages `site/`, báo cáo tuần, radar/canh hiệu lực & PR tự tải hằng ngày | Tự động hóa kiểm thử (`run.mjs`, `tb-noi-dung-tb.mjs`, `test-mcp-dist.mjs`, `test-diem-mu-nang-cap.mjs`, `test-quan-he-chieu-di.mjs`, `test-dieu-khoan-nguyen-van.mjs`, `test-phan-loai-miss.mjs`, `test-dung-web.mjs`, `test-mcp-server.mjs`, `test-chuyen-hieu-luc.mjs`, `test-radar-luat-moi.mjs`, `test-canh-hieu-luc.mjs`, `test-tu-tai-toan-van.mjs` kèm `test-quet-hieu-luc-thi-hanh.mjs`, `test-trich-dieu-khoan.mjs`, `test-xuat-xu-fta.mjs`, kiểm sổ/điều khoản/toàn vẹn registry/Lumina lint; kèm các bộ test bổ trợ `test-tra-cuu-plhq.mjs`, `test-kiem-tra-nap.mjs`, `test-ocr-raw.mjs`, `test-tai-pdf-tu-vo-html.mjs`), chạy `radar-va-hieu-luc.yml` (06:30 VN) & `tu-tai-toan-van.yml` (07:00 VN) kèm kích hoạt `kiem-tra.yml`; sau khi gộp `main`, `bao-hs-code-api.yml` dựng lại 9 tệp `dist/*` (gồm `xuat-xu-fta.json` + `manifest.json`), cắt Release bất biến `dist-YYYY-MM-DD` + `SHA256SUMS`, bắn `plhq-updated` sang `hs-code-api` và nuôi bộ tự đồng bộ nguyên tử / hot-reload cache của Gateway `ozplugin` |
 
 ---
 
@@ -211,7 +216,7 @@ Lộ trình tập trung hoàn toàn vào **năng lực cốt lõi của `oz-wiki
 | **Giai đoạn 12**<br/>Truy hồi 60/60, tải lười/chia mảnh Web V2 & chuyển tiếp 2026–2027 *(Wave 23–24)* | Đạt `100%` `eval:retrieval`, tối ưu băng thông tải Web V2 và tự động hóa kịch bản cắt chuyển hiệu lực cuối năm | 1. Bổ sung liên kết chéo wiki có dẫn nguồn nâng `eval:retrieval` `hitAll` từ `57/60` lên **`60/60 (100.0%)`**, giữ `hitTop1 = 60/60`, `expiredTop1 = 0/60` (`#758`).<br/>2. Tối ưu Web V2: xuất `data/dieu-khoan-index.json` + **600+** mảnh `data/dk/<tier>-<slug>.json`, tải lười `wiki-chunks.json` (Tab 2) và `dieu-khoan.json` (chỉ khi tìm từ khóa toàn văn ở Tab 3).<br/>3. Xây dựng `tools/chuyen-hieu-luc.mjs` (`npm run chuyen-hieu-luc`, dry-run mặc định, bảo vệ `HET_HIEU_LUC_MOT_PHAN`) và cập nhật cẩm nang chuyển tiếp `2026–2027` (`updated: 2026-11-25`). | `eval:retrieval` `60/60` trên mọi chỉ tiêu; `test-dung-web` & `test-chuyen-hieu-luc` xanh; sẵn sàng mốc `31/12/2026 → 01/01/2027` |
 | **Giai đoạn 13**<br/>Đồ thị sửa đổi cấp Điều `1.6.0`, BM25, `--tai-ngay`, MCP `ozplugin` & Web V2 *(Wave 25–29)* | Kiểm chứng định lượng bằng holdout mù, dựng đồ thị sửa đổi cấp Điều, BM25 + 2 tuyến, hiệu lực tại ngày và nâng cấp MCP/`ozplugin` + Web V2 | 1. **Wave 25 (`#760`):** Xây bộ **48 ca holdout mù** (`eval/holdout-thuc-chien.yaml`, `eval:holdout --strict`) và sửa bộ trích điều khoản sửa đổi đa khoản.<br/>2. **Wave 26 (`#761`):** Xây đồ thị `data/sua-doi-dieu/*.json` (67 tệp / 1.243 tác động), nâng lược đồ `1.6.0` (tương thích ngược `1.x`), gắn `trang_thai_dieu` & `lich_su_tac_dong` vào `dieu-khoan.json`.<br/>3. **Wave 27 (`#762`):** Okapi BM25 (`bm25-vi.mjs`), tách 2 tuyến `sap_co_hieu_luc`, đa dạng hóa IDF, cổng OOS (`ngoai_pham_vi: true`) kéo `eval:holdout --strict` từ `31/48 (64,6%)` lên **`46/48 (95,8%)`** và `eval:retrieval` **`60/60 (100%)`**.<br/>4. **Wave 28 (`#763`):** `hieu-luc-theo-ngay.mjs` + 27 mốc `tu_ngay`, hỗ trợ `--tai-ngay` / `tai_ngay` xuyên suốt tra cứu, CLI & 4 MCP tools.<br/>5. **Wave 29 (`#765`):** Tối đa hỗ trợ MCP/`ozplugin` (resource `plhq://huong-dan/quy-trinh-agent`, enriched `meta/luoc-do`, renderer `sap_co_hieu_luc` & `ngoai_pham_vi`) + Web V2 (`trang_thai_dieu` badge, nút nhảy `#dk=`, bộ lọc `tai_ngay` Tab 1 & Tab 3). | `npm test`, `eval:retrieval` `60/60`, `eval:holdout --strict` `46/48 (95,8%)`, 3 workflow `main` xanh |
 | **Giai đoạn 14**<br/>Chuẩn khớp nối Hệ sinh thái `1.7.0` & Sẵn sàng HS 2028 *(Wave 30–33 — `#770`, `#771`, `#772`)* | Chuẩn hoá ID, vân tay `SHA-256`, phân lớp `lop-kho@1` và luồng trích dẫn thuần dữ liệu để khớp chặt với Khâu 3 `hs-code-api`, `ozplugin` & mảnh ghép XNK mới | 1. **Wave 30 (`#770` — `1.7.0`):** Gắn `id` + vân tay `van` (`sha256`), `nut_bieu`, `lop_du_lieu` chuẩn `lop-kho@1`, tách `tien_le_tb_tchq` (`TIEN_LE`) và `tom_tat_nhap` (`BO_TRO`), thêm `dist/manifest.json`.<br/>2. **Wave 31 (`#772`):** Đầu ra thuần dữ liệu cho `plhq_chinh_sach_theo_hs` (`nhom_theo_trang_thai`, `can_kiem_cas`, `dieu_khoan_lien_quan`), cập nhật quy trình 3 bước `plhq://huong-dan/quy-trinh-agent` & `plhq://meta/luoc-do`.<br/>3. **Wave 32 (`#771`):** Gắn `phien_ban_ahtn` (`43/43` danh mục), kiểm chuẩn HS 2028 (`DANH_MUC_THIEU_PHIEN_BAN_AHTN`), mở theo dõi `45/2024/TT-BCT` tại `hs-code-api#1987`.<br/>4. **Wave 33:** Đóng gói mẫu tích hợp copy-paste ([docs/mau-tich-hop-he-sinh-thai.md](mau-tich-hop-he-sinh-thai.md)) cho `hs-code-api/scripts/sync-plhq.mjs` & mảnh ghép XNK mới, đồng bộ tài liệu `1.7.0` (xem [TAM-NHIN-VA-KE-HOACH-HE-SINH-THAI.md](TAM-NHIN-VA-KE-HOACH-HE-SINH-THAI.md)). | `kiem-tra` 0 lỗi, `npm test` xanh (`test-van-tay-manifest`, `test-ahtn-phien-ban`, `test-mcp-server`, `test-tra-cuu-plhq`), `eval:retrieval` `60/60`, `eval:holdout --strict` `46/48 (95,8%)` |
-| **Giai đoạn 15**<br/>Tự động hoá vòng lặp radar, canh hiệu lực & tự tải toàn văn | Vận hành hằng ngày khép kín từ phát hiện văn bản mới, canh mốc hiệu lực đến tự tải toàn văn bậc A qua PR đã qua cổng kiểm | 1. Dựng `tools/radar-luat-moi.mjs` (`npm run radar:luat-moi`) quét Công báo & `vanban.chinhphu.vn` + `tools/canh-hieu-luc.mjs` (`npm run canh:hieu-luc`) tổng hợp mốc 30/60 ngày & hàng đợi `san-hieu-luc`, tự động hoá qua `.github/workflows/radar-va-hieu-luc.yml` (06:30 VN hằng ngày).<br/>2. Dựng `tools/tu-tai-toan-van.mjs` & `.github/workflows/tu-tai-toan-van.yml` (07:00 VN hằng ngày, runner `ubuntu-26.04` + `poppler-utils` ghim bản) tự tải PDF nguồn bậc A theo lô, trích điều khoản và mở PR `auto/tu-tai-toan-van`. | `test-radar-luat-moi`, `test-canh-hieu-luc`, `kiem-tra-dieu-khoan` & `npm test` xanh; mọi thay đổi qua nhánh PR `auto/*`, không push thẳng `main` |
+| **Giai đoạn 15**<br/>Vòng lặp tự động khép kín: Radar 5 trạm, canh hiệu lực, tự tải kèm quét dây chuyền & đồng bộ Release | Vận hành hằng ngày khép kín từ phát hiện văn bản mới ở 5 trạm, tạo stub + bóc URL PDF bậc A, tự tải toàn văn kèm quét tác động dây chuyền hiệu lực/phụ lục, đến phát hành Release bất biến và hot-reload hệ sinh thái | 1. **06:30 VN (`radar-va-hieu-luc.yml`)**: `tools/radar-luat-moi.mjs` quét 5 trạm (`congbao`, `vanban.chinhphu`, `moit`, `pvtm`, `customs`) kết hợp `data/radar-bo-qua.json`, bóc sẵn URL PDF bậc A nhúng trong trang chi tiết để tự tạo PR stub `auto/nap-radar` (kèm dispatch `kiem-tra.yml`); `tools/canh-hieu-luc.mjs` tự mở PR `auto/chuyen-hieu-luc-YYYY-MM-DD` khi tới ngày G (kèm dispatch `kiem-tra.yml`).<br/>2. **07:00 VN (`tu-tai-toan-van.yml`)**: runner `ubuntu-26.04` + `poppler-utils` ghim bản chạy `tools/tu-tai-toan-van.mjs` tự tải PDF bậc A, kiểm khớp số hiệu/tiêu đề trang đầu PDF, trích điều khoản đầy đủ `.dieu.jsonl`, chạy `tools/lib/quet-hieu-luc-thi-hanh.mjs` sinh bảng kiểm tác động dây chuyền (`hieu_luc_tu`, cắt hiệu lực VB cũ, `sua-doi-dieu`, phụ lục HS/CAS/FTA) trên PR `auto/tu-tai-toan-van` và dispatch `kiem-tra.yml`.<br/>3. **Sau gộp `main` (`bao-hs-code-api.yml`)**: dựng lại 9 tệp `dist/*` (gồm `xuat-xu-fta.json` + `manifest.json`), cắt GitHub Release bất biến `dist-YYYY-MM-DD` + `SHA256SUMS`, bắn `plhq-updated` sang `hs-code-api` và nuôi bộ tự đồng bộ nguyên tử / hot-reload cache trên Gateway `ozplugin`. | `test-radar-luat-moi`, `test-canh-hieu-luc`, `test-tu-tai-toan-van` (`+ test-quet-hieu-luc-thi-hanh`), `kiem-tra-dieu-khoan` & `npm test` xanh; mọi nhánh PR `auto/*` tự chạy `kiem-tra.yml`, không push thẳng `main` |
 
 ### Các phần đã cắt bỏ khỏi lộ trình (thuộc ranh giới `hs-code-api`)
 
