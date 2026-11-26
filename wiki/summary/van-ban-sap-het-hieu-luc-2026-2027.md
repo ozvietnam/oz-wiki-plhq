@@ -3,7 +3,7 @@ id: van-ban-sap-het-hieu-luc-2026-2027
 title: "Cẩm nang hành động: 8 văn bản sắp hết hiệu lực & 5 văn bản sắp có hiệu lực 2026 – 2027"
 type: summary
 created: 2026-11-22
-updated: 2026-11-25
+updated: 2026-11-26
 covers:
   - thue-gtgt-hang-nhap-khau
   - hang-cu-cam-nhap-khau
@@ -115,7 +115,7 @@ Song song với 8 văn bản sắp hết hiệu lực, sổ đăng ký ghi nhậ
 
 | Văn bản (`wiki/sources/`) | Cơ quan / Ban hành | Hiệu lực từ | Tác động nghiệp vụ XNK từ `01/01/2027` |
 |---|---|---|---|
-| [[sources/154-2026-tt-btc]] (`154/2026/TT-BTC`) | `BTC` (`15/10/2026`) | `2027-01-01` | Sửa đổi, bổ sung Điều 4, 5, 6, 7 và thay Phụ lục I–III của `80/2019/TT-BTC` về thủ tục hải quan, thuế thương mại biên giới: điện tử hoá tờ khai cư dân biên giới, bỏ bảng kê mua gom cũ `BK-MGHCDBG 2019/HQVN` (khai số tờ khai cư dân tại ô vận đơn), miễn thủ tục mua gom khi đã hoàn thành đủ nghĩa vụ thuế/KTCL (phải lập hoá đơn điện tử khi lưu thông nội địa), mở rộng thanh toán điện tử và cập nhật tên cơ quan mới (`Cục Hải quan`, `Hải quan khu vực`, `Hải quan cửa khẩu`). *(Lưu ý: toàn văn quy định **thương nhân mua gom của cư dân biên giới**, không phải "mua gom của người nước ngoài" như dòng `ten` đang ghi trên YAML sổ.)* |
+| [[sources/154-2026-tt-btc]] (`154/2026/TT-BTC`) | `BTC` (`15/10/2026`) | `2027-01-01` | Sửa đổi, bổ sung Điều 4, 5, 6, 7 và thay Phụ lục I–III của `80/2019/TT-BTC` về thủ tục hải quan, thuế thương mại biên giới: điện tử hoá tờ khai cư dân biên giới, bỏ bảng kê mua gom cũ `BK-MGHCDBG 2019/HQVN` (khai số tờ khai cư dân tại ô vận đơn), miễn thủ tục mua gom khi đã hoàn thành đủ nghĩa vụ thuế/KTCL (phải lập hoá đơn điện tử khi lưu thông nội địa), mở rộng thanh toán điện tử và cập nhật tên cơ quan mới (`Cục Hải quan`, `Hải quan khu vực`, `Hải quan cửa khẩu`). *(Toàn văn quy định **thương nhân mua gom của cư dân biên giới**; trường `ten` trên `154-2026-tt-btc.yaml` và đồ thị `data/sua-doi-dieu/154-2026-tt-btc.json` đã đồng bộ đầy đủ.)* |
 | [[sources/372-2026-nd-cp]] (`372/2026/NĐ-CP`) | `CP` (`29/09/2026`) | `2027-01-01` | Quy định Nền tảng quốc gia về định danh, xác thực và truy xuất nguồn gốc (`VnUID`) và mã `UID` (GS1 Digital Link / W3C `DID` / TCVN 13274:2020): **bắt buộc** đối với **hàng hóa mức độ rủi ro cao** theo `37/2026/NĐ-CP` (gồm dữ liệu chủ chuẩn hóa mã HS, sự kiện trọng yếu thông quan/hóa đơn, số hóa C/O và chứng nhận chất lượng thành chứng chỉ số), khuyến khích tự nguyện với rủi ro trung bình/thấp & hàng XK, loại trừ TNTX/quá cảnh/chuyển khẩu/kho ngoại quan; chuyển tiếp kết nối tối đa `06` tháng từ khi công bố Nền tảng đủ điều kiện. |
 | [[sources/63-2026-tt-bkhcn]] (`63/2026/TT-BKHCN`) | `BKHCN` (`27/10/2026`) | `2027-01-01` | Thay thế toàn bộ `11/2018/TT-BTTTT` về Danh mục sản phẩm công nghệ số đã qua sử dụng cấm nhập khẩu kèm mã HS theo `292/2026/NĐ-CP` (chuẩn hóa `37` dòng lá trong `danh-muc/63-2026-tt-bkhcn.csv` theo `31/2022/TT-BTC`, bỏ mã `8443.32.49`), bổ sung **ngoại lệ mới** cho máy móc/dây chuyền phục vụ dự án sản xuất, đóng gói, kiểm thử **vi mạch bán dẫn** hoặc đào tạo, R&D công nghệ số (điểm e khoản 2 Điều 2) và chuyển tiếp giấy phép đã cấp trước `01/01/2027` (khoản 3 Điều 3). |
 
@@ -181,5 +181,5 @@ Do cổng kiểm tự động `tools/kiem-tra.mjs` chặn việc đặt `tinh_tr
 
 ## Notes
 
-- Rà soát trực tiếp từ `registry/van-ban/*.yaml`, `danh-muc/*.csv`, và kết quả `node tools/diem-mu.mjs --stdout` ngày `24/11/2026` (đối chiếu Công báo đến số 584).
+- Rà soát trực tiếp từ `registry/van-ban/*.yaml`, `danh-muc/*.csv`, và kết quả `node tools/diem-mu.mjs --stdout` ngày `24/11/2026` (đối chiếu Công báo đến số 584); đã kiểm tra bổ sung nguồn chính thống (`vanban.chinhphu.vn`, `congbao.chinhphu.vn`, `quochoi.vn`, `mof.gov.vn`, `moit.gov.vn`) ngày `26/11/2026` xác nhận chưa có văn bản gia hạn/thay thế mới cho `204/2025/QH15`, `174/2025/NĐ-CP`, `43/2026/NQ-CP`, `72/2026/NĐ-CP`, `173/2018/TT-BQP` và phần chuyển tiếp thiết bị y tế cũ của `12/2018/TT-BCT` / `08/2023/TT-BCT`.
 - Trong sổ hiện có các văn bản lịch sử liên quan đã `HET_HIEU_LUC` được nêu rõ ngữ cảnh thay thế/bãi bỏ: `69/2018/NĐ-CP` (đã hết hiệu lực từ `05/09/2026`, bị thay thế bởi `292/2026/NĐ-CP`), `40/2017/TT-BQP` (đã hết hiệu lực từ `01/01/2019`, bị thay thế bởi `173/2018/TT-BQP`), `04/2014/TT-BCT` / `11/2017/TT-BCT` / `49/2015/TT-BCT` (đã hết hiệu lực từ `15/06/2018`, bị bãi bỏ bởi `12/2018/TT-BCT`). *(Ghi chú đối chiếu kỹ thuật: căn cứ mới thay thế `69/2018/NĐ-CP` là `292/2026/NĐ-CP`.)*
