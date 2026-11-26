@@ -20,15 +20,23 @@ import {
 import { dirname, extname, join, resolve } from 'node:path';
 import { pathToFileURL } from 'node:url';
 import yaml from 'js-yaml';
+import { kiemTra } from './kiem-tra.mjs';
 import { kiemTraDieuKhoan } from './kiem-tra-dieu-khoan.mjs';
 import { kiemTraPdfCoLopChu } from './lib/kiem-tra-raw.mjs';
-import { bacNguon, napSo, ROOT } from './lib/registry.mjs';
+import { bacNguon, boDau, khoa, napSo, ROOT } from './lib/registry.mjs';
 import { laTbTchq, layDanhSachToanVan, uuTienNguonDoc } from './trich-dieu-khoan.mjs';
 import { chayTrichDieuKhoanDayDu } from './trich-dieu-khoan-day-du.mjs';
 
 export const MAC_DINH_LIMIT = 5;
 export const MAC_DINH_MAX_FILE_MB = 25;
+export const CHAN_BO_QUA_TU_TAI = new Set(['THIEU_PDF_A', 'CHO_CONG_BO_A', 'SO_HIEU_LECH']);
 const DOC_EXTS_HOP_LE = new Set(['.pdf', '.txt', '.docx']);
+const STOPWORDS_TIEU_DE = new Set([
+  'cua', 've', 'so', 'quy', 'dinh', 'mot', 'dieu', 'luat', 'bo', 'nghi', 'thong', 'tu',
+  'quyet', 'van', 'ban', 'chinh', 'phu', 'bo', 'truong', 'thu', 'tuong', 'ngay', 'thang', 'nam',
+  'hanh', 'sua', 'doi', 'sung', 'bai', 'chi', 'tiet', 'bien', 'phap', 'thi', 'va', 'cac', 'trong',
+  'linh', 'vuc', 'nuoc', 'cong', 'hoa',
+]);
 
 /** Bỏ qua các thông báo phân loại hàng hóa / TB-TCHQ / TB-CHQ (đã có pipeline riêng). */
 export function laTbTchqHoacThongBaoHq(doc) {
@@ -107,6 +115,90 @@ export function chonUrlBacA(doc, nguonConfig = {}) {
   };
 }
 
+function tachBienTheKhoaSoHieu(doc) {
+  const ds = [doc?.so_hieu, ...(Array.isArray(doc?.so_hieu_khac) ? doc.so_hieu_khac : [])]
+    .filter(Boolean)
+    .map((s) => String(s).trim());
+  const out = new Set();
+  for (const s of ds) {
+    out.add(khoa(s));
+    const boNam = s.replace(/^(\d+\/)\d{4}\//, '$1');
+    if (boNam !== s) out.add(khoa(boNam));
+    if (doc?.loai === 'VAN_BAN_HOP_NHAT') {
+      const shortVbhn = s.replace(/\/\d{4}(\/VBHN-)/i, '$1');
+      if (shortVbhn !== s) out.add(khoa(shortVbhn));
+    }
+  }
+  return out;
+}
+
+/**
+ * Đối chiếu nhanh phần đầu văn bản PDF/toàn văn mới tải với `so_hieu` và `ten` trong sổ,
+ * tránh gắn nhầm PDF văn bản khác liệt kê trong `nguon[]` (vd VBHN thay vì QĐ gốc).
+ */
+export function kiemTraKhopNoiDungPdf(doc, text) {
+  const raw = String(text || '').normalize('NFC').trim();
+  if (raw.length < 200) return { khop: true, lyDo: 'CHU_QUA_NGAN' };
+  const headText = raw.slice(0, 4000);
+  const dsKhoa = tachBienTheKhoaSoHieu(doc);
+  if (dsKhoa.size === 0) return { khop: true, lyDo: 'KHONG_CO_SO_HIEU' };
+
+  // 1. Nếu phần đầu trang 1 ghi tường minh `Số: <số hiệu khác>` không thuộc văn bản mục tiêu -> lệch văn bản.
+  const firstHeader = raw.slice(0, 1200).match(/(?:^|\n)\s*S[ốo]\s*:\s*([0-9]+\/(?:\d{4}\/)?[A-ZĐÂÊÔƠƯĂ0-9-]+)/im);
+  if (firstHeader) {
+    const headerKhoa = khoa(firstHeader[1]);
+    if (headerKhoa && !dsKhoa.has(headerKhoa)) {
+      return { khop: false, lyDo: `SO_HIEU_TRANG_DAU_LECH:${firstHeader[1]}` };
+    }
+    if (headerKhoa && dsKhoa.has(headerKhoa)) {
+      return { khop: true, lyDo: 'KHOP_SO_HIEU_TRANG_DAU' };
+    }
+  }
+
+  // 2. Fallback: khớp chuỗi số hiệu trong 4000 ký tự đầu hoặc tỷ lệ từ khóa tên văn bản >= 0.45.
+  const headKhoa = khoa(headText);
+  if ([...dsKhoa].some((k) => k && headKhoa.includes(k))) {
+    return { khop: true, lyDo: 'KHOP_SO_HIEU_PHAN_DAU' };
+  }
+
+  const tenTokens = boDau(doc?.ten || '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, ' ')
+    .trim()
+    .split(/\s+/)
+    .filter((w) => w.length >= 2 && !STOPWORDS_TIEU_DE.has(w));
+  const headTokens = new Set(
+    boDau(headText)
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, ' ')
+      .trim()
+      .split(/\s+/),
+  );
+  const trung = tenTokens.filter((w) => headTokens.has(w)).length;
+  const tiLe = tenTokens.length ? trung / tenTokens.length : 0;
+  if (tiLe >= 0.45) {
+    return { khop: true, lyDo: 'KHOP_TEN_VAN_BAN' };
+  }
+  return { khop: false, lyDo: 'LECH_SO_HIEU_VA_TEN' };
+}
+
+function trichDauPdfText(absPath, { coPdftotext = null, docPdf = null } = {}) {
+  if (typeof docPdf === 'function') {
+    return String(docPdf(absPath) ?? '');
+  }
+  if (coPdftotext === false) return '';
+  try {
+    return execFileSync('pdftotext', ['-f', '1', '-l', '2', '-layout', absPath, '-'], {
+      encoding: 'utf8',
+      timeout: 8000,
+      maxBuffer: 4 * 1024 * 1024,
+      stdio: ['ignore', 'pipe', 'ignore'],
+    });
+  } catch {
+    return '';
+  }
+}
+
 function docLaPdfScanSan(fileInfo, { kiemTraPdf = true, coPdftotext = null, docPdf = null } = {}) {
   const metaPath = `${fileInfo.abs}.nguon.json`;
   if (existsSync(metaPath)) {
@@ -171,6 +263,7 @@ export function timUngVienTuTai({
     const hasExistingTv = Boolean(d.toan_van && d.toan_van !== 'chua_co' && allTv.some((f) => f.exists));
 
     if (!hasExistingTv) {
+      if (CHAN_BO_QUA_TU_TAI.has(d.xac_minh?.chan?.ma)) continue;
       const urlInfo = chonUrlBacA(d, registry.nguon);
       if (urlInfo) {
         canTai.push({
@@ -365,6 +458,7 @@ export async function chayTuTaiToanVan({
   _trichDieuKhoan = null,
   _kiemTraDieuKhoan = null,
   _kiemTraPdf = null,
+  _kiemTraRegistry = null,
 } = {}) {
   const discovery = timUngVienTuTai({ root, limit, slug, coPdftotext, docPdf });
   const maxBytes = maxFileMb * 1024 * 1024;
@@ -528,6 +622,22 @@ export async function chayTuTaiToanVan({
               });
               continue;
             }
+
+            // Kiểm khớp số hiệu/tiêu đề PDF để tránh gắn nhầm tài liệu liên quan khác (vd VBHN)
+            const headText = trichDauPdfText(pdfFile.abs, { coPdftotext, docPdf });
+            const khopCheck = kiemTraKhopNoiDungPdf(doc, headText);
+            if (!khopCheck.khop) {
+              snap.restore();
+              bo_qua_can_thu_cong.push({
+                slug: doc._slug,
+                so_hieu: doc.so_hieu,
+                file: doc._file,
+                url: item.url,
+                ly_do: 'PDF_KHONG_KHOP_VAN_BAN',
+                chi_tiet: khopCheck.lyDo,
+              });
+              continue;
+            }
           }
 
           didDownload = true;
@@ -616,6 +726,32 @@ export async function chayTuTaiToanVan({
               : 'trich_dieu_khoan',
             ly_do: 'KIEM_TRA_DIEU_KHOAN_LOI',
             loi: docErrors,
+          });
+          continue;
+        }
+
+        // Bước 4: Kiểm tra lược đồ sổ cho chính văn bản vừa sửa (tránh lọt xung đột chan/toan_van)
+        const regCheck = typeof _kiemTraRegistry === 'function'
+          ? await _kiemTraRegistry({ root, slug: doc._slug, file: doc._file })
+          : kiemTra(napSo(root), {
+              root,
+              kiemChinhSachMoTa: false,
+              kiemAnhXaAhtn: false,
+              kiemSuaDoiDieu: false,
+              kiemFta: false,
+            });
+        const regDocErrors = (regCheck?.loi || []).filter((e) => e.file === doc._file);
+        if (regDocErrors.length > 0 || regCheck?.ok === false) {
+          snap.restore();
+          that_bai.push({
+            slug: doc._slug,
+            so_hieu: currentDoc.so_hieu || null,
+            file: doc._file,
+            hanh_dong: didDownload
+              ? (soDieuKhoan > 0 ? 'tai_va_trich' : 'tai_toan_van')
+              : 'trich_dieu_khoan',
+            ly_do: 'KIEM_TRA_SO_LOI',
+            loi: regDocErrors,
           });
           continue;
         }
