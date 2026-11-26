@@ -5,7 +5,7 @@
  "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
  "ghi_nguon_chuan": "Nguồn: oz-wiki-plhq — https://github.com/ozvietnam/oz-wiki-plhq (CC BY 4.0, bản 2026-11-26).",
  "mien_tru": "Tham khảo, không phải tư vấn pháp lý. Xem và đối chiếu văn bản gốc nguồn bậc A trước khi áp dụng.",
- "tong": 5674,
+ "tong": 5706,
  "chunks": [
   {
    "chunk_id": "dong-bo-quan-diem-phan-loai#1",
@@ -94340,6 +94340,335 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "chunk_id": "2017-qd-btc#1",
+   "slug": "2017-qd-btc",
+   "duong_dan": "wiki/sources/2017-qd-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "QĐ 2017/QĐ-BTC — Công bố TTHC được sửa đổi, bổ sung và bị bãi bỏ trong lĩnh vực hải quan (kinh doanh hàng miễn thuế theo NĐ 273/2026)",
+   "muc": "Summary",
+   "noi_dung": "**Quyết định số 2017/QĐ-BTC** do Thứ trưởng Bộ Tài chính Nguyễn Đức Chi ký thay Bộ trưởng ngày **28/07/2026**, có hiệu lực thi hành kể từ ngày **21/08/2026** (Điều 2 — trùng ngày hiệu lực của [[sources/273-2026-nd-cp|Nghị định 273/2026/NĐ-CP]] về kinh doanh hàng miễn thuế), công bố **11 thủ tục hành chính (TTHC) được sửa đổi, bổ sung** và **07 TTHC bị bãi bỏ** trong lĩnh vực hải quan đối với hoạt động kinh doanh hàng miễn thuế.\n\nTài liệu gồm **03 điều** (trang 1–2 PDF ký số), **Phần I** (Danh mục 11 TTHC sửa đổi/bổ sung và 07 TTHC bị bãi bỏ, trang 3–8 PDF) và **Phần II** (Nội dung cụ thể về trình tự, hồ sơ, thời hạn giải quyết và mẫu biểu của 11 TTHC sửa đổi/bổ sung, trang 9–51 PDF). Quyết định đồng thời bãi bỏ các phần công bố TTHC cũ tương ứng tại `1450-qd-btc-2020` (STT 4, 5, 6, 13 điểm A mục 1 phần I) và `2770-qd-btc-2015` (STT 58, 59, 62 điểm C mục 2 phần I). Tại thời điểm `26/11/2026`, quyết định **đang còn hiệu lực** (`CON_HIEU_LUC`).",
+   "tags": [
+    "quyet-dinh",
+    "btc",
+    "thu-tuc-hai-quan",
+    "tthc",
+    "hang-mien-thue",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "2017/QĐ-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-08-21",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://xaydungchinhsach.chinhphu.vn/quyet-dinh-so-2017-qd-btc-sua-doi-11-thu-tuc-bai-bo-7-thu-tuc-hai-quan-119260803171542742.htm"
+    },
+    {
+     "so_hieu": "273/2026/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-08-21",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://www.customs.gov.vn/index.jsp?pageId=3&id=105119&cid=1294"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "2017-qd-btc#2",
+   "slug": "2017-qd-btc",
+   "duong_dan": "wiki/sources/2017-qd-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "QĐ 2017/QĐ-BTC — Công bố TTHC được sửa đổi, bổ sung và bị bãi bỏ trong lĩnh vực hải quan (kinh doanh hàng miễn thuế theo NĐ 273/2026)",
+   "muc": "Metadata",
+   "noi_dung": "| Thuộc tính | Giá trị theo sổ đăng ký & PDF ký số (`2017-qd-btc.pdf`) |\n|---|---|\n| **Số hiệu** | `2017/QĐ-BTC` |\n| **Loại văn bản** | Quyết định (`QUYET_DINH`) |\n| **Cơ quan ban hành** | Bộ Tài chính (`BTC`, Thứ trưởng Nguyễn Đức Chi ký số ngày `28/07/2026 17:06:21 +07:00`) |\n| **Ngày ban hành** | `2026-07-28` (`28/07/2026`) |\n| **Hiệu lực từ** | `2026-08-21` (`21/08/2026`, Điều 2) |\n| **Tình trạng hiện tại** | `CON_HIEU_LUC` |\n| **Văn bản QPPL gốc triển khai** | Nghị định `273/2026/NĐ-CP` ([[sources/273-2026-nd-cp]]) ngày `07/07/2026` về kinh doanh hàng miễn thuế |\n| **Mức xác minh** | `NGUON_A` (`hieu_luc_da_doi_chieu: true`) — `xdcs.cdnchinhphu.vn` (`2017-qd-btc.pdf`, 51 trang) & `xaydungchinhsach.chinhphu.vn` |",
+   "tags": [
+    "quyet-dinh",
+    "btc",
+    "thu-tuc-hai-quan",
+    "tthc",
+    "hang-mien-thue",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "2017/QĐ-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-08-21",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://xaydungchinhsach.chinhphu.vn/quyet-dinh-so-2017-qd-btc-sua-doi-11-thu-tuc-bai-bo-7-thu-tuc-hai-quan-119260803171542742.htm"
+    },
+    {
+     "so_hieu": "273/2026/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-08-21",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://www.customs.gov.vn/index.jsp?pageId=3&id=105119&cid=1294"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "2017-qd-btc#3",
+   "slug": "2017-qd-btc",
+   "duong_dan": "wiki/sources/2017-qd-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "QĐ 2017/QĐ-BTC — Công bố TTHC được sửa đổi, bổ sung và bị bãi bỏ trong lĩnh vực hải quan (kinh doanh hàng miễn thuế theo NĐ 273/2026)",
+   "muc": "Tình trạng hiệu lực",
+   "noi_dung": "| Mốc | Sự kiện |\n|---|---|\n| `07/07/2026` | Chính phủ ban hành Nghị định `273/2026/NĐ-CP` ([[sources/273-2026-nd-cp]]) về kinh doanh hàng miễn thuế |\n| `28/07/2026` | Bộ Tài chính ban hành và ký số **Quyết định `2017/QĐ-BTC`** |\n| `21/08/2026` | **Có hiệu lực thi hành** (Điều 2 — đồng bộ với ngày hiệu lực của Nghị định `273/2026/NĐ-CP` [[sources/273-2026-nd-cp]]); bãi bỏ các STT công bố TTHC cũ tại `1450-qd-btc-2020` và `2770-qd-btc-2015` |\n| Hiện tại | **Đang còn hiệu lực** (`CON_HIEU_LUC`) |",
+   "tags": [
+    "quyet-dinh",
+    "btc",
+    "thu-tuc-hai-quan",
+    "tthc",
+    "hang-mien-thue",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "273/2026/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-08-21",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://www.customs.gov.vn/index.jsp?pageId=3&id=105119&cid=1294"
+    },
+    {
+     "so_hieu": "2017/QĐ-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-08-21",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://xaydungchinhsach.chinhphu.vn/quyet-dinh-so-2017-qd-btc-sua-doi-11-thu-tuc-bai-bo-7-thu-tuc-hai-quan-119260803171542742.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "2017-qd-btc#4",
+   "slug": "2017-qd-btc",
+   "duong_dan": "wiki/sources/2017-qd-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "QĐ 2017/QĐ-BTC — Công bố TTHC được sửa đổi, bổ sung và bị bãi bỏ trong lĩnh vực hải quan (kinh doanh hàng miễn thuế theo NĐ 273/2026)",
+   "muc": "Cấu trúc (03 điều & 02 Phần phụ lục — 51 trang PDF)",
+   "noi_dung": "| Phần | Nội dung | Trang PDF |\n|---|---|---|\n| **Phần Quyết định (Điều 1–3)** | **Điều 1:** Công bố TTHC sửa đổi, bổ sung và bị bãi bỏ trong lĩnh vực hải quan.<br>**Điều 2:** Hiệu lực từ `21/08/2026`; bãi bỏ STT 4, 5, 6, 13 điểm A mục 1 phần I tại `1450-qd-btc-2020` và STT 58, 59, 62 điểm C mục 2 phần I tại `2770-qd-btc-2015`.<br>**Điều 3:** Trách nhiệm thi hành của Cục trưởng Cục Hải quan, Chi cục trưởng các Chi cục Hải quan khu vực và đơn vị liên quan. | Trang 1–2 |\n| **Phần I. Danh mục TTHC** | Mục 1: **11 TTHC được sửa đổi, bổ sung** (`1.009076` đến `1.009079`).<br>Mục 2: **07 TTHC bị bãi bỏ** (`1.009071`, `1.009059`–`1.009061`, `1.007881`, `1.007882`, `1.007885`). | Trang 3–8 |\n| **Phần II. Nội dung cụ thể TTHC** | Trình tự thực hiện, cách thức, thành phần hồ sơ, thời hạn giải quyết (mặc định **02 giờ làm việc** phê duyệt trên hệ thống điện tử cho giao dịch đưa hàng vào/ra kho, cửa hàng miễn thuế), đối tượng, cơ quan giải quyết và mẫu biểu chi tiết theo Phụ lục II, III `NĐ 273/2026/NĐ-CP` ([[sources/273-2026-nd-cp]]) | Trang 9–51 |",
+   "tags": [
+    "quyet-dinh",
+    "btc",
+    "thu-tuc-hai-quan",
+    "tthc",
+    "hang-mien-thue",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "273/2026/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-08-21",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://www.customs.gov.vn/index.jsp?pageId=3&id=105119&cid=1294"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "2017-qd-btc#5",
+   "slug": "2017-qd-btc",
+   "duong_dan": "wiki/sources/2017-qd-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "QĐ 2017/QĐ-BTC — Công bố TTHC được sửa đổi, bổ sung và bị bãi bỏ trong lĩnh vực hải quan (kinh doanh hàng miễn thuế theo NĐ 273/2026)",
+   "muc": "Danh mục 18 TTHC hải quan công bố tại Phần I (áp dụng từ 21/08/2026) > 1. 11 TTHC được sửa đổi, bổ sung (Phần I Mục 1 — trang 3–6 PDF)",
+   "noi_dung": "Tất cả 11 thủ tục do **Hải quan cửa khẩu / Hải quan ngoài cửa khẩu** giải quyết, căn cứ sửa đổi theo [[sources/273-2026-nd-cp|Nghị định 273/2026/NĐ-CP]] (thay thế phần công bố cũ tại `1450-qd-btc-2020`):\n\n| STT | Mã hồ sơ TTHC | Tên thủ tục hành chính | QĐ công bố cũ được sửa đổi (`1450-qd-btc-2020`) |\n|---:|---|---|---|\n| 1 | `1.009076` | Thủ tục hải quan, kiểm tra, giám sát hải quan đối với hàng hóa từ nội địa đưa vào cửa hàng miễn thuế, kho chứa hàng miễn thuế | STT 1 điểm A mục 2 phần I |\n| 2 | `1.009055` | Thủ tục hải quan, kiểm tra, giám sát hải quan đối với hàng hóa luân chuyển giữa kho chứa hàng miễn thuế, cửa hàng miễn thuế | STT 1 điểm A mục 1 phần I |\n| 3 | `1.009056` | Thủ tục hải quan, kiểm tra, giám sát hải quan đối với hàng hóa luân chuyển giữa kho chứa hàng miễn thuế với tàu bay để bán trên các chuyến bay quốc tế đi/đến Việt Nam (bao gồm trường hợp tàu bay nhập cảnh tại sân bay quốc tế khác sân bay xuất cảnh) | STT 2 điểm A mục 1 phần I |\n| 4 | `1.009057` | Thủ tục bán hàng miễn thuế cho người chờ xuất cảnh mua tại cửa hàng nội địa, người xuất cảnh, quá cảnh, hành khách trên tàu bay xuất cảnh/đang thực hiện chuyến bay quốc tế đến Việt Nam, người nhập cảnh tại sân bay quốc tế, thuyền viên mua phục vụ nhu cầu cá nhân khi tàu neo đậu tại cảng biển Việt Nam *(hợp nhất các nhóm người mua)* | STT 3 điểm A mục 1 phần I |\n| 5 | `1.009062` | Thủ tục bán hàng miễn thuế cho tổ chức, cá nhân được hưởng quyền ưu đãi miễn trừ mua hàng tại cửa hàng miễn thuế trong nội địa | STT 7 điểm A mục 1 phần I |\n| 6 | `1.009063` | Thủ tục bán hàng miễn thuế cho đối tượng mua là thuyền viên làm việc trên tàu biển chạy tuyến quốc tế | STT 8 điểm A mục 1 phần I |\n| 7 | `1.009064` | Thủ tục hải quan đối với hàng hóa đã bán cho khách xuất cảnh nhưng giao ở nước ngoài theo yêu cầu của khách | STT 9 điểm A mục 1 phần I |\n| 8 | `1.009067` | Thủ tục đối với hàng hóa đưa vào bán tại cửa hàng miễn thuế thay đổi mục đích sử dụng, chuyển tiêu thụ nội địa, tái xuất trong trường hợp hàng hóa nội địa được phép lưu thông đưa vào bán tại cửa hàng miễn thuế sau đó đưa trở lại nội địa | STT 10 điểm A mục 1 phần I |\n| 9 | `1.009069` | Thủ tục đối với hàng hóa tiêu hủy, hàng mẫu, hàng thử, túi, bao bì nhập khẩu để đựng hàng miễn thuế | STT 11 điểm A mục 1 phần I |\n| 10 | `1.009070` | Thủ tục đối với tiền mặt của doanh nghiệp kinh doanh hàng miễn thuế đưa vào, đưa ra khu cách ly, khu vực hạn chế | STT 12 điểm A mục 1 phần I |\n| 11 | `1.009079` | Báo cáo quyết toán đối với hàng hóa đưa vào để bán tại cửa hàng miễn thuế | STT 2 điểm A mục 2 phần I |",
+   "tags": [
+    "quyet-dinh",
+    "btc",
+    "thu-tuc-hai-quan",
+    "tthc",
+    "hang-mien-thue",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "273/2026/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-08-21",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://www.customs.gov.vn/index.jsp?pageId=3&id=105119&cid=1294"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "2017-qd-btc#6",
+   "slug": "2017-qd-btc",
+   "duong_dan": "wiki/sources/2017-qd-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "QĐ 2017/QĐ-BTC — Công bố TTHC được sửa đổi, bổ sung và bị bãi bỏ trong lĩnh vực hải quan (kinh doanh hàng miễn thuế theo NĐ 273/2026)",
+   "muc": "Danh mục 18 TTHC hải quan công bố tại Phần I (áp dụng từ 21/08/2026) > 2. 07 TTHC bị bãi bỏ (Phần I Mục 2 & Điều 2 — trang 2, 6–8 PDF)",
+   "noi_dung": "| STT | Mã hồ sơ TTHC | Tên thủ tục hành chính bị bãi bỏ | QĐ công bố cũ bị bãi bỏ |\n|---:|---|---|---|\n| 1 | `1.009071` | Thủ tục HQ, kiểm tra, giám sát đối với hàng hóa miễn thuế trường hợp một DN có nhiều cửa hàng/kho miễn thuế tại nhiều địa điểm thuộc các Chi cục/Cục HQ tỉnh, TP khác nhau | `1450-qd-btc-2020` (STT 13 điểm A mục 1 phần I) |\n| 2 | `1.009059` | Thủ tục bán hàng miễn thuế cho đối tượng mua là người nhập cảnh tại cửa khẩu sân bay quốc tế *(đã gộp vào `1.009057`)* | `1450-qd-btc-2020` (STT 4 điểm A mục 1 phần I) |\n| 3 | `1.009060` | Thủ tục bán hàng miễn thuế cho đối tượng mua là hành khách đang thực hiện chuyến bay quốc tế đến Việt Nam *(đã gộp vào `1.009057`)* | `1450-qd-btc-2020` (STT 5 điểm A mục 1 phần I) |\n| 4 | `1.009061` | Thủ tục bán hàng miễn thuế cho đối tượng mua là người chờ xuất cảnh mua hàng tại cửa hàng miễn thuế trong nội địa *(đã gộp vào `1.009057`)* | `1450-qd-btc-2020` (STT 6 điểm A mục 1 phần I) |\n| 5 | `1.007881` | Thủ tục hải quan đối với hàng bán tại cửa hàng miễn thuế, nhưng chuyển sang tái xuất | `2770-qd-btc-2015` (STT 58 điểm C mục 2 phần I) |\n| 6 | `1.007882` | Thủ tục hải quan đối với hàng hóa bán tại cửa hàng miễn thuế, nhưng được đưa vào bán ở thị trường nội địa | `2770-qd-btc-2015` (STT 59 điểm C mục 2 phần I) |\n| 7 | `1.007885` | Thủ tục hải quan đối với hàng hóa nhập khẩu bán tại cửa hàng miễn thuế | `2770-qd-btc-2015` (STT 62 điểm C mục 2 phần I) |",
+   "tags": [
+    "quyet-dinh",
+    "btc",
+    "thu-tuc-hai-quan",
+    "tthc",
+    "hang-mien-thue",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "2017-qd-btc#7",
+   "slug": "2017-qd-btc",
+   "duong_dan": "wiki/sources/2017-qd-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "QĐ 2017/QĐ-BTC — Công bố TTHC được sửa đổi, bổ sung và bị bãi bỏ trong lĩnh vực hải quan (kinh doanh hàng miễn thuế theo NĐ 273/2026)",
+   "muc": "Căn cứ pháp lý",
+   "noi_dung": "Các văn bản viện dẫn trong phần căn cứ ban hành Quyết định `2017/QĐ-BTC` (trang 1 PDF):\n\n- **Nghị định `273/2026/NĐ-CP`** ([[sources/273-2026-nd-cp]]) ngày `07/07/2026` của Chính phủ về kinh doanh hàng miễn thuế.\n- Các văn bản về tổ chức Bộ Tài chính, kiểm soát TTHC và ban hành VBQPPL chưa mở mục riêng trong `registry/van-ban/`: `29-2025-nd-cp`, `166-2025-nd-cp`, `63-2010-nd-cp`, `48-2013-nd-cp`, `92-2017-nd-cp`, `78-2025-nd-cp`, `187-2025-nd-cp`, `02-2017-tt-vpcp`.",
+   "tags": [
+    "quyet-dinh",
+    "btc",
+    "thu-tuc-hai-quan",
+    "tthc",
+    "hang-mien-thue",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "2017/QĐ-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-08-21",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://xaydungchinhsach.chinhphu.vn/quyet-dinh-so-2017-qd-btc-sua-doi-11-thu-tuc-bai-bo-7-thu-tuc-hai-quan-119260803171542742.htm"
+    },
+    {
+     "so_hieu": "273/2026/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-08-21",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://www.customs.gov.vn/index.jsp?pageId=3&id=105119&cid=1294"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "2017-qd-btc#8",
+   "slug": "2017-qd-btc",
+   "duong_dan": "wiki/sources/2017-qd-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "QĐ 2017/QĐ-BTC — Công bố TTHC được sửa đổi, bổ sung và bị bãi bỏ trong lĩnh vực hải quan (kinh doanh hàng miễn thuế theo NĐ 273/2026)",
+   "muc": "Liên kết",
+   "noi_dung": "### Summary & Concepts liên quan\n\n- [[summary/khung-thu-tuc-hai-quan]] — Khung thủ tục hải quan, phân loại HS và quản lý thuế XNK\n- [[concepts/thu-tuc-hai-quan-xnk]] — Thủ tục hải quan hàng xuất nhập khẩu\n- [[concepts/co-quan-tiep-nhan-sau-sap-nhap]] — Chuẩn hóa thẩm quyền `Cục Hải quan` và `Chi cục Hải quan khu vực`\n\n### Related sources\n\n- [[sources/273-2026-nd-cp]] — Nghị định gốc về kinh doanh hàng miễn thuế mà Quyết định `2017/QĐ-BTC` công bố bộ TTHC thi hành\n- [[sources/344-2026-qd-btc]] — Quyết định công bố bộ TTHC hải quan chung theo Thông tư `121/2025/TT-BTC`\n- [[sources/3318-qd-btc-2026]] — Quyết định công bố 255 TTHC Bộ Tài chính không phụ thuộc địa giới hành chính (gồm 133 thủ tục hải quan)",
+   "tags": [
+    "quyet-dinh",
+    "btc",
+    "thu-tuc-hai-quan",
+    "tthc",
+    "hang-mien-thue",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "2017/QĐ-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-08-21",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://xaydungchinhsach.chinhphu.vn/quyet-dinh-so-2017-qd-btc-sua-doi-11-thu-tuc-bai-bo-7-thu-tuc-hai-quan-119260803171542742.htm"
+    },
+    {
+     "so_hieu": "121/2025/TT-BTC",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-02-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [
+      "86/2026/TT-BTC"
+     ],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-121-2025-tt-btc-468755.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "2017-qd-btc#9",
+   "slug": "2017-qd-btc",
+   "duong_dan": "wiki/sources/2017-qd-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "QĐ 2017/QĐ-BTC — Công bố TTHC được sửa đổi, bổ sung và bị bãi bỏ trong lĩnh vực hải quan (kinh doanh hàng miễn thuế theo NĐ 273/2026)",
+   "muc": "Open questions",
+   "noi_dung": "- Trang 1–5 PDF (`Điều 1–3` và STT `1–9` mục 1 Phần I) có lớp chữ điện tử, trong khi từ trang 6–51 PDF (STT `10–11` mục 1, mục 2 Phần I và toàn bộ Phần II) là ảnh quét trong tệp PDF gốc; khi sao chép chi tiết từng mẫu biểu điện tử trong Phần II nên đối chiếu trực tiếp với Phụ lục II, III của [[sources/273-2026-nd-cp]].",
+   "tags": [
+    "quyet-dinh",
+    "btc",
+    "thu-tuc-hai-quan",
+    "tthc",
+    "hang-mien-thue",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "2017-qd-btc#10",
+   "slug": "2017-qd-btc",
+   "duong_dan": "wiki/sources/2017-qd-btc.md",
+   "loai_trang": "sources",
+   "tieu_de": "QĐ 2017/QĐ-BTC — Công bố TTHC được sửa đổi, bổ sung và bị bãi bỏ trong lĩnh vực hải quan (kinh doanh hàng miễn thuế theo NĐ 273/2026)",
+   "muc": "Notes",
+   "noi_dung": "- Đã trích xuất Điều 1–3 (`data/dieu-khoan-day-du/2017-qd-btc.dieu.jsonl`, 3 điều) từ lớp chữ PDF ký số `raw/download/xdcs.cdnchinhphu.vn/2017-qd-btc.pdf` (SHA-256 `2addfa48b1678177db8d0602a9197b8d7297a89d93bdc9af0fe389be2c84caa1`, ký bởi Bộ Tài chính lúc `28/07/2026 17:06:21 +07:00`) và đọc kiểm chứng trực tiếp bằng hình ảnh các trang 6–9 PDF để xác nhận chính xác toàn bộ 11 TTHC sửa đổi/bổ sung và 07 TTHC bị bãi bỏ.",
+   "tags": [
+    "quyet-dinh",
+    "btc",
+    "thu-tuc-hai-quan",
+    "tthc",
+    "hang-mien-thue",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "chunk_id": "2027-qd-bct#1",
    "slug": "2027-qd-bct",
    "duong_dan": "wiki/sources/2027-qd-bct.md",
@@ -142164,6 +142493,416 @@
    "canh_bao_hieu_luc": false
   },
   {
+   "chunk_id": "45-2026-tt-byt#1",
+   "slug": "45-2026-tt-byt",
+   "duong_dan": "wiki/sources/45-2026-tt-byt.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 45/2026/TT-BYT — Sửa đổi quy định về Thực hành tốt sản xuất thuốc, nguyên liệu làm thuốc (hiệu lực 01/01/2027)",
+   "muc": "Summary",
+   "noi_dung": "**Thông tư 45/2026/TT-BYT** do Thứ trưởng Bộ Y tế Đỗ Xuân Tuyên ký thay Bộ trưởng ban hành ngày **01/11/2026**, có hiệu lực thi hành kể từ ngày **01/01/2027** (khoản 1 Điều 15), sửa đổi, bổ sung một số điều của **Thông tư `28-2025-tt-byt`** ngày `01/07/2025` quy định về **Thực hành tốt sản xuất thuốc, nguyên liệu làm thuốc (GMP)** và sửa đổi điểm c khoản 1 Điều 7 **Thông tư `18-2019-tt-byt`** về GMP thực phẩm bảo vệ sức khỏe.\n\nVăn bản gồm **15 điều** (15 trang phần quy phạm trong bản PDF ký số `45-byt.signed.pdf`, kèm sửa đổi Phụ lục VI, VII, IX, X, XI và bổ sung Phụ lục XII, XIII tại Điều 14). Nội dung trọng tâm gồm: **(1)** bổ sung định nghĩa và tiêu chuẩn GMP riêng cho **sản xuất thuốc phóng xạ tại cơ sở khám bệnh, chữa bệnh** (bằng máy gia tốc vòng cyclotron — Phụ lục XIII) và **thuốc nghiên cứu/thử lâm sàng** (WHO-GMP — Phụ lục XII), cùng khái niệm cơ sở sơ chế, chế biến dược liệu theo [[sources/14-2024-tt-byt|Thông tư 14/2024/TT-BYT]]; **(2)** điều chỉnh yêu cầu dây chuyền riêng biệt (betalactam, thuốc độc tế bào, hormone sinh dục tránh thai, vắc xin, sinh phẩm chứa vi sinh vật sống, thuốc/nguyên liệu phóng xạ) và mở rộng phạm vi sản xuất thuốc dược liệu, thuốc cổ truyền, thực phẩm bảo vệ sức khỏe (kể cả chế phẩm chứa probiotics) trên dây chuyền đáp ứng GMP tương ứng; **(3)** siết quy trình đánh giá, khắc phục tồn tại nặng/mức độ 4, kiểm soát thay đổi và chuẩn hóa chứng từ chứng minh phạm vi chứng nhận GMP theo khoản 5 Điều 97 [[sources/163-2025-nd-cp|Nghị định 163/2025/NĐ-CP]] (điểm mấu chốt khi đối chiếu hồ sơ nhập khẩu thuốc, nguyên liệu làm thuốc). Tại thời điểm `26/11/2026`, văn bản ở trạng thái **`CHUA_CO_HIEU_LUC`** (`SAP_CO_HIEU_LUC` từ `01/01/2027`).",
+   "tags": [
+    "thong-tu",
+    "byt",
+    "duoc",
+    "nguyen-lieu-lam-thuoc",
+    "gmp",
+    "sua-doi",
+    "chua-co-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "45/2026/TT-BYT",
+     "tinh_trang": "CHUA_CO_HIEU_LUC",
+     "hieu_luc_tu": "2027-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=220160&classid=1"
+    },
+    {
+     "so_hieu": "14/2024/TT-BYT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2024-10-28",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vbpl.vn/van-ban/chi-tiet/thong-tu-14-2024-tt-byt-huong-dan-phuong-phap-che-bien-duoc-lieu-va-vi-thuoc-co-truyen-do-bo-truong-bo-y-te-ban-hanh--170600"
+    },
+    {
+     "so_hieu": "163/2025/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=214322"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "45-2026-tt-byt#2",
+   "slug": "45-2026-tt-byt",
+   "duong_dan": "wiki/sources/45-2026-tt-byt.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 45/2026/TT-BYT — Sửa đổi quy định về Thực hành tốt sản xuất thuốc, nguyên liệu làm thuốc (hiệu lực 01/01/2027)",
+   "muc": "Metadata",
+   "noi_dung": "| Thuộc tính | Giá trị theo sổ đăng ký & nguồn bậc A (`45-byt.signed.pdf`) |\n|---|---|\n| **Số hiệu** | `45/2026/TT-BYT` |\n| **Loại văn bản** | Thông tư (`THONG_TU`) |\n| **Cơ quan ban hành** | Bộ Y tế (`BYT`, Thứ trưởng Đỗ Xuân Tuyên ký ngày `01/11/2026`) |\n| **Ngày ban hành** | `2026-11-01` (`01/11/2026`) |\n| **Hiệu lực từ** | `2027-01-01` (`01/01/2027`, khoản 1 Điều 15) |\n| **Tình trạng hiện tại** | `CHUA_CO_HIEU_LUC` (`SAP_CO_HIEU_LUC` từ `01/01/2027`) |\n| **Văn bản được sửa đổi** | `28-2025-tt-byt` (GMP thuốc, nguyên liệu làm thuốc) và điểm c khoản 1 Điều 7 `18-2019-tt-byt` (GMP thực phẩm bảo vệ sức khỏe) |\n| **Mức xác minh** | `NGUON_A` (`hieu_luc_da_doi_chieu: true`) — `vanban.chinhphu.vn` (`docid=220160`) & PDF ký số `datafiles.chinhphu.vn` (`45-byt.signed.pdf`, 15 trang phần điều khoản) |",
+   "tags": [
+    "thong-tu",
+    "byt",
+    "duoc",
+    "nguyen-lieu-lam-thuoc",
+    "gmp",
+    "sua-doi",
+    "chua-co-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "45/2026/TT-BYT",
+     "tinh_trang": "CHUA_CO_HIEU_LUC",
+     "hieu_luc_tu": "2027-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=220160&classid=1"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "45-2026-tt-byt#3",
+   "slug": "45-2026-tt-byt",
+   "duong_dan": "wiki/sources/45-2026-tt-byt.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 45/2026/TT-BYT — Sửa đổi quy định về Thực hành tốt sản xuất thuốc, nguyên liệu làm thuốc (hiệu lực 01/01/2027)",
+   "muc": "Tình trạng hiệu lực",
+   "noi_dung": "| Mốc | Sự kiện |\n|---|---|\n| `01/07/2025` | Bộ Y tế ban hành `28-2025-tt-byt` quy định về Thực hành tốt sản xuất thuốc, nguyên liệu làm thuốc |\n| `01/11/2026` | Bộ Y tế ban hành **Thông tư `45/2026/TT-BYT`** |\n| `01/01/2027` | **Có hiệu lực thi hành** (khoản 1 Điều 15); hồ sơ nộp trước ngày này tiếp tục giải quyết theo `28-2025-tt-byt` hoặc theo `45/2026/TT-BYT` nếu cơ sở đề nghị (điểm a khoản 3 Điều 15) |\n| `01/11/2028` | Hạn chót cơ sở khám bệnh, chữa bệnh có hoạt động sản xuất thuốc phóng xạ phải đáp ứng GMP theo Phụ lục XIII (điểm b khoản 3 Điều 15) |",
+   "tags": [
+    "thong-tu",
+    "byt",
+    "duoc",
+    "nguyen-lieu-lam-thuoc",
+    "gmp",
+    "sua-doi",
+    "chua-co-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "45/2026/TT-BYT",
+     "tinh_trang": "CHUA_CO_HIEU_LUC",
+     "hieu_luc_tu": "2027-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=220160&classid=1"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "45-2026-tt-byt#4",
+   "slug": "45-2026-tt-byt",
+   "duong_dan": "wiki/sources/45-2026-tt-byt.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 45/2026/TT-BYT — Sửa đổi quy định về Thực hành tốt sản xuất thuốc, nguyên liệu làm thuốc (hiệu lực 01/01/2027)",
+   "muc": "Cấu trúc (15 điều — 15 trang PDF ký số)",
+   "noi_dung": "| Điều | Nội dung chính | Trang PDF |\n|---|---|---|\n| **Điều 1** | Bổ sung khoản 14, 15, 16 vào Điều 2 (`28-2025-tt-byt`): định nghĩa sản xuất thuốc phóng xạ, pha chế thuốc phóng xạ (`30-2021-tt-byt`) và cơ sở sơ chế, chế biến dược liệu (`14/2024/TT-BYT`) | Trang 1 |\n| **Điều 2** | Sửa đổi, bổ sung Điều 3: bổ sung WHO-GMP cho thuốc nghiên cứu/thử lâm sàng (Phụ lục XII), GMP sản xuất thuốc phóng xạ (Phụ lục XIII) và cơ chế cung cấp, đăng tải bản tiếng Anh tài liệu GMP cập nhật (10 ngày) | Trang 2 |\n| **Điều 3** | Sửa đổi, bổ sung các khoản 1, 3, 4, 5, 6, 8, 9, điểm a khoản 10, khoản 12, khoản 17 Điều 4 về áp dụng nguyên tắc, tiêu chuẩn GMP và yêu cầu dây chuyền riêng biệt | Trang 2–4 |\n| **Điều 4** | Sửa đổi, bổ sung điểm c, d, đ khoản 2 Điều 7 về các bước 3, 4, 5 trong quy trình đánh giá thực tế từng dây chuyền và lập biên bản đánh giá GMP (Mẫu số 03 Phụ lục X) | Trang 4 |\n| **Điều 5** | Sửa đổi, bổ sung điểm b, c khoản 2 và khoản 4 Điều 8 về báo cáo khắc phục tồn tại (thời hạn đánh giá 20 ngày) và thông báo không đáp ứng GMP ở mức độ 4 (trong 05 ngày làm việc, Mẫu số 16 Phụ lục I `163/2025/NĐ-CP`) | Trang 4–5 |\n| **Điều 6** | Sửa đổi, bổ sung khoản 2 Điều 9: tháng 11 hằng năm ban hành và công bố kế hoạch đánh giá định kỳ, đánh giá giám sát duy trì GMP (và GDP nếu cơ sở đề nghị) | Trang 5 |\n| **Điều 7** | Sửa đổi, bổ sung điểm b, c, d khoản 2 và khoản 4 Điều 10 về thời hạn nộp/đánh giá khắc phục định kỳ (`45` ngày nộp báo cáo, `20` ngày đánh giá, gia hạn `45` ngày, tổng trần `135` ngày) và biện pháp xử lý mức độ 4 | Trang 5–7 |\n| **Điều 8** | Sửa đổi, bổ sung Điều 11 về **kiểm soát thay đổi** (thông báo trước đối với vắc xin — Cục Quản lý Dược phản hồi trong 15 ngày nếu không đồng ý; trường hợp cấp/điều chỉnh GCN ĐĐKKD dược; duy trì công bố và tự tra cứu EU-GMP) | Trang 7–11 |\n| **Điều 9** | Sửa đổi, bổ sung Điều 12 về kiểm tra, đánh giá đột xuất và đánh giá giám sát duy trì GMP (ít nhất 01 lần trong 03 năm với cơ sở mức độ 3, mức độ 4 hoặc có nguy cơ) | Trang 11–12 |\n| **Điều 10** | Sửa đổi, bổ sung khoản 2 Điều 13 về hồ sơ đề nghị đánh giá GMP đối với cơ sở không thuộc diện cấp GCN ĐĐKKD dược và cơ sở KBCB sản xuất thuốc phóng xạ (Mẫu số 01 Phụ lục X, hồ sơ tổng thể Phụ lục VIII) | Trang 12 |\n| **Điều 11** | Sửa đổi, bổ sung điểm b khoản 3 Điều 17 về chứng từ thể hiện phạm vi chứng nhận GMP (GCN GMP / Giấy phép sản xuất / Báo cáo kiểm tra GMP / tài liệu khoản 5 Điều 97 `163/2025/NĐ-CP`) | Trang 12 |\n| **Điều 12** | Sửa đổi, bổ sung điểm d khoản 2 Điều 18 về thành phần Đoàn đánh giá GMP (chuyên gia trường đại học và đại diện cơ quan liên quan khi cần thiết) | Trang 12 |\n| **Điều 13** | Sửa đổi, bổ sung Điều 23: phân công Cục An toàn thực phẩm chủ trì kiểm tra GMP đối với sản xuất thực phẩm bảo vệ sức khỏe trên dây chuyền thuốc (khoản 2a mới) và trách nhiệm báo cáo của cơ sở (khoản 5) | Trang 13–14 |\n| **Điều 14** | Sửa đổi Phụ lục VI, VII, IX, X, XI và bổ sung Phụ lục XII, XIII ban hành kèm theo `28-2025-tt-byt` | Trang 14 |\n| **Điều 15** | Hiệu lực thi hành (`01/01/2027`), sửa điểm c khoản 1 Điều 7 `18-2019-tt-byt`, quy định chuyển tiếp hồ sơ trước `01/01/2027` và lộ trình `01/11/2028` cho thuốc phóng xạ | Trang 14–15 |",
+   "tags": [
+    "thong-tu",
+    "byt",
+    "duoc",
+    "nguyen-lieu-lam-thuoc",
+    "gmp",
+    "sua-doi",
+    "chua-co-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "14/2024/TT-BYT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2024-10-28",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vbpl.vn/van-ban/chi-tiet/thong-tu-14-2024-tt-byt-huong-dan-phuong-phap-che-bien-duoc-lieu-va-vi-thuoc-co-truyen-do-bo-truong-bo-y-te-ban-hanh--170600"
+    },
+    {
+     "so_hieu": "163/2025/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=214322"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "45-2026-tt-byt#5",
+   "slug": "45-2026-tt-byt",
+   "duong_dan": "wiki/sources/45-2026-tt-byt.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 45/2026/TT-BYT — Sửa đổi quy định về Thực hành tốt sản xuất thuốc, nguyên liệu làm thuốc (hiệu lực 01/01/2027)",
+   "muc": "Nội dung trọng tâm liên quan đến quản lý dược, nguyên liệu làm thuốc & XNK > 1. Tiêu chuẩn GMP theo loại sản phẩm, dược liệu và dây chuyền riêng biệt (Điều 1, Điều 3)",
+   "noi_dung": "- **Phân tầng GMP cho dược liệu & thuốc cổ truyền (khoản 2, 3 Điều 3 sửa khoản 3–6, 8–9 Điều 4):**\n  - Cơ sở sản xuất **thuốc dược liệu** áp dụng Phụ lục V; **nguyên liệu từ dược liệu dạng bào chế hiện đại** áp dụng Phụ lục V hoặc Phần II Phụ lục VI; **nguyên liệu từ dược liệu dạng bào chế cổ truyền** áp dụng Phần I Phụ lục VI; **cơ sở sơ chế, chế biến dược liệu** (theo [[sources/14-2024-tt-byt|TT 14/2024/TT-BYT]]) áp dụng Phụ lục VII (hoặc mức GMP cao hơn tại Phụ lục I/III/IV/V/VI).\n- **Dây chuyền sản xuất riêng biệt (khoản 4 Điều 3 sửa điểm a khoản 10 Điều 4):**\n  - Thuốc và **nguyên liệu làm thuốc** chứa kháng sinh nhóm betalactam (`Penicillins`, `Cephalosporins`, `Penems` và tương tự), thuốc độc tế bào, thuốc chứa hormone sinh dục tránh thai, vắc xin, sinh phẩm chứa vi sinh vật sống, **thuốc phóng xạ và nguyên liệu phóng xạ dùng làm thuốc** bắt buộc sản xuất trên dây chuyền riêng biệt (nhà xưởng, thiết bị, hệ thống phụ trợ riêng biệt) và có biện pháp phòng tránh phát tán, gây nhiễm chéo.\n- **Mở rộng kết hợp sản xuất trên dây chuyền thuốc (khoản 5, 6 Điều 3 & khoản 2 Điều 13):**\n  - Cơ sở chỉ sản xuất thuốc hóa dược không kê đơn được sản xuất thuốc dược liệu, thuốc cổ truyền và thực phẩm bảo vệ sức khỏe (TPBVSK) cùng dạng bào chế được chứng nhận (**không gồm TPBVSK chứa vi sinh vật sống probiotics**).\n  - Cơ sở có dây chuyền riêng chỉ sản xuất thuốc, nguyên liệu làm thuốc sinh học chứa `probiotics` được sản xuất nguyên liệu, TPBVSK cùng dạng bào chế chứa cùng loại `probiotics` hoặc phối hợp với vitamin.\n  - **Cục An toàn thực phẩm** chủ trì kiểm tra tuân thủ GMP đối với hoạt động sản xuất TPBVSK trên dây chuyền sản xuất thuốc và phối hợp với Cục Quản lý Dược, Cục Quản lý Y, Dược cổ truyền.",
+   "tags": [
+    "thong-tu",
+    "byt",
+    "duoc",
+    "nguyen-lieu-lam-thuoc",
+    "gmp",
+    "sua-doi",
+    "chua-co-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "14/2024/TT-BYT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2024-10-28",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vbpl.vn/van-ban/chi-tiet/thong-tu-14-2024-tt-byt-huong-dan-phuong-phap-che-bien-duoc-lieu-va-vi-thuoc-co-truyen-do-bo-truong-bo-y-te-ban-hanh--170600"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "45-2026-tt-byt#6",
+   "slug": "45-2026-tt-byt",
+   "duong_dan": "wiki/sources/45-2026-tt-byt.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 45/2026/TT-BYT — Sửa đổi quy định về Thực hành tốt sản xuất thuốc, nguyên liệu làm thuốc (hiệu lực 01/01/2027)",
+   "muc": "Nội dung trọng tâm liên quan đến quản lý dược, nguyên liệu làm thuốc & XNK > 2. Chứng từ chứng minh phạm vi GMP & tra cứu công bố quốc tế (Điều 8, Điều 11)",
+   "noi_dung": "- **Chứng minh phạm vi chứng nhận GMP (Điều 11 sửa điểm b khoản 3 Điều 17):** Phạm vi chứng nhận được ghi trên **Giấy chứng nhận GMP / Giấy phép sản xuất / Báo cáo kiểm tra GMP** hoặc các tài liệu quy định tại **khoản 5 Điều 97 [[sources/163-2025-nd-cp|Nghị định 163/2025/NĐ-CP]]** *(căn cứ trực tiếp khi thẩm định hồ sơ công bố cơ sở nước ngoài cung cấp thuốc, nguyên liệu làm thuốc nhập khẩu)*.\n- **Duy trì công bố EU-GMP hoặc tương đương qua tự tra cứu (điểm c, d khoản 11 Điều 8):** Cơ sở đã được công bố EU-GMP hoặc tương đương tiếp tục được duy trì kết quả đánh giá nếu đã nộp hồ sơ cập nhật hiệu lực hoặc cung cấp **kết quả tự tra cứu** trên trang thông tin điện tử/CSDL tiếng Anh của cơ quan có thẩm quyền (thực hiện sau ngày hết hạn đã công bố, có đóng dấu xác nhận và đường dẫn tra cứu để cơ quan chức năng xác minh).",
+   "tags": [
+    "thong-tu",
+    "byt",
+    "duoc",
+    "nguyen-lieu-lam-thuoc",
+    "gmp",
+    "sua-doi",
+    "chua-co-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "163/2025/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=214322"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "45-2026-tt-byt#7",
+   "slug": "45-2026-tt-byt",
+   "duong_dan": "wiki/sources/45-2026-tt-byt.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 45/2026/TT-BYT — Sửa đổi quy định về Thực hành tốt sản xuất thuốc, nguyên liệu làm thuốc (hiệu lực 01/01/2027)",
+   "muc": "Nội dung trọng tâm liên quan đến quản lý dược, nguyên liệu làm thuốc & XNK > 3. Quy trình đánh giá, thời hạn khắc phục & điều khoản chuyển tiếp (Điều 5, Điều 7, Điều 15)",
+   "noi_dung": "- **Thời hạn xử lý kết quả đánh giá GMP:**\n  - Đánh giá định kỳ: cơ sở nộp báo cáo khắc phục trong **45 ngày** (khoản 1 Điều 7); cơ quan tiếp nhận đánh giá trong **20 ngày**; gia hạn tối đa thêm **45 ngày** nếu chưa đạt; quá **135 ngày** từ ngày hoàn thiện báo cáo đánh giá mà không có báo cáo hoặc khắc phục vẫn không đạt thì thông báo không đáp ứng GMP.\n  - Mức độ 4: trong **05 ngày làm việc** ban hành thông báo không đáp ứng GMP (Mẫu số 16 Phụ lục I `163/2025/NĐ-CP`), tạm ngừng hoạt động hoặc trình thu hồi GCN đủ điều kiện kinh doanh dược theo Điều 40 Luật Dược ([[sources/105-2016-qh13]]).\n- **Chuyển tiếp (khoản 3 Điều 15):** Hồ sơ nộp trước `01/01/2027` tiếp tục đánh giá theo `28-2025-tt-byt` hoặc theo `45/2026/TT-BYT` nếu cơ sở đề nghị; cơ sở KBCB sản xuất thuốc phóng xạ phải đáp ứng Phụ lục XIII chậm nhất đến **`01/11/2028`**.",
+   "tags": [
+    "thong-tu",
+    "byt",
+    "duoc",
+    "nguyen-lieu-lam-thuoc",
+    "gmp",
+    "sua-doi",
+    "chua-co-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "163/2025/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=214322"
+    },
+    {
+     "so_hieu": "45/2026/TT-BYT",
+     "tinh_trang": "CHUA_CO_HIEU_LUC",
+     "hieu_luc_tu": "2027-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=220160&classid=1"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "45-2026-tt-byt#8",
+   "slug": "45-2026-tt-byt",
+   "duong_dan": "wiki/sources/45-2026-tt-byt.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 45/2026/TT-BYT — Sửa đổi quy định về Thực hành tốt sản xuất thuốc, nguyên liệu làm thuốc (hiệu lực 01/01/2027)",
+   "muc": "Căn cứ pháp lý",
+   "noi_dung": "Các văn bản viện dẫn trong phần căn cứ ban hành Thông tư `45/2026/TT-BYT` (trang 1 PDF `45-byt.signed.pdf`):\n\n- **Luật Dược** số `105/2016/QH13` ([[sources/105-2016-qh13]]), được sửa đổi, bổ sung bởi Luật số `44/2024/QH15` ([[sources/44-2024-qh15]]).\n- **Nghị định `163/2025/NĐ-CP`** ([[sources/163-2025-nd-cp]]) quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Dược.\n- **Nghị định `313/2026/NĐ-CP`** ([[sources/313-2026-nd-cp]]) quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Y tế.",
+   "tags": [
+    "thong-tu",
+    "byt",
+    "duoc",
+    "nguyen-lieu-lam-thuoc",
+    "gmp",
+    "sua-doi",
+    "chua-co-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "45/2026/TT-BYT",
+     "tinh_trang": "CHUA_CO_HIEU_LUC",
+     "hieu_luc_tu": "2027-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=220160&classid=1"
+    },
+    {
+     "so_hieu": "105/2016/QH13",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2017-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/76-vbhn-vpqh.pdf"
+    },
+    {
+     "so_hieu": "44/2024/QH15",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/luat-so-44-2024-qh15-43548.htm"
+    },
+    {
+     "so_hieu": "163/2025/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2025-07-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=214322"
+    },
+    {
+     "so_hieu": "313/2026/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-08-18",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=219136&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "45-2026-tt-byt#9",
+   "slug": "45-2026-tt-byt",
+   "duong_dan": "wiki/sources/45-2026-tt-byt.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 45/2026/TT-BYT — Sửa đổi quy định về Thực hành tốt sản xuất thuốc, nguyên liệu làm thuốc (hiệu lực 01/01/2027)",
+   "muc": "Liên kết",
+   "noi_dung": "### Summary & Concepts liên quan\n\n- [[summary/luat-duoc-va-phan-loai-hs]] — Khung Luật Dược 2016 và tác động đến phân loại hàng hóa, nhập khẩu dược phẩm\n- [[summary/van-ban-sap-het-hieu-luc-2026-2027]] — Các văn bản chuyển giao mốc `01/01/2027` (`SAP_CO_HIEU_LUC`)\n- [[concepts/thuoc-theo-luat-duoc-2016]] — Định nghĩa và phân loại thuốc theo Luật Dược\n- [[concepts/duoc-lieu-theo-luat-duoc-2016]] — Dược liệu, sơ chế, chế biến dược liệu và hệ quả HS\n- [[concepts/kiem-tra-chuyen-nganh]] — Quản lý chuyên ngành hàng hóa xuất nhập khẩu\n\n### Related sources\n\n- [[sources/105-2016-qh13]] & [[sources/44-2024-qh15]] — Luật Dược và Luật sửa đổi, bổ sung một số điều của Luật Dược\n- [[sources/163-2025-nd-cp]] — Nghị định hướng dẫn Luật Dược (căn cứ Mẫu số 16 Phụ lục I và khoản 5 Điều 97 về chứng từ GMP)\n- [[sources/313-2026-nd-cp]] — Nghị định quy định chức năng, nhiệm vụ, cơ cấu tổ chức Bộ Y tế\n- [[sources/14-2024-tt-byt]] — Thông tư hướng dẫn phương pháp chế biến dược liệu và vị thuốc cổ truyền (dẫn chiếu tại Điều 1)\n- `28-2025-tt-byt` — Thông tư gốc về Thực hành tốt sản xuất thuốc, nguyên liệu làm thuốc được sửa đổi từ `01/01/2027` (chưa mở mục riêng trong `registry/van-ban/`)",
+   "tags": [
+    "thong-tu",
+    "byt",
+    "duoc",
+    "nguyen-lieu-lam-thuoc",
+    "gmp",
+    "sua-doi",
+    "chua-co-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "45-2026-tt-byt#10",
+   "slug": "45-2026-tt-byt",
+   "duong_dan": "wiki/sources/45-2026-tt-byt.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 45/2026/TT-BYT — Sửa đổi quy định về Thực hành tốt sản xuất thuốc, nguyên liệu làm thuốc (hiệu lực 01/01/2027)",
+   "muc": "Open questions",
+   "noi_dung": "- Theo dõi bản ban hành chính thức các Phụ lục VI, VII, IX, X, XI (sửa đổi) và Phụ lục XII, XIII (bổ sung) kèm theo `45/2026/TT-BYT` nếu cần tra cứu chi tiết từng mẫu biểu hồ sơ GMP khi triển khai từ `01/01/2027`.\n- Chưa mở mục riêng trong `registry/van-ban/` cho thông tư gốc `28-2025-tt-byt` và `18-2019-tt-byt`.",
+   "tags": [
+    "thong-tu",
+    "byt",
+    "duoc",
+    "nguyen-lieu-lam-thuoc",
+    "gmp",
+    "sua-doi",
+    "chua-co-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "45/2026/TT-BYT",
+     "tinh_trang": "CHUA_CO_HIEU_LUC",
+     "hieu_luc_tu": "2027-01-01",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=220160&classid=1"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "45-2026-tt-byt#11",
+   "slug": "45-2026-tt-byt",
+   "duong_dan": "wiki/sources/45-2026-tt-byt.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 45/2026/TT-BYT — Sửa đổi quy định về Thực hành tốt sản xuất thuốc, nguyên liệu làm thuốc (hiệu lực 01/01/2027)",
+   "muc": "Notes",
+   "noi_dung": "- Đã đọc và trích xuất toàn bộ 15 điều (`data/dieu-khoan-day-du/45-2026-tt-byt.dieu.jsonl`, 20 dòng điều/khoản) từ tệp PDF ký số bậc A `raw/download/datafiles.chinhphu.vn/45-2026-tt-byt.pdf` (`45-byt.signed.pdf`, SHA-256 `dfb3e744c851bfa6694091d5471524b2b8d937a12e98989d3fe04dd22c1f6b92`, ký số Văn phòng Chính phủ ngày `02/11/2026 16:26:29 +07:00`).",
+   "tags": [
+    "thong-tu",
+    "byt",
+    "duoc",
+    "nguyen-lieu-lam-thuoc",
+    "gmp",
+    "sua-doi",
+    "chua-co-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
    "chunk_id": "4502-qd-bkhcn-2026#1",
    "slug": "4502-qd-bkhcn-2026",
    "duong_dan": "wiki/sources/4502-qd-bkhcn-2026.md",
@@ -153261,6 +154000,419 @@
    "muc": "Nguồn & đối chiếu",
    "noi_dung": "- Đã xác minh mức `NGUON_A`.\n- Tham chiếu liên quan: [[concepts/doc-tinh-trang-hieu-luc]].",
    "tags": [],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "63-2026-tt-bct#1",
+   "slug": "63-2026-tt-bct",
+   "duong_dan": "wiki/sources/63-2026-tt-bct.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 63/2026/TT-BCT — Cơ sở dữ liệu thực phẩm và truy xuất nguồn gốc thực phẩm thuộc phạm vi quản lý của Bộ Công Thương",
+   "muc": "Summary",
+   "noi_dung": "**Thông tư 63/2026/TT-BCT** do Thứ trưởng Bộ Công Thương Trương Thanh Hoài ký thay Bộ trưởng ban hành ngày **30/09/2026** (đăng Công báo số 554 ngày `16/10/2026`, trang 62–73), có hiệu lực thi hành kể từ ngày **15/11/2026** (khoản 1 Điều 19) và **thay thế toàn bộ Thông tư `11/2026/TT-BCT`** ngày `27/02/2026` (khoản 2 Điều 19; trước đó `11/2026/TT-BCT` đang tạm ngưng hiệu lực từ `01/10/2026` theo Quyết định `2468-qd-bct`).\n\nVăn bản gồm **05 chương, 19 điều và 01 Phụ lục** (12 trang PDF ký số Công báo), quy định việc tạo lập, quản lý, cập nhật, kết nối, chia sẻ và khai thác **Cơ sở dữ liệu thực phẩm thuộc phạm vi quản lý của Bộ Công Thương**, đồng thời thiết lập khung **truy xuất nguồn gốc thực phẩm** theo nguyên tắc **“một bước trước – một bước sau”** (áp dụng `TCVN 12850:2020` hoặc `GS1 Global Traceability Standard`). Đối với hàng nhập khẩu, **cơ quan kiểm tra nhà nước về thực phẩm nhập khẩu** phải tạo lập, chuyển đổi số và cập nhật dữ liệu kiểm tra ATTP nhập khẩu vào Cơ sở dữ liệu (Điều 16); cơ sở kinh doanh thực phẩm phải lưu trữ hồ sơ truy xuất nguồn gốc tối thiểu **12 tháng** sau hạn sử dụng (hoặc **60 tháng** kể từ ngày sản xuất nếu không ghi HSD), cung cấp trong vòng **24 giờ** khi được yêu cầu (Điều 10) và ghi **số tờ khai hải quan nhập khẩu** vào báo cáo truy xuất sản phẩm không bảo đảm an toàn tại Phụ lục. Tại thời điểm `26/11/2026`, văn bản **đang còn hiệu lực** (`CON_HIEU_LUC`).",
+   "tags": [
+    "thong-tu",
+    "bct",
+    "attp",
+    "truy-xuat-nguon-goc",
+    "du-lieu",
+    "thay-the",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "63/2026/TT-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-11-15",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-63-2026-tt-bct-470687.htm"
+    },
+    {
+     "so_hieu": "11/2026/TT-BCT",
+     "tinh_trang": "TAM_NGUNG_HIEU_LUC",
+     "hieu_luc_tu": "2026-04-16",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=217126"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "63-2026-tt-bct#2",
+   "slug": "63-2026-tt-bct",
+   "duong_dan": "wiki/sources/63-2026-tt-bct.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 63/2026/TT-BCT — Cơ sở dữ liệu thực phẩm và truy xuất nguồn gốc thực phẩm thuộc phạm vi quản lý của Bộ Công Thương",
+   "muc": "Metadata",
+   "noi_dung": "| Thuộc tính | Giá trị theo sổ đăng ký & Công báo số 554 (`63-2026-tt-bct.pdf`) |\n|---|---|\n| **Số hiệu** | `63/2026/TT-BCT` |\n| **Loại văn bản** | Thông tư (`THONG_TU`) |\n| **Cơ quan ban hành** | Bộ Công Thương (`BCT`, Thứ trưởng Trương Thanh Hoài ký ngày `30/09/2026`) |\n| **Ngày ban hành** | `2026-09-30` (`30/09/2026`) |\n| **Hiệu lực từ** | `2026-11-15` (`15/11/2026`, khoản 1 Điều 19) |\n| **Tình trạng hiện tại** | `CON_HIEU_LUC` |\n| **Văn bản bị thay thế** | `11/2026/TT-BCT` (khoản 2 Điều 19; văn bản trước đó đang `TAM_NGUNG_HIEU_LUC` từ `01/10/2026`) |\n| **Mức xác minh** | `NGUON_A` (`hieu_luc_da_doi_chieu: true`) — Công báo số 554 ngày `16/10/2026` (`raw/download/congbaocdn.chinhphu.vn/63-2026-tt-bct.pdf`, 12 trang) & `vanban.chinhphu.vn` (`docid=219785`) |",
+   "tags": [
+    "thong-tu",
+    "bct",
+    "attp",
+    "truy-xuat-nguon-goc",
+    "du-lieu",
+    "thay-the",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "63/2026/TT-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-11-15",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-63-2026-tt-bct-470687.htm"
+    },
+    {
+     "so_hieu": "11/2026/TT-BCT",
+     "tinh_trang": "TAM_NGUNG_HIEU_LUC",
+     "hieu_luc_tu": "2026-04-16",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=217126"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "63-2026-tt-bct#3",
+   "slug": "63-2026-tt-bct",
+   "duong_dan": "wiki/sources/63-2026-tt-bct.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 63/2026/TT-BCT — Cơ sở dữ liệu thực phẩm và truy xuất nguồn gốc thực phẩm thuộc phạm vi quản lý của Bộ Công Thương",
+   "muc": "Tình trạng hiệu lực",
+   "noi_dung": "| Mốc | Sự kiện |\n|---|---|\n| `27/02/2026` | Bộ Công Thương ban hành `11/2026/TT-BCT` quy định về truy xuất nguồn gốc thực phẩm (hiệu lực gốc từ `16/04/2026`, tạm ngưng thi hành từ `01/10/2026`) |\n| `30/09/2026` | Bộ Công Thương ban hành **Thông tư `63/2026/TT-BCT`** (đăng Công báo số 554 ngày `16/10/2026`) |\n| `15/11/2026` | **Có hiệu lực thi hành** và **thay thế toàn bộ `11/2026/TT-BCT`** (Điều 19) |\n| Hiện tại | **Đang còn hiệu lực** (`CON_HIEU_LUC`) |",
+   "tags": [
+    "thong-tu",
+    "bct",
+    "attp",
+    "truy-xuat-nguon-goc",
+    "du-lieu",
+    "thay-the",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "11/2026/TT-BCT",
+     "tinh_trang": "TAM_NGUNG_HIEU_LUC",
+     "hieu_luc_tu": "2026-04-16",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=217126"
+    },
+    {
+     "so_hieu": "63/2026/TT-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-11-15",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-63-2026-tt-bct-470687.htm"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "63-2026-tt-bct#4",
+   "slug": "63-2026-tt-bct",
+   "duong_dan": "wiki/sources/63-2026-tt-bct.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 63/2026/TT-BCT — Cơ sở dữ liệu thực phẩm và truy xuất nguồn gốc thực phẩm thuộc phạm vi quản lý của Bộ Công Thương",
+   "muc": "Cấu trúc (05 chương, 19 điều và 01 Phụ lục — 12 trang PDF Công báo)",
+   "noi_dung": "| Chương / Phần | Điều / Nội dung | Trang PDF |\n|---|---|---|\n| **Chương I. Quy định chung** | Điều 1–4: Phạm vi điều chỉnh; đối tượng áp dụng (gồm cơ quan kiểm tra nhà nước thực phẩm nhập khẩu và cơ sở SXKD thực phẩm); giải thích từ ngữ; nguyên tắc **“một bước trước – một bước sau”** (`TCVN 12850:2020` / `GS1`) | Trang 2 |\n| **Chương II. Cơ sở dữ liệu thực phẩm** | Điều 5–8: Tạo lập từ 3 nguồn dữ liệu; 08 nhóm nội dung dữ liệu; phân công Cục Công nghiệp & Cục KHCN&CĐS quản lý, vận hành; cập nhật, kết nối, chia sẻ với CSDL tổng hợp quốc gia và Cổng thông tin truy xuất nguồn gốc quốc gia | Trang 2–4 |\n| **Chương III. Truy xuất nguồn gốc thực phẩm** | Điều 9–13: Hồ sơ pháp lý & chứng nhận ATTP cần lưu trữ; thời hạn lưu trữ (`12`/`60` tháng) và cung cấp trong `24 giờ`; quy trình truy xuất 06 bước; giám sát xử lý; khai thác CSDL không yêu cầu nộp lại | Trang 5–8 |\n| **Chương IV. Trách nhiệm của cơ quan, tổ chức, cá nhân** | Điều 14–18: Trách nhiệm các đơn vị thuộc Bộ Công Thương; UBND cấp tỉnh; cơ quan kiểm tra nhà nước thực phẩm nhập khẩu & cơ sở kiểm nghiệm; cơ sở SXKD thực phẩm (nhấn mạnh hàng hóa mức độ rủi ro cao); nguồn kinh phí | Trang 8–10 |\n| **Chương V. Tổ chức thực hiện & Phụ lục** | Điều 19 (hiệu lực `15/11/2026`, thay thế `11/2026/TT-BCT`, dẫn chiếu động) & **Phụ lục** (Mẫu báo cáo kết quả truy xuất nguồn gốc thực phẩm không bảo đảm an toàn) | Trang 11–12 |",
+   "tags": [
+    "thong-tu",
+    "bct",
+    "attp",
+    "truy-xuat-nguon-goc",
+    "du-lieu",
+    "thay-the",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "11/2026/TT-BCT",
+     "tinh_trang": "TAM_NGUNG_HIEU_LUC",
+     "hieu_luc_tu": "2026-04-16",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=217126"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "63-2026-tt-bct#5",
+   "slug": "63-2026-tt-bct",
+   "duong_dan": "wiki/sources/63-2026-tt-bct.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 63/2026/TT-BCT — Cơ sở dữ liệu thực phẩm và truy xuất nguồn gốc thực phẩm thuộc phạm vi quản lý của Bộ Công Thương",
+   "muc": "Nội dung chi tiết các quy định nghiệp vụ XNK & ATTP > 1. Đối tượng áp dụng & cơ sở dữ liệu kiểm tra thực phẩm nhập khẩu (Điều 2, Điều 6, Điều 16)",
+   "noi_dung": "- **Đối tượng áp dụng (Điều 2):** Bao gồm các cơ quan quản lý nhà nước, tổ chức đánh giá sự phù hợp, **các cơ quan kiểm tra nhà nước về thực phẩm nhập khẩu** thuộc phạm vi quản lý của Bộ Công Thương và các tổ chức, cá nhân sản xuất, kinh doanh thực phẩm tại Việt Nam (trừ hộ gia đình, cá nhân tự sản xuất, chế biến không kinh doanh).\n- **Nhóm dữ liệu liên quan trực tiếp XNK (khoản 1 Điều 6):**\n  - Dữ liệu về cơ sở sản xuất, kinh doanh thực phẩm; sản phẩm thực phẩm; điều kiện bảo đảm ATTP và **hồ sơ công bố sản phẩm** (điểm a, b, c).\n  - Dữ liệu về **cơ quan kiểm tra nhà nước về an toàn thực phẩm nhập khẩu**, cơ sở kiểm nghiệm phục vụ quản lý nhà nước, cơ sở kiểm nghiệm kiểm chứng và **kết quả thực hiện nhiệm vụ** của các cơ quan này (điểm d).\n  - Dữ liệu về thanh tra, kiểm tra, hậu kiểm, xử lý vi phạm hành chính, cảnh báo, thu hồi, chất lượng/tiêu chuẩn/quy chuẩn kỹ thuật và truy xuất nguồn gốc thực phẩm (điểm đ, e, g).\n- **Trách nhiệm số hóa của cơ quan kiểm tra nhà nước về thực phẩm nhập khẩu (Điều 16):**\n  - Phải tạo lập, chuyển đổi số và cập nhật dữ liệu hình thành trong quá trình thực hiện **kiểm tra nhà nước về ATTP nhập khẩu** và chế độ báo cáo vào CSDL thực phẩm BCT (hoặc chia sẻ tự động nếu đã có trên hệ thống thông tin — khoản 1, khoản 3).\n  - Khi dữ liệu đã có sẵn trong CSDL đáp ứng yêu cầu truy xuất nguồn gốc, cơ quan nhà nước khai thác trực tiếp và **không yêu cầu tổ chức, cá nhân cung cấp lại**, trừ trường hợp cần kiểm tra, xác minh hoặc pháp luật quy định khác (khoản 2 Điều 13).",
+   "tags": [
+    "thong-tu",
+    "bct",
+    "attp",
+    "truy-xuat-nguon-goc",
+    "du-lieu",
+    "thay-the",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "63-2026-tt-bct#6",
+   "slug": "63-2026-tt-bct",
+   "duong_dan": "wiki/sources/63-2026-tt-bct.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 63/2026/TT-BCT — Cơ sở dữ liệu thực phẩm và truy xuất nguồn gốc thực phẩm thuộc phạm vi quản lý của Bộ Công Thương",
+   "muc": "Nội dung chi tiết các quy định nghiệp vụ XNK & ATTP > 2. Nghĩa vụ lưu trữ, cung cấp hồ sơ & kết nối dữ liệu của doanh nghiệp thực phẩm (Điều 9, Điều 10, Điều 17)",
+   "noi_dung": "| Nghĩa vụ | Quy định tại `63/2026/TT-BCT` |\n|---|---|\n| **Hồ sơ thiết lập & lưu trữ (Điều 9)** | (a) Tên, địa chỉ, liên hệ, mã số doanh nghiệp; (b) GCN ĐKKD / ĐKDN; (c) GCN cơ sở đủ điều kiện ATTP (nếu thuộc diện); (d) Chứng nhận GMP, HACCP, ISO 22000, IFS, BRC, FSSC 22000 hoặc tương đương còn hiệu lực đối với đối tượng điểm k khoản 1 Điều 12 `15/2018/NĐ-CP` ([[sources/15-2018-nd-cp]]). |\n| **Thời hạn lưu trữ (khoản 2 Điều 10)** | Tối thiểu **12 tháng** kể từ ngày hết hạn sử dụng (đối với sản phẩm có HSD) hoặc **60 tháng** kể từ ngày sản xuất (đối với sản phẩm không bắt buộc ghi HSD). |\n| **Thời hạn cung cấp khi bị yêu cầu (khoản 3 Điều 10)** | Bảo đảm cung cấp đầy đủ hồ sơ, tài liệu truy xuất nguồn gốc **trong vòng 24 giờ** kể từ khi cơ quan có thẩm quyền yêu cầu. |\n| **Kết nối dữ liệu lên CSDL BCT (khoản 4, 5 Điều 17)** | **Khuyến khích** cơ sở SXKD kết nối, cung cấp thông tin lên CSDL thực phẩm BCT; **bắt buộc** thực hiện truy xuất nguồn gốc và cung cấp thông tin lên **Hệ thống CSDL truy xuất nguồn gốc hàng hóa rủi ro cao của Bộ Công Thương** đối với sản phẩm thuộc Danh mục sản phẩm, hàng hóa có mức độ rủi ro cao (theo khung `37/2026/NĐ-CP` [[sources/37-2026-nd-cp]]). |",
+   "tags": [
+    "thong-tu",
+    "bct",
+    "attp",
+    "truy-xuat-nguon-goc",
+    "du-lieu",
+    "thay-the",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "63/2026/TT-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-11-15",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-63-2026-tt-bct-470687.htm"
+    },
+    {
+     "so_hieu": "15/2018/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2018-02-02",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "46/2026/NĐ-CP"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=192829&pageid=27160"
+    },
+    {
+     "so_hieu": "37/2026/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-01-23",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=216764&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "63-2026-tt-bct#7",
+   "slug": "63-2026-tt-bct",
+   "duong_dan": "wiki/sources/63-2026-tt-bct.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 63/2026/TT-BCT — Cơ sở dữ liệu thực phẩm và truy xuất nguồn gốc thực phẩm thuộc phạm vi quản lý của Bộ Công Thương",
+   "muc": "Nội dung chi tiết các quy định nghiệp vụ XNK & ATTP > 3. Quy trình truy xuất nguồn gốc & khai báo số tờ khai hải quan nhập khẩu (Điều 11 & Phụ lục)",
+   "noi_dung": "- Khi tự giám sát phát hiện thực phẩm không bảo đảm an toàn hoặc khi có yêu cầu của cơ quan có thẩm quyền (Điều 12), cơ sở sản xuất/kinh doanh thực hiện quy trình truy xuất tại **Điều 11** (trang 7 PDF): xác định thông tin lô sản phẩm, rà soát hồ sơ sản xuất/kiểm nghiệm, liên hệ nhà cung cấp nguyên liệu/bao bì, gửi thông báo khẩn đến nhà phân phối/đại lý để thống kê số lượng đã bán và tồn kho, xác định nguyên nhân và lập **Báo cáo kết quả truy xuất nguồn gốc** theo Biểu mẫu tại **Phụ lục** (trang 12 PDF).\n- **Điểm lưu ý cho hàng nhập khẩu:** Biểu mẫu Báo cáo tại **Phụ lục** (mục 1 *Thông tin về sản phẩm*) yêu cầu khai bắt buộc **“Số tờ khai hải quan nhập khẩu của lô hàng nhập khẩu (đối với sản phẩm nhập khẩu)”** cùng tên sản phẩm, quy cách bao gói, số lô/mẻ, ngày sản xuất/hạn dùng, số lượng đã nhập khẩu, số đã tiêu thụ, số tồn kho và địa điểm tập kết.",
+   "tags": [
+    "thong-tu",
+    "bct",
+    "attp",
+    "truy-xuat-nguon-goc",
+    "du-lieu",
+    "thay-the",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "63-2026-tt-bct#8",
+   "slug": "63-2026-tt-bct",
+   "duong_dan": "wiki/sources/63-2026-tt-bct.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 63/2026/TT-BCT — Cơ sở dữ liệu thực phẩm và truy xuất nguồn gốc thực phẩm thuộc phạm vi quản lý của Bộ Công Thương",
+   "muc": "Căn cứ pháp lý",
+   "noi_dung": "Các văn bản viện dẫn trong phần căn cứ ban hành Thông tư `63/2026/TT-BCT` (trang 1–2 PDF, trang 62–63 Công báo):\n\n- **Nghị định `15/2018/NĐ-CP`** ([[sources/15-2018-nd-cp]]) quy định chi tiết thi hành một số điều của Luật An toàn thực phẩm.\n- **Nghị định `37/2026/NĐ-CP`** ([[sources/37-2026-nd-cp]]) quy định chi tiết Luật Chất lượng sản phẩm, hàng hóa.\n- **Nghị định `351/2026/NĐ-CP`** ([[sources/351-2026-nd-cp]]) quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Công Thương.\n- Các nghị định chưa mở mục riêng trong `registry/van-ban/`: `55-2024-nd-cp` (chi tiết Luật Bảo vệ quyền lợi người tiêu dùng), `165-2025-nd-cp` (chi tiết Luật Dữ liệu), `278-2025-nd-cp` (kết nối, chia sẻ dữ liệu bắt buộc), `224-2026-nd-cp` (chi tiết Luật Chuyển đổi số).",
+   "tags": [
+    "thong-tu",
+    "bct",
+    "attp",
+    "truy-xuat-nguon-goc",
+    "du-lieu",
+    "thay-the",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "63/2026/TT-BCT",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-11-15",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-63-2026-tt-bct-470687.htm"
+    },
+    {
+     "so_hieu": "15/2018/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2018-02-02",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [
+      "46/2026/NĐ-CP"
+     ],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=192829&pageid=27160"
+    },
+    {
+     "so_hieu": "37/2026/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-01-23",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=216764&pageid=27160"
+    },
+    {
+     "so_hieu": "351/2026/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-09-15",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=219447&pageid=27160"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "63-2026-tt-bct#9",
+   "slug": "63-2026-tt-bct",
+   "duong_dan": "wiki/sources/63-2026-tt-bct.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 63/2026/TT-BCT — Cơ sở dữ liệu thực phẩm và truy xuất nguồn gốc thực phẩm thuộc phạm vi quản lý của Bộ Công Thương",
+   "muc": "Liên kết",
+   "noi_dung": "### Summary & Concepts liên quan\n\n- [[summary/khung-kiem-tra-chuyen-nganh-2026]] — Tổng quan khung kiểm tra chuyên ngành hàng nhập khẩu từ 2026 (ATTP & phân mức rủi ro)\n- [[concepts/kiem-tra-nha-nuoc-an-toan-thuc-pham]] — Kiểm tra nhà nước về an toàn thực phẩm nhập khẩu\n- [[concepts/ktcl-bct-2026]] — Danh mục và quản lý chất lượng sản phẩm hàng hóa Bộ Công Thương từ 2026\n- [[concepts/muc-do-rui-ro-hang-hoa]] — Ba mức độ rủi ro theo NĐ 37/2026/NĐ-CP (liên hệ nghĩa vụ truy xuất hàng rủi ro cao tại khoản 5 Điều 17)\n\n### Related sources\n\n- [[sources/28-2026-tt-bct]] — Danh mục mặt hàng nhập khẩu kèm mã HS phải kiểm tra nhà nước về ATTP thuộc trách nhiệm Bộ Công Thương\n- [[sources/15-2018-nd-cp]] — Nghị định hướng dẫn Luật An toàn thực phẩm (dẫn chiếu điểm k khoản 1 Điều 12 tại Điều 9)\n- [[sources/37-2026-nd-cp]] — Nghị định hướng dẫn Luật Chất lượng sản phẩm, hàng hóa\n- [[sources/351-2026-nd-cp]] — Nghị định quy định chức năng, nhiệm vụ, cơ cấu tổ chức Bộ Công Thương\n- `11/2026/TT-BCT` (`TAM_NGUNG_HIEU_LUC`) — Thông tư về truy xuất nguồn gốc thực phẩm BCT bị thay thế bởi Thông tư này từ `15/11/2026` (chưa có trang riêng trong `wiki/sources/`)",
+   "tags": [
+    "thong-tu",
+    "bct",
+    "attp",
+    "truy-xuat-nguon-goc",
+    "du-lieu",
+    "thay-the",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "37/2026/NĐ-CP",
+     "tinh_trang": "CON_HIEU_LUC",
+     "hieu_luc_tu": "2026-01-23",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?docid=216764&pageid=27160"
+    },
+    {
+     "so_hieu": "11/2026/TT-BCT",
+     "tinh_trang": "TAM_NGUNG_HIEU_LUC",
+     "hieu_luc_tu": "2026-04-16",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=217126"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "63-2026-tt-bct#10",
+   "slug": "63-2026-tt-bct",
+   "duong_dan": "wiki/sources/63-2026-tt-bct.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 63/2026/TT-BCT — Cơ sở dữ liệu thực phẩm và truy xuất nguồn gốc thực phẩm thuộc phạm vi quản lý của Bộ Công Thương",
+   "muc": "Open questions",
+   "noi_dung": "- Theo dõi văn bản của Bộ trưởng Bộ Công Thương ban hành **Danh mục, cấu trúc và mô tả dữ liệu** chi tiết của Cơ sở dữ liệu thực phẩm theo khoản 2 Điều 6 để phục vụ tích hợp kỹ thuật cho doanh nghiệp nhập khẩu thực phẩm.\n- Khi `28-2026-tt-bct` được bổ sung đầy đủ danh mục HS và `11/2026/TT-BCT` được chốt trạng thái `HET_HIEU_LUC` sau khi bị thay thế, cần đối chiếu chéo danh mục hàng rủi ro cao BCT phục vụ khoản 5 Điều 17.",
+   "tags": [
+    "thong-tu",
+    "bct",
+    "attp",
+    "truy-xuat-nguon-goc",
+    "du-lieu",
+    "thay-the",
+    "con-hieu-luc"
+   ],
+   "confidence": "high",
+   "van_ban_lien_quan": [
+    {
+     "so_hieu": "11/2026/TT-BCT",
+     "tinh_trang": "TAM_NGUNG_HIEU_LUC",
+     "hieu_luc_tu": "2026-04-16",
+     "het_hieu_luc_tu": null,
+     "hieu_luc_da_doi_chieu": true,
+     "bi_thay_the_boi": [],
+     "bi_bai_bo_boi": [],
+     "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=217126"
+    }
+   ],
+   "canh_bao_hieu_luc": false
+  },
+  {
+   "chunk_id": "63-2026-tt-bct#11",
+   "slug": "63-2026-tt-bct",
+   "duong_dan": "wiki/sources/63-2026-tt-bct.md",
+   "loai_trang": "sources",
+   "tieu_de": "TT 63/2026/TT-BCT — Cơ sở dữ liệu thực phẩm và truy xuất nguồn gốc thực phẩm thuộc phạm vi quản lý của Bộ Công Thương",
+   "muc": "Notes",
+   "noi_dung": "- Đã đọc và trích xuất toàn bộ 19 điều (`data/dieu-khoan-day-du/63-2026-tt-bct.dieu.jsonl`) cùng trang căn cứ và Phụ lục từ tệp PDF ký số Công báo số 554 ngày `16/10/2026` (`raw/download/congbaocdn.chinhphu.vn/63-2026-tt-bct.pdf`, 12 trang, SHA-256 `3ef291cf3bf763363afa4cbb05ecf0ec266a9d30f4ac605eadaca8a2ebd54fac`).",
+   "tags": [
+    "thong-tu",
+    "bct",
+    "attp",
+    "truy-xuat-nguon-goc",
+    "du-lieu",
+    "thay-the",
+    "con-hieu-luc"
+   ],
    "confidence": "high",
    "van_ban_lien_quan": [],
    "canh_bao_hieu_luc": false
