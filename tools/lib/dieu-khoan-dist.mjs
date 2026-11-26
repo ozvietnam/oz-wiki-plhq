@@ -4,6 +4,7 @@ import { join } from 'node:path';
 import { ROOT, bacNguon, homNay, LUOC_DO_PHIEN_BAN } from './registry.mjs';
 import { docCsv, kiemDanhMucCas, COT_CAS } from './danh-muc.mjs';
 import { khoaDieuDich, napSuaDoiDieu, tinhTrangThaiDieu } from './sua-doi-dieu.mjs';
+import { LOP_DU_LIEU, tinhVanTay, idDieuKhoan, nutBieuHs, idCas } from './van-tay.mjs';
 
 export const GIAY_PHEP = 'CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/';
 export const MIEN_TRU = 'Tham khảo, không phải tư vấn pháp lý. Xem và đối chiếu văn bản gốc nguồn bậc A trước khi áp dụng.';
@@ -255,7 +256,9 @@ export function dungDieuKhoan(so, root = ROOT, today = homNay()) {
       const lichSu = kd ? (suaDoi.theoDich.get(kd) || []) : [];
       if (lichSu.length > 0 && kd) dieuCoLichSu.add(kd);
       return {
+        id: idDieuKhoan(d._slug, c.dieu, c.khoan, c.diem),
         ...c,
+        van: tinhVanTay(c.noi_dung || ''),
         trang_thai_dieu: tinhTrangThaiDieu(lichSu),
         lich_su_tac_dong: lichSu,
       };
@@ -270,6 +273,7 @@ export function dungDieuKhoan(so, root = ROOT, today = homNay()) {
       hieu_luc_da_doi_chieu: d.xac_minh?.hieu_luc_da_doi_chieu === true,
       nguon_a: nguonADauTien(d, so.nguon),
       tang_tin_cay: 'NGUYEN_VAN_NGUON_A',
+      lop_du_lieu: LOP_DU_LIEU.LUAT,
       dieu_khoan: enriched,
     });
   }
@@ -324,6 +328,7 @@ export function dungDieuKhoan(so, root = ROOT, today = homNay()) {
           het_hieu_luc_tu: d?.het_hieu_luc_tu || null,
           nguon_a: nguonADauTien(d, so.nguon),
           tang_tin_cay: 'TOM_TAT_NHAP',
+          lop_du_lieu: LOP_DU_LIEU.BO_TRO,
           da_soat: false,
           dieu_khoan: items,
         });
@@ -341,6 +346,11 @@ export function dungDieuKhoan(so, root = ROOT, today = homNay()) {
   return {
     phien_ban: today,
     luoc_do_phien_ban: LUOC_DO_PHIEN_BAN,
+    lop_du_lieu: LOP_DU_LIEU.LUAT,
+    lop_du_lieu_khoi: {
+      nguyen_van_nguon_a: LOP_DU_LIEU.LUAT,
+      tom_tat_nhap: LOP_DU_LIEU.BO_TRO,
+    },
     giay_phep: GIAY_PHEP,
     mien_tru: MIEN_TRU,
     canh_bao_tang_nhap: CANH_BAO_TANG_NHAP,
@@ -367,6 +377,7 @@ export function dungCasIndex(so, root = ROOT, today = homNay()) {
   const dmDir = join(root, 'danh-muc');
   const theo_cas = {};
   const khong_co_cas = [];
+  const idxBySlug = new Map();
   let soTep = 0;
   let soTepLoi = 0;
   let tongDong = 0;
@@ -400,7 +411,10 @@ export function dungCasIndex(so, root = ROOT, today = homNay()) {
       for (const r of rows) {
         tongDong += 1;
         const o = Object.fromEntries(COT_CAS.map((c, j) => [c, (r[j] ?? '').trim()]));
+        const idx = idxBySlug.get(vbMeta.slug) || 0;
+        idxBySlug.set(vbMeta.slug, idx + 1);
         const entry = {
+          id: idCas(o.cas, vbMeta.slug, idx),
           cas: o.cas || null,
           ten_chat: o.ten_chat,
           ma_hoa_chat: o.ma_hoa_chat || null,
@@ -412,6 +426,17 @@ export function dungCasIndex(so, root = ROOT, today = homNay()) {
           nhom: o.nhom || null,
           nguong_kg: o.nguong_kg || null,
           nguon: o.nguon,
+          ...(o.ma_hs && /^\d{4}(\d{2})?(\d{2})?$/.test(o.ma_hs) ? { nut_bieu: nutBieuHs(o.ma_hs) } : {}),
+          van: tinhVanTay({
+            cas: o.cas || null,
+            ten_hoa_chat: o.ten_hoa_chat ?? o.ten_chat ?? null,
+            cong_thuc: o.cong_thuc || null,
+            ma_hs: o.ma_hs || null,
+            phu_luc: o.phu_luc || null,
+            muc: o.muc || null,
+            nguong_kg: o.nguong_kg || null,
+            so_hieu: vbMeta.so_hieu,
+          }),
           ...vbMeta,
         };
         if (o.cas) {
@@ -427,6 +452,7 @@ export function dungCasIndex(so, root = ROOT, today = homNay()) {
   return {
     phien_ban: today,
     luoc_do_phien_ban: LUOC_DO_PHIEN_BAN,
+    lop_du_lieu: LOP_DU_LIEU.LUAT,
     giay_phep: GIAY_PHEP,
     mien_tru: MIEN_TRU,
     thong_ke: {

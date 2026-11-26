@@ -4,6 +4,7 @@ import { readFileSync, readdirSync, existsSync } from 'node:fs';
 import { join, basename } from 'node:path';
 import yaml from 'js-yaml';
 import { ROOT, khoa, bacNguon, dungDoThi, homNay, LUOC_DO_PHIEN_BAN } from './registry.mjs';
+import { LOP_DU_LIEU } from './van-tay.mjs';
 
 export const GIAY_PHEP = 'CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/';
 export const MIEN_TRU = 'Tham khảo, không phải tư vấn pháp lý. Xem và đối chiếu văn bản gốc nguồn bậc A trước khi áp dụng.';
@@ -224,6 +225,7 @@ export function dungWikiDist(so, root = ROOT, today = homNay()) {
   const chung = {
     phien_ban: today,
     luoc_do_phien_ban: LUOC_DO_PHIEN_BAN,
+    lop_du_lieu: LOP_DU_LIEU.BO_TRO,
     giay_phep: GIAY_PHEP,
     ghi_nguon_chuan: ghiNguonChuan(today),
     mien_tru: MIEN_TRU,

@@ -60,7 +60,7 @@ function soGia(vanBan, { wiki = {}, docHieu = {}, danhMuc = {}, extra = {} } = {
 
 try {
   // 1. Phiên bản lược đồ
-  t(`lược đồ: LUOC_DO_PHIEN_BAN = ${LUOC_DO_PHIEN_BAN}`, LUOC_DO_PHIEN_BAN === '1.6.0');
+  t(`lược đồ: LUOC_DO_PHIEN_BAN = ${LUOC_DO_PHIEN_BAN}`, LUOC_DO_PHIEN_BAN === '1.7.0');
 
   // 2. Regex + frontmatter + tachChunks
   const hitsRe = 'Theo 28/2026/TT-BCT, 08/2015/NĐ-CP, 1182/QĐ-BCT và 54/2014/QH13.'.match(RE_SO_HIEU_WIKI) || [];
@@ -419,20 +419,25 @@ try {
     'dieu-khoan.json',
     'cas-index.json',
     'chinh-sach-mo-ta.json',
+    'manifest.json',
   ];
   const allPresent = expectedFiles.every((f) => existsSync(join(tmpOut, 'dist', f)));
   const allSchemaOk = allPresent && expectedFiles.every((f) => {
     const obj = JSON.parse(readFileSync(join(tmpOut, 'dist', f), 'utf8'));
     return obj.luoc_do_phien_ban === LUOC_DO_PHIEN_BAN;
   });
+  const manifestOut = allPresent ? JSON.parse(readFileSync(join(tmpOut, 'dist', 'manifest.json'), 'utf8')) : null;
   const hsTheoMaOut = allPresent ? JSON.parse(readFileSync(join(tmpOut, 'dist', 'hs-index-theo-ma.json'), 'utf8')) : null;
   const csOutFile = allPresent ? JSON.parse(readFileSync(join(tmpOut, 'dist', 'chinh-sach-mo-ta.json'), 'utf8')) : null;
   const dkOutFile = allPresent ? JSON.parse(readFileSync(join(tmpOut, 'dist', 'dieu-khoan.json'), 'utf8')) : null;
   const noBoundaryLeak = !existsSync(join(tmpOut, 'dist', 'chu-giai-hs.json'))
     && !existsSync(join(tmpOut, 'dist', 'chu-giai-chuong.json'));
-  t(`CLI tools/dung.mjs --out tmpdir: xuất đủ 8 tệp dist/*.json (luoc_do_phien_ban = ${LUOC_DO_PHIEN_BAN}), không sinh chu-giai-hs/chuong`,
+  t(`CLI tools/dung.mjs --out tmpdir: xuất đủ 9 tệp dist/*.json (luoc_do_phien_ban = ${LUOC_DO_PHIEN_BAN}), không sinh chu-giai-hs/chuong`,
     allPresent && allSchemaOk && noBoundaryLeak && dungJson(napSo(rWiki)).luoc_do_phien_ban === LUOC_DO_PHIEN_BAN
     && dungStdout.includes('dist/chinh-sach-mo-ta.json')
+    && dungStdout.includes('dist/manifest.json')
+    && manifestOut?.luoc_do_phien_ban === LUOC_DO_PHIEN_BAN
+    && manifestOut?.tong_tep === 8
     && hsTheoMaOut?.anh_xa_ahtn_cu?.tong_duoc_anh_xa >= 100
     && csOutFile?.tong_quy_tac === 14
     && Object.keys(csOutFile?.tu_dien_viet_tat || {}).length === 25
