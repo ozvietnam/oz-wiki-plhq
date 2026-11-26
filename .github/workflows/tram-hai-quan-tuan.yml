@@ -1,0 +1,88 @@
+name: tram-hai-quan-tuan
+# Định kỳ Thứ Tư & Thứ Bảy 05:30 giờ VN (22:30 UTC):
+#   Quét trang Văn bản mới của Cổng Hải quan (`customs.gov.vn` SPA) bằng Chromium headless lịch sự
+#   (1 context tuần tự, delay >= 1500ms, dừng ngay nếu gặp CAPTCHA/Turnstile),
+#   dựng stub YAML nguồn bậc A qua `nap-stub-radar.mjs`, kiểm `npm test` và mở/cập nhật PR `auto/nap-hai-quan`.
+on:
+  schedule:
+    - cron: '30 22 * * 3,6'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Chỉ ghi Job Summary, không dựng stub hay mở/cập nhật PR'
+        type: boolean
+        required: false
+        default: false
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+  actions: write
+concurrency:
+  group: tram-hai-quan-tuan
+  cancel-in-progress: false
+jobs:
+  quet-hai-quan-headless:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Cài Playwright & trình duyệt Chromium headless
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - name: Lấy danh sách issue radar đã báo
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue list --repo "$GITHUB_REPOSITORY" --label radar --state all --limit 200 --json title,body > /tmp/da-bao-hq.json || echo '[]' > /tmp/da-bao-hq.json
+      - name: Quét Cổng Hải quan (customs.gov.vn) bằng Chromium headless
+        run: |
+          set -euo pipefail
+          node tools/tram-hai-quan-headless.mjs --bat-buoc-playwright --khong-chan-mang --bo-qua-json data/radar-bo-qua.json --da-bao-json /tmp/da-bao-hq.json --json --markdown /tmp/tram-hai-quan.md > /tmp/tram-hai-quan.json
+          cat /tmp/tram-hai-quan.md >> "$GITHUB_STEP_SUMMARY"
+          node -e '
+            const fs = require("fs");
+            const r = JSON.parse(fs.readFileSync("/tmp/tram-hai-quan.json", "utf8"));
+            const moiCount = Array.isArray(r.moi) ? r.moi.length : 0;
+            fs.appendFileSync(process.env.GITHUB_ENV, `HQ_MOI_COUNT=${moiCount}\nHQ_TRANG_THAI=${r.trang_thai || ""}\n`);
+            if (r.trang_thai === "BI_CHAN_CAPTCHA") {
+              console.log("::warning::Trạm Hải quan headless gặp cổng thử thách CAPTCHA/Turnstile (BI_CHAN_CAPTCHA) — đã dừng ngay theo quy tắc an toàn.");
+            }
+          '
+      - name: Dựng stub YAML tự động & mở/cập nhật PR auto/nap-hai-quan
+        if: ${{ github.event.inputs.dry_run != 'true' && env.HQ_MOI_COUNT != '0' }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          node tools/nap-stub-radar.mjs --tu-radar /tmp/tram-hai-quan.json --json --markdown /tmp/nap-hai-quan.md > /tmp/nap-hai-quan.json
+          cat /tmp/nap-hai-quan.md >> "$GITHUB_STEP_SUMMARY"
+          if [ -z "$(git status --porcelain registry/van-ban)" ]; then
+            echo "Không có thay đổi stub mới trong registry/van-ban."
+            exit 0
+          fi
+          npm test
+          BRANCH="auto/nap-hai-quan"
+          git config user.name "kb-bot"
+          git config user.email "kb-bot@users.noreply.github.com"
+          git checkout -B "$BRANCH"
+          git add registry/van-ban
+          if git diff --cached --quiet; then
+            echo "Không có thay đổi đã stage để commit."
+            exit 0
+          fi
+          PR_TITLE="chore(hai-quan): dựng stub tự động văn bản Hải quan mới $(date -u +%F)"
+          git commit -m "$PR_TITLE"
+          git push -f origin "HEAD:refs/heads/${BRANCH}"
+          PR_NUM=$(gh pr list --repo "$GITHUB_REPOSITORY" --head "$BRANCH" --base main --state open --json number --jq '.[0].number // empty' || true)
+          if [ -n "$PR_NUM" ]; then
+            gh pr edit "$PR_NUM" --repo "$GITHUB_REPOSITORY" --title "$PR_TITLE" --body-file /tmp/nap-hai-quan.md || echo "::warning::Không cập nhật được PR #${PR_NUM}"
+          else
+            gh pr create --repo "$GITHUB_REPOSITORY" --base main --head "$BRANCH" --title "$PR_TITLE" --body-file /tmp/nap-hai-quan.md || echo "::warning::Không tạo được PR cho ${BRANCH} (commit đã được đẩy)"
+          fi
+          gh workflow run kiem-tra.yml --ref "$BRANCH" || echo "::warning::Không kích hoạt được workflow kiem-tra.yml"
