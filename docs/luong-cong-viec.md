@@ -28,6 +28,7 @@ Mỗi luồng có nhãn GitHub riêng (`luong:<id>`), đầu vào, đầu ra và
 - **Đầu ra:** mỗi văn bản mới một tệp trong `registry/van-ban/` (dùng `node tools/them-van-ban.mjs "<số hiệu>" --ten ... --url ... --nhanh ...`), `tinh_trang: CHUA_XAC_MINH` nếu chưa chắc. Thay/sửa văn bản cũ thì ghi luôn `quan_he`.
 - **Xong khi:** PR có văn bản mới + nguồn; nếu thay văn bản cũ thì báo điểm mù `MAU_THUAN_HIEU_LUC` đã hết.
 - **Cho agent:** chạy theo lịch (vd mỗi sáng), so với sổ bằng `khoa()` trong `tools/lib/registry.mjs` để không tạo trùng. Một PR một nhóm văn bản cùng ngày.
+- **Tự động hoá hằng ngày:** `node tools/radar-luat-moi.mjs` (`npm run radar:luat-moi`) chạy qua [`.github/workflows/radar-va-hieu-luc.yml`](../.github/workflows/radar-va-hieu-luc.yml) lúc 06:30 VN hằng ngày — quét RSS Công báo & `vanban.chinhphu.vn`, đối chiếu sổ và issue `[radar]` đã mở để mở issue mới với nhãn `radar,luong:do-tham`.
 
 ## 2. Hệ thống hoá — `luong:he-thong-hoa`
 
@@ -43,6 +44,7 @@ Mỗi luồng có nhãn GitHub riêng (`luong:<id>`), đầu vào, đầu ra và
 - **Phân biệt kỹ:** *thay thế* (cả văn bản) ≠ *sửa đổi* (một phần) ≠ *bãi bỏ* (không có văn bản thay) ≠ *tạm ngưng* (chưa bị bãi bỏ, có thể sống lại — vd NĐ 46/2026 thay NĐ 15/2018 nhưng đang tạm ngưng nên NĐ 15/2018 vẫn áp dụng).
 - **Đầu vào:** điểm mù `MAU_THUAN_HIEU_LUC`, `SAP_HET_HIEU_LUC`, `SAP_CO_HIEU_LUC`, `HUONG_DAN_MO_COI`, `HIEU_LUC_CHUA_DOI_CHIEU`, `HS_API_UU_TIEN_DOI_CHIEU`.
 - **Trước khi săn hàng đợi HS_API:** `node tools/san-hieu-luc.mjs` — chỉ làm mục «Làm được ngay». Mục đã `xac_minh.chan` nằm ở `HS_API_CHO_MO_CHAN` (Thấp): đừng săn lặp.
+- **Canh hiệu lực tự động hằng ngày:** `node tools/canh-hieu-luc.mjs` (`npm run canh:hieu-luc`) chạy lúc 06:30 VN trong [`.github/workflows/radar-va-hieu-luc.yml`](../.github/workflows/radar-va-hieu-luc.yml) — tổng hợp văn bản đến hạn cắt chuyển ngày G (tự chạy `tools/chuyen-hieu-luc.mjs --ghi` và mở PR `auto/chuyen-hieu-luc-YYYY-MM-DD` khi `npm test` xanh), danh sách sắp hết / sắp có hiệu lực trong 30 & 60 ngày và hàng đợi săn hiệu lực để mở/cập nhật issue `luong:hieu-luc`.
 - **Xong khi:** đặt `xac_minh.hieu_luc_da_doi_chieu: true` + `ngay` + `boi` **chỉ sau khi** mở nguồn bậc A (và xóa `chan` nếu có).
 
 ## 4. Truy vết nguồn uy tín — `luong:truy-vet-nguon`
@@ -56,6 +58,7 @@ Mỗi luồng có nhãn GitHub riêng (`luong:<id>`), đầu vào, đầu ra và
 
 - **Mục tiêu:** có bản gốc toàn văn trong kho để đọc, đối chiếu, trích dẫn.
 - **Công cụ:** `node tools/nap.mjs <url> --so-hieu "<số hiệu>" --ghi` → `raw/download/<tên miền>/<slug>.pdf|html` + `.nguon.json` (url, ngày, sha256, bậc nguồn) + `.txt` sạch với HTML. Trang giới thiệu có link PDF thì công cụ gợi ý tải PDF.
+- **Tự tải toàn văn theo lô hằng ngày:** `node tools/tu-tai-toan-van.mjs [--limit N] [--slug <slug>] [--dry-run]` chạy tự động lúc 07:00 VN qua [`.github/workflows/tu-tai-toan-van.yml`](../.github/workflows/tu-tai-toan-van.yml) (runner `ubuntu-26.04` + `poppler-utils` ghim bản) — chọn ứng viên còn thiếu toàn văn / vỏ HTML, tải PDF nguồn bậc A, trích điều khoản đầy đủ, kiểm cổng `kiem-tra-dieu-khoan.mjs` + `npm test` rồi mở/cập nhật PR `auto/tu-tai-toan-van`.
 - **Quy tắc:** `raw/` bất biến — không sửa, không xoá; nội dung khác cùng tên thì báo lỗi (có thể văn bản đã bị sửa ở nguồn → mở issue hiệu lực). PDF quét ảnh: ghi chú để luồng 9 OCR, không tự gõ lại.
 - **Xong khi:** `toan_van` có trong tệp sổ, điểm mù `KHONG_TOAN_VAN` biến mất.
 
