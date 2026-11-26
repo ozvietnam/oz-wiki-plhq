@@ -1,7 +1,7 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 45/2026/TT-BYT
 loai: THONG_TU
-ten: Sửa đổi, bổ sung một số điều của Thông tư 28/2025/TT-BYT về quản lý nguyên liệu làm thuốc
+ten: Sửa đổi, bổ sung một số điều tại Thông tư số 28/2025/TT-BYT ngày 01/7/2025 của Bộ trưởng Bộ Y tế quy định về Thực hành tốt sản xuất thuốc, nguyên liệu làm thuốc
 co_quan: BYT
 ngay_ban_hanh: '2026-11-01'
 hieu_luc_tu: '2027-01-01'
@@ -14,10 +14,10 @@ nguon:
   - url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/11/45-byt.signed.pdf
     truy_cap: '2026-11-26'
 xac_minh:
-  muc: NGUON_THU_CAP
-  pham_vi: số hiệu + tên + ngày ban hành 01-11-2026, hiệu lực 01-01-2027 (đối chiếu trang văn bản vanban.chinhphu.vn docid 220160 ngày 26-11-2026; bản đầu nạp từ tổng hợp TVPL tuần 23-25/11); cần toàn văn bản gốc khi lên A
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-11-25'
-  boi: zcode@ozvietnam
+  muc: NGUON_A
+  pham_vi: đối chiếu toàn văn PDF ký số 45-byt.signed.pdf trên datafiles.chinhphu.vn + vanban.chinhphu.vn (docid 220160); ban hành 01-11-2026, hiệu lực 01-01-2027
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-26'
+  boi: antigravity@ozvietnam
 ghi_chu: Trinh thám đêm 25/11 (giải nốt mục treo từ 23/11). Nguyên liệu làm thuốc — đụng GP nhập nguyên liệu dược, khớp NQ 20/11 về cấp phép nhập nguyên liệu sản xuất thuốc XK.
 toan_van: raw/download/datafiles.chinhphu.vn/45-2026-tt-byt.pdf

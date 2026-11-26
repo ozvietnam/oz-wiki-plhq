@@ -1,20 +1,27 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 63/2026/TT-BCT
 loai: THONG_TU
-ten: 'Quy định về cơ sở dữ liệu thực phẩm thuộc phạm vi quản lý của Bộ Công Thương'
+ten: Quy định về cơ sở dữ liệu thực phẩm thuộc phạm vi quản lý của Bộ Công Thương
 co_quan: BCT
-ngay_ban_hanh: '2026-10-15'
+ngay_ban_hanh: '2026-09-30'
 hieu_luc_tu: '2026-11-15'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - kiem-tra-chuyen-nganh/bct
 nguon:
+  - url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-63-2026-tt-bct-470687.htm
+    truy_cap: '2026-11-26'
+  - url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/10/16/470687-1792122999_v1_1792133712_signed.pdf
+    truy_cap: '2026-11-26'
+  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=219785
+    truy_cap: '2026-11-26'
   - url: https://tqc.vn/thong-tu-63-2026-tt-bct-doanh-nghiep-thuc-pham.htm
     truy_cap: '2026-11-25'
 xac_minh:
-  muc: NGUON_THU_CAP
-  pham_vi: 'số hiệu + tên + hiệu lực 15-11-2026 (tqc.vn phân tích 5 nội dung DN phải thực hiện); ngày ban hành 15-10-2026 cần đối chiếu bản gốc'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-11-25'
-  boi: zcode@ozvietnam
-ghi_chu: 'Trinh thám đêm 25/11. CSDL thực phẩm BCT — DN kinh doanh thực phẩm (gồm nhập) phải khai báo/kết nối; khớp TT 28/2026 (danh mục ATTP kèm HS) đã có.'
+  muc: NGUON_A
+  pham_vi: 'Đã đối chiếu toàn văn PDF ký số trên Công báo Chính phủ (số 554 ngày 16-10-2026, id=470687) và Cổng TTĐT Chính phủ (vanban.chinhphu.vn docid=219785): ban hành ngày 30-09-2026 (sửa lại từ 15-10-2026 do nguồn C ghi nhầm theo ngày đăng Công báo 16-10-2026; Thứ trưởng Trương Thanh Hoài ký), Điều 19 khoản 1 quy định hiệu lực từ 15-11-2026 và khoản 2 thay thế Thông tư 11/2026/TT-BCT. Đang còn hiệu lực.'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-26'
+  boi: antigravity@ozvietnam
+ghi_chu: Trinh thám đêm 25/11. CSDL thực phẩm BCT — DN kinh doanh thực phẩm (gồm nhập) phải khai báo/kết nối; khớp TT 28/2026 (danh mục ATTP kèm HS) đã có.
+toan_van: raw/download/congbaocdn.chinhphu.vn/63-2026-tt-bct.pdf
