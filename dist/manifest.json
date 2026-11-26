@@ -1,0 +1,66 @@
+{
+  "phien_ban": "2026-11-26",
+  "luoc_do_phien_ban": "1.7.0",
+  "chuan_lop_du_lieu": "lop-kho@1",
+  "giay_phep": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
+  "bieu_thue_doi_chieu": {
+    "nguon": "https://raw.githubusercontent.com/ozvietnam/hs-code-api/main/data/tax.json",
+    "phien_ban": "2026-11-21",
+    "tong_ma": 11871,
+    "nhom_ngoai_bieu_thue": 136,
+    "ghi_chu": "Nhóm mã không có trong bản chụp biểu thuế — thường là mã AHTN cũ (văn bản danh mục ban hành theo AHTN 2017/2022, biểu thuế đã bỏ) hoặc trích lệch. KHÔNG dùng các khoá này làm căn cứ diện áp cho người khai; đối chiếu lại văn bản gốc (ví dụ phân tích danh-muc/kiem-tra-ma-hs-2026.md)."
+  },
+  "tong_tep": 8,
+  "tep": {
+    "registry.json": {
+      "sha256": "d9e459b4573bcacd588f287ccc97a7b05e575afd108afc4287be7d2ef03cc72f",
+      "bytes": 8882184,
+      "lop_du_lieu": "LUAT"
+    },
+    "hs-index.json": {
+      "sha256": "d876d4a78db4d8bd5b058868804c31bc8547499237f46840435525e5b2a7f575",
+      "bytes": 8165717,
+      "lop_du_lieu": "LUAT"
+    },
+    "hs-index-theo-ma.json": {
+      "sha256": "3e4a9427330edb4d4d8c773eec813c588c2628c200339cd198fc4244f08e6620",
+      "bytes": 8934249,
+      "lop_du_lieu": "LUAT",
+      "truong_lan": {
+        "ma": "LUAT",
+        "canh_bao_ma": "KY_THUAT",
+        "anh_xa_ahtn_cu": "BO_TRO",
+        "tien_le_tb_tchq": "TIEN_LE"
+      }
+    },
+    "wiki-index.json": {
+      "sha256": "e22bf3095bad0a6c1742ee3eff1767da22379ed84d3e70a06da15f4f5c7bbb26",
+      "bytes": 1312035,
+      "lop_du_lieu": "BO_TRO"
+    },
+    "wiki-chunks.json": {
+      "sha256": "b83f63965d5c91eaa3c96d47924e19f86059b97446f54fc2253ccf9a4d9a268e",
+      "bytes": 10147241,
+      "lop_du_lieu": "BO_TRO"
+    },
+    "dieu-khoan.json": {
+      "sha256": "a2881bb2fe1e4c3dbb68bf0a1980eaf2758adc97d2b8808805334b5efee30939",
+      "bytes": 21539942,
+      "lop_du_lieu": "LUAT",
+      "truong_lan": {
+        "nguyen_van_nguon_a": "LUAT",
+        "tom_tat_nhap": "BO_TRO"
+      }
+    },
+    "cas-index.json": {
+      "sha256": "1670a8a97d089fdacc9287bfa39bda353d3b4ecc4088029ae0a49dd8a819ea2d",
+      "bytes": 1236943,
+      "lop_du_lieu": "LUAT"
+    },
+    "chinh-sach-mo-ta.json": {
+      "sha256": "e2ec6353b412211447ea7a27f29c73300b63381ee660a88fa218ed03d593cad6",
+      "bytes": 49510,
+      "lop_du_lieu": "BO_TRO"
+    }
+  }
+}
