@@ -44,8 +44,12 @@ function writeMinimalRegistry(root, docs) {
   const regDir = join(root, 'registry');
   const vbDir = join(regDir, 'van-ban');
   mkdirSync(vbDir, { recursive: true });
-  writeFileSync(join(regDir, 'cay-xnk.yaml'), '[]\n', 'utf8');
-  writeFileSync(join(regDir, 'co-quan.yaml'), '[]\n', 'utf8');
+  writeFileSync(join(regDir, 'cay-xnk.yaml'), '- id: chua-phan-loai\n  ten: Chưa phân loại\n', 'utf8');
+  writeFileSync(
+    join(regDir, 'co-quan.yaml'),
+    '- ky_hieu: BTC\n  ten: Bộ Tài chính\n  tinh_trang: HOAT_DONG\n- ky_hieu: BYT\n  ten: Bộ Y tế\n  tinh_trang: HOAT_DONG\n',
+    'utf8',
+  );
   writeFileSync(
     join(regDir, 'nguon-uy-tin.yaml'),
     [
@@ -352,8 +356,12 @@ try {
           so_hieu: '50/2026/TT-BTC',
           loai: 'THONG_TU',
           ten: 'Thông tư mẫu trích Nhóm 2',
+          co_quan: 'BTC',
+          ngay_ban_hanh: '2026-01-01',
           tinh_trang: 'CON_HIEU_LUC',
+          nhanh: ['chua-phan-loai'],
           toan_van: txtRel,
+          nguon: [{ url: 'https://congbao.chinhphu.vn/50-2026.pdf' }],
           xac_minh: { muc: 'NGUON_A' },
         },
       },
@@ -363,7 +371,10 @@ try {
           so_hieu: '51/2026/TT-BTC',
           loai: 'THONG_TU',
           ten: 'Thông tư mẫu tải rồi trích Nhóm 1',
+          co_quan: 'BTC',
+          ngay_ban_hanh: '2026-01-01',
           tinh_trang: 'CON_HIEU_LUC',
+          nhanh: ['chua-phan-loai'],
           nguon: [{ url: 'https://mof.gov.vn/51-2026.html' }],
           xac_minh: { muc: 'NGUON_A' },
         },
@@ -416,8 +427,12 @@ try {
           so_hieu: '52/2026/TT-BTC',
           loai: 'THONG_TU',
           ten: 'Thông tư giả lập lỗi kiểm chứng',
+          co_quan: 'BTC',
+          ngay_ban_hanh: '2026-01-01',
           tinh_trang: 'CON_HIEU_LUC',
+          nhanh: ['chua-phan-loai'],
           toan_van: txtRel,
+          nguon: [{ url: 'https://congbao.chinhphu.vn/52-2026.pdf' }],
           xac_minh: { muc: 'NGUON_A' },
         },
       },
@@ -445,6 +460,133 @@ try {
         && md.includes('50-2026-tt-btc')
         && md.includes('51-2026-tt-btc')
         && md.includes('Đã xử lý thành công'),
+    );
+  }
+
+  // 3b. Regression tests cho các lỗi phát hiện ở Run 45801746798 (chan + PDF lệch + kiemTra sổ)
+  {
+    const tmpChan = makeTmp('tu-tai-chan-');
+    writeMinimalRegistry(tmpChan, [
+      {
+        slug: '1536-qd-byt-2026',
+        data: {
+          so_hieu: '1536/QĐ-BYT',
+          loai: 'QUYET_DINH',
+          ten: 'Sửa đổi công bố TTHC lĩnh vực Mỹ phẩm',
+          co_quan: 'BYT',
+          ngay_ban_hanh: '2026-05-28',
+          tinh_trang: 'CON_HIEU_LUC',
+          nguon: [{ url: 'https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/9/18-vbhn-byt.signed.pdf' }],
+          xac_minh: {
+            muc: 'NGUON_A',
+            hieu_luc_da_doi_chieu: true,
+            chan: { ma: 'THIEU_PDF_A', ngay: '2026-11-22', viec_tiep: 'Chưa có PDF gốc' },
+          },
+        },
+      },
+      {
+        slug: '60-2026-tt-btc',
+        data: {
+          so_hieu: '60/2026/TT-BTC',
+          loai: 'THONG_TU',
+          ten: 'Thông tư hợp lệ cần tải',
+          co_quan: 'BTC',
+          ngay_ban_hanh: '2026-06-01',
+          tinh_trang: 'CON_HIEU_LUC',
+          nguon: [{ url: 'https://congbao.chinhphu.vn/60-2026.pdf' }],
+          xac_minh: { muc: 'NGUON_A' },
+        },
+      },
+    ]);
+    const discChan = timUngVienTuTai({ root: tmpChan, limit: 10 });
+    t(
+      'Regression chan THIEU_PDF_A: bỏ qua ứng viên đang bị chặn tải và chỉ chọn 60-2026-tt-btc',
+      !discChan.can_tai_toan_van.some((x) => x.slug === '1536-qd-byt-2026')
+        && discChan.can_tai_toan_van.some((x) => x.slug === '60-2026-tt-btc'),
+      JSON.stringify(discChan.can_tai_toan_van.map((x) => x.slug)),
+    );
+
+    // PDF tải về thực chất là văn bản khác -> tự rollback & báo PDF_KHONG_KHOP_VAN_BAN
+    const tmpMismatch = makeTmp('tu-tai-mismatch-');
+    writeMinimalRegistry(tmpMismatch, [
+      {
+        slug: '1537-qd-byt-2026',
+        data: {
+          so_hieu: '1537/QĐ-BYT',
+          loai: 'QUYET_DINH',
+          ten: 'Quyết định công bố thủ tục hành chính dược phẩm',
+          co_quan: 'BYT',
+          ngay_ban_hanh: '2026-05-28',
+          tinh_trang: 'CON_HIEU_LUC',
+          nguon: [{ url: 'https://datafiles.chinhphu.vn/18-vbhn-byt.pdf' }],
+          xac_minh: { muc: 'NGUON_A' },
+        },
+      },
+    ]);
+    const yaml1537Before = readFileSync(join(tmpMismatch, 'registry/van-ban/1537-qd-byt-2026.yaml'), 'utf8');
+    const resMismatch = await chayTuTaiToanVan({
+      root: tmpMismatch,
+      limit: 5,
+      _chayNap: async ({ file, root }) => {
+        const dir = join(root, 'raw/download/datafiles.chinhphu.vn');
+        mkdirSync(dir, { recursive: true });
+        writeFileSync(join(dir, '1537-qd-byt.pdf'), `%PDF-1.4\n${'A'.repeat(400)}`, 'utf8');
+        const abs = join(root, file);
+        const obj = yaml.load(readFileSync(abs, 'utf8'), { schema: yaml.CORE_SCHEMA });
+        obj.toan_van = 'raw/download/datafiles.chinhphu.vn/1537-qd-byt.pdf';
+        writeFileSync(abs, yaml.dump(obj, { lineWidth: -1 }), 'utf8');
+      },
+      _kiemTraPdf: () => ({ trang_thai: 'PDF_CO_TOAN_VAN', co_lop_chu: true, co_dieu_khoan: true }),
+      docPdf: () => 'BỘ Y TẾ\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nSố: 18/VBHN-BYT\nVĂN BẢN HỢP NHẤT về quản lý mỹ phẩm. Điều 1. Phạm vi điều chỉnh. ' + 'x'.repeat(220),
+    });
+    t(
+      'Regression PDF lệch số hiệu: rollback YAML, xóa PDF tải nhầm và ghi PDF_KHONG_KHOP_VAN_BAN',
+      resMismatch.da_xu_ly.length === 0
+        && resMismatch.bo_qua_can_thu_cong.length === 1
+        && resMismatch.bo_qua_can_thu_cong[0].ly_do === 'PDF_KHONG_KHOP_VAN_BAN'
+        && readFileSync(join(tmpMismatch, 'registry/van-ban/1537-qd-byt-2026.yaml'), 'utf8') === yaml1537Before
+        && !existsSync(join(tmpMismatch, 'raw/download/datafiles.chinhphu.vn/1537-qd-byt.pdf')),
+      JSON.stringify(resMismatch.bo_qua_can_thu_cong),
+    );
+
+    // Lỗi kiemTra sổ (vd hieu_luc_da_doi_chieu: true kèm chan + toan_van) -> tự rollback và ghi KIEM_TRA_SO_LOI
+    const tmpRegFail = makeTmp('tu-tai-regfail-');
+    mkdirSync(join(tmpRegFail, 'raw/download/mof.gov.vn'), { recursive: true });
+    writeFileSync(
+      join(tmpRegFail, 'raw/download/mof.gov.vn/53-2026-tt-btc.txt'),
+      'Điều 1. Quy định chung về hải quan.\n\nĐiều 2. Hiệu lực thi hành kể từ ngày 01 tháng 01 năm 2027.',
+      'utf8',
+    );
+    writeMinimalRegistry(tmpRegFail, [
+      {
+        slug: '53-2026-tt-btc',
+        data: {
+          so_hieu: '53/2026/TT-BTC',
+          loai: 'THONG_TU',
+          ten: 'Thông tư xung đột trường xác minh',
+          co_quan: 'BTC',
+          ngay_ban_hanh: '2026-01-01',
+          tinh_trang: 'CON_HIEU_LUC',
+          nhanh: ['chua-phan-loai'],
+          toan_van: 'raw/download/mof.gov.vn/53-2026-tt-btc.txt',
+          nguon: [{ url: 'https://congbao.chinhphu.vn/53-2026.pdf' }],
+          xac_minh: {
+            muc: 'NGUON_A',
+            hieu_luc_da_doi_chieu: true,
+            chan: { ma: 'THIEU_DIEU_THI_HANH_A', ngay: '2026-11-20', viec_tiep: 'Bổ sung điều thi hành' },
+          },
+        },
+      },
+    ]);
+    const resRegFail = await chayTuTaiToanVan({ root: tmpRegFail, limit: 5 });
+    t(
+      'Regression cổng kiemTra sổ: phát hiện xung đột YAML và hoàn tác .dieu.jsonl (KIEM_TRA_SO_LOI)',
+      resRegFail.da_xu_ly.length === 0
+        && resRegFail.that_bai.length === 1
+        && resRegFail.that_bai[0].ly_do === 'KIEM_TRA_SO_LOI'
+        && (resRegFail.that_bai[0].loi?.[0]?.msg || '').includes('xac_minh.chan')
+        && !existsSync(join(tmpRegFail, 'data/dieu-khoan-day-du/53-2026-tt-btc.dieu.jsonl')),
+      JSON.stringify(resRegFail.that_bai),
     );
   }
 
