@@ -10,6 +10,7 @@
 //   dist/dieu-khoan.json      — điều khoản nguyên văn nguồn A + tóm tắt nháp doc-hieu
 //   dist/cas-index.json       — chỉ mục hóa chất theo mã CAS từ danh-muc/*-cas.csv
 //   dist/chinh-sach-mo-ta.json — tầng 2 gợi ý chính sách theo mô tả (VUA_SUY_RA) + 25 viết tắt PLHQ
+//   dist/xuat-xu-fta.json     — sổ đăng ký pháp lý xuất xứ & FTA (fta-psr@1, LUAT)
 import { writeFileSync, mkdirSync, readFileSync, readdirSync } from 'node:fs';
 import { join, resolve } from 'node:path';
 import { pathToFileURL } from 'node:url';
@@ -18,6 +19,7 @@ import { dungChiMuc, dungChiMucTheoMa, docBieuThue, docAnhXaAhtn } from './lib/d
 import { dungWikiDist } from './lib/wiki-dist.mjs';
 import { dungDieuKhoan, dungCasIndex } from './lib/dieu-khoan-dist.mjs';
 import { dungChinhSachMoTa } from './lib/chinh-sach-mo-ta.mjs';
+import { dungXuatXuFta } from './lib/xuat-xu-fta.mjs';
 import { LOP_DU_LIEU, tinhVanTay, dungManifest } from './lib/van-tay.mjs';
 
 const BIEU_TUONG = {
@@ -184,6 +186,9 @@ if (process.argv[1] && import.meta.url === pathToFileURL(resolve(process.argv[1]
   const chinhSachMoTa = dungChinhSachMoTa(so, inRoot, today);
   writeFileSync(join(outRoot, 'dist', 'chinh-sach-mo-ta.json'), JSON.stringify(chinhSachMoTa, null, 1) + '\n');
   console.log(`dist/chinh-sach-mo-ta.json (${chinhSachMoTa.tong_quy_tac} quy tắc, ${Object.keys(chinhSachMoTa.tu_dien_viet_tat || {}).length} viết tắt)`);
+  const xuatXuFta = dungXuatXuFta(so, inRoot, today);
+  writeFileSync(join(outRoot, 'dist', 'xuat-xu-fta.json'), JSON.stringify(xuatXuFta, null, 2) + '\n');
+  console.log(`dist/xuat-xu-fta.json (${xuatXuFta.tong} hiệp định, chuẩn ${xuatXuFta.chuan_fta})`);
   const manifest = dungManifest({
     distDir: join(outRoot, 'dist'),
     phienBan: today,
@@ -215,6 +220,7 @@ if (process.argv[1] && import.meta.url === pathToFileURL(resolve(process.argv[1]
       },
       { ten: 'cas-index.json', lop_du_lieu: LOP_DU_LIEU.LUAT },
       { ten: 'chinh-sach-mo-ta.json', lop_du_lieu: LOP_DU_LIEU.BO_TRO },
+      { ten: 'xuat-xu-fta.json', lop_du_lieu: LOP_DU_LIEU.LUAT },
     ],
   });
   writeFileSync(join(outRoot, 'dist', 'manifest.json'), JSON.stringify(manifest, null, 2) + '\n');
