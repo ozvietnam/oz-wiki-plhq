@@ -1,0 +1,103 @@
+name: tu-tai-toan-van
+# Hằng ngày 07:00 giờ VN (00:00 UTC, sau radar-va-hieu-luc 30 phút):
+#   Tự động tải toàn văn PDF nguồn bậc A theo lô, trích điều khoản đầy đủ,
+#   chạy kiểm nguyên văn + npm test rồi mở/cập nhật PR auto/tu-tai-toan-van (không push thẳng main).
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: 'Chỉ chạy một slug cụ thể (để trống = chạy theo lô --limit)'
+        type: string
+        required: false
+        default: ''
+      limit:
+        description: 'Số văn bản tối đa mỗi lượt'
+        type: string
+        required: false
+        default: '5'
+      dry_run:
+        description: 'Chỉ liệt kê ứng viên vào Summary, không tải/mở PR'
+        type: boolean
+        required: false
+        default: false
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+concurrency:
+  group: tu-tai-toan-van
+  cancel-in-progress: false
+jobs:
+  tu-tai-toan-van:
+    # Ghim image Ubuntu + poppler-utils đồng bộ với .github/workflows/kiem-tra.yml (OZV-2290).
+    runs-on: ubuntu-26.04
+    env:
+      POPPLER_UTILS_VERSION: "26.01.0-2ubuntu0.3"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - name: Cài pdftotext (poppler-utils) để trích & đối chiếu nguyên văn điều khoản
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq --no-install-recommends "poppler-utils=${POPPLER_UTILS_VERSION}"
+          INSTALLED="$(dpkg-query -W -f='${Version}' poppler-utils)"
+          echo "poppler-utils (deb) : ${INSTALLED}"
+          pdftotext -v 2>&1 | head -1
+          if [ "${INSTALLED}" != "${POPPLER_UTILS_VERSION}" ]; then
+            echo "::error::poppler-utils cài được (${INSTALLED}) khác bản ghim (${POPPLER_UTILS_VERSION}) — cập nhật POPPLER_UTILS_VERSION"
+            exit 1
+          fi
+      - run: npm ci
+      - name: Chạy tự tải toàn văn & trích điều khoản
+        env:
+          SLUG: ${{ github.event.inputs.slug }}
+          LIMIT: ${{ github.event.inputs.limit }}
+          DRY_RUN: ${{ github.event.inputs.dry_run }}
+        run: |
+          set -euo pipefail
+          ARGS=(--limit "${LIMIT:-5}")
+          if [ -n "$SLUG" ]; then
+            ARGS+=(--slug "$SLUG")
+          fi
+          if [ "$DRY_RUN" = "true" ]; then
+            ARGS+=(--dry-run)
+          fi
+          ARGS+=(--json --markdown /tmp/tu-tai.md)
+          node tools/tu-tai-toan-van.mjs "${ARGS[@]}" > /tmp/tu-tai.json
+          cat /tmp/tu-tai.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Kiểm cổng & mở/cập nhật PR khi có thay đổi
+        if: ${{ github.event.inputs.dry_run != 'true' }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          if [ -z "$(git status --porcelain registry/van-ban raw/download data/dieu-khoan-day-du)" ]; then
+            echo "Không có thay đổi trong registry/van-ban, raw/download hoặc data/dieu-khoan-day-du."
+            exit 0
+          fi
+          node tools/kiem-tra-dieu-khoan.mjs
+          npm test
+          BRANCH="auto/tu-tai-toan-van"
+          git config user.name "kb-bot"
+          git config user.email "kb-bot@users.noreply.github.com"
+          git checkout -B "$BRANCH"
+          git add registry/van-ban raw/download data/dieu-khoan-day-du
+          if git diff --cached --quiet; then
+            echo "Không có thay đổi đã stage để commit."
+            exit 0
+          fi
+          TITLE="chore(nap): tự tải toàn văn & trích điều khoản $(date -u +%F)"
+          git commit -m "$TITLE"
+          git push -f origin "HEAD:refs/heads/${BRANCH}"
+          PR_NUM=$(gh pr list --repo "$GITHUB_REPOSITORY" --head "$BRANCH" --base main --state open --json number --jq '.[0].number // empty' || true)
+          if [ -n "$PR_NUM" ]; then
+            gh pr edit "$PR_NUM" --repo "$GITHUB_REPOSITORY" --title "$TITLE" --body-file /tmp/tu-tai.md || echo "::warning::Không cập nhật được PR #${PR_NUM}"
+          else
+            gh pr create --repo "$GITHUB_REPOSITORY" --base main --head "$BRANCH" --title "$TITLE" --body-file /tmp/tu-tai.md || echo "::warning::Không tạo được PR cho ${BRANCH} (commit đã được đẩy)"
+          fi
