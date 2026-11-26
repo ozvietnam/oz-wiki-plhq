@@ -150,3 +150,9 @@ Mỗi Wave nâng cấp chỉ được coi là đạt khi qua đủ 4 cổng bắ
 2. **Không suy thoái chất lượng truy hồi:** `npm test` xanh toàn phần; `npm run eval:retrieval` đạt **60/60 (100%)** (`expiredTop1 = 0/60`); `npm run eval:holdout -- --strict` giữ **≥ 46/48 (95,8%)**; `npm run eval:qa` đạt **60/60** phủ tối thiểu.
 3. **Không lấn ranh giới `hs-code-api`:** `dist/` và `site/data/` **tuyệt đối không** chứa `chu-giai-hs.json`, `chu-giai-chuong.json` hay bộ máy áp mã HS / tính thuế suất.
 4. **Sạch dữ liệu công khai:** 0 dữ liệu khách hàng, tờ khai nội bộ hay văn bản bản quyền WCO/SEN riêng tư trong kho.
+
+---
+
+## Tài liệu Lộ trình Thế hệ 2 tiếp nối (`Wave 36 → Wave 41`)
+
+- **[docs/LO-TRINH-RD-THE-HE-2-W36-W41.md](LO-TRINH-RD-THE-HE-2-W36-W41.md)** — Bản thiết kế tổng thể & lộ trình R&D Thế hệ 2: Động cơ Sự thật Tuân thủ XNK Việt Nam (`pvtm@1`, `thu-tuc@1`, `fta-psr@2`, `hop-nhat-tai-ngay@1`, `eval:hard-200`, diễn tập chuyển giao hiệu lực `01/01/2027` và vòng lặp nhu cầu).

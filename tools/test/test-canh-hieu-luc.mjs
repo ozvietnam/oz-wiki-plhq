@@ -5,6 +5,7 @@ import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { ROOT } from '../lib/registry.mjs';
 import { baoCaoCanhHieuLuc, dinhDangMarkdownCanhHieuLuc } from '../canh-hieu-luc.mjs';
+import { chayTestDienTapNgayG } from './test-dien-tap-ngay-g.mjs';
 
 let pass = 0;
 let fail = 0;
@@ -156,6 +157,10 @@ try {
     } catch { /* ignore */ }
   }
 }
+
+const dtRes = chayTestDienTapNgayG();
+pass += dtRes.pass;
+fail += dtRes.fail;
 
 console.log(`\n${pass} passed, ${fail} failed`);
 process.exit(fail ? 1 : 0);

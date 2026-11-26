@@ -41,8 +41,8 @@ Kể từ ngày `01/01/2027`, Thông tư này **thay thế toàn bộ Thông tư
 | **Cơ quan ban hành** | Bộ Khoa học và Công nghệ (`BKHCN` — kế thừa `BTTTT` sau hợp nhất; Bộ trưởng Vũ Hải Quân ký ngày `27/10/2026`) |
 | **Ngày ban hành** | `2026-10-27` (`27/10/2026`) |
 | **Hiệu lực từ** | `2027-01-01` (`01/01/2027`, khoản 1 Điều 3) |
-| **Tình trạng hiện tại** | `CHUA_CO_HIEU_LUC` (`SAP_CO_HIEU_LUC` từ `01/01/2027`) |
-| **Quan hệ hiệu lực** | `thay_the` → `11/2018/TT-BTTTT` (`tu_ngay: 2027-01-01`, căn cứ khoản 2 Điều 3) |
+| **Tình trạng tại thời điểm 22/11/2026** | `CHUA_CO_HIEU_LUC` (`SAP_CO_HIEU_LUC` từ `01/01/2027`) |
+| **Quan hệ hiệu lực** | `thay_the` (thay thế) → `11/2018/TT-BTTTT` (`tu_ngay: 2027-01-01`, căn cứ khoản 2 Điều 3) |
 | **Bảng mã HS cục bộ** | `danh-muc/63-2026-tt-bkhcn.csv` (`37` dòng lá, `da_doi_chieu: true`) |
 | **Mức xác minh** | `NGUON_A` (`hieu_luc_da_doi_chieu: true`) — Công báo số 572 ngày `06/11/2026` (`raw/download/congbaocdn.chinhphu.vn/63-2026-tt-bkhcn.pdf`, 08 trang) |
 
@@ -50,10 +50,10 @@ Kể từ ngày `01/01/2027`, Thông tư này **thay thế toàn bộ Thông tư
 
 | Mốc | Sự kiện |
 |---|---|
-| `30/11/2018` | Thông tư `11/2018/TT-BTTTT` ([[sources/11-2018-tt-btttt]]) có hiệu lực về Danh mục sản phẩm CNTT đã qua sử dụng cấm nhập khẩu |
+| `30/11/2018` | Thông tư `11/2018/TT-BTTTT` ([[sources/11-2018-tt-btttt]], có hiệu lực đến hết `31/12/2026`) bắt đầu áp dụng về Danh mục sản phẩm CNTT đã qua sử dụng cấm nhập khẩu |
 | `05/09/2026` | Nghị định `292/2026/NĐ-CP` ([[sources/292-2026-nd-cp]]) có hiệu lực; khoản 4 Điều 64 cho phép các thông tư hướng dẫn văn bản lịch sử đã hết hiệu lực `69/2018/NĐ-CP` (gồm `11/2018/TT-BTTTT`) tiếp tục thực hiện đến hết `31/12/2026` |
 | `27/10/2026` | Bộ Khoa học và Công nghệ ban hành **Thông tư `63/2026/TT-BKHCN`** (đăng Công báo số 572 ngày `06/11/2026`) |
-| `01/01/2027` | **Có hiệu lực thi hành** (khoản 1 Điều 3); **chấm dứt hiệu lực `11/2018/TT-BTTTT`** (khoản 2 Điều 3), trừ giấy phép đã cấp trước `01/01/2027` tiếp tục thực hiện theo thời hạn văn bản cho phép (khoản 3 Điều 3) |
+| `01/01/2027` | **Có hiệu lực thi hành** (khoản 1 Điều 3); **hết hiệu lực `11/2018/TT-BTTTT`** (khoản 2 Điều 3), trừ giấy phép đã cấp trước `01/01/2027` tiếp tục thực hiện theo thời hạn văn bản cho phép (khoản 3 Điều 3) |
 
 ## Cấu trúc (03 điều và 01 phụ lục — 08 trang PDF Công báo số 572)
 
@@ -126,7 +126,7 @@ Các văn bản viện dẫn trong phần căn cứ ban hành Thông tư `63/202
 
 ### Summary & Concepts liên quan
 
-- [[summary/van-ban-sap-het-hieu-luc-2026-2027]] — Tổng hợp chuyển giao mốc `31/12/2026 – 01/01/2027` (`11/2018/TT-BTTTT` → `63/2026/TT-BKHCN`)
+- [[summary/van-ban-sap-het-hieu-luc-2026-2027]] — Tổng hợp chuyển giao mốc `31/12/2026 – 01/01/2027` (`11/2018/TT-BTTTT` có hiệu lực đến hết `31/12/2026` → thay thế bởi `63/2026/TT-BKHCN` từ `01/01/2027`)
 - [[concepts/hang-cu-cam-nhap-khau]] — Hàng tiêu dùng và phương tiện đã qua sử dụng cấm nhập khẩu
 - [[concepts/co-quan-tiep-nhan-sau-sap-nhap]] — Hợp nhất `BTTTT` → `BKHCN`
 - [[concepts/phan-loai-ma-hs]] — Quy trình và danh mục mã HS (`31/2022/TT-BTC`)
