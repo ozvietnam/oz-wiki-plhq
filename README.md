@@ -5,6 +5,17 @@ Kho mở, miễn phí, cho cộng đồng làm xuất nhập khẩu: **văn bả
 > ⚠️ Đây là tài liệu tham khảo do cộng đồng tổng hợp, **không phải tư vấn pháp lý** và không thay thế văn bản gốc. Luôn mở nguồn bậc A (Công báo, vanban.chinhphu.vn, vbpl.vn) trước khi khai báo. Mỗi văn bản trong sổ ghi rõ mức đã xác minh.
 >
 > 🧭 **Kiến trúc & ranh giới hệ thống (0% trùng lặp với `hs-code-api`):** Xem **[docs/SO-DO-HE-THONG.md](docs/SO-DO-HE-THONG.md)** để nắm rõ phân vai tuyệt đối giữa `oz-wiki-plhq` ↔ `hs-code-api` ↔ Cổng MCP (`ozplugin`), dòng chảy gói dữ liệu máy `1.6.0` (8 tệp JSON, kèm đồ thị sửa đổi cấp Điều khoản `data/sua-doi-dieu/`), hiệu lực tại ngày (`--tai-ngay`), đánh giá truy hồi + holdout (`eval:retrieval` 60 câu, `eval:holdout` 48 câu), và cổng tra cứu web công khai V2 trên GitHub Pages.
+>
+> 🌐 **Tầm nhìn & Sứ mệnh chung chuỗi dự án XNK OZ:** Xem **[docs/TAM-NHIN-VA-KE-HOACH-HE-SINH-THAI.md](docs/TAM-NHIN-VA-KE-HOACH-HE-SINH-THAI.md)** (Wave 30–33).
+
+## Tầm nhìn & Sứ mệnh trong chuỗi dự án XNK OZ (`oz-wiki-plhq` ↔ `hs-code-api` ↔ `ozplugin`)
+
+Chuỗi dự án XNK của OZ vận hành như **một khối sự thật liên kết chặt chẽ**, chia rõ hai tầng để sẵn sàng ghép thêm nhiều mảnh nghiệp vụ mới về sau:
+
+- **Nguyên lý cốt lõi — *“Kho giữ sự thật sạch, LLM lo nhận thức và suy luận”*:** Các kho dữ liệu không viết mẹo từ khoá hay suy diễn thay AI; chỉ tập trung thu thập luật gốc bậc A, giữ sạch, cập nhật liên tục, gắn ID chuẩn, vân tay nội dung (`SHA-256`), cạnh liên kết và trích dẫn nhanh, chính xác.
+- **`oz-wiki-plhq` (kho này):** Chuyên trách **Pháp luật Hải quan & Quản lý chuyên ngành XNK Việt Nam** — sổ VBQPPL (`3.277+` văn bản), hiệu lực toàn văn & tại ngày tờ khai (`tai_ngay`), đồ thị sửa đổi cấp Điều, điều khoản nguyên văn bậc A, phụ lục mã HS KTCN/Cấm/GP/PVTM, hoá chất CAS và wiki nghiệp vụ.
+- **[`hs-code-api`](https://github.com/ozvietnam/hs-code-api):** Chuyên trách **Phân loại mã HS & Biểu thuế** — Biểu thuế VN, 6 quy tắc GIR, chú giải WCO/AHTN/SEN, hồ sơ vấn đề mã 8 số (`ho-so-ma@1`), thuế suất và tiền lệ `TB-TCHQ`.
+- **`ozplugin` (Cổng MCP) & các mảnh ghép tiếp theo:** Kết hợp kết quả từ cả hai kho (và các kho tương lai như Xuất xứ FTA/C/O, Logistics/Freight, Kiểm tra sau thông quan…) qua chuẩn chung ID, vân tay, phân lớp `lop-kho@1` và ngày hiệu lực để LLM đọc hiểu và tư vấn chính xác.
 
 ## Có gì trong kho
 
