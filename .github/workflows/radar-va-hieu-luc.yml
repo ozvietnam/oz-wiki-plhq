@@ -1,0 +1,117 @@
+name: radar-va-hieu-luc
+# Hằng ngày 06:30 giờ VN (23:30 UTC):
+#   1. Radar do thám văn bản mới thuộc phạm vi PLHQ -> mở issue khi có văn bản mới.
+#   2. Canh hiệu lực -> tự động cắt chuyển trạng thái khi tới ngày G (mở PR) và cập nhật issue canh hiệu lực.
+on:
+  schedule:
+    - cron: '30 23 * * *'
+  workflow_dispatch:
+    inputs:
+      ngay:
+        description: 'Mốc ngày YYYY-MM-DD để canh hiệu lực (để trống = hôm nay theo giờ VN)'
+        type: string
+        required: false
+        default: ''
+      dry_run:
+        description: 'Chỉ ghi Job Summary, không tạo/cập nhật issue hay PR'
+        type: boolean
+        required: false
+        default: false
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+concurrency:
+  group: radar-va-hieu-luc
+  cancel-in-progress: false
+jobs:
+  radar-luat-moi:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Lấy danh sách issue radar đã báo
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue list --repo "$GITHUB_REPOSITORY" --label radar --state all --limit 40 --json title,body > /tmp/da-bao.json || echo '[]' > /tmp/da-bao.json
+      - name: Quét radar văn bản mới
+        run: |
+          node tools/radar-luat-moi.mjs --khong-chan-mang --da-bao-json /tmp/da-bao.json --json --markdown /tmp/radar.md > /tmp/radar.json
+          cat /tmp/radar.md >> "$GITHUB_STEP_SUMMARY"
+          MOI_COUNT=$(node -e "const r = JSON.parse(require('fs').readFileSync('/tmp/radar.json', 'utf8')); console.log(Array.isArray(r.moi) ? r.moi.length : 0);")
+          echo "RADAR_MOI_COUNT=$MOI_COUNT" >> "$GITHUB_ENV"
+      - name: Mở issue nếu phát hiện văn bản mới
+        if: ${{ github.event.inputs.dry_run != 'true' && env.RADAR_MOI_COUNT != '0' }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TITLE="[radar] VB mới $(date -u +%F): ${RADAR_MOI_COUNT} văn bản thuộc phạm vi"
+          gh issue create --repo "$GITHUB_REPOSITORY" --title "$TITLE" --label "radar,luong:do-tham" --body-file /tmp/radar.md
+
+  canh-hieu-luc:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Xác định mốc ngày canh hiệu lực
+        run: |
+          TARGET_NGAY="${{ github.event.inputs.ngay }}"
+          if [ -z "$TARGET_NGAY" ]; then
+            TARGET_NGAY="$(TZ=Asia/Ho_Chi_Minh date +%F)"
+          fi
+          echo "TARGET_NGAY=$TARGET_NGAY" >> "$GITHUB_ENV"
+      - name: Chạy canh hiệu lực
+        run: |
+          node tools/canh-hieu-luc.mjs --ngay "$TARGET_NGAY" --json --markdown /tmp/canh.md > /tmp/canh.json
+          cat /tmp/canh.md >> "$GITHUB_STEP_SUMMARY"
+          node -e '
+            const fs = require("fs");
+            const r = JSON.parse(fs.readFileSync("/tmp/canh.json", "utf8"));
+            fs.appendFileSync(process.env.GITHUB_ENV, `CAN_MO_PR=${Boolean(r.can_mo_pr)}\nCAN_CANH_BAO_ISSUE=${Boolean(r.can_canh_bao_issue)}\n`);
+          '
+      - name: Cắt chuyển trạng thái & mở PR khi tới ngày G
+        if: ${{ github.event.inputs.dry_run != 'true' && env.CAN_MO_PR == 'true' }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          node tools/chuyen-hieu-luc.mjs --ngay "$TARGET_NGAY" --ghi
+          npm test
+          BRANCH="auto/chuyen-hieu-luc-${TARGET_NGAY}"
+          git config user.name "kb-bot"
+          git config user.email "kb-bot@users.noreply.github.com"
+          git checkout -B "$BRANCH"
+          git add registry/van-ban
+          if ! git diff --cached --quiet; then
+            git commit -m "chore(hieu-luc): cắt chuyển hiệu lực ngày ${TARGET_NGAY}"
+            git push -f origin "HEAD:refs/heads/${BRANCH}"
+            PR_NUM=$(gh pr list --repo "$GITHUB_REPOSITORY" --head "$BRANCH" --base main --state open --json number --jq '.[0].number // empty' || true)
+            PR_TITLE="chore(hieu-luc): cắt chuyển hiệu lực ngày ${TARGET_NGAY}"
+            if [ -n "$PR_NUM" ]; then
+              gh pr edit "$PR_NUM" --repo "$GITHUB_REPOSITORY" --title "$PR_TITLE" --body-file /tmp/canh.md || echo "::warning::Không cập nhật được PR #${PR_NUM}"
+            else
+              gh pr create --repo "$GITHUB_REPOSITORY" --base main --head "$BRANCH" --title "$PR_TITLE" --body-file /tmp/canh.md || echo "::warning::Không tạo được PR cho ${BRANCH} (commit đã được đẩy)"
+            fi
+          else
+            echo "Không có thay đổi YAML sau khi chạy chuyen-hieu-luc.mjs --ghi"
+          fi
+      - name: Mở/cập nhật issue canh hiệu lực hằng ngày
+        if: ${{ github.event.inputs.dry_run != 'true' && env.CAN_CANH_BAO_ISSUE == 'true' }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TITLE="Canh hiệu lực hằng ngày (tự động)"
+          NUM=$(gh issue list --repo "$GITHUB_REPOSITORY" --state open --label "luong:hieu-luc" --search "in:title \"${TITLE}\"" --json number --jq '.[0].number // empty' || true)
+          if [ -n "$NUM" ]; then
+            gh issue edit "$NUM" --repo "$GITHUB_REPOSITORY" --body-file /tmp/canh.md
+          else
+            gh issue create --repo "$GITHUB_REPOSITORY" --title "$TITLE" --label "luong:hieu-luc" --body-file /tmp/canh.md
+          fi
