@@ -50,11 +50,12 @@ try {
     && sangHet.includes('72/2026/NĐ-CP'),
     JSON.stringify(sangHet));
 
-  t('dry-run 2027-01-01: nhận diện đúng 3 VB CHUA_CO_HIEU_LUC → CON_HIEU_LUC và không chạm nhóm 2027-03-01',
-    sangCon.length === 3
+  t('dry-run 2027-01-01: nhận diện đúng 4 VB CHUA_CO_HIEU_LUC → CON_HIEU_LUC và không chạm nhóm 2027-03-01',
+    sangCon.length === 4
     && sangCon.includes('154/2026/TT-BTC')
     && sangCon.includes('372/2026/NĐ-CP')
     && sangCon.includes('63/2026/TT-BKHCN')
+    && sangCon.includes('45/2026/TT-BYT')
     && !sangCon.includes('417/2026/NĐ-CP')
     && !sangCon.includes('11/2026/QH16'),
     JSON.stringify(sangCon));
@@ -95,9 +96,9 @@ try {
   });
   const lapLai = phanTichChuyenHieuLuc({ root: tmpRepo, ngay: '2027-01-01' });
 
-  t('--ghi trên tmpdir(): cập nhật đúng 9 YAML, giữ nguyên HET_HIEU_LUC_MOT_PHAN, kiemTra(2027-01-01) đạt 0 lỗi 0 cảnh báo & idempotent',
+  t('--ghi trên tmpdir(): cập nhật đúng 10 YAML, giữ nguyên HET_HIEU_LUC_MOT_PHAN, kiemTra(2027-01-01) đạt 0 lỗi 0 cảnh báo & idempotent',
     applied.ghi === true
-    && applied.da_ghi.length === 9
+    && applied.da_ghi.length === 10
     && tt174.tinh_trang === 'HET_HIEU_LUC'
     && tt154.tinh_trang === 'CON_HIEU_LUC'
     && tt08.tinh_trang === 'HET_HIEU_LUC_MOT_PHAN'
@@ -142,7 +143,7 @@ try {
   t('CLI: --help (exit 0), --json xuất cấu trúc hợp lệ & chặn ngày không hợp lệ (exit != 0)',
     cliHelp.includes('--ngay YYYY-MM-DD')
     && cliJson.ghi === false
-    && cliJson.thong_ke?.tong_tu_dong === 9
+    && cliJson.thong_ke?.tong_tu_dong === 10
     && cliBadDate.status !== 0
     && cliBadDate.stderr.includes('LỖI'),
     JSON.stringify({ status: cliBadDate.status, tongTuDong: cliJson.thong_ke?.tong_tu_dong }));
