@@ -320,8 +320,8 @@ flowchart LR
   n_44_2024_QH15["44/2024/QH15<br/>còn hiệu lực"]
   n_44_2026_TT_BNNMT["44/2026/TT-BNNMT<br/>còn hiệu lực"]
   n_27_2026_TT_BNNMT["27/2026/TT-BNNMT<br/>còn hiệu lực"]
-  n_4814_Q__BCA["4814/QĐ-BCA<br/>chưa xác minh"]
-  n_8378_Q__BCA["8378/QĐ-BCA<br/>chưa xác minh"]
+  n_4814_Q__BCA["4814/QĐ-BCA<br/>còn hiệu lực"]
+  n_8378_Q__BCA["8378/QĐ-BCA<br/>hết hiệu lực"]
   n_49_2026_TT_BXD["49/2026/TT-BXD<br/>còn hiệu lực"]
   n_62_2024_TT_BGTVT["62/2024/TT-BGTVT<br/>hết hiệu lực"]
   n_71_2025_TT_BXD["71/2025/TT-BXD<br/>hết hiệu lực một phần"]
@@ -879,6 +879,7 @@ flowchart LR
   n_12_2018_TT_BCT["12/2018/TT-BCT<br/>hết hiệu lực một phần"]
   n_11_2015_TT_BCT["11/2015/TT-BCT<br/>còn hiệu lực"]
   n_01_2026_TT_BCT["01/2026/TT-BCT<br/>còn hiệu lực"]
+  n_48_2026_VBHN_BCT["48/2026/VBHN-BCT<br/>còn hiệu lực"]
   n_124_2026_TT_BTC -->|sửa đổi bổ sung khoản 10 Điều 15 từ 2026-08-22| n_33_2023_TT_BTC
   n_126_Q__TTg -->|thay thế từ 2026-01-16| n_1175_Q__TTg
   n_127_Q__TTg -->|thay thế từ 2026-01-16| n_734_Q__TTg
@@ -887,5 +888,7 @@ flowchart LR
   n_26_2026_TT_BCT -->|sửa đổi từ 2026-05-29| n_12_2018_TT_BCT
   n_26_2026_TT_BCT -->|sửa đổi từ 2026-05-29| n_11_2015_TT_BCT
   n_26_2026_TT_BCT -->|sửa đổi từ 2026-05-29| n_01_2026_TT_BCT
+  n_48_2026_VBHN_BCT -->|hợp nhất| n_40_2025_TT_BCT
+  n_48_2026_VBHN_BCT -->|hợp nhất| n_26_2026_TT_BCT
 ```
 

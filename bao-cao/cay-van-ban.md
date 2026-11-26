@@ -3575,11 +3575,11 @@ _Từ 01/7/2026 theo khung 3 mức rủi ro (NĐ 37/2026/NĐ-CP); mỗi bộ có
 
 ### Danh mục thuộc Bộ Công an `kiem-tra-chuyen-nganh/bca`
 
-10 văn bản, 8 chưa hết hiệu lực.
+10 văn bản, 7 chưa hết hiệu lực.
 
-- ❔ [4814/QĐ-BCA](../registry/van-ban/4814-qd-bca-2026.yaml) — Bãi bỏ Quyết định 8378/QĐ-BCA ngày 14/10/2025 về danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn thuộc trách nhiệm quản lý của Bộ Công an
+- 🟢 [4814/QĐ-BCA](../registry/van-ban/4814-qd-bca-2026.yaml) — Bãi bỏ Quyết định 8378/QĐ-BCA ngày 14/10/2025 về danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn thuộc trách nhiệm quản lý của Bộ Công an
 - 🟢 [125/2026/TT-BCA](../registry/van-ban/125-2026-tt-bca.yaml) — Ban hành Danh mục sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao thuộc trách nhiệm quản lý của Bộ Công an
-- ❔ [8378/QĐ-BCA](../registry/van-ban/8378-qd-bca-2025.yaml) — Ban hành Danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn thuộc trách nhiệm quản lý của Bộ Công an
+- ⚫ [8378/QĐ-BCA](../registry/van-ban/8378-qd-bca-2025.yaml) — Ban hành Danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn thuộc trách nhiệm quản lý của Bộ Công an _(hết hiệu lực 2026-07-28)_
 - 🟢 [55/2024/QH15](../registry/van-ban/55-2024-qh15.yaml) — Luật Phòng cháy, chữa cháy và cứu nạn, cứu hộ
 - ❔ [6266/QĐ-BCA](../registry/van-ban/6266-qd-bca-2023.yaml) — Ban hành Danh mục sản phẩm, hàng hóa có khả năng gây mất an toàn thuộc trách nhiệm quản lý của Bộ Công an
 - 🟢 [125/2021/TT-BCA](../registry/van-ban/125-2021-tt-bca.yaml) — Ban hành Quy chuẩn kỹ thuật quốc gia về an toàn trong sản xuất, kinh doanh, bảo quản, sử dụng và tiêu hủy pháo hoa, pháo hoa nổ; Danh mục pháo hoa, pháo hoa nổ; Danh mục chi tiết mã số HS pháo hoa, pháo hoa nổ

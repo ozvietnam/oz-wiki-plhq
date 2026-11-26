@@ -1,6 +1,6 @@
 {
   "ngay": "2026-11-26",
-  "tong": 3042,
+  "tong": 3036,
   "diem": [
     {
       "ma": "CO_QUAN_DA_SAP_NHAP",
@@ -16653,21 +16653,12 @@
       "trongSo": 0
     },
     {
-      "ma": "KHONG_NGUON_A",
+      "ma": "KHONG_TOAN_VAN",
       "muc": "Thấp",
-      "tieuDe": "4502/QĐ-BKHCN: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)",
+      "tieuDe": "4502/QĐ-BKHCN: chưa có toàn văn trong raw/",
       "muc_tieu": "4502/QĐ-BKHCN",
-      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
-      "luong": "truy-vet-nguon",
-      "trongSo": 0
-    },
-    {
-      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
-      "muc": "Thấp",
-      "tieuDe": "4502/QĐ-BKHCN: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
-      "muc_tieu": "4502/QĐ-BKHCN",
-      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
-      "luong": "hieu-luc",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"4502/QĐ-BKHCN\" --ghi",
+      "luong": "nap-lam-sach",
       "trongSo": 0
     },
     {
@@ -17031,21 +17022,12 @@
       "trongSo": 0
     },
     {
-      "ma": "KHONG_NGUON_A",
+      "ma": "KHONG_TOAN_VAN",
       "muc": "Thấp",
-      "tieuDe": "48/2026/VBHN-BCT: chưa có nguồn chính thống (đang dựa vào nguồn thứ cấp)",
+      "tieuDe": "48/2026/VBHN-BCT: chưa có toàn văn trong raw/",
       "muc_tieu": "48/2026/VBHN-BCT",
-      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
-      "luong": "truy-vet-nguon",
-      "trongSo": 0
-    },
-    {
-      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
-      "muc": "Thấp",
-      "tieuDe": "48/2026/VBHN-BCT: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
-      "muc_tieu": "48/2026/VBHN-BCT",
-      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
-      "luong": "hieu-luc",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"48/2026/VBHN-BCT\" --ghi",
+      "luong": "nap-lam-sach",
       "trongSo": 0
     },
     {
@@ -17103,21 +17085,12 @@
       "trongSo": 0
     },
     {
-      "ma": "KHONG_NGUON_A",
+      "ma": "KHONG_TOAN_VAN",
       "muc": "Thấp",
-      "tieuDe": "4814/QĐ-BCA: chưa có nguồn chính thống",
+      "tieuDe": "4814/QĐ-BCA: chưa có toàn văn trong raw/",
       "muc_tieu": "4814/QĐ-BCA",
-      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
-      "luong": "truy-vet-nguon",
-      "trongSo": 0
-    },
-    {
-      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
-      "muc": "Thấp",
-      "tieuDe": "4814/QĐ-BCA: tình trạng \"CHUA_XAC_MINH\" chưa đối chiếu nguồn A",
-      "muc_tieu": "4814/QĐ-BCA",
-      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
-      "luong": "hieu-luc",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"4814/QĐ-BCA\" --ghi",
+      "luong": "nap-lam-sach",
       "trongSo": 0
     },
     {
@@ -20277,15 +20250,6 @@
       "muc_tieu": "6260/TB-TCHQ/2020",
       "viec": "Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "tb-tchq",
-      "trongSo": 0
-    },
-    {
-      "ma": "KHONG_NGUON_A",
-      "muc": "Thấp",
-      "tieuDe": "6266/QĐ-BCA: chưa có nguồn chính thống",
-      "muc_tieu": "6266/QĐ-BCA",
-      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
-      "luong": "truy-vet-nguon",
       "trongSo": 0
     },
     {
@@ -24582,24 +24546,6 @@
       "trongSo": 0
     },
     {
-      "ma": "KHONG_NGUON_A",
-      "muc": "Thấp",
-      "tieuDe": "8378/QĐ-BCA: chưa có nguồn chính thống",
-      "muc_tieu": "8378/QĐ-BCA",
-      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
-      "luong": "truy-vet-nguon",
-      "trongSo": 0
-    },
-    {
-      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
-      "muc": "Thấp",
-      "tieuDe": "8378/QĐ-BCA: tình trạng \"CHUA_XAC_MINH\" chưa đối chiếu nguồn A",
-      "muc_tieu": "8378/QĐ-BCA",
-      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
-      "luong": "hieu-luc",
-      "trongSo": 0
-    },
-    {
       "ma": "TB_TCHQ_KHONG_NGUON_A",
       "muc": "Thấp",
       "tieuDe": "845/TB-TCHQ/2020: TB-TCHQ chưa có nguồn chính thống",
@@ -24618,21 +24564,12 @@
       "trongSo": 0
     },
     {
-      "ma": "KHONG_NGUON_A",
+      "ma": "KHONG_TOAN_VAN",
       "muc": "Thấp",
-      "tieuDe": "85/2021/TT-BTC: chưa có nguồn chính thống",
+      "tieuDe": "85/2021/TT-BTC: chưa có toàn văn trong raw/",
       "muc_tieu": "85/2021/TT-BTC",
-      "viec": "Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.",
-      "luong": "truy-vet-nguon",
-      "trongSo": 0
-    },
-    {
-      "ma": "HIEU_LUC_CHUA_DOI_CHIEU",
-      "muc": "Thấp",
-      "tieuDe": "85/2021/TT-BTC: tình trạng \"CON_HIEU_LUC\" chưa đối chiếu nguồn A",
-      "muc_tieu": "85/2021/TT-BTC",
-      "viec": "Mở trang văn bản nguồn A, xem lược đồ hiệu lực, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
-      "luong": "hieu-luc",
+      "viec": "node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu \"85/2021/TT-BTC\" --ghi",
+      "luong": "nap-lam-sach",
       "trongSo": 0
     },
     {
@@ -25362,6 +25299,15 @@
       "muc_tieu": "99899/TB-TCHQ/2023",
       "viec": "Đối chiếu thông báo trên customs.gov.vn hoặc hồ sơ nguồn, đặt xac_minh.hieu_luc_da_doi_chieu: true + ngay + boi.",
       "luong": "tb-tchq",
+      "trongSo": 0
+    },
+    {
+      "ma": "WIKI_DAN_VB_HET_HIEU_LUC",
+      "muc": "Vừa",
+      "tieuDe": "wiki/concepts/ktcl-bca-2026.md: dẫn 8378/QĐ-BCA đã hết hiệu lực (bãi bỏ bởi 4814/QĐ-BCA)",
+      "muc_tieu": "8378/QĐ-BCA",
+      "viec": "Dòng 57 của wiki/concepts/ktcl-bca-2026.md dẫn 8378/QĐ-BCA (HET_HIEU_LUC từ 2026-07-28) — bãi bỏ bởi 4814/QĐ-BCA. Cập nhật sang văn bản thay thế hoặc ghi rõ ngữ cảnh lịch sử.",
+      "luong": "doc-hieu",
       "trongSo": 0
     },
     {
@@ -27176,9 +27122,9 @@
     {
       "ma": "HS_API_CHO_MO_CHAN",
       "muc": "Thấp",
-      "tieuDe": "Chờ mở chặn 6266/QĐ-BCA (THIEU_PDF_A) — 19 mã HS",
+      "tieuDe": "Chờ mở chặn 6266/QĐ-BCA (THIEU_BAI_TUONG_MINH) — 19 mã HS",
       "muc_tieu": "6266/QĐ-BCA",
-      "viec": "Đã ghi xac_minh.chan: THIEU_PDF_A (2026-10-04). Việc tiếp: Chờ PDF A của 6266 hoặc của QĐ 8378/4814 (nguồn B nói 8378 thay 6266 rồi 4814 bãi 8378). Theo dõi bocongan.gov.vn/media.. Không săn lại cùng URL chết — chạy node tools/san-hieu-luc.mjs để xem hàng đợi còn làm được.",
+      "viec": "Đã ghi xac_minh.chan: THIEU_BAI_TUONG_MINH (2026-11-26). Việc tiếp: Đã có PDF bậc A của 6266/QĐ-BCA và 4814/QĐ-BCA; cổng vanban.bocongan.gov.vn để trống trạng thái 6266 và thiếu PDF bậc A của 8378/QĐ-BCA để xác nhận tường minh Điều 2 thay thế 6266.. Không săn lại cùng URL chết — chạy node tools/san-hieu-luc.mjs để xem hàng đợi còn làm được.",
       "luong": "hieu-luc",
       "trongSo": 19
     },
@@ -27187,7 +27133,7 @@
       "muc": "Thấp",
       "tieuDe": "Chờ mở chặn 2284/QĐ-BKHCN (THIEU_PDF_A) — 19 mã HS",
       "muc_tieu": "2284/QĐ-BKHCN",
-      "viec": "Đã ghi xac_minh.chan: THIEU_PDF_A (2026-10-04). Việc tiếp: Đã có toàn văn trên vntr.moit.gov.vn (bản đánh máy lại của Bộ Công Thương, không phải bản gốc BKHCN); vẫn chờ bản gốc có chữ ký trên datafiles/most/mst và nguồn A xác nhận tình trạng hiệu lực (danh mục nhóm 2 đã được TT 03/2024/TT-BKHCN cập nhật).. Không săn lại cùng URL chết — chạy node tools/san-hieu-luc.mjs để xem hàng đợi còn làm được.",
+      "viec": "Đã ghi xac_minh.chan: THIEU_PDF_A (2026-11-26). Việc tiếp: Đã có bản đánh máy lại trên vntr.moit.gov.vn; đã rà soát lại ngày 26-11-2026 trên mst.gov.vn, vbpl.vn, congbao.chinhphu.vn, vanban.chinhphu.vn (chưa đăng tải) và most.gov.vn (timeout). Chờ bản gốc ký số của BKHCN và nguồn A xác nhận tình trạng hiệu lực (danh mục nhóm 2 đã được TT 03/2024/TT-BKHCN cập nhật).. Không săn lại cùng URL chết — chạy node tools/san-hieu-luc.mjs để xem hàng đợi còn làm được.",
       "luong": "hieu-luc",
       "trongSo": 19
     },
@@ -27196,7 +27142,7 @@
       "muc": "Thấp",
       "tieuDe": "Chờ mở chặn 9981/QĐ-BCA (THIEU_PDF_A) — 12 mã HS",
       "muc_tieu": "9981/QĐ-BCA",
-      "viec": "Đã ghi xac_minh.chan: THIEU_PDF_A (2026-10-09). Việc tiếp: customs Attachments/12857 đã 404; chờ bản ký số trên datafiles/bocongan. Không nạp từ TVXNK (C) để đánh true. Ngoài ra, 6266/QĐ-BCA (2023) thay TT 08/2019/TT-BCA, KHÔNG thay QĐ 9981. 125/2026/TT-BCA Điều 5 quy định chuyển tiếp nhưng không ghi rõ thay 9981 — cần đối chiếu thêm khi có nguồn A.. Không săn lại cùng URL chết — chạy node tools/san-hieu-luc.mjs để xem hàng đợi còn làm được.",
+      "viec": "Đã ghi xac_minh.chan: THIEU_PDF_A (2026-11-26). Việc tiếp: Đã rà soát lại ngày 26-11-2026 trên vanban.bocongan.gov.vn (API law-document/directive-document), vbpl.vn, congbao.chinhphu.vn và vanban.chinhphu.vn: đều không công bố QĐ 9981/QĐ-BCA; link customs cũ đã 404. Giữ nguyên tình trạng CHUA_XAC_MINH chờ bản gốc bậc A (không tự chốt từ nguồn thứ cấp hoặc TT 125/2026/TT-BCA).. Không săn lại cùng URL chết — chạy node tools/san-hieu-luc.mjs để xem hàng đợi còn làm được.",
       "luong": "hieu-luc",
       "trongSo": 12
     },
