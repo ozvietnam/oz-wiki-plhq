@@ -449,6 +449,16 @@ export function timDiemMu(so, { today = homNay(), root = ROOT, nhuCau = docNhuCa
   }
   const anhXaMap = mappingAhtn?.mapping || null;
   for (const it of bangDm) {
+    if (!it.vanBan.danh_muc_hs?.phien_ban_ahtn) {
+      add(
+        'DANH_MUC_THIEU_PHIEN_BAN_AHTN',
+        MUC.THAP,
+        `${it.vanBan.so_hieu}: danh_muc_hs chưa gắn phien_ban_ahtn`,
+        it.vanBan.so_hieu,
+        `Bổ sung danh_muc_hs.phien_ban_ahtn (AHTN_2017 | AHTN_2022 | AHTN_2028) vào ${it.vanBan._file} để sẵn sàng đối chiếu khi chuyển biểu thuế HS 2028.`,
+        'danh-muc-hs',
+      );
+    }
     if (kiemDinhDang(it).length) continue;
     const { khongTonTai, danChieu } = doiChieu(it, { bt: bieuThue, so });
     for (const o of khongTonTai) {
@@ -464,8 +474,12 @@ export function timDiemMu(so, { today = homNay(), root = ROOT, nhuCau = docNhuCa
           'danh-muc-hs',
         );
       } else {
-        add('HS_KHONG_TON_TAI', MUC.VUA, `${it.vanBan.so_hieu}: mã ${o.ma_hs} không có trong biểu thuế`, it.vanBan.so_hieu,
-          `${it.tep} dòng ${o._dong} ("${o.mo_ta.slice(0, 60)}"). Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật.`, 'danh-muc-hs');
+        const pbAhtn = it.vanBan.danh_muc_hs?.phien_ban_ahtn;
+        const pbBt = bieuThue?.phien_ban || null;
+        const nhanPhienBan = pbAhtn ? ` [${pbAhtn}${pbBt ? ` vs biểu thuế ${pbBt}` : ''}]` : '';
+        const ctxPhienBan = pbAhtn ? ` (danh mục theo ${pbAhtn}${pbBt ? `, biểu thuế đối chiếu ${pbBt}` : ''})` : '';
+        add('HS_KHONG_TON_TAI', MUC.VUA, `${it.vanBan.so_hieu}: mã ${o.ma_hs} không có trong biểu thuế${nhanPhienBan}`, it.vanBan.so_hieu,
+          `${it.tep} dòng ${o._dong} ("${o.mo_ta.slice(0, 60)}")${ctxPhienBan}. Kiểm lại bản gốc: lỗi trích, mã của biểu thuế cũ, hay biểu thuế đối chiếu chưa cập nhật (chuyển tiếp AHTN/HS 2028).`, 'danh-muc-hs');
       }
     }
     for (const [sh, dc] of danChieu) {
@@ -599,7 +613,7 @@ const TEN_MA = {
   HS_API_CHUA_CO: 'Biểu thuế (hs-code-api) dẫn nhưng sổ chưa có', HS_API_UU_TIEN_DOI_CHIEU: 'Ưu tiên đối chiếu — theo số mã HS đang dẫn (hs-code-api)',
   HS_API_CHO_MO_CHAN: 'HS_API đã chặn săn — chờ nguồn A / số hiệu đúng (không săn lặp)',
   HS_API_LECH_THU_VIEN: 'Thư viện hs-code-api ghi khác sổ',
-  DANH_MUC_CHUA_TRICH: 'Văn bản danh mục chưa trích bảng mã HS', HS_KHONG_TON_TAI: 'Mã HS trong bảng không có trong biểu thuế',
+  DANH_MUC_CHUA_TRICH: 'Văn bản danh mục chưa trích bảng mã HS', DANH_MUC_THIEU_PHIEN_BAN_AHTN: 'Danh mục HS chưa gắn phiên bản AHTN (AHTN_2017/2022/2028)', HS_KHONG_TON_TAI: 'Mã HS trong bảng không có trong biểu thuế',
   HS_AHTN_CU_DA_ANH_XA: 'Mã HS AHTN cũ đã ánh xạ sang biểu thuế EN2022',
   DAN_CHIEU_CHUA_CO_BANG: 'Bảng dẫn chiếu mã HS sang văn bản chưa có bảng',
   HANG_THAT_CHUA_DOI_CHIEU_KTCN: 'Mã HS có hàng thật chưa đối chiếu KTCN 2026 (hs-code-api /api/demand)',

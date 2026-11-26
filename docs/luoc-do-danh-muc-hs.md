@@ -46,12 +46,18 @@ Thêm trường `danh_muc_hs` vào YAML của văn bản:
 ```yaml
 danh_muc_hs:
   tep: danh-muc/28-2026-tt-bct.csv
+  phien_ban_ahtn: AHTN_2022   # AHTN_2017 | AHTN_2022 | AHTN_2028 — phiên bản danh mục AHTN gốc mà phụ lục dùng
   nguon: https://congbaocdn.chinhphu.vn/...pdf   # bản CÓ phụ lục đã dùng để trích (ưu tiên Công báo có lớp chữ)
   trich_boi: cursor-agent@ozvietnam
   ngay: '2026-10-04'
   da_doi_chieu: false   # true khi người/agent thứ hai đã soát từng dòng với bản gốc
   ghi_chu: phụ lục từ trang 5; 3 ô gộp đã tách
 ```
+
+**Phiên bản AHTN (`phien_ban_ahtn`) & vòng đời chuyển tiếp HS 2028:**
+- Giá trị hợp lệ trong `tools/kiem-tra.mjs`: `AHTN_2017`, `AHTN_2022`, `AHTN_2028`. Khi có mặt nhưng sai giá trị → chặn PR; khi thiếu → điểm mù `DANH_MUC_THIEU_PHIEN_BAN_AHTN` (mức Thấp).
+- Trường này được truyền vào `dist/hs-index.json` (`van_ban[].bang.phien_ban_ahtn`) và `dist/hs-index-theo-ma.json` (`ma[hs][].phien_ban_ahtn`), giúp `hs-code-api` phân biệt cạnh thuộc AHTN cũ với biểu thuế hiện hành.
+- Khi `nhu-cau/bieu-thue.json` chuyển sang HS 2028 / AHTN 2028, điểm mù `HS_KHONG_TON_TAI` tự động gắn ngữ cảnh `[AHTN_2022 vs biểu thuế <phiên bản>]` để tách ngay mã trôi do đổi kỳ HS khỏi lỗi trích, và kết hợp với bảng chuyển tiếp `registry/phien-ban-bieu-thue-mapping.yaml`.
 
 ## Cách làm một bảng
 
@@ -76,7 +82,8 @@ danh_muc_hs:
 | Mã | Ý nghĩa |
 |---|---|
 | `DANH_MUC_CHUA_TRICH` | Văn bản danh mục (tên có "danh mục", thuộc nhánh KTCN, ngoại thương hoặc phòng vệ thương mại) chưa có bảng. Mức Cao nếu là danh mục KTCN có hiệu lực từ 01/7/2026 trở đi, hoặc được biểu thuế dẫn từ 50 mã. **Không** áp dụng cho văn bản chỉ bãi bỏ (tên bắt đầu "Bãi bỏ…", vd 4814/QĐ-BCA), phụ lục tách riêng đã khai `phu_luc_cua` trỏ mẹ đã có CSV, văn bản có phụ lục danh mục đã bị văn bản khác thay toàn bộ (`danh_muc_thay_boi` trỏ văn bản đã có `danh_muc_hs`, vd 13/2018/TT-BTTTT ← 10/2022/TT-BTTTT), hoặc văn bản danh mục mà bản gốc bậc A chỉ quy định theo mô tả / mã CAS không gắn mã HS (`danh_muc_khong_ma_hs`, bắt buộc `xac_minh.muc: NGUON_A`, vd 14/2024/TT-BNNPTNT, 28/2026/NĐ-CP, 09/2013/TT-BTTTT) |
-| `HS_KHONG_TON_TAI` | Mã trong bảng không có trong biểu thuế: lỗi trích, mã của biểu thuế cũ, hoặc bản chụp biểu thuế chưa cập nhật |
+| `DANH_MUC_THIEU_PHIEN_BAN_AHTN` | Bảng đã khai `danh_muc_hs.tep` nhưng chưa gắn `danh_muc_hs.phien_ban_ahtn` (`AHTN_2017 \| AHTN_2022 \| AHTN_2028`), mức Thấp — cần bổ sung để sẵn sàng đối chiếu khi biểu thuế chuyển sang HS 2028 |
+| `HS_KHONG_TON_TAI` | Mã trong bảng không có trong biểu thuế: lỗi trích, mã của biểu thuế cũ, hoặc bản chụp biểu thuế chưa cập nhật (từ Wave 32 kèm ngữ cảnh `[phien_ban_ahtn vs biểu thuế]`) |
 | `DAN_CHIEU_CHUA_CO_BANG` | Bảng dẫn mã sang văn bản chưa có bảng, hoặc văn bản chưa có trong sổ |
 
 ## Quy tắc nội suy mã khi Phụ lục dẫn chiếu (học từ TT 27/2026/TT-BYT, 10/2026)
