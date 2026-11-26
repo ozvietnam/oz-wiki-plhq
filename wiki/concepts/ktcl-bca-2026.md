@@ -74,4 +74,4 @@ Khi NK thiết bị PCCC hoặc camera → tra cứu PL TT 125/2026:
 | 5 | Chuyển tiếp | Giấy CN hợp quy, TB tiếp nhận CBHQ cấp trước 01/7/2026 còn giá trị đến hết hạn; hàng rủi ro cao truy xuất nguồn gốc sau 06 tháng từ ngày hiệu lực | Điều 6 TT 125/2026/TT-BCA |
 | 6 | Thời hạn (khung) | 01/07/05 ngày làm việc | Điều 83 khoản 1 điểm b NĐ 37/2026/NĐ-CP |
 
-Nghĩa vụ theo mức rủi ro (nguồn A): [[concepts/muc-do-rui-ro-hang-hoa]]. Nền: Luật 55/2024/QH15 (Điều 44 áp dụng đồng thời). TT 125 **không** bãi tường minh QĐ 8378/QĐ-BCA, 6266/QĐ-BCA và 9981/QĐ-BCA — Điều 5 khoản 2 chỉ là dẫn chiếu chuyển tiếp (sổ, ghi_chu).
+Nghĩa vụ theo mức rủi ro (nguồn A): [[concepts/muc-do-rui-ro-hang-hoa]]. Nền: Luật 55/2024/QH15 (Điều 44 áp dụng đồng thời). Lưu ý: QĐ `8378/QĐ-BCA` **đã hết hiệu lực từ 28/07/2026 (bị bãi bỏ bởi `4814/QĐ-BCA`)**; TT 125/2026/TT-BCA không bãi bỏ tường minh QĐ 8378/QĐ-BCA, 6266/QĐ-BCA và 9981/QĐ-BCA — Điều 5 khoản 2 của `125/2026/TT-BCA` chỉ là dẫn chiếu chuyển tiếp (sổ, ghi_chu).

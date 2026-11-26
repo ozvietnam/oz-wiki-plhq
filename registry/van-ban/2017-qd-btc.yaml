@@ -1,19 +1,27 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 2017/QĐ-BTC
 loai: QUYET_DINH
-ten: 'Công bố thủ tục hành chính được sửa đổi, bổ sung trong lĩnh vực hải quan'
+ten: Công bố thủ tục hành chính được sửa đổi, bổ sung trong lĩnh vực hải quan
 co_quan: BTC
 ngay_ban_hanh: '2026-07-28'
+hieu_luc_tu: '2026-08-21'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - hai-quan/thu-tuc
 nguon:
+  - url: https://xaydungchinhsach.chinhphu.vn/quyet-dinh-so-2017-qd-btc-sua-doi-11-thu-tuc-bai-bo-7-thu-tuc-hai-quan-119260803171542742.htm
+    truy_cap: '2026-11-26'
+  - url: https://xdcs.cdnchinhphu.vn/446259493575335936/2026/8/3/2017-qd-btc-17857520196971242335908.pdf
+    truy_cap: '2026-11-26'
+  - url: https://www.vietnamtradeportal.gov.vn/index.php?r=site/display&id=4540
+    truy_cap: '2026-11-26'
   - url: https://thuvienphapluat.vn
     truy_cap: '2026-11-25'
 xac_minh:
-  muc: NGUON_THU_CAP
-  pham_vi: 'số hiệu + tên + ngày ban hành 28-07-2026 (tổng hợp TVPL — giải nốt mục treo từ 24/11); cần danh mục TTHC chi tiết khi lên A'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-11-25'
-  boi: zcode@ozvietnam
-ghi_chu: 'Trinh thám đêm 25/11. Đúng họ 344/QĐ-BTC + 3318/QĐ-BTC đã có — cập nhật danh mục TTHC hải quan.'
+  muc: NGUON_A
+  pham_vi: 'Đã đối chiếu trang Chính phủ (xaydungchinhsach.chinhphu.vn) và toàn văn PDF ký số của Bộ Tài chính (2017-qd-btc-17857520196971242335908.pdf, ký ngày 28-07-2026 17:06:21 +07:00, Thứ trưởng Nguyễn Đức Chi ký): ban hành 28-07-2026, Điều 2 quy định hiệu lực từ 21-08-2026 và bãi bỏ một số nội dung công bố TTHC tại QĐ 1450/QĐ-BTC (24-09-2020) và QĐ 2770/QĐ-BTC (25-12-2015). Đang còn hiệu lực.'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-26'
+  boi: antigravity@ozvietnam
+ghi_chu: Trinh thám đêm 25/11. Đúng họ 344/QĐ-BTC + 3318/QĐ-BTC đã có — cập nhật danh mục TTHC hải quan.
+toan_van: raw/download/xdcs.cdnchinhphu.vn/2017-qd-btc.pdf
