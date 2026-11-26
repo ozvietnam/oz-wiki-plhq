@@ -3423,6 +3423,7 @@
         "giao-thang-nuoc-thu-ba",
         "thue"
       ],
+      "toan_van": "raw/download/datafiles.chinhphu.vn/05-2014-tt-nhnn.pdf",
       "slug": "05-2014-tt-nhnn",
       "van": "53c22c09d5b9967acfc493a5bcf4a856bcfa7c56864a86c42d17a63cb630ec9c",
       "bac_nguon_cao_nhat": "A",
@@ -121435,7 +121436,7 @@
           "ghi_chu": "Bản VB chính (4 trang) trên datafiles.chinhphu.vn"
         }
       ],
-      "toan_van": "raw/download/datafiles.chinhphu.vn/49-2026-tt-bxd-pl1.pdf",
+      "toan_van": "raw/download/datafiles.chinhphu.vn/49-pl1-2026-tt-bxd.pdf",
       "xac_minh": {
         "muc": "NGUON_A",
         "pham_vi": "Phụ lục I — bảng 6 cột (STT, Tên sản phẩm/hàng hóa, Quy chuẩn kỹ thuật quốc gia, Mã số HS, Mô tả, Yêu cầu quản lý chất lượng). Đếm thực tế từ body trích: 48 dòng mã HS duy nhất (một số mã ghi cả dạng 2-số và 6/8-số, ví dụ 73.11 / 7311.00.99 — quy về một). Phạm vi: ô tô, mô tô, xe gắn máy, xe bốn bánh có gắn động cơ; rơ moóc/sơ mi rơ moóc; xe máy chuyên dùng; phụ tùng xe cơ giới; sản phẩm công nghiệp dùng trong GTVT (bình áp lực, cần trục, xe nâng, sàn nâng).",
@@ -121478,7 +121479,7 @@
           "ghi_chu": "Bản VB chính trên datafiles.chinhphu.vn"
         }
       ],
-      "toan_van": "raw/download/datafiles.chinhphu.vn/49-2026-tt-bxd-pl2.pdf",
+      "toan_van": "raw/download/datafiles.chinhphu.vn/49-pl2-2026-tt-bxd.pdf",
       "xac_minh": {
         "muc": "NGUON_A",
         "pham_vi": "Phụ lục II — bảng 6 cột (STT, Tên sản phẩm/hàng hóa, QCVN, Mã số HS, Mô tả, Yêu cầu QLCL). Phạm vi: phương tiện giao thông đường bộ còn lại, phụ tùng, thiết bị GTVT, vật liệu xây dựng dạng công nghiệp, xe máy chuyên dùng. Yêu cầu KTCL theo QCVN tương ứng nhưng mức độ trung bình → kiểm tra theo tỷ lệ/tần suất.",
