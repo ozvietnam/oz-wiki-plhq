@@ -18,6 +18,7 @@ import { dungChiMuc, dungChiMucTheoMa, docBieuThue, docAnhXaAhtn } from './lib/d
 import { dungWikiDist } from './lib/wiki-dist.mjs';
 import { dungDieuKhoan, dungCasIndex } from './lib/dieu-khoan-dist.mjs';
 import { dungChinhSachMoTa } from './lib/chinh-sach-mo-ta.mjs';
+import { LOP_DU_LIEU, tinhVanTay, dungManifest } from './lib/van-tay.mjs';
 
 const BIEU_TUONG = {
   CON_HIEU_LUC: '🟢', HET_HIEU_LUC: '⚫', HET_HIEU_LUC_MOT_PHAN: '🟡', TAM_NGUNG_HIEU_LUC: '⏸️',
@@ -34,11 +35,21 @@ export function dungJson(so, today = homNay()) {
   return {
     phien_ban: today,
     luoc_do_phien_ban: LUOC_DO_PHIEN_BAN,
+    lop_du_lieu: LOP_DU_LIEU.LUAT,
     giay_phep: 'CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/',
     tong: so.vanBan.length,
     van_ban: so.vanBan.map((d) => ({
+      id: `vb:${d._slug}`,
       ...strip(d),
       slug: d._slug,
+      van: tinhVanTay({
+        so_hieu: d.so_hieu,
+        ten: d.ten,
+        tinh_trang: d.tinh_trang,
+        hieu_luc_tu: d.hieu_luc_tu || null,
+        het_hieu_luc_tu: d.het_hieu_luc_tu || null,
+        quan_he: d.quan_he || null,
+      }),
       bac_nguon_cao_nhat: (d.nguon || []).map((n) => bacNguon(n.url, so.nguon)).sort()[0] || null,
       quan_he_nguoc: nguoc.get(khoa(d.so_hieu)) || {},
     })),
@@ -173,5 +184,40 @@ if (process.argv[1] && import.meta.url === pathToFileURL(resolve(process.argv[1]
   const chinhSachMoTa = dungChinhSachMoTa(so, inRoot, today);
   writeFileSync(join(outRoot, 'dist', 'chinh-sach-mo-ta.json'), JSON.stringify(chinhSachMoTa, null, 1) + '\n');
   console.log(`dist/chinh-sach-mo-ta.json (${chinhSachMoTa.tong_quy_tac} quy tắc, ${Object.keys(chinhSachMoTa.tu_dien_viet_tat || {}).length} viết tắt)`);
+  const manifest = dungManifest({
+    distDir: join(outRoot, 'dist'),
+    phienBan: today,
+    luocDoPhienBan: LUOC_DO_PHIEN_BAN,
+    bieuThueDoiChieu: cmMa.bieu_thue_doi_chieu || cm.bieu_thue_doi_chieu || null,
+    giayPhep: 'CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/',
+    files: [
+      { ten: 'registry.json', lop_du_lieu: LOP_DU_LIEU.LUAT },
+      { ten: 'hs-index.json', lop_du_lieu: LOP_DU_LIEU.LUAT },
+      {
+        ten: 'hs-index-theo-ma.json',
+        lop_du_lieu: LOP_DU_LIEU.LUAT,
+        truong_lan: {
+          ma: LOP_DU_LIEU.LUAT,
+          canh_bao_ma: LOP_DU_LIEU.KY_THUAT,
+          anh_xa_ahtn_cu: LOP_DU_LIEU.BO_TRO,
+          tien_le_tb_tchq: LOP_DU_LIEU.TIEN_LE,
+        },
+      },
+      { ten: 'wiki-index.json', lop_du_lieu: LOP_DU_LIEU.BO_TRO },
+      { ten: 'wiki-chunks.json', lop_du_lieu: LOP_DU_LIEU.BO_TRO },
+      {
+        ten: 'dieu-khoan.json',
+        lop_du_lieu: LOP_DU_LIEU.LUAT,
+        truong_lan: {
+          nguyen_van_nguon_a: LOP_DU_LIEU.LUAT,
+          tom_tat_nhap: LOP_DU_LIEU.BO_TRO,
+        },
+      },
+      { ten: 'cas-index.json', lop_du_lieu: LOP_DU_LIEU.LUAT },
+      { ten: 'chinh-sach-mo-ta.json', lop_du_lieu: LOP_DU_LIEU.BO_TRO },
+    ],
+  });
+  writeFileSync(join(outRoot, 'dist', 'manifest.json'), JSON.stringify(manifest, null, 2) + '\n');
+  console.log(`dist/manifest.json (${manifest.tong_tep} tệp · ${manifest.chuan_lop_du_lieu})`);
   console.log(`dist/registry.json · bao-cao/cay-van-ban.md · bao-cao/quan-he.md (${so.vanBan.length} văn bản)`);
 }

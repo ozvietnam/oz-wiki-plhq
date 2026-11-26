@@ -4,6 +4,7 @@ import { readFileSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 import yaml from 'js-yaml';
 import { ROOT, khoa, LUOC_DO_PHIEN_BAN } from './registry.mjs';
+import { LOP_DU_LIEU, tinhVanTay, nutBieuHs } from './van-tay.mjs';
 
 export const COT = ['ma_hs', 'mo_ta', 'nhom', 'phu_luc', 'loai_tac_dong', 'muc_rui_ro', 'dieu_kien', 'dan_chieu', 'trang'];
 export const COT_CAS = ['cas', 'ten_chat', 'ma_hoa_chat', 'cong_thuc', 'phan_loai', 'phu_luc', 'muc', 'so_thu_tu', 'nguon', 'nhom', 'nguong_kg'];
@@ -280,6 +281,7 @@ export function dungChiMuc(so, root = ROOT, today) {
   return {
     phien_ban: today,
     luoc_do_phien_ban: LUOC_DO_PHIEN_BAN,
+    lop_du_lieu: LOP_DU_LIEU.LUAT,
     giay_phep: 'CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/',
     luoc_do: 'docs/luoc-do-danh-muc-hs.md',
     bieu_thue_doi_chieu: bt ? { phien_ban: bt.phien_ban || null, nguon: bt.nguon || null } : null,
@@ -294,7 +296,20 @@ export function dungChiMuc(so, root = ROOT, today) {
         het_hieu_luc_tu: d.het_hieu_luc_tu || null,
         hieu_luc_da_doi_chieu: d.xac_minh?.hieu_luc_da_doi_chieu === true,
         bang: { tep: it.tep, nguon: d.danh_muc_hs.nguon || null, trich_boi: d.danh_muc_hs.trich_boi || null, ngay: d.danh_muc_hs.ngay || null, da_doi_chieu: d.danh_muc_hs.da_doi_chieu === true },
-        dong: it.dong.map(({ _dong, ...o }) => Object.fromEntries(Object.entries(o).filter(([, v]) => v !== ''))),
+        dong: it.dong.map(({ _dong, ...o }) => ({
+          ...Object.fromEntries(Object.entries(o).filter(([, v]) => v !== '')),
+          ...(o.ma_hs ? { nut_bieu: nutBieuHs(o.ma_hs) } : {}),
+          van: tinhVanTay({
+            so_hieu: d.so_hieu,
+            ma_hs: o.ma_hs || null,
+            loai_tac_dong: o.loai_tac_dong,
+            mo_ta: o.mo_ta || null,
+            dieu_kien: o.dieu_kien || null,
+            phu_luc: o.phu_luc || null,
+            nhom: o.nhom || null,
+            dan_chieu: o.dan_chieu || null,
+          }),
+        })),
       };
     }),
   };
@@ -316,6 +331,16 @@ export function dungChiMucTheoMa(chiMuc, { bt = null, tienLe8 = null, tienLe4 = 
         hieu_luc_tu: vb.hieu_luc_tu, het_hieu_luc_tu: vb.het_hieu_luc_tu, hieu_luc_da_doi_chieu: vb.hieu_luc_da_doi_chieu,
         loai_tac_dong: d.loai_tac_dong, muc_rui_ro: d.muc_rui_ro || null, dieu_kien: d.dieu_kien || null,
         nhom: d.nhom || null, phu_luc: d.phu_luc || null,
+        nut_bieu: nutBieuHs(d.ma_hs),
+        van: tinhVanTay({
+          ma_hs: d.ma_hs,
+          so_hieu: vb.so_hieu,
+          loai_tac_dong: d.loai_tac_dong,
+          muc_rui_ro: d.muc_rui_ro || null,
+          dieu_kien: d.dieu_kien || null,
+          nhom: d.nhom || null,
+          phu_luc: d.phu_luc || null,
+        }),
       };
       const ds = (ma[d.ma_hs] ||= []);
       // Gộp cạnh trùng toàn bộ trường (dòng trích đôi trong cùng văn bản); khác mức rủi ro/phụ lục thì giữ.
@@ -327,6 +352,13 @@ export function dungChiMucTheoMa(chiMuc, { bt = null, tienLe8 = null, tienLe4 = 
   const out = {
     phien_ban: chiMuc.phien_ban,
     luoc_do_phien_ban: chiMuc.luoc_do_phien_ban,
+    lop_du_lieu: LOP_DU_LIEU.LUAT,
+    lop_du_lieu_khoi: {
+      ma: LOP_DU_LIEU.LUAT,
+      canh_bao_ma: LOP_DU_LIEU.KY_THUAT,
+      anh_xa_ahtn_cu: LOP_DU_LIEU.BO_TRO,
+      tien_le_tb_tchq: LOP_DU_LIEU.TIEN_LE,
+    },
     giay_phep: chiMuc.giay_phep,
     luoc_do: 'docs/luoc-do-danh-muc-hs.md',
     cach_tra: 'Khoá là nhóm mã HS trong bảng (4, 6 hoặc 8 số). Tra mã 8 số: ghép mọi khoá là tiền tố của mã (độ dài 4, 6) và khoá trùng 8 số. Cạnh giữ nguyên dieu_kien — "trừ loại…" là trừ diện, không phải diện áp. canh_bao_ma = nhóm mã không có trong biểu thuế đối chiếu — tra ra các khoá này thì dừng và đối chiếu lại văn bản gốc, đừng kết luận diện áp. tien_le_tb_tchq = mật độ thông báo phân loại của Tổng cục (bậc C, tham khảo).',
@@ -361,6 +393,7 @@ export function dungChiMucTheoMa(chiMuc, { bt = null, tienLe8 = null, tienLe4 = 
         };
       }
       out.anh_xa_ahtn_cu = {
+        lop_du_lieu: LOP_DU_LIEU.BO_TRO,
         phien_ban_cu: anhXaAhtn.thong_tin?.phien_ban_cu || null,
         phien_ban_moi: anhXaAhtn.thong_tin?.phien_ban_moi || null,
         tong_duoc_anh_xa: Object.keys(anhXaMap).length,
@@ -371,6 +404,7 @@ export function dungChiMucTheoMa(chiMuc, { bt = null, tienLe8 = null, tienLe4 = 
   }
   if (tienLe8 || tienLe4) {
     out.tien_le_tb_tchq = {
+      lop_du_lieu: LOP_DU_LIEU.TIEN_LE,
       ghi_chu: 'Số thông báo phân loại TB-TCHQ/TB-CHQ của Tổng cục Hải quan theo mã — văn bản cá biệt, bậc C, CHỈ tham khảo cho quan điểm phân loại, không phải căn cứ khai báo. Tra chi tiết: npm run tien-le <mã>.',
       theo_ma_8: tienLe8 || null,
       theo_nhom_4: tienLe4 || null,
