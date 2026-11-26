@@ -2,7 +2,7 @@ name: dung-lai-va-bao-hs-code-api
 # Sau mỗi lần gộp vào main:
 #   1. dựng lại tệp sinh tự động (dist/registry.json, bao-cao/*) từ registry/ + wiki/ + nhu-cau/ và commit nếu đổi
 #      → PR không cần (và không nên) commit dist/ hay bao-cao/: đó là nguyên nhân chính khiến các PR xung đột nhau;
-#   2. bất kỳ tệp dist nào (registry.json, hs-index*.json, wiki-*.json, dieu-khoan.json, cas-index.json, chinh-sach-mo-ta.json, manifest.json)
+#   2. bất kỳ tệp dist nào (registry.json, hs-index*.json, wiki-*.json, dieu-khoan.json, cas-index.json, chinh-sach-mo-ta.json, xuat-xu-fta.json, manifest.json)
 #      đổi so với HEAD → tạo GitHub Release gắn thẻ dist-YYYY-MM-DD (hậu tố .N nếu trùng ngày),
 #      đính kèm toàn bộ các tệp dist hiện có + SHA256SUMS — bản chụp bất biến cho bên dùng (docs/tich-hop.md);
 #   3. báo hs-code-api đồng bộ ngay (repository_dispatch "plhq-updated" → workflow plhq-sync bên đó).
@@ -55,6 +55,7 @@ jobs:
             dist/dieu-khoan.json
             dist/cas-index.json
             dist/chinh-sach-mo-ta.json
+            dist/xuat-xu-fta.json
             dist/manifest.json
           )
           FILES=()

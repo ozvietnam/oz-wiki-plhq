@@ -1,0 +1,476 @@
+# Sổ đăng ký pháp lý Xuất xứ hàng hóa & FTA của Việt Nam (chuan_fta: fta-psr@1)
+# Ranh giới tuyệt đối: CHỈ lưu sự thật pháp lý (mã FTA, đối tác, mẫu C/O, tự chứng nhận, văn bản dẫn chiếu).
+# KHÔNG lưu hay tính toán thuế suất ưu đãi FTA (thuộc phạm vi hs-code-api).
+chuan_fta: fta-psr@1
+
+van_ban_khung_chung:
+  - so_hieu: 05/2017/QH14
+    vai_tro: HIEP_DINH
+  - so_hieu: 31/2018/NĐ-CP
+    vai_tro: QUY_TAC_XUAT_XU
+  - so_hieu: 05/2018/TT-BCT
+    vai_tro: QUY_TAC_XUAT_XU
+  - so_hieu: 33/2023/TT-BTC
+    vai_tro: THU_TUC
+  - so_hieu: 124/2026/TT-BTC
+    vai_tro: THU_TUC
+  - so_hieu: 40/2025/TT-BCT
+    vai_tro: THU_TUC
+  - so_hieu: 26/2026/TT-BCT
+    vai_tro: THU_TUC
+  - so_hieu: 48/2026/VBHN-BCT
+    vai_tro: THU_TUC
+  - so_hieu: 467/QĐ-CHQ
+    vai_tro: THU_TUC
+
+hiep_dinh:
+  - ma_fta: ATIGA
+    ten_hiep_dinh: Hiệp định Thương mại Hàng hóa ASEAN (ATIGA)
+    doi_tac:
+      - Brunei
+      - Campuchia
+      - Indonesia
+      - Lào
+      - Malaysia
+      - Myanmar
+      - Philippines
+      - Singapore
+      - Thái Lan
+    mau_co:
+      - Form D
+      - e-Form D
+    tu_chung_nhan: true
+    de_minimis_mac_dinh: null
+    hieu_luc_tu: '2010-05-17'
+    van_ban_xuat_xu:
+      - so_hieu: 10/2019/TT-BCT
+        vai_tro: QUY_TAC_XUAT_XU
+      - so_hieu: 10/2022/TT-BCT
+        vai_tro: QUY_TAC_XUAT_XU
+      - so_hieu: 126/2022/NĐ-CP
+        vai_tro: BIEU_THUE_UU_DAI
+    ghi_chu_phap_ly: >-
+      Chấp nhận C/O mẫu D bản giấy, e-Form D qua Cơ chế Một cửa ASEAN (ASW) và chứng từ tự chứng nhận
+      xuất xứ của nhà xuất khẩu đủ điều kiện (mã CE) theo Phụ lục I Thông tư 10/2022/TT-BCT và Điều 11
+      Thông tư 33/2023/TT-BTC. Thông tư gốc 22/2016/TT-BCT chưa có trong sổ đăng ký.
+
+  - ma_fta: ACFTA
+    ten_hiep_dinh: Hiệp định Thương mại hàng hóa ASEAN – Trung Quốc (ACFTA)
+    doi_tac:
+      - Brunei
+      - Campuchia
+      - Indonesia
+      - Lào
+      - Malaysia
+      - Myanmar
+      - Philippines
+      - Singapore
+      - Thái Lan
+      - Trung Quốc
+    mau_co:
+      - Form E
+    tu_chung_nhan: false
+    de_minimis_mac_dinh: 10% trị giá FOB đối với hàng hóa không thuộc Chương 50–63 (Điều 12 Thông tư 12/2019/TT-BCT)
+    hieu_luc_tu: '2005-10-19'
+    van_ban_xuat_xu:
+      - so_hieu: 12/2019/TT-BCT
+        vai_tro: QUY_TAC_XUAT_XU
+      - so_hieu: 118/2022/NĐ-CP
+        vai_tro: BIEU_THUE_UU_DAI
+    ghi_chu_phap_ly: >-
+      Thông tư 12/2019/TT-BCT là bộ quy tắc xuất xứ C/O mẫu E đang có hiệu lực (thay thế 36/2010/TT-BCT
+      và 12/2007/QĐ-BTM).
+
+  - ma_fta: AKFTA
+    ten_hiep_dinh: Hiệp định Thương mại Hàng hóa ASEAN – Hàn Quốc (AKFTA)
+    doi_tac:
+      - Brunei
+      - Campuchia
+      - Indonesia
+      - Lào
+      - Malaysia
+      - Myanmar
+      - Philippines
+      - Singapore
+      - Thái Lan
+      - Hàn Quốc
+    mau_co:
+      - Form AK
+    tu_chung_nhan: false
+    de_minimis_mac_dinh: 10% trị giá FOB đối với hàng hóa không thuộc Chương 50–63 (điểm a khoản 1 Điều 13 Thông tư 49/2025/TT-BCT)
+    hieu_luc_tu: '2007-06-01'
+    van_ban_xuat_xu:
+      - so_hieu: 49/2025/TT-BCT
+        vai_tro: QUY_TAC_XUAT_XU
+      - so_hieu: 13/2019/TT-BCT
+        vai_tro: QUY_TAC_XUAT_XU
+      - so_hieu: 119/2022/NĐ-CP
+        vai_tro: BIEU_THUE_UU_DAI
+    ghi_chu_phap_ly: >-
+      Hàng hóa sản xuất tại Khu công nghiệp Khai Thành (GIC) áp dụng Điều 6 Nghị định 119/2022/NĐ-CP
+      (C/O mẫu AK ghi 'Rule 6' tại ô số 8) và Điều 9 Thông tư 49/2025/TT-BCT (hiệu lực từ 01/05/2026).
+
+  - ma_fta: AJCEP
+    ten_hiep_dinh: Hiệp định Đối tác kinh tế toàn diện ASEAN – Nhật Bản (AJCEP)
+    doi_tac:
+      - Brunei
+      - Campuchia
+      - Indonesia
+      - Lào
+      - Malaysia
+      - Myanmar
+      - Philippines
+      - Singapore
+      - Thái Lan
+      - Nhật Bản
+    mau_co:
+      - Form AJ
+    tu_chung_nhan: false
+    de_minimis_mac_dinh: null
+    hieu_luc_tu: '2008-12-01'
+    van_ban_xuat_xu:
+      - so_hieu: 120/2022/NĐ-CP
+        vai_tro: BIEU_THUE_UU_DAI
+    ghi_chu_phap_ly: >-
+      Thông tư quy tắc xuất xứ chuyên biệt (37/2022/TT-BCT theo Phụ lục I Thông tư 40/2025/TT-BCT)
+      chưa có trong sổ đăng ký; điều kiện chứng nhận C/O mẫu AJ nêu tại khoản 3 Điều 4 Nghị định 120/2022/NĐ-CP.
+
+  - ma_fta: VJEPA
+    ten_hiep_dinh: Hiệp định Đối tác kinh tế Việt Nam – Nhật Bản (VJEPA)
+    doi_tac:
+      - Nhật Bản
+    mau_co:
+      - Form VJ
+      - Form JV
+    tu_chung_nhan: false
+    de_minimis_mac_dinh: null
+    hieu_luc_tu: '2009-10-01'
+    van_ban_xuat_xu:
+      - so_hieu: 124/2022/NĐ-CP
+        vai_tro: BIEU_THUE_UU_DAI
+    ghi_chu_phap_ly: >-
+      Hàng nhập khẩu từ Nhật Bản sử dụng C/O mẫu JV (khoản 3 Điều 4 Nghị định 124/2022/NĐ-CP);
+      hàng từ khu phi thuế quan Việt Nam vào nội địa và hàng xuất khẩu từ Việt Nam sử dụng C/O mẫu VJ
+      (Điều 5 Nghị định 124/2022/NĐ-CP, Phụ lục I Thông tư 40/2025/TT-BCT). Thông tư 10/2009/TT-BCT chưa có trong sổ.
+
+  - ma_fta: AANZFTA
+    ten_hiep_dinh: Hiệp định thành lập Khu vực Thương mại tự do ASEAN – Ôt-xtrây-lia – Niu Di-lân (AANZFTA)
+    doi_tac:
+      - Brunei
+      - Campuchia
+      - Indonesia
+      - Lào
+      - Malaysia
+      - Myanmar
+      - Philippines
+      - Singapore
+      - Thái Lan
+      - Australia
+      - New Zealand
+    mau_co:
+      - Form AANZ
+    tu_chung_nhan: false
+    de_minimis_mac_dinh: null
+    hieu_luc_tu: '2010-01-01'
+    van_ban_xuat_xu:
+      - so_hieu: 121/2022/NĐ-CP
+        vai_tro: BIEU_THUE_UU_DAI
+    ghi_chu_phap_ly: >-
+      Thông tư quy tắc xuất xứ chuyên biệt (31/2015/TT-BCT theo Phụ lục I Thông tư 40/2025/TT-BCT)
+      chưa có trong sổ đăng ký; điều kiện chứng nhận C/O mẫu AANZ nêu tại khoản 3 Điều 4 Nghị định 121/2022/NĐ-CP.
+
+  - ma_fta: AIFTA
+    ten_hiep_dinh: Hiệp định Thương mại hàng hóa ASEAN – Ấn Độ (AIFTA)
+    doi_tac:
+      - Brunei
+      - Campuchia
+      - Indonesia
+      - Lào
+      - Malaysia
+      - Myanmar
+      - Philippines
+      - Singapore
+      - Thái Lan
+      - Ấn Độ
+    mau_co:
+      - Form AI
+    tu_chung_nhan: false
+    de_minimis_mac_dinh: null
+    hieu_luc_tu: '2010-06-01'
+    van_ban_xuat_xu:
+      - so_hieu: 122/2022/NĐ-CP
+        vai_tro: BIEU_THUE_UU_DAI
+    ghi_chu_phap_ly: >-
+      Thông tư quy tắc xuất xứ chuyên biệt (15/2010/TT-BCT theo Phụ lục I Thông tư 40/2025/TT-BCT)
+      chưa có trong sổ đăng ký; điều kiện chứng nhận C/O mẫu AI nêu tại khoản 3 Điều 4 Nghị định 122/2022/NĐ-CP.
+
+  - ma_fta: VCFTA
+    ten_hiep_dinh: Hiệp định Thương mại tự do Việt Nam – Chi-lê (VCFTA)
+    doi_tac:
+      - Chile
+    mau_co:
+      - Form VC
+    tu_chung_nhan: false
+    de_minimis_mac_dinh: null
+    hieu_luc_tu: '2014-01-01'
+    van_ban_xuat_xu:
+      - so_hieu: 112/2022/NĐ-CP
+        vai_tro: BIEU_THUE_UU_DAI
+    ghi_chu_phap_ly: >-
+      Thông tư quy tắc xuất xứ chuyên biệt (31/2013/TT-BCT theo Phụ lục I Thông tư 40/2025/TT-BCT)
+      chưa có trong sổ đăng ký.
+
+  - ma_fta: VKFTA
+    ten_hiep_dinh: Hiệp định Thương mại Tự do Việt Nam – Hàn Quốc (VKFTA)
+    doi_tac:
+      - Hàn Quốc
+    mau_co:
+      - Form VK
+      - Form KV
+    tu_chung_nhan: false
+    de_minimis_mac_dinh: null
+    hieu_luc_tu: '2015-12-20'
+    van_ban_xuat_xu:
+      - so_hieu: 125/2022/NĐ-CP
+        vai_tro: BIEU_THUE_UU_DAI
+    ghi_chu_phap_ly: >-
+      Hàng nhập từ Hàn Quốc dùng C/O mẫu KV (khoản 3 Điều 4 Nghị định 125/2022/NĐ-CP); hàng từ khu phi thuế quan
+      vào nội địa và hàng xuất khẩu từ Việt Nam dùng C/O mẫu VK (Điều 5 Nghị định 125/2022/NĐ-CP, Phụ lục I
+      Thông tư 40/2025/TT-BCT). Hàng GIC (KCN Khai Thành) áp dụng Điều 6 Nghị định 125/2022/NĐ-CP. Thông tư
+      40/2015/TT-BCT chưa có trong sổ.
+
+  - ma_fta: VN-EAEU
+    ten_hiep_dinh: Hiệp định Thương mại tự do giữa Việt Nam và Liên minh Kinh tế Á – Âu (VN-EAEU FTA)
+    doi_tac:
+      - Armenia
+      - Belarus
+      - Kazakhstan
+      - Kyrgyzstan
+      - Liên bang Nga
+    mau_co:
+      - Form EAV
+    tu_chung_nhan: false
+    de_minimis_mac_dinh: null
+    hieu_luc_tu: '2016-10-05'
+    van_ban_xuat_xu:
+      - so_hieu: 11/2018/TT-BCT
+        vai_tro: QUY_TAC_XUAT_XU
+      - so_hieu: 113/2022/NĐ-CP
+        vai_tro: BIEU_THUE_UU_DAI
+    ghi_chu_phap_ly: >-
+      Thông tư gốc 21/2016/TT-BCT chưa có trong sổ; Thông tư 11/2018/TT-BCT sửa đổi Điều 3 và thay thế
+      Phụ lục II (Quy tắc cụ thể mặt hàng - PSR) của 21/2016/TT-BCT.
+
+  - ma_fta: CPTPP
+    ten_hiep_dinh: Hiệp định Đối tác Toàn diện và Tiến bộ xuyên Thái Bình Dương (CPTPP)
+    doi_tac:
+      - Australia
+      - Brunei
+      - Canada
+      - Chile
+      - Malaysia
+      - Mexico
+      - New Zealand
+      - Nhật Bản
+      - Peru
+      - Singapore
+      - Vương quốc Anh
+    mau_co:
+      - Form CPTPP
+    tu_chung_nhan: true
+    de_minimis_mac_dinh: 10% trị giá hàng hóa (trừ ngoại lệ Phụ lục III và hàng dệt may Điều 29 Thông tư 03/2019/TT-BCT)
+    hieu_luc_tu: '2019-01-14'
+    van_ban_xuat_xu:
+      - so_hieu: 72/2018/QH14
+        vai_tro: HIEP_DINH
+      - so_hieu: 121/QĐ-TTg
+        vai_tro: DAU_MOI
+      - so_hieu: 127/QĐ-TTg
+        vai_tro: DAU_MOI
+      - so_hieu: 03/2019/TT-BCT
+        vai_tro: QUY_TAC_XUAT_XU
+      - so_hieu: 115/2022/NĐ-CP
+        vai_tro: BIEU_THUE_UU_DAI
+      - so_hieu: 13/2025/NĐ-CP
+        vai_tro: BIEU_THUE_UU_DAI
+      - so_hieu: 77/2023/NĐ-CP
+        vai_tro: THU_TUC
+    ghi_chu_phap_ly: >-
+      Việt Nam cấp C/O mẫu CPTPP cho hàng xuất khẩu (khoản 2 Điều 4 Thông tư 03/2019/TT-BCT); hàng nhập khẩu từ
+      nước thành viên sử dụng chứng từ chứng nhận xuất xứ theo Hiệp định CPTPP (bao gồm tự chứng nhận từ đối tác).
+      Nghị định 13/2025/NĐ-CP mở rộng lộ trình cho Vương quốc Anh từ 15/12/2024; Nghị định 77/2023/NĐ-CP quản lý
+      hàng hóa tân trang theo CPTPP.
+
+  - ma_fta: AHKFTA
+    ten_hiep_dinh: Hiệp định Thương mại Tự do ASEAN – Hồng Kông, Trung Quốc (AHKFTA)
+    doi_tac:
+      - Brunei
+      - Campuchia
+      - Indonesia
+      - Lào
+      - Malaysia
+      - Myanmar
+      - Philippines
+      - Singapore
+      - Thái Lan
+      - Hồng Kông (Trung Quốc)
+    mau_co:
+      - Form AHK
+    tu_chung_nhan: false
+    de_minimis_mac_dinh: null
+    hieu_luc_tu: '2019-06-11'
+    van_ban_xuat_xu:
+      - so_hieu: 123/2022/NĐ-CP
+        vai_tro: BIEU_THUE_UU_DAI
+    ghi_chu_phap_ly: >-
+      Thông tư quy tắc xuất xứ chuyên biệt (21/2019/TT-BCT theo Phụ lục I Thông tư 40/2025/TT-BCT)
+      chưa có trong sổ đăng ký; điều kiện chứng nhận C/O mẫu AHK nêu tại khoản 3 Điều 4 Nghị định 123/2022/NĐ-CP.
+
+  - ma_fta: VN-CUBA
+    ten_hiep_dinh: Hiệp định Thương mại Việt Nam – Cuba
+    doi_tac:
+      - Cuba
+    mau_co:
+      - Form VN-Cuba
+    tu_chung_nhan: false
+    de_minimis_mac_dinh: null
+    hieu_luc_tu: '2020-04-01'
+    van_ban_xuat_xu:
+      - so_hieu: 114/2022/NĐ-CP
+        vai_tro: BIEU_THUE_UU_DAI
+    ghi_chu_phap_ly: >-
+      Thông tư quy tắc xuất xứ chuyên biệt (08/2020/TT-BCT theo Phụ lục I Thông tư 40/2025/TT-BCT)
+      chưa có trong sổ đăng ký.
+
+  - ma_fta: EVFTA
+    ten_hiep_dinh: Hiệp định Thương mại tự do Việt Nam – Liên minh châu Âu (EVFTA)
+    doi_tac:
+      - Liên minh châu Âu (27 nước thành viên)
+      - Andorra
+      - San Marino
+      - Ceuta và Melilla
+    mau_co:
+      - Form EUR.1
+    tu_chung_nhan: true
+    de_minimis_mac_dinh: null
+    hieu_luc_tu: '2020-08-01'
+    van_ban_xuat_xu:
+      - so_hieu: 102/2020/QH14
+        vai_tro: HIEP_DINH
+      - so_hieu: 1201/QĐ-TTg
+        vai_tro: DAU_MOI
+      - so_hieu: 126/QĐ-TTg
+        vai_tro: DAU_MOI
+      - so_hieu: 41/2022/TT-BCT
+        vai_tro: QUY_TAC_XUAT_XU
+      - so_hieu: 116/2022/NĐ-CP
+        vai_tro: BIEU_THUE_UU_DAI
+    ghi_chu_phap_ly: >-
+      Chấp nhận C/O mẫu EUR.1 và chứng từ tự chứng nhận xuất xứ theo cơ chế mã REX (Điều 11 Thông tư
+      33/2023/TT-BTC). Thông tư gốc 11/2020/TT-BCT chưa có trong sổ; Thông tư 41/2022/TT-BCT sửa đổi Phụ lục II
+      của Thông tư 11/2020/TT-BCT.
+
+  - ma_fta: UKVFTA
+    ten_hiep_dinh: Hiệp định Thương mại tự do Việt Nam – Vương quốc Anh và Bắc Ai-len (UKVFTA)
+    doi_tac:
+      - Liên hiệp Vương quốc Anh và Bắc Ai-len
+    mau_co:
+      - Form EUR.1 UK
+    tu_chung_nhan: true
+    de_minimis_mac_dinh: null
+    hieu_luc_tu: '2021-05-01'
+    van_ban_xuat_xu:
+      - so_hieu: 117/2022/NĐ-CP
+        vai_tro: BIEU_THUE_UU_DAI
+    ghi_chu_phap_ly: >-
+      Chấp nhận C/O mẫu EUR.1 UK (Phụ lục I Thông tư 40/2025/TT-BCT) và chứng từ tự chứng nhận xuất xứ theo
+      mã EORI (Điều 11 Thông tư 33/2023/TT-BTC). Hiệp định áp dụng tạm thời từ 01/01/2021 và có hiệu lực chính
+      thức từ 01/05/2021. Thông tư 02/2021/TT-BCT chưa có trong sổ đăng ký.
+
+  - ma_fta: RCEP
+    ten_hiep_dinh: Hiệp định Đối tác Kinh tế Toàn diện Khu vực (RCEP)
+    doi_tac:
+      - Brunei
+      - Campuchia
+      - Indonesia
+      - Lào
+      - Malaysia
+      - Philippines
+      - Singapore
+      - Thái Lan
+      - Australia
+      - Trung Quốc
+      - Nhật Bản
+      - Hàn Quốc
+      - New Zealand
+    mau_co:
+      - Form RCEP
+    tu_chung_nhan: true
+    de_minimis_mac_dinh: null
+    hieu_luc_tu: '2022-01-01'
+    van_ban_xuat_xu:
+      - so_hieu: 18/NQ-CP
+        vai_tro: HIEP_DINH
+      - so_hieu: 01/QĐ-TTg
+        vai_tro: DAU_MOI
+      - so_hieu: 328/QĐ-TTg
+        vai_tro: DAU_MOI
+      - so_hieu: 129/2022/NĐ-CP
+        vai_tro: BIEU_THUE_UU_DAI
+    ghi_chu_phap_ly: >-
+      Chấp nhận C/O mẫu RCEP và chứng từ tự chứng nhận xuất xứ của nhà xuất khẩu đủ điều kiện (mã CE theo Điều 11
+      Thông tư 33/2023/TT-BTC). Lưu ý cơ chế khác biệt thuế suất theo nước xuất xứ tại Điều 6 Nghị định
+      129/2022/NĐ-CP (áp dụng cho Indonesia từ 02/01/2023). Thông tư 05/2022/TT-BCT chưa có trong sổ.
+
+  - ma_fta: VN-LAO
+    ten_hiep_dinh: Hiệp định Thương mại Việt Nam – Lào
+    doi_tac:
+      - Lào
+    mau_co:
+      - Form S
+    tu_chung_nhan: false
+    de_minimis_mac_dinh: null
+    hieu_luc_tu: '2025-02-24'
+    van_ban_xuat_xu:
+      - so_hieu: 206/2025/NĐ-CP
+        vai_tro: BIEU_THUE_UU_DAI
+    ghi_chu_phap_ly: >-
+      Nghị định 206/2025/NĐ-CP thực hiện Hiệp định Thương mại Việt Nam – Lào giai đoạn 2025–2030 (hết hiệu lực
+      sau ngày 24/02/2030 theo khoản 1 Điều 9), bãi bỏ Nghị định 127/2022/NĐ-CP; yêu cầu C/O mẫu S.
+
+  - ma_fta: VN-CAMPUCHIA
+    ten_hiep_dinh: Bản Thỏa thuận thúc đẩy thương mại song phương Việt Nam – Campuchia
+    doi_tac:
+      - Campuchia
+    mau_co:
+      - Form S
+      - Form X
+    tu_chung_nhan: false
+    de_minimis_mac_dinh: null
+    hieu_luc_tu: '2025-04-28'
+    van_ban_xuat_xu:
+      - so_hieu: 56/2026/NĐ-CP
+        vai_tro: BIEU_THUE_UU_DAI
+    ghi_chu_phap_ly: >-
+      Bản Thỏa thuận giai đoạn 2025–2026 (hiệu lực Nghị định 56/2026/NĐ-CP đến hết ngày 31/12/2026); hàng nhập khẩu
+      từ Campuchia yêu cầu C/O mẫu S và thông quan qua đúng 23 cặp cửa khẩu tại Phụ lục III (xuất khẩu từ Việt Nam
+      sử dụng C/O mẫu X theo Phụ lục I Thông tư 40/2025/TT-BCT).
+
+  - ma_fta: CEPA-UAE
+    ten_hiep_dinh: Hiệp định Đối tác kinh tế toàn diện Việt Nam – Các Tiểu vương quốc Ả-rập Thống nhất (CEPA)
+    doi_tac:
+      - Các Tiểu vương quốc Ả-rập Thống nhất (UAE)
+    mau_co:
+      - Form UAE-VN
+    tu_chung_nhan: true
+    de_minimis_mac_dinh: 20% giá xuất xưởng (Hạn mức linh hoạt, Điều 10 Thông tư 24/2026/TT-BCT)
+    hieu_luc_tu: '2026-02-03'
+    van_ban_xuat_xu:
+      - so_hieu: 24/2026/TT-BCT
+        vai_tro: QUY_TAC_XUAT_XU
+      - so_hieu: 143/2026/NĐ-CP
+        vai_tro: BIEU_THUE_UU_DAI
+    ghi_chu_phap_ly: >-
+      Áp dụng hồi tố từ ngày 03/02/2026 theo khoản 2 Điều 36 Thông tư 24/2026/TT-BCT và khoản 2 Điều 6 Nghị định
+      143/2026/NĐ-CP. Chấp nhận C/O mẫu UAE-VN, tự chứng nhận của nhà xuất khẩu đủ điều kiện và tự chứng nhận của
+      nhà xuất khẩu bất kỳ cho lô hàng trị giá không quá 500 USD (Điều 22, Điều 24 Thông tư 24/2026/TT-BCT).

@@ -419,6 +419,7 @@ try {
     'dieu-khoan.json',
     'cas-index.json',
     'chinh-sach-mo-ta.json',
+    'xuat-xu-fta.json',
     'manifest.json',
   ];
   const allPresent = expectedFiles.every((f) => existsSync(join(tmpOut, 'dist', f)));
@@ -432,12 +433,13 @@ try {
   const dkOutFile = allPresent ? JSON.parse(readFileSync(join(tmpOut, 'dist', 'dieu-khoan.json'), 'utf8')) : null;
   const noBoundaryLeak = !existsSync(join(tmpOut, 'dist', 'chu-giai-hs.json'))
     && !existsSync(join(tmpOut, 'dist', 'chu-giai-chuong.json'));
-  t(`CLI tools/dung.mjs --out tmpdir: xuất đủ 9 tệp dist/*.json (luoc_do_phien_ban = ${LUOC_DO_PHIEN_BAN}), không sinh chu-giai-hs/chuong`,
+  t(`CLI tools/dung.mjs --out tmpdir: xuất đủ 10 tệp dist/*.json (luoc_do_phien_ban = ${LUOC_DO_PHIEN_BAN}), không sinh chu-giai-hs/chuong`,
     allPresent && allSchemaOk && noBoundaryLeak && dungJson(napSo(rWiki)).luoc_do_phien_ban === LUOC_DO_PHIEN_BAN
     && dungStdout.includes('dist/chinh-sach-mo-ta.json')
+    && dungStdout.includes('dist/xuat-xu-fta.json')
     && dungStdout.includes('dist/manifest.json')
     && manifestOut?.luoc_do_phien_ban === LUOC_DO_PHIEN_BAN
-    && manifestOut?.tong_tep === 8
+    && manifestOut?.tong_tep === 9
     && hsTheoMaOut?.anh_xa_ahtn_cu?.tong_duoc_anh_xa >= 100
     && csOutFile?.tong_quy_tac === 14
     && Object.keys(csOutFile?.tu_dien_viet_tat || {}).length === 25

@@ -62,7 +62,7 @@ try {
   const manifestPath = join(distDir, 'manifest.json');
   const manifest = JSON.parse(readFileSync(manifestPath, 'utf8'));
 
-  const expectedEight = [
+  const expectedNine = [
     'registry.json',
     'hs-index.json',
     'hs-index-theo-ma.json',
@@ -71,10 +71,11 @@ try {
     'dieu-khoan.json',
     'cas-index.json',
     'chinh-sach-mo-ta.json',
+    'xuat-xu-fta.json',
   ];
 
   let shaMatchAll = true;
-  for (const name of expectedEight) {
+  for (const name of expectedNine) {
     const meta = manifest.tep?.[name];
     const buf = readFileSync(join(distDir, name));
     const actualSha = createHash('sha256').update(buf).digest('hex');
@@ -84,14 +85,23 @@ try {
     }
   }
 
-  t('manifest.json: chuan_lop_du_lieu = lop-kho@1, đủ 8 tệp khớp SHA-256 + bytes thật trên đĩa',
+  t('manifest.json: chuan_lop_du_lieu = lop-kho@1, đủ 9 tệp khớp SHA-256 + bytes thật trên đĩa',
     manifest.luoc_do_phien_ban === LUOC_DO_PHIEN_BAN
     && manifest.chuan_lop_du_lieu === 'lop-kho@1'
-    && manifest.tong_tep === 8
-    && Object.keys(manifest.tep || {}).length === 8
+    && manifest.tong_tep === 9
+    && Object.keys(manifest.tep || {}).length === 9
     && shaMatchAll
     && manifest.tep['hs-index-theo-ma.json']?.truong_lan?.tien_le_tb_tchq === 'TIEN_LE'
-    && manifest.tep['dieu-khoan.json']?.truong_lan?.tom_tat_nhap === 'BO_TRO');
+    && manifest.tep['dieu-khoan.json']?.truong_lan?.tom_tat_nhap === 'BO_TRO'
+    && manifest.tep['xuat-xu-fta.json']?.lop_du_lieu === 'LUAT');
+
+  const fta = JSON.parse(readFileSync(join(distDir, 'xuat-xu-fta.json'), 'utf8'));
+  t('xuat-xu-fta.json: chuan_fta = fta-psr@1, lop_du_lieu = LUAT, id fta:<ma> + van SHA-256',
+    fta.chuan_fta === 'fta-psr@1'
+    && fta.lop_du_lieu === 'LUAT'
+    && fta.tong > 0
+    && fta.hiep_dinh.length === fta.tong
+    && fta.hiep_dinh.every((h) => h.id === `fta:${h.ma_fta.toLowerCase()}` && HEX64.test(h.van)));
 
   const reg = JSON.parse(readFileSync(join(distDir, 'registry.json'), 'utf8'));
   t('registry.json: lop_du_lieu = LUAT, mỗi văn bản có id vb:<slug> + van SHA-256',
