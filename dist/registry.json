@@ -116562,27 +116562,28 @@
       "ten": "Sửa đổi, bổ sung một số điều của Thông tư 28/2025/TT-BYT về quản lý nguyên liệu làm thuốc",
       "co_quan": "BYT",
       "ngay_ban_hanh": "2026-11-01",
-      "tinh_trang": "CON_HIEU_LUC",
+      "hieu_luc_tu": "2027-01-01",
+      "tinh_trang": "CHUA_CO_HIEU_LUC",
       "nhanh": [
         "kiem-tra-chuyen-nganh/byt"
       ],
       "nguon": [
         {
-          "url": "https://thuvienphapluat.vn",
-          "truy_cap": "2026-11-25"
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=220160&classid=1",
+          "truy_cap": "2026-11-26"
         }
       ],
       "xac_minh": {
         "muc": "NGUON_THU_CAP",
-        "pham_vi": "số hiệu + tên + ngày ban hành 01-11-2026, hiệu lực 01-01-2027 (tổng hợp TVPL tuần 23-25/11); cần bản gốc khi lên A",
+        "pham_vi": "số hiệu + tên + ngày ban hành 01-11-2026, hiệu lực 01-01-2027 (đối chiếu trang văn bản vanban.chinhphu.vn docid 220160 ngày 26-11-2026; bản đầu nạp từ tổng hợp TVPL tuần 23-25/11); cần toàn văn bản gốc khi lên A",
         "hieu_luc_da_doi_chieu": false,
         "ngay": "2026-11-25",
         "boi": "zcode@ozvietnam"
       },
       "ghi_chu": "Trinh thám đêm 25/11 (giải nốt mục treo từ 23/11). Nguyên liệu làm thuốc — đụng GP nhập nguyên liệu dược, khớp NQ 20/11 về cấp phép nhập nguyên liệu sản xuất thuốc XK.",
       "slug": "45-2026-tt-byt",
-      "van": "ba9f5863adf20a8fcd7173bf59e7f22d0e58012db7acb88ba0933f0408f5e5ee",
-      "bac_nguon_cao_nhat": "B",
+      "van": "9dcc1a23e83cb00044b5d4cd6830f2fdf243a89898a50c38954ce7a9d0ad289b",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -136299,6 +136300,7 @@
       "ten": "Quy định về cơ sở dữ liệu thực phẩm thuộc phạm vi quản lý của Bộ Công Thương",
       "co_quan": "BCT",
       "ngay_ban_hanh": "2026-10-15",
+      "hieu_luc_tu": "2026-11-15",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "kiem-tra-chuyen-nganh/bct"
@@ -136318,7 +136320,7 @@
       },
       "ghi_chu": "Trinh thám đêm 25/11. CSDL thực phẩm BCT — DN kinh doanh thực phẩm (gồm nhập) phải khai báo/kết nối; khớp TT 28/2026 (danh mục ATTP kèm HS) đã có.",
       "slug": "63-2026-tt-bct",
-      "van": "6bfb6bb2b8031cddd2c88aa84019148357b0f0c3da3a1de5b729216f6417d4b4",
+      "van": "f26f85d0b674db70b9ed7a74f2f90048a22efeac9c0781e41adecb55ac793a1d",
       "bac_nguon_cao_nhat": "C",
       "quan_he_nguoc": {}
     },
