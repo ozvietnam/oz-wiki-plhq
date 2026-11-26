@@ -4,7 +4,7 @@ import { dirname, join, resolve } from 'node:path';
 import { tmpdir } from 'node:os';
 import { fileURLToPath } from 'node:url';
 import yaml from 'js-yaml';
-import { VIET_TAT_PLHQ, hoiPhapLuat, taoKhoTraCuu } from '../lib/tra-cuu-plhq.mjs';
+import { VIET_TAT_PLHQ, hoiPhapLuat, taoKhoTraCuu, traChinhSachTheoMaHs } from '../lib/tra-cuu-plhq.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(HERE, '..', '..');
@@ -843,6 +843,175 @@ function docMau(overrides) {
   } finally {
     rmSync(root, { recursive: true, force: true });
   }
+}
+
+// --- Test 11: Wave 31 traChinhSachTheoMaHs thuần dữ liệu (nut_bieu, nhom_theo_trang_thai, can_kiem_cas, dieu_khoan_lien_quan) ---
+{
+  const fakeStore = {
+    byKhoa: new Map(),
+    nguonUyTin: { A: [] },
+    canhBaoMaSet: new Set(),
+    hsIndexTheoMa: {
+      ma: {
+        '2902': [
+          {
+            so_hieu: '10/2025/NĐ-CP',
+            slug: '10-2025-nd-cp',
+            ten: 'Kiểm tra chất lượng hóa chất',
+            tinh_trang: 'CON_HIEU_LUC',
+            hieu_luc_tu: '2025-01-01',
+            hieu_luc_da_doi_chieu: true,
+            loai_tac_dong: 'KIEM_TRA_CHAT_LUONG',
+            dieu_kien: 'Thực hiện theo Điều 6 và Điều 12a.',
+            phu_luc: 'Phụ lục I',
+            nut_bieu: 'bieu:2902',
+            van: 'a'.repeat(64),
+          },
+          {
+            so_hieu: '11/2025/NĐ-CP',
+            slug: '11-2025-nd-cp',
+            ten: 'Cắt giảm kiểm tra chuyên ngành',
+            tinh_trang: 'HET_HIEU_LUC_MOT_PHAN',
+            hieu_luc_tu: '2025-02-01',
+            hieu_luc_da_doi_chieu: true,
+            loai_tac_dong: 'CAT_GIAM_KIEM_TRA',
+            dieu_kien: 'Miễn kiểm tra theo Điều 3.',
+            phu_luc: null,
+          },
+          {
+            so_hieu: '12/2020/NĐ-CP',
+            slug: '12-2020-nd-cp',
+            ten: 'Văn bản hết hiệu lực',
+            tinh_trang: 'HET_HIEU_LUC',
+            hieu_luc_tu: '2020-01-01',
+            het_hieu_luc_tu: '2025-01-01',
+            hieu_luc_da_doi_chieu: true,
+            loai_tac_dong: 'GIAY_PHEP',
+            dieu_kien: 'Điều 6 không còn áp dụng.',
+            phu_luc: null,
+          },
+          {
+            so_hieu: '13/2026/NĐ-CP',
+            slug: '13-2026-nd-cp',
+            ten: 'Văn bản sắp có hiệu lực',
+            tinh_trang: 'CHUA_CO_HIEU_LUC',
+            hieu_luc_tu: '2027-01-01',
+            hieu_luc_da_doi_chieu: true,
+            loai_tac_dong: 'CAM_NHAP_KHAU',
+            dieu_kien: null,
+            phu_luc: 'Theo Điều 2 Phụ lục II',
+          },
+        ],
+        '8517': [
+          {
+            so_hieu: '99/2025/TT-BTTTT',
+            slug: '99-2025-tt-btttt',
+            ten: 'Thiết bị viễn thông',
+            tinh_trang: 'CON_HIEU_LUC',
+            hieu_luc_tu: '2025-03-01',
+            hieu_luc_da_doi_chieu: true,
+            loai_tac_dong: 'CONG_BO_HOP_QUY',
+            dieu_kien: 'Không nhắc điều luật.',
+            phu_luc: null,
+          },
+        ],
+        '7001': [
+          {
+            so_hieu: '24/2026/NĐ-CP',
+            slug: '24-2026-nd-cp',
+            ten: 'Danh mục có gắn văn bản CAS',
+            tinh_trang: 'CON_HIEU_LUC',
+            hieu_luc_tu: '2026-01-17',
+            hieu_luc_da_doi_chieu: true,
+            loai_tac_dong: 'GIAY_PHEP',
+            dieu_kien: null,
+            phu_luc: null,
+          },
+        ],
+      },
+    },
+    dieuKhoan: {
+      nguyen_van_nguon_a: [
+        {
+          so_hieu: '10/2025/NĐ-CP',
+          slug: '10-2025-nd-cp',
+          dieu_khoan: [
+            { id: 'vb:10-2025-nd-cp:d:6', dieu: 6, trang_thai_dieu: 'NGUYEN_BAN', van: 'b'.repeat(64) },
+            { dieu: '12a', trang_thai_dieu: 'DA_SUA_DOI', van: 'c'.repeat(64) },
+          ],
+        },
+        {
+          so_hieu: '13/2026/NĐ-CP',
+          slug: '13-2026-nd-cp',
+          dieu_khoan: [
+            { id: 'vb:13-2026-nd-cp:d:2', dieu: 2, van: 'd'.repeat(64) },
+          ],
+        },
+      ],
+    },
+    casIndex: {
+      theo_cas: {
+        '106-99-0': [{ id: 'cas:106-99-0:24-2026-nd-cp:0', cas: '106-99-0', so_hieu: '24/2026/NĐ-CP', slug: '24-2026-nd-cp' }],
+      },
+      khong_co_cas: [],
+    },
+  };
+
+  const rChem = traChinhSachTheoMaHs(fakeStore, '29022000', { limit: 10 });
+  const nhomChem = rChem.nhom_theo_trang_thai;
+  const tongNhomChem = nhomChem.dang_ap_dung.length + nhomChem.cat_giam.length + nhomChem.het_hieu_luc_hoac_sap_co_hieu_luc.length;
+  t(
+    '(11a) traChinhSachTheoMaHs: nut_bieu, phân hoạch nhom_theo_trang_thai khớp 100% ket_qua & bảo toàn trường gốc',
+    rChem.nut_bieu === 'bieu:29022000'
+      && rChem.ket_qua.length === 4
+      && tongNhomChem === rChem.ket_qua.length
+      && nhomChem.dang_ap_dung.length === 1 && nhomChem.dang_ap_dung[0].so_hieu === '10/2025/NĐ-CP'
+      && nhomChem.cat_giam.length === 1 && nhomChem.cat_giam[0].so_hieu === '11/2025/NĐ-CP'
+      && nhomChem.het_hieu_luc_hoac_sap_co_hieu_luc.length === 2
+      && rChem.ket_qua[0].nut_bieu === 'bieu:2902'
+      && rChem.ket_qua[0].van === 'a'.repeat(64)
+      && rChem.ket_qua[1].nut_bieu === 'bieu:2902'
+      && rChem.ket_qua[1].van === null
+      && rChem.ket_qua[0].dieu_kien === 'Thực hiện theo Điều 6 và Điều 12a.',
+    JSON.stringify({ nut_bieu: rChem.nut_bieu, nhom: [nhomChem.dang_ap_dung.length, nhomChem.cat_giam.length, nhomChem.het_hieu_luc_hoac_sap_co_hieu_luc.length] }),
+  );
+
+  t(
+    '(11b) traChinhSachTheoMaHs: liên kết tất định dieu_khoan_lien_quan[] & item.dieu_khoan_ids từ NGUYEN_VAN_NGUON_A',
+    rChem.dieu_khoan_lien_quan.length === 3
+      && rChem.ket_qua[0].dieu_khoan_ids.join(',') === 'vb:10-2025-nd-cp:d:6,vb:10-2025-nd-cp:d:12a'
+      && rChem.ket_qua[2].dieu_khoan_ids.length === 0
+      && rChem.ket_qua[3].dieu_khoan_ids.join(',') === 'vb:13-2026-nd-cp:d:2'
+      && rChem.dieu_khoan_lien_quan.find((d) => d.id === 'vb:13-2026-nd-cp:d:2')?.trang_thai_dieu === 'HIEU_LUC',
+    JSON.stringify({ ids0: rChem.ket_qua[0].dieu_khoan_ids, dk: rChem.dieu_khoan_lien_quan }),
+  );
+
+  const rNonChem = traChinhSachTheoMaHs(fakeStore, '8517', { limit: 10 });
+  const rCasSlug = traChinhSachTheoMaHs(fakeStore, '7001', { limit: 10 });
+  t(
+    '(11c) traChinhSachTheoMaHs: can_kiem_cas đúng cho chương 29, slug casIndex (24-2026-nd-cp), và false cho 8517',
+    rChem.can_kiem_cas === true && Boolean(rChem.ly_do_kiem_cas)
+      && rCasSlug.can_kiem_cas === true && String(rCasSlug.ly_do_kiem_cas || '').includes('24/2026/NĐ-CP')
+      && rNonChem.can_kiem_cas === false && rNonChem.ly_do_kiem_cas === null,
+    JSON.stringify({ chem: rChem.can_kiem_cas, casSlug: rCasSlug.can_kiem_cas, nonChem: rNonChem.can_kiem_cas }),
+  );
+
+  const liveStore = await taoKhoTraCuu({ root: ROOT });
+  const live2504 = traChinhSachTheoMaHs(liveStore, '2504', { limit: 10 });
+  const live2804 = traChinhSachTheoMaHs(liveStore, '28041000', { limit: 10 });
+  const live8517 = traChinhSachTheoMaHs(liveStore, '8517', { limit: 10 });
+  t(
+    '(11d) traChinhSachTheoMaHs trên kho thật: 2504 khớp Điều 5 NGUYEN_VAN_NGUON_A, 28041000 bật can_kiem_cas, 8517 đủ phân hoạch',
+    live2504.nut_bieu === 'bieu:2504'
+      && live2504.dieu_khoan_lien_quan.some((d) => d.id === 'vb:41-2019-tt-bct:d:5')
+      && live2504.ket_qua.some((x) => Array.isArray(x.dieu_khoan_ids) && x.dieu_khoan_ids.includes('vb:41-2019-tt-bct:d:5'))
+      && live2804.can_kiem_cas === true && live2804.nut_bieu === 'bieu:28041000'
+      && live8517.can_kiem_cas === false
+      && (live8517.nhom_theo_trang_thai.dang_ap_dung.length
+        + live8517.nhom_theo_trang_thai.cat_giam.length
+        + live8517.nhom_theo_trang_thai.het_hieu_luc_hoac_sap_co_hieu_luc.length) === live8517.ket_qua.length,
+    JSON.stringify({ dk2504: live2504.dieu_khoan_lien_quan, cas2804: live2804.can_kiem_cas, cas8517: live8517.can_kiem_cas }),
+  );
 }
 
 console.log(`\nKết quả test-tra-cuu-plhq: ${pass} passed, ${fail} failed`);

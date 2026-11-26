@@ -339,7 +339,7 @@ function fmtCas(res) {
 
 function fmtChinhSach(res) {
   const lines = [
-    `Tra chính sách theo mã HS đã biết: ${res.ma_hs || res.ma_hs_goc || '—'}${res.tai_ngay ? ` (Tại ngày: ${res.tai_ngay})` : ''}`,
+    `Tra chính sách theo mã HS đã biết: ${res.ma_hs || res.ma_hs_goc || '—'}${res.nut_bieu ? ` [${res.nut_bieu}]` : ''}${res.tai_ngay ? ` (Tại ngày: ${res.tai_ngay})` : ''}`,
     `Ranh giới: ${res.ranh_gioi}`,
   ];
   if (res.loi) {
@@ -347,6 +347,16 @@ function fmtChinhSach(res) {
     return lines.join('\n');
   }
   lines.push(`Khớp ${res.tong}/${res.tong_truoc_gioi_han} dòng chính sách trên ${res.tong_khoa_khop} khóa HS:`);
+  if (res.nhom_theo_trang_thai) {
+    const g = res.nhom_theo_trang_thai;
+    const nDang = Array.isArray(g.dang_ap_dung) ? g.dang_ap_dung.length : 0;
+    const nCat = Array.isArray(g.cat_giam) ? g.cat_giam.length : 0;
+    const nHet = Array.isArray(g.het_hieu_luc_hoac_sap_co_hieu_luc) ? g.het_hieu_luc_hoac_sap_co_hieu_luc.length : 0;
+    lines.push(`  Nhóm trạng thái: Đang áp dụng: ${nDang} | Cắt giảm: ${nCat} | Hết hiệu lực / Sắp có hiệu lực: ${nHet}`);
+  }
+  if (res.can_kiem_cas) {
+    lines.push(`  CẦN KIỂM TRA CAS: ${res.ly_do_kiem_cas || 'Hàng hóa thuộc chương hóa chất / văn bản kiểm soát CAS.'}`);
+  }
   if (res.canh_bao?.length) {
     for (const cb of res.canh_bao) lines.push(`  CẢNH BÁO: ${cb}`);
   }
@@ -355,6 +365,16 @@ function fmtChinhSach(res) {
       `• [${item.khoa_hs} · ${item.pham_vi_khop}] ${item.so_hieu} [${item.tinh_trang}] — ${item.loai_tac_dong}${item.muc_rui_ro ? ` (Rủi ro: ${item.muc_rui_ro})` : ''}`,
       `  ${item.ten}${item.phu_luc ? ` · ${item.phu_luc}` : ''}${item.nhom ? ` · ${item.nhom}` : ''}${item.dieu_kien ? ` · Điều kiện: ${item.dieu_kien}` : ''}`,
     );
+    if (Array.isArray(item.dieu_khoan_ids) && item.dieu_khoan_ids.length > 0) {
+      lines.push(`  Điều khoản: ${item.dieu_khoan_ids.join(', ')}`);
+    }
+  }
+  if (Array.isArray(res.dieu_khoan_lien_quan) && res.dieu_khoan_lien_quan.length > 0) {
+    lines.push('Điều khoản liên quan (NGUYEN_VAN_NGUON_A):');
+    for (const dk of res.dieu_khoan_lien_quan) {
+      const vanShort = dk.van ? String(dk.van).slice(0, 12) : '—';
+      lines.push(`• ${dk.id} (${dk.so_hieu} Điều ${dk.dieu}) [${dk.trang_thai_dieu}] van:${vanShort}`);
+    }
   }
   if (res.mat_do_tb_tchq_tham_khao) {
     lines.push(

@@ -577,8 +577,21 @@ function dinhDangChinhSachHs(res) {
   const tongTruoc = res?.tong_truoc_gioi_han;
   const demStr = typeof tongTruoc === 'number' && tongTruoc > ds.length ? `${ds.length}/${tongTruoc}` : `${ds.length}`;
   const lines = [`## Văn bản chính sách / KTCN theo mã HS đã biết \`${res?.ma_hs || ''}\` (${demStr} mục)`];
+  if (res?.nut_bieu) {
+    lines.push(`- Nút biểu: \`${res.nut_bieu}\``);
+  }
+  if (res?.nhom_theo_trang_thai) {
+    const g = res.nhom_theo_trang_thai;
+    const nDang = Array.isArray(g.dang_ap_dung) ? g.dang_ap_dung.length : 0;
+    const nCat = Array.isArray(g.cat_giam) ? g.cat_giam.length : 0;
+    const nHet = Array.isArray(g.het_hieu_luc_hoac_sap_co_hieu_luc) ? g.het_hieu_luc_hoac_sap_co_hieu_luc.length : 0;
+    lines.push(`- Nhóm trạng thái (thuần dữ liệu): Đang áp dụng: ${nDang} | Cắt giảm: ${nCat} | Hết hiệu lực / Sắp có hiệu lực: ${nHet}`);
+  }
   if (res?.tai_ngay) {
     lines.push(`- Ngày đối chiếu hiệu lực: **${res.tai_ngay}**`);
+  }
+  if (res?.can_kiem_cas) {
+    lines.push(`- 🧪 Cần kiểm tra mã CAS (\`plhq_tra_cas\`): ${res.ly_do_kiem_cas || 'Hàng hóa thuộc chương hóa chất / văn bản kiểm soát CAS.'}`);
   }
   if (res?.canh_bao_ma?.length) {
     lines.push(`- ⚠️ Cảnh báo mã ngoài biểu thuế đối chiếu: ${res.canh_bao_ma.join(', ')} — cần đối chiếu lại văn bản gốc, không tự kết luận diện áp.`);
@@ -594,6 +607,16 @@ function dinhDangChinhSachHs(res) {
         `- **[${item.so_hieu || '?'}]** (${item.tinh_trang || '?'}) | Mã áp: \`${item.ma_nhom || item.khoa_hs || '?'}\` | Tác động: ${item.loai_tac_dong || '?'}${item.muc_rui_ro ? ` | Rủi ro: ${item.muc_rui_ro}` : ''}`,
       );
       if (item.dieu_kien) lines.push(`  Điều kiện: ${item.dieu_kien}`);
+      if (Array.isArray(item.dieu_khoan_ids) && item.dieu_khoan_ids.length > 0) {
+        lines.push(`  Điều khoản gắn kết: ${item.dieu_khoan_ids.map((id) => `\`${id}\``).join(', ')}`);
+      }
+    }
+  }
+  if (Array.isArray(res?.dieu_khoan_lien_quan) && res.dieu_khoan_lien_quan.length > 0) {
+    lines.push('### Điều khoản liên quan (NGUYEN_VAN_NGUON_A)');
+    for (const dk of res.dieu_khoan_lien_quan) {
+      const vanShort = dk.van ? String(dk.van).slice(0, 12) : '—';
+      lines.push(`- \`${dk.id}\` (${dk.so_hieu || '?'} Điều ${dk.dieu}) | Trạng thái: ${dk.trang_thai_dieu || '?'} | van: \`${vanShort}\``);
     }
   }
   if (res?.ranh_gioi) lines.push(`- Lưu ý ranh giới: ${res.ranh_gioi}`);
@@ -672,6 +695,12 @@ function taoThongTinLuocDo(store) {
       hai_tuyen_sap_co_hieu_luc: true,
       do_thi_sua_doi_cap_dieu: true,
       cong_ngoai_pham_vi: true,
+      van_tay_sha256: true,
+      chuan_lop_du_lieu: 'lop-kho@1',
+      manifest: 'dist/manifest.json',
+      nhom_chinh_sach_thuan_du_lieu: true,
+      can_kiem_cas: true,
+      giao_thuc_he_sinh_thai: 'hs-code-api (ho-so-ma@1) <-> oz-wiki-plhq (1.7.0) <-> ozplugin',
       tai_nguyen_quy_trinh: 'plhq://huong-dan/quy-trinh-agent',
     },
     ranh_gioi_hs_code_api: CHI_DAN_RANH_GIOI_HS,
@@ -865,6 +894,11 @@ export function taoMayChuMcp({ store: initialStore, distDir, root } = {}) {
         '',
         '6. **Ranh giới 0% trùng lặp với `hs-code-api`:**',
         '   - Phân loại/áp mã HS từ mô tả hàng hóa, 6 quy tắc GIR, chú giải HS WCO/AHTN, thuế suất và tiền lệ phân loại thuộc **`hs-code-api`** (`chuyen_huong.he_thong === "hs-code-api"`).',
+        '',
+        '7. **Giao thức liên thông 3 bước `hs-code-api` ↔ `oz-wiki-plhq` ↔ `ozplugin`:**',
+        '   - **Bước 1 (`hs-code-api`):** Xác định mã HS 8 số, mô tả biểu thuế, thuế suất ưu đãi/FTA và hồ sơ mã chuẩn (`ho-so-ma@1`).',
+        '   - **Bước 2 (`oz-wiki-plhq`):** Truyền `ma_hs` đã chốt và `tai_ngay` vào `plhq_chinh_sach_theo_hs(ma_hs, tai_ngay)` → đọc nhóm thuần dữ liệu `nhom_theo_trang_thai` (`dang_ap_dung`, `cat_giam`, `het_hieu_luc_hoac_sap_co_hieu_luc`), kiểm tra `canh_bao_ma` và `can_kiem_cas` → nếu `can_kiem_cas: true` thì gọi `plhq_tra_cas`; gọi `plhq_tra_dieu_khoan` (`chi_nguyen_van: true`) hoặc lần theo `dieu_khoan_lien_quan` để lấy nguyên văn `NGUYEN_VAN_NGUON_A`.',
+        '   - **Bước 3 (LLM / `ozplugin`):** Tổng hợp câu trả lời thuần dữ liệu từ 2 nguồn (0% suy diễn điều luật ngoài kho), trích dẫn bắt buộc kèm `id` điều khoản/nút biểu, `nguon_bac_a` và vân tay `van` (SHA-256).',
         '',
         `> ${GHI_NGUON_CC_BY}`,
         `> ${MIEN_TRU_PHAP_LY}`,
