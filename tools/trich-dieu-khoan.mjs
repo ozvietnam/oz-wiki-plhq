@@ -163,18 +163,40 @@ export function docMotTep(fileInfo, { coPdftotext, docPdf, coUnzip, docDocx }) {
       const text = String(docDocx(fileInfo.abs) ?? '');
       return { ok: true, kind: 'docx', fileInfo, raw: text, pages: [text] };
     }
-    if (!coUnzip) {
-      return { ok: false, code: 'THIEU_UNZIP', err: `thiếu unzip để đọc ${fileInfo.rel}` };
+    let xmlContent = '';
+    let success = false;
+    if (coUnzip) {
+      const r = spawnSync('unzip', ['-p', fileInfo.abs, 'word/document.xml'], {
+        encoding: 'utf8',
+        maxBuffer: MAX_BUFFER,
+      });
+      if (!r.error && r.status === 0) {
+        xmlContent = r.stdout || '';
+        success = true;
+      }
     }
-    const r = spawnSync('unzip', ['-p', fileInfo.abs, 'word/document.xml'], {
-      encoding: 'utf8',
-      maxBuffer: MAX_BUFFER,
-    });
-    if (r.error || r.status !== 0) {
-      const detail = r.error?.message || r.stderr?.trim() || `exit ${r.status}`;
-      return { ok: false, code: 'LOI_DOC_DOCX', err: `unzip lỗi với ${fileInfo.rel}: ${detail}` };
+    if (!success) {
+      const py = `
+import sys, zipfile
+try:
+    with zipfile.ZipFile(sys.argv[1], 'r') as zf:
+        sys.stdout.write(zf.read('word/document.xml').decode('utf-8', errors='ignore'))
+except Exception as e:
+    sys.exit(1)
+`;
+      const r = spawnSync('python3', ['-I', '-c', py, fileInfo.abs], {
+        encoding: 'utf8',
+        maxBuffer: MAX_BUFFER,
+      });
+      if (!r.error && r.status === 0) {
+        xmlContent = r.stdout || '';
+        success = true;
+      }
     }
-    const text = trichDoanTuDocxXml(r.stdout || '');
+    if (!success) {
+      return { ok: false, code: 'THIEU_UNZIP', err: `thiếu unzip (và python zipfile lỗi) để đọc ${fileInfo.rel}` };
+    }
+    const text = trichDoanTuDocxXml(xmlContent);
     return { ok: true, kind: 'docx', fileInfo, raw: text, pages: [text] };
   }
   return { ok: false, code: 'DINH_DANG_CHUA_HO_TRO', err: `định dạng ${fileInfo.ext || fileInfo.rel} chưa hỗ trợ` };
