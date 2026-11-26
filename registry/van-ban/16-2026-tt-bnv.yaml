@@ -32,7 +32,7 @@ danh_muc_hs:
   trich_boi: cursor-agent@ozvietnam
   ngay: '2026-10-12'
   da_doi_chieu: false
-  ghi_chu: 'Bảng CSV sẵn có trên main (56 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này.'
+  ghi_chu: 'Bảng CSV sẵn có trên main (56 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. Đối chiếu canh_bao_ma (2026-11-26) với PDF ký số bậc A (raw/download/datafiles.chinhphu.vn/16-2026-tt-bnv.pdf): mã 8418.86.10 tại Mục II.3 (Hệ thống lạnh, trang PDF 9) được in nguyên văn trong PDF gốc (Case B, giữ nguyên văn CSV — lỗi đánh máy của Bộ trong bản gốc). da_doi_chieu=false — mới đối chiếu nhóm mã canh_bao_ma, chưa soát lại toàn bộ các dòng còn lại.'
 xac_minh:
   muc: NGUON_A
   pham_vi: |
