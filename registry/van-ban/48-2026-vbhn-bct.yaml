@@ -1,23 +1,33 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 48/2026/VBHN-BCT
+so_hieu_khac:
+  - 48/VBHN-BCT
 loai: VAN_BAN_HOP_NHAT
 ten: 'Hợp nhất quy định về cấp Giấy chứng nhận xuất xứ hàng hóa và chấp thuận thương nhân tự chứng nhận xuất xứ hàng hóa'
 co_quan: BCT
-ngay_ban_hanh: '2026-06-25'
+ngay_ban_hanh: '2026-06-04'
 tinh_trang: CON_HIEU_LUC
 nhanh:
   - xuat-xu-fta/quy-tac-xuat-xu
+quan_he:
+  hop_nhat:
+    - so_hieu: 40/2025/TT-BCT
+      can_cu: Lời nói đầu VBHN 48/VBHN-BCT (Công báo số 341 ngày 21-06-2026)
+    - so_hieu: 26/2026/TT-BCT
+      can_cu: Lời nói đầu VBHN 48/VBHN-BCT (Công báo số 341 ngày 21-06-2026)
 nguon:
-  - url: https://thuvienphapluat.vn
-    truy_cap: '2026-11-23'
+  - url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-48-vbhn-bct-469722/65736.htm
+    truy_cap: '2026-11-26'
+  - url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/6/19/469722-1781838903_v1_1781864147_signed.pdf
+    truy_cap: '2026-11-26'
+  - url: https://moit.gov.vn/van-ban-phap-luat/van-ban-hop-nhat-so-48-vbhn-bct-thong-tu-quy-dinh-ve-cap-giay-chung-nhan-xuat-xu-hang-hoa-va-chap-thuan-bang-van-ban-cho.html
+    truy_cap: '2026-11-26'
+  - url: https://vbpl.vn/van-ban/chi-tiet/4f723f30-6891-11f1-8a68-1964768ee3c6
+    truy_cap: '2026-11-26'
 xac_minh:
-  muc: NGUON_THU_CAP
-  pham_vi: 'số hiệu + ngày ban hành 25-06-2026 (TVPL tổng hợp) — hợp nhất TT 40/2025 + sửa đổi 12/2026, 26/2026 về cấp C/O; chưa công bố PDF toàn văn bậc A công khai.'
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-11-25'
+  muc: NGUON_A
+  pham_vi: 'Đã đối chiếu toàn văn PDF ký số trên Công báo Chính phủ (số 341 ngày 21-06-2026, id=469722), Cổng TTĐT Bộ Công Thương (moit.gov.vn) và CSDL Quốc gia về VBPL (vbpl.vn): số hiệu gốc 48/VBHN-BCT xác thực ngày 04-06-2026 (KT. Bộ trưởng Thứ trưởng Nguyễn Sinh Nhật Tân ký; sửa lại từ ngày 25-06-2026 do nguồn B ghi nhầm), hợp nhất Thông tư 40/2025/TT-BCT (HL 01-07-2025), Thông tư 12/2026/TT-BCT (HL 01-05-2026, chưa nạp vào sổ) và Thông tư 26/2026/TT-BCT (HL 29-05-2026). Đang còn hiệu lực.'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-26'
   boi: antigravity@ozvietnam
-  chan:
-    ma: THIEU_PDF_A
-    ngay: '2026-11-25'
-    viec_tiep: 'Chờ moit.gov.vn / congbao.chinhphu.vn công bố PDF toàn văn bậc A của VBHN 48/2026/VBHN-BCT hợp nhất quy định cấp C/O (TT 40/2025/TT-BCT và sửa đổi 2026).'
-ghi_chu: 'Trinh thám đêm 23/11. Bản hợp nhất họ C/O (40/2025 → 26/2026 → VBHN này) — tra cứu một chỗ cho khách xin C/O.'
+ghi_chu: 'Trinh thám đêm 23/11. Bản hợp nhất họ C/O (40/2025 + 12/2026 + 26/2026 → VBHN 48/VBHN-BCT xác thực 04-06-2026) — tra cứu một chỗ cho khách xin C/O.'

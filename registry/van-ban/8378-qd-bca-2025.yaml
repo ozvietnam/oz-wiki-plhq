@@ -5,7 +5,8 @@ ten: Ban hành Danh mục sản phẩm, hàng hóa có khả năng gây mất an
 co_quan: BCA
 ngay_ban_hanh: '2025-10-14'
 hieu_luc_tu: '2025-10-14'
-tinh_trang: CHUA_XAC_MINH
+het_hieu_luc_tu: '2026-07-28'
+tinh_trang: HET_HIEU_LUC
 nhanh:
   - kiem-tra-chuyen-nganh/bca
 quan_he:
@@ -14,18 +15,20 @@ quan_he:
       tu_ngay: '2025-10-14'
       can_cu: Điều 2 QĐ 8378/QĐ-BCA (nguồn B luatvietnam/nhansu — chưa mở PDF bậc A)
 nguon:
+  - url: https://vanban.bocongan.gov.vn/co-so-du-lieu-van-ban/bai-bo-quyet-dinh-so-8378-qd-bca-ngay-14-thang-10-nam-2025-cua-bo-truong-bo-cong-an-ban-hanh-danh-muc-san-pham-hang-hoa-co-kha-nang-gay-mat-an-toan-thuoc-trach-nhiem-quan-ly-cua-bo-cong-an-1785912640
+    truy_cap: '2026-11-26'
+  - url: https://bocongan.gov.vn/media/bca-media/library-20260805135020-342b13a4-7c3f-4ff7-8c01-7af3aa35592a-4814-q-bca28-7-2026.pdf
+    truy_cap: '2026-11-26'
   - url: https://luatvietnam.vn/an-ninh-trat-tu/quyet-dinh-8378-qd-bca-2025-ban-hanh-danh-muc-san-pham-hang-hoa-co-kha-nang-gay-mat-an-toan-442861-d1.html
     truy_cap: '2026-10-04'
-  - url: https://nhansu.vn/van-ban-phap-luat/Quyet-dinh-8378-QD-BCA-2026-danh-muc-san-pham-hang-hoa-co-kha-nang-gay-mat-an-toan-696870.html
-    truy_cap: '2026-10-04'
 xac_minh:
-  muc: NGUON_B
-  pham_vi: số hiệu, tiêu đề, ngày ban hành; Điều 2 thay thế 6266 (chỉ nguồn B)
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
+  muc: NGUON_A
+  pham_vi: 'Đã đối chiếu tình trạng HET_HIEU_LUC từ 28-07-2026 qua bản PDF ký đóng dấu của Quyết định 4814/QĐ-BCA trên Cổng văn bản Bộ Công an (vanban.bocongan.gov.vn, Điều 1 bãi bỏ Quyết định 8378/QĐ-BCA ngày 14-10-2025 từ ngày ký 28-07-2026). Bản PDF riêng của QĐ 8378/QĐ-BCA chưa được công bố trên vanban.bocongan.gov.vn, vbpl.vn, congbao.chinhphu.vn, vanban.chinhphu.vn.'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-26'
+  boi: antigravity@ozvietnam
   chan:
     ma: THIEU_PDF_A
-    ngay: 2026-10-09
-    viec_tiep: "Chưa có PDF bậc A"
+    ngay: '2026-11-26'
+    viec_tiep: 'Hiệu lực HET_HIEU_LUC từ 2026-07-28 đã đối chiếu chắc chắn qua QĐ 4814/QĐ-BCA trên vanban.bocongan.gov.vn; còn thiếu PDF gốc riêng của QĐ 8378/QĐ-BCA để đối chiếu trực tiếp Điều 2 thay thế QĐ 6266/QĐ-BCA.'
 ghi_chu: 'Đầu mối từ săn hiệu lực HS_API cho 6266/QĐ-BCA. Danh mục nhóm hàng PCCC, súng thể thao, pháo hoa, súng công cụ hỗ trợ theo nguồn B.'

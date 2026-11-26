@@ -5,27 +5,23 @@ ten: Bãi bỏ Quyết định 8378/QĐ-BCA ngày 14/10/2025 về danh mục s�
 co_quan: BCA
 ngay_ban_hanh: '2026-07-28'
 hieu_luc_tu: '2026-07-28'
-tinh_trang: CHUA_XAC_MINH
+tinh_trang: CON_HIEU_LUC
 nhanh:
   - kiem-tra-chuyen-nganh/bca
 quan_he:
   bai_bo:
     - so_hieu: 8378/QĐ-BCA
       tu_ngay: '2026-07-28'
-      can_cu: Điều 1 QĐ 4814/QĐ-BCA (nguồn B luatvietnam/nhansu — chưa mở PDF bậc A)
+      can_cu: Điều 1 QĐ 4814/QĐ-BCA (bản scan PDF ký đóng dấu Bộ Công an trên vanban.bocongan.gov.vn)
 nguon:
-  - url: https://luatvietnam.vn/an-ninh-trat-tu/quyet-dinh-4814-qd-bca-2026-bai-bo-quyet-dinh-8378-qd-bca-ve-danh-muc-san-pham-gay-mat-an-toan-442860-d1.html
-    truy_cap: '2026-10-04'
-  - url: https://nhansu.vn/van-ban-phap-luat/Quyet-dinh-4814-QD-BCA-2026-bai-bo-Quyet-dinh-8378-QD-BCA-718152.html
-    truy_cap: '2026-10-04'
+  - url: https://vanban.bocongan.gov.vn/co-so-du-lieu-van-ban/bai-bo-quyet-dinh-so-8378-qd-bca-ngay-14-thang-10-nam-2025-cua-bo-truong-bo-cong-an-ban-hanh-danh-muc-san-pham-hang-hoa-co-kha-nang-gay-mat-an-toan-thuoc-trach-nhiem-quan-ly-cua-bo-cong-an-1785912640
+    truy_cap: '2026-11-26'
+  - url: https://bocongan.gov.vn/media/bca-media/library-20260805135020-342b13a4-7c3f-4ff7-8c01-7af3aa35592a-4814-q-bca28-7-2026.pdf
+    truy_cap: '2026-11-26'
 xac_minh:
-  muc: NGUON_B
-  pham_vi: số hiệu, tiêu đề, ngày ban hành; Điều 1 bãi 8378 (chỉ nguồn B)
-  hieu_luc_da_doi_chieu: false
-  ngay: '2026-10-04'
-  boi: cursor-agent@ozvietnam
-  chan:
-    ma: THIEU_PDF_A
-    ngay: 2026-10-09
-    viec_tiep: "Chưa có PDF bậc A"
+  muc: NGUON_A
+  pham_vi: 'Đã đối chiếu trang văn bản và PDF bản ký đóng dấu đỏ trên Cổng văn bản Bộ Công an (vanban.bocongan.gov.vn, trạng thái "Còn hiệu lực", bocongan.gov.vn PDF 2 trang): số 4814/QĐ-BCA ban hành ngày 28-07-2026 (Bộ trưởng Đại tướng Lương Tam Quang ký), Điều 1 bãi bỏ Quyết định 8378/QĐ-BCA ngày 14-10-2025, Điều 2 có hiệu lực kể từ ngày ký (28-07-2026). Đang còn hiệu lực.'
+  hieu_luc_da_doi_chieu: true
+  ngay: '2026-11-26'
+  boi: antigravity@ozvietnam
 ghi_chu: 'Đầu mối từ săn hiệu lực HS_API cho 6266/QĐ-BCA.'
