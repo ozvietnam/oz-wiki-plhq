@@ -2,7 +2,7 @@
 
 Kho này xuất bộ dữ liệu máy `dist/` (phiên bản lược đồ `1.6.0`, tương thích ngược `1.x`, dựng bằng `npm run dung`, tự cập nhật sau mỗi lần gộp PR và mỗi thứ Hai). Ứng dụng khác chỉ **đọc** các tệp này; muốn sửa dữ liệu thì mở PR vào `registry/`, `danh-muc/`, `data/sua-doi-dieu/`, `wiki/` hoặc `data/doc-hieu/` — không sửa bản chụp ở phía ứng dụng.
 
-> Ranh giới dữ liệu giữa `oz-wiki-plhq`, `hs-code-api` và Cổng MCP (`ozplugin`): xem **[SO-DO-HE-THONG.md](SO-DO-HE-THONG.md)**. Kho này **không** xuất `chu-giai-chuong.json` hay `chu-giai-hs.json` ra `dist/` (GIR và chú giải HS thuộc `hs-code-api`).
+> Ranh giới dữ liệu giữa `oz-wiki-plhq`, `hs-code-api` và Cổng MCP (`ozplugin`): xem **[SO-DO-HE-THONG.md](SO-DO-HE-THONG.md)** và tầm nhìn chuỗi dự án + lộ trình chuẩn `1.6.0 → 1.7.0` (vân tay `van`, phân lớp `lop_du_lieu` theo `lop-kho@1`, `dist/manifest.json`) tại **[TAM-NHIN-VA-KE-HOACH-HE-SINH-THAI.md](TAM-NHIN-VA-KE-HOACH-HE-SINH-THAI.md)**. Kho này **không** xuất `chu-giai-chuong.json` hay `chu-giai-hs.json` ra `dist/` (GIR và chú giải HS thuộc `hs-code-api`).
 
 URL ổn định trên nhánh `main`: `https://raw.githubusercontent.com/ozvietnam/oz-wiki-plhq/main/dist/registry.json` (tương tự cho các tệp `dist/*.json` khác — bot dựng lại ngay sau mỗi lần gộp).
 
