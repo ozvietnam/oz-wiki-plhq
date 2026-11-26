@@ -10,7 +10,7 @@
     "nhom_ngoai_bieu_thue": 136,
     "ghi_chu": "Nhóm mã không có trong bản chụp biểu thuế — thường là mã AHTN cũ (văn bản danh mục ban hành theo AHTN 2017/2022, biểu thuế đã bỏ) hoặc trích lệch. KHÔNG dùng các khoá này làm căn cứ diện áp cho người khai; đối chiếu lại văn bản gốc (ví dụ phân tích danh-muc/kiem-tra-ma-hs-2026.md)."
   },
-  "tong_tep": 8,
+  "tong_tep": 9,
   "tep": {
     "registry.json": {
       "sha256": "56d48d2a8e5c27d4c2dca1b274cf2bd5bc71644046de0e5f5e3e8ff826cbe0bf",
@@ -61,6 +61,11 @@
       "sha256": "e2ec6353b412211447ea7a27f29c73300b63381ee660a88fa218ed03d593cad6",
       "bytes": 49510,
       "lop_du_lieu": "BO_TRO"
+    },
+    "xuat-xu-fta.json": {
+      "sha256": "e488563919bdcacd8b2997f35c6191ebc3c12a54fbcbf278f3f2953eec705da6",
+      "bytes": 35509,
+      "lop_du_lieu": "LUAT"
     }
   }
 }
