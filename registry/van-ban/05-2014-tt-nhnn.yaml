@@ -1,7 +1,7 @@
 # Sổ đăng ký văn bản — sửa qua PR. Lược đồ: docs/luoc-do-so-dang-ky.md
 so_hieu: 05/2014/TT-NHNN
 loai: THONG_TU
-ten: "Hướng dẫn việc mở và sử dụng tài khoản vốn đầu tư gián tiếp để thực hiện hoạt động đầu tư gián tiếp nước ngoài tại Việt Nam"
+ten: Hướng dẫn việc mở và sử dụng tài khoản vốn đầu tư gián tiếp để thực hiện hoạt động đầu tư gián tiếp nước ngoài tại Việt Nam
 co_quan: NHNN
 ngay_ban_hanh: '2014-03-12'
 hieu_luc_tu: '2014-04-28'
@@ -20,9 +20,12 @@ nguon:
     truy_cap: '2026-10-22'
 xac_minh:
   muc: NGUON_A
-  pham_vi: "Đối chiếu thẻ vanban.chinhphu.vn (docid=172945), toàn văn PDF ký số (tt-05.signed_02.pdf, Phó Thống đốc Đào Minh Tú ký) và CSDL quốc gia vbpl.vn (ItemID=44156): ban hành 12-03-2014, có hiệu lực từ 28-04-2014; hướng dẫn việc mở và sử dụng tài khoản vốn đầu tư gián tiếp để thực hiện hoạt động đầu tư gián tiếp nước ngoài tại Việt Nam (đính chính trích yếu và ngày ban hành bị ghi nhầm từ nguồn thứ cấp). Hết hiệu lực toàn bộ từ 16-06-2025 khi bị Thông tư 03/2025/TT-NHNN ngày 29-04-2025 (chưa nạp vào sổ) thay thế."
+  pham_vi: 'Đối chiếu thẻ vanban.chinhphu.vn (docid=172945), toàn văn PDF ký số (tt-05.signed_02.pdf, Phó Thống đốc Đào Minh Tú ký) và CSDL quốc gia vbpl.vn (ItemID=44156): ban hành 12-03-2014, có hiệu lực từ 28-04-2014; hướng dẫn việc mở và sử dụng tài khoản vốn đầu tư gián tiếp để thực hiện hoạt động đầu tư gián tiếp nước ngoài tại Việt Nam (đính chính trích yếu và ngày ban hành bị ghi nhầm từ nguồn thứ cấp). Hết hiệu lực toàn bộ từ 16-06-2025 khi bị Thông tư 03/2025/TT-NHNN ngày 29-04-2025 (chưa nạp vào sổ) thay thế.'
   hieu_luc_da_doi_chieu: true
   ngay: '2026-11-14'
   boi: tho-bo-ba-01@ozvietnam
-ghi_chu: "Trên nguồn A (vanban.chinhphu.vn docid=172945, vbpl.vn ItemID=44156), số hiệu 05/2014/TT-NHNN là Thông tư ngày 12-03-2014 về tài khoản vốn đầu tư gián tiếp (hết hiệu lực từ 16-06-2025 bởi TT 03/2025/TT-NHNN). Ca #227 dẫn chiếu nhầm số hiệu này cho giao dịch vãng lai."
-tu_khoa: [giao-thang-nuoc-thu-ba, thue]
+ghi_chu: 'Trên nguồn A (vanban.chinhphu.vn docid=172945, vbpl.vn ItemID=44156), số hiệu 05/2014/TT-NHNN là Thông tư ngày 12-03-2014 về tài khoản vốn đầu tư gián tiếp (hết hiệu lực từ 16-06-2025 bởi TT 03/2025/TT-NHNN). Ca #227 dẫn chiếu nhầm số hiệu này cho giao dịch vãng lai.'
+tu_khoa:
+  - giao-thang-nuoc-thu-ba
+  - thue
+toan_van: raw/download/datafiles.chinhphu.vn/05-2014-tt-nhnn.pdf
