@@ -56756,27 +56756,41 @@
       "ten": "Công bố thủ tục hành chính được sửa đổi, bổ sung trong lĩnh vực hải quan",
       "co_quan": "BTC",
       "ngay_ban_hanh": "2026-07-28",
+      "hieu_luc_tu": "2026-08-21",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
         "hai-quan/thu-tuc"
       ],
       "nguon": [
         {
+          "url": "https://xaydungchinhsach.chinhphu.vn/quyet-dinh-so-2017-qd-btc-sua-doi-11-thu-tuc-bai-bo-7-thu-tuc-hai-quan-119260803171542742.htm",
+          "truy_cap": "2026-11-26"
+        },
+        {
+          "url": "https://xdcs.cdnchinhphu.vn/446259493575335936/2026/8/3/2017-qd-btc-17857520196971242335908.pdf",
+          "truy_cap": "2026-11-26"
+        },
+        {
+          "url": "https://www.vietnamtradeportal.gov.vn/index.php?r=site/display&id=4540",
+          "truy_cap": "2026-11-26"
+        },
+        {
           "url": "https://thuvienphapluat.vn",
           "truy_cap": "2026-11-25"
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_THU_CAP",
-        "pham_vi": "số hiệu + tên + ngày ban hành 28-07-2026 (tổng hợp TVPL — giải nốt mục treo từ 24/11); cần danh mục TTHC chi tiết khi lên A",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-11-25",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu trang Chính phủ (xaydungchinhsach.chinhphu.vn) và toàn văn PDF ký số của Bộ Tài chính (2017-qd-btc-17857520196971242335908.pdf, ký ngày 28-07-2026 17:06:21 +07:00, Thứ trưởng Nguyễn Đức Chi ký): ban hành 28-07-2026, Điều 2 quy định hiệu lực từ 21-08-2026 và bãi bỏ một số nội dung công bố TTHC tại QĐ 1450/QĐ-BTC (24-09-2020) và QĐ 2770/QĐ-BTC (25-12-2015). Đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-26",
+        "boi": "antigravity@ozvietnam"
       },
       "ghi_chu": "Trinh thám đêm 25/11. Đúng họ 344/QĐ-BTC + 3318/QĐ-BTC đã có — cập nhật danh mục TTHC hải quan.",
+      "toan_van": "raw/download/xdcs.cdnchinhphu.vn/2017-qd-btc.pdf",
       "slug": "2017-qd-btc",
-      "van": "1e1c2cbd253bbce6fd55f734a5dea4740c1c8a3fe258391e5bd6aaf6a2f79666",
-      "bac_nguon_cao_nhat": "B",
+      "van": "c58cc40cbeea427967745edd413e0d6fa40439ec7e7c0696d73e895f16010253",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -116559,7 +116573,7 @@
       "id": "vb:45-2026-tt-byt",
       "so_hieu": "45/2026/TT-BYT",
       "loai": "THONG_TU",
-      "ten": "Sửa đổi, bổ sung một số điều của Thông tư 28/2025/TT-BYT về quản lý nguyên liệu làm thuốc",
+      "ten": "Sửa đổi, bổ sung một số điều tại Thông tư số 28/2025/TT-BYT ngày 01/7/2025 của Bộ trưởng Bộ Y tế quy định về Thực hành tốt sản xuất thuốc, nguyên liệu làm thuốc",
       "co_quan": "BYT",
       "ngay_ban_hanh": "2026-11-01",
       "hieu_luc_tu": "2027-01-01",
@@ -116578,16 +116592,16 @@
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_THU_CAP",
-        "pham_vi": "số hiệu + tên + ngày ban hành 01-11-2026, hiệu lực 01-01-2027 (đối chiếu trang văn bản vanban.chinhphu.vn docid 220160 ngày 26-11-2026; bản đầu nạp từ tổng hợp TVPL tuần 23-25/11); cần toàn văn bản gốc khi lên A",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-11-25",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "đối chiếu toàn văn PDF ký số 45-byt.signed.pdf trên datafiles.chinhphu.vn + vanban.chinhphu.vn (docid 220160); ban hành 01-11-2026, hiệu lực 01-01-2027",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-26",
+        "boi": "antigravity@ozvietnam"
       },
       "ghi_chu": "Trinh thám đêm 25/11 (giải nốt mục treo từ 23/11). Nguyên liệu làm thuốc — đụng GP nhập nguyên liệu dược, khớp NQ 20/11 về cấp phép nhập nguyên liệu sản xuất thuốc XK.",
       "toan_van": "raw/download/datafiles.chinhphu.vn/45-2026-tt-byt.pdf",
       "slug": "45-2026-tt-byt",
-      "van": "9dcc1a23e83cb00044b5d4cd6830f2fdf243a89898a50c38954ce7a9d0ad289b",
+      "van": "9353a63111c5fbe1d5cbb780d28a49789d04e1c3684e94d919a70dca9eea8cd0",
       "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
@@ -136311,7 +136325,7 @@
       "loai": "THONG_TU",
       "ten": "Quy định về cơ sở dữ liệu thực phẩm thuộc phạm vi quản lý của Bộ Công Thương",
       "co_quan": "BCT",
-      "ngay_ban_hanh": "2026-10-15",
+      "ngay_ban_hanh": "2026-09-30",
       "hieu_luc_tu": "2026-11-15",
       "tinh_trang": "CON_HIEU_LUC",
       "nhanh": [
@@ -136319,21 +136333,34 @@
       ],
       "nguon": [
         {
+          "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-63-2026-tt-bct-470687.htm",
+          "truy_cap": "2026-11-26"
+        },
+        {
+          "url": "https://congbaocdn.chinhphu.vn/180507251028987904/2026/10/16/470687-1792122999_v1_1792133712_signed.pdf",
+          "truy_cap": "2026-11-26"
+        },
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=219785",
+          "truy_cap": "2026-11-26"
+        },
+        {
           "url": "https://tqc.vn/thong-tu-63-2026-tt-bct-doanh-nghiep-thuc-pham.htm",
           "truy_cap": "2026-11-25"
         }
       ],
       "xac_minh": {
-        "muc": "NGUON_THU_CAP",
-        "pham_vi": "số hiệu + tên + hiệu lực 15-11-2026 (tqc.vn phân tích 5 nội dung DN phải thực hiện); ngày ban hành 15-10-2026 cần đối chiếu bản gốc",
-        "hieu_luc_da_doi_chieu": false,
-        "ngay": "2026-11-25",
-        "boi": "zcode@ozvietnam"
+        "muc": "NGUON_A",
+        "pham_vi": "Đã đối chiếu toàn văn PDF ký số trên Công báo Chính phủ (số 554 ngày 16-10-2026, id=470687) và Cổng TTĐT Chính phủ (vanban.chinhphu.vn docid=219785): ban hành ngày 30-09-2026 (sửa lại từ 15-10-2026 do nguồn C ghi nhầm theo ngày đăng Công báo 16-10-2026; Thứ trưởng Trương Thanh Hoài ký), Điều 19 khoản 1 quy định hiệu lực từ 15-11-2026 và khoản 2 thay thế Thông tư 11/2026/TT-BCT. Đang còn hiệu lực.",
+        "hieu_luc_da_doi_chieu": true,
+        "ngay": "2026-11-26",
+        "boi": "antigravity@ozvietnam"
       },
       "ghi_chu": "Trinh thám đêm 25/11. CSDL thực phẩm BCT — DN kinh doanh thực phẩm (gồm nhập) phải khai báo/kết nối; khớp TT 28/2026 (danh mục ATTP kèm HS) đã có.",
+      "toan_van": "raw/download/congbaocdn.chinhphu.vn/63-2026-tt-bct.pdf",
       "slug": "63-2026-tt-bct",
       "van": "f26f85d0b674db70b9ed7a74f2f90048a22efeac9c0781e41adecb55ac793a1d",
-      "bac_nguon_cao_nhat": "C",
+      "bac_nguon_cao_nhat": "A",
       "quan_he_nguoc": {}
     },
     {
@@ -152412,16 +152439,25 @@
         {
           "url": "https://thuvienphapluat.vn/van-ban/Doanh-nghiep/Thong-tu-85-2021-TT-BTC-loi-nhuan-duoc-chia-cho-phan-von-nha-nuoc-dau-tu-tai-doanh-nghiep-295823.aspx",
           "truy_cap": "2026-11-25"
+        },
+        {
+          "url": "https://vbpq.mof.gov.vn/Detail?contentType=LegalDocument&id=103120&tab=99",
+          "truy_cap": "2026-11-26"
+        },
+        {
+          "url": "https://vbpq.mof.gov.vn/DKC.FileManagement/FileStorage/File/103119",
+          "truy_cap": "2026-11-26"
         }
       ],
       "xac_minh": {
         "muc": "NGUON_A",
-        "pham_vi": "Đã đối chiếu toàn văn và thuộc tính trên CSDL Quốc gia về VBPL (vbpl.vn/van-ban/chi-tiet/150950, hasOriginalPdf=true, trạng thái Còn hiệu lực) và Cổng TTĐT Bộ Tài chính (mof.gov.vn mofucm211349): ban hành 05-10-2021 (KT. Bộ trưởng Thứ trưởng Trần Xuân Hà ký), Điều 7 quy định hiệu lực từ 01-01-2022 và thay thế Thông tư 61/2016/TT-BTC ngày 11-04-2016. Đang còn hiệu lực.",
+        "pham_vi": "Đã đối chiếu toàn văn và thuộc tính trên CSDL Quốc gia về VBPL (vbpl.vn/van-ban/chi-tiet/150950, hasOriginalPdf=true, trạng thái Còn hiệu lực), Cổng VBQPPL Bộ Tài chính (vbpq.mof.gov.vn id=103120, PDF file=103119) và Cổng TTĐT Bộ Tài chính (mof.gov.vn mofucm211349): ban hành 05-10-2021 (KT. Bộ trưởng Thứ trưởng Trần Xuân Hà ký), Điều 7 quy định hiệu lực từ 01-01-2022 và thay thế Thông tư 61/2016/TT-BTC ngày 11-04-2016. Đang còn hiệu lực.",
         "hieu_luc_da_doi_chieu": true,
         "ngay": "2026-11-26",
         "boi": "antigravity@ozvietnam"
       },
       "ghi_chu": "Đóng điểm mù WIKI_NHAC_CHUA_DANG_KY từ wiki/sources/61-2016-tt-btc.md. Văn bản quản lý tài chính doanh nghiệp nhà nước, không phải quy định XNK trực tiếp.",
+      "toan_van": "raw/download/vbpq.mof.gov.vn/85-2021-tt-btc.pdf",
       "slug": "85-2021-tt-btc",
       "van": "580bb8a73009545950843926dddfe35172e8bd31db88df72a2c0dbd1f7e5c2ab",
       "bac_nguon_cao_nhat": "A",

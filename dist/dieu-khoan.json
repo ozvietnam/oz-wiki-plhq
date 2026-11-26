@@ -10,12 +10,12 @@
  "mien_tru": "Tham khảo, không phải tư vấn pháp lý. Xem và đối chiếu văn bản gốc nguồn bậc A trước khi áp dụng.",
  "canh_bao_tang_nhap": "Tầng TOM_TAT_NHAP được trích tự động bởi LLM (da_soat: false) — CHỈ dùng để định vị điều khoản, KHÔNG trích dẫn nguyên văn hay làm căn cứ pháp lý; chỉ dùng NGUYEN_VAN_NGUON_A để trích dẫn căn cứ.",
  "thong_ke": {
-  "so_van_ban_nguon_a": 512,
-  "so_dieu_khoan_nguon_a": 12133,
+  "so_van_ban_nguon_a": 517,
+  "so_dieu_khoan_nguon_a": 12187,
   "so_van_ban_tom_tat_nhap": 88,
   "so_dieu_khoan_tom_tat_nhap": 3684,
   "so_tep_doc_hieu": 91,
-  "so_tep_dieu_khoan_day_du": 465,
+  "so_tep_dieu_khoan_day_du": 470,
   "so_tep_sua_doi_dieu": 67,
   "so_tac_dong_dieu": 1258,
   "so_dieu_co_lich_su_sua_doi": 552,
@@ -62610,6 +62610,50 @@
    ]
   },
   {
+   "so_hieu": "2017/QĐ-BTC",
+   "slug": "2017-qd-btc",
+   "ten": "Công bố thủ tục hành chính được sửa đổi, bổ sung trong lĩnh vực hải quan",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2026-08-21",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://xaydungchinhsach.chinhphu.vn/quyet-dinh-so-2017-qd-btc-sua-doi-11-thu-tuc-bai-bo-7-thu-tuc-hai-quan-119260803171542742.htm",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "lop_du_lieu": "LUAT",
+   "dieu_khoan": [
+    {
+     "id": "vb:2017-qd-btc:d:1",
+     "dieu": 1,
+     "noi_dung": "Điều 1. Công bố kèm theo Quyết định này thủ tục hành chính được sửa đổi, bổ sung và bị bãi bỏ trong lĩnh vực hải quan thuộc phạm vi chức năng quản lý của Bộ Tài chính. 2",
+     "trang_pdf": 1,
+     "sha256_pdf": "2addfa48b1678177db8d0602a9197b8d7297a89d93bdc9af0fe389be2c84caa1",
+     "van": "88bbae3a31c113a79a88c3ada6ee2c7fb768a3ab5b70e770dcdbeeb822c25138",
+     "trang_thai_dieu": "NGUYEN_BAN",
+     "lich_su_tac_dong": []
+    },
+    {
+     "id": "vb:2017-qd-btc:d:2",
+     "dieu": 2,
+     "noi_dung": "Điều 2. Quyết định này có hiệu lực từ ngày 21 tháng 8 năm 2026. nội dung công bố thủ tục hành chính tại: STT 4, 5, 6, 13 điểm A mục 1 phần I tại Quyết định số 1450/QĐ-BTC ngày 24/9/2020; STT 58, 59, 62 điểm C mục 2 phần I tại Quyết định số 2770/QĐ-BTC ngày 25/12/2015 của Bộ trưởng Bộ Tài chính. Bãi bỏ",
+     "trang_pdf": 2,
+     "sha256_pdf": "2addfa48b1678177db8d0602a9197b8d7297a89d93bdc9af0fe389be2c84caa1",
+     "van": "37257d259032ed58953ff82ef5cb966fe2d2885500d241cb45f38fa2023dbff3",
+     "trang_thai_dieu": "NGUYEN_BAN",
+     "lich_su_tac_dong": []
+    },
+    {
+     "id": "vb:2017-qd-btc:d:3",
+     "dieu": 3,
+     "noi_dung": "Điều 3. Cục trưởng Cục Hải quan, Chánh Văn phòng Bộ, Vụ trưởng Vụ Pháp chế, Chi cục trưởng các Chi cục Hải quan khu vực và Thủ trưởng các đơn l vị có liên quan chịu trách nhiệm thí hành Quyếtđịnh này..",
+     "trang_pdf": 2,
+     "sha256_pdf": "2addfa48b1678177db8d0602a9197b8d7297a89d93bdc9af0fe389be2c84caa1",
+     "van": "55ca2f937b4f7bfb90133a06ddbca3fad6d83672d6878de3ea841b6df7da3d86",
+     "trang_thai_dieu": "NGUYEN_BAN",
+     "lich_su_tac_dong": []
+    }
+   ]
+  },
+  {
    "so_hieu": "2027/QĐ-BCT",
    "slug": "2027-qd-bct",
    "ten": "Kết quả rà soát cuối kỳ việc áp dụng biện pháp chống bán phá giá đối với một số sản phẩm bằng plastic được làm từ các polyme từ propylen có xuất xứ từ Ma-lai-xi-a, Vương quốc Thái Lan và Cộng hòa nhân dân Trung Hoa",
@@ -103152,6 +103196,270 @@
    ]
   },
   {
+   "so_hieu": "45/2026/TT-BYT",
+   "slug": "45-2026-tt-byt",
+   "ten": "Sửa đổi, bổ sung một số điều tại Thông tư số 28/2025/TT-BYT ngày 01/7/2025 của Bộ trưởng Bộ Y tế quy định về Thực hành tốt sản xuất thuốc, nguyên liệu làm thuốc",
+   "tinh_trang": "CHUA_CO_HIEU_LUC",
+   "hieu_luc_tu": "2027-01-01",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://vanban.chinhphu.vn/?pageid=27160&docid=220160&classid=1",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "lop_du_lieu": "LUAT",
+   "dieu_khoan": [
+    {
+     "id": "vb:45-2026-tt-byt:d:1",
+     "dieu": 1,
+     "noi_dung": "Điều 1. Bổ sung khoản 14, khoản 15, khoản 16 vào sau khoản 13 Điều 2 “14. Sản xuất thuốc phóng xạ tại cơ sở khám bệnh, chữa bệnh là hoạt động sản xuất đồng vị phóng xạ bằng máy gia tốc vòng (cyclotron) và tổng hợp, bào chế thuốc phóng xạ từ đồng vị phóng xạ được tạo ra bằng máy gia tốc vòng (cyclotron). 15. Hoạt động pha chế thuốc phóng xạ tại cơ sở khám bệnh, chữa bệnh là một trong các hoạt động tách, chiết đồng vị phóng xạ từ nguồn sinh đồng vị phóng xạ (generator); đánh dấu đồng vị phóng xạ với chất đánh dấu; sử dụng đồng vị phóng xạ để hoàn nguyên, pha chế với các chất mang để đánh dấu phóng xạ; rút liều, chia liều, pha loãng thuốc phóng xạ theo quy định tại Thông tư số 30/2021/TT-BYT của Bộ trưởng Bộ Y tế quy định về hoạt động pha chế thuốc để điều trị người bệnh tại cơ sở khám bệnh, chữa bệnh. 16. Cơ sở sơ chế, chế biến dược liệu là cơ sở sử dụng các phương pháp chế biến dược liệu và vị thuốc cổ truyền quy định tại Thông tư số 14/2024/TT-BYT của Bộ trưởng Bộ Y tế hướng dẫn phương pháp chế biến dược liệu và vị thuốc cổ truyền.” 2",
+     "trang_pdf": 1,
+     "sha256_pdf": "dfb3e744c851bfa6694091d5471524b2b8d937a12e98989d3fe04dd22c1f6b92",
+     "van": "cf8f9b96a25bc69ec6f00ad1365c3bf3be5d7d71bfbbe5c39926a475b0460563",
+     "trang_thai_dieu": "NGUYEN_BAN",
+     "lich_su_tac_dong": []
+    },
+    {
+     "id": "vb:45-2026-tt-byt:d:2",
+     "dieu": 2,
+     "noi_dung": "Điều 2. Sửa đổi, bổ sung một số khoản của Điều 3 1. Bổ sung điểm đ và điểm e vào sau điểm d khoản 1 Điều 3 như sau: “đ) Nguyên tắc, tiêu chuẩn Thực hành tốt sản xuất thuốc theo khuyến cáo của Tổ chức Y tế thế giới (WHO-GMP) đối với sản xuất thuốc nghiên cứu, thuốc sử dụng cho thử thuốc trên lâm sàng quy định tại Phụ lục XII ban hành kèm theo Thông tư này và tài liệu cập nhật được quy định tại khoản 4 Điều này; e) Nguyên tắc, tiêu chuẩn Thực hành tốt sản xuất thuốc đối với sản xuất thuốc phóng xạ tại cơ sở khám bệnh, chữa bệnh quy định tại Phụ lục XIII ban hành kèm theo Thông tư này.” 2. Sửa đổi, bổ sung điểm b khoản 4 Điều 3 như sau: “b) Trường hợp Tổ chức Y tế thế giới, Hệ thống hợp tác thanh tra dược phẩm (PIC/S), Liên minh châu Âu có tài liệu cập nhật quy định tại điểm c, điểm d và điểm đ khoản 1 Điều này, chưa được đăng tải trên Cổng thông tin điện tử của Bộ Y tế, Trang thông tin điện tử của Cục Quản lý Dược thì cơ sở sản xuất thuốc, nguyên liệu làm thuốc triển khai áp dụng có trách nhiệm cung cấp bản tiếng Anh gửi Cục Quản lý Dược. Trong thời hạn 10 ngày kể từ ngày nhận tài liệu cập nhật, Cục Quản lý Dược đăng tải bản tiếng Anh trên Cổng thông tin điện tử của Bộ Y tế, Trang thông tin điện tử của Cục Quản lý Dược để các đối tượng có liên quan tra cứu, cập nhật và áp dụng.”",
+     "trang_pdf": 2,
+     "sha256_pdf": "dfb3e744c851bfa6694091d5471524b2b8d937a12e98989d3fe04dd22c1f6b92",
+     "van": "a106a9958d6f9b706c6c820611aee55ebda52aaacc886627ea61bb07aa6fee1e",
+     "trang_thai_dieu": "NGUYEN_BAN",
+     "lich_su_tac_dong": []
+    },
+    {
+     "id": "vb:45-2026-tt-byt:d:3:k:1",
+     "dieu": 3,
+     "noi_dung": "1. Sửa đổi, bổ sung khoản 1 Điều 4 như sau: “1. Cơ sở sản xuất thuốc, nguyên liệu làm thuốc (trừ thuốc, nguyên liệu làm thuốc sinh học là dẫn xuất từ máu và huyết tương người) triển khai áp dụng GMP quy định tại Phụ lục I hoặc Phụ lục III hoặc Phụ lục IV ban hành kèm theo Thông tư này và tài liệu cập nhật theo quy định tại khoản 4 Điều 3 của Thông tư này; Cơ sở sản xuất thuốc nghiên cứu, thuốc sử dụng cho thử thuốc trên lâm sàng triển khai áp dụng GMP quy định tại Phụ lục XII ban hành kèm theo Thông tư này và tài liệu cập nhật theo quy định tại khoản 4 Điều 3 của Thông tư này; Cơ sở khám bệnh, chữa bệnh có hoạt động sản xuất thuốc phóng xạ triển khai áp dụng nguyên tắc, tiêu chuẩn GMP quy định tại Phụ lục XIII ban hành kèm theo Thông tư này.”",
+     "khoan": 1,
+     "trang_pdf": 2,
+     "sha256_pdf": "dfb3e744c851bfa6694091d5471524b2b8d937a12e98989d3fe04dd22c1f6b92",
+     "van": "d26c839bbf9dd23ac89364f4790e0b721f2ff9c07cd77f34c03263dd0e6396fe",
+     "trang_thai_dieu": "NGUYEN_BAN",
+     "lich_su_tac_dong": []
+    },
+    {
+     "id": "vb:45-2026-tt-byt:d:3:k:2",
+     "dieu": 3,
+     "noi_dung": "2. Sửa đổi, bổ sung khoản 3, khoản 4, khoản 5, khoản 6 Điều 4 như sau: “3. Cơ sở sản xuất thuốc dược liệu triển khai áp dụng nguyên tắc, tiêu chuẩn GMP quy định tại Phụ lục V ban hành kèm theo Thông tư này; Cơ sở sản xuất nguyên liệu từ dược liệu dưới dạng bào chế hiện đại triển khai áp dụng nguyên tắc, tiêu chuẩn GMP quy định tại Phụ lục V hoặc Phần II Phụ lục VI ban hành kèm theo Thông tư này; Cơ sở sản xuất nguyên liệu từ dược liệu dưới dạng bào chế cổ truyền triển khai áp dụng nguyên tắc, tiêu chuẩn GMP quy định tại Phần I Phụ lục VI ban hành kèm theo Thông tư này, trừ các trường hợp quy định tại khoản 6 Điều này. 3 4. Cơ sở chỉ sản xuất thuốc cổ truyền dưới dạng bào chế cổ truyền (cao, hoàn, bột, rượu thuốc, cồn thuốc) triển khai áp dụng nguyên tắc, tiêu chuẩn GMP quy định tại Phần I Phụ lục VI ban hành kèm theo Thông tư này. 5. Cơ sở sản xuất thuốc cổ truyền dưới dạng bào chế hiện đại (thuốc viên nang, viên nén, thuốc cốm) và các dạng bào chế khác triển khai áp dụng GMP quy định tại Phần II Phụ lục VI ban hành kèm theo Thông tư này. 6. Cơ sở sơ chế, chế biến dược liệu triển khai áp dụng GMP quy định tại Phụ lục VII ban hành kèm theo Thông tư này.”",
+     "khoan": 2,
+     "trang_pdf": 2,
+     "sha256_pdf": "dfb3e744c851bfa6694091d5471524b2b8d937a12e98989d3fe04dd22c1f6b92",
+     "van": "29a0d152826931b4a2a3ad5c17e39446915aa70c3d0159e8628d5b24d26f36f3",
+     "trang_thai_dieu": "NGUYEN_BAN",
+     "lich_su_tac_dong": []
+    },
+    {
+     "id": "vb:45-2026-tt-byt:d:3:k:3",
+     "dieu": 3,
+     "noi_dung": "3. Sửa đổi, bổ sung khoản 8 và khoản 9 Điều 4 như sau: “8. Cơ sở sản xuất thuốc dược liệu, thuốc cổ truyền, nguyên liệu từ dược liệu được triển khai áp dụng nguyên tắc, tiêu chuẩn GMP quy định tại Phụ lục I hoặc Phụ lục III hoặc Phụ lục IV ban hành kèm theo Thông tư này và tài liệu cập nhật theo quy định tại khoản 4 Điều 3 của Thông tư này. 9. Cơ sở sản xuất thuốc cổ truyền được triển khai áp dụng nguyên tắc, tiêu chuẩn GMP quy định tại Phụ lục I hoặc Phụ lục III hoặc Phụ lục IV hoặc Phụ lục V hoặc Phần II Phụ lục VI ban hành kèm theo Thông tư này và tài liệu cập nhật theo quy định tại khoản 4 Điều 3 của Thông tư này. Cơ sở sơ chế, chế biến dược liệu được triển khai áp dụng nguyên tắc, tiêu chuẩn GMP quy định tại Phụ lục I hoặc Phụ lục III hoặc Phụ lục IV hoặc Phụ lục V hoặc Phụ lục VI ban hành kèm theo Thông tư này và tài liệu cập nhật theo quy định tại khoản 4 Điều 3 của Thông tư này.”",
+     "khoan": 3,
+     "trang_pdf": 3,
+     "sha256_pdf": "dfb3e744c851bfa6694091d5471524b2b8d937a12e98989d3fe04dd22c1f6b92",
+     "van": "61a0e64e34ab430ab58349ef64e4ff1b1efd9ce4fa08851bf4559f8e52322f6d",
+     "trang_thai_dieu": "NGUYEN_BAN",
+     "lich_su_tac_dong": []
+    },
+    {
+     "id": "vb:45-2026-tt-byt:d:3:k:4",
+     "dieu": 3,
+     "noi_dung": "4. Sửa đổi, bổ sung điểm a khoản 10 Điều 4 như sau: “a) Thuốc và nguyên liệu làm thuốc chứa kháng sinh nhóm betalactam (Penicillins, Cephalosporins, Penems và tương tự), thuốc độc tế bào, thuốc chứa hormone sinh dục thuộc nhóm có tác dụng tránh thai, vắc xin, sinh phẩm chứa vi sinh vật sống, thuốc phóng xạ và nguyên liệu phóng xạ dùng làm thuốc và các thuốc cụ thể có yêu cầu sản xuất riêng biệt theo quy định tại nguyên tắc, tiêu chuẩn GMP (WHO-GMP, PIC/S-GMP, EU-GMP và tương đương EU-GMP), ngoài yêu cầu được sản xuất tại cơ sở sản xuất triển khai áp dụng nguyên tắc, tiêu chuẩn GMP tương ứng quy định tại Điều này, phải bảo đảm được sản xuất tại dây chuyền riêng biệt (nhà xưởng, thiết bị sản xuất, hệ thống phụ trợ riêng biệt) và có biện pháp phòng tránh phát tán, gây nhiễm môi trường và sản phẩm thuốc khác sản xuất tại cùng khu vực;”",
+     "khoan": 4,
+     "trang_pdf": 3,
+     "sha256_pdf": "dfb3e744c851bfa6694091d5471524b2b8d937a12e98989d3fe04dd22c1f6b92",
+     "van": "51b6e0a8470d7297ed1ad6fefa87ee2e695f6d8b3ed6cb010bdb27b9d95dc6da",
+     "trang_thai_dieu": "NGUYEN_BAN",
+     "lich_su_tac_dong": []
+    },
+    {
+     "id": "vb:45-2026-tt-byt:d:3:k:5",
+     "dieu": 3,
+     "noi_dung": "5. Sửa đổi, bổ sung khoản 12 Điều 4 như sau: “12. Cơ sở chỉ sản xuất thuốc hóa dược không kê đơn được sản xuất thuốc dược liệu, thuốc cổ truyền, thực phẩm bảo vệ sức khỏe có dạng bào chế tương ứng với dạng bào chế được chứng nhận không bao gồm thực phẩm bảo vệ sức khỏe chứa vi sinh vật sống (probiotics). Cơ sở phải triển khai áp dụng nguyên tắc, tiêu chuẩn GMP quy định tại Phụ lục I hoặc Phụ lục III hoặc Phụ lục IV ban hành kèm theo Thông tư này và tài liệu cập nhật theo quy định tại khoản 4 Điều 3 của Thông tư này.” 4",
+     "khoan": 5,
+     "trang_pdf": 3,
+     "sha256_pdf": "dfb3e744c851bfa6694091d5471524b2b8d937a12e98989d3fe04dd22c1f6b92",
+     "van": "d2c4def615ed4da8262d115209a3c6009e3df363e7a24ed7f9a2a234af4cdc2b",
+     "trang_thai_dieu": "NGUYEN_BAN",
+     "lich_su_tac_dong": []
+    },
+    {
+     "id": "vb:45-2026-tt-byt:d:3:k:6",
+     "dieu": 3,
+     "noi_dung": "6. Sửa đổi, bổ sung khoản 17 Điều 4 như sau: “17. Cơ sở sản xuất có dây chuyền riêng chỉ sản xuất thuốc, nguyên liệu làm thuốc sinh học chứa vi sinh vật sống (probiotics) được sản xuất nguyên liệu, thực phẩm bảo vệ sức khỏe có dạng bào chế tương ứng với dạng bào chế đã được chứng nhận và có chứa cùng loại vi sinh vật sống (probiotics) hoặc chứa cùng loại vi sinh vật sống (probiotics) phối hợp với vitamin.”",
+     "khoan": 6,
+     "trang_pdf": 4,
+     "sha256_pdf": "dfb3e744c851bfa6694091d5471524b2b8d937a12e98989d3fe04dd22c1f6b92",
+     "van": "80e21b2ed30932ca9e92c29b9da71f8cf3c2304df4bda042a3a555d5cf125fd4",
+     "trang_thai_dieu": "NGUYEN_BAN",
+     "lich_su_tac_dong": []
+    },
+    {
+     "id": "vb:45-2026-tt-byt:d:4",
+     "dieu": 4,
+     "noi_dung": "Điều 4. Sửa đổi, bổ sung điểm c, điểm d, điểm đ khoản 2 Điều 7 “c) Bước 3. Đoàn đánh giá tiến hành đánh giá thực tế từng dây chuyền của cơ sở sản xuất việc triển khai áp dụng GMP theo từng nội dung cụ thể. Trường hợp cơ sở thực hiện một hoặc một số công đoạn của quá trình sản xuất thì nội dung đánh giá chỉ bao gồm các yêu cầu tương ứng với một hoặc một số công đoạn sản xuất mà cơ sở thực hiện. Chương trình đánh giá có thể được điều chỉnh theo tình hình triển khai thực tế hoặc các tồn tại của cơ sở sản xuất được phát hiện trong quá trình đánh giá; d) Bước 4. Đoàn đánh giá họp với cơ sở sản xuất để thông báo về tồn tại phát hiện trong quá trình đánh giá (nếu có); đánh giá mức độ của từng tồn tại, mức độ đáp ứng của cơ sở sản xuất; thảo luận với cơ sở sản xuất trong trường hợp cơ sở sản xuất không thống nhất với đánh giá của Đoàn đánh giá đối với từng tồn tại hoặc về mức độ đáp ứng nguyên tắc, tiêu chuẩn GMP của cơ sở sản xuất; đ) Bước 5. Lập và ký biên bản đánh giá: Sau khi họp thống nhất với cơ sở, Đoàn đánh giá lập biên bản đánh giá theo Mẫu số 03 quy định tại Phụ lục X ban hành kèm theo Thông tư này. Biên bản đánh giá phải thể hiện thành phần Đoàn đánh giá, thành phần của cơ sở sản xuất, địa điểm, thời gian, phạm vi đánh giá, hình thức đánh giá, các tồn tại được phát hiện trong quá trình đánh giá, phân loại mức độ của các tồn tại và mức độ đáp ứng của cơ sở và nêu rõ các vấn đề chưa thống nhất giữa Đoàn đánh giá và cơ sở sản xuất (nếu có). Lãnh đạo cơ sở sản xuất và các thành viên Đoàn đánh giá ký xác nhận vào biên bản đánh giá. Biên bản được làm thành 02 bản, trong đó, 01 bản lưu tại cơ sở sản xuất, 01 bản lưu tại Cơ quan tiếp nhận.”",
+     "trang_pdf": 4,
+     "sha256_pdf": "dfb3e744c851bfa6694091d5471524b2b8d937a12e98989d3fe04dd22c1f6b92",
+     "van": "34e49799cc564b3c241686e3572df02baeed316417c075d036d66b7b9ef24931",
+     "trang_thai_dieu": "NGUYEN_BAN",
+     "lich_su_tac_dong": []
+    },
+    {
+     "id": "vb:45-2026-tt-byt:d:5",
+     "dieu": 5,
+     "noi_dung": "Điều 5. Sửa đổi, bổ sung một số khoản của Điều 8 1. Sửa đổi, bổ sung điểm b và điểm c khoản 2 Điều 8 như sau: “b) Cơ sở sản xuất phải có văn bản báo cáo việc khắc phục kèm theo các bằng chứng chứng minh (hồ sơ tài liệu, hình ảnh, video, giấy chứng nhận hoặc các tài liệu chứng minh khác) đối với các tồn tại đã hoàn thành việc khắc phục và kế hoạch khắc phục kèm theo cam kết thời hạn hoàn thành việc khắc phục đối với các tồn tại chưa khắc phục xong; c) Trong thời hạn 20 ngày, kể từ ngày nhận được văn bản báo cáo của cơ sở về việc khắc phục, sửa chữa tồn tại, Cơ quan tiếp nhận đánh giá kết quả khắc phục, sửa chữa của cơ sở sản xuất theo các tài liệu quy định tại khoản 1 Điều 7 của Thông tư này; thực hiện việc đánh giá thực tế đối với các khắc phục thuộc các tồn tại nặng được quy định tại Phụ lục IX ban hành kèm theo Thông tư này hoặc 5",
+     "trang_pdf": 4,
+     "sha256_pdf": "dfb3e744c851bfa6694091d5471524b2b8d937a12e98989d3fe04dd22c1f6b92",
+     "van": "15a202f143e661ec3f2b2e68869399d8e20768c262acda091f6976f5bc127de2",
+     "trang_thai_dieu": "NGUYEN_BAN",
+     "lich_su_tac_dong": []
+    },
+    {
+     "id": "vb:45-2026-tt-byt:d:6",
+     "dieu": 6,
+     "noi_dung": "Điều 6. Sửa đổi, bổ sung khoản 2 Điều 9 “2. Tháng 11 hằng năm, Cơ quan tiếp nhận rà soát và ban hành kế hoạch đánh giá định kỳ, đánh giá giám sát việc duy trì đáp ứng GMP của các cơ sở sản xuất trong năm kế tiếp. Kế hoạch đánh giá định kỳ việc duy trì đáp ứng GMP được công bố trên Trang thông tin điện tử của Cơ quan tiếp nhận. Đối với trường hợp cơ sở sản xuất quy định tại khoản 3 Điều 5 của Thông tư này, Cục Quản lý Dược công bố và thực hiện kế hoạch đánh giá định kỳ việc duy trì đáp ứng GMP và đánh giá duy trì đáp ứng GDP nếu cơ sở đề nghị.”",
+     "trang_pdf": 5,
+     "sha256_pdf": "dfb3e744c851bfa6694091d5471524b2b8d937a12e98989d3fe04dd22c1f6b92",
+     "van": "3fe56224e3e0553b2c624818261e799466f54c02a4934d9cde76f8f924c98c56",
+     "trang_thai_dieu": "NGUYEN_BAN",
+     "lich_su_tac_dong": []
+    },
+    {
+     "id": "vb:45-2026-tt-byt:d:7",
+     "dieu": 7,
+     "noi_dung": "Điều 7. Sửa đổi, bổ sung một số khoản của Điều 10 1. Sửa đổi, bổ sung điểm b, điểm c, điểm d khoản 2 Điều 10 như sau: “b) Trong thời hạn 45 ngày, kể từ ngày Cơ quan tiếp nhận gửi báo cáo đánh giá GMP, cơ sở sản xuất phải gửi báo cáo khắc phục kèm theo các bằng chứng chứng minh (hồ sơ tài liệu, hình ảnh, video, giấy chứng nhận hoặc các tài liệu chứng minh khác) đối với các tồn tại đã hoàn thành việc khắc phục và kế hoạch khắc phục kèm theo cam kết thời hạn hoàn thành việc khắc phục đối với các tồn tại chưa khắc phục xong; c) Trong thời hạn 20 ngày, kể từ ngày nhận được văn bản báo cáo khắc phục, Cơ quan tiếp nhận đánh giá kết quả khắc phục của cơ sở sản xuất; thực hiện việc đánh giá thực tế đối với các khắc phục thuộc các tồn tại nặng được quy định tại 6",
+     "trang_pdf": 5,
+     "sha256_pdf": "dfb3e744c851bfa6694091d5471524b2b8d937a12e98989d3fe04dd22c1f6b92",
+     "van": "63ad0226fc003cb998bfd05760ca71140aa9f3efc469dcee4cbdb38dd36fd647",
+     "trang_thai_dieu": "NGUYEN_BAN",
+     "lich_su_tac_dong": []
+    },
+    {
+     "id": "vb:45-2026-tt-byt:d:8",
+     "dieu": 8,
+     "noi_dung": "Điều 8. Sửa đổi, bổ sung Điều 11 “Điều 11. Kiểm soát thay đổi 1. Cơ sở sản xuất vắc xin phải có văn bản thông báo kèm theo đánh giá về nguy cơ, ảnh hưởng của các thay đổi dự kiến thực hiện đến chất lượng, an toàn của sản phẩm trước khi tiến hành thay đổi thuộc một trong các trường hợp sau: a) Mở rộng nhà máy sản xuất hoặc thay đổi lớn về cấu trúc, bố trí nhà xưởng của một hoặc một số dây chuyền sản xuất hoặc của toàn bộ nhà máy trên cơ sở cấu trúc nhà máy đã có; b) Sửa chữa, thay đổi về cấu trúc, bố trí nhà xưởng tại một phần của dây chuyền sản xuất và làm thay đổi điều kiện môi trường sản xuất, quy trình sản xuất; c) Thay đổi các thiết bị sản xuất chính, quan trọng gây ảnh hưởng tới quy trình sản xuất, chất lượng thuốc, nguyên liệu làm thuốc; d) Thay đổi hệ thống phụ trợ hoặc thay đổi nguyên lý thiết kế, vận hành hệ thống tiện ích mà có ảnh hưởng tới môi trường sản xuất; đ) Sản xuất, sản xuất thử vắc xin hoặc sản phẩm thuốc khác trên dây chuyền sản xuất vắc xin đã được cấp chứng nhận. Trong thời hạn 15 ngày, Cục Quản lý Dược có ý kiến trả lời bằng văn bản trong trường hợp không đồng ý với đề xuất thay đổi của cơ sở sản xuất vắc xin. 2. Cơ sở sản xuất đề nghị cấp Giấy chứng nhận đủ điều kiện kinh doanh dược sau khi thay đổi thuộc một trong các trường hợp sau: a) Thay đổi thuộc một trong các trường hợp quy định tại điểm b khoản 1 Điều 36 của Luật Dược đối với nhà máy sản xuất, kho bảo quản, phòng kiểm tra chất lượng; b) Cơ sở sản xuất chuyển đổi phạm vi sản xuất từ phạm vi sản xuất thuốc dược liệu, thuốc cổ truyền thành phạm vi sản xuất thuốc hóa dược không kê đơn. 3. Cơ sở sản xuất đề nghị điều chỉnh Giấy chứng nhận đủ điều kiện kinh doanh dược sau khi thay đổi thuộc một trong các trường hợp sau: 8",
+     "trang_pdf": 7,
+     "sha256_pdf": "dfb3e744c851bfa6694091d5471524b2b8d937a12e98989d3fe04dd22c1f6b92",
+     "van": "6e615a59ac45172fdbed4912e15cd25ef987bb8d613f4b8ec768f22eae45ae8f",
+     "trang_thai_dieu": "NGUYEN_BAN",
+     "lich_su_tac_dong": []
+    },
+    {
+     "id": "vb:45-2026-tt-byt:d:9",
+     "dieu": 9,
+     "noi_dung": "Điều 9. Sửa đổi, bổ sung Điều 12 “Điều 12. Kiểm tra, đánh giá đột xuất, đánh giá giám sát việc duy trì đáp ứng Thực hành tốt sản xuất 1. Công tác kiểm tra việc duy trì đáp ứng GMP của cơ sở sản xuất được thực hiện theo quy định của pháp luật về kiểm tra chuyên ngành. 2. Cơ quan tiếp nhận tiến hành đánh giá đột xuất việc đáp ứng GMP tại cơ sở sản xuất khi cơ sở sản xuất thuộc một trong các trường hợp sau đây: a) Cơ sở sản xuất có thay đổi thuộc trường hợp quy định tại khoản 5 Điều 11 của Thông tư này mà báo cáo thay đổi chưa bảo đảm chứng minh việc duy trì đáp ứng GMP tại cơ sở sản xuất; b) Cơ sở sản xuất có từ 01 lô thuốc bị thu hồi do vi phạm ở mức độ 1; c) Cơ sở sản xuất có thuốc có phản ứng phụ nghiêm trọng hoặc có chuỗi phản ứng có hại (ADR) theo báo cáo của Trung tâm Quốc gia về Thông tin thuốc và Theo dõi phản ứng có hại của thuốc trong đó có phản ứng có hại nghiêm trọng ảnh hưởng trực tiếp đến chất lượng, an toàn, hiệu quả của thuốc; d) Cơ sở sản xuất có kết quả kiểm tra của cơ quan chức năng kết luận có vi phạm nghiêm trọng nguyên tắc, tiêu chuẩn GMP; đ) Trường hợp có thông tin phản ánh, tố giác cơ sở vi phạm nghiêm trọng nguyên tắc, tiêu chuẩn GMP; e) Cơ sở sản xuất không nộp báo cáo hoạt động - duy trì đáp ứng GMP theo quy định tại khoản 5 Điều 9 của Thông tư này; g) Cơ sở sản xuất thuốc hóa dược không kê đơn khi triển khai hoạt động sản xuất thuốc dược liệu, thuốc cổ truyền hoặc thực phẩm bảo vệ sức khỏe; h) Cơ sở sản xuất khi có sự cố và dấu hiệu bất thường hoặc khi có thông tin phản ánh, tố giác có cơ sở được tiếp nhận bằng văn bản, qua đường dây tiếp nhận phản ánh, khiếu nại hoặc phản ánh của phương tiện thông tin đại chúng.",
+     "trang_pdf": 11,
+     "sha256_pdf": "dfb3e744c851bfa6694091d5471524b2b8d937a12e98989d3fe04dd22c1f6b92",
+     "van": "7ca5ea55188187ddef24879ea2feef65bec895ae271b944d65f9ea42221d81d3",
+     "trang_thai_dieu": "NGUYEN_BAN",
+     "lich_su_tac_dong": []
+    },
+    {
+     "id": "vb:45-2026-tt-byt:d:10",
+     "dieu": 10,
+     "noi_dung": "Điều 10. Sửa đổi, bổ sung khoản 2 Điều 13 “2. Cơ sở sản xuất không thuộc diện cấp Giấy chứng nhận đủ điều kiện kinh doanh dược (trừ bộ phận pha chế thuốc của cơ sở khám bệnh, chữa bệnh); cơ sở khám bệnh, chữa bệnh có sản xuất thuốc phóng xạ nộp văn bản đề nghị đánh giá đáp ứng GMP theo Mẫu số 01 quy định tại Phụ lục X ban hành kèm theo Thông tư này và tài liệu kỹ thuật về cơ sở sản xuất thuốc được trình bày theo hướng dẫn về hồ sơ tổng thể của cơ sở sản xuất quy định tại Phụ lục VIII ban hành kèm theo Thông tư này đối với trường hợp đánh giá lần đầu hoặc báo cáo hoạt động sản xuất - duy trì đáp ứng GMP của cơ sở, kèm theo tài liệu kỹ thuật cập nhật về cơ sở sản xuất (nếu có thay đổi) theo quy định tại khoản 3 Điều 9 của Thông tư này đối với trường hợp đánh giá định kỳ.”",
+     "trang_pdf": 12,
+     "sha256_pdf": "dfb3e744c851bfa6694091d5471524b2b8d937a12e98989d3fe04dd22c1f6b92",
+     "van": "71a4cf3999995ce04bed9ee649f5cee66f6732717754d82c1ef531a574b012c5",
+     "trang_thai_dieu": "NGUYEN_BAN",
+     "lich_su_tac_dong": []
+    },
+    {
+     "id": "vb:45-2026-tt-byt:d:11",
+     "dieu": 11,
+     "noi_dung": "Điều 11. Sửa đổi, bổ sung điểm b khoản 3 Điều 17 “b) Phạm vi chứng nhận được ghi trên Giấy chứng nhận GMP/Giấy phép sản xuất hoặc Báo cáo kiểm tra GMP hoặc các tài liệu quy định tại khoản 5 Điều 97 Nghị định số 163/2025/NĐ-CP;”",
+     "trang_pdf": 12,
+     "sha256_pdf": "dfb3e744c851bfa6694091d5471524b2b8d937a12e98989d3fe04dd22c1f6b92",
+     "van": "3a8381b5eee72a988d73fe8980ddb9df9136d9a8f499a355fe411394e96c87d3",
+     "trang_thai_dieu": "NGUYEN_BAN",
+     "lich_su_tac_dong": []
+    },
+    {
+     "id": "vb:45-2026-tt-byt:d:12",
+     "dieu": 12,
+     "noi_dung": "Điều 12. Sửa đổi, bổ sung điểm d khoản 2 Điều 18 “d) Thành viên là chuyên gia từ các trường đại học có chuyên môn phù hợp với nội dung, phạm vi đánh giá. Trường hợp cần thiết, căn cứ tính chất, nội dung của đợt đánh giá, Cơ quan tiếp nhận báo cáo cấp có thẩm quyền xem xét, quyết định mời đại diện cơ quan, tổ chức có liên quan tham gia Đoàn đánh giá.” 13",
+     "trang_pdf": 12,
+     "sha256_pdf": "dfb3e744c851bfa6694091d5471524b2b8d937a12e98989d3fe04dd22c1f6b92",
+     "van": "a78098b4c44037a39a6a978589773b3e5e46d4447ea4104531961353317e8c92",
+     "trang_thai_dieu": "NGUYEN_BAN",
+     "lich_su_tac_dong": []
+    },
+    {
+     "id": "vb:45-2026-tt-byt:d:13",
+     "dieu": 13,
+     "noi_dung": "Điều 13. Sửa đổi, bổ sung một số khoản của Điều 23 1. Sửa đổi, bổ sung điểm a khoản 2 Điều 23 như sau: “a) Chủ trì, phối hợp với các đơn vị có liên quan phổ biến, hướng dẫn và triển khai thực hiện Thông tư này cho các cơ sở sản xuất, kinh doanh dược liệu, thuốc cổ truyền và các tổ chức liên quan thuộc lĩnh vực quản lý;” 2. Bổ sung khoản 2a vào sau khoản 2 Điều 23 như sau: “2a. Cục An toàn thực phẩm có trách nhiệm: a) Chủ trì, phối hợp với các đơn vị có liên quan phổ biến, hướng dẫn và triển khai thực hiện các quy định của Thông tư này cho các cơ sở sản xuất thuốc có sản xuất thực phẩm bảo vệ sức khỏe và tổ chức liên quan thuộc lĩnh vực quản lý; b) Chủ trì kiểm tra việc tuân thủ các nguyên tắc, tiêu chuẩn Thực hành tốt sản xuất đối với hoạt động sản xuất thực phẩm bảo vệ sức khỏe trên dây chuyền sản xuất thuốc của cơ sở sản xuất thuốc có sản xuất thực phẩm bảo vệ sức khỏe theo quy định tại Điều 4 của Thông tư này; c) Phối hợp với Cục Quản lý Dược, Cục Quản lý Y, Dược cổ truyền trong việc đánh giá, kiểm tra việc đáp ứng Thực hành tốt sản xuất đối với các cơ sở sản xuất quy định tại điểm b Khoản này trong phạm vi nhiệm vụ, quyền hạn được giao.” 3. Sửa đổi, bổ sung khoản 5 Điều 23 như sau: “5.",
+     "trang_pdf": 13,
+     "sha256_pdf": "dfb3e744c851bfa6694091d5471524b2b8d937a12e98989d3fe04dd22c1f6b92",
+     "van": "bd6b40106e3bb9d8cfa93c6b4228f704bed1573b58d14eaf1bca5336367eec55",
+     "trang_thai_dieu": "NGUYEN_BAN",
+     "lich_su_tac_dong": []
+    },
+    {
+     "id": "vb:45-2026-tt-byt:d:14",
+     "dieu": 14,
+     "noi_dung": "Điều 14. Sửa đổi, bổ sung một số Phụ lục 1. Sửa đổi các Phụ lục VI, VII, IX, X, XI ban hành kèm theo Thông tư này. 2. Bổ sung Phụ lục XII về Nguyên tắc, tiêu chuẩn Thực hành tốt sản xuất thuốc theo khuyến cáo của Tổ chức Y tế thế giới (WHO-GMP) đối với sản xuất thuốc nghiên cứu, thuốc sử dụng cho thử thuốc trên lâm sàng và Phụ lục XIII về Nguyên tắc, tiêu chuẩn Thực hành tốt sản xuất thuốc đối với sản xuất thuốc phóng xạ tại cơ sở khám bệnh, chữa bệnh ban hành kèm theo Thông tư này.",
+     "trang_pdf": 14,
+     "sha256_pdf": "dfb3e744c851bfa6694091d5471524b2b8d937a12e98989d3fe04dd22c1f6b92",
+     "van": "96d1fe5a936b42d6e3562c760da2698ac323ccbeb35bf350946d2c72acda87d7",
+     "trang_thai_dieu": "NGUYEN_BAN",
+     "lich_su_tac_dong": []
+    },
+    {
+     "id": "vb:45-2026-tt-byt:d:15",
+     "dieu": 15,
+     "noi_dung": "Điều 15. Trách nhiệm tổ chức thực hiện và điều khoản thi hành 1. Thông tư này có hiệu lực thi hành kể từ ngày 01tháng 01năm 2027. 2. Sửa đổi điểm c khoản 1 Điều 7 của Thông tư số 18/2019/TT-BYT của Bộ trưởng Bộ Y tế hướng dẫn Thực hành sản xuất tốt (GMP) trong sản xuất, kinh doanh thực phẩm bảo vệ sức khỏe như sau: \"c) Chủ trì kiểm tra việc tuân thủ các nguyên tắc, tiêu chuẩn Thực hành tốt sản xuất đối với hoạt động sản xuất thực phẩm bảo vệ sức khỏe trên dây chuyền sản xuất thuốc của cơ sở sản xuất thuốc có sản xuất thực phẩm bảo vệ sức khỏe; phối hợp với Cục Quản lý Dược, Cục Quản lý Y, Dược cổ truyền trong việc đánh giá, kiểm tra việc đáp ứng Thực hành tốt sản xuất đối với các cơ sở sản xuất thuốc có sản xuất thực phẩm bảo vệ sức khỏe trong phạm vi nhiệm vụ, quyền hạn được giao.” 3. Quy định chuyển tiếp: a) Đối với hồ sơ đề nghị cấp Giấy chứng nhận đủ điều kiện kinh doanh dược, hồ sơ đề nghị đánh giá đáp ứng, đánh giá định kỳ việc duy trì đáp ứng Thực hành tốt sản xuất thuốc, nguyên liệu làm thuốc và báo cáo thay đổi đã được nộp về Cơ quan tiếp nhận trước ngày Thông tư này có hiệu lực thi hành, Cơ quan tiếp nhận tiếp tục thực hiện việc đánh giá theo quy định tại Thông tư số 28/2025/TT-BYT hoặc theo quy định tại Thông tư này nếu cơ sở sản xuất có đề nghị; b) Chậm nhất đến ngày 01 tháng 11 năm 2028, cơ sở khám bệnh, chữa bệnh có hoạt động sản xuất thuốc phóng xạ phải đáp ứng các nguyên tắc, tiêu chuẩn Thực hành tốt sản xuất thuốc đối với việc sản xuất thuốc phóng xạ tại các cơ sở khám bệnh, chữa bệnh quy định tại Phụ lục XIII ban hành kèm theo Thông tư này.",
+     "trang_pdf": 14,
+     "sha256_pdf": "dfb3e744c851bfa6694091d5471524b2b8d937a12e98989d3fe04dd22c1f6b92",
+     "van": "de67cb6b84947143b8af642ed22277acf2116a82c3bf686edb86564ae47eca5d",
+     "trang_thai_dieu": "NGUYEN_BAN",
+     "lich_su_tac_dong": []
+    }
+   ]
+  },
+  {
+   "so_hieu": "4502/QĐ-BKHCN",
+   "slug": "4502-qd-bkhcn-2026",
+   "ten": "Công bố thủ tục hành chính mới về cấp giấy phép xuất khẩu, tạm nhập tái xuất, chuyển khẩu trong lĩnh vực quản lý nhà nước của Bộ Khoa học và Công nghệ",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2026-11-19",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://mst.gov.vn/van-ban-phap-luat/25582.htm",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "lop_du_lieu": "LUAT",
+   "dieu_khoan": [
+    {
+     "id": "vb:4502-qd-bkhcn-2026:d:1",
+     "dieu": 1,
+     "noi_dung": "Điều 1. Công bố kèm theo Quyết định này các thủ tục hành chính mới liên quan đến cấp giấy phép xuất khẩu, tạm nhập tái xuất, chuyển khẩu, trung chuyển, quá cảnh hàng hóa lưỡng dụng thuộc thẩm quyền quản lý của Bộ Khoa học và Công nghệ (Phụ lục kèm theo).",
+     "trang_pdf": 1,
+     "sha256_pdf": "52d7babac35a5e4015bf8ad94e7b1c72616052c227750aa07b3937cc20e54321",
+     "van": "aeb4de95f9bf7cff13c8db47da48d549f9b81e0a1119d3a882eda50413cae6e5",
+     "trang_thai_dieu": "NGUYEN_BAN",
+     "lich_su_tac_dong": []
+    },
+    {
+     "id": "vb:4502-qd-bkhcn-2026:d:2",
+     "dieu": 2,
+     "noi_dung": "Điều 2. Quyết định này có hiệu lực thi hành kể từ ngày ký.",
+     "trang_pdf": 1,
+     "sha256_pdf": "52d7babac35a5e4015bf8ad94e7b1c72616052c227750aa07b3937cc20e54321",
+     "van": "734d6d0500c2252cdbf935adac767e1388642eeb831292be28358231cdf2f2b2",
+     "trang_thai_dieu": "NGUYEN_BAN",
+     "lich_su_tac_dong": []
+    },
+    {
+     "id": "vb:4502-qd-bkhcn-2026:d:3",
+     "dieu": 3,
+     "noi_dung": "Điều 3. Chánh Văn phòng, Cục trưởng Cục Công nghệ số và Trí tuệ nhân tạo, Thủ trưởng các cơ quan, đơn vị thuộc Bộ và các cơ quan, tổ chức có liên 2 quan chịu trách nhiệm thi hành Quyết định này./.",
+     "trang_pdf": 1,
+     "sha256_pdf": "52d7babac35a5e4015bf8ad94e7b1c72616052c227750aa07b3937cc20e54321",
+     "van": "133140fece19971c1022005767cefe072357aee0a0cd1d0c016e03bf480757fb",
+     "trang_thai_dieu": "NGUYEN_BAN",
+     "lich_su_tac_dong": []
+    }
+   ]
+  },
+  {
    "so_hieu": "46/2020/NĐ-CP",
    "slug": "46-2020-nd-cp",
    "ten": "Nghị định số 46/2020/NĐ-CP ngày 09/4/2020 của Chính phủ quy định thủ tục hải quan, kiểm tra, giám sát hải quan đối với hàng hóa quá cảnh thông qua Hệ thống quá cảnh Hải quan ASEAN để thực hiện Nghị định thư 7 về Hệ thống quá cảnh Hải quan",
@@ -104744,6 +105052,110 @@
      "trang_pdf": 12,
      "sha256_pdf": "4cd96890a1c6478967494a09887e95469ddf7acece26c8c75052052ef2cbc957",
      "van": "43cb7dabace9087f84ff5f0b6df5eae65202a117d0789c9b38f2b4cd68972369",
+     "trang_thai_dieu": "NGUYEN_BAN",
+     "lich_su_tac_dong": []
+    }
+   ]
+  },
+  {
+   "so_hieu": "48/2026/VBHN-BCT",
+   "slug": "48-2026-vbhn-bct",
+   "ten": "Hợp nhất quy định về cấp Giấy chứng nhận xuất xứ hàng hóa và chấp thuận thương nhân tự chứng nhận xuất xứ hàng hóa",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": null,
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-48-vbhn-bct-469722/65736.htm",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "lop_du_lieu": "LUAT",
+   "dieu_khoan": [
+    {
+     "id": "vb:48-2026-vbhn-bct:d:1",
+     "dieu": 1,
+     "noi_dung": "Điều 1. Phạm vi điều chỉnh Thông tư này quy định việc cấp Giấy chứng nhận xuất xứ hàng hóa (sau đây gọi là C/O) và chấp thuận bằng văn bản cho thương nhân tự chứng nhận xuất xứ hàng hóa xuất khẩu (sau đây gọi là Văn bản chấp thuận) theo khoản 6 Điều 28 Nghị định số 146/2025/NĐ-CP ngày 12 tháng 6 năm 2025 của Chính phủ quy định về phân quyền, phân cấp trong lĩnh vực công nghiệp và thương mại.",
+     "trang_pdf": 2,
+     "sha256_pdf": "c671e9afd287e248479f6b40d62cae30b75ba5e9d0f9ccadfed09b5e06313e9b",
+     "van": "8f88833268a5fb9767d104cc99c7392600d0bd7bd97124a9f37bd316325e7a48",
+     "trang_thai_dieu": "NGUYEN_BAN",
+     "lich_su_tac_dong": []
+    },
+    {
+     "id": "vb:48-2026-vbhn-bct:d:2",
+     "dieu": 2,
+     "noi_dung": "Điều 2. Đối tượng áp dụng 1. Cục Xuất nhập khẩu (Bộ Công Thương). 2. Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương (sau đây gọi là Ủy ban nhân dân cấp tỉnh). 3. Thương nhân, tổ chức, cá nhân có liên quan đến nhiệm vụ quản lý nhà nước về xuất xứ hàng hóa. Chương II TỔ CHỨC, THỰC HIỆN CẤP C/O VÀ CẤP VĂN BẢN CHẤP THUẬN 1 Thông tư số 12/2026/TT-BCT bãi bỏ một số văn bản quy phạm pháp luật thuộc thẩm quyền của Bộ trưởng Bộ Công Thương",
+     "trang_pdf": 2,
+     "sha256_pdf": "c671e9afd287e248479f6b40d62cae30b75ba5e9d0f9ccadfed09b5e06313e9b",
+     "van": "b04a29b218b92d7a9fd913fb4b5439242f0a325b75f26aaec8891638062ab778",
+     "trang_thai_dieu": "NGUYEN_BAN",
+     "lich_su_tac_dong": []
+    },
+    {
+     "id": "vb:48-2026-vbhn-bct:d:3",
+     "dieu": 3,
+     "noi_dung": "Điều 3. Nguyên tắc tổ chức thực hiện cấp C/O và Văn bản chấp thuận 1. Bảo đảm sự thống nhất, toàn diện trong công tác quản lý nhà nước về xuất xứ hàng hóa đối với hàng hóa xuất khẩu. 2. Bảo đảm phù hợp với chủ trương theo quy định của Luật Tổ chức Chính phủ và Luật Tổ chức chính quyền địa phương. 3. Phù hợp với quy định về cơ quan, tổ chức có thẩm quyền được cấp C/O và cấp Văn bản chấp thuận tại các điều ước quốc tế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên. 4. Bảo đảm không làm gián đoạn việc thực hiện điều ước quốc tế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên và thỏa thuận quốc tế từ cấp Cục thuộc Bộ, Bộ, cơ quan ngang Bộ trở lên có nội dung về xuất xứ hàng hóa.",
+     "trang_pdf": 3,
+     "sha256_pdf": "c671e9afd287e248479f6b40d62cae30b75ba5e9d0f9ccadfed09b5e06313e9b",
+     "van": "d4543adc89fca01ec98bb38f54b1d1a0e31f24423473ac7340887dac44d0fc97",
+     "trang_thai_dieu": "NGUYEN_BAN",
+     "lich_su_tac_dong": []
+    },
+    {
+     "id": "vb:48-2026-vbhn-bct:d:4",
+     "dieu": 4,
+     "noi_dung": "Điều 4. Nội dung, phạm vi cấp C/O và Văn bản chấp thuận 1.2 Cục Xuất nhập khẩu (Bộ Công Thương) tổ chức triển khai cấp, cấp lại, cấp giáp lưng các loại C/O tại Phụ lục I kèm theo Thông tư này khi đáp ứng điều kiện quy định tại Điều 5 Thông tư này và quy định pháp luật có liên quan. 2.3 Ủy ban nhân dân cấp tỉnh tổ chức triển khai cấp, cấp lại, cấp giáp lưng các loại C/O tại Phụ lục II kèm theo Thông tư này theo Luật Tổ chức chính quyền địa phương khi đáp ứng điều kiện quy định tại Điều 5 Thông tư này và quy định pháp luật có liên quan. 3.4 Việc đáp ứng điều kiện được thực hiện trên cơ sở tự đánh giá theo mẫu tại Phụ lục III kèm theo Thông tư này.",
+     "trang_pdf": 3,
+     "sha256_pdf": "c671e9afd287e248479f6b40d62cae30b75ba5e9d0f9ccadfed09b5e06313e9b",
+     "van": "5155caff6bec5fbfa9f351fded6504e1451a84fefbd4fe66bcc1cf010cd20483",
+     "trang_thai_dieu": "NGUYEN_BAN",
+     "lich_su_tac_dong": []
+    },
+    {
+     "id": "vb:48-2026-vbhn-bct:d:5",
+     "dieu": 5,
+     "noi_dung": "Điều 5. Điều kiện cấp C/O và Văn bản chấp thuận 1. Bảo đảm đội ngũ nhân lực để thực hiện việc cấp và tổ chức triển khai việc cấp các loại C/O và Văn bản chấp thuận. 2. Được đào tạo, tập huấn kiến thức về xuất xứ hàng hóa đối với người có thẩm quyền ký C/O và Văn bản chấp thuận. 3. Có tài khoản thu phí chứng nhận xuất xứ hàng hóa. 4. Bảo đảm hạ tầng số để triển khai Hệ thống quản lý và cấp chứng nhận xuất xứ điện tử của Bộ Công Thương (sau đây gọi là Hệ thống eCoSys) tại địa chỉ 2 Khoản này được sửa đổi, bổ sung theo quy định tại khoản 1 Điều 19 của Thông tư số 26/2026/TT-BCT sửa đổi, bổ sung một số quy định về phân cấp, cắt giảm, đơn giản hóa thủ tục hành chính trong các lĩnh vực thuộc phạm vi quản lý của Bộ Công Thương, có hiệu lực kể từ ngày 29 tháng 5 năm 2026 3 Khoản này được sửa đổi, bổ sung theo quy định tại khoản 1 Điều 19 của Thông tư số 26/2026/TT-BCT sửa đổi, bổ sung một số quy định về phân cấp, cắt giảm, đơn giản hóa thủ tục hành chính trong các lĩnh vực thuộc phạm vi quản lý của Bộ Công Thương, có hiệu lực kể từ ngày 29 tháng 5 năm 2026 4 Khoản này được sửa đổi, bổ sung theo quy định tại khoản 1 Điều 19 của Thông tư số 26/2026/TT-BCT sửa đổi, bổ sung một số quy định về phân cấp, cắt giảm, đơn giản hóa thủ tục hành chính trong các lĩnh vực thuộc phạm vi quản lý của Bộ Công Thương, có hiệu lực kể từ ngày 29 tháng 5 năm 2026 www.ecosys.gov.vn liên tục, ổn định và thực hiện thông suốt quy trình thu phí chứng nhận xuất xứ hàng hóa điện tử, cấp C/O dưới dạng điện tử, truyền dữ liệu C/O điện tử và cấp Văn bản chấp thuận. 5. Có khu vực lưu trữ riêng, các trang thiết bị cần thiết lưu trữ hồ sơ, chứng từ cấp C/O và Văn bản chấp thuận. Chương III TRÁCH NHIỆM THỰC HIỆN VÀ ĐIỀU KHOẢN THI HÀNH5",
+     "trang_pdf": 3,
+     "sha256_pdf": "c671e9afd287e248479f6b40d62cae30b75ba5e9d0f9ccadfed09b5e06313e9b",
+     "van": "cd5b5b5cf8dd634b8bd4cb682865e0b92cbed7f468a92c5730b435e0805df98a",
+     "trang_thai_dieu": "NGUYEN_BAN",
+     "lich_su_tac_dong": []
+    },
+    {
+     "id": "vb:48-2026-vbhn-bct:d:6",
+     "dieu": 6,
+     "noi_dung": "Điều 6. Trách nhiệm của Ủy ban nhân dân cấp tỉnh 1. Trong vòng 90 ngày kể từ ngày Thông tư này có hiệu lực, Ủy ban nhân dân cấp tỉnh phải bảo đảm việc 6 triển khai cấp các loại C/O và Văn bản chấp thuận. 2. Thông tin đến Cục Xuất nhập khẩu (Bộ Công Thương) văn bản triển khai việc cấp C/O và Văn bản chấp thuận (nếu có); mẫu con dấu của cơ quan, tổ chức cấp C/O và Văn bản chấp thuận; mẫu chữ ký của người có thẩm quyền ký C/O và Văn bản chấp thuận theo hướng dẫn của Cục Xuất nhập khẩu (Bộ Công Thương) và cập nhật ngay khi có thay đổi. 3. Công bố công khai nội dung quản lý nhà nước về xuất xứ hàng hóa và hướng dẫn thương nhân đề nghị cấp C/O và Văn bản chấp thuận thực hiện đúng theo quy định pháp luật về xuất xứ hàng hóa. 4. Kiểm tra, giám sát 7 cấp C/O và Văn bản chấp thuận; xử lý vi phạm đối với việc triển khai cấp C/O và Văn bản chấp thuận, thực hiện theo quy định pháp luật có liên quan.",
+     "trang_pdf": 4,
+     "sha256_pdf": "c671e9afd287e248479f6b40d62cae30b75ba5e9d0f9ccadfed09b5e06313e9b",
+     "van": "2e185fa35e51c9e8333e4e7a88788339aaecc031dc3a19e24b326e10715dc890",
+     "trang_thai_dieu": "NGUYEN_BAN",
+     "lich_su_tac_dong": []
+    },
+    {
+     "id": "vb:48-2026-vbhn-bct:d:7",
+     "dieu": 7,
+     "noi_dung": "Điều 7. Trách nhiệm của 8 Ủy ban nhân dân cấp tỉnh 9 cấp C/O và Văn bản chấp thuận 5 Điều 3 của Thông tư số 12/2026/TT-BCT bãi bỏ một số văn bản quy phạm pháp luật thuộc thẩm quyền của Bộ trưởng Bộ Công Thương, có hiệu lực kể từ ngày 01 tháng 5 năm 2026 quy định như sau: “Điều 3. Điều khoản thi hành 1. Thông tư này có hiệu lực thi hành kể từ ngày 01 tháng 5 năm 2026. 2. Vụ trưởng Vụ Pháp chế, Chánh Văn phòng Bộ, Thủ trưởng các đơn vị thuộc Bộ Công Thương và các cơ quan, tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành Thông tư này.” 5 Khoản này được bãi bỏ theo quy định tại khoản 2 Điều 2 của Thông tư số 12/2026/TT-BCT bãi bỏ một số văn bản quy phạm pháp luật thuộc thẩm quyền của Bộ trưởng Bộ Công Thương, có hiệu lực kể từ ngày 01 tháng 5 năm 2026. 6 Cụm từ “tổ chức được giao nhiệm vụ theo thẩm quyền” được bãi bỏ theo quy định tại khoản 4 Điều 2 của Thông tư số 12/2026/TT-BCT bãi bỏ một số văn bản quy phạm pháp luật thuộc thẩm quyền của Bộ trưởng Bộ Công Thương, có hiệu lực kể từ ngày 01 tháng 5 năm 2026. 7 Cụm từ “tổ chức được giao nhiệm vụ” được bãi bỏ theo quy định tại khoản 4 Điều 2 của Thông tư số 12/2026/TT-BCT bãi bỏ một số văn bản quy phạm pháp luật thuộc thẩm quyền của Bộ trưởng Bộ Công Thương, có hiệu lực kể từ ngày 01 tháng 5 năm 2026. 8 Cụm từ “tổ chức được” được bãi bỏ theo quy định tại khoản 4 Điều 2 của Thông tư số 12/2026/TT-BCT bãi bỏ một số văn bản quy phạm pháp luật thuộc thẩm quyền của Bộ trưởng Bộ Công Thương, có hiệu lực kể từ ngày 01 tháng 5 năm 2026. 9 Cụm từ “giao nhiệm vụ” được bãi bỏ theo quy định tại khoản 4 Điều 2 của Thông tư số 12/2026/TT-BCT bãi bỏ một số văn bản quy phạm pháp luật thuộc thẩm quyền của Bộ trưởng Bộ Công Thương, có hiệu lực kể từ ngày 01 tháng 5 năm 2026.",
+     "trang_pdf": 4,
+     "sha256_pdf": "c671e9afd287e248479f6b40d62cae30b75ba5e9d0f9ccadfed09b5e06313e9b",
+     "van": "cbdc36ca917ca3c067db4085e6c96ab4bc821d786750e30e346aa1a057170b9f",
+     "trang_thai_dieu": "NGUYEN_BAN",
+     "lich_su_tac_dong": []
+    },
+    {
+     "id": "vb:48-2026-vbhn-bct:d:8",
+     "dieu": 8,
+     "noi_dung": "Điều 8. Trách nhiệm của đơn vị thuộc Bộ Công Thương 1. Cục Xuất nhập khẩu chịu trách nhiệm: a) Tổng hợp tình hình thực hiện cấp C/O và Văn bản chấp thuận. b) Xây dựng nội dung chương trình đào tạo, tập huấn về xuất xứ hàng hóa. c) Chủ trì, phối hợp với cơ quan có thẩm quyền, đơn vị liên quan kiểm tra định kỳ hoặc đột xuất cơ quan, tổ chức cấp C/O và Văn bản chấp thuận. d)10 Duy trì điều kiện cấp C/O theo quy định tại Điều 5 Thông tư này. 2. Cục Thương mại điện tử và Kinh tế số chịu trách nhiệm: a) Quản lý hạ tầng kỹ thuật của Hệ thống eCoSys, kết nối và truyền dữ liệu C/O điện tử từ Hệ thống eCoSys sang Cổng Thông tin một cửa quốc gia của Việt Nam. b) Tạo tài khoản và cấp mã số của cơ quan, tổ chức cấp C/O và Văn bản chấp thuận trên Hệ thống eCoSys. c) Đăng tải và cập nhật danh mục cơ quan, tổ chức cấp C/O và Văn bản chấp thuận lên Hệ thống eCoSys.",
+     "trang_pdf": 5,
+     "sha256_pdf": "c671e9afd287e248479f6b40d62cae30b75ba5e9d0f9ccadfed09b5e06313e9b",
+     "van": "1dea4003d12a25d137fda344869dde0dea43f1d14a4d0c1405c0f4d445aa152c",
+     "trang_thai_dieu": "NGUYEN_BAN",
+     "lich_su_tac_dong": []
+    },
+    {
+     "id": "vb:48-2026-vbhn-bct:d:9",
+     "dieu": 9,
+     "noi_dung": "Điều 9. Hiệu lực thi hành 10 Điểm này được sửa đổi, bổ sung theo quy định tại khoản 2 Điều 19 của Thông tư số 26/2026/TT-BCT sửa đổi, bổ sung một số quy định về phân cấp, cắt giảm, đơn giản hóa thủ tục hành chính trong các lĩnh vực thuộc phạm vi quản lý của Bộ Công Thương, có hiệu lực kể từ ngày 29 tháng 5 năm 2026 1. Thông tư này có hiệu lực kể từ ngày 01 tháng 7 năm 2025. 2. Trong trường hợp các văn bản quy phạm pháp luật được viện dẫn trong Thông tư này được sửa đổi, bổ sung hoặc thay thế thì thực hiện theo các văn bản quy phạm pháp luật đã được sửa đổi, bổ sung hoặc thay thế./. BỘ CÔNG THƯƠNG XÁC THỰC VĂN BẢN HỢP NHẤT Số: 48/VBHN-BCT Hà Nội, ngày 04 tháng 6 năm 2026",
+     "trang_pdf": 5,
+     "sha256_pdf": "c671e9afd287e248479f6b40d62cae30b75ba5e9d0f9ccadfed09b5e06313e9b",
+     "van": "68c7e2b26ecc382d007bb4a310c105d5376dfe96ea6fce09aae0bdb8d0ccecf1",
      "trang_thai_dieu": "NGUYEN_BAN",
      "lich_su_tac_dong": []
     }
@@ -115578,6 +115990,210 @@
      "trang_pdf": 2,
      "sha256_pdf": "cadfc68d47f73c114453026a91146c1c2bb7c9e5b679861d0394314954f8d624",
      "van": "cd87e23f3acdf34be82bf06c17df8ce711409a82d84a61fa069b99acf14a3cf5",
+     "trang_thai_dieu": "NGUYEN_BAN",
+     "lich_su_tac_dong": []
+    }
+   ]
+  },
+  {
+   "so_hieu": "63/2026/TT-BCT",
+   "slug": "63-2026-tt-bct",
+   "ten": "Quy định về cơ sở dữ liệu thực phẩm thuộc phạm vi quản lý của Bộ Công Thương",
+   "tinh_trang": "CON_HIEU_LUC",
+   "hieu_luc_tu": "2026-11-15",
+   "het_hieu_luc_tu": null,
+   "hieu_luc_da_doi_chieu": true,
+   "nguon_a": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-63-2026-tt-bct-470687.htm",
+   "tang_tin_cay": "NGUYEN_VAN_NGUON_A",
+   "lop_du_lieu": "LUAT",
+   "dieu_khoan": [
+    {
+     "id": "vb:63-2026-tt-bct:d:1",
+     "dieu": 1,
+     "noi_dung": "Điều 1. Phạm vi điều chỉnh Thông tư này quy định việc tạo lập, quản lý, cập nhật, kết nối, chia sẻ, khai thác cơ sở dữ liệu thực phẩm thuộc phạm vi quản lý của Bộ Công Thương phục vụ công tác quản lý nhà nước về công nghiệp thực phẩm, an toàn thực phẩm, chất lượng sản phẩm hàng hóa, truy xuất nguồn gốc thực phẩm và trách nhiệm của các cơ quan, tổ chức, cá nhân có liên quan trong hoạt động sản xuất, kinh doanh thực phẩm thuộc phạm vi quản lý của ngành công thương.",
+     "trang_pdf": 2,
+     "sha256_pdf": "3ef291cf3bf763363afa4cbb05ecf0ec266a9d30f4ac605eadaca8a2ebd54fac",
+     "van": "00e25f8321ce44145a05b77afcb310e2e821e05d1b6595ea1cf545e7e52334be",
+     "trang_thai_dieu": "NGUYEN_BAN",
+     "lich_su_tac_dong": []
+    },
+    {
+     "id": "vb:63-2026-tt-bct:d:2",
+     "dieu": 2,
+     "noi_dung": "Điều 2. Đối tượng áp dụng 1. Thông tư này áp dụng đối với: a) Các cơ quan quản lý nhà nước về thực phẩm, các tổ chức đánh giá sự phù hợp, các cơ quan kiểm tra nhà nước về thực phẩm nhập khẩu thuộc phạm vi quản lý của Bộ Công Thương. b) Các tổ chức, cá nhân có hoạt động sản xuất, kinh doanh thực phẩm (sau đây gọi tắt là cơ sở) tại Việt Nam thuộc phạm vi quản lý của Bộ Công Thương và các tổ chức, cá nhân khác có liên quan. 2. Thông tư này không áp dụng đối với thực phẩm do hộ gia đình, cá nhân sản xuất, chế biến để sử dụng và không kinh doanh trên thị trường.",
+     "trang_pdf": 2,
+     "sha256_pdf": "3ef291cf3bf763363afa4cbb05ecf0ec266a9d30f4ac605eadaca8a2ebd54fac",
+     "van": "29b744256c813a8a35621b6a0c63fd882d4f4dc5b7688d472d39a5f9a85b4a33",
+     "trang_thai_dieu": "NGUYEN_BAN",
+     "lich_su_tac_dong": []
+    },
+    {
+     "id": "vb:63-2026-tt-bct:d:3",
+     "dieu": 3,
+     "noi_dung": "Điều 3. Giải thích từ ngữ Trong Thông tư này, các từ ngữ dưới đây được hiểu như sau: 1. Cơ sở dữ liệu thực phẩm thuộc phạm vi quản lý của Bộ Công Thương (sau đây gọi là Cơ sở dữ liệu) là tập hợp các dữ liệu được sắp xếp, tổ chức để truy cập, khai thác, chia sẻ, quản lý và cập nhật, thuộc hợp phần của cơ sở dữ liệu ngành Công Thương. 2. Truy xuất nguồn gốc là hoạt động theo dõi, giám sát, xác định được một kiểu loại, lô hoặc một đơn vị sản phẩm, hàng hóa theo thời gian và địa điểm qua từng công đoạn của chuỗi cung ứng. 3. Sự kiện theo dõi trọng yếu là các bước có khả năng ảnh hưởng tới chất lượng và an toàn sản phẩm. 4. Nguyên tắc “một bước trước - một bước sau” là nguyên tắc truy xuất nguồn gốc mà cơ sở phải lưu giữ thông tin để bảo đảm khả năng giám sát, nhận diện được công đoạn trước và công đoạn kế tiếp trong quá trình sản xuất, kinh doanh đối với một sản phẩm thực phẩm được truy xuất nguồn gốc.",
+     "trang_pdf": 2,
+     "sha256_pdf": "3ef291cf3bf763363afa4cbb05ecf0ec266a9d30f4ac605eadaca8a2ebd54fac",
+     "van": "332c6dbad9f59623228dbff220fafab3de62001a841ea3e530daddd849924856",
+     "trang_thai_dieu": "NGUYEN_BAN",
+     "lich_su_tac_dong": []
+    },
+    {
+     "id": "vb:63-2026-tt-bct:d:4",
+     "dieu": 4,
+     "noi_dung": "Điều 4. Nguyên tắc áp dụng 1. Việc tạo lập, quản lý, cập nhật, kết nối, chia sẻ và khai thác Cơ sở dữ liệu thực hiện theo quy định của pháp luật về dữ liệu, chuyển đổi số và pháp luật có liên quan. ` 2. Dữ liệu được tạo lập, cập nhật vào Cơ sở dữ liệu phải bảo đảm chính xác, đầy đủ, kịp thời, thống nhất, có khả năng kiểm chứng và truy nguyên đến nguồn hình thành dữ liệu theo quy định của pháp luật. 3. Hoạt động truy xuất nguồn gốc thực phẩm được thực hiện theo nguyên tắc “một bước trước - một bước sau”. Thông tin thực phẩm sau mỗi sự kiện theo dõi trọng yếu phải được lưu trữ, nhận diện bằng một phương thức thích hợp để phục vụ truy xuất nguồn gốc. Các sự kiện theo dõi trọng yếu và thời gian diễn ra sự kiện trong chuỗi cung ứng theo tiêu chuẩn quốc gia TCVN 12850:2020 hoặc tiêu chuẩn về truy xuất nguồn gốc toàn cầu của GS1 (GS1 Global Traceability Standard). 4. Cơ quan, tổ chức, cá nhân chịu trách nhiệm về dữ liệu do mình tạo lập, cập nhật, cung cấp theo quy định của pháp luật. Chương II CƠ SỞ DỮ LIỆU THỰC PHẨM",
+     "trang_pdf": 2,
+     "sha256_pdf": "3ef291cf3bf763363afa4cbb05ecf0ec266a9d30f4ac605eadaca8a2ebd54fac",
+     "van": "ffb5b22ee9631f5ae1009f21e02923801525964ee4a548ba8deb0512f94b9015",
+     "trang_thai_dieu": "NGUYEN_BAN",
+     "lich_su_tac_dong": []
+    },
+    {
+     "id": "vb:63-2026-tt-bct:d:5",
+     "dieu": 5,
+     "noi_dung": "Điều 5. Tạo lập Cơ sở dữ liệu 1. Cơ sở dữ liệu được xây dựng, quản lý và vận hành phù hợp với Khung kiến trúc dữ liệu của Bộ Công Thương, Khung kiến trúc dữ liệu quốc gia, Khung quản trị, quản lý dữ liệu quốc gia và quy định của pháp luật về dữ liệu, chuyển đổi số. 2. Dữ liệu phục vụ quản lý nhà nước về công nghiệp thực phẩm, an toàn thực phẩm, chất lượng sản phẩm, hàng hóa và truy xuất nguồn gốc thực phẩm thuộc phạm vi quản lý của Bộ Công Thương được tạo lập, cập nhật từ các nguồn sau: a) Dữ liệu do cơ quan nhà nước và cơ quan, tổ chức được giao hoặc chỉ định thực hiện nhiệm vụ quản lý nhà nước tạo lập, tiếp nhận trong quá trình giải quyết thủ tục hành chính, cung cấp dịch vụ công, thực hiện chế độ báo cáo và hoạt động quản lý nhà nước theo quy định của pháp luật; b) Dữ liệu được kết nối, chia sẻ từ Cơ sở dữ liệu tổng hợp quốc gia, cơ sở dữ liệu quốc gia, cơ sở dữ liệu chuyên ngành và hệ thống thông tin của cơ quan nhà nước; c) Dữ liệu do tổ chức, cá nhân cung cấp, cập nhật, kết nối, chia sẻ theo nghĩa vụ được pháp luật quy định hoặc tự nguyện cung cấp, chia sẻ theo quy định của pháp luật. 3. Hồ sơ, giấy tờ, tài liệu được hình thành trong quá trình giải quyết thủ tục hành chính, cung cấp dịch vụ công, thực hiện hoạt động quản lý nhà nước và chế độ báo cáo được tạo lập, chuyển đổi thành dữ liệu số để cập nhật vào Cơ sở dữ liệu theo quy định của pháp luật và Thông tư này.",
+     "trang_pdf": 3,
+     "sha256_pdf": "3ef291cf3bf763363afa4cbb05ecf0ec266a9d30f4ac605eadaca8a2ebd54fac",
+     "van": "bc56a249f9849fb9c82a45b0dc6185baba1a1a5f35b0de56ff84e559324ba190",
+     "trang_thai_dieu": "NGUYEN_BAN",
+     "lich_su_tac_dong": []
+    },
+    {
+     "id": "vb:63-2026-tt-bct:d:6",
+     "dieu": 6,
+     "noi_dung": "Điều 6. Nội dung Cơ sở dữ liệu 1. Cơ sở dữ liệu bao gồm các nhóm dữ liệu chủ yếu sau: ` a) Dữ liệu về cơ sở sản xuất, kinh doanh thực phẩm; b) Dữ liệu về sản phẩm thực phẩm; c) Dữ liệu về điều kiện bảo đảm an toàn thực phẩm và hồ sơ công bố sản phẩm; d) Dữ liệu về cơ quan kiểm tra nhà nước về an toàn thực phẩm nhập khẩu; cơ sở kiểm nghiệm thực phẩm phục vụ quản lý nhà nước; cơ sở kiểm nghiệm kiểm chứng và kết quả thực hiện nhiệm vụ của các cơ quan, cơ sở này; đ) Dữ liệu về thanh tra, kiểm tra, hậu kiểm, xử lý vi phạm hành chính, cảnh báo, thu hồi và xử lý thực phẩm không bảo đảm an toàn; e) Dữ liệu về tiêu chuẩn, quy chuẩn kỹ thuật, chất lượng sản phẩm, hàng hóa và đánh giá sự phù hợp có liên quan đến thực phẩm; g) Dữ liệu về truy xuất nguồn gốc thực phẩm; h) Dữ liệu báo cáo, thống kê và dữ liệu khác phục vụ quản lý nhà nước về thực phẩm thuộc phạm vi quản lý của Bộ Công Thương theo quy định của pháp luật. 2. Danh mục, cấu trúc và mô tả dữ liệu của Cơ sở dữ liệu do Bộ trưởng Bộ Công Thương ban hành và được rà soát, cập nhật phù hợp với yêu cầu quản lý nhà nước và quy định của pháp luật; bảo đảm thống nhất về mã định danh, nguồn dữ liệu, chất lượng dữ liệu và khả năng kết nối, chia sẻ, khai thác, sử dụng dữ liệu.",
+     "trang_pdf": 3,
+     "sha256_pdf": "3ef291cf3bf763363afa4cbb05ecf0ec266a9d30f4ac605eadaca8a2ebd54fac",
+     "van": "b25d0ead8f91535ebad71612d357a431e4eaecd4950c877b487b56903317ab1d",
+     "trang_thai_dieu": "NGUYEN_BAN",
+     "lich_su_tac_dong": []
+    },
+    {
+     "id": "vb:63-2026-tt-bct:d:7",
+     "dieu": 7,
+     "noi_dung": "Điều 7. Quản lý Cơ sở dữ liệu 1. Bộ Công Thương tổ chức quản lý, duy trì và phát triển Cơ sở dữ liệu theo quy định của pháp luật. 2. Cục Công nghiệp chủ trì, phối hợp với các đơn vị thuộc Bộ hướng dẫn nghiệp vụ, xác định nhu cầu dữ liệu, tổ chức khai thác dữ liệu phục vụ quản lý nhà nước về công nghiệp thực phẩm, an toàn thực phẩm, chất lượng sản phẩm, hàng hóa và truy xuất nguồn gốc thực phẩm theo chức năng, nhiệm vụ được giao. 3. Cục Khoa học, Công nghệ và Chuyển đổi số chủ trì, phối hợp với các đơn vị thuộc Bộ bảo đảm hạ tầng kỹ thuật, quản lý, vận hành, kết nối và chia sẻ dữ liệu theo chức năng, nhiệm vụ được giao.",
+     "trang_pdf": 4,
+     "sha256_pdf": "3ef291cf3bf763363afa4cbb05ecf0ec266a9d30f4ac605eadaca8a2ebd54fac",
+     "van": "a12766773bec37a4a6fd801ce9494197b0bfd16ee1190b839621b29959430600",
+     "trang_thai_dieu": "NGUYEN_BAN",
+     "lich_su_tac_dong": []
+    },
+    {
+     "id": "vb:63-2026-tt-bct:d:8",
+     "dieu": 8,
+     "noi_dung": "Điều 8. Cập nhật, kết nối, chia sẻ và khai thác dữ liệu 1. Dữ liệu đã được tạo lập trong quá trình giải quyết thủ tục hành chính, cung cấp dịch vụ công trên môi trường điện tử hoặc đã có trong cơ sở dữ liệu, hệ thống thông tin của cơ quan nhà nước được khai thác, sử dụng lại cho Cơ sở dữ liệu thông qua kết nối, chia sẻ dữ liệu theo quy định của pháp luật. 2. Trường hợp dữ liệu được hình thành trong quá trình giải quyết thủ tục hành chính, cung cấp dịch vụ công chưa được tạo lập trên môi trường điện tử hoặc chưa thể khai thác, sử dụng lại thông qua kết nối, chia sẻ dữ liệu thì cơ quan, tổ chức có trách nhiệm tạo lập, chuyển đổi số và cập nhật vào Cơ sở dữ liệu theo quy định của Thông tư này. ` 3. Cơ sở dữ liệu được kết nối, chia sẻ với Cơ sở dữ liệu tổng hợp quốc gia, cơ sở dữ liệu quốc gia, cơ sở dữ liệu chuyên ngành, Cổng thông tin truy xuất nguồn gốc sản phẩm, hàng hóa quốc gia và hệ thống thông tin có liên quan theo quy định của pháp luật. 4. Việc kết nối, chia sẻ và khai thác dữ liệu thực hiện theo quy định của pháp luật về dữ liệu, chuyển đổi số và pháp luật có liên quan. Chương III TRUY XUẤT NGUỒN GỐC THỰC PHẨM",
+     "trang_pdf": 4,
+     "sha256_pdf": "3ef291cf3bf763363afa4cbb05ecf0ec266a9d30f4ac605eadaca8a2ebd54fac",
+     "van": "90ccc7c91f516088507de9d621543f294fced4a70fdd779b2ec68d0458a8e4c8",
+     "trang_thai_dieu": "NGUYEN_BAN",
+     "lich_su_tac_dong": []
+    },
+    {
+     "id": "vb:63-2026-tt-bct:d:9",
+     "dieu": 9,
+     "noi_dung": "Điều 9. Thông tin, hồ sơ phục vụ truy xuất nguồn gốc thực phẩm 1. Cơ sở sản xuất, kinh doanh thực phẩm phải thiết lập, lưu trữ đầy đủ các thông tin liên quan về hoạt động sản xuất, kinh doanh sau đây: a) Tên, địa chỉ, thông tin liên hệ, mã số doanh nghiệp của cơ sở sản xuất, kinh doanh thực phẩm; b) Giấy chứng nhận đăng ký kinh doanh hoặc Giấy chứng nhận đăng ký doanh nghiệp hoặc giấy chứng nhận khác theo quy định của pháp luật về đăng ký kinh doanh; c) Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm đối với trường hợp thuộc diện cấp Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm. d) Một trong các Giấy chứng nhận: Thực hành sản xuất tốt (GMP), Hệ thống phân tích mối nguy và điểm kiểm soát tới hạn (HACCP), Hệ thống quản lý an toàn thực phẩm ISO 22000, Tiêu chuẩn thực phẩm quốc tế (IFS), Tiêu chuẩn toàn cầu về an toàn thực phẩm (BRC), Chứng nhận hệ thống an toàn thực phẩm (FSSC 22000) hoặc tương đương còn hiệu lực đối với cơ sở thuộc đối tượng quy định tại điểm k khoản 1 Điều 12 Nghị định số 15/2018/NĐ-CP.",
+     "trang_pdf": 5,
+     "sha256_pdf": "3ef291cf3bf763363afa4cbb05ecf0ec266a9d30f4ac605eadaca8a2ebd54fac",
+     "van": "b4e9b89b310d9ae7f59030fd369b7045c64b763dfab1df97cb92b7dce329a302",
+     "trang_thai_dieu": "NGUYEN_BAN",
+     "lich_su_tac_dong": []
+    },
+    {
+     "id": "vb:63-2026-tt-bct:d:10",
+     "dieu": 10,
+     "noi_dung": "Điều 10. Lưu trữ hồ sơ, tài liệu truy xuất nguồn gốc 1. Cơ sở sản xuất, kinh doanh thực phẩm chịu trách nhiệm lưu trữ đầy đủ hồ sơ, tài liệu liên quan đến truy xuất nguồn gốc sản phẩm thực phẩm bảo đảm an toàn, bảo mật, không bị thay đổi, sai lệch và phải bảo đảm sẵn sàng cung cấp, trích xuất khi có yêu cầu của cơ quan nhà nước có thẩm quyền hoặc khi cần thực hiện truy xuất theo quy định tại Thông tư này. 2. Thời hạn lưu trữ, bảo quản hồ sơ, tài liệu liên quan đến truy xuất nguồn gốc sản phẩm thực phẩm tối thiểu là 12 tháng kể từ ngày hết hạn sử dụng của sản phẩm đối với sản phẩm thực phẩm có hạn sử dụng, 60 tháng kể từ ngày sản xuất đối với sản phẩm thực phẩm không yêu cầu bắt buộc ghi hạn sử dụng. 3. Cơ sở sản xuất, kinh doanh thực phẩm phải bảo đảm có thể cung cấp hồ sơ, tài liệu liên quan đến truy xuất nguồn gốc sản phẩm thực phẩm trong vòng 24 giờ kể từ khi cơ quan có thẩm quyền yêu cầu.",
+     "trang_pdf": 7,
+     "sha256_pdf": "3ef291cf3bf763363afa4cbb05ecf0ec266a9d30f4ac605eadaca8a2ebd54fac",
+     "van": "7c554bb7f9def3facf24641e901e7dfc2368cc1c6083125127a0cb31d740590a",
+     "trang_thai_dieu": "NGUYEN_BAN",
+     "lich_su_tac_dong": []
+    },
+    {
+     "id": "vb:63-2026-tt-bct:d:11",
+     "dieu": 11,
+     "noi_dung": "Điều 11. Hoạt động truy xuất nguồn gốc thực phẩm của cơ sở sản xuất, kinh doanh thực phẩm 1. Cơ sở sản xuất thực phẩm tiến hành truy xuất nguồn gốc sản phẩm thực phẩm ngay khi tự giám sát, phát hiện sản phẩm không bảo đảm an toàn hoặc khi có yêu cầu của cơ quan nhà nước có thẩm quyền theo các bước sau: a) Dựa vào thông tin ban đầu (tên sản phẩm, mã lô, ngày sản xuất) xác định các thông tin liên quan của lô sản phẩm thực phẩm cần truy xuất; b) Rà soát hồ sơ sản xuất, hồ sơ kiểm nghiệm của lô sản phẩm thực phẩm để xác định nguyên nhân vi phạm; c) Liên hệ ngay với (các) nhà cung cấp nguyên liệu, bao bì của lô sản phẩm thực phẩm để yêu cầu thông tin liên quan; d) Gửi thông báo khẩn cấp đến các nhà phân phối, đại lý đã nhận lô sản phẩm thực phẩm, yêu cầu cung cấp báo cáo về số lượng đã bán, số lượng tồn kho; đ) Phân tích, xác định nguyên nhân gây mất an toàn đối với lô sản phẩm thực phẩm phải truy xuất; e) Lập báo cáo kết quả thực hiện việc truy xuất nguồn gốc sản phẩm thực phẩm nêu rõ nguyên nhân, kết quả áp dụng các biện pháp khắc phục theo Biểu mẫu tại Phụ lục ban hành kèm theo Thông tư này, gửi về cơ quan có thẩm quyền theo quy định của pháp luật. 2. Cơ sở kinh doanh thực phẩm tiến hành truy xuất nguồn gốc sản phẩm ngay khi tự giám sát, phát hiện sản phẩm không bảo đảm an toàn hoặc khi có yêu cầu của cơ quan nhà nước có thẩm quyền theo các bước sau: a) Thực hiện các quy định tại các điểm a, d, đ, e khoản 1 Điều này. `",
+     "trang_pdf": 7,
+     "sha256_pdf": "3ef291cf3bf763363afa4cbb05ecf0ec266a9d30f4ac605eadaca8a2ebd54fac",
+     "van": "2eeb0c2a2bb7e734aad5dd7d8d49d96882393b7db80536b2e7371c873eb023e1",
+     "trang_thai_dieu": "NGUYEN_BAN",
+     "lich_su_tac_dong": []
+    },
+    {
+     "id": "vb:63-2026-tt-bct:d:12",
+     "dieu": 12,
+     "noi_dung": "Điều 12. Hoạt động giám sát, kiểm tra, xử lý của cơ quan nhà nước có thẩm quyền Trong quá trình kiểm tra, giám sát, xử lý của các cơ quan nhà nước có thẩm quyền phát hiện thực phẩm không đảm bảo an toàn, cơ quan nhà nước có thẩm quyền gửi văn bản thông báo yêu cầu cơ sở sản xuất, kinh doanh thực phẩm tiến hành truy xuất nguồn gốc theo quy định tại Điều 11 Thông tư này.",
+     "trang_pdf": 8,
+     "sha256_pdf": "3ef291cf3bf763363afa4cbb05ecf0ec266a9d30f4ac605eadaca8a2ebd54fac",
+     "van": "d6ccc55cd5bc6925e0ba4ecc2f81b857282295a4a1ce2141ecd54b9291e734d2",
+     "trang_thai_dieu": "NGUYEN_BAN",
+     "lich_su_tac_dong": []
+    },
+    {
+     "id": "vb:63-2026-tt-bct:d:13",
+     "dieu": 13,
+     "noi_dung": "Điều 13. Khai thác Cơ sở dữ liệu phục vụ truy xuất nguồn gốc 1. Cơ quan nhà nước có thẩm quyền khai thác dữ liệu từ Cơ sở dữ liệu để phục vụ kiểm tra, hậu kiểm, cảnh báo, truy xuất nguồn gốc, thu hồi, xử lý thực phẩm không bảo đảm an toàn và thực hiện nhiệm vụ quản lý nhà nước theo quy định của pháp luật. 2. Khi dữ liệu có sẵn trong Cơ sở dữ liệu đáp ứng yêu cầu thực hiện truy xuất nguồn gốc thì cơ quan nhà nước khai thác, sử dụng dữ liệu đó và không yêu cầu tổ chức, cá nhân cung cấp lại, trừ trường hợp cần kiểm tra, xác minh hoặc pháp luật có quy định khác. 3. Tổ chức, cá nhân khai thác dữ liệu mở và dữ liệu được công khai từ Cơ sở dữ liệu để phục vụ truy xuất nguồn gốc theo quy định của pháp luật. Chương IV TRÁCH NHIỆM CỦA CƠ QUAN, TỔ CHỨC, CÁ NHÂN",
+     "trang_pdf": 8,
+     "sha256_pdf": "3ef291cf3bf763363afa4cbb05ecf0ec266a9d30f4ac605eadaca8a2ebd54fac",
+     "van": "b738c8608d489d9adc9edf7fb0e894d8ab8f75884a9f8e45cb2d176bfc95982e",
+     "trang_thai_dieu": "NGUYEN_BAN",
+     "lich_su_tac_dong": []
+    },
+    {
+     "id": "vb:63-2026-tt-bct:d:14",
+     "dieu": 14,
+     "noi_dung": "Điều 14. Trách nhiệm của các đơn vị thuộc Bộ Công Thương 1. Cục Công nghiệp: a) Chủ trì, phối hợp với các đơn vị thuộc Bộ xác định yêu cầu nghiệp vụ và nhu cầu dữ liệu phục vụ quản lý nhà nước về công nghiệp thực phẩm, an toàn thực phẩm và truy xuất nguồn gốc thực phẩm; b) Chủ trì, phối hợp với các đơn vị liên quan xây dựng, rà soát, đề xuất Bộ trưởng ban hành, sửa đổi, bổ sung Danh mục, cấu trúc và mô tả dữ liệu của Cơ sở dữ liệu; c) Hướng dẫn, theo dõi và tổng hợp tình hình thực hiện Thông tư theo chức năng, nhiệm vụ được giao. ` 2. Cục Khoa học, Công nghệ và Chuyển đổi số theo chức năng, nhiệm vụ được giao chủ trì, phối hợp với các đơn vị thuộc Bộ thực hiện việc xây dựng, bảo đảm kiến trúc, giải pháp kỹ thuật, hạ tầng số, vận hành, tích hợp, kết nối, chia sẻ dữ liệu và các điều kiện kỹ thuật của Cơ sở dữ liệu; bảo đảm Cơ sở dữ liệu được xây dựng, vận hành phù hợp với kiến trúc dữ liệu, kiến trúc số và các nền tảng dùng chung của Bộ Công Thương. 3. Các đơn vị thuộc Bộ Công Thương có trách nhiệm tạo lập, cập nhật, kết nối, chia sẻ và khai thác dữ liệu thuộc phạm vi quản lý theo quy định của pháp luật và Thông tư này.",
+     "trang_pdf": 8,
+     "sha256_pdf": "3ef291cf3bf763363afa4cbb05ecf0ec266a9d30f4ac605eadaca8a2ebd54fac",
+     "van": "d8a5815242ea9b284deece90055e52eb485002ee1d0cec0a11e228f4872bc631",
+     "trang_thai_dieu": "NGUYEN_BAN",
+     "lich_su_tac_dong": []
+    },
+    {
+     "id": "vb:63-2026-tt-bct:d:15",
+     "dieu": 15,
+     "noi_dung": "Điều 15. Trách nhiệm của Ủy ban nhân dân các tỉnh, thành phố trực thuộc Trung ương 1. Ủy ban nhân dân các tỉnh, thành phố trực thuộc trung ương tổ chức tạo lập, chuyển đổi số và cập nhật các dữ liệu thuộc phạm vi quản lý của địa phương theo quy định tại Điều 8 Thông tư này, bao gồm: a) Dữ liệu được hình thành trong quá trình giải quyết thủ tục hành chính, cung cấp dịch vụ công về an toàn thực phẩm; tiếp nhận hồ sơ công bố sản phẩm theo quy định của pháp luật; b) Dữ liệu về giao hoặc chỉ định cơ sở kiểm nghiệm thực phẩm phục vụ quản lý nhà nước, cơ sở kiểm nghiệm kiểm chứng và cơ quan kiểm tra nhà nước về an toàn thực phẩm nhập khẩu thuộc thẩm quyền; c) Dữ liệu được hình thành trong hoạt động thanh tra, kiểm tra, hậu kiểm, xử lý vi phạm hành chính, cảnh báo, thu hồi và xử lý thực phẩm không bảo đảm an toàn; d) Dữ liệu được hình thành từ chế độ báo cáo định kỳ, báo cáo đột xuất và hoạt động quản lý nhà nước khác về an toàn thực phẩm theo quy định của pháp luật. 2. Dữ liệu phát sinh sau thời điểm Cơ sở dữ liệu chính thức vận hành được cập nhật trong thời hạn phù hợp với quy định của pháp luật chuyên ngành và yêu cầu quản lý, bảo đảm dữ liệu được cập nhật kịp thời. 3. Đối với hồ sơ, tài liệu, dữ liệu được hình thành trước thời điểm Cơ sở dữ liệu chính thức vận hành, Ủy ban nhân dân các tỉnh, thành phố trực thuộc trung ương tổ chức rà soát, ưu tiên tạo lập, chuyển đổi số đối với: a) Hồ sơ, giấy chứng nhận, quyết định giao hoặc chỉ định còn hiệu lực; b) Hồ sơ của cơ sở đang hoạt động, sản phẩm đang được sản xuất, kinh doanh, lưu thông; c) Hồ sơ xử lý vi phạm hành chính chưa hoàn thành việc thi hành; d) Hồ sơ liên quan đến cảnh báo, thu hồi, xử lý thực phẩm không bảo đảm an toàn và truy xuất nguồn gốc; đ) Hồ sơ, dữ liệu khác còn giá trị phục vụ quản lý nhà nước. `",
+     "trang_pdf": 9,
+     "sha256_pdf": "3ef291cf3bf763363afa4cbb05ecf0ec266a9d30f4ac605eadaca8a2ebd54fac",
+     "van": "d1ab353186cb0d44f21274b672f1a8e487699aed17286180915c9013a7711035",
+     "trang_thai_dieu": "NGUYEN_BAN",
+     "lich_su_tac_dong": []
+    },
+    {
+     "id": "vb:63-2026-tt-bct:d:16",
+     "dieu": 16,
+     "noi_dung": "Điều 16. Trách nhiệm của các cơ quan kiểm tra nhà nước về thực phẩm nhập khẩu, cơ sở kiểm nghiệm thực phẩm phục vụ quản lý nhà nước, cơ sở kiểm nghiệm kiểm chứng thực phẩm ngành công thương 1. Cơ quan kiểm tra nhà nước về an toàn thực phẩm nhập khẩu được giao hoặc chỉ định theo quy định của pháp luật có trách nhiệm tạo lập, chuyển đổi số và cập nhật dữ liệu được hình thành trong quá trình thực hiện kiểm tra nhà nước về an toàn thực phẩm nhập khẩu và chế độ báo cáo theo quy định của pháp luật. 2. Cơ sở kiểm nghiệm thực phẩm phục vụ quản lý nhà nước, cơ sở kiểm nghiệm kiểm chứng được giao hoặc chỉ định theo quy định của pháp luật có trách nhiệm tạo lập, chuyển đổi số và cập nhật dữ liệu được hình thành trong quá trình thực hiện kiểm nghiệm, kiểm chứng và chế độ báo cáo theo quy định của pháp luật. 3. Trường hợp dữ liệu quy định tại khoản 1 và khoản 2 Điều này đã được tạo lập trên hệ thống thông tin và có thể khai thác, sử dụng lại thông qua kết nối, chia sẻ dữ liệu thì thực hiện theo quy định tại khoản 1 Điều 8 Thông tư này. 4. Đối với dữ liệu được hình thành trước thời điểm Cơ sở dữ liệu chính thức vận hành, cơ quan, cơ sở quy định tại khoản 1 và khoản 2 Điều này rà soát, ưu tiên tạo lập, chuyển đổi số dữ liệu còn giá trị phục vụ quản lý nhà nước.",
+     "trang_pdf": 10,
+     "sha256_pdf": "3ef291cf3bf763363afa4cbb05ecf0ec266a9d30f4ac605eadaca8a2ebd54fac",
+     "van": "a5849910e964638d417732ffc2ee4462a4d71662d74e3beadbbedf5872e6bff6",
+     "trang_thai_dieu": "NGUYEN_BAN",
+     "lich_su_tac_dong": []
+    },
+    {
+     "id": "vb:63-2026-tt-bct:d:17",
+     "dieu": 17,
+     "noi_dung": "Điều 17. Trách nhiệm của cơ sở sản xuất, kinh doanh thực phẩm 1. Thiết lập, lưu trữ và cập nhật đầy đủ thông tin về sản phẩm thực phẩm, nguồn gốc, nguyên liệu, quy trình sản xuất, chế biến, kinh doanh sản phẩm thực phẩm phục vụ truy xuất nguồn gốc theo quy định tại Điều 9 của Thông tư này. Bảo đảm đủ nguồn lực để thực hiện hoạt động truy xuất nguồn gốc thực phẩm hiệu quả. 2. Chịu trách nhiệm trước pháp luật về tính kịp thời, hợp pháp, trung thực và chính xác của dữ liệu lưu trữ. 3. Cung cấp hồ sơ, giấy tờ cần thiết, đầy đủ, hợp lệ và kịp thời cho cơ quan quản lý nhà nước khi có yêu cầu. Chấp hành nghiêm túc yêu cầu truy xuất, quyết định thu hồi, xử lý sản phẩm của cơ quan nhà nước có thẩm quyền và chịu mọi chi phí liên quan đến các hoạt động này. 4. Khuyến khích các cơ sở sản xuất, kinh doanh thực phẩm thực hiện kết nối, cung cấp thông tin lên Cơ sở dữ liệu thực phẩm thuộc phạm vi quản lý của Bộ Công Thương. 5. Cơ sở sản xuất, kinh doanh thực phẩm có sản phẩm, hàng hóa thuộc Danh mục sản phẩm, hàng hóa có mức độ rủi ro cao thuộc phạm vi quản lý của Bộ Công Thương thực hiện truy xuất nguồn gốc và cung cấp thông tin lên Hệ thống cơ sở dữ liệu truy xuất nguồn gốc hàng hóa rủi ro cao của Bộ Công Thương.",
+     "trang_pdf": 10,
+     "sha256_pdf": "3ef291cf3bf763363afa4cbb05ecf0ec266a9d30f4ac605eadaca8a2ebd54fac",
+     "van": "dd67786756d5ea2098ca44221722de5e788b5dc89764e2854532595c93f422b1",
+     "trang_thai_dieu": "NGUYEN_BAN",
+     "lich_su_tac_dong": []
+    },
+    {
+     "id": "vb:63-2026-tt-bct:d:18",
+     "dieu": 18,
+     "noi_dung": "Điều 18. Nguồn kinh phí thực hiện 1. Nguồn kinh phí thực hiện việc nghiên cứu, xây dựng, vận hành Cơ sở dữ liệu thực phẩm thuộc phạm vi quản lý của Bộ Công Thương gồm có: ` a) Nguồn ngân sách nhà nước cho khoa học công nghệ, ứng dụng công nghệ thông tin, chuyển đổi số; b) Các nguồn lực xã hội hóa, các nguồn vốn hợp pháp khác theo quy định của pháp luật. 2. Việc quản lý, sử dụng và quyết toán kinh phí thực hiện nghiên cứu, xây dựng, vận hành Cơ sở dữ liệu thực phẩm thuộc phạm vi quản lý của Bộ Công Thương theo quy định của pháp luật hiện hành. Chương V TỔ CHỨC THỰC HIỆN",
+     "trang_pdf": 10,
+     "sha256_pdf": "3ef291cf3bf763363afa4cbb05ecf0ec266a9d30f4ac605eadaca8a2ebd54fac",
+     "van": "65310f74bf518a2040ffb321865bb4362b289f9e5ea43ce7f84058cd76e083f9",
+     "trang_thai_dieu": "NGUYEN_BAN",
+     "lich_su_tac_dong": []
+    },
+    {
+     "id": "vb:63-2026-tt-bct:d:19",
+     "dieu": 19,
+     "noi_dung": "Điều 19. Điều khoản thi hành 1. Thông tư này có hiệu lực thi hành kể từ ngày 15 tháng 11 năm 2026. 2. Thông tư này thay thế Thông tư số 11/2026/TT-BCT ngày 27 tháng 02 năm 2026 quy định về truy xuất nguồn gốc thực phẩm thuộc phạm vi quản lý của Bộ Công Thương. 3. Trong trường hợp các văn bản quy phạm pháp luật được viện dẫn trong Thông tư này được sửa đổi, bổ sung hoặc thay thế thì áp dụng theo các văn bản quy phạm pháp luật mới còn hiệu lực. 4. Trong quá trình triển khai Thông tư này, nếu phát sinh các vướng mắc, khó khăn, Bộ trưởng Bộ Công Thương hướng dẫn giải quyết các trường hợp cụ thể hoặc sửa đổi, bổ sung Thông tư này trong trường hợp cần thiết./.",
+     "trang_pdf": 11,
+     "sha256_pdf": "3ef291cf3bf763363afa4cbb05ecf0ec266a9d30f4ac605eadaca8a2ebd54fac",
+     "van": "5a6c19380eceb5d123ea466544e4eceaad0679958370ef6e6fadad6267915ef3",
      "trang_thai_dieu": "NGUYEN_BAN",
      "lich_su_tac_dong": []
     }
