@@ -1,4 +1,5 @@
-// Unit & E2E tests (100% offline) cho tools/nap-stub-radar.mjs.
+// Unit & E2E tests (100% offline) cho tools/nap-stub-radar.mjs (kể cả vòng lặp thẻ nhu-cau / [BỔ SUNG SỔ])
+// và chuỗi kiểm thử tools/test/test-tram-hai-quan-headless.mjs.
 import { cpSync, existsSync, mkdirSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
 import { spawnSync } from 'node:child_process';
 import { tmpdir } from 'node:os';
@@ -16,10 +17,13 @@ import {
   laUrlNguonBacAVietNam,
   suyLoaiVaCoQuan,
   suyNhanhTuMoTa,
+  timNguonBacAChoNhuCau,
   trichNgayBanHanhTuHtml,
   trichPdfBacATuHtmlChiTiet,
+  trichUngVienTuIssuesNhuCau,
 } from '../nap-stub-radar.mjs';
 import { timUngVienTuTai } from '../tu-tai-toan-van.mjs';
+import { chayTestTramHaiQuanHeadless } from './test-tram-hai-quan-headless.mjs';
 
 export async function chayTestNapStubRadar() {
   let pass = 0;
@@ -171,7 +175,6 @@ export async function chayTestNapStubRadar() {
 
     // 6. E2E chayNapStubRadar: làm giàu HTML -> PDF bậc A + ngày ban hành, kiemTra pass, khớp tu-tai-toan-van
     const { workDir, tmpRepo } = taoRepoTam();
-    // Thêm một quyết định có năm 2017/2026/QĐ-BTC để test chống tạo trùng khi radar đưa vào 2017/QĐ-BTC ngày 15/10/2026
     writeFileSync(
       join(tmpRepo, 'registry', 'van-ban', '2017-2026-qd-btc.yaml'),
       `# Stub test\nso_hieu: 2017/2026/QĐ-BTC\nloai: QUYET_DINH\nten: Quyết định thử nghiệm biến thể năm\nco_quan: BTC\nngay_ban_hanh: '2026-10-15'\ntinh_trang: CHUA_XAC_MINH\nnhanh:\n  - hai-quan/thu-tuc\nnguon:\n  - url: https://vanban.chinhphu.vn/?pageid=27160&docid=999001\n    truy_cap: '2026-10-16'\nxac_minh:\n  muc: CHUA_XAC_MINH\n  hieu_luc_da_doi_chieu: false\n  ngay: '2026-10-16'\n  boi: test\n`,
@@ -179,7 +182,6 @@ export async function chayTestNapStubRadar() {
     );
 
     const radarCandidates = [
-      // (a) Ứng viên mới trên vanban.chinhphu.vn chưa có ngày ở radar item -> lấy cả PDF signed + Ngày ban hành từ HTML
       {
         soHieu: '99/2026/TT-BCT',
         moTa: 'Quy định mới về cấp giấy chứng nhận xuất xứ hàng hóa C/O',
@@ -187,7 +189,6 @@ export async function chayTestNapStubRadar() {
         url: 'https://vanban.chinhphu.vn/?pageid=27160&docid=220999',
         tram: 'vanban_chinhphu',
       },
-      // (b) Ứng viên QĐ-BCT từ PVTM không có năm trong số hiệu -> slug tự gắn -2026, lấy PDF từ trang chi tiết PVTM
       {
         soHieu: '2927/QĐ-BCT',
         moTa: 'Bộ Công Thương ban hành Quyết định số 2927/QĐ-BCT về kết quả rà soát biện pháp chống bán phá giá đối với cáp thép',
@@ -195,7 +196,6 @@ export async function chayTestNapStubRadar() {
         url: 'https://pvtm.gov.vn/default.aspx?page=news-detail&do=detail&id=41933671',
         tram: 'pvtm',
       },
-      // (c) Đã có trong sổ qua biến thể năm (2017/QĐ-BTC ngày 15/10/2026 == 2017/2026/QĐ-BTC) -> bỏ qua
       {
         soHieu: '2017/QĐ-BTC',
         moTa: 'Quyết định về thủ tục hải quan điện tử',
@@ -203,7 +203,6 @@ export async function chayTestNapStubRadar() {
         url: 'https://vanban.chinhphu.vn/?pageid=27160&docid=999001',
         tram: 'vanban_chinhphu',
       },
-      // (d) Nguồn bậc B (thuvienphapluat.vn) -> bỏ qua
       {
         soHieu: '101/2026/TT-BTC',
         moTa: 'Thông tư biểu thuế nhập khẩu',
@@ -211,7 +210,6 @@ export async function chayTestNapStubRadar() {
         url: 'https://thuvienphapluat.vn/van-ban/Thue/101-2026-TT-BTC.aspx',
         tram: 'khac',
       },
-      // (e) Thiếu số hiệu -> bỏ qua
       {
         soHieu: null,
         moTa: 'Thông báo tiếp nhận hồ sơ rà soát chống bán phá giá',
@@ -219,7 +217,6 @@ export async function chayTestNapStubRadar() {
         url: 'https://pvtm.gov.vn/default.aspx?page=news-detail&do=detail&id=no-code',
         tram: 'pvtm',
       },
-      // (f) Cơ quan ngoài sổ (BTP) -> bỏ qua
       {
         soHieu: '2531/QĐ-BTP',
         moTa: 'Quyết định dữ liệu mở',
@@ -277,6 +274,7 @@ export async function chayTestNapStubRadar() {
       kqNap.thong_ke.da_tao === 2 &&
         kqNap.thong_ke.co_pdf_bac_a === 2 &&
         kqNap.thong_ke.bo_qua === 4 &&
+        kqNap.da_tao.every((x) => x.nguon_ung_vien === 'radar') &&
         stub99 !== null &&
         stub99.tinh_trang === 'CHUA_XAC_MINH' &&
         stub99.ngay_ban_hanh === '2026-11-25' &&
@@ -342,8 +340,155 @@ export async function chayTestNapStubRadar() {
       JSON.stringify(kqRollback)
     );
 
-    // 8. CLI --tu-radar --khong-lay-pdf-url --markdown --json --root + dinhDangMarkdownNapStub
+    // 8. Vòng lặp nhu cầu: trichUngVienTuIssuesNhuCau + timNguonBacAChoNhuCau + chayNapStubRadar (--tu-nhu-cau-json)
+    const sampleNhuCauIssues = [
+      // (a) Thẻ chuẩn từ ozplugin PR #571 (apps/gateway/src/bo-sung-so.ts): chỉ có số hiệu, chưa có URL nguồn
+      {
+        number: 512,
+        title: '[BỔ SUNG SỔ] 88/2026/TT-BTC',
+        body: 'Số hiệu 88/2026/TT-BTC trả found:false từ công cụ tra_hieu_luc_van_ban (registry legal_status của oz-wiki-plhq) lúc 2026-11-26T01:20:00.000Z. Yêu cầu: bổ sung hiệu lực văn bản này vào sổ. Thẻ do máy chủ Cổng tự tạo (OZV-1587) — không chứa mô tả hàng của khách.',
+        url: 'https://github.com/ozvietnam/oz-wiki-plhq/issues/512',
+      },
+      // (b) Thẻ trùng cùng số hiệu 88/2026/TT-BTC (kiểm tra gộp issueNumbers [512, 515])
+      {
+        number: 515,
+        title: '[miss] 88/2026/TT-BTC — khách tra 2 lần, sổ chưa có',
+        body: 'Khách tra hiệu lực **88/2026/TT-BTC** qua `/api/dataset?resource=legal_status`.',
+        url: 'https://github.com/ozvietnam/oz-wiki-plhq/issues/515',
+      },
+      // (c) Thẻ nhu cầu có đính sẵn link nguồn bậc A + PDF trong body
+      {
+        number: 520,
+        title: '[BỔ SUNG SỔ] 64/2026/TT-BCT — Quy định hạn ngạch thuế quan nhập khẩu muối',
+        body: 'Đề nghị bổ sung Thông tư 64/2026/TT-BCT ban hành ngày 18/11/2026.\nNguồn Công báo: https://congbao.chinhphu.vn/van-ban/thong-tu-so-64-2026-tt-bct-470640.htm\nBản ký số: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/11/64-bct.signed.pdf',
+        url: 'https://github.com/ozvietnam/oz-wiki-plhq/issues/520',
+      },
+      // (d) Thẻ kiểu issue #426 chứa danh sách URL thử nghiệm lỗi 404 / 0 kết quả dưới "## Các nguồn đã thử" -> KHÔNG lấy nhầm URL 404!
+      {
+        number: 426,
+        title: '[miss] 23999/2026/CHQ-NVTHQ — sổ chưa có (chờ nguồn chính thống bậc A)',
+        body: '## Nhu cầu\nVăn bản **23999/2026/CHQ-NVTHQ** ban hành ngày `03/11/2026` chưa có URL nguồn bậc A.\n\n## Các nguồn đã thử (ngày 2026-11-12)\n1. `https://vanban.chinhphu.vn/he-thong-van-ban?tukhoa=23999` — 0 kết quả.\n2. `https://files.customs.gov.vn/CustomsCMS/TONG_CUC/2026/11/3/23999.pdf` — HTTP 404.',
+        url: 'https://github.com/ozvietnam/oz-wiki-plhq/issues/426',
+      },
+      // (e) Số hiệu cắt cụt mơ hồ (69/2018/N) & issue đã CLOSED -> loại ngay khi trích ứng viên
+      {
+        number: 420,
+        title: '[miss] 69/2018/N — khách tra 1 lần, sổ chưa có',
+        body: 'Khách tra **69/2018/N**.',
+        url: 'https://github.com/ozvietnam/oz-wiki-plhq/issues/420',
+      },
+      {
+        number: 401,
+        state: 'CLOSED',
+        title: '[BỔ SUNG SỔ] 12/2026/TT-BTC',
+        body: 'Đã đóng.',
+        url: 'https://github.com/ozvietnam/oz-wiki-plhq/issues/401',
+      },
+    ];
+
+    const trichNc = trichUngVienTuIssuesNhuCau(sampleNhuCauIssues, { nguon: soThat.nguon });
+    const uv88 = trichNc.find((x) => x.soHieu === '88/2026/TT-BTC');
+    const uv64 = trichNc.find((x) => x.soHieu === '64/2026/TT-BCT');
+    const uv23999 = trichNc.find((x) => x.soHieu === '23999/2026/CHQ-NVTHQ');
+
+    t(
+      'trichUngVienTuIssuesNhuCau: trích chuẩn [BỔ SUNG SỔ] & [miss], gộp thẻ trùng, lọc CLOSED/số cụt và không bốc nhầm URL 404',
+      trichNc.length === 3 &&
+        uv88 !== undefined &&
+        uv88.url === '' &&
+        JSON.stringify(uv88.issueNumbers) === JSON.stringify([512, 515]) &&
+        uv64 !== undefined &&
+        uv64.url === 'https://congbao.chinhphu.vn/van-ban/thong-tu-so-64-2026-tt-bct-470640.htm' &&
+        uv64.pdfUrl === 'https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/11/64-bct.signed.pdf' &&
+        uv64.ngay === '2026-11-18' &&
+        uv23999 !== undefined &&
+        uv23999.url === '',
+      JSON.stringify(trichNc)
+    );
+
+    const mockFetchNhuCau = async (url) => {
+      if (url.includes('vanban.chinhphu.vn/he-thong-van-ban') && url.includes('88%2F2026%2FTT-BTC')) {
+        return {
+          ok: true,
+          status: 200,
+          url,
+          text: async () => `
+            <table>
+              <tr>
+                <td><a href="/?pageid=27160&docid=220888"><span class="code">88/2026/TT-BTC</span></a></td>
+                <td><span class="issued-date">21/11/2026</span></td>
+                <td><a href="/?pageid=27160&docid=220888"><span class="substract">Quy định mức thu phí hải quan và lệ phí hàng hóa quá cảnh</span></a></td>
+              </tr>
+            </table>`,
+        };
+      }
+      if (url.includes('docid=220888')) {
+        return {
+          ok: true,
+          status: 200,
+          url,
+          text: async () => `
+            <html><body>
+              <table><tr><td>Ngày ban hành</td><td>21-11-2026</td></tr></table>
+              <div class="substract">Quy định mức thu phí hải quan và lệ phí hàng hóa quá cảnh</div>
+              <a href="https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/11/88-btc.signed.pdf">Tải PDF ký số</a>
+            </body></html>`,
+        };
+      }
+      return { ok: false, status: 404, url, text: async () => '' };
+    };
+
+    const tim88 = await timNguonBacAChoNhuCau('88/2026/TT-BTC', {
+      nguon: soThat.nguon,
+      fetchFn: mockFetchNhuCau,
+    });
+    t(
+      'timNguonBacAChoNhuCau: dò vanban.chinhphu.vn tìm đúng trang chi tiết + link PDF ký số + ngày ban hành + trích yếu',
+      tim88 !== null &&
+        tim88.url === 'https://vanban.chinhphu.vn/?pageid=27160&docid=220888' &&
+        tim88.pdfUrl === 'https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/11/88-btc.signed.pdf' &&
+        tim88.ngay === '2026-11-21' &&
+        tim88.moTa.includes('phí hải quan'),
+      JSON.stringify(tim88)
+    );
+
+    // Chạy chayNapStubRadar khi Radar có 0 mục mới nhưng có thẻ nhu-cau mở
+    const kqNhuCau = await chayNapStubRadar({
+      items: [],
+      issuesNhuCau: sampleNhuCauIssues,
+      root: tmpRepo,
+      khongLayPdfUrl: true,
+      fetchFn: mockFetchNhuCau,
+      today: '2026-11-26',
+    });
+
+    const mdNhuCau = dinhDangMarkdownNapStub(kqNhuCau);
+    const stub88Path = join(tmpRepo, 'registry', 'van-ban', '88-2026-tt-btc.yaml');
+    const stub64Path = join(tmpRepo, 'registry', 'van-ban', '64-2026-tt-bct.yaml');
+    const stub88 = existsSync(stub88Path) ? yaml.load(readFileSync(stub88Path, 'utf8')) : null;
+    const stub64 = existsSync(stub64Path) ? yaml.load(readFileSync(stub64Path, 'utf8')) : null;
+
+    t(
+      'chayNapStubRadar (0 radar + nhu-cau): tự dựng stub cho #512/#515 và #520, ghi nguon_ung_vien=nhu_cau, gắn Liên kết thẻ nhu cầu: #...',
+      kqNhuCau.thong_ke.da_tao === 2 &&
+        kqNhuCau.thong_ke.da_tao_tu_nhu_cau === 2 &&
+        kqNhuCau.thong_ke.co_pdf_bac_a === 2 &&
+        kqNhuCau.bo_qua.some(
+          (b) => b.so_hieu === '23999/2026/CHQ-NVTHQ' && b.ly_do === 'CHUA_TIM_THAY_NGUON_BAC_A'
+        ) &&
+        stub88 !== null &&
+        stub88.nguon[0].url === 'https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/11/88-btc.signed.pdf' &&
+        stub88.ten.includes('phí hải quan') &&
+        stub64 !== null &&
+        stub64.nguon[0].url === 'https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/11/64-bct.signed.pdf' &&
+        mdNhuCau.includes('Liên kết thẻ nhu cầu: #512, #515, #520') &&
+        kiemTra(napSo(tmpRepo), { root: tmpRepo }).loi.length === 0,
+      JSON.stringify({ kqNhuCau, mdNhuCau })
+    );
+
+    // 9. CLI --tu-radar + --tu-nhu-cau-json --khong-tim-nguon-nhu-cau + chỉ --tu-nhu-cau-json độc lập
     const radarJsonFile = join(workDir, 'radar.json');
+    const nhuCauJsonFile = join(workDir, 'nhu-cau.json');
     const mdOutFile = join(workDir, 'nap-radar.md');
     writeFileSync(
       radarJsonFile,
@@ -360,6 +505,24 @@ export async function chayTestNapStubRadar() {
       }),
       'utf8'
     );
+    writeFileSync(
+      nhuCauJsonFile,
+      JSON.stringify([
+        {
+          number: 601,
+          title: '[BỔ SUNG SỔ] 430/2026/NĐ-CP',
+          body: 'Số hiệu 430/2026/NĐ-CP trả found:false từ công cụ tra_hieu_luc_van_ban.',
+          url: 'https://github.com/ozvietnam/oz-wiki-plhq/issues/601',
+        },
+        {
+          number: 602,
+          title: '[BỔ SUNG SỔ] 92/2026/TT-BTC — Miễn thuế hàng nhập khẩu phục vụ nghiên cứu khoa học',
+          body: 'Thông tư 92/2026/TT-BTC ban hành ngày 22/11/2026: https://congbao.chinhphu.vn/van-ban/thong-tu-so-92-2026-tt-btc-470920.htm',
+          url: 'https://github.com/ozvietnam/oz-wiki-plhq/issues/602',
+        },
+      ]),
+      'utf8'
+    );
 
     const cli = spawnSync(
       process.execPath,
@@ -367,7 +530,10 @@ export async function chayTestNapStubRadar() {
         join(ROOT, 'tools/nap-stub-radar.mjs'),
         '--tu-radar',
         radarJsonFile,
+        '--tu-nhu-cau-json',
+        nhuCauJsonFile,
         '--khong-lay-pdf-url',
+        '--khong-tim-nguon-nhu-cau',
         '--markdown',
         mdOutFile,
         '--json',
@@ -385,17 +551,57 @@ export async function chayTestNapStubRadar() {
     }
     const mdText = existsSync(mdOutFile) ? readFileSync(mdOutFile, 'utf8') : dinhDangMarkdownNapStub(cliJson);
 
+    // Kiểm tra chạy CLI chỉ với --tu-nhu-cau-json (không truyền --tu-radar)
+    const nhuCauOnlyFile = join(workDir, 'nhu-cau-only.json');
+    writeFileSync(
+      nhuCauOnlyFile,
+      JSON.stringify([
+        {
+          number: 603,
+          title: '[BỔ SUNG SỔ] 95/2026/TT-BCT — Quy tắc xuất xứ hàng hóa mới',
+          body: 'Ban hành ngày 24/11/2026: https://moit.gov.vn/van-ban-phap-luat/thong-tu-95-2026-tt-bct.html',
+          url: 'https://github.com/ozvietnam/oz-wiki-plhq/issues/603',
+        },
+      ]),
+      'utf8'
+    );
+    const cliOnlyNc = spawnSync(
+      process.execPath,
+      [
+        join(ROOT, 'tools/nap-stub-radar.mjs'),
+        '--tu-nhu-cau-json',
+        nhuCauOnlyFile,
+        '--khong-lay-pdf-url',
+        '--khong-tim-nguon-nhu-cau',
+        '--json',
+        '--root',
+        tmpRepo,
+      ],
+      { encoding: 'utf8' }
+    );
+    let cliOnlyNcJson = null;
+    try {
+      cliOnlyNcJson = JSON.parse(cliOnlyNc.stdout);
+    } catch {
+      /* noop */
+    }
+
     t(
-      'CLI nap-stub-radar.mjs chạy thành công, tạo 430-2026-nd-cp.yaml (430/2026/NĐ-CP) và xuất Markdown chuẩn',
+      'CLI nap-stub-radar.mjs hỗ trợ cả --tu-radar + --tu-nhu-cau-json lẫn --tu-nhu-cau-json độc lập, xuất Markdown kèm Liên kết thẻ nhu cầu',
       cli.status === 0 &&
         cliJson !== null &&
-        cliJson.thong_ke.da_tao === 1 &&
-        cliJson.da_tao[0].so_hieu === '430/2026/NĐ-CP' &&
+        cliJson.thong_ke.da_tao === 2 &&
         existsSync(join(tmpRepo, 'registry', 'van-ban', '430-2026-nd-cp.yaml')) &&
+        existsSync(join(tmpRepo, 'registry', 'van-ban', '92-2026-tt-btc.yaml')) &&
         mdText.includes('## Nạp stub tự động từ Radar') &&
-        mdText.includes('430/2026/NĐ-CP') &&
+        mdText.includes('Liên kết thẻ nhu cầu: #601, #602') &&
+        cliOnlyNc.status === 0 &&
+        cliOnlyNcJson !== null &&
+        cliOnlyNcJson.thong_ke.da_tao === 1 &&
+        cliOnlyNcJson.da_tao[0].nguon_ung_vien === 'nhu_cau' &&
+        existsSync(join(tmpRepo, 'registry', 'van-ban', '95-2026-tt-bct.yaml')) &&
         kiemTra(napSo(tmpRepo), { root: tmpRepo }).loi.length === 0,
-      `status=${cli.status} stderr=${cli.stderr}`
+      `status=${cli.status} stderr=${cli.stderr} onlyNcStatus=${cliOnlyNc.status} onlyNcStderr=${cliOnlyNc.stderr}`
     );
   } finally {
     for (const d of tmpDirs) {
@@ -403,11 +609,16 @@ export async function chayTestNapStubRadar() {
     }
   }
 
+  // Chuỗi sang bộ kiểm thử trạm Hải quan headless để `npm test` tự động thực thi mà không đụng package.json
+  const kqHq = await chayTestTramHaiQuanHeadless();
+  pass += kqHq.pass;
+  fail += kqHq.fail;
+
   return { pass, fail };
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(resolve(process.argv[1])).href) {
   const { pass, fail } = await chayTestNapStubRadar();
-  console.log(`TONG (nap-stub-radar): ${pass} PASS, ${fail} FAIL`);
+  console.log(`TONG (nap-stub-radar + tram-hai-quan-headless): ${pass} PASS, ${fail} FAIL`);
   process.exit(fail > 0 ? 1 : 0);
 }

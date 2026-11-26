@@ -35,11 +35,14 @@ jobs:
           node-version: 24
           cache: npm
       - run: npm ci
-      - name: Lấy danh sách issue radar đã báo
+      - name: Lấy danh sách issue radar đã báo & thẻ nhu cầu đang mở
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           gh issue list --repo "$GITHUB_REPOSITORY" --label radar --state all --limit 200 --json title,body > /tmp/da-bao.json || echo '[]' > /tmp/da-bao.json
+          gh issue list --repo "$GITHUB_REPOSITORY" --label nhu-cau --state open --limit 100 --json number,title,body,url > /tmp/nhu-cau-issues.json || echo '[]' > /tmp/nhu-cau-issues.json
+          NHU_CAU_COUNT=$(node -e "const r = JSON.parse(require('fs').readFileSync('/tmp/nhu-cau-issues.json', 'utf8')); console.log(Array.isArray(r) ? r.length : 0);")
+          echo "NHU_CAU_COUNT=$NHU_CAU_COUNT" >> "$GITHUB_ENV"
       - name: Quét radar văn bản mới
         run: |
           node tools/radar-luat-moi.mjs --khong-chan-mang --bo-qua-json data/radar-bo-qua.json --da-bao-json /tmp/da-bao.json --json --markdown /tmp/radar.md > /tmp/radar.json
@@ -54,12 +57,12 @@ jobs:
           TITLE="[radar] VB mới $(date -u +%F): ${RADAR_MOI_COUNT} văn bản thuộc phạm vi"
           gh issue create --repo "$GITHUB_REPOSITORY" --title "$TITLE" --label "radar,luong:do-tham" --body-file /tmp/radar.md
       - name: Dựng stub YAML tự động & mở PR nạp trước 07:00
-        if: ${{ github.event.inputs.dry_run != 'true' && env.RADAR_MOI_COUNT != '0' }}
+        if: ${{ github.event.inputs.dry_run != 'true' && (env.RADAR_MOI_COUNT != '0' || env.NHU_CAU_COUNT != '0') }}
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -euo pipefail
-          node tools/nap-stub-radar.mjs --tu-radar /tmp/radar.json --json --markdown /tmp/nap-radar.md > /tmp/nap-radar.json
+          node tools/nap-stub-radar.mjs --tu-radar /tmp/radar.json --tu-nhu-cau-json /tmp/nhu-cau-issues.json --json --markdown /tmp/nap-radar.md > /tmp/nap-radar.json
           cat /tmp/nap-radar.md >> "$GITHUB_STEP_SUMMARY"
           if [ -z "$(git status --porcelain registry/van-ban)" ]; then
             echo "Không có thay đổi stub mới trong registry/van-ban."
