@@ -745,7 +745,7 @@
         "trich_boi": "cursor-agent@ozvietnam",
         "ngay": "2026-10-12",
         "da_doi_chieu": false,
-        "ghi_chu": "Bảng CSV sẵn có trên main (3692 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này."
+        "ghi_chu": "Bảng CSV sẵn có trên main (3692 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. Đối chiếu canh_bao_ma (2026-11-26) với PDF Công báo (raw/download/congbaocdn.chinhphu.vn/01-2024-tt-bnnptnt-p2.pdf, -p4.pdf, -p5.pdf): cả 3 mã AHTN cũ đều in nguyên văn trong PDF gốc (Case B, giữ nguyên văn CSV) — 0303.49.00 (Mục 5, -p2.pdf trang PDF 18 & -p5.pdf trang PDF 89), 4412.99.90 & 4414.00.00 (Mục 21, -p4.pdf trang PDF 81 / Công báo tr.82). da_doi_chieu=false — mới đối chiếu nhóm mã canh_bao_ma, chưa soát lại toàn bộ các dòng còn lại."
       },
       "xac_minh": {
         "muc": "NGUON_A",
@@ -6682,7 +6682,7 @@
         "trich_boi": "cursor-agent@ozvietnam",
         "ngay": "2026-11-24",
         "da_doi_chieu": true,
-        "ghi_chu": "Đã đối chiếu người thứ hai (2026-11-24) dòng-by-dòng với PDF Công báo số 663+664: chuẩn hóa 427 dòng lá trên 5 Phụ lục I–V (loại bỏ 38 dòng tiêu đề nhóm cha khi đã chi tiết mã con 6/8 số theo nguyên tắc áp dụng, bổ sung mã 4813.20.22 tại Phụ lục IV, tách rõ dieu_kien Mục I–II đã hết hiệu lực từ 05-09-2026 với Mục III thiết bị y tế 9018–9022 còn chuyển tiếp đến 31-12-2026 tại Phụ lục I và phạm vi tạm ngừng TNTX hàng đã qua sử dụng tại Phụ lục II)."
+        "ghi_chu": "Đã đối chiếu người thứ hai (2026-11-24) dòng-by-dòng với PDF Công báo số 663+664: chuẩn hóa 427 dòng lá trên 5 Phụ lục I–V (loại bỏ 38 dòng tiêu đề nhóm cha khi đã chi tiết mã con 6/8 số theo nguyên tắc áp dụng, bổ sung mã 4813.20.22 tại Phụ lục IV, tách rõ dieu_kien Mục I–II đã hết hiệu lực từ 05-09-2026 với Mục III thiết bị y tế 9018–9022 còn chuyển tiếp đến 31-12-2026 tại Phụ lục I và phạm vi tạm ngừng TNTX hàng đã qua sử dụng tại Phụ lục II). Đối chiếu lại canh_bao_ma (2026-11-26) với PDF Công báo số 663+664 (raw/download/congbaocdn.chinhphu.vn/08-2023-tt-bct.pdf): cả 3 mã đều in nguyên văn trong PDF gốc (Case B, giữ nguyên văn CSV) — 4019.99.99 (Phụ lục I, trang PDF 4 / Công báo tr.20, lỗi in của Bộ từ 4016.99.99), 8539.22.92 (Phụ lục I, trang PDF 13 / Công báo tr.29, mã AHTN 2017), 4015.19.00 (Phụ lục II, trang PDF 18 / Công báo tr.34, cột 4015|19|00, mã AHTN 2017)."
       },
       "xac_minh": {
         "muc": "NGUON_A",
@@ -7650,7 +7650,7 @@
         "trich_boi": "cursor-agent@ozvietnam",
         "ngay": "2026-10-12",
         "da_doi_chieu": false,
-        "ghi_chu": "Bảng CSV sẵn có trên main (3334 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này."
+        "ghi_chu": "Bảng CSV sẵn có trên main (3334 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. Đối chiếu canh_bao_ma (2026-11-26) với toàn văn vbpl.vn (raw/download/vbpl.vn/09-2024-tt-byt-toanvan.txt): tất cả 28 mã (41 dòng) ngoài biểu thuế đều là lỗi in/mã AHTN cũ có thật trong văn bản gốc của BYT (Case B, giữ nguyên văn CSV, không phải lỗi trích): 21 mã lỗi gõ/in của BYT — 29230090 (DM1 L538), 33043900/33042091/33042099/33049099/39042099 (DM5 L3438–3858, lỗi in của 3004.*), 28389000/35101090/29352100/29352300/29352800/29352900 (DM7 L8262–12258, vitamin 2935.* in nhầm từ 2936.*), 30349099/30344951/30344959/30349089/30343290/33045099/30942091/30942099/30949055 (DM8 L12780–15808, lỗi in của 3004.*); 7 mã AHTN cũ giữ nguyên trong phụ lục — 29224990/29239990/29329990/29339090/29339900 (DM7 L7718–11858), 30019099/30022090 (DM8 L13016, L15464). da_doi_chieu=false — mới đối chiếu nhóm mã canh_bao_ma, chưa soát lại toàn bộ các dòng còn lại."
       },
       "xac_minh": {
         "muc": "NGUON_A",
@@ -35072,7 +35072,7 @@
         "trich_boi": "cursor-agent@ozvietnam",
         "ngay": "2026-10-12",
         "da_doi_chieu": false,
-        "ghi_chu": "Bảng CSV sẵn có trên main (447 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này."
+        "ghi_chu": "Bảng CSV sẵn có trên main (447 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. Đối chiếu canh_bao_ma (2026-11-26) với PDF Công báo số 629+630 (raw/download/congbaocdn.chinhphu.vn/15-2024-tt-byt.pdf): cả 2 mã đều in nguyên văn trong PDF gốc (Case B, giữ nguyên văn CSV) — 2823.26.00 (STT 269, INS 542 Bone phosphat, trang PDF 42 / Công báo tr.75, lỗi in của Bộ từ 2835.26.00) và 3907.20.90 (STT 378, INS 1521 Polyethylen glycol, trang PDF 54 / Công báo tr.87, mã AHTN 2017). da_doi_chieu=false — mới đối chiếu nhóm mã canh_bao_ma, chưa soát lại toàn bộ các dòng còn lại."
       },
       "xac_minh": {
         "muc": "NGUON_A",
@@ -39022,7 +39022,7 @@
         "trich_boi": "cursor-agent@ozvietnam",
         "ngay": "2026-10-12",
         "da_doi_chieu": false,
-        "ghi_chu": "Bảng CSV sẵn có trên main (56 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này."
+        "ghi_chu": "Bảng CSV sẵn có trên main (56 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. Đối chiếu canh_bao_ma (2026-11-26) với PDF ký số bậc A (raw/download/datafiles.chinhphu.vn/16-2026-tt-bnv.pdf): mã 8418.86.10 tại Mục II.3 (Hệ thống lạnh, trang PDF 9) được in nguyên văn trong PDF gốc (Case B, giữ nguyên văn CSV — lỗi đánh máy của Bộ trong bản gốc). da_doi_chieu=false — mới đối chiếu nhóm mã canh_bao_ma, chưa soát lại toàn bộ các dòng còn lại."
       },
       "xac_minh": {
         "muc": "NGUON_A",
@@ -92335,7 +92335,7 @@
         "trich_boi": "cursor-agent@ozvietnam",
         "ngay": "2026-10-12",
         "da_doi_chieu": false,
-        "ghi_chu": "Bảng CSV sẵn có trên main (957 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này."
+        "ghi_chu": "Bảng CSV sẵn có trên main (957 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. Đối chiếu canh_bao_ma (2026-11-26) với PDF Công báo số 406 (raw/download/congbaocdn.chinhphu.vn/33-2026-tt-bct.pdf): tất cả 8 mã (9 dòng) đều in nguyên văn trong PDF gốc (Case B, giữ nguyên văn CSV): 3209.10.00 (mục 2.5, trang PDF 7, bên cạnh 3209.10.40/.90), 8504.34.16 (mục 5.3, trang PDF 57), 8501.31.40/8501.32.12/8501.32.92/8501.33.00/8501.53.00 (mục 5.4, trang PDF 58), 8535.29.00 (mục 5.5 trang PDF 58 & mục 5.6 trang PDF 59). da_doi_chieu=false — mới đối chiếu nhóm mã canh_bao_ma, chưa soát lại toàn bộ các dòng còn lại."
       },
       "xac_minh": {
         "muc": "NGUON_A",
@@ -99262,7 +99262,7 @@
         "trich_boi": "cursor-agent@ozvietnam",
         "ngay": "2026-10-12",
         "da_doi_chieu": false,
-        "ghi_chu": "Bảng CSV sẵn có trên main (396 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. da_doi_chieu=false — chưa soát dòng-by-dòng trong lượt này."
+        "ghi_chu": "Bảng CSV sẵn có trên main (396 dòng); gắn danh_muc_hs để đóng DANH_MUC_CHUA_TRICH. Đối chiếu canh_bao_ma (2026-11-26) với PDF ký số bậc A (raw/download/datafiles.chinhphu.vn/36-2026-tt-bkhcn.pdf): mã 8507.60.10 tại Phụ lục II mục 6 (Pin Lithium cho thiết bị cầm tay, trang PDF 111 / tr.72 văn bản, bên cạnh 8507.60.31 và 8507.60.90) được in nguyên văn trong PDF gốc (Case B, giữ nguyên văn CSV — mã AHTN 2017 còn giữ lại trong Thông tư). da_doi_chieu=false — mới đối chiếu nhóm mã canh_bao_ma, chưa soát lại toàn bộ các dòng còn lại."
       },
       "xac_minh": {
         "muc": "NGUON_A",
@@ -110273,7 +110273,7 @@
         "trich_boi": "cursor-agent@ozvietnam",
         "ngay": "2026-10-12",
         "da_doi_chieu": false,
-        "ghi_chu": "Sửa #1143-muc1 (07-11-2026): đối chiếu PDF Phụ lục III trang 22 phát hiện trích lệch cột nhóm 6-9 — đã sửa về nguyên văn: nhóm 6 Gạch gốm ốp lát = 12 mã 6907.21.91-6907.23.94 (trước ghi nhầm 6810.99.00); nhóm 7 = 6810.99.00; nhóm 8 Tấm tường = 6810.91.90 (trước nhầm 3 mã nhóm 10); nhóm 9 Tấm sóng amiăng xi măng = 6811.40.10 (trước nhầm 6811.82.20). 85 → 94 dòng. da_doi_chieu=false — nhóm khác chưa soát lại trong lượt này."
+        "ghi_chu": "Sửa #1143-muc1 (07-11-2026): đối chiếu PDF Phụ lục III trang 22 phát hiện trích lệch cột nhóm 6-9 — đã sửa về nguyên văn: nhóm 6 Gạch gốm ốp lát = 12 mã 6907.21.91-6907.23.94 (trước ghi nhầm 6810.99.00); nhóm 7 = 6810.99.00; nhóm 8 Tấm tường = 6810.91.90 (trước nhầm 3 mã nhóm 10); nhóm 9 Tấm sóng amiăng xi măng = 6811.40.10 (trước nhầm 6811.82.20). 85 → 94 dòng. Đối chiếu canh_bao_ma (2026-11-26) với PDF bậc A (raw/download/datafiles.chinhphu.vn/41-2026-tt-bxd.pdf): mã 6802.92.90 tại Phụ lục III mục 5 (Đá ốp lát, trang PDF 22) được in nguyên văn trong PDF gốc (Case B, giữ nguyên văn CSV — mã AHTN 2017). da_doi_chieu=false — nhóm khác chưa soát lại toàn bộ."
       },
       "xac_minh": {
         "muc": "NGUON_A",
