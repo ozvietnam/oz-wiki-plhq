@@ -1012,6 +1012,39 @@ function docMau(overrides) {
         + live8517.nhom_theo_trang_thai.het_hieu_luc_hoac_sap_co_hieu_luc.length) === live8517.ket_qua.length,
     JSON.stringify({ dk2504: live2504.dieu_khoan_lien_quan, cas2804: live2804.can_kiem_cas, cas8517: live8517.can_kiem_cas }),
   );
+
+  // --- Test 12: Wave 36A OOS biên lao động nội địa ("trợ cấp thôi việc" != "chống trợ cấp") & suy thay thế từ ghi_chu khi thiếu quan_he_nguoc ---
+  const oosLabor = hoiPhapLuat(
+    liveStore,
+    'Quy định chấm dứt hợp đồng lao động và tính trợ cấp thất nghiệp theo Bộ luật Lao động?',
+    { limit: 5 },
+  );
+  const inScopeCvd = hoiPhapLuat(
+    liveStore,
+    'Điều kiện áp dụng biện pháp chống trợ cấp đối với hàng hóa nhập khẩu vào Việt Nam?',
+    { limit: 5 },
+  );
+  t(
+    '(12a) OOS: tranh chấp/trợ cấp lao động nội địa không khớp nhầm neo "chống trợ cấp", nhưng câu hỏi chống trợ cấp XNK vẫn trong phạm vi',
+    oosLabor.ngoai_pham_vi === true
+      && oosLabor.do_tin_cay_tra_loi === 'KHONG_TIM_THAY'
+      && inScopeCvd.ngoai_pham_vi === false
+      && inScopeCvd.do_tin_cay_tra_loi !== 'KHONG_TIM_THAY',
+    JSON.stringify({ oosLabor: oosLabor.do_tin_cay_tra_loi, inScopeCvd: inScopeCvd.do_tin_cay_tra_loi }),
+  );
+
+  const rep29 = hoiPhapLuat(
+    liveStore,
+    'Thông tư 29/2014/TT-BTC về xác định trị giá hải quan còn áp dụng không hay đã chuyển sang văn bản nào?',
+    { limit: 5 },
+  );
+  t(
+    '(12b) Bẫy văn bản cũ: VB HET_HIEU_LUC ghi thay thế trong ghi_chu (29/2014/TT-BTC -> 39/2015/TT-BTC) tự động đẩy VB mới lên #1 & tắt báo thiếu sổ giả',
+    rep29.van_ban_lien_quan[0]?.so_hieu === '39/2015/TT-BTC'
+      && rep29.van_ban_lien_quan[0]?.tinh_trang === 'CON_HIEU_LUC'
+      && rep29.goi_y_du_phong?.can_mo_the_bo_sung_so !== true,
+    JSON.stringify({ top2: rep29.van_ban_lien_quan.slice(0, 2).map((v) => [v.so_hieu, v.tinh_trang]), goiY: rep29.goi_y_du_phong }),
+  );
 }
 
 console.log(`\nKết quả test-tra-cuu-plhq: ${pass} passed, ${fail} failed`);

@@ -31,7 +31,7 @@ tags: [fta, xuat-xu, co-quan-dau-moi, thu-tuc]
 | Hiệp định | QĐ hiện hành | QĐ cũ (đã thay) |
 |---|---|---|
 | **EVFTA** (VN-EU) | [[sources/126-qd-ttg-2026]] (2026) | [[sources/1175-qd-ttg-2020]] (2020) |
-| **CPTPP** | [[sources/127-qd-ttg-2026]] (2026) | 734/QĐ-TTg (2019) |
+| **CPTPP** | [[sources/127-qd-ttg-2026]] (2026) | 734/QĐ-TTg (2019, đã hết hiệu lực) |
 | **RCEP** | [[sources/328-qd-ttg-2022]] (2022) | chưa có bản mới |
 
 ### Phân theo Chương/Lĩnh vực (BCT chủ trì hầu hết)

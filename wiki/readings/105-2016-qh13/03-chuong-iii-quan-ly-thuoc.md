@@ -26,7 +26,7 @@ Nhà nước thống nhất quản lý về thuốc trên phạm vi cả nước
 ## Điều 32-37 - Thuốc phải có GĐKLH (sửa bởi 44/2024)
 
 - Thuốc sản xuất trong nước, nhập khẩu phải có GĐKLH trừ trường hợp Điều 60 (NK chưa GĐKLH)
-- Hồ sơ GĐKLH: theo TT 14/2024/TT-BYT + 12/2025/TT-BYT
+- Hồ sơ GĐKLH: theo TT 14/2024/TT-BYT và 32/2026/TT-BYT (thay thế 12/2025/TT-BYT đã hết hiệu lực từ 01/10/2026)
 - Thời hạn: 5 năm, được gia hạn
 - **Sửa 44/2024**: tự động gia hạn trong một số trường hợp
 

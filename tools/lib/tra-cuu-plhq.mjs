@@ -783,6 +783,44 @@ function dinhDangCanhNguoc(raw, store) {
   };
 }
 
+function suyQuanHeNguocTuGhiChu(doc, store) {
+  const empty = { bi_thay_the_boi: [], bi_bai_bo_boi: [] };
+  if (!doc || doc.tinh_trang !== 'HET_HIEU_LUC') return empty;
+  const ng = doc.quan_he_nguoc || {};
+  if ((ng.bi_thay_the_boi || []).length > 0 || (ng.bi_bai_bo_boi || []).length > 0) return empty;
+  const text = String(doc.ghi_chu || '').normalize('NFC').trim();
+  if (!text) return empty;
+
+  const selfK = khoa(doc.so_hieu);
+  const biThay = [];
+  const biBai = [];
+  const acceptTarget = (rawSo, bucket) => {
+    const rk = khoa(rawSo);
+    if (!rk || rk === selfK) return;
+    const rDoc = chonBanGhi(store?.byKhoa?.get(rk), rk);
+    if (!rDoc) return;
+    if (doc.ngay_ban_hanh && rDoc.ngay_ban_hanh && String(rDoc.ngay_ban_hanh) < String(doc.ngay_ban_hanh)) {
+      return;
+    }
+    if (!bucket.includes(rDoc.so_hieu)) bucket.push(rDoc.so_hieu);
+  };
+
+  for (const clause of text.split(/[;.]\s+/)) {
+    const mBai = clause.match(/(?:bị\s+bãi\s+bỏ\s+bởi|bãi\s+bỏ\s+bởi)\s+(.+)$/iu);
+    if (mBai) {
+      const re = new RegExp(RE_SO_HIEU_WIKI.source, 'gi');
+      for (const m of mBai[1].matchAll(re)) acceptTarget(m[0], biBai);
+      continue;
+    }
+    const mThay = clause.match(/(?:bị\s+thay\s+thế\s+bởi|thay\s+thế\s+bởi|hết\s+hiệu\s+lực[^.;]*?\b(?:khi|theo)\b)\s+(.+)$/iu);
+    if (mThay) {
+      const re = new RegExp(RE_SO_HIEU_WIKI.source, 'gi');
+      for (const m of mThay[1].matchAll(re)) acceptTarget(m[0], biThay);
+    }
+  }
+  return { bi_thay_the_boi: biThay, bi_bai_bo_boi: biBai };
+}
+
 function truyVetChuoiThayThe(doc, store, maxDepth = 10) {
   const chuoiTien = []; // hướng tới văn bản mới thay thế/bãi bỏ
   const daThamTien = new Set([khoa(doc.so_hieu)]);
@@ -791,8 +829,13 @@ function truyVetChuoiThayThe(doc, store, maxDepth = 10) {
     const { node, buoc } = hangDoi.shift();
     if (buoc >= maxDepth) continue;
     const ng = node.quan_he_nguoc || {};
+    const fb = suyQuanHeNguocTuGhiChu(node, store);
+    const canhTien = {
+      bi_thay_the_boi: (ng.bi_thay_the_boi || []).length ? ng.bi_thay_the_boi : fb.bi_thay_the_boi.map((tu) => ({ tu })),
+      bi_bai_bo_boi: (ng.bi_bai_bo_boi || []).length ? ng.bi_bai_bo_boi : fb.bi_bai_bo_boi.map((tu) => ({ tu })),
+    };
     for (const qh of ['bi_thay_the_boi', 'bi_bai_bo_boi']) {
-      for (const e of ng[qh] || []) {
+      for (const e of canhTien[qh] || []) {
         const k = khoa(e.tu);
         if (!k) continue;
         const nextDoc = chonBanGhi(store.byKhoa.get(k), k);
@@ -1436,7 +1479,7 @@ function daDangHoaTheoDoPhuIdf(candidates, bm25Index, qSpec, getDocIdx, getGroup
 function lamMoiVanBanLienQuan(refs, store, opts = {}) {
   const { pinnedSet = new Set(), relevanceMap = null, includeReplacements = true, taiNgay = null } = opts;
   const out = [];
-  const seen = new Set();
+  const seen = new Map();
 
   const layTrangThaiVb = (d, fallback = null) => (
     taiNgay && d
@@ -1452,8 +1495,13 @@ function lamMoiVanBanLienQuan(refs, store, opts = {}) {
       const { doc: cur, depth } = queue.shift();
       if (depth >= maxDepth) continue;
       const ng = cur.quan_he_nguoc || {};
+      const fb = suyQuanHeNguocTuGhiChu(cur, store);
+      const canhNguoc = {
+        bi_thay_the_boi: (ng.bi_thay_the_boi || []).length ? ng.bi_thay_the_boi : fb.bi_thay_the_boi.map((tu) => ({ tu })),
+        bi_bai_bo_boi: (ng.bi_bai_bo_boi || []).length ? ng.bi_bai_bo_boi : fb.bi_bai_bo_boi.map((tu) => ({ tu })),
+      };
       for (const qh of ['bi_thay_the_boi', 'bi_bai_bo_boi']) {
-        for (const e of ng[qh] || []) {
+        for (const e of canhNguoc[qh] || []) {
           const rk = khoa(e?.tu);
           if (!rk || visited.has(rk)) continue;
           visited.add(rk);
@@ -1472,17 +1520,31 @@ function lamMoiVanBanLienQuan(refs, store, opts = {}) {
   };
 
   const pushDoc = (k, rawRef = {}, meta = {}) => {
-    if (!k || seen.has(k)) return;
-    seen.add(k);
+    if (!k) return;
+    if (seen.has(k)) {
+      const existing = seen.get(k);
+      if (meta.priorityOverride != null && meta.priorityOverride > existing._priority) {
+        existing._priority = meta.priorityOverride;
+      }
+      if (meta.bonus && !existing._bonusApplied) {
+        existing._rel += meta.bonus;
+        existing._bonusApplied = true;
+      }
+      if (meta.thayTheCho && !existing.thay_the_cho) {
+        existing.thay_the_cho = meta.thayTheCho;
+      }
+      return;
+    }
     const doc = chonBanGhi(store.byKhoa.get(k), k);
     const ng = doc?.quan_he_nguoc || {};
+    const fb = doc ? suyQuanHeNguocTuGhiChu(doc, store) : { bi_thay_the_boi: [], bi_bai_bo_boi: [] };
     const biThayTheBoi =
       doc
-        ? [...new Set((ng.bi_thay_the_boi || []).map((e) => e.tu))]
+        ? [...new Set([...(ng.bi_thay_the_boi || []).map((e) => e.tu), ...fb.bi_thay_the_boi])]
         : (rawRef.bi_thay_the_boi || []);
     const biBaiBoBoi =
       doc
-        ? [...new Set((ng.bi_bai_bo_boi || []).map((e) => e.tu))]
+        ? [...new Set([...(ng.bi_bai_bo_boi || []).map((e) => e.tu), ...fb.bi_bai_bo_boi])]
         : (rawRef.bi_bai_bo_boi || []);
     const nguonBacA = doc ? locNguonBacA(doc, store.nguonUyTin) : rawRef.nguon_a ? [rawRef.nguon_a] : [];
     const ttInfo = taiNgay && doc ? tinhTinhTrangTaiNgay(doc, taiNgay, store) : null;
@@ -1517,7 +1579,7 @@ function lamMoiVanBanLienQuan(refs, store, opts = {}) {
       prio = 1;
     }
 
-    out.push({
+    const entry = {
       so_hieu: doc?.so_hieu || rawRef.so_hieu,
       ten: doc?.ten || null,
       loai: doc?.loai || null,
@@ -1540,6 +1602,7 @@ function lamMoiVanBanLienQuan(refs, store, opts = {}) {
       ...(chuaToanVan ? { chua_co_toan_van_trong_kho: true } : {}),
       _priority: prio,
       _rel: (relevanceMap?.get(k) || 0) + (meta.bonus || 0),
+      _bonusApplied: Boolean(meta.bonus),
       _ngay: doc?.ngay_ban_hanh || '',
       canh_bao:
         tinhTrang === 'HET_HIEU_LUC'
@@ -1553,11 +1616,13 @@ function lamMoiVanBanLienQuan(refs, store, opts = {}) {
           : !daDoiChieu
             ? `Văn bản ${doc?.so_hieu || rawRef.so_hieu} chưa đối chiếu hiệu lực nguồn bậc A.`
             : null,
-    });
+    };
+    seen.set(k, entry);
+    out.push(entry);
 
     for (const repDoc of replacements) {
       const repK = khoa(repDoc.so_hieu);
-      if (!repK || seen.has(repK)) continue;
+      if (!repK) continue;
       const repTt = layTrangThaiVb(repDoc);
       const isRepActive = repTt === 'CON_HIEU_LUC' || repTt === 'HET_HIEU_LUC_MOT_PHAN';
       const repPrio = khopTrucTiep ? (isRepActive ? 4 : 3) : (isRepActive ? 3 : 2);
@@ -1581,7 +1646,7 @@ function lamMoiVanBanLienQuan(refs, store, opts = {}) {
       b._ngay.localeCompare(a._ngay) ||
       String(a.so_hieu || '').localeCompare(String(b.so_hieu || '')),
   );
-  return out.map(({ _priority, _rel, _ngay, ...rest }) => rest);
+  return out.map(({ _priority, _rel, _bonusApplied, _ngay, ...rest }) => rest);
 }
 
 function khopNhanh(nhanhFilter, refs, tags, store) {
@@ -2721,9 +2786,9 @@ export function hoiPhapLuat(store, cauHoi, { nhanh, limit = 8, tai_ngay } = {}) 
     || /\b\d{4}(?:\.\d{2}){1,2}\b/.test(qInfo.norm);
 
   const coNeoMienXnk =
-    /\b(?:hai\s+quan|xuat\s+khau|nhap\s+khau|xnk|thong\s+quan|to\s+khai|ma\s+hs|hs\s+code|xuat\s+xu|c\/o|tri\s+gia|chong\s+ban\s+pha\s+gia|tu\s+ve|tro\s+cap|dncx|kcx|che\s+xuat|gia\s+cong|sxxk|tntx|tam\s+nhap|tai\s+xuat|qua\s+canh|ngoai\s+quan|cua\s+khau|cang\s+bien|van\s+don|ktcn|kiem\s+tra\s+chuyen\s+nganh|kiem\s+dich|hop\s+quy|nhan\s+phu|hoa\s+chat|tien\s+chat|cas|buon\s+lau|bien\s+gioi|ngoai\s+thuong|bieu\s+thue|ptpl|xac\s+dinh\s+truoc|sau\s+thong\s+quan|ktstq)\b/.test(qInfo.norm);
+    /\b(?:hai\s+quan|xuat\s+khau|nhap\s+khau|xnk|thong\s+quan|to\s+khai|ma\s+hs|hs\s+code|xuat\s+xu|c\/o|tri\s+gia|chong\s+ban\s+pha\s+gia|tu\s+ve|chong\s+tro\s+cap|thue\s+tro\s+cap|dncx|kcx|che\s+xuat|gia\s+cong|sxxk|tntx|tam\s+nhap|tai\s+xuat|qua\s+canh|ngoai\s+quan|cua\s+khau|cang\s+bien|van\s+don|ktcn|kiem\s+tra\s+chuyen\s+nganh|kiem\s+dich|hop\s+quy|nhan\s+phu|hoa\s+chat|tien\s+chat|cas|buon\s+lau|bien\s+gioi|ngoai\s+thuong|bieu\s+thue|ptpl|xac\s+dinh\s+truoc|sau\s+thong\s+quan|ktstq)\b/.test(qInfo.norm);
   const laChuDeDanSuNoiDia =
-    /\b(?:ly\s+hon|chia\s+tai\s+san|thua\s+ke|di\s+chuc|so\s+do|quyen\s+su\s+dung\s+dat|sang\s+ten|vuot\s+den\s+do|bang\s+lai\s+xe|giay\s+phep\s+lai\s+xe|nong\s+do\s+con|thanh\s+lap\s+cong\s+ty|giam\s+tru\s+gia\s+canh|thu\s+nhap\s+ca\s+nhan|tncn|nghi\s+huu|bao\s+hiem\s+xa\s+hoi|bhxh|hop\s+dong\s+lao\s+dong|nguoi\s+lao\s+dong|bo\s+luat\s+lao\s+dong|hoc\s+phi|sinh\s+vien\s+dai\s+hoc|thue\s+can\s+ho|chung\s+cu|tam\s+giam|to\s+tung\s+hinh\s+su|cong\s+thuc\s+nau|bong\s+da|viet\s+vi)\b/.test(qInfo.norm);
+    /\b(?:ly\s+hon|chia\s+tai\s+san|thua\s+ke|di\s+chuc|so\s+do|quyen\s+su\s+dung\s+dat|sang\s+ten|vuot\s+den\s+do|bang\s+lai\s+xe|giay\s+phep\s+lai\s+xe|nong\s+do\s+con|thanh\s+lap\s+cong\s+ty|giam\s+tru\s+gia\s+canh|thu\s+nhap\s+ca\s+nhan|tncn|nghi\s+huu|bao\s+hiem\s+xa\s+hoi|bhxh|hop\s+dong\s+lao\s+dong|nguoi\s+lao\s+dong|bo\s+luat\s+lao\s+dong|tro\s+cap\s+thoi\s+viec|tro\s+cap\s+that\s+nghiep|tranh\s+chap\s+lao\s+dong|hoc\s+phi|sinh\s+vien\s+dai\s+hoc|thue\s+can\s+ho|chung\s+cu|tam\s+giam|to\s+tung\s+hinh\s+su|cong\s+thuc\s+nau|bong\s+da|viet\s+vi)\b/.test(qInfo.norm);
   const isOosScope = !hasHardAnchor && bm25.N >= 50 && laChuDeDanSuNoiDia && !coNeoMienXnk;
 
   if ((!hasHardAnchor && qInfo.expandedGroups.length === 0 && bm25.N >= 50) || isOosScope) {

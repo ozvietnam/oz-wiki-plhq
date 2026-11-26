@@ -40,7 +40,7 @@ raw_paths:
 - **Cơ quan xác thực**: Bộ Công Thương (Thứ trưởng Nguyễn Sinh Nhật Tân ký xác thực)
 - **Ngày xác thực**: 14/09/2026 (`CON_HIEU_LUC` phục vụ tra cứu hợp nhất)
 - **Chuỗi văn bản hợp nhất**:
-  1. Văn bản gốc `08/2023/TT-BCT` ngày 31/03/2023 (hiệu lực từ 16/05/2023).
+  1. Văn bản gốc `08/2023/TT-BCT` ngày 31/03/2023 (hiệu lực từ 16/05/2023, hết hiệu lực một phần từ 05/09/2026).
   2. Thông tư `43-2023-TT-BCT` ngày 28/12/2023 sửa đổi Thông tư `57-2018-TT-BCT` về kinh doanh thuốc lá (hiệu lực từ 12/02/2024).
   3. Thông tư `41-2026-TT-BCT` ngày 22/07/2026 về Danh mục phế liệu và hàng hóa đã qua sử dụng tạm ngừng TNTX, chuyển khẩu (hiệu lực từ 05/09/2026 đến hết 31/12/2029).
   4. [[sources/48-2026-tt-bct]] ngày 05/09/2026 quy định chi tiết một số điều của [[sources/05-2017-qh14]] và [[sources/292-2026-nd-cp]] (hiệu lực từ 05/09/2026).
