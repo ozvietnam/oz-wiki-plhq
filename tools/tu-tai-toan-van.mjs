@@ -23,6 +23,7 @@ import yaml from 'js-yaml';
 import { kiemTra } from './kiem-tra.mjs';
 import { kiemTraDieuKhoan } from './kiem-tra-dieu-khoan.mjs';
 import { kiemTraPdfCoLopChu } from './lib/kiem-tra-raw.mjs';
+import { quetHieuLucThiHanh } from './lib/quet-hieu-luc-thi-hanh.mjs';
 import { bacNguon, boDau, khoa, napSo, ROOT } from './lib/registry.mjs';
 import { laTbTchq, layDanhSachToanVan, uuTienNguonDoc } from './trich-dieu-khoan.mjs';
 import { chayTrichDieuKhoanDayDu } from './trich-dieu-khoan-day-du.mjs';
@@ -192,6 +193,55 @@ function trichDauPdfText(absPath, { coPdftotext = null, docPdf = null } = {}) {
       encoding: 'utf8',
       timeout: 8000,
       maxBuffer: 4 * 1024 * 1024,
+      stdio: ['ignore', 'pipe', 'ignore'],
+    });
+  } catch {
+    return '';
+  }
+}
+
+function docDieuKhoanJsonlTuDia(jsonlPath) {
+  if (!existsSync(jsonlPath)) return [];
+  const raw = readFileSync(jsonlPath, 'utf8');
+  const out = [];
+  for (const line of raw.split('\n')) {
+    const trimmed = line.trim();
+    if (!trimmed) continue;
+    try {
+      out.push(JSON.parse(trimmed));
+    } catch {
+      // Bỏ qua dòng hỏng (cổng kiem-tra-dieu-khoan đã chặn trước đó).
+    }
+  }
+  return out;
+}
+
+function docRawTextDuPhong(doc, root, { needPdfFallback = false, coPdftotext = null, docPdf = null } = {}) {
+  const tvList = layDanhSachToanVan(doc, root).filter((f) => f.exists && !f.isWiki);
+  const txtFile = tvList.find((f) => f.isOcrTxt || f.ext === '.txt');
+  if (txtFile) {
+    try {
+      return readFileSync(txtFile.abs, 'utf8');
+    } catch {
+      return '';
+    }
+  }
+  if (!needPdfFallback) return '';
+  const pdfFile = tvList.find((f) => f.ext === '.pdf');
+  if (!pdfFile) return '';
+  if (typeof docPdf === 'function') {
+    try {
+      return String(docPdf(pdfFile.abs) ?? '');
+    } catch {
+      return '';
+    }
+  }
+  if (coPdftotext === false) return '';
+  try {
+    return execFileSync('pdftotext', ['-layout', pdfFile.abs, '-'], {
+      encoding: 'utf8',
+      timeout: 15000,
+      maxBuffer: 16 * 1024 * 1024,
       stdio: ['ignore', 'pipe', 'ignore'],
     });
   } catch {
@@ -460,7 +510,8 @@ export async function chayTuTaiToanVan({
   _kiemTraPdf = null,
   _kiemTraRegistry = null,
 } = {}) {
-  const discovery = timUngVienTuTai({ root, limit, slug, coPdftotext, docPdf });
+  const soRegistry = napSo(root);
+  const discovery = timUngVienTuTai({ root, limit, slug, so: soRegistry, coPdftotext, docPdf });
   const maxBytes = maxFileMb * 1024 * 1024;
 
   const da_xu_ly = [];
@@ -756,6 +807,21 @@ export async function chayTuTaiToanVan({
           continue;
         }
 
+        const jsonlAbs = join(root, relJsonl);
+        const dieuKhoanList = docDieuKhoanJsonlTuDia(jsonlAbs);
+        const rawText = docRawTextDuPhong(currentDoc, root, {
+          needPdfFallback: dieuKhoanList.length === 0,
+          coPdftotext,
+          docPdf,
+        });
+        const tac_dong_day_chuyen = quetHieuLucThiHanh({
+          vanBan: currentDoc,
+          dieuKhoanList,
+          rawText,
+          so: soRegistry,
+          root,
+        });
+
         da_xu_ly.push({
           slug: doc._slug,
           so_hieu: currentDoc.so_hieu || null,
@@ -765,6 +831,7 @@ export async function chayTuTaiToanVan({
             : 'trich_dieu_khoan',
           toan_van: currentDoc.toan_van || null,
           so_dieu_khoan: soDieuKhoan,
+          tac_dong_day_chuyen,
         });
       } catch (err) {
         snap.restore();
@@ -850,6 +917,57 @@ export function dinhDangMarkdownTuTai(result) {
     for (const d of daXuLy) {
       const tv = Array.isArray(d.toan_van) ? d.toan_van.join(', ') : (d.toan_van || '—');
       lines.push(`- \`${d.slug}\` (**${d.so_hieu || 'không rõ số'}**) · \`${d.hanh_dong}\` · ${d.so_dieu_khoan} điều · \`${tv}\``);
+    }
+  }
+
+  const canhBaoItems = daXuLy.filter((d) => d.tac_dong_day_chuyen?.co_canh_bao === true);
+  if (canhBaoItems.length > 0) {
+    lines.push('');
+    lines.push('### Cảnh báo dây chuyền hiệu lực & phụ lục (cần rà khi duyệt PR)');
+    for (const d of canhBaoItems) {
+      const td = d.tac_dong_day_chuyen;
+      lines.push(`- **\`${d.slug}\`** (**${d.so_hieu || 'không rõ số'}** · \`${d.file}\`):`);
+      if (td.can_cap_nhat_hieu_luc_tu && td.hieu_luc_tu_goi_y) {
+        lines.push(
+          `  - [ ] **Gợi ý \`hieu_luc_tu\`**: điền/đối chiếu \`hieu_luc_tu: "${td.hieu_luc_tu_goi_y}"\` trong \`${d.file}\`.`,
+        );
+      }
+      if (Array.isArray(td.thay_the_bai_bo) && td.thay_the_bai_bo.length > 0) {
+        for (const v of td.thay_the_bai_bo) {
+          if (v.can_cat_hieu_luc) {
+            lines.push(
+              `  - [ ] **CẦN CẮT HIỆU LỰC (\`CON_HIEU_LUC\` chưa có \`het_hieu_luc_tu\`)**: **${v.so_hieu}** (\`registry/van-ban/${v.slug_dich}.yaml\`, \`${v.loai_tac_dong}\`, phạm vi \`${v.pham_vi}\`) — bổ sung \`quan_he\` chiều đi và điền \`het_hieu_luc_tu\` để \`canh-hieu-luc\` tự cắt ngày G!`,
+            );
+          } else if (v.co_trong_so) {
+            lines.push(
+              `  - [ ] Thay thế / bãi bỏ (\`${v.loai_tac_dong}\`): \`${v.so_hieu}\` (\`registry/van-ban/${v.slug_dich}.yaml\`, hiện \`${v.tinh_trang_hien_tai}\`${v.het_hieu_luc_tu_hien_tai ? `, \`het_hieu_luc_tu: ${v.het_hieu_luc_tu_hien_tai}\`` : ''}) — kiểm \`quan_he\` chiều đi.`,
+            );
+          } else {
+            lines.push(
+              `  - [ ] Thay thế / bãi bỏ (\`${v.loai_tac_dong}\`): \`${v.so_hieu}\` _(chưa có trong sổ)_ — kiểm \`quan_he\` hoặc đăng ký nếu thuộc phạm vi XNK.`,
+            );
+          }
+        }
+      }
+      const canDoThiSuaDoi = (td.sua_doi_bo_sung || []).filter((x) => x.chua_co_do_thi_sua_doi);
+      if (canDoThiSuaDoi.length > 0) {
+        const dsSuaDoi = canDoThiSuaDoi
+          .map((x) => (x.co_trong_so ? `**${x.so_hieu}** (\`${x.slug_dich}\`)` : `\`${x.so_hieu}\``))
+          .join(', ');
+        lines.push(
+          `  - [ ] **Sửa đổi, bổ sung cấp Điều**: tác động tới ${dsSuaDoi} — khai báo \`quan_he.sua_doi\` và tạo \`data/sua-doi-dieu/${d.slug}.json\` (\`node tools/trich-anh-xa-sua-doi.mjs\`).`,
+        );
+      }
+      if (Array.isArray(td.tin_hieu_phu_luc) && td.tin_hieu_phu_luc.length > 0) {
+        const moTaPhuLuc = td.tin_hieu_phu_luc
+          .map((p) => `\`${p.loai}\` → \`${p.tep_goi_y}\`${p.bang_chung?.length ? ` (${p.bang_chung.join('; ')})` : ''}`)
+          .join(', ');
+        lines.push(
+          `  - [ ] **Tín hiệu phụ lục cần trích tiếp**: ${moTaPhuLuc}; đồng thời biên soạn \`wiki/sources/${d.slug}.md\`.`,
+        );
+      } else if (td.chua_co_wiki_source !== false) {
+        lines.push(`  - [ ] **Hồ sơ nguồn wiki**: biên soạn trang \`wiki/sources/${d.slug}.md\` cho văn bản mới.`);
+      }
     }
   }
 

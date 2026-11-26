@@ -20,6 +20,7 @@ import {
   dinhDangMarkdownTuTai,
   timUngVienTuTai,
 } from '../tu-tai-toan-van.mjs';
+import { chayTestQuetHieuLucThiHanh } from './test-quet-hieu-luc-thi-hanh.mjs';
 
 let pass = 0;
 let fail = 0;
@@ -463,6 +464,136 @@ try {
     );
   }
 
+  // 3a-bis. Tích hợp quetHieuLucThiHanh vào chayTuTaiToanVan & dinhDangMarkdownTuTai (cả chế độ có Điều và 0 Điều đọc PDF)
+  {
+    const tmpCascade = makeTmp('tu-tai-cascade-');
+    mkdirSync(join(tmpCascade, 'raw/download/mof.gov.vn'), { recursive: true });
+    writeFileSync(
+      join(tmpCascade, 'raw/download/mof.gov.vn/70-2026-tt-btc.txt'),
+      [
+        'Điều 1. Sửa đổi, bổ sung một số điều của Thông tư số 38/2015/TT-BTC và ban hành Phụ lục I Danh mục hàng hóa kèm mã số HS 8517.62.21, số CAS 50-00-0 áp dụng quy tắc xuất xứ C/O Mẫu D theo Hiệp định ATIGA.',
+        '',
+        'Điều 2. Hiệu lực thi hành',
+        '1. Thông tư này có hiệu lực thi hành kể từ ngày 15 tháng 8 năm 2026.',
+        '2. Bãi bỏ Thông tư số 15/2018/TT-BTC ngày 10 tháng 3 năm 2018 của Bộ trưởng Bộ Tài chính.',
+      ].join('\n'),
+      'utf8',
+    );
+
+    writeMinimalRegistry(tmpCascade, [
+      {
+        slug: '15-2018-tt-btc',
+        data: {
+          so_hieu: '15/2018/TT-BTC',
+          loai: 'THONG_TU',
+          ten: 'Thông tư cũ đang CON_HIEU_LUC nhưng thiếu het_hieu_luc_tu',
+          co_quan: 'BTC',
+          ngay_ban_hanh: '2018-03-10',
+          tinh_trang: 'CON_HIEU_LUC',
+          nhanh: ['chua-phan-loai'],
+          toan_van: 'raw/download/mof.gov.vn/70-2026-tt-btc.txt',
+          xac_minh: { muc: 'NGUON_B' },
+        },
+      },
+      {
+        slug: '38-2015-tt-btc',
+        data: {
+          so_hieu: '38/2015/TT-BTC',
+          loai: 'THONG_TU',
+          ten: 'Thông tư thủ tục hải quan',
+          co_quan: 'BTC',
+          ngay_ban_hanh: '2015-03-25',
+          tinh_trang: 'CON_HIEU_LUC',
+          nhanh: ['chua-phan-loai'],
+          toan_van: 'raw/download/mof.gov.vn/70-2026-tt-btc.txt',
+          xac_minh: { muc: 'NGUON_B' },
+        },
+      },
+      {
+        slug: '70-2026-tt-btc',
+        data: {
+          so_hieu: '70/2026/TT-BTC',
+          loai: 'THONG_TU',
+          ten: 'Thông tư sửa đổi, bổ sung một số điều của Thông tư số 38/2015/TT-BTC',
+          co_quan: 'BTC',
+          ngay_ban_hanh: '2026-07-01',
+          tinh_trang: 'CHUA_CO_HIEU_LUC',
+          nhanh: ['chua-phan-loai'],
+          toan_van: 'raw/download/mof.gov.vn/70-2026-tt-btc.txt',
+          nguon: [{ url: 'https://congbao.chinhphu.vn/70-2026.pdf' }],
+          xac_minh: { muc: 'NGUON_A' },
+        },
+      },
+      {
+        slug: '71-qd-btc-2026',
+        data: {
+          so_hieu: '71/QĐ-BTC',
+          loai: 'CONG_VAN',
+          ten: 'Công văn hướng dẫn không có cấu trúc Điều N',
+          co_quan: 'BTC',
+          ngay_ban_hanh: '2026-07-02',
+          tinh_trang: 'CON_HIEU_LUC',
+          nhanh: ['chua-phan-loai'],
+          nguon: [{ url: 'https://datafiles.chinhphu.vn/71-qd-btc.pdf' }],
+          xac_minh: { muc: 'NGUON_A' },
+        },
+      },
+    ]);
+
+    const resCascade = await chayTuTaiToanVan({
+      root: tmpCascade,
+      limit: 10,
+      _chayNap: async ({ slug, file, root }) => {
+        if (slug !== '71-qd-btc-2026') return;
+        const dir = join(root, 'raw/download/datafiles.chinhphu.vn');
+        mkdirSync(dir, { recursive: true });
+        writeFileSync(join(dir, '71-qd-btc.pdf'), `%PDF-1.4\n${'B'.repeat(400)}`, 'utf8');
+        const abs = join(root, file);
+        const obj = yaml.load(readFileSync(abs, 'utf8'), { schema: yaml.CORE_SCHEMA });
+        obj.toan_van = 'raw/download/datafiles.chinhphu.vn/71-qd-btc.pdf';
+        writeFileSync(abs, yaml.dump(obj, { lineWidth: -1 }), 'utf8');
+      },
+      docPdf: () =>
+        'BỘ TÀI CHÍNH\nSố: 71/QĐ-BTC\nCông văn này có hiệu lực kể từ ngày ký ban hành và bãi bỏ Thông tư số 15/2018/TT-BTC. '
+        + 'x'.repeat(220),
+    });
+
+    const item70 = resCascade.da_xu_ly.find((x) => x.slug === '70-2026-tt-btc');
+    const item71 = resCascade.da_xu_ly.find((x) => x.slug === '71-qd-btc-2026');
+    const mdCascade = dinhDangMarkdownTuTai(resCascade);
+
+    t(
+      'Cascade E2E: gắn tac_dong_day_chuyen cho cả chế độ trích .dieu.jsonl và tai_toan_van (0 điều đọc PDF fallback)',
+      item70?.tac_dong_day_chuyen?.co_canh_bao === true
+        && item70?.tac_dong_day_chuyen?.hieu_luc_tu_goi_y === '2026-08-15'
+        && item70?.tac_dong_day_chuyen?.can_cap_nhat_hieu_luc_tu === true
+        && item70?.tac_dong_day_chuyen?.thay_the_bai_bo?.[0]?.so_hieu === '15/2018/TT-BTC'
+        && item70?.tac_dong_day_chuyen?.thay_the_bai_bo?.[0]?.can_cat_hieu_luc === true
+        && item70?.tac_dong_day_chuyen?.sua_doi_bo_sung?.[0]?.so_hieu === '38/2015/TT-BTC'
+        && item70?.tac_dong_day_chuyen?.sua_doi_bo_sung?.[0]?.chua_co_do_thi_sua_doi === true
+        && item70?.tac_dong_day_chuyen?.tin_hieu_phu_luc?.length === 3
+        && item71?.hanh_dong === 'tai_toan_van'
+        && item71?.so_dieu_khoan === 0
+        && item71?.tac_dong_day_chuyen?.hieu_luc_tu_goi_y === '2026-07-02'
+        && item71?.tac_dong_day_chuyen?.thay_the_bai_bo?.[0]?.can_cat_hieu_luc === true,
+      JSON.stringify({ item70: item70?.tac_dong_day_chuyen, item71: item71?.tac_dong_day_chuyen }),
+    );
+
+    t(
+      'dinhDangMarkdownTuTai: kết xuất mục Cảnh báo dây chuyền hiệu lực & phụ lục đầy đủ checklist',
+      mdCascade.includes('### Cảnh báo dây chuyền hiệu lực & phụ lục (cần rà khi duyệt PR)')
+        && mdCascade.includes('2026-08-15')
+        && mdCascade.includes('CẦN CẮT HIỆU LỰC')
+        && mdCascade.includes('**15/2018/TT-BTC**')
+        && mdCascade.includes('data/sua-doi-dieu/70-2026-tt-btc.json')
+        && mdCascade.includes('danh-muc/70-2026-tt-btc.csv')
+        && mdCascade.includes('HOA_CHAT_CAS')
+        && mdCascade.includes('registry/xuat-xu-fta.yaml')
+        && mdCascade.includes('wiki/sources/70-2026-tt-btc.md'),
+      mdCascade,
+    );
+  }
+
   // 3b. Regression tests cho các lỗi phát hiện ở Run 45801746798 (chan + PDF lệch + kiemTra sổ)
   {
     const tmpChan = makeTmp('tu-tai-chan-');
@@ -643,5 +774,9 @@ try {
   for (const d of tmpDirs) rmSync(d, { recursive: true, force: true });
 }
 
-console.log(`\nTổng: ${pass} PASS, ${fail} FAIL`);
+const subQuet = await chayTestQuetHieuLucThiHanh();
+pass += subQuet.pass;
+fail += subQuet.fail;
+
+console.log(`\nTổng cộng (tu-tai-toan-van + quet-hieu-luc-thi-hanh): ${pass} PASS, ${fail} FAIL`);
 if (fail > 0) process.exit(1);
