@@ -43,3 +43,11 @@ het_hieu_luc_tu: '2029-10-24'
 toan_van:
   - raw/download/pvtm.gov.vn/2822-qd-bct.pdf
   - raw/ocr/2822-qd-bct-2024.ocr.txt
+danh_muc_hs:
+  tep: danh-muc/2822-qd-bct-2024.csv
+  phien_ban_ahtn: AHTN_2022
+  nguon: https://moit.gov.vn/tin-tuc/thong-bao/bo-cong-thuong-ban-hanh-quyet-dinh-ve-ket-qua-ra-soat-cuoi-ky-ap-dung-bien-phap-chong-ban-pha-gia-doi-voi-mot-so-san-pha.html
+  trich_boi: bee3-w37@ozvietnam
+  ngay: '2026-11-26'
+  da_doi_chieu: true
+  ghi_chu: "Điều 1 (trang 3) và Mục 1 Thông báo kèm theo (trang 5): 17 mã HS 8 số thép cán phẳng được sơn (tôn màu)."

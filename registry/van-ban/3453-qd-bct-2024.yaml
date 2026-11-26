@@ -40,3 +40,11 @@ het_hieu_luc_tu: '2030-01-08'
 toan_van:
   - raw/download/pvtm.gov.vn/3453-qd-bct.pdf
   - raw/ocr/3453-qd-bct-2024.ocr.txt
+danh_muc_hs:
+  tep: danh-muc/3453-qd-bct-2024.csv
+  phien_ban_ahtn: AHTN_2022
+  nguon: https://moit.gov.vn/upload/2005517/fck/files/2024_12_24_Quyet_dinh_so_3453_QD_BCT_ap_thue_chinh_thuc_8a80f.pdf
+  trich_boi: bee3-w37@ozvietnam
+  ngay: '2026-11-26'
+  da_doi_chieu: true
+  ghi_chu: "Điều 1 (trang 2) và Mục 1.b Thông báo kèm theo (trang 3): 4 mã HS 8 số (7308.20.11, 7308.20.19 và 8502.31.10, 8502.31.20 khi nhập kèm tổ máy điện gió)."

@@ -3,11 +3,12 @@
 // Hỗ trợ JSON-RPC 2.0 chuẩn MCP 2024-11-05 / 2025-03-26 và cả 2 framing stdio:
 //   1. Newline-delimited JSON ({...}\n)
 //   2. Content-Length: N\r\n\r\n<body>
-import { realpathSync } from 'node:fs';
-import { resolve } from 'node:path';
+import { existsSync, readFileSync, realpathSync } from 'node:fs';
+import { join, resolve } from 'node:path';
 import { pathToFileURL } from 'node:url';
-import { LUOC_DO_PHIEN_BAN } from './lib/registry.mjs';
+import { LUOC_DO_PHIEN_BAN, napSo } from './lib/registry.mjs';
 import { chuanHoaTaiNgay } from './lib/hieu-luc-theo-ngay.mjs';
+import { dungPhongVeThuongMai, locPvtmTheoHsVaNgay } from './lib/phong-ve-thuong-mai.mjs';
 import {
   GHI_NGUON_CC_BY,
   MIEN_TRU_PHAP_LY,
@@ -237,7 +238,7 @@ export function TAO_DANH_SACH_CONG_CU() {
     {
       name: 'plhq_chinh_sach_theo_hs',
       description:
-        'Tra cứu văn bản quản lý chuyên ngành, kiểm tra chất lượng, giấy phép, cấm XNK cho mã HS 4/6/8 số ĐÃ BIẾT. Không thực hiện phân loại mã HS hay tính thuế suất (thuộc hs-code-api).',
+        'Tra cứu văn bản quản lý chuyên ngành, kiểm tra chất lượng, giấy phép, cấm XNK và cảnh báo Phòng vệ thương mại (pvtm@1) cho mã HS 4/6/8 số ĐÃ BIẾT. Không thực hiện phân loại mã HS hay tính thuế suất (thuộc hs-code-api).',
       inputSchema: {
         type: 'object',
         properties: {
@@ -612,6 +613,26 @@ function dinhDangChinhSachHs(res) {
       }
     }
   }
+  if (Array.isArray(res?.phong_ve_thuong_mai) && res.phong_ve_thuong_mai.length > 0) {
+    lines.push('', `### ⚠️ Cảnh báo Phòng vệ thương mại (\`pvtm@1\` — ${res.phong_ve_thuong_mai.length} vụ việc)`);
+    for (const pv of res.phong_ve_thuong_mai) {
+      const xx = Array.isArray(pv.xuat_xu_bi_ap) && pv.xuat_xu_bi_ap.length
+        ? pv.xuat_xu_bi_ap.join(', ')
+        : 'Toàn cầu (trừ nước/vùng lãnh thổ đang phát triển được loại trừ)';
+      const dai = pv.dai_thue_suat_phan_tram;
+      const mucThue = dai && typeof dai.toi_thieu === 'number' && typeof dai.toi_da === 'number'
+        ? (dai.toi_thieu === dai.toi_da ? `${dai.toi_thieu}%` : `${dai.toi_thieu}% – ${dai.toi_da}%`)
+        : (dai?.ghi_chu || 'Xem quyết định gốc');
+      const qdStr = (pv.chuoi_quyet_dinh || []).map((q) => q.so_hieu).filter(Boolean).join(', ');
+      lines.push(
+        `- **[${pv.ma_vu_viec}]** (\`${pv.id}\` | ${pv.loai_bien_phap} | **${pv.trang_thai}**) — ${pv.ten_mat_hang}`,
+      );
+      lines.push(
+        `  Xuất xứ bị áp: **${xx}** | Dải thuế suất: **${mucThue}** | Miễn trừ cơ bản: ${pv.mien_tru_co_ban ? 'Có' : 'Không'} | Hiệu lực: ${pv.hieu_luc_tu || '?'} → ${pv.het_hieu_luc_tu || 'đang mở'}`,
+      );
+      if (qdStr) lines.push(`  Quyết định: ${qdStr}`);
+    }
+  }
   if (Array.isArray(res?.dieu_khoan_lien_quan) && res.dieu_khoan_lien_quan.length > 0) {
     lines.push('### Điều khoản liên quan (NGUYEN_VAN_NGUON_A)');
     for (const dk of res.dieu_khoan_lien_quan) {
@@ -710,6 +731,7 @@ function taoThongTinLuocDo(store) {
 /** Khởi tạo máy chủ MCP in-process (gồm hàm async xuLyYeuCau(msg) để gọi trực tiếp hoặc qua stdio). */
 export function taoMayChuMcp({ store: initialStore, distDir, root } = {}) {
   let storePromise = initialStore ? Promise.resolve(initialStore) : null;
+  let pvtmCache = undefined;
   const layKho = () => {
     if (!storePromise) {
       const opts = {};
@@ -718,6 +740,29 @@ export function taoMayChuMcp({ store: initialStore, distDir, root } = {}) {
       storePromise = Promise.resolve(taoKhoTraCuu(opts));
     }
     return storePromise;
+  };
+  const layPvtm = (store) => {
+    if (pvtmCache !== undefined) return pvtmCache;
+    if (store?.pvtm && typeof store.pvtm === 'object') {
+      pvtmCache = store.pvtm;
+      return pvtmCache;
+    }
+    const dDir = store?.dist_dir || distDir || null;
+    if (dDir && existsSync(join(dDir, 'pvtm.json'))) {
+      try {
+        pvtmCache = JSON.parse(readFileSync(join(dDir, 'pvtm.json'), 'utf8'));
+        return pvtmCache;
+      } catch { /* fallback sang in-memory nếu có */ }
+    }
+    const rDir = store?.root || root || null;
+    if (rDir && existsSync(join(rDir, 'registry', 'phong-ve-thuong-mai.yaml'))) {
+      try {
+        pvtmCache = dungPhongVeThuongMai(napSo(rDir), rDir);
+        return pvtmCache;
+      } catch { /* bỏ qua nếu kho giả lập thiếu phụ thuộc */ }
+    }
+    pvtmCache = { vu_viec: [] };
+    return pvtmCache;
   };
 
   async function goiCongCu(name, args) {
@@ -817,6 +862,9 @@ export function taoMayChuMcp({ store: initialStore, distDir, root } = {}) {
           ...(lim.giaTri !== undefined ? { limit: lim.giaTri } : {}),
         };
         const res = traChinhSachTheoMaHs(store, args.ma_hs.trim(), opts);
+        if (res && !res.loi) {
+          res.phong_ve_thuong_mai = locPvtmTheoHsVaNgay(layPvtm(store), res.ma_hs, tn.giaTri);
+        }
         return taoPhanHoiCongCu(dinhDangChinhSachHs(res), res, Boolean(res?.loi));
       }
 

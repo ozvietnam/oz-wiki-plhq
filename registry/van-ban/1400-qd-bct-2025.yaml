@@ -47,3 +47,11 @@ ghi_chu: 'Mã vụ việc AD22 (2 mã HS tại Điều 1 và Mục 1.b Thông b�
 toan_van:
   - raw/download/pvtm.gov.vn/1400-qd-bct.pdf
   - raw/ocr/1400-qd-bct-2025.ocr.txt
+danh_muc_hs:
+  tep: danh-muc/1400-qd-bct-2025.csv
+  phien_ban_ahtn: AHTN_2022
+  nguon: https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/QD%201400%20QD%20BCT%2012_06_2026.pdf
+  trich_boi: bee3-w37@ozvietnam
+  ngay: '2026-11-26'
+  da_doi_chieu: true
+  ghi_chu: "Điều 1 (trang 2) và Mục 1.b Thông báo kèm theo (trang 3): 2 mã HS 8 số (7005.29.20, 7005.29.90)."

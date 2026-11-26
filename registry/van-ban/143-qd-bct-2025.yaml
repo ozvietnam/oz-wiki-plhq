@@ -33,3 +33,11 @@ het_hieu_luc_tu: '2030-01-29'
 toan_van:
   - raw/download/pvtm.gov.vn/143-qd-bct.pdf
   - raw/ocr/143-qd-bct-2025.ocr.txt
+danh_muc_hs:
+  tep: danh-muc/143-qd-bct-2025.csv
+  phien_ban_ahtn: AHTN_2022
+  nguon: https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/QD%20143_ap%20thue%20chinh%20thuc%20AD17.pdf
+  trich_boi: bee3-w37@ozvietnam
+  ngay: '2026-11-26'
+  da_doi_chieu: true
+  ghi_chu: "Điều 1 (trang 2) và Mục 1.b Thông báo kèm theo (trang 3): 2 mã HS 8 số (7312.10.91, 7312.10.99)."

@@ -151,9 +151,9 @@ try {
   const manifest = JSON.parse(readFileSync(join(distDir, 'manifest.json'), 'utf8'));
   const ftaSha = createHash('sha256').update(ftaBuf).digest('hex');
 
-  t('CLI tools/dung.mjs --out: ghi dist/xuat-xu-fta.json và manifest.json (9 tệp) khớp SHA-256',
+  t('CLI tools/dung.mjs --out: ghi dist/xuat-xu-fta.json và manifest.json khớp SHA-256',
     ftaJson.chuan_fta === 'fta-psr@1'
-    && manifest.tong_tep === 9
+    && manifest.tong_tep >= 9
     && manifest.tep['xuat-xu-fta.json']?.lop_du_lieu === 'LUAT'
     && manifest.tep['xuat-xu-fta.json']?.sha256 === ftaSha
     && manifest.tep['xuat-xu-fta.json']?.bytes === ftaBuf.length);

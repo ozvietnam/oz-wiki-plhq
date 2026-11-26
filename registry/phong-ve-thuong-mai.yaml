@@ -1,0 +1,786 @@
+# Sổ đăng ký Lá chắn Phòng vệ thương mại chuẩn hoá (chuan_pvtm: pvtm@1, lop_du_lieu: LUAT).
+# Lược đồ & ranh giới 0% trùng lặp với hs-code-api: docs/luoc-do-phong-ve-thuong-mai.md
+# Mọi mã HS, quốc gia/vùng lãnh thổ ISO-2, dải thuế suất pháp định và ngày hiệu lực đều trích nguyên văn từ Quyết định / Thông báo bậc A của Bộ Công Thương.
+chuan_pvtm: pvtm@1
+vu_viec:
+  - ma_vu_viec: ER01.AD04
+    loai_bien_phap: CHONG_BAN_PHA_GIA
+    ten_mat_hang: Sản phẩm thép hợp kim hoặc không hợp kim được cán phẳng, được sơn (thép phủ màu / tôn màu)
+    trang_thai: DANG_AP_DUNG
+    xuat_xu_bi_ap:
+      - KR
+      - CN
+    ma_hs:
+      - '72107012'
+      - '72107013'
+      - '72107019'
+      - '72107021'
+      - '72107029'
+      - '72107091'
+      - '72107099'
+      - '72124011'
+      - '72124012'
+      - '72124013'
+      - '72124014'
+      - '72124019'
+      - '72124091'
+      - '72124099'
+      - '72259990'
+      - '72269919'
+      - '72269999'
+    dai_thue_suat_phan_tram:
+      toi_thieu: 0
+      toi_da: 34.27
+      ghi_chu: >-
+        Trung Quốc: 0% (Boxing Hengrui) và từ 2,56% đến 34,27% tùy nhà sản xuất/xuất khẩu; Hàn Quốc: từ 4,95% đến 19,25% (Mục 2 Thông báo
+        kèm QĐ 2822/QĐ-BCT).
+    hieu_luc_tu: '2024-10-24'
+    het_hieu_luc_tu: '2029-10-24'
+    mien_tru_co_ban: true
+    chuoi_quyet_dinh:
+      - so_hieu: 2822/QĐ-BCT
+        vai_tro: RA_SOAT_CUOI_KY
+    ghi_chu_phap_ly: >-
+      Gia hạn thêm 05 năm việc áp dụng biện pháp CBPG đối với thép phủ màu từ Hàn Quốc và Trung Quốc theo QĐ 2822/QĐ-BCT; các Quyết định
+      miễn trừ đã ban hành trước ngày 24/10/2024 tiếp tục có hiệu lực đến hết thời hạn ghi trên Quyết định miễn trừ (Điều 2 & Mục 1.d Thông
+      báo).
+  - ma_vu_viec: ER01.AD05
+    loai_bien_phap: CHONG_BAN_PHA_GIA
+    ten_mat_hang: Sản phẩm nhôm hợp kim hoặc không hợp kim ở dạng thanh, que và hình đã được đùn ép
+    trang_thai: DANG_AP_DUNG
+    xuat_xu_bi_ap:
+      - CN
+    ma_hs:
+      - '76041010'
+      - '76041090'
+      - '76042190'
+      - '76042910'
+      - '76042990'
+    dai_thue_suat_phan_tram:
+      toi_thieu: 2.85
+      toi_da: 35.58
+      ghi_chu: 'Trung Quốc: từ 2,85% đến 35,58% tùy nhà sản xuất/xuất khẩu tại Mục 2 Thông báo kèm theo QĐ 2531/QĐ-BCT.'
+    hieu_luc_tu: '2024-10-03'
+    het_hieu_luc_tu: '2029-10-03'
+    mien_tru_co_ban: true
+    chuoi_quyet_dinh:
+      - so_hieu: 2531/QĐ-BCT
+        vai_tro: RA_SOAT_CUOI_KY
+    ghi_chu_phap_ly: >-
+      Gia hạn thêm 05 năm biện pháp CBPG đối với nhôm thanh đùn ép xuất xứ Trung Quốc từ 03/10/2024 đến hết 02/10/2029 theo QĐ 2531/QĐ-BCT;
+      giữ hiệu lực các Quyết định miễn trừ còn thời hạn (Điều 2).
+  - ma_vu_viec: ER01.AD08
+    loai_bien_phap: CHONG_BAN_PHA_GIA
+    ten_mat_hang: Sản phẩm thép các-bon cán nguội (ép nguội) dạng cuộn hoặc tấm
+    trang_thai: DANG_AP_DUNG
+    xuat_xu_bi_ap:
+      - CN
+    ma_hs:
+      - '72091610'
+      - '72091690'
+      - '72091710'
+      - '72091790'
+      - '72091891'
+      - '72091899'
+      - '72092610'
+      - '72092690'
+      - '72092710'
+      - '72092790'
+      - '72092810'
+      - '72092890'
+      - '72099090'
+      - '72112320'
+      - '72112330'
+      - '72112390'
+      - '72112920'
+      - '72112930'
+      - '72112990'
+      - '72255090'
+    dai_thue_suat_phan_tram:
+      toi_thieu: 4.43
+      toi_da: 25.22
+      ghi_chu: 'Trung Quốc: từ 4,43% (Bazhou Jinshangyi Metal Products Co., Ltd.) đến 25,22% tại Mục 3 Thông báo kèm theo QĐ 3765/QĐ-BCT.'
+    hieu_luc_tu: '2025-12-28'
+    het_hieu_luc_tu: '2030-12-28'
+    mien_tru_co_ban: true
+    chuoi_quyet_dinh:
+      - so_hieu: 3765/QĐ-BCT
+        vai_tro: RA_SOAT_CUOI_KY
+    ghi_chu_phap_ly: >-
+      Gia hạn thêm 05 năm thuế CBPG đối với 20 mã HS thép các-bon cán nguội bề rộng < 1.600 mm, dày 0,108–2,55 mm xuất xứ Trung Quốc từ
+      28/12/2025 đến hết 27/12/2030. Loại trừ thép không gỉ cán nguội (chú thích 9 mã 7219.32.00..7220.90.90 tại trang 3 Thông báo), thép mạ
+      điện silicon, tôn đen tráng thiếc, thép gió, thép lượn sóng, thép cán nguội sơn phủ và các QĐ miễn trừ còn thời hạn (Điều 2).
+  - ma_vu_viec: ER01.AD09
+    loai_bien_phap: CHONG_BAN_PHA_GIA
+    ten_mat_hang: Sản phẩm bột ngọt (Monosodium Glutamate — MSG)
+    trang_thai: DANG_AP_DUNG
+    xuat_xu_bi_ap:
+      - ID
+      - CN
+    ma_hs:
+      - '29224220'
+    dai_thue_suat_phan_tram:
+      toi_thieu: null
+      toi_da: null
+      ghi_chu: >-
+        Áp dụng mức thuế CBPG tuyệt đối tính theo trọng lượng tịnh (không tính theo tỷ lệ %): Trung Quốc từ 3.396.156 VNĐ/tấn đến 6.385.289
+        VNĐ/tấn; Indonesia 5.289.439 VNĐ/tấn (Mục 2 Thông báo kèm theo QĐ 1914/QĐ-BCT).
+    hieu_luc_tu: '2025-07-23'
+    het_hieu_luc_tu: '2030-07-23'
+    mien_tru_co_ban: false
+    chuoi_quyet_dinh:
+      - so_hieu: 1914/QĐ-BCT
+        vai_tro: RA_SOAT_CUOI_KY
+    ghi_chu_phap_ly: >-
+      Gia hạn thêm 05 năm biện pháp CBPG tuyệt đối (VNĐ/tấn) đối với bột ngọt mã HS 2922.42.20 xuất xứ Indonesia và Trung Quốc từ 23/07/2025
+      đến hết 22/07/2030 theo QĐ 1914/QĐ-BCT.
+  - ma_vu_viec: ER01.AD10
+    loai_bien_phap: CHONG_BAN_PHA_GIA
+    ten_mat_hang: 'Sản phẩm sợi dài làm từ polyester (PFY: POY, DTY, FDY)'
+    trang_thai: DANG_AP_DUNG
+    xuat_xu_bi_ap:
+      - IN
+      - ID
+      - MY
+      - CN
+    ma_hs:
+      - '54023310'
+      - '54023390'
+      - '54024610'
+      - '54024690'
+      - '54024710'
+      - '54024790'
+    dai_thue_suat_phan_tram:
+      toi_thieu: 3.36
+      toi_da: 54.9
+      ghi_chu: 'Trung Quốc: 3,36%–17,45%; Malaysia: 21,45%; Indonesia: 21,94%; Ấn Độ: 54,90% (Mục 3 Thông báo kèm theo QĐ 2652/QĐ-BCT).'
+    hieu_luc_tu: '2026-10-16'
+    het_hieu_luc_tu: '2031-10-16'
+    mien_tru_co_ban: true
+    chuoi_quyet_dinh:
+      - so_hieu: 2652/QĐ-BCT
+        vai_tro: RA_SOAT_CUOI_KY
+        het_hieu_luc_tu: '2031-10-16'
+      - so_hieu: 3546/QĐ-BCT
+        vai_tro: RA_SOAT_HANG_NAM
+    ghi_chu_phap_ly: >-
+      Gia hạn thêm 05 năm thuế CBPG sợi dài polyester từ Ấn Độ, Indonesia, Malaysia và Trung Quốc từ 16/10/2026 đến hết 15/10/2031 theo QĐ
+      2652/QĐ-BCT (thay thế QĐ 2302/QĐ-BCT, 2359/QĐ-BCT, 2954/QĐ-BCT, 1700/QĐ-BCT và 3546/QĐ-BCT); giữ hiệu lực các QĐ miễn trừ còn thời hạn
+      (Điều 2).
+  - ma_vu_viec: ER01.AD13
+    loai_bien_phap: CHONG_BAN_PHA_GIA
+    ten_mat_hang: Sản phẩm đường mía nhập khẩu từ Vương quốc Thái Lan (phần thuế chống bán phá giá)
+    trang_thai: DANG_AP_DUNG
+    xuat_xu_bi_ap:
+      - TH
+    ma_hs:
+      - '17011300'
+      - '17011400'
+      - '17019100'
+      - '17019910'
+      - '17019990'
+      - '17029091'
+    dai_thue_suat_phan_tram:
+      toi_thieu: 25.73
+      toi_da: 42.99
+      ghi_chu: >-
+        Thuế CBPG đối với đường mía xuất xứ Thái Lan từ 25,73% đến 42,99% (cộng đồng thời thuế chống trợ cấp 0%–4,65% theo vụ việc ER01.AS01
+        tại cùng QĐ 1309/QĐ-BCT; tổng mức CBPG+CTC từ 30,38% đến 47,64%).
+    hieu_luc_tu: '2026-06-16'
+    het_hieu_luc_tu: '2031-06-16'
+    mien_tru_co_ban: true
+    chuoi_quyet_dinh:
+      - so_hieu: 1309/QĐ-BCT
+        vai_tro: RA_SOAT_CUOI_KY
+        het_hieu_luc_tu: '2031-06-16'
+      - so_hieu: 1578/QĐ-BCT
+        vai_tro: CHINH_THUC
+      - so_hieu: 2961/QĐ-BCT
+        vai_tro: RA_SOAT_HANG_NAM
+      - so_hieu: 1989/QĐ-BCT
+        vai_tro: RA_SOAT_HANG_NAM
+      - so_hieu: 2105/QĐ-BCT
+        vai_tro: RA_SOAT_HANG_NAM
+    ghi_chu_phap_ly: >-
+      Phần biện pháp chống bán phá giá trong vụ việc kép ER01.AD13-AS01 theo QĐ 1309/QĐ-BCT (gia hạn 05 năm từ 16/06/2026 đến hết
+      15/06/2031, bãi bỏ QĐ 1578/2021, 2961/2022, 1989/2023 và 2105/2025 QĐ-BCT); các QĐ miễn trừ còn thời hạn tiếp tục thực hiện (Điều 4).
+  - ma_vu_viec: ER01.AS01
+    loai_bien_phap: CHONG_TRO_CAP
+    ten_mat_hang: Sản phẩm đường mía nhập khẩu từ Vương quốc Thái Lan (phần thuế chống trợ cấp)
+    trang_thai: DANG_AP_DUNG
+    xuat_xu_bi_ap:
+      - TH
+    ma_hs:
+      - '17011300'
+      - '17011400'
+      - '17019100'
+      - '17019910'
+      - '17019990'
+      - '17029091'
+    dai_thue_suat_phan_tram:
+      toi_thieu: 0
+      toi_da: 4.65
+      ghi_chu: >-
+        Thuế chống trợ cấp (CTC) đối với đường mía xuất xứ Thái Lan: 0% (Nhóm Mitr Phol, STT 1) và 4,65% (Nhóm Thai Roong Ruang STT 2 và các
+        tổ chức/cá nhân khác STT 3), áp dụng đồng thời với thuế CBPG 25,73%–42,99% theo QĐ 1309/QĐ-BCT.
+    hieu_luc_tu: '2026-06-16'
+    het_hieu_luc_tu: '2031-06-16'
+    mien_tru_co_ban: true
+    chuoi_quyet_dinh:
+      - so_hieu: 1309/QĐ-BCT
+        vai_tro: RA_SOAT_CUOI_KY
+        het_hieu_luc_tu: '2031-06-16'
+      - so_hieu: 1578/QĐ-BCT
+        vai_tro: CHINH_THUC
+      - so_hieu: 1989/QĐ-BCT
+        vai_tro: RA_SOAT_HANG_NAM
+    ghi_chu_phap_ly: >-
+      Phần biện pháp chống trợ cấp trong vụ việc kép ER01.AD13-AS01 theo QĐ 1309/QĐ-BCT (gia hạn 05 năm từ 16/06/2026 đến hết 15/06/2031);
+      các QĐ miễn trừ còn thời hạn tiếp tục có hiệu lực (Điều 4).
+  - ma_vu_viec: AC02-AD13.AS01
+    loai_bien_phap: CHONG_LAN_TRANH
+    ten_mat_hang: Sản phẩm đường mía chống lẩn tránh biện pháp phòng vệ thương mại
+    trang_thai: DANG_AP_DUNG
+    xuat_xu_bi_ap:
+      - KH
+      - ID
+      - LA
+      - MY
+      - MM
+    ma_hs:
+      - '17011300'
+      - '17011400'
+      - '17019100'
+      - '17019910'
+      - '17019990'
+      - '17029091'
+    dai_thue_suat_phan_tram:
+      toi_thieu: 47.64
+      toi_da: 47.64
+      ghi_chu: >-
+        Tổng mức thuế chống lẩn tránh 47,64% (gồm thuế CBPG 42,99% + thuế CTC 4,65%); miễn áp dụng đối với đường sản xuất từ mía thu hoạch
+        tại Campuchia, Indonesia, Lào, Malaysia, Myanmar của 08 nhà sản xuất nêu tại Mục 3.2 Thông báo kèm QĐ 1310/QĐ-BCT khi xuất trình C/O
+        hợp lệ.
+    hieu_luc_tu: '2026-06-16'
+    het_hieu_luc_tu: '2031-06-16'
+    mien_tru_co_ban: true
+    chuoi_quyet_dinh:
+      - so_hieu: 1310/QĐ-BCT
+        vai_tro: GIA_HAN
+      - so_hieu: 662/QĐ-BCT
+        vai_tro: RA_SOAT_HANG_NAM
+      - so_hieu: 438/CHQ-NVTHQ
+        vai_tro: HUONG_DAN
+      - so_hieu: 2177/CHQ-NVTHQ
+        vai_tro: HUONG_DAN
+    ghi_chu_phap_ly: >-
+      Gia hạn biện pháp chống lẩn tránh biện pháp PVTM đối với đường mía từ Campuchia, Indonesia, Lào, Malaysia và Myanmar theo thời hạn của
+      QĐ 1309/QĐ-BCT (từ 16/06/2026 đến hết 15/06/2031); giữ hiệu lực các QĐ miễn trừ còn thời hạn (Điều 4 QĐ 1310/QĐ-BCT).
+  - ma_vu_viec: AD16
+    loai_bien_phap: CHONG_BAN_PHA_GIA
+    ten_mat_hang: Một số sản phẩm bàn, ghế
+    trang_thai: DANG_AP_DUNG
+    xuat_xu_bi_ap:
+      - CN
+    ma_hs:
+      - '94013100'
+      - '94013900'
+      - '94014100'
+      - '94014900'
+      - '94016100'
+      - '94016990'
+      - '94017100'
+      - '94017990'
+      - '94018000'
+      - '94033000'
+    dai_thue_suat_phan_tram:
+      toi_thieu: 21.4
+      toi_da: 35.2
+      ghi_chu: >-
+        Trung Quốc: 21,40% đối với sản phẩm ghế (9 mã nhóm 9401) và 35,20% đối với sản phẩm bàn (mã 9403.30.00); Malaysia chấm dứt điều tra
+        không áp thuế (Điều 2 & Mục 3 Thông báo kèm QĐ 235/QĐ-BCT).
+    hieu_luc_tu: '2023-02-13'
+    het_hieu_luc_tu: '2028-02-13'
+    mien_tru_co_ban: true
+    chuoi_quyet_dinh:
+      - so_hieu: 235/QĐ-BCT
+        vai_tro: CHINH_THUC
+    ghi_chu_phap_ly: >-
+      Áp dụng thuế CBPG chính thức 05 năm từ 13/02/2023 đến 13/02/2028 đối với bàn, ghế xuất xứ Trung Quốc theo QĐ 235/QĐ-BCT; lưu ý các
+      trường hợp loại trừ theo chất liệu/kích thước tại Mục 1.1.c, 1.2.c và thủ tục miễn trừ tại Mục 7 Thông báo.
+  - ma_vu_viec: AD17
+    loai_bien_phap: CHONG_BAN_PHA_GIA
+    ten_mat_hang: Sản phẩm cáp thép dự ứng lực (PC Strand)
+    trang_thai: DANG_AP_DUNG
+    xuat_xu_bi_ap:
+      - MY
+      - TH
+      - CN
+    ma_hs:
+      - '73121091'
+      - '73121099'
+    dai_thue_suat_phan_tram:
+      toi_thieu: 4.47
+      toi_da: 28
+      ghi_chu: >-
+        Malaysia: 9,79%–12,06%; Thái Lan: 11%; Trung Quốc: 4,47%–28% (QĐ 2927/QĐ-BCT ngày 04/11/2026 về rà soát AR01.AD17 điều chỉnh mức
+        thuế của Boxing Victory Metal Materials Co., Ltd và 03 công ty thương mại liên quan từ 10,48% xuống 4,47% kể từ 19/11/2026).
+    hieu_luc_tu: '2025-01-29'
+    het_hieu_luc_tu: '2030-01-29'
+    mien_tru_co_ban: true
+    chuoi_quyet_dinh:
+      - so_hieu: 143/QĐ-BCT
+        vai_tro: CHINH_THUC
+      - so_hieu: 2927/QĐ-BCT
+        vai_tro: RA_SOAT_HANG_NAM
+      - so_hieu: 139/TXNK-CST
+        vai_tro: HUONG_DAN
+      - so_hieu: 438/TCHQ-TXNK
+        vai_tro: HUONG_DAN
+    ghi_chu_phap_ly: >-
+      Áp dụng thuế CBPG chính thức 05 năm từ 29/01/2025 đến 29/01/2030 theo QĐ 143/QĐ-BCT, được cập nhật kết quả rà soát lần thứ nhất
+      AR01.AD17 tại QĐ 2927/QĐ-BCT (hiệu lực từ 19/11/2026); giữ nguyên hiệu lực các Quyết định miễn trừ còn thời hạn (Điều 3 QĐ
+      2927/QĐ-BCT).
+  - ma_vu_viec: AD18
+    loai_bien_phap: CHONG_BAN_PHA_GIA
+    ten_mat_hang: Sản phẩm tháp điện gió
+    trang_thai: DANG_AP_DUNG
+    xuat_xu_bi_ap:
+      - CN
+    ma_hs:
+      - '73082011'
+      - '73082019'
+      - '85023110'
+      - '85023120'
+    dai_thue_suat_phan_tram:
+      toi_thieu: 0
+      toi_da: 97
+      ghi_chu: >-
+        Trung Quốc: 0% (không áp thuế CBPG) đối với Jiangsu Zhenjiang New Energy Equipment Co., Ltd. (kèm điều kiện C/O + Giấy chứng nhận
+        nhà sản xuất); 97% đối với các tổ chức, cá nhân sản xuất/xuất khẩu khác từ Trung Quốc (Mục 3 Thông báo kèm QĐ 3453/QĐ-BCT).
+    hieu_luc_tu: '2025-01-08'
+    het_hieu_luc_tu: '2030-01-08'
+    mien_tru_co_ban: false
+    chuoi_quyet_dinh:
+      - so_hieu: 3453/QĐ-BCT
+        vai_tro: CHINH_THUC
+    ghi_chu_phap_ly: >-
+      Áp dụng thuế CBPG chính thức 05 năm từ 08/01/2025 đến 08/01/2030 đối với tháp điện gió xuất xứ Trung Quốc theo QĐ 3453/QĐ-BCT; riêng
+      mã HS 8502.31.10 và 8502.31.20 chỉ thuộc phạm vi áp dụng khi tháp điện gió được nhập khẩu như một bộ phận của tổ máy phát điện chạy
+      bằng sức gió.
+  - ma_vu_viec: AD19
+    loai_bien_phap: CHONG_BAN_PHA_GIA
+    ten_mat_hang: Một số sản phẩm thép mạ (tôn mạ)
+    trang_thai: DANG_AP_DUNG
+    xuat_xu_bi_ap:
+      - CN
+      - KR
+    ma_hs:
+      - '72104111'
+      - '72104112'
+      - '72104119'
+      - '72104911'
+      - '72104914'
+      - '72104915'
+      - '72104916'
+      - '72104917'
+      - '72104918'
+      - '72104919'
+      - '72105000'
+      - '72106111'
+      - '72106112'
+      - '72106119'
+      - '72106911'
+      - '72106919'
+      - '72109010'
+      - '72109090'
+      - '72123011'
+      - '72123012'
+      - '72123013'
+      - '72123014'
+      - '72123019'
+      - '72125014'
+      - '72125019'
+      - '72125023'
+      - '72125024'
+      - '72125029'
+      - '72125093'
+      - '72125094'
+      - '72125099'
+      - '72126011'
+      - '72126012'
+      - '72126019'
+      - '72259220'
+      - '72259290'
+      - '72259990'
+      - '72269911'
+      - '72269919'
+      - '72269991'
+      - '72269999'
+    dai_thue_suat_phan_tram:
+      toi_thieu: 0
+      toi_da: 37.13
+      ghi_chu: >-
+        Trung Quốc: 0% (Boxing Hengrui, Yieh Phui Technomaterial) đến 37,13%; Hàn Quốc: 0% (POSCO, KG Dongbu Steel, Dongkuk Coated Metal),
+        12,00% (Hyundai Steel) đến 15,67% (Mục 3 Thông báo kèm QĐ 2310/QĐ-BCT).
+    hieu_luc_tu: '2025-08-14'
+    het_hieu_luc_tu: '2030-08-14'
+    mien_tru_co_ban: true
+    chuoi_quyet_dinh:
+      - so_hieu: 2310/QĐ-BCT
+        vai_tro: CHINH_THUC
+    ghi_chu_phap_ly: >-
+      Áp dụng thuế CBPG chính thức 05 năm từ 14/08/2025 đến 14/08/2030 đối với 41 mã HS thép mạ xuất xứ Trung Quốc và Hàn Quốc theo QĐ
+      2310/QĐ-BCT (thay thế biện pháp CBPG tạm thời tại QĐ 914/QĐ-BCT); lưu ý danh mục hàng hóa được loại trừ tại Mục 1.c Thông báo.
+  - ma_vu_viec: AD20
+    loai_bien_phap: CHONG_BAN_PHA_GIA
+    ten_mat_hang: Một số sản phẩm thép cán nóng khổ rộng không quá 1.880 mm
+    trang_thai: DANG_AP_DUNG
+    xuat_xu_bi_ap:
+      - CN
+    ma_hs:
+      - '72082500'
+      - '72082600'
+      - '72082719'
+      - '72082799'
+      - '72083600'
+      - '72083700'
+      - '72083800'
+      - '72083920'
+      - '72083940'
+      - '72083990'
+      - '72085100'
+      - '72085200'
+      - '72085300'
+      - '72085490'
+      - '72089090'
+      - '72111415'
+      - '72111416'
+      - '72111419'
+      - '72111913'
+      - '72111919'
+      - '72119012'
+      - '72119019'
+      - '72253090'
+      - '72254090'
+      - '72259990'
+      - '72269110'
+      - '72269190'
+    dai_thue_suat_phan_tram:
+      toi_thieu: 23.1
+      toi_da: 27.83
+      ghi_chu: >-
+        Trung Quốc: từ 23,10% (Guangxi Liuzhou Iron and Steel Group) đến 27,83% tùy nhà sản xuất/xuất khẩu; Ấn Độ: chấm dứt điều tra, không
+        áp thuế CBPG (Điều 2 & Mục 3 Thông báo kèm QĐ 1959/QĐ-BCT).
+    hieu_luc_tu: '2025-07-06'
+    het_hieu_luc_tu: '2030-07-06'
+    mien_tru_co_ban: true
+    chuoi_quyet_dinh:
+      - so_hieu: 1959/QĐ-BCT
+        vai_tro: CHINH_THUC
+    ghi_chu_phap_ly: >-
+      Áp dụng thuế CBPG chính thức 05 năm từ 06/07/2025 đến 06/07/2030 đối với 27 mã HS thép cán nóng độ dày 1,2–25,4 mm, chiều rộng <=
+      1.880 mm, hàm lượng carbon <= 0,30% xuất xứ Trung Quốc theo QĐ 1959/QĐ-BCT (thay thế biện pháp tạm thời tại QĐ 460/QĐ-BCT); lưu ý các
+      trường hợp loại trừ mác thép đặc chủng tại Mục 1.c, 1.d Thông báo.
+  - ma_vu_viec: AC03.AD20
+    loai_bien_phap: CHONG_LAN_TRANH
+    ten_mat_hang: Một số sản phẩm thép cán nóng khổ rộng lớn hơn 1.880 mm và nhỏ hơn hoặc bằng 2.300 mm
+    trang_thai: DANG_DIEU_TRA
+    xuat_xu_bi_ap:
+      - CN
+    ma_hs:
+      - '72082500'
+      - '72082600'
+      - '72082719'
+      - '72082799'
+      - '72083600'
+      - '72083700'
+      - '72083800'
+      - '72083920'
+      - '72083940'
+      - '72083990'
+      - '72085200'
+      - '72085300'
+      - '72085490'
+      - '72089090'
+      - '72111415'
+      - '72111416'
+      - '72111419'
+      - '72111913'
+      - '72111919'
+      - '72119012'
+      - '72119019'
+      - '72253090'
+      - '72254090'
+      - '72259990'
+      - '72269110'
+      - '72269190'
+    dai_thue_suat_phan_tram:
+      toi_thieu: null
+      toi_da: null
+      ghi_chu: >-
+        Đang trong giai đoạn điều tra chống lẩn tránh biện pháp CBPG (liên quan biện pháp gốc AD20 tại QĐ 1959/QĐ-BCT có mức thuế
+        23,10%–27,83%), chưa có quyết định áp thuế chính thức tính đến ngày 26/11/2026.
+    hieu_luc_tu: '2025-10-27'
+    het_hieu_luc_tu: null
+    mien_tru_co_ban: true
+    chuoi_quyet_dinh:
+      - so_hieu: 3176/QĐ-BCT
+        vai_tro: KHOI_XUONG
+    ghi_chu_phap_ly: >-
+      Khởi xướng điều tra chống lẩn tránh biện pháp PVTM từ ngày 27/10/2025 theo QĐ 3176/QĐ-BCT đối với 26 mã HS thép cán nóng khổ rộng >
+      1.880 mm đến <= 2.300 mm xuất xứ Trung Quốc; doanh nghiệp nhập khẩu cần theo dõi khả năng áp dụng biện pháp chống lẩn tránh khi có kết
+      luận cuối cùng của Bộ Công Thương.
+  - ma_vu_viec: AD21
+    loai_bien_phap: CHONG_BAN_PHA_GIA
+    ten_mat_hang: Một số sản phẩm ván sợi gỗ (MDF / HDF)
+    trang_thai: DANG_AP_DUNG
+    xuat_xu_bi_ap:
+      - TH
+      - CN
+    ma_hs:
+      - '44111200'
+      - '44111300'
+      - '44111400'
+      - '44119200'
+      - '44119300'
+      - '44119400'
+    dai_thue_suat_phan_tram:
+      toi_thieu: 2.59
+      toi_da: 39.88
+      ghi_chu: 'Trung Quốc: từ 2,59% đến 39,88%; Thái Lan: từ 3,09% đến 20,20% tùy nhà sản xuất/xuất khẩu (Mục 3 Thông báo kèm QĐ 121/QĐ-BCT).'
+    hieu_luc_tu: '2026-01-19'
+    het_hieu_luc_tu: '2031-01-19'
+    mien_tru_co_ban: true
+    chuoi_quyet_dinh:
+      - so_hieu: 121/QĐ-BCT
+        vai_tro: CHINH_THUC
+    ghi_chu_phap_ly: >-
+      Áp dụng thuế CBPG chính thức 05 năm từ 19/01/2026 đến 19/01/2031 đối với 6 mã HS ván sợi gỗ xuất xứ Thái Lan và Trung Quốc theo QĐ
+      121/QĐ-BCT (thay thế biện pháp tạm thời tại QĐ 2491/QĐ-BCT); loại trừ ván sợi phủ bề mặt theo Mục 1.c Thông báo.
+  - ma_vu_viec: AD22
+    loai_bien_phap: CHONG_BAN_PHA_GIA
+    ten_mat_hang: Một số sản phẩm kính nổi không màu
+    trang_thai: DANG_AP_DUNG
+    xuat_xu_bi_ap:
+      - ID
+      - MY
+    ma_hs:
+      - '70052920'
+      - '70052990'
+    dai_thue_suat_phan_tram:
+      toi_thieu: 32.78
+      toi_da: 63.39
+      ghi_chu: 'Indonesia: từ 32,78% đến 43,78%; Malaysia: từ 41,07% đến 63,39% tùy nhà sản xuất/xuất khẩu (Mục 3 Thông báo kèm QĐ 1400/QĐ-BCT).'
+    hieu_luc_tu: '2026-06-14'
+    het_hieu_luc_tu: '2031-06-14'
+    mien_tru_co_ban: false
+    chuoi_quyet_dinh:
+      - so_hieu: 1400/QĐ-BCT
+        vai_tro: CHINH_THUC
+      - so_hieu: 2093/QĐ-BCT
+        vai_tro: KHOI_XUONG
+    ghi_chu_phap_ly: >-
+      Áp dụng thuế CBPG chính thức 05 năm từ 14/06/2026 đến 14/06/2031 đối với 2 mã HS kính nổi không màu xuất xứ Indonesia và Malaysia theo
+      QĐ 1400/QĐ-BCT (thay thế thuế CBPG tạm thời tại QĐ 228/QĐ-BCT).
+  - ma_vu_viec: AD23
+    loai_bien_phap: CHONG_BAN_PHA_GIA
+    ten_mat_hang: Một số sản phẩm gạch gốm, sứ ốp lát
+    trang_thai: DANG_AP_DUNG
+    xuat_xu_bi_ap:
+      - IN
+    ma_hs:
+      - '69072121'
+      - '69072122'
+      - '69072123'
+      - '69072124'
+      - '69072191'
+      - '69072192'
+      - '69072193'
+      - '69072194'
+    dai_thue_suat_phan_tram:
+      toi_thieu: 5.55
+      toi_da: 45.3
+      ghi_chu: 'Ấn Độ: từ 5,55% đến 45,30% tùy nhà sản xuất/xuất khẩu (Mục 3 Thông báo kèm QĐ 2174/QĐ-BCT).'
+    hieu_luc_tu: '2026-09-22'
+    het_hieu_luc_tu: '2031-09-22'
+    mien_tru_co_ban: false
+    chuoi_quyet_dinh:
+      - so_hieu: 2174/QĐ-BCT
+        vai_tro: CHINH_THUC
+      - so_hieu: 2333/QĐ-BCT
+        vai_tro: KHOI_XUONG
+    ghi_chu_phap_ly: >-
+      Áp dụng thuế CBPG chính thức 05 năm từ 22/09/2026 đến 22/09/2031 đối với 8 mã HS gạch gốm, sứ ốp lát nhóm 6907.21 xuất xứ Ấn Độ theo
+      QĐ 2174/QĐ-BCT.
+  - ma_vu_viec: ER02.AD01
+    loai_bien_phap: CHONG_BAN_PHA_GIA
+    ten_mat_hang: Một số sản phẩm thép không gỉ cán nguội ở dạng cuộn hoặc dạng tấm
+    trang_thai: HET_HIEU_LUC
+    xuat_xu_bi_ap:
+      - TW
+      - ID
+      - MY
+      - CN
+    ma_hs:
+      - '72193200'
+      - '72193300'
+      - '72193400'
+      - '72193500'
+      - '72199000'
+      - '72202010'
+      - '72202090'
+      - '72209010'
+      - '72209090'
+    dai_thue_suat_phan_tram:
+      toi_thieu: null
+      toi_da: null
+      ghi_chu: >-
+        Đã chấm dứt và không gia hạn việc áp dụng biện pháp CBPG kể từ ngày 12/11/2024 theo QĐ 3011/QĐ-BCT (mã vụ việc rà soát cuối kỳ
+        ER02.AD01).
+    hieu_luc_tu: '2019-10-26'
+    het_hieu_luc_tu: '2024-11-12'
+    mien_tru_co_ban: true
+    chuoi_quyet_dinh:
+      - so_hieu: 3011/QĐ-BCT
+        vai_tro: RA_SOAT_CUOI_KY
+    ghi_chu_phap_ly: >-
+      Vụ việc CBPG thép không gỉ cán nguội (AD01 / ER02.AD01): Bộ Công Thương quyết định không gia hạn biện pháp CBPG từ ngày 12/11/2024
+      theo QĐ 3011/QĐ-BCT; lưu giữ phục vụ đối chiếu tờ khai lịch sử giai đoạn trước 12/11/2024.
+  - ma_vu_viec: ER01.AD07
+    loai_bien_phap: CHONG_BAN_PHA_GIA
+    ten_mat_hang: Một số sản phẩm bằng plastic được làm từ các polyme từ propylen (màng BOPP)
+    trang_thai: HET_HIEU_LUC
+    xuat_xu_bi_ap:
+      - MY
+      - TH
+      - CN
+    ma_hs:
+      - '39202010'
+      - '39202091'
+    dai_thue_suat_phan_tram:
+      toi_thieu: null
+      toi_da: null
+      ghi_chu: Đã chấm dứt và không gia hạn việc áp dụng biện pháp CBPG kể từ ngày 23/07/2025 theo QĐ 2027/QĐ-BCT (vụ việc ER01.AD07).
+    hieu_luc_tu: '2020-07-23'
+    het_hieu_luc_tu: '2025-07-23'
+    mien_tru_co_ban: false
+    chuoi_quyet_dinh:
+      - so_hieu: 2027/QĐ-BCT
+        vai_tro: RA_SOAT_CUOI_KY
+    ghi_chu_phap_ly: >-
+      Vụ việc CBPG màng BOPP (AD07 / ER01.AD07): Bộ Công Thương quyết định không gia hạn biện pháp CBPG kể từ ngày 23/07/2025 theo QĐ
+      2027/QĐ-BCT; lưu giữ phục vụ đối chiếu tờ khai lịch sử giai đoạn 23/07/2020 – 22/07/2025.
+  - ma_vu_viec: ER01.AD12
+    loai_bien_phap: CHONG_BAN_PHA_GIA
+    ten_mat_hang: Một số sản phẩm thép hình chữ H
+    trang_thai: HET_HIEU_LUC
+    xuat_xu_bi_ap:
+      - MY
+    ma_hs:
+      - '72163311'
+      - '72163319'
+      - '72163390'
+      - '72287010'
+      - '72287090'
+    dai_thue_suat_phan_tram:
+      toi_thieu: null
+      toi_da: null
+      ghi_chu: >-
+        Giai đoạn hiệu lực trước đây áp thuế 10,64%; đã chấm dứt và không gia hạn việc áp dụng biện pháp CBPG kể từ ngày 16/04/2026 theo QĐ
+        915/QĐ-BCT.
+    hieu_luc_tu: '2021-09-02'
+    het_hieu_luc_tu: '2026-04-16'
+    mien_tru_co_ban: false
+    chuoi_quyet_dinh:
+      - so_hieu: 915/QĐ-BCT
+        vai_tro: RA_SOAT_CUOI_KY
+      - so_hieu: 1975/QĐ-BCT
+        vai_tro: CHINH_THUC
+      - so_hieu: 1978/QĐ-BCT
+        vai_tro: KHOI_XUONG
+    ghi_chu_phap_ly: >-
+      Vụ việc CBPG thép hình chữ H xuất xứ Malaysia (AD12 / ER01.AD12): áp thuế chính thức theo QĐ 1975/QĐ-BCT từ 02/09/2021 và kết thúc
+      không gia hạn từ 16/04/2026 theo QĐ 915/QĐ-BCT; lưu giữ phục vụ đối chiếu tờ khai lịch sử trước 16/04/2026.
+  - ma_vu_viec: ER02.SG04
+    loai_bien_phap: TU_VE
+    ten_mat_hang: Sản phẩm phôi thép và thép dài nhập khẩu
+    trang_thai: HET_HIEU_LUC
+    xuat_xu_bi_ap: []
+    ma_hs:
+      - '72131010'
+      - '72131090'
+      - '72139120'
+      - '72142031'
+      - '72142041'
+      - '72279010'
+      - '72279090'
+      - '72283010'
+      - '98110010'
+    dai_thue_suat_phan_tram:
+      toi_thieu: null
+      toi_da: null
+      ghi_chu: >-
+        Gia hạn giai đoạn 22/03/2023 – 21/03/2026 với mức thuế tự vệ giảm dần 6,3% → 6,2% → 6,1%, và từ ngày 22/03/2026 trở đi mức thuế tự
+        vệ là 0% (hết thời hạn gia hạn theo QĐ 691/QĐ-BCT).
+    hieu_luc_tu: '2023-03-22'
+    het_hieu_luc_tu: '2026-03-22'
+    mien_tru_co_ban: true
+    chuoi_quyet_dinh:
+      - so_hieu: 691/QĐ-BCT
+        vai_tro: GIA_HAN
+    ghi_chu_phap_ly: >-
+      Biện pháp tự vệ toàn cầu đối với thép dài nhập khẩu (trừ danh sách nước/vùng lãnh thổ đang phát triển được loại trừ tại Phụ lục Thông
+      báo kèm QĐ 691/QĐ-BCT); đã hết hiệu lực từ ngày 22/03/2026.
+  - ma_vu_viec: AC01.SG04
+    loai_bien_phap: CHONG_LAN_TRANH
+    pham_vi_toan_cau: true
+    ten_mat_hang: Sản phẩm thép cuộn, thép dây nhập khẩu chống lẩn tránh biện pháp tự vệ
+    trang_thai: HET_HIEU_LUC
+    xuat_xu_bi_ap: []
+    ma_hs:
+      - '72139190'
+      - '72171010'
+      - '72171029'
+      - '72299099'
+      - '98391000'
+    dai_thue_suat_phan_tram:
+      toi_thieu: null
+      toi_da: null
+      ghi_chu: >-
+        Gia hạn giai đoạn 22/03/2023 – 21/03/2026 với mức thuế 6,3% → 6,2% → 6,1%, và từ ngày 22/03/2026 trở đi là 0% (hết hiệu lực cùng
+        biện pháp tự vệ gốc tại QĐ 691/QĐ-BCT theo QĐ 693/QĐ-BCT).
+    hieu_luc_tu: '2023-03-22'
+    het_hieu_luc_tu: '2026-03-22'
+    mien_tru_co_ban: true
+    chuoi_quyet_dinh:
+      - so_hieu: 693/QĐ-BCT
+        vai_tro: GIA_HAN
+    ghi_chu_phap_ly: Biện pháp chống lẩn tránh biện pháp tự vệ thép dài toàn cầu theo QĐ 693/QĐ-BCT; đã hết hiệu lực từ ngày 22/03/2026.
+  - ma_vu_viec: ER01.SG06
+    loai_bien_phap: TU_VE
+    ten_mat_hang: Sản phẩm phân bón DAP và MAP nhập khẩu
+    trang_thai: HET_HIEU_LUC
+    xuat_xu_bi_ap: []
+    ma_hs:
+      - '31051020'
+      - '31051090'
+      - '31052000'
+      - '31053000'
+      - '31054000'
+      - '31055100'
+      - '31055900'
+      - '31059000'
+    dai_thue_suat_phan_tram:
+      toi_thieu: null
+      toi_da: null
+      ghi_chu: >-
+        Áp dụng thuế tự vệ tuyệt đối (VNĐ/tấn) trong giai đoạn gia hạn 07/03/2020 – 06/09/2022 và đã hết hiệu lực từ ngày 07/09/2022 theo QĐ
+        715/QĐ-BCT.
+    hieu_luc_tu: '2020-03-07'
+    het_hieu_luc_tu: '2022-09-07'
+    mien_tru_co_ban: true
+    chuoi_quyet_dinh:
+      - so_hieu: 715/QĐ-BCT
+        vai_tro: GIA_HAN
+    ghi_chu_phap_ly: Biện pháp tự vệ toàn cầu đối với phân bón DAP, MAP nhập khẩu theo QĐ 715/QĐ-BCT; đã hết hiệu lực từ ngày 07/09/2022.
