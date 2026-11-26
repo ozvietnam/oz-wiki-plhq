@@ -1,6 +1,6 @@
 # Báo cáo điểm mù — 2026-11-26
 
-Tổng 3036 điểm: **8 cao**, 8 vừa, 3020 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
+Tổng 3032 điểm: **8 cao**, 8 vừa, 3016 thấp. Sinh bởi `node tools/diem-mu.mjs` (không dùng AI).
 
 Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điểm mù trong mô tả.
 
@@ -17,8 +17,8 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 | Hiệu lực chưa đối chiếu nguồn A | Thấp | 20 | `hieu-luc` |
 | Biểu thuế Tổng cục còn coi là hiện hành nhưng sổ ghi hết/tạm ngưng — cần văn bản thay | Thấp | 18 | `hieu-luc` |
 | Chưa có nguồn chính thống | Thấp | 15 | `truy-vet-nguon` |
-| Chưa có toàn văn | Thấp | 7 | `nap-lam-sach` |
 | HS_API đã chặn săn — chờ nguồn A / số hiệu đúng (không săn lặp) | Thấp | 4 | `hieu-luc` |
+| Chưa có toàn văn | Thấp | 3 | `nap-lam-sach` |
 
 ## Sắp hết hiệu lực (≤60 ngày) (8)
 
@@ -266,19 +266,15 @@ Nhận một dòng: mở issue theo mẫu "Điểm mù" hoặc PR ghi mã điể
 - [ ] **5133/BCT-HC: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 - [ ] **9981/QĐ-BCA: chưa có nguồn chính thống** — Tìm trang văn bản trên congbao.chinhphu.vn / vanban.chinhphu.vn / vbpl.vn, thêm vào nguon, ghi truy_cap.
 
-## Chưa có toàn văn (7)
-
-- [ ] **2017/QĐ-BTC: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "2017/QĐ-BTC" --ghi
-- [ ] **45/2026/TT-BYT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "45/2026/TT-BYT" --ghi
-- [ ] **4502/QĐ-BKHCN: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "4502/QĐ-BKHCN" --ghi
-- [ ] **48/2026/VBHN-BCT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "48/2026/VBHN-BCT" --ghi
-- [ ] **4814/QĐ-BCA: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "4814/QĐ-BCA" --ghi
-- [ ] **63/2026/TT-BCT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "63/2026/TT-BCT" --ghi
-- [ ] **85/2021/TT-BTC: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "85/2021/TT-BTC" --ghi
-
 ## HS_API đã chặn săn — chờ nguồn A / số hiệu đúng (không săn lặp) (4)
 
 - [ ] **Chờ mở chặn 6266/QĐ-BCA (THIEU_BAI_TUONG_MINH) — 19 mã HS** — Đã ghi xac_minh.chan: THIEU_BAI_TUONG_MINH (2026-11-26). Việc tiếp: Đã có PDF bậc A của 6266/QĐ-BCA và 4814/QĐ-BCA; cổng vanban.bocongan.gov.vn để trống trạng thái 6266 và thiếu PDF bậc A của 8378/QĐ-BCA để xác nhận tường minh Điều 2 thay thế 6266.. Không săn lại cùng URL chết — chạy node tools/san-hieu-luc.mjs để xem hàng đợi còn làm được.
 - [ ] **Chờ mở chặn 2284/QĐ-BKHCN (THIEU_PDF_A) — 19 mã HS** — Đã ghi xac_minh.chan: THIEU_PDF_A (2026-11-26). Việc tiếp: Đã có bản đánh máy lại trên vntr.moit.gov.vn; đã rà soát lại ngày 26-11-2026 trên mst.gov.vn, vbpl.vn, congbao.chinhphu.vn, vanban.chinhphu.vn (chưa đăng tải) và most.gov.vn (timeout). Chờ bản gốc ký số của BKHCN và nguồn A xác nhận tình trạng hiệu lực (danh mục nhóm 2 đã được TT 03/2024/TT-BKHCN cập nhật).. Không săn lại cùng URL chết — chạy node tools/san-hieu-luc.mjs để xem hàng đợi còn làm được.
 - [ ] **Chờ mở chặn 9981/QĐ-BCA (THIEU_PDF_A) — 12 mã HS** — Đã ghi xac_minh.chan: THIEU_PDF_A (2026-11-26). Việc tiếp: Đã rà soát lại ngày 26-11-2026 trên vanban.bocongan.gov.vn (API law-document/directive-document), vbpl.vn, congbao.chinhphu.vn và vanban.chinhphu.vn: đều không công bố QĐ 9981/QĐ-BCA; link customs cũ đã 404. Giữ nguyên tình trạng CHUA_XAC_MINH chờ bản gốc bậc A (không tự chốt từ nguồn thứ cấp hoặc TT 125/2026/TT-BCA).. Không săn lại cùng URL chết — chạy node tools/san-hieu-luc.mjs để xem hàng đợi còn làm được.
 - [ ] **Chờ mở chặn 45/2024/TT-BCT (SO_HIEU_LECH) — 1 mã HS** — Đã ghi xac_minh.chan: SO_HIEU_LECH (2026-10-04). Việc tiếp: Theo dõi sửa data/tax.json (mã 26140010) và data/legal-docs.json bên hs-code-api từ 45/2024/TT-BCT → 45/2023/TT-BCT tại https://github.com/ozvietnam/hs-code-api/issues/1987 (Công báo không có 45/2024/TT-BCT; văn bản đúng ngày 2023-12-29 là 45/2023/TT-BCT).. Không săn lại cùng URL chết — chạy node tools/san-hieu-luc.mjs để xem hàng đợi còn làm được.
+
+## Chưa có toàn văn (3)
+
+- [ ] **2017/QĐ-BTC: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "2017/QĐ-BTC" --ghi
+- [ ] **63/2026/TT-BCT: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "63/2026/TT-BCT" --ghi
+- [ ] **85/2021/TT-BTC: chưa có toàn văn trong raw/** — node tools/nap.mjs <url PDF/HTML nguồn A> --so-hieu "85/2021/TT-BTC" --ghi
