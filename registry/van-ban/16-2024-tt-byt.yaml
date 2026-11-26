@@ -42,6 +42,7 @@ xac_minh:
 ghi_chu: Nhập từ hs-code-api data/legal-docs.json (17 mã HS). PDF datafiles là ảnh ký số — điều khoản đọc bằng OCR.
 danh_muc_hs:
   tep: danh-muc/16-2024-tt-byt.csv
+  phien_ban_ahtn: AHTN_2022
   nguon: https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/10/16-byt.pdf
   trich_boi: legal-customs@ozvietnam
   ngay: '2026-10-12'

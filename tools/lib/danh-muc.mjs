@@ -295,7 +295,7 @@ export function dungChiMuc(so, root = ROOT, today) {
         hieu_luc_tu: d.hieu_luc_tu || null,
         het_hieu_luc_tu: d.het_hieu_luc_tu || null,
         hieu_luc_da_doi_chieu: d.xac_minh?.hieu_luc_da_doi_chieu === true,
-        bang: { tep: it.tep, nguon: d.danh_muc_hs.nguon || null, trich_boi: d.danh_muc_hs.trich_boi || null, ngay: d.danh_muc_hs.ngay || null, da_doi_chieu: d.danh_muc_hs.da_doi_chieu === true },
+        bang: { tep: it.tep, nguon: d.danh_muc_hs.nguon || null, trich_boi: d.danh_muc_hs.trich_boi || null, ngay: d.danh_muc_hs.ngay || null, da_doi_chieu: d.danh_muc_hs.da_doi_chieu === true, phien_ban_ahtn: d.danh_muc_hs.phien_ban_ahtn || null },
         dong: it.dong.map(({ _dong, ...o }) => ({
           ...Object.fromEntries(Object.entries(o).filter(([, v]) => v !== '')),
           ...(o.ma_hs ? { nut_bieu: nutBieuHs(o.ma_hs) } : {}),
@@ -329,6 +329,7 @@ export function dungChiMucTheoMa(chiMuc, { bt = null, tienLe8 = null, tienLe4 = 
       const canh = {
         so_hieu: vb.so_hieu, slug: vb.slug, ten: vb.ten, tinh_trang: vb.tinh_trang,
         hieu_luc_tu: vb.hieu_luc_tu, het_hieu_luc_tu: vb.het_hieu_luc_tu, hieu_luc_da_doi_chieu: vb.hieu_luc_da_doi_chieu,
+        phien_ban_ahtn: vb.bang?.phien_ban_ahtn || null,
         loai_tac_dong: d.loai_tac_dong, muc_rui_ro: d.muc_rui_ro || null, dieu_kien: d.dieu_kien || null,
         nhom: d.nhom || null, phu_luc: d.phu_luc || null,
         nut_bieu: nutBieuHs(d.ma_hs),

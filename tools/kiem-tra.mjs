@@ -18,6 +18,7 @@ const TRUONG = new Set(['so_hieu', 'loai', 'ten', 'co_quan', 'ngay_ban_hanh', 'h
   'loai_phan_loai', 'loai_phan_loai_can_cu', 'loai_phan_loai_ngay']);
 const LOAI_PHAN_LOAI = ['XAC_DINH_TRUOC', 'KIEM_TRA_XAC_DINH_LAI', 'DINH_CHINH', 'CHUA_XAC_DINH'];
 const LOAI_CAP_LUAT = new Set(['HIEN_PHAP', 'LUAT', 'NGHI_QUYET']);
+export const PHIEN_BAN_AHTN = new Set(['AHTN_2017', 'AHTN_2022', 'AHTN_2028']);
 
 export function kiemTra(so, opts = {}) {
   const { today = homNay(), root = ROOT } = opts;
@@ -204,6 +205,9 @@ export function kiemTra(so, opts = {}) {
     if (dm.nguon != null && !/^https?:\/\//.test(String(dm.nguon))) L(d._file, 'danh_muc_hs.nguon phải là URL http(s) của bản có phụ lục');
     if (dm.ngay != null && !NGAY.test(String(dm.ngay))) L(d._file, 'danh_muc_hs.ngay phải dạng YYYY-MM-DD');
     if (dm.da_doi_chieu === true && !dm.nguon) L(d._file, 'danh_muc_hs.da_doi_chieu = true cần nguon (bản có phụ lục đã mở)');
+    if (dm.phien_ban_ahtn != null && (typeof dm.phien_ban_ahtn !== 'string' || !PHIEN_BAN_AHTN.has(dm.phien_ban_ahtn))) {
+      L(d._file, `danh_muc_hs.phien_ban_ahtn "${dm.phien_ban_ahtn}" không hợp lệ (AHTN_2017, AHTN_2022, AHTN_2028)`);
+    }
   }
   for (const it of napDanhMuc(so, root)) for (const msg of kiemDinhDang(it)) L(it.vanBan._file, msg);
 
