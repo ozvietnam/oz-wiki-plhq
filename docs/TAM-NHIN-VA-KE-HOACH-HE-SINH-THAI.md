@@ -122,7 +122,27 @@ Các bước triển khai đi từ chắc lõi dữ liệu đến mở rộng li
 
 ---
 
-## Phần 5 — Kỷ luật & Cổng kiểm giữ sạch hệ sinh thái
+## Phần 5 — Trạng thái thực thi Làn sóng 30–33 & Kết quả đo lường
+
+> **Mẫu tích hợp thực chiến (`1.7.0` / `lop-kho@1`):** Xem hướng dẫn copy-paste cho `hs-code-api/scripts/sync-plhq.mjs`, `ozplugin` và các repo XNK mới tại **[docs/mau-tich-hop-he-sinh-thai.md](mau-tich-hop-he-sinh-thai.md)**.
+
+| Làn sóng | PR / Issue tham chiếu | Trạng thái | Kết quả triển khai cốt lõi |
+|---|---|---|---|
+| **Wave 30** | PR `#770` | **Đã hoàn tất** | Nâng `LUOC_DO_PHIEN_BAN = "1.7.0"` (giữ major `1.x`), gắn `id` chuẩn (`vb:<slug>`, `vb:<slug>:d:...`, `cas:...`), vân tay `van` (SHA-256 64-hex), `nut_bieu` (`bieu:<ma>`), nhãn `lop_du_lieu` & `lop_du_lieu_khoi` theo `lop-kho@1` (tách `tien_le_tb_tchq` → `TIEN_LE`, `tom_tat_nhap` → `BO_TRO`), và xuất `dist/manifest.json` kèm kiểm thử `test-van-tay-manifest.mjs`. |
+| **Wave 31** | PR `#772` | **Đã hoàn tất** | Nâng cấp `plhq_chinh_sach_theo_hs` thuần dữ liệu: trả `nut_bieu`, `nhom_theo_trang_thai` (`dang_ap_dung`, `cat_giam`, `het_hieu_luc_hoac_sap_co_hieu_luc`), cờ `can_kiem_cas` + `ly_do_kiem_cas`, liên kết `dieu_khoan_lien_quan[]` (`NGUYEN_VAN_NGUON_A` + `van`), cập nhật giao thức 3 bước trong `plhq://huong-dan/quy-trinh-agent` và cờ `1.7.0` trong `plhq://meta/luoc-do`. |
+| **Wave 32** | PR `#771`<br/>Issue `hs-code-api#1987` | **Đã hoàn tất** | Gắn `phien_ban_ahtn` (`AHTN_2017 \| AHTN_2022 \| AHTN_2028`) cho **43/43** văn bản có `danh_muc_hs`, thêm cổng kiểm `PHIEN_BAN_AHTN` & `DANH_MUC_THIEU_PHIEN_BAN_AHTN`, gắn ngữ cảnh `phien_ban_ahtn` vào `HS_KHONG_TON_TAI` sẵn sàng HS 2028, và mở theo dõi sửa lệch `45/2024/TT-BCT` → `45/2023/TT-BCT` (mã `26140010`) tại `hs-code-api#1987` (`xac_minh.chan.ma: SO_HIEU_LECH`). |
+| **Wave 33** | PR hiện tại (`docs/w33-ecosystem-blueprint-sync`) | **Đang thực thi** | Đóng gói bản thiết kế mẫu tích hợp hệ sinh thái (`docs/mau-tich-hop-he-sinh-thai.md`) cho `hs-code-api/scripts/sync-plhq.mjs` & repo XNK mới; đồng bộ 100% tài liệu `1.7.0`, MCP, lược đồ và sơ đồ kiến trúc. |
+
+### Chỉ số đo lường sau Wave 31 + 32 (tại nhánh `main` `9c961d6`)
+
+- **Quy mô gói `dist/` (`1.7.0` · `lop-kho@1`):** `3.277` văn bản trong `dist/registry.json`; `43` bảng danh mục HS (`14.833` dòng → `5.597` nhóm mã, `11.056` cạnh, `136` nhóm ngoài biểu thuế, `136` ánh xạ AHTN cũ); `512` VB nguồn A / `12.133` điều khoản và `88` VB tóm tắt nháp / `3.684` mục (`0` dòng rác); `644` trang wiki / `5.674` đoạn; `1.258` mã CAS (+ `14` dòng không CAS); `14` quy tắc mô tả / `25` viết tắt; **8 tệp JSON** + `dist/manifest.json`.
+- **`npm run eval:retrieval`:** `hitAny` **`60/60 (100.0%)`**, `hitAll` **`60/60 (100.0%)`**, `hitTop3` **`60/60 (100.0%)`**, `hitTop1` **`60/60 (100.0%)`**, `expiredTop1` **`0/60`**, `soHieuPinRate` **`5/5`**, `abbrQueriesRate` **`5/5`**, `outOfScopeFallbackRate` **`2/2`**.
+- **`npm run eval:holdout -- --strict`:** **`46/48 (95.8%)`** (`nghiep_vu_moi`: `10/10`, `bay_van_ban_cu`: `7/8`, `sua_doi_cap_dieu`: `8/8`, `cau_ghep_da_y`: `6/6`, `ranh_gioi_hs_api`: `6/6`, `ngoai_pham_vi_oos`: `9/10`).
+- **`npm run eval:qa`:** `DAT_NGUON_A` **`58/60 (96.7%)`**, `MOT_PHAN` **`2/60 (3.3%)`**, `CHUA_PHU` **`0/60 (0%)`**, tổng đã phủ tối thiểu **`60/60 (100%)`**.
+
+---
+
+## Phần 6 — Kỷ luật & Cổng kiểm giữ sạch hệ sinh thái
 
 Mỗi Wave nâng cấp chỉ được coi là đạt khi qua đủ 4 cổng bắt buộc của `oz-wiki-plhq`:
 
