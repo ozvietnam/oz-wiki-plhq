@@ -41,3 +41,11 @@ het_hieu_luc_tu: '2030-12-28'
 toan_van:
   - raw/download/pvtm.gov.vn/3765-qd-bct.pdf
   - raw/ocr/3765-qd-bct-2025.ocr.txt
+danh_muc_hs:
+  tep: danh-muc/3765-qd-bct-2025.csv
+  phien_ban_ahtn: AHTN_2022
+  nguon: https://pvtm.gov.vn/data/00195410-a87c-4a80-989d-83a83a4e020d/userfiles/files/12_%20QD%203765%20gia%20han%20ap%20dung%20bien%20phap%20CBPG%20thep%20can%20nguoi.pdf
+  trich_boi: bee3-w37@ozvietnam
+  ngay: '2026-11-26'
+  da_doi_chieu: true
+  ghi_chu: "Điều 1 (trang 2) và Mục 1 Thông báo kèm theo (trang 3): đúng 20 mã HS 8 số thép các-bon cán nguội thuộc diện áp thuế (không đưa 9 mã HS thép không gỉ cán nguội 7219.32.00..7220.90.90 ở chú thích chân trang 3 vốn thuộc diện loại trừ)."

@@ -10,6 +10,7 @@ import { napDanhMuc, kiemDinhDang, kiemDanhMucCas, docCsv, docAnhXaAhtn, kiemAnh
 import { docChinhSachMoTa, kiemChinhSachMoTa } from './lib/chinh-sach-mo-ta.mjs';
 import { kiemTraSuaDoiDieu } from './lib/sua-doi-dieu.mjs';
 import { docXuatXuFta, kiemTraXuatXuFta } from './lib/xuat-xu-fta.mjs';
+import { docPhongVeThuongMai, kiemTraPhongVeThuongMai } from './lib/phong-ve-thuong-mai.mjs';
 
 const NGAY = /^\d{4}-\d{2}-\d{2}$/;
 const TRUONG = new Set(['so_hieu', 'loai', 'ten', 'co_quan', 'ngay_ban_hanh', 'hieu_luc_tu', 'het_hieu_luc_tu',
@@ -27,6 +28,7 @@ export function kiemTra(so, opts = {}) {
   const checkAnhXaAhtn = opts.kiemAnhXaAhtn ?? opts.kiemAnhXa ?? (opts.root !== undefined);
   const checkSuaDoiDieu = opts.kiemSuaDoiDieu ?? (opts.root !== undefined);
   const checkFta = opts.kiemFta ?? opts.kiemXuatXuFta ?? (opts.root !== undefined);
+  const checkPvtm = opts.kiemPvtm ?? opts.kiemPhongVeThuongMai ?? (opts.root !== undefined);
   const loi = [];
   const canhBao = [];
   const L = (file, msg) => loi.push({ file, msg });
@@ -279,6 +281,18 @@ export function kiemTra(so, opts = {}) {
     }
   }
 
+  if (checkPvtm) {
+    const tepPvtm = 'registry/phong-ve-thuong-mai.yaml';
+    if (existsSync(join(root, tepPvtm))) {
+      try {
+        const pvtmDoc = docPhongVeThuongMai(root);
+        for (const msg of kiemTraPhongVeThuongMai(pvtmDoc, so)) L(tepPvtm, msg);
+      } catch (e) {
+        L(tepPvtm, `không đọc được: ${e.message.split('\n')[0]}`);
+      }
+    }
+  }
+
   // Chu trình thay thế (A thay B, B thay A)
   const { nguoc } = dungDoThi(so);
   for (const d of so.vanBan) {
@@ -292,7 +306,7 @@ export function kiemTra(so, opts = {}) {
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(resolve(process.argv[1])).href) {
-  const r = kiemTra(napSo(), { root: ROOT, kiemChinhSachMoTa: true, kiemAnhXaAhtn: true, kiemSuaDoiDieu: true, kiemFta: true });
+  const r = kiemTra(napSo(), { root: ROOT, kiemChinhSachMoTa: true, kiemAnhXaAhtn: true, kiemSuaDoiDieu: true, kiemFta: true, kiemPvtm: true });
   if (process.argv.includes('--json')) console.log(JSON.stringify(r, null, 2));
   else {
     for (const w of r.canhBao) console.log(`CẢNH BÁO ${w.file}: ${w.msg}`);

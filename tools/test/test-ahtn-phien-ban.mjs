@@ -146,8 +146,8 @@ for (const f of vbFiles) {
 const dmReal = timDiemMu(napSo(ROOT), { root: ROOT });
 const thieuReal = dmReal.filter((d) => d.ma === 'DANH_MUC_THIEU_PHIEN_BAN_AHTN');
 
-t('kho thật: 43/43 tệp danh_muc_hs khai báo phien_ban_ahtn hợp lệ và 0 điểm mù DANH_MUC_THIEU_PHIEN_BAN_AHTN',
-  dmDocs.length === 43
+t(`kho thật: ${dmDocs.length}/${dmDocs.length} tệp danh_muc_hs khai báo phien_ban_ahtn hợp lệ và 0 điểm mù DANH_MUC_THIEU_PHIEN_BAN_AHTN`,
+  dmDocs.length >= 59
   && dmDocs.every((x) => typeof x.pb === 'string' && PHIEN_BAN_AHTN.has(x.pb))
   && thieuReal.length === 0,
   JSON.stringify({ tong: dmDocs.length, sai: dmDocs.filter((x) => !PHIEN_BAN_AHTN.has(x.pb)), thieuReal }));
