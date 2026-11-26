@@ -4,9 +4,9 @@ Kho mở, miễn phí, cho cộng đồng làm xuất nhập khẩu: **văn bả
 
 > ⚠️ Đây là tài liệu tham khảo do cộng đồng tổng hợp, **không phải tư vấn pháp lý** và không thay thế văn bản gốc. Luôn mở nguồn bậc A (Công báo, vanban.chinhphu.vn, vbpl.vn) trước khi khai báo. Mỗi văn bản trong sổ ghi rõ mức đã xác minh.
 >
-> 🧭 **Kiến trúc & ranh giới hệ thống (0% trùng lặp với `hs-code-api`):** Xem **[docs/SO-DO-HE-THONG.md](docs/SO-DO-HE-THONG.md)** để nắm rõ phân vai tuyệt đối giữa `oz-wiki-plhq` ↔ `hs-code-api` ↔ Cổng MCP (`ozplugin`), dòng chảy gói dữ liệu máy `1.6.0` (8 tệp JSON, kèm đồ thị sửa đổi cấp Điều khoản `data/sua-doi-dieu/`), hiệu lực tại ngày (`--tai-ngay`), đánh giá truy hồi + holdout (`eval:retrieval` 60 câu, `eval:holdout` 48 câu), và cổng tra cứu web công khai V2 trên GitHub Pages.
+> 🧭 **Kiến trúc & ranh giới hệ thống (0% trùng lặp với `hs-code-api`):** Xem **[docs/SO-DO-HE-THONG.md](docs/SO-DO-HE-THONG.md)** để nắm rõ phân vai tuyệt đối giữa `oz-wiki-plhq` ↔ `hs-code-api` ↔ Cổng MCP (`ozplugin`), dòng chảy gói dữ liệu máy `1.7.0` (`8` tệp JSON + `dist/manifest.json` chuẩn `lop-kho@1`, kèm đồ thị sửa đổi cấp Điều khoản `data/sua-doi-dieu/`), hiệu lực tại ngày (`--tai-ngay`), đánh giá truy hồi + holdout (`eval:retrieval` 60 câu, `eval:holdout` 48 câu), và cổng tra cứu web công khai V2 trên GitHub Pages.
 >
-> 🌐 **Tầm nhìn & Sứ mệnh chung chuỗi dự án XNK OZ:** Xem **[docs/TAM-NHIN-VA-KE-HOACH-HE-SINH-THAI.md](docs/TAM-NHIN-VA-KE-HOACH-HE-SINH-THAI.md)** (Wave 30–33).
+> 🌐 **Tầm nhìn & Mẫu tích hợp Hệ sinh thái XNK OZ:** Xem **[docs/TAM-NHIN-VA-KE-HOACH-HE-SINH-THAI.md](docs/TAM-NHIN-VA-KE-HOACH-HE-SINH-THAI.md)** (Wave 30–33) và **[docs/mau-tich-hop-he-sinh-thai.md](docs/mau-tich-hop-he-sinh-thai.md)** (mẫu tích hợp `1.7.0` / `lop-kho@1` cho `sync-plhq.mjs` & các repo XNK mới).
 
 ## Tầm nhìn & Sứ mệnh trong chuỗi dự án XNK OZ (`oz-wiki-plhq` ↔ `hs-code-api` ↔ `ozplugin`)
 
@@ -33,7 +33,7 @@ Chuỗi dự án XNK của OZ vận hành như **một khối sự thật liên 
 | **Wiki** | [`wiki/`](wiki/) ([mục lục](wiki/index.md)) | Tóm tắt, khái niệm, tổng hợp có dẫn nguồn — dựng bằng [LuminaWiki](https://github.com/tronghieu/lumina-wiki) |
 | **Đồ thị sửa đổi cấp Điều** | [`data/sua-doi-dieu/`](data/sua-doi-dieu/) (`*.json`) | Lưu **1.243+** tác động `SUA_DOI` / `BO_SUNG` / `BAI_BO` / `TAM_NGUNG` tới từng Điều/Khoản đích (vd `38/2015/TT-BTC` bị `39/2018`, `121/2025`, `86/2026` sửa/bãi), biên dịch thành `trang_thai_dieu` & `lich_su_tac_dong` trong `dist/dieu-khoan.json` (`1.6.0`) |
 | **Bộ đánh giá hỏi đáp, truy hồi & holdout** | [`eval/cau-hoi-nghiep-vu.yaml`](eval/cau-hoi-nghiep-vu.yaml) · [`eval/holdout-thuc-chien.yaml`](eval/holdout-thuc-chien.yaml) | Bộ **60 câu** (`eval:qa`, `eval:retrieval` Okapi BM25 + 2 tuyến + cổng OOS) và bộ **48 ca holdout mù** (`eval:holdout --strict`) |
-| **Dữ liệu cho máy (`1.6.0`)** | `dist/` (`npm run dung`, xem [tích hợp](docs/tich-hop.md) & [workflow Release](.github/workflows/bao-hs-code-api.yml)) | Gói **8 tệp JSON** (`registry.json`, `hs-index.json`, `hs-index-theo-ma.json` kèm `anh_xa_ahtn_cu`, `wiki-index.json`, `wiki-chunks.json`, `dieu-khoan.json`, `cas-index.json`, `chinh-sach-mo-ta.json`) + `SHA256SUMS` cho [hs-code-api](https://github.com/ozvietnam/hs-code-api) và Cổng MCP `ozplugin` |
+| **Dữ liệu cho máy (`1.7.0`)** | `dist/` (`npm run dung`, xem [tích hợp](docs/tich-hop.md), [mẫu hệ sinh thái](docs/mau-tich-hop-he-sinh-thai.md) & [workflow Release](.github/workflows/bao-hs-code-api.yml)) | Gói **8 tệp JSON** (`registry.json`, `hs-index.json`, `hs-index-theo-ma.json` kèm `anh_xa_ahtn_cu`, `wiki-index.json`, `wiki-chunks.json`, `dieu-khoan.json`, `cas-index.json`, `chinh-sach-mo-ta.json`) + `manifest.json` (`lop-kho@1`, vân tay `van`, `id` chuẩn) + `SHA256SUMS` cho [hs-code-api](https://github.com/ozvietnam/hs-code-api) và Cổng MCP `ozplugin` |
 | **Cổng tra cứu web công khai (V2)** | `site/` (`npm run dung:web`, [workflow GitHub Pages](.github/workflows/trang-web.yml)) | Cổng web tĩnh `0` CDN triển khai lên GitHub Pages với **5 thẻ** (kèm `sap-het-hieu-luc.json`, deep-link `#vb=`/`#dk=`, **bộ lọc ngày tờ khai `tai_ngay`** ở Tab 1 & Tab 3, badge `trang_thai_dieu` & lịch sử sửa đổi cấp Điều) |
 | **Cổng MCP & CLI tra cứu PLHQ** | [`docs/mcp-server.md`](docs/mcp-server.md) · `npm run mcp:server` · `npm run tra-cuu` | MCP stdio server JSON-RPC 2.0 thuần Node (`0` dependency ngoài mới, 6 tools + **3 resources** gồm `plhq://huong-dan/quy-trinh-agent`, hỗ trợ `tai_ngay`, dự phòng 3 tầng cho `ozplugin`) và CLI `--tai-ngay YYYY-MM-DD` |
 
@@ -60,7 +60,7 @@ Chuỗi dự án XNK của OZ vận hành như **một khối sự thật liên 
   - `npm run eval:holdout -- --strict` — chấm **48 ca holdout mù** thực chiến (`nghiep_vu_moi`, `bay_van_ban_cu`, `sua_doi_cap_dieu`, `cau_ghep_da_y`, `ranh_gioi_hs_api`, `ngoai_pham_vi_oos`)
   - `npm run triage:miss` — công cụ **chỉ đọc** (`phan-loai-miss`) phân loại issue `[miss]` thành 5 nhóm (`DA_CO_TRONG_SO`, `THUOC_HS_CODE_API`, `THIEU_VAN_BAN_MOI`, `THIEU_WIKI_HOAC_DIEU_KHOAN`, `KHAC_CAN_RA_SOAT`)
   - `npm run chuyen-hieu-luc -- --ngay YYYY-MM-DD [--ghi]` — công cụ rà soát & cắt chuyển `tinh_trang` theo mốc ngày hiệu lực (mặc định dry-run, khóa bảo vệ `HET_HIEU_LUC_MOT_PHAN` vào danh sách soát tay và báo trước trang wiki cần rà lại)
-  - `npm run dung && npm run dung:web` — dựng **8 tệp** `dist/*.json` (`1.6.0`) + báo cáo và dựng cổng tra cứu web tĩnh V2 (5 thẻ, `tai_ngay`, badge sửa đổi cấp Điều, tải lười `wiki-chunks.json` + chia mảnh `data/dk/*.json`) ra `site/`
+  - `npm run dung && npm run dung:web` — dựng **8 tệp** `dist/*.json` + `dist/manifest.json` (`1.7.0` / `lop-kho@1`) + báo cáo và dựng cổng tra cứu web tĩnh V2 (5 thẻ, `tai_ngay`, badge sửa đổi cấp Điều, tải lười `wiki-chunks.json` + chia mảnh `data/dk/*.json`) ra `site/`
 
 ## Ranh giới 0% trùng lặp với `hs-code-api`
 

@@ -1,14 +1,14 @@
 # Dùng sổ đăng ký và gói tri thức trong ứng dụng khác
 
-Kho này xuất bộ dữ liệu máy `dist/` (phiên bản lược đồ `1.6.0`, tương thích ngược `1.x`, dựng bằng `npm run dung`, tự cập nhật sau mỗi lần gộp PR và mỗi thứ Hai). Ứng dụng khác chỉ **đọc** các tệp này; muốn sửa dữ liệu thì mở PR vào `registry/`, `danh-muc/`, `data/sua-doi-dieu/`, `wiki/` hoặc `data/doc-hieu/` — không sửa bản chụp ở phía ứng dụng.
+Kho này xuất bộ dữ liệu máy `dist/` (phiên bản lược đồ `1.7.0`, tương thích ngược `1.x`, dựng bằng `npm run dung`, tự cập nhật sau mỗi lần gộp PR và mỗi thứ Hai). Ứng dụng khác chỉ **đọc** các tệp này; muốn sửa dữ liệu thì mở PR vào `registry/`, `danh-muc/`, `data/sua-doi-dieu/`, `wiki/` hoặc `data/doc-hieu/` — không sửa bản chụp ở phía ứng dụng.
 
-> Ranh giới dữ liệu giữa `oz-wiki-plhq`, `hs-code-api` và Cổng MCP (`ozplugin`): xem **[SO-DO-HE-THONG.md](SO-DO-HE-THONG.md)** và tầm nhìn chuỗi dự án + lộ trình chuẩn `1.6.0 → 1.7.0` (vân tay `van`, phân lớp `lop_du_lieu` theo `lop-kho@1`, `dist/manifest.json`) tại **[TAM-NHIN-VA-KE-HOACH-HE-SINH-THAI.md](TAM-NHIN-VA-KE-HOACH-HE-SINH-THAI.md)**. Kho này **không** xuất `chu-giai-chuong.json` hay `chu-giai-hs.json` ra `dist/` (GIR và chú giải HS thuộc `hs-code-api`).
+> Ranh giới dữ liệu giữa `oz-wiki-plhq`, `hs-code-api` và Cổng MCP (`ozplugin`): xem **[SO-DO-HE-THONG.md](SO-DO-HE-THONG.md)**, tầm nhìn chuỗi dự án tại **[TAM-NHIN-VA-KE-HOACH-HE-SINH-THAI.md](TAM-NHIN-VA-KE-HOACH-HE-SINH-THAI.md)** và **mẫu tích hợp copy-paste chuẩn `1.7.0` / `lop-kho@1` cho `sync-plhq.mjs` & repo XNK mới** tại **[mau-tich-hop-he-sinh-thai.md](mau-tich-hop-he-sinh-thai.md)**. Kho này **không** xuất `chu-giai-chuong.json` hay `chu-giai-hs.json` ra `dist/` (GIR và chú giải HS thuộc `hs-code-api`).
 
 URL ổn định trên nhánh `main`: `https://raw.githubusercontent.com/ozvietnam/oz-wiki-plhq/main/dist/registry.json` (tương tự cho các tệp `dist/*.json` khác — bot dựng lại ngay sau mỗi lần gộp).
 
 ## Phát hành ổn định (bản chụp gắn thẻ)
 
-Ngoài URL `main`, mỗi lần **bất kỳ** tệp nào trong gói `dist/` **đổi** so với `HEAD`, workflow `dung-lai-va-bao-hs-code-api` (`.github/workflows/bao-hs-code-api.yml`) tạo một GitHub Release gắn thẻ `dist-YYYY-MM-DD` (hậu tố `.N` nếu trùng ngày), đính kèm đủ bộ **8 tệp dữ liệu máy** (`1.6.0`, do `npm run dung` xuất đồng bộ) cùng bản băm:
+Ngoài URL `main`, mỗi lần **bất kỳ** tệp nào trong gói `dist/` **đổi** so với `HEAD`, workflow `dung-lai-va-bao-hs-code-api` (`.github/workflows/bao-hs-code-api.yml`) tạo một GitHub Release gắn thẻ `dist-YYYY-MM-DD` (hậu tố `.N` nếu trùng ngày), đính kèm đủ bộ **8 tệp dữ liệu máy** (`1.7.0`, do `npm run dung` xuất đồng bộ) cùng **`dist/manifest.json`** và bản băm:
 
 - `registry.json`
 - `hs-index.json`
@@ -18,6 +18,7 @@ Ngoài URL `main`, mỗi lần **bất kỳ** tệp nào trong gói `dist/` **đ
 - `dieu-khoan.json`
 - `cas-index.json`
 - `chinh-sach-mo-ta.json` *(Tầng 2 theo mô tả & 25 viết tắt PLHQ, dựng bởi `dungChinhSachMoTa()` trong [`tools/lib/chinh-sach-mo-ta.mjs`](../tools/lib/chinh-sach-mo-ta.mjs); bổ sung từ `1.5.0` Wave 8)*
+- `manifest.json` *(Bản kê `1.7.0`: `chuan_lop_du_lieu: "lop-kho@1"`, `bieu_thue_doi_chieu`, `sha256`, `bytes`, `lop_du_lieu` & `truong_lan` cho 8 tệp — dùng để kiểm toàn vẹn & đồng bộ gia tăng)*
 - `SHA256SUMS`
 
 Ba loại URL, hợp đồng như sau:
@@ -37,10 +38,10 @@ dẫn dữ liệu kho, kèm ngày `phien_ban` của bản đang dùng):
 
 ## Cấu trúc
 
-Tất cả **8 tệp** máy trong `dist/` (`registry.json`, `hs-index.json`, `hs-index-theo-ma.json`, `wiki-index.json`, `wiki-chunks.json`, `dieu-khoan.json`, `cas-index.json`, `chinh-sach-mo-ta.json` — đều do `tools/dung.mjs` ghi đồng bộ) mang `luoc_do_phien_ban` — số semver chung của
-**cấu trúc** (hiện tại `1.6.0` trong `tools/lib/registry.mjs`; riêng `phien_ban` là ngày dựng). Bên đọc
+Tất cả **8 tệp** máy trong `dist/` (`registry.json`, `hs-index.json`, `hs-index-theo-ma.json`, `wiki-index.json`, `wiki-chunks.json`, `dieu-khoan.json`, `cas-index.json`, `chinh-sach-mo-ta.json` — đều do `tools/dung.mjs` ghi đồng bộ cùng `dist/manifest.json`) mang `luoc_do_phien_ban` — số semver chung của
+**cấu trúc** (hiện tại `1.7.0` trong `tools/lib/registry.mjs`; riêng `phien_ban` là ngày dựng) và nhãn `lop_du_lieu` chuẩn `lop-kho@1` (`LUAT`, `BO_TRO`, `TIEN_LE`, `KY_THUAT`, `RUT_TU_LUAT`). Bên đọc
 so **major**: lệch major thì từ chối bản chụp và báo lỗi, thay vì trả sai tình trạng hiệu lực. Lịch sử
-lược đồ: [docs/luoc-do-so-dang-ky.md](luoc-do-so-dang-ky.md#lịch-sử-lược-đồ-tệp-máy).
+lược đồ: [docs/luoc-do-so-dang-ky.md](luoc-do-so-dang-ky.md#lịch-sử-lược-đồ-tệp-máy) · Mẫu tích hợp chi tiết: [docs/mau-tich-hop-he-sinh-thai.md](mau-tich-hop-he-sinh-thai.md).
 
 ```json
 {
@@ -82,6 +83,7 @@ thêm trường/giá trị mới không phá bên đọc → tăng minor, ghi v�
 | Trường | Cam kết |
 |---|---|
 | `so_hieu`, `so_hieu_khac` | Khoá tra cứu; so khớp qua `khoa()` (quy tắc 1 dưới đây) |
+| `id`, `van` *(từ `1.7.0`)* | `id: "vb:<slug>"`; `van`: vân tay SHA-256 (64 hex) trên metadata hiệu lực & `quan_he` để đồng bộ gia tăng |
 | `tinh_trang` | 6 giá trị (`docs/luoc-do-so-dang-ky.md`); bên đọc nguyên giá trị, không suy lại |
 | `hieu_luc_tu`, `het_hieu_luc_tu` | Vắng giá trị thì không suy ra gì; `hieu_luc_tu` tương lai = `CHUA_CO_HIEU_LUC` |
 | `quan_he` (chiều đi) | `thay_the`, `sua_doi`, `bai_bo`, `tam_ngung`, `huong_dan`, `hop_nhat` — giữ nguyên `pham_vi`, `tu_ngay`, `can_cu` |
@@ -90,17 +92,17 @@ thêm trường/giá trị mới không phá bên đọc → tăng minor, ghi v�
 | `xac_minh.chan` | Chỉ để hiểu vì sao chưa đối chiếu; không hiện cho người dùng cuối |
 | `nguon[].url`, `bac_nguon_cao_nhat` | Chọn nguồn bậc A làm liên kết "văn bản gốc" |
 
-`dist/hs-index.json`: danh sách theo văn bản — `so_hieu`, `tinh_trang`, `hieu_luc_tu`, `het_hieu_luc_tu`,
-`hieu_luc_da_doi_chieu`, mảng `dong` (`ma_hs`, `loai_tac_dong`, `dieu_kien`, `muc_rui_ro`, `dan_chieu`,
+`dist/hs-index.json` (`lop_du_lieu: "LUAT"`): danh sách theo văn bản — `so_hieu`, `tinh_trang`, `hieu_luc_tu`, `het_hieu_luc_tu`,
+`hieu_luc_da_doi_chieu`, `bang.phien_ban_ahtn` (`AHTN_2017 | AHTN_2022 | AHTN_2028`), mảng `dong` (`ma_hs`, `nut_bieu`, `van`, `loai_tac_dong`, `dieu_kien`, `muc_rui_ro`, `dan_chieu`,
 `trang`). Danh sách giá trị `loai_tac_dong` (12 giá trị, `tools/lib/danh-muc.mjs` `LOAI_TAC_DONG`) được giữ
 ổn định — thêm giá trị mới là minor và ghi vào lịch sử lược đồ, vì bên đọc ánh xạ sang nhãn tiếng Việt.
 
-`dist/hs-index-theo-ma.json` (từ 1.1.0): bản đảo chiều sẵn — `ma` là ánh xạ **nhóm mã HS (4/6/8 số) →
-danh sách văn bản áp** kèm `loai_tac_dong`, `muc_rui_ro`, `dieu_kien`, `tinh_trang`. Tra mã 8 số: ghép mọi
+`dist/hs-index-theo-ma.json` (từ 1.1.0; tách lớp `lop_du_lieu_khoi` từ `1.7.0`): bản đảo chiều sẵn — `ma` (`LUAT`) là ánh xạ **nhóm mã HS (4/6/8 số) →
+danh sách văn bản áp** kèm `nut_bieu` (`"bieu:<khoa_hs>"`), `van` (SHA-256), `phien_ban_ahtn`, `loai_tac_dong`, `muc_rui_ro`, `dieu_kien`, `tinh_trang`. Tra mã 8 số: ghép mọi
 khoá là tiền tố của mã (4, 6 số) và khoá trùng 8 số — ngữ nghĩa khớp tiền tố như khi tra thuận chiều;
 hướng dẫn bằng chữ nằm trong trường `cach_tra` của chính tệp.
 
-Từ **1.2.0** tệp này thêm ba khối đồng bộ quan điểm phân loại, và từ **1.5.0 (cộng thêm Wave 8)** hỗ trợ thêm trường tuỳ chọn `anh_xa_ahtn_cu` (không phá major `1.x`):
+Từ **1.2.0** tệp này thêm ba khối đồng bộ quan điểm phân loại, từ **1.5.0 (cộng thêm Wave 8)** hỗ trợ trường tuỳ chọn `anh_xa_ahtn_cu`, và từ **1.7.0** tách rõ `lop_du_lieu_khoi` (`ma: "LUAT"`, `canh_bao_ma: "KY_THUAT"`, `anh_xa_ahtn_cu: "BO_TRO"`, `tien_le_tb_tchq: "TIEN_LE"`):
 
 | Trường | Nghĩa | Bên đọc nên làm |
 |---|---|---|
@@ -109,9 +111,9 @@ Từ **1.2.0** tệp này thêm ba khối đồng bộ quan điểm phân loại
 | `tien_le_tb_tchq` | Mật độ thông báo phân loại Tổng cục: `theo_ma_8` (721 mã 8 số, customs.gov.vn) + `theo_nhom_4` (397 nhóm, tracuuhs) | Chỉ tham khảo — văn bản cá biệt bậc C; tra chi tiết `npm run tien-le` |
 | `anh_xa_ahtn_cu` *(tuỳ chọn, `1.5.0` cộng thêm)* | Gợi ý ánh xạ mã trong `canh_bao_ma` sang EN2022 từ [`registry/phien-ban-bieu-thue-mapping.yaml`](../registry/phien-ban-bieu-thue-mapping.yaml) (được `kiemAnhXaAhtn` trong `npm run kiem-tra` đối chiếu `nhu-cau/bieu-thue.json` và ghi nhận `HS_AHTN_CU_DA_ANH_XA` trong `npm run diem-mu`): `{ phien_ban_cu, phien_ban_moi, tong_duoc_anh_xa, ghi_chu, mapping: { [maCu]: { hs_moi, loai } } }` | Chỉ dùng để định vị đối chiếu sang biểu thuế EN2022; **không** tự áp mã HS thay cho kiểm tra văn bản gốc & `hs-code-api` |
 
-### Gói dữ liệu `1.6.0` phục vụ Cổng MCP hỏi đáp PLHQ (`ozplugin`)
+### Gói dữ liệu `1.7.0` phục vụ Cổng MCP hỏi đáp PLHQ (`ozplugin`) & Hệ sinh thái
 
-Từ phiên bản lược đồ `1.5.0` (nâng cấp tương thích ngược lên `1.6.0` với đồ thị sửa đổi cấp Điều khoản), bộ dữ liệu máy `dist/` do `npm run dung` xuất gồm đủ **8 tệp JSON**: 3 tệp nền (`registry.json`, `hs-index.json`, `hs-index-theo-ma.json`) và 5 tệp chuyên biệt phục vụ hỏi đáp PLHQ & Cổng MCP (`wiki-index.json`, `wiki-chunks.json`, `dieu-khoan.json`, `cas-index.json`, `chinh-sach-mo-ta.json`), tuyệt đối không xuất `chu-giai-hs.json` hay `chu-giai-chuong.json`; mọi tệp đều kèm `phien_ban`, `luoc_do_phien_ban`, `giay_phep`, `mien_tru`:
+Từ phiên bản lược đồ `1.5.0` → `1.6.0` → `1.7.0`, bộ dữ liệu máy `dist/` do `npm run dung` xuất gồm đủ **8 tệp JSON** kèm **`dist/manifest.json`**: 3 tệp nền (`registry.json`, `hs-index.json`, `hs-index-theo-ma.json`) và 5 tệp chuyên biệt phục vụ hỏi đáp PLHQ & Cổng MCP (`wiki-index.json`, `wiki-chunks.json`, `dieu-khoan.json`, `cas-index.json`, `chinh-sach-mo-ta.json`), tuyệt đối không xuất `chu-giai-hs.json` hay `chu-giai-chuong.json`; mọi tệp đều kèm `phien_ban`, `luoc_do_phien_ban`, `lop_du_lieu` (`lop-kho@1`), `giay_phep`, `mien_tru`:
 
 #### 1. `dist/wiki-index.json` & `dist/wiki-chunks.json` (chỉ mục & đoạn wiki có neo hiệu lực)
 
@@ -129,22 +131,22 @@ Sinh từ `wiki/summary/*.md`, `wiki/concepts/*.md`, `wiki/sources/*.md` (bỏ q
 
 Phân tách tuyệt đối hai tầng dữ liệu điều khoản để Cổng MCP **không trộn nháp LLM với nguyên văn đã xác minh**:
 
-- **Đầu tệp:** `phien_ban`, `luoc_do_phien_ban`, `giay_phep`, `mien_tru`, `canh_bao_tang_nhap`, `thong_ke` (`so_van_ban_nguon_a`, `so_dieu_khoan_nguon_a`, `so_van_ban_tom_tat_nhap`, `so_dieu_khoan_tom_tat_nhap`, `so_tep_doc_hieu`, `so_tep_dieu_khoan_day_du`, `so_tep_sua_doi_dieu`, `so_tac_dong_dieu`, `so_dieu_co_lich_su_sua_doi`, `so_dong_loi`, `so_dong_rac_da_loc`).
-- **Tầng 1 — `nguyen_van_nguon_a[]`** (từ `xac_minh.dieu_khoan` trong `registry/van-ban/*.yaml`, do `tools/trich-dieu-khoan.mjs` trích từ `.ocr.txt`/PDF lớp chữ/toàn văn hoặc soát tay và được `npm run kiem-tra:dieu-khoan` đối chiếu nguyên văn):
-  - Trường: `so_hieu`, `slug`, `ten`, `tinh_trang`, `hieu_luc_tu`, `het_hieu_luc_tu`, `hieu_luc_da_doi_chieu`, `nguon_a`, `tang_tin_cay: "NGUYEN_VAN_NGUON_A"`, `dieu_khoan[]` (`dieu`, `noi_dung` nguyên văn; tuỳ chọn `khoan`, `diem`, `trang_pdf`, `sha256_pdf`; từ `1.6.0` có thêm `trang_thai_dieu` & `lich_su_tac_dong[]` biên dịch từ `data/sua-doi-dieu/*.json`).
-  - **Quy tắc dùng:** **được trích dẫn trực tiếp làm căn cứ pháp lý** trong câu trả lời, kèm `nguon_a`.
-- **Tầng 2 — `tom_tat_nhap[]`** (từ `data/doc-hieu/*.dieu.jsonl` đã được `laDieuRac` / `tools/gop-doc-hieu.py` lọc dòng rác và chuẩn hoá hậu tố `-body`, `-ocr`, `-tiep`, `-toanvan` về slug văn bản):
-  - Trường: `so_hieu`, `slug`, `tinh_trang`, `hieu_luc_tu`, `het_hieu_luc_tu`, `nguon_a`, `tang_tin_cay: "TOM_TAT_NHAP"`, `da_soat: false`, `dieu_khoan[]` (`dieu`, `ten`, `tom_tat`, `nghia_vu_xnk[]`, `nguon_trich`, `da_soat: false`).
+- **Đầu tệp:** `phien_ban`, `luoc_do_phien_ban`, `lop_du_lieu: "LUAT"`, `lop_du_lieu_khoi` (`nguyen_van_nguon_a: "LUAT"`, `tom_tat_nhap: "BO_TRO"`), `giay_phep`, `mien_tru`, `canh_bao_tang_nhap`, `thong_ke` (`so_van_ban_nguon_a`, `so_dieu_khoan_nguon_a`, `so_van_ban_tom_tat_nhap`, `so_dieu_khoan_tom_tat_nhap`, `so_tep_doc_hieu`, `so_tep_dieu_khoan_day_du`, `so_tep_sua_doi_dieu`, `so_tac_dong_dieu`, `so_dieu_co_lich_su_sua_doi`, `so_dong_loi`, `so_dong_rac_da_loc`).
+- **Tầng 1 — `nguyen_van_nguon_a[]`** (`lop_du_lieu: "LUAT"`, từ `xac_minh.dieu_khoan` trong `registry/van-ban/*.yaml` + `data/dieu-khoan-day-du/*.dieu.jsonl`, được `npm run kiem-tra:dieu-khoan` đối chiếu nguyên văn):
+  - Trường: `so_hieu`, `slug`, `ten`, `tinh_trang`, `hieu_luc_tu`, `het_hieu_luc_tu`, `hieu_luc_da_doi_chieu`, `nguon_a`, `tang_tin_cay: "NGUYEN_VAN_NGUON_A"`, `lop_du_lieu: "LUAT"`, `dieu_khoan[]` (`id` chuẩn `vb:<slug>:d:<dieu>[:k:<khoan>][:dm:<diem>]`, `dieu`, `noi_dung` nguyên văn, `van` SHA-256; tuỳ chọn `khoan`, `diem`, `trang_pdf`, `sha256_pdf`; từ `1.6.0` có thêm `trang_thai_dieu` & `lich_su_tac_dong[]` biên dịch từ `data/sua-doi-dieu/*.json`).
+  - **Quy tắc dùng:** **được trích dẫn trực tiếp làm căn cứ pháp lý** trong câu trả lời, kèm `id`, `nguon_a` và `van`.
+- **Tầng 2 — `tom_tat_nhap[]`** (`lop_du_lieu: "BO_TRO"`, từ `data/doc-hieu/*.dieu.jsonl` đã được `laDieuRac` / `tools/gop-doc-hieu.py` lọc dòng rác và chuẩn hoá hậu tố `-body`, `-ocr`, `-tiep`, `-toanvan` về slug văn bản):
+  - Trường: `so_hieu`, `slug`, `tinh_trang`, `hieu_luc_tu`, `het_hieu_luc_tu`, `nguon_a`, `tang_tin_cay: "TOM_TAT_NHAP"`, `lop_du_lieu: "BO_TRO"`, `da_soat: false`, `dieu_khoan[]` (`dieu`, `ten`, `tom_tat`, `nghia_vu_xnk[]`, `nguon_trich`, `da_soat: false`).
   - **Quy tắc dùng:** **CHỈ dùng để định vị điều luật / nghĩa vụ liên quan; TUYỆT ĐỐI KHÔNG trích làm nguyên văn hay khẳng định căn cứ pháp lý.** Khi dùng phải hiện cảnh báo theo `canh_bao_tang_nhap` và dẫn link `nguon_a` để người dùng mở bản gốc.
 
 #### 3. `dist/cas-index.json` (tra cứu hóa chất theo mã CAS)
 
 Dựng từ mọi bảng `danh-muc/*-cas.csv` đã qua kiểm chuẩn 11 cột `kiemDanhMucCas` (hiện gồm `danh-muc/24-2026-nd-cp-cas.csv` của NĐ `24/2026/NĐ-CP`):
 
-- **Đầu tệp:** `phien_ban`, `luoc_do_phien_ban`, `giay_phep`, `mien_tru`, `thong_ke` (`so_tep`, `so_tep_loi`, `tong_dong`, `so_dong_co_cas`, `so_ma_cas_duy_nhat`, `so_dong_khong_co_cas`).
+- **Đầu tệp:** `phien_ban`, `luoc_do_phien_ban`, `lop_du_lieu: "LUAT"`, `giay_phep`, `mien_tru`, `thong_ke` (`so_tep`, `so_tep_loi`, `tong_dong`, `so_dong_co_cas`, `so_ma_cas_duy_nhat`, `so_dong_khong_co_cas`).
 - **Dữ liệu tra cứu:**
-  - `theo_cas`: map `<mã CAS>` → mảng các mục `{ cas, ten_chat, ma_hoa_chat, cong_thuc, phan_loai, phu_luc, muc, so_thu_tu, nhom, nguong_kg, nguon, so_hieu, slug, tinh_trang, hieu_luc_tu, het_hieu_luc_tu, hieu_luc_da_doi_chieu, nguon_a, tep }`.
-  - `khong_co_cas[]`: danh sách các dòng phụ lục không có mã CAS cố định (cấu trúc trường tương tự, `cas: null`).
+  - `theo_cas`: map `<mã CAS>` → mảng các mục `{ id, cas, ten_chat, ma_hoa_chat, cong_thuc, phan_loai, phu_luc, muc, so_thu_tu, nhom, nguong_kg, nguon, nut_bieu?, van, so_hieu, slug, tinh_trang, hieu_luc_tu, het_hieu_luc_tu, hieu_luc_da_doi_chieu, nguon_a, tep }` (`id` dạng `cas:<ma_cas>:<slug>:<idx>`).
+  - `khong_co_cas[]`: danh sách các dòng phụ lục không có mã CAS cố định (cấu trúc trường tương tự, `cas: null`, `id` dạng `cas:khong-ma:<slug>:<idx>`).
 - **Quy tắc dùng:** Một mã CAS có thể thuộc nhiều phụ lục cùng lúc (I, II, III, IV), nên cần đọc trọn mảng `theo_cas[cas]` và kèm quy tắc ngưỡng/hỗn hợp của văn bản nguồn (vd `danh-muc/24-2026-nd-cp-cas-quy-tac.md`); tìm thêm trong `khong_co_cas[]` theo tên chất khi tra nhóm chất không có mã CAS.
 
 #### 4. `dist/chinh-sach-mo-ta.json` (tệp thứ 8 — Tầng 2 theo mô tả & Từ điển viết tắt PLHQ)
@@ -167,16 +169,16 @@ Dựng từ `danh-muc/chinh-sach-mo-ta.yaml` bằng `dungChinhSachMoTa(so, root,
    được đối chiếu nguồn A — hiển thị như cảnh báo cần kiểm lại, không như kết luận.
 3. **Không tự suy hiệu lực từ ngày**: dùng `tinh_trang` + `het_hieu_luc_tu`; quan hệ có `pham_vi` là tác
    động một phần.
-4. **Tôn trọng cờ hiệu lực wiki & phân tầng điều khoản (`1.6.0`):** không kết luận từ chunk có `canh_bao_hieu_luc: true`; không trích `TOM_TAT_NHAP` như nguyên văn căn cứ pháp lý; kiểm tra `trang_thai_dieu` & `lich_su_tac_dong` khi điều khoản bị sửa/bãi bỏ; ưu tiên truyền `tai_ngay` cho tờ khai quá khứ/tương lai.
+4. **Tôn trọng cờ hiệu lực wiki, phân tầng điều khoản & `lop-kho@1` (`1.7.0`):** không kết luận từ chunk có `canh_bao_hieu_luc: true`; không trích `TOM_TAT_NHAP` (`BO_TRO`) như nguyên văn căn cứ pháp lý; không trộn `tien_le_tb_tchq` (`TIEN_LE`) vào luồng `LUAT`; kiểm tra `trang_thai_dieu` & `lich_su_tac_dong` khi điều khoản bị sửa/bãi bỏ; lưu `van` để đồng bộ gia tăng và ưu tiên truyền `tai_ngay` cho tờ khai quá khứ/tương lai.
 5. Thấy sai → mở issue mẫu "Sai hiệu lực" ở kho này.
 
 ## Ứng dụng đang dùng
 
 - **[hs-code-api](https://github.com/ozvietnam/hs-code-api)** — `scripts/sync-plhq.mjs` chụp `dist/registry.json` vào
-  `data/plhq-registry.json`; `/api/tax` trả `legalBasisRegistry` (hiệu lực từng văn bản mà cột chính sách
+  `data/plhq-registry.json` (xem mẫu nâng cấp lên `dist/manifest.json` & `1.7.0` tại [docs/mau-tich-hop-he-sinh-thai.md](mau-tich-hop-he-sinh-thai.md)); `/api/tax` trả `legalBasisRegistry` (hiệu lực từng văn bản mà cột chính sách
   của mã HS dẫn) và đưa văn bản hết hiệu lực/tạm ngưng vào `policyBasisReview`. `scripts/bench-plhq.mjs` đo
   độ phủ trên toàn biểu thuế và in danh sách văn bản cần kho này đối chiếu trước (theo số mã HS chịu ảnh hưởng).
-- **Cổng MCP `ozplugin` ("Cổng OZ") & MCP/CLI cục bộ** — tiêu thụ trọn gói `dist/` `1.6.0` (**8 tệp**) hoặc kết nối trực tiếp MCP server (`6 tools + 3 resources`, gồm `plhq://huong-dan/quy-trinh-agent`, hỗ trợ `tai_ngay`, đồ thị sửa đổi cấp Điều `trang_thai_dieu` & 2 tuyến `sap_co_hieu_luc`), phối hợp với `hs-code-api` cho phân loại HS, biểu thuế và tiền lệ (xem [docs/yeu-cau/ozplugin.md](yeu-cau/ozplugin.md), [docs/mcp-server.md](mcp-server.md) và [docs/SO-DO-HE-THONG.md](SO-DO-HE-THONG.md)). Chất lượng truy hồi sống và độ phủ được kiểm định kỳ bằng `eval:qa`, `eval:retrieval` (**60 câu**) và `eval:holdout --strict` (**48 ca holdout mù**).
+- **Cổng MCP `ozplugin` ("Cổng OZ") & MCP/CLI cục bộ** — tiêu thụ trọn gói `dist/` `1.7.0` (**8 tệp JSON** + `dist/manifest.json`) hoặc kết nối trực tiếp MCP server (`6 tools + 3 resources`, gồm `plhq://huong-dan/quy-trinh-agent`, giao thức 3 bước với `ho-so-ma@1`, hỗ trợ `tai_ngay`, `nhom_theo_trang_thai`, `can_kiem_cas`, `dieu_khoan_lien_quan`, đồ thị sửa đổi cấp Điều `trang_thai_dieu` & 2 tuyến `sap_co_hieu_luc`), phối hợp với `hs-code-api` cho phân loại HS, biểu thuế và tiền lệ (xem [docs/yeu-cau/ozplugin.md](yeu-cau/ozplugin.md), [docs/mcp-server.md](mcp-server.md) và [docs/SO-DO-HE-THONG.md](SO-DO-HE-THONG.md)). Chất lượng truy hồi sống và độ phủ được kiểm định kỳ bằng `eval:qa`, `eval:retrieval` (**60 câu**) và `eval:holdout --strict` (**48 ca holdout mù**).
 - **Cổng tra cứu web công khai V2 (`site/` trên GitHub Pages)** — dựng tĩnh `0` CDN bằng `npm run dung:web` (`.github/workflows/trang-web.yml`) với **5 tab**, **8 tệp** `site/data/*.json` + mảnh `data/dk/*.json`, hỗ trợ badge sửa đổi cấp Điều, nút nhảy `#dk=` và bộ lọc ngày tờ khai `tai_ngay` ở Tab 1 & Tab 3.
 
 ### Cầu nối tự động hai chiều
